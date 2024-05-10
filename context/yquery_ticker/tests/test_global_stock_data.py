@@ -185,6 +185,11 @@ class test_global_stock_data(unittest.TestCase):
             TestCase(price=100.0, cash_flow=-10.0, expected_result=-10),
             TestCase(price=-100.0, cash_flow=10.0, expected_result=-10),
             TestCase(price=-100.0, cash_flow=-10.0, expected_result=10),
+            TestCase(price=100.0, cash_flow=3.3333333333333335, expected_result=30.0),
+            TestCase(price=1e10, cash_flow=1e9, expected_result=10.0),
+            TestCase(price=1e-10, cash_flow=1e-10, expected_result=1.0),
+            TestCase(price=123456.789, cash_flow=0.0001, expected_result=1234567890.0),
+            TestCase(price=100.0, cash_flow=0.000001, expected_result=100000000.0)
         ]
 
         for case in test_cases:
@@ -260,6 +265,27 @@ class test_global_stock_data(unittest.TestCase):
             total_debt=-1000,
             expected=1.00
         )
+        self.assert_return_on_invested_capital(
+            financial_data=self.financial_data,
+            net_income_to_common=1000,
+            book_value=1000,
+            total_debt=-1000,
+            expected=None
+        )
+        self.assert_return_on_invested_capital(
+            financial_data=self.financial_data,
+            net_income_to_common=10,
+            book_value=33,
+            total_debt=67,
+            expected=0.1  # Test for precision with decimal results
+        )
+        self.assert_return_on_invested_capital(
+            financial_data=self.financial_data,
+            net_income_to_common=-100,
+            book_value=1000,
+            total_debt=-1000,
+            expected=None
+        )
 
     def test_calculate_return_on_investment(self):
         self.assert_return_on_investment(
@@ -311,6 +337,67 @@ class test_global_stock_data(unittest.TestCase):
                 total_other_finance_cost=0
             ),
             expected=-0.5
+        )
+        self.assert_return_on_investment(
+            financial_data=self.financial_data,
+            expenses=Expenses(
+                capital_expenditure=None,
+                interest_expense=None,
+                interest_expense_non_operating=None,
+                total_other_finance_cost=None
+            ),
+            expected=GenericError
+        )
+        self.assert_return_on_investment(
+            financial_data=self.financial_data,
+            expenses=Expenses(
+                capital_expenditure=-10,
+                interest_expense=10,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=GenericError
+        )
+        self.assert_return_on_investment(
+            financial_data=self.financial_data,
+            expenses=Expenses(
+                capital_expenditure=-10,
+                interest_expense=10,
+                interest_expense_non_operating=0,
+                total_other_finance_cost=0
+            ),
+            expected=GenericError
+        )
+        self.assert_return_on_investment(
+            financial_data=self.financial_data,
+            expenses=Expenses(
+                capital_expenditure=10,
+                interest_expense=None,
+                interest_expense_non_operating=5,
+                total_other_finance_cost=5
+            ),
+            expected=GenericError
+        )
+        self.assert_return_on_investment(
+            financial_data=self.financial_data,
+            expenses=Expenses(
+                capital_expenditure=10,
+                interest_expense=10,
+                interest_expense_non_operating=10,
+                total_other_finance_cost=10
+            ),
+            expected=0.03  # real result 0.025
+        )
+
+        self.assert_return_on_investment(
+            financial_data=self.financial_data,
+            expenses=Expenses(
+                capital_expenditure=1e9,
+                interest_expense=1e9,
+                interest_expense_non_operating=1e9,
+                total_other_finance_cost=1e9
+            ),
+            expected=0.0
         )
 
     def test_type_checking(self):
