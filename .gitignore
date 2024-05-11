@@ -5,3 +5,4 @@ TODO
 .idea/
 .DS_Store
 context/net_worth/main/net_worth.py
+.env

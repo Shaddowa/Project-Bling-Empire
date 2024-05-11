@@ -1,6 +1,8 @@
 
 import locale
 from datetime import datetime
+
+from context.net_worth.main.gocardless_requests import get_bank_account_total_balance_from_api
 from data_classes.expense import UpcomingExpense
 from data_classes.asset import TotalAssets
 from data_classes.debt import TotalDebts
@@ -15,8 +17,15 @@ from functions import (
 locale.setlocale(locale.LC_ALL, 'no_NO')
 
 
+def get_not_listed_account_sum_balance():
+    saving_account_stocks_ASK = 0
+    bsu = 0
+    swing_trading_ASK = 0
+    return saving_account_stocks_ASK + bsu + swing_trading_ASK
+
+
 TotalAssets = TotalAssets(
-    cash=0,
+    cash=get_bank_account_total_balance_from_api() + get_not_listed_account_sum_balance(),
     stocks=0,
     funds=0,
     crypto=0,
