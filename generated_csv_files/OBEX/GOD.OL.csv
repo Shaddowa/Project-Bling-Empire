@@ -5,27 +5,27 @@ Country,Norway
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.goodtech.no
-Price,10.8
+Price,13.5
 Currency,NOK
 
 REVENUE
-Total Revenue,746627968.0
-Revenue Per Share,30.09
-Revenue Growth,0.904
+Total Revenue,884300032.0
+Revenue Per Share,30.416
+Revenue Growth,0.294
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.54)"
-Net Earnings,1073000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.2, forward_eps=0.44)"
+Net Earnings,33100000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,81900000.0
-Debt to Equity,29.934
+Total Debt,71900000.0
+Debt to Equity,24.983
 
 MARGINS
-Profit Margins,-0.001
-Gross Profit Margins,0.58756
-Operating Margins,0.0069700005
+Profit Margins,0.00792
+Gross Profit Margins,0.57435
+Operating Margins,0.13633999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,29.934
-Price to Cash Flow,-5.262676765028695e-07
-Enterprise to EBITDA,17.594
-Price to Book,1.075483
-Price to Earnings,"PriceToEarnings(trailing_pe=270.0, forward_pe=20.0)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=0.54)"
-Enterprise to Revenue,0.408
+Debt to Equity,24.983
+Price to Cash Flow,2.981469189671494e-07
+Enterprise to EBITDA,11.335
+Price to Book,1.3633198
+Price to Earnings,"PriceToEarnings(trailing_pe=11.416666, forward_pe=31.136364)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.2, forward_eps=0.44)"
+Enterprise to Revenue,0.461
 
 CASH FLOW
-Free to Cash Flow,-20521876.0
-Operating to Cash Flow,40824000.0
+Free to Cash Flow,45950500.0
+Operating to Cash Flow,31900000.0
 
 PROFITABILITY
-Return on Equity,0.00416
-Return on Assets,0.01368
-Return on Invested Capital,0.013101341494949069
+Return on Equity,0.118599996
+Return on Assets,0.03151
+Return on Invested Capital,0.46036154901010845
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,2.3000000000000007
+Recommendation Key,0
+SUM ANALYST RATING SCORE,2.3000000000000007
 
 
 

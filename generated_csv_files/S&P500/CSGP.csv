@@ -5,27 +5,27 @@ Country,United States
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.costargroup.com
-Price,84.61
+Price,91.34
 Currency,USD
 
 REVENUE
-Total Revenue,2388285952.0
-Revenue Per Share,5.898
-Revenue Growth,0.122
+Total Revenue,2527000064.0
+Revenue Per Share,6.231
+Revenue Growth,0.123
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.99, forward_eps=1.32)"
-Net Earnings,402596992.0
-Earnings Growth,0.222
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=1.28)"
+Net Earnings,294300000.0
+Earnings Growth,-0.921
 
 DEBT
-Total Debt,1103539968.0
-Debt to Equity,15.305
+Total Debt,1105299968.0
+Debt to Equity,15.053
 
 MARGINS
-Profit Margins,0.16857
-Gross Profit Margins,0.80554
-Operating Margins,0.0986
+Profit Margins,0.116459996
+Gross Profit Margins,0.79679
+Operating Margins,-0.0652
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,15.305
-Price to Cash Flow,1.9929879801440406e-07
-Enterprise to EBITDA,68.527
-Price to Book,4.8157787
-Price to Earnings,"PriceToEarnings(trailing_pe=85.94949, forward_pe=64.46211)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.99, forward_eps=1.32)"
-Enterprise to Revenue,12.821
+Debt to Equity,15.053
+Price to Cash Flow,2.9595969574236883e-06
+Enterprise to EBITDA,116.303
+Price to Book,5.0089164
+Price to Earnings,"PriceToEarnings(trailing_pe=124.83333, forward_pe=70.21875)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=1.28)"
+Enterprise to Revenue,13.002
 
 CASH FLOW
-Free to Cash Flow,426946880.0
-Operating to Cash Flow,526016000.0
+Free to Cash Flow,30369000.0
+Operating to Cash Flow,505900000.0
 
 PROFITABILITY
-Return on Equity,0.05786
-Return on Assets,0.025039999
-Return on Invested Capital,0.36482320280939645
-Return on Investment,-0.018680001299165288
+Return on Equity,0.041139998
+Return on Assets,0.01191
+Return on Invested Capital,0.266262556539027
+Return on Investment,-0.004806467417932386
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,21.120000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,22.120000000000005
 
 
 

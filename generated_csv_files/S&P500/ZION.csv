@@ -9,30 +9,30 @@ Price,44.29
 Currency,USD
 
 REVENUE
-Total Revenue,3081999872.0
-Revenue Per Share,20.822
-Revenue Growth,-0.119
+Total Revenue,2918000128.0
+Revenue Per Share,19.772
+Revenue Growth,-0.082
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.35, forward_eps=4.58)"
-Net Earnings,801000000.0
-Earnings Growth,-0.575
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.98, forward_eps=4.64)"
+Net Earnings,587000000.0
+Earnings Growth,-0.278
 
 DEBT
-Total Debt,6505999872.0
+Total Debt,6019999744.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.2719
+Profit Margins,0.21556
 Gross Profit Margins,0.0
-Operating Margins,0.2052
+Operating Margins,0.32509997
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.64
-Dividend Yield,0.0373
-Dividend Payout Ratio,0.377
-Five Year Avg Dividend Yield,3.28
+Dividend Yield,0.037
+Dividend Payout Ratio,0.4121
+Five Year Avg Dividend Yield,3.39
 Trailing Annual Dividend Rate,1.64
 Trailing Annual Dividend Yield,0.037028674
 
@@ -40,28 +40,33 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.3377093
-Price to Earnings,"PriceToEarnings(trailing_pe=10.11954, forward_pe=9.611354)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.35, forward_eps=4.58)"
-Enterprise to Revenue,3.335
+Price to Book,1.214313
+Price to Earnings,"PriceToEarnings(trailing_pe=11.135678, forward_pe=9.551724)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.98, forward_eps=4.64)"
+Enterprise to Revenue,3.144
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,1624000000.0
+Operating to Cash Flow,925000000.0
 
 PROFITABILITY
-Return on Equity,0.16742
-Return on Assets,0.00954
-Return on Invested Capital,0.12311712445551441
-Return on Investment,0.007650429799426934
+Return on Equity,0.11423001
+Return on Assets,0.00716
+Return on Invested Capital,0.0975083092032008
+Return on Investment,0.0036145320197044336
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
-Payout Ratio,0.0
+Dividend Yield,1.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.032799999999999996
-SUM DIVIDEND SCORE,7.0328
+5 Year Average,0.0339
+SUM DIVIDEND SCORE,5.0339
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,5.68
+Recommendation Key,0
+SUM ANALYST RATING SCORE,5.68
 
 
 

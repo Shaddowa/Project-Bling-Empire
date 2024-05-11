@@ -2,3 +2,5 @@
 BF.B
 FOX
 NWS
+CDAY
+PEAK

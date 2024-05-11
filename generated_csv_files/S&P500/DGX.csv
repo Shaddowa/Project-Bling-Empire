@@ -5,63 +5,68 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.questdiagnostics.com
-Price,130.15
+Price,138.16
 Currency,USD
 
 REVENUE
-Total Revenue,9297000448.0
-Revenue Per Share,82.824
-Revenue Growth,-0.077
+Total Revenue,9287000064.0
+Revenue Per Share,83.105
+Revenue Growth,0.015
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.7, forward_eps=8.99)"
-Net Earnings,759000000.0
-Earnings Growth,-0.097
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.43, forward_eps=9.47)"
+Net Earnings,842000000.0
+Earnings Growth,-0.034
 
 DEBT
-Total Debt,4912000000.0
-Debt to Equity,75.119
+Total Debt,5352000000.0
+Debt to Equity,81.76
 
 MARGINS
-Profit Margins,0.08207
-Gross Profit Margins,0.33409
-Operating Margins,0.15381
+Profit Margins,0.0911
+Gross Profit Margins,0.33078
+Operating Margins,0.13397999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.84
-Dividend Yield,0.0218
-Dividend Payout Ratio,0.4158
-Five Year Avg Dividend Yield,1.92
-Trailing Annual Dividend Rate,2.79
-Trailing Annual Dividend Yield,0.021436805
+Dividend Rate,3.0
+Dividend Yield,0.0217
+Dividend Payout Ratio,0.48319998
+Five Year Avg Dividend Yield,1.91
+Trailing Annual Dividend Rate,2.88
+Trailing Annual Dividend Yield,0.020845396
 
 FINANCIAL RATIO
-Debt to Equity,75.119
-Price to Cash Flow,3.210830895688109e-07
-Enterprise to EBITDA,11.466
-Price to Book,2.2738206
-Price to Earnings,"PriceToEarnings(trailing_pe=19.468658, forward_pe=14.509456)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.7, forward_eps=8.99)"
-Enterprise to Revenue,2.103
+Debt to Equity,81.76
+Price to Cash Flow,1.7655612244897958e-07
+Enterprise to EBITDA,11.476
+Price to Book,2.3887758
+Price to Earnings,"PriceToEarnings(trailing_pe=18.629879, forward_pe=14.616684)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.43, forward_eps=9.47)"
+Enterprise to Revenue,2.193
 
 CASH FLOW
-Free to Cash Flow,406249984.0
-Operating to Cash Flow,1079000064.0
+Free to Cash Flow,784000000.0
+Operating to Cash Flow,1332000000.0
 
 PROFITABILITY
-Return on Equity,0.12708999
-Return on Assets,0.058930002
-Return on Invested Capital,0.15451954216934688
-Return on Investment,-0.04288135593220339
+Return on Equity,0.14145
+Return on Assets,0.06201
+Return on Invested Capital,0.15732436302012004
+Return on Investment,-0.24057142857142857
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0192
-SUM DIVIDEND SCORE,9.0192
+5 Year Average,0.0191
+SUM DIVIDEND SCORE,9.0191
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,21.580000000000013
+Recommendation Key,1
+SUM ANALYST RATING SCORE,22.580000000000013
 
 
 

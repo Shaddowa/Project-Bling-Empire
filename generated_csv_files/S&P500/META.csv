@@ -5,63 +5,68 @@ Country,United States
 Industry,Internet Content & Information
 Sector,Communication Services
 Website,https://investor.fb.com
-Price,393.18
+Price,475.42
 Currency,USD
 
 REVENUE
-Total Revenue,126956003328.0
-Revenue Per Share,48.97
-Revenue Growth,0.232
+Total Revenue,142711996416.0
+Revenue Per Share,55.671
+Revenue Growth,0.273
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.31, forward_eps=17.57)"
-Net Earnings,29734000640.0
-Earnings Growth,1.679
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.38, forward_eps=23.12)"
+Net Earnings,45758001152.0
+Earnings Growth,1.141
 
 DEBT
-Total Debt,36876001280.0
-Debt to Equity,25.81
+Total Debt,37632999424.0
+Debt to Equity,25.168
 
 MARGINS
-Profit Margins,0.23421
-Gross Profit Margins,0.80114996
-Operating Margins,0.41375
+Profit Margins,0.32062998
+Gross Profit Margins,0.81496
+Operating Margins,0.38579
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,None
-Dividend Yield,None
-Dividend Payout Ratio,0.0
+Dividend Rate,2.0
+Dividend Yield,0.0042
+Dividend Payout Ratio,0.028800001
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,0.5
+Trailing Annual Dividend Yield,0.0010517016
 
 FINANCIAL RATIO
-Debt to Equity,25.81
-Price to Cash Flow,1.3387850797641831e-08
-Enterprise to EBITDA,18.287
-Price to Book,7.092549
-Price to Earnings,"PriceToEarnings(trailing_pe=34.848804, forward_pe=22.432556)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.31, forward_eps=17.57)"
-Enterprise to Revenue,7.787
+Debt to Equity,25.168
+Price to Cash Flow,1.3554545804045828e-08
+Enterprise to EBITDA,17.348
+Price to Book,8.07954
+Price to Earnings,"PriceToEarnings(trailing_pe=27.399311, forward_pe=20.596886)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.38, forward_eps=23.12)"
+Enterprise to Revenue,8.32
 
 CASH FLOW
-Free to Cash Flow,29440124928.0
-Operating to Cash Flow,66219999232.0
+Free to Cash Flow,35132125184.0
+Operating to Cash Flow,76360998912.0
 
 PROFITABILITY
-Return on Equity,0.22275
-Return on Assets,0.13817
-Return on Invested Capital,0.8063238844532271
-Return on Investment,-0.010572840962912918
+Return on Equity,0.33361
+Return on Assets,0.17312999
+Return on Invested Capital,1.215900985323917
+Return on Investment,-0.01779982150853853
 
 DIVIDEND SCORE
-Dividend  Rate,0.0
-Dividend Yield,0.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,0.0
+SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,116.80000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,117.80000000000001
 
 
 

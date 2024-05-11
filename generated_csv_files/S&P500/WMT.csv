@@ -4,64 +4,69 @@ Company,Walmart Inc.
 Country,United States
 Industry,Discount Stores
 Sector,Consumer Defensive
-Website,https://www.stock.walmart.com
-Price,162.84
+Website,https://corporate.walmart.com
+Price,60.44
 Currency,USD
 
 REVENUE
-Total Revenue,638785028096.0
-Revenue Per Share,237.114
-Revenue Growth,0.052
+Total Revenue,648125022208.0
+Revenue Per Share,80.243
+Revenue Growth,0.057
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.01, forward_eps=7.05)"
-Net Earnings,16291999744.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.91, forward_eps=2.59)"
+Net Earnings,15511000064.0
+Earnings Growth,-0.124
 
 DEBT
-Total Debt,71979999232.0
-Debt to Equity,83.882
+Total Debt,63276998656.0
+Debt to Equity,69.865
 
 MARGINS
-Profit Margins,0.0255
-Gross Profit Margins,0.24272
-Operating Margins,0.03857
+Profit Margins,0.023929998
+Gross Profit Margins,0.24375
+Operating Margins,0.041840002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.28
-Dividend Yield,0.0139
-Dividend Payout Ratio,0.3777
-Five Year Avg Dividend Yield,1.65
-Trailing Annual Dividend Rate,2.27
-Trailing Annual Dividend Yield,0.013940064
+Dividend Rate,0.83
+Dividend Yield,0.0137
+Dividend Payout Ratio,0.39790002
+Five Year Avg Dividend Yield,1.6
+Trailing Annual Dividend Rate,0.76
+Trailing Annual Dividend Yield,0.012574454
 
 FINANCIAL RATIO
-Debt to Equity,83.882
-Price to Cash Flow,1.5797281242949837e-08
-Enterprise to EBITDA,13.498
-Price to Book,5.567531
-Price to Earnings,"PriceToEarnings(trailing_pe=27.332779, forward_pe=23.300709)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.01, forward_eps=7.05)"
-Enterprise to Revenue,0.796
+Debt to Equity,69.865
+Price to Cash Flow,6.834960512010147e-09
+Enterprise to EBITDA,14.086
+Price to Book,5.8086824
+Price to Earnings,"PriceToEarnings(trailing_pe=31.664923, forward_pe=23.351353)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.91, forward_eps=2.59)"
+Enterprise to Revenue,0.845
 
 CASH FLOW
-Free to Cash Flow,10398624768.0
-Operating to Cash Flow,32156999680.0
+Free to Cash Flow,8848624640.0
+Operating to Cash Flow,35726000128.0
 
 PROFITABILITY
-Return on Equity,0.19737
-Return on Assets,0.06442
-Return on Invested Capital,0.22634064894625502
-Return on Investment,-0.011413759103264677
+Return on Equity,0.18641001
+Return on Assets,0.06813
+Return on Invested Capital,0.24512856789829662
+Return on Investment,-0.010177821564304463
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0165
-SUM DIVIDEND SCORE,5.0165
+5 Year Average,0.016
+SUM DIVIDEND SCORE,8.016
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,14.520000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,15.520000000000003
 
 
 

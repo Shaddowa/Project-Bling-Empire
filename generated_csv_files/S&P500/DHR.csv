@@ -5,68 +5,73 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.danaher.com
-Price,227.39
+Price,251.43
 Currency,USD
 
 REVENUE
-Total Revenue,29565999104.0
-Revenue Per Share,40.292
-Revenue Growth,-0.103
+Total Revenue,23736999936.0
+Revenue Per Share,32.107
+Revenue Growth,-0.026
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=7.78)"
-Net Earnings,5873999872.0
-Earnings Growth,-0.281
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=8.67)"
+Net Earnings,4068999936.0
+Earnings Growth,-0.251
 
 DEBT
-Total Debt,23160000512.0
-Debt to Equity,44.186
+Total Debt,19263000576.0
+Debt to Equity,36.041
 
 MARGINS
-Profit Margins,0.20013
-Gross Profit Margins,0.58682
-Operating Margins,0.21024
+Profit Margins,0.18545
+Gross Profit Margins,0.58891
+Operating Margins,0.23085
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.96
-Dividend Yield,0.0041
-Dividend Payout Ratio,0.0996
+Dividend Rate,1.08
+Dividend Yield,0.0043
+Dividend Payout Ratio,0.1927
 Five Year Avg Dividend Yield,0.38
-Trailing Annual Dividend Rate,1.06
-Trailing Annual Dividend Yield,0.0046615945
+Trailing Annual Dividend Rate,1.05
+Trailing Annual Dividend Yield,0.0041761124
 
 FINANCIAL RATIO
-Debt to Equity,44.186
-Price to Cash Flow,4.484865831415931e-08
-Enterprise to EBITDA,19.743
-Price to Book,3.285114
-Price to Earnings,"PriceToEarnings(trailing_pe=29.419191, forward_pe=29.948586)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=7.78)"
-Enterprise to Revenue,6.192
+Debt to Equity,36.041
+Price to Cash Flow,5.211569396104614e-08
+Enterprise to EBITDA,26.953
+Price to Book,3.5113635
+Price to Earnings,"PriceToEarnings(trailing_pe=46.491745, forward_pe=29.224915)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=8.67)"
+Enterprise to Revenue,8.422
 
 CASH FLOW
-Free to Cash Flow,5195250176.0
-Operating to Cash Flow,8086000128.0
+Free to Cash Flow,4861875200.0
+Operating to Cash Flow,6956000256.0
 
 PROFITABILITY
-Return on Equity,0.119040005
-Return on Assets,0.0521
-Return on Invested Capital,0.2536269310947439
-Return on Investment,-0.07668407143603133
+Return on Equity,0.07755
+Return on Assets,0.03859
+Return on Invested Capital,0.21123396143314102
+Return on Investment,-0.04855608515513127
 
 DIVIDEND SCORE
-Dividend  Rate,1.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0038
-SUM DIVIDEND SCORE,2.0038
+SUM DIVIDEND SCORE,8.0038
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,43.620000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,44.620000000000005
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

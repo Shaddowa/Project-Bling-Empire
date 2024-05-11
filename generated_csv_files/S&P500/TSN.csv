@@ -5,63 +5,68 @@ Country,United States
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.tysonfoods.com
-Price,54.04
+Price,59.65
 Currency,USD
 
 REVENUE
-Total Revenue,52880998400.0
-Revenue Per Share,149.381
-Revenue Growth,-0.028
+Total Revenue,52878999552.0
+Revenue Per Share,149.376
+Revenue Growth,-0.005
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.87, forward_eps=3.38)"
-Net Earnings,-648000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.77, forward_eps=3.65)"
+Net Earnings,-615000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,10035000320.0
-Debt to Equity,54.971
+Total Debt,10960000000.0
+Debt to Equity,60.144
 
 MARGINS
-Profit Margins,-0.012250001
-Gross Profit Margins,0.050300002
-Operating Margins,-0.01169
+Profit Margins,-0.01163
+Gross Profit Margins,0.05598
+Operating Margins,0.027390001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.96
-Dividend Yield,0.0356
+Dividend Yield,0.032899998
 Dividend Payout Ratio,2.0213
-Five Year Avg Dividend Yield,2.52
-Trailing Annual Dividend Rate,1.92
-Trailing Annual Dividend Yield,0.035529237
+Five Year Avg Dividend Yield,2.61
+Trailing Annual Dividend Rate,1.94
+Trailing Annual Dividend Yield,0.03252305
 
 FINANCIAL RATIO
-Debt to Equity,54.971
-Price to Cash Flow,-2.2864864864864866e-07
-Enterprise to EBITDA,15.886
-Price to Book,1.0796113
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=16.26923)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.87, forward_eps=3.38)"
-Enterprise to Revenue,0.55
+Debt to Equity,60.144
+Price to Cash Flow,6.976608187134502e-08
+Enterprise to EBITDA,13.97
+Price to Book,1.1740278
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=16.342466)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.77, forward_eps=3.65)"
+Enterprise to Revenue,0.57
 
 CASH FLOW
-Free to Cash Flow,-240500000.0
-Operating to Cash Flow,1752000000.0
+Free to Cash Flow,855000000.0
+Operating to Cash Flow,2160000000.0
 
 PROFITABILITY
-Return on Equity,-0.0341
-Return on Assets,0.0086
-Return on Invested Capital,-0.06457398864446912
-Return on Investment,0.005272579332790887
+Return on Equity,-0.03261
+Return on Assets,0.01222
+Return on Invested Capital,-0.05611313842600398
+Return on Investment,0.009220389805097451
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0252
-SUM DIVIDEND SCORE,8.0252
+5 Year Average,0.026099999999999998
+SUM DIVIDEND SCORE,8.0261
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,12.350000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,12.350000000000001
 
 
 

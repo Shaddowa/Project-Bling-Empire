@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,ACGL
 Company,Arch Capital Group Ltd.
 Country,Bermuda
-Industry,Insurance - Diversified
+Industry,Insurance—Diversified
 Sector,Financial Services
 Website,https://www.archgroup.com
-Price,79.6
+Price,99.63
 Currency,USD
 
 REVENUE
-Total Revenue,12731807744.0
-Revenue Per Share,34.617
-Revenue Growth,0.395
+Total Revenue,14407000064.0
+Revenue Per Share,38.98
+Revenue Growth,0.244
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.81)"
-Net Earnings,2928197120.0
-Earnings Growth,97.085
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.67, forward_eps=8.84)"
+Net Earnings,4808000000.0
+Earnings Growth,0.562
 
 DEBT
-Total Debt,2726000128.0
-Debt to Equity,17.886
+Total Debt,2727000064.0
+Debt to Equity,14.088
 
 MARGINS
-Profit Margins,0.23319
-Gross Profit Margins,0.37015
-Operating Margins,0.22619
+Profit Margins,0.33650002
+Gross Profit Margins,0.38301
+Operating Margins,0.2984
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,17.886
-Price to Cash Flow,3.454701872943402e-08
-Enterprise to EBITDA,9.016
-Price to Book,2.0568929
-Price to Earnings,"PriceToEarnings(trailing_pe=10.309678, forward_pe=10.230474)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.75, forward_eps=7.81)"
-Enterprise to Revenue,2.407
+Debt to Equity,14.088
+Price to Cash Flow,5.449346405228758e-08
+Enterprise to EBITDA,9.307
+Price to Book,2.0186837
+Price to Earnings,"PriceToEarnings(trailing_pe=7.8966064, forward_pe=11.317873)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.67, forward_eps=8.84)"
+Enterprise to Revenue,2.623
 
 CASH FLOW
-Free to Cash Flow,2312790016.0
-Operating to Cash Flow,5065226752.0
+Free to Cash Flow,1836000000.0
+Operating to Cash Flow,6350000128.0
 
 PROFITABILITY
-Return on Equity,0.21974
-Return on Assets,0.04064
-Return on Invested Capital,1.0741734925823638
-Return on Investment,0.14019903859044336
+Return on Equity,0.2905
+Return on Assets,0.04355
+Return on Invested Capital,1.7631095708755964
+Return on Investment,0.22467289719626168
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,19.950000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,20.950000000000003
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Telecom Services
 Sector,Communication Services
 Website,https://corporate.comcast.com
-Price,45.27
+Price,38.54
 Currency,USD
 
 REVENUE
-Total Revenue,121571999744.0
-Revenue Per Share,29.309
-Revenue Growth,0.023
+Total Revenue,121939001344.0
+Revenue Per Share,30.036
+Revenue Growth,0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.71, forward_eps=4.71)"
-Net Earnings,15388000256.0
-Earnings Growth,0.145
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.77, forward_eps=4.51)"
+Net Earnings,15411000320.0
+Earnings Growth,0.066
 
 DEBT
-Total Debt,97090002944.0
-Debt to Equity,116.321
+Total Debt,96572997632.0
+Debt to Equity,115.945
 
 MARGINS
-Profit Margins,0.12658
-Gross Profit Margins,0.69761
-Operating Margins,0.14347
+Profit Margins,0.12638
+Gross Profit Margins,0.70001
+Operating Margins,0.19326
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.24
-Dividend Yield,0.026800001
-Dividend Payout Ratio,0.3127
-Five Year Avg Dividend Yield,2.21
-Trailing Annual Dividend Rate,1.16
-Trailing Annual Dividend Yield,0.025624033
+Dividend Yield,0.0315
+Dividend Payout Ratio,0.313
+Five Year Avg Dividend Yield,2.26
+Trailing Annual Dividend Rate,1.18
+Trailing Annual Dividend Yield,0.030617539
 
 FINANCIAL RATIO
-Debt to Equity,116.321
-Price to Cash Flow,1.9370844666564387e-09
-Enterprise to EBITDA,7.397
-Price to Book,2.2592301
-Price to Earnings,"PriceToEarnings(trailing_pe=12.469002, forward_pe=9.821655)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.71, forward_eps=4.71)"
-Enterprise to Revenue,2.291
+Debt to Equity,115.945
+Price to Cash Flow,1.709195383018158e-09
+Enterprise to EBITDA,6.519
+Price to Book,1.8739573
+Price to Earnings,"PriceToEarnings(trailing_pe=10.427056, forward_pe=8.716187)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.77, forward_eps=4.51)"
+Enterprise to Revenue,2.01
 
 CASH FLOW
-Free to Cash Flow,23881250816.0
-Operating to Cash Flow,28501000192.0
+Free to Cash Flow,22999126016.0
+Operating to Cash Flow,29120999424.0
 
 PROFITABILITY
-Return on Equity,0.18254
-Return on Assets,0.05582
-Return on Invested Capital,0.15849211851018558
-Return on Investment,-0.019738327675731145
+Return on Equity,0.18132
+Return on Assets,0.056110002
+Return on Invested Capital,0.1595787714426915
+Return on Investment,-0.021221427044891213
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.022099999999999998
-SUM DIVIDEND SCORE,8.0221
+5 Year Average,0.0226
+SUM DIVIDEND SCORE,8.0226
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,17.689999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,18.689999999999998
 
 
 

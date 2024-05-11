@@ -5,63 +5,68 @@ Country,Norway
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.sor.no
-Price,148.0
+Price,146.9
 Currency,NOK
 
 REVENUE
-Total Revenue,3491000064.0
-Revenue Per Share,84.742
-Revenue Growth,0.439
+Total Revenue,3526000128.0
+Revenue Per Share,84.55
+Revenue Growth,0.04
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.71)"
-Net Earnings,708000000.0
-Earnings Growth,0.72
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.4, forward_eps=16.9)"
+Net Earnings,684000000.0
+Earnings Growth,-0.138
 
 DEBT
-Total Debt,71738998784.0
+Total Debt,70115999744.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.51962
+Profit Margins,0.50255
 Gross Profit Margins,0.0
-Operating Margins,0.67037004
+Operating Margins,0.60317004
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.0
-Dividend Yield,0.040799998
-Dividend Payout Ratio,0.3488
+Dividend Rate,10.0
+Dividend Yield,0.0691
+Dividend Payout Ratio,0.5747
 Five Year Avg Dividend Yield,7.17
-Trailing Annual Dividend Rate,6.0
-Trailing Annual Dividend Yield,0.04054054
+Trailing Annual Dividend Rate,10.0
+Trailing Annual Dividend Yield,0.06807352
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.39737678
-Price to Earnings,"PriceToEarnings(trailing_pe=8.546512, forward_pe=8.300396)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.2, forward_eps=17.71)"
-Enterprise to Revenue,21.466
+Price to Book,0.3886881
+Price to Earnings,"PriceToEarnings(trailing_pe=8.417242, forward_pe=8.666273)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.4, forward_eps=16.9)"
+Enterprise to Revenue,19.714
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-989000000.0
+Operating to Cash Flow,-1856000000.0
 
 PROFITABILITY
-Return on Equity,0.11361
-Return on Assets,0.01174
-Return on Invested Capital,0.00986910896931929
-Return on Investment,0.0016275862068965516
+Return on Equity,0.109
+Return on Assets,0.01126
+Return on Invested Capital,0.009755262690705485
+Return on Investment,0.0012566599301855595
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.0717
-SUM DIVIDEND SCORE,7.0717
+SUM DIVIDEND SCORE,8.0717
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,28.539999999999992
+Recommendation Key,1
+SUM ANALYST RATING SCORE,29.539999999999992
 
 
 

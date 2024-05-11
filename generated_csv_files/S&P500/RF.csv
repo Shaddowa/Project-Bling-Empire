@@ -5,17 +5,17 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.regions.com
-Price,19.13
+Price,19.78
 Currency,USD
 
 REVENUE
-Total Revenue,7021000192.0
-Revenue Per Share,7.501
+Total Revenue,6800999936.0
+Revenue Per Share,7.293
 Revenue Growth,0.156
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.11, forward_eps=2.19)"
-Net Earnings,1976000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.85, forward_eps=2.2)"
+Net Earnings,1731000064.0
 Earnings Growth,None
 
 DEBT
@@ -23,45 +23,50 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.29540002
+Profit Margins,0.26908
 Gross Profit Margins,0.0
 Operating Margins,0.46976003
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.96
-Dividend Yield,0.050100002
-Dividend Payout Ratio,0.41709998
-Five Year Avg Dividend Yield,3.81
-Trailing Annual Dividend Rate,0.88
-Trailing Annual Dividend Yield,0.046001047
+Dividend Yield,0.0484
+Dividend Payout Ratio,0.4973
+Five Year Avg Dividend Yield,3.91
+Trailing Annual Dividend Rate,0.92
+Trailing Annual Dividend Yield,0.046511628
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.1220484
-Price to Earnings,"PriceToEarnings(trailing_pe=9.0758295, forward_pe=8.744292)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.11, forward_eps=2.19)"
+Price to Book,1.1819049
+Price to Earnings,"PriceToEarnings(trailing_pe=10.718919, forward_pe=9.013637)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.85, forward_eps=2.2)"
 Enterprise to Revenue,None
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,2508000000.0
 
 PROFITABILITY
-Return on Equity,0.12403
-Return on Assets,0.01349
+Return on Equity,0.10771
+Return on Assets,0.01184
 Return on Invested Capital,None
-Return on Investment,0.018891013384321222
+Return on Investment,0.01058715635474006
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0381
-SUM DIVIDEND SCORE,9.0381
+5 Year Average,0.0391
+SUM DIVIDEND SCORE,9.0391
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,5.170000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,6.170000000000002
 
 
 

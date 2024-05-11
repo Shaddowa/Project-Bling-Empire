@@ -5,63 +5,68 @@ Country,United States
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.roberthalf.com
-Price,81.13
+Price,70.15
 Currency,USD
 
 REVENUE
-Total Revenue,6646650880.0
-Revenue Per Share,62.584
-Revenue Growth,-0.147
+Total Revenue,6152118784.0
+Revenue Per Share,58.663
+Revenue Growth,-0.14
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=3.9)"
-Net Earnings,471495008.0
-Earnings Growth,-0.412
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=3.94)"
+Net Earnings,352841984.0
+Earnings Growth,-0.465
 
 DEBT
-Total Debt,215400992.0
-Debt to Equity,13.633
+Total Debt,240984992.0
+Debt to Equity,15.862
 
 MARGINS
-Profit Margins,0.070939995
-Gross Profit Margins,0.40771
-Operating Margins,0.09175
+Profit Margins,0.057350002
+Gross Profit Margins,0.39792
+Operating Margins,0.027709998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.92
-Dividend Yield,0.0235
-Dividend Payout Ratio,0.42310002
-Five Year Avg Dividend Yield,2.07
-Trailing Annual Dividend Rate,1.87
-Trailing Annual Dividend Yield,0.023049427
+Dividend Rate,2.12
+Dividend Yield,0.03
+Dividend Payout Ratio,0.5881
+Five Year Avg Dividend Yield,2.12
+Trailing Annual Dividend Rate,1.97
+Trailing Annual Dividend Yield,0.02808268
 
 FINANCIAL RATIO
-Debt to Equity,13.633
-Price to Cash Flow,1.4697056408541465e-07
-Enterprise to EBITDA,12.826
-Price to Book,5.394806
-Price to Earnings,"PriceToEarnings(trailing_pe=18.518099, forward_pe=20.987179)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.42, forward_eps=3.9)"
-Enterprise to Revenue,1.205
+Debt to Equity,15.862
+Price to Cash Flow,1.5900685665610073e-07
+Enterprise to EBITDA,16.558
+Price to Book,4.805433
+Price to Earnings,"PriceToEarnings(trailing_pe=21.122389, forward_pe=17.95939)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.35, forward_eps=3.94)"
+Enterprise to Revenue,1.138
 
 CASH FLOW
-Free to Cash Flow,556914240.0
-Operating to Cash Flow,724521984.0
+Free to Cash Flow,445012256.0
+Operating to Cash Flow,555438976.0
 
 PROFITABILITY
-Return on Equity,0.30707002
-Return on Assets,0.1204
-Return on Invested Capital,2.1889173787544376
-Return on Investment,-0.10110975467490135
+Return on Equity,0.22635001
+Return on Assets,0.07944
+Return on Invested Capital,1.4641657121957201
+Return on Investment,-0.07307486465776121
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0207
-SUM DIVIDEND SCORE,9.0207
+5 Year Average,0.0212
+SUM DIVIDEND SCORE,9.0212
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,24.239999999999995
+Recommendation Key,0
+SUM ANALYST RATING SCORE,24.239999999999995
 
 
 

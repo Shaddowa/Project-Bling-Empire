@@ -5,63 +5,68 @@ Country,Norway
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.kongsberg.com
-Price,533.5
+Price,818.5
 Currency,NOK
 
 REVENUE
-Total Revenue,38125998080.0
-Revenue Per Share,216.238
-Revenue Growth,0.288
+Total Revenue,42977001472.0
+Revenue Per Share,244.264
+Revenue Growth,0.26
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.85)"
-Net Earnings,3540000000.0
-Earnings Growth,0.193
+Earnings Per Share,"EarningsPerShare(trailing_eps=23.2, forward_eps=29.84)"
+Net Earnings,4088000000.0
+Earnings Growth,0.511
 
 DEBT
-Total Debt,6200000000.0
-Debt to Equity,40.205
+Total Debt,5240000000.0
+Debt to Equity,29.451
 
 MARGINS
-Profit Margins,0.09285
-Gross Profit Margins,0.57066
-Operating Margins,0.12718001
+Profit Margins,0.09512
+Gross Profit Margins,0.59906
+Operating Margins,0.12769
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,12.0
-Dividend Yield,0.0227
-Dividend Payout Ratio,0.59790003
-Five Year Avg Dividend Yield,1.62
-Trailing Annual Dividend Rate,3.6
-Trailing Annual Dividend Yield,0.006747891
+Dividend Rate,7.0
+Dividend Yield,0.0084
+Dividend Payout Ratio,0.5166
+Five Year Avg Dividend Yield,1.59
+Trailing Annual Dividend Rate,7.0
+Trailing Annual Dividend Yield,0.00855223
 
 FINANCIAL RATIO
-Debt to Equity,40.205
-Price to Cash Flow,-1.3212612911143546e-06
-Enterprise to EBITDA,19.066
-Price to Book,6.2461624
-Price to Earnings,"PriceToEarnings(trailing_pe=26.38404, forward_pe=22.180294)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.05, forward_eps=23.85)"
-Enterprise to Revenue,2.561
+Debt to Equity,29.451
+Price to Cash Flow,2.8285921208125813e-07
+Enterprise to EBITDA,25.232
+Price to Book,8.462329
+Price to Earnings,"PriceToEarnings(trailing_pe=35.840515, forward_pe=27.865282)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=23.2, forward_eps=29.84)"
+Enterprise to Revenue,3.384
 
 CASH FLOW
-Free to Cash Flow,-400375008.0
-Operating to Cash Flow,2332999936.0
+Free to Cash Flow,2939624960.0
+Operating to Cash Flow,6880999936.0
 
 PROFITABILITY
-Return on Equity,0.25675
-Return on Assets,0.06375
-Return on Invested Capital,0.5709677341360646
-Return on Investment,-0.025745454545454547
+Return on Equity,0.25085
+Return on Assets,0.06353
+Return on Invested Capital,0.7801526571265229
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.016200000000000003
-SUM DIVIDEND SCORE,9.0162
+5 Year Average,0.0159
+SUM DIVIDEND SCORE,5.0159
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,43.5
+Recommendation Key,0
+SUM ANALYST RATING SCORE,43.5
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.zimmerbiomet.com
-Price,121.96
+Price,121.44
 Currency,USD
 
 REVENUE
-Total Revenue,7279200256.0
-Revenue Per Share,34.791
-Revenue Growth,0.05
+Total Revenue,7452400128.0
+Revenue Per Share,35.889
+Revenue Growth,0.032
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.26, forward_eps=7.94)"
-Net Earnings,474300000.0
-Earnings Growth,-0.163
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.61, forward_eps=8.71)"
+Net Earnings,963900032.0
+Earnings Growth,-0.243
 
 DEBT
-Total Debt,5698400256.0
-Debt to Equity,45.522
+Total Debt,6010699776.0
+Debt to Equity,47.681
 
 MARGINS
-Profit Margins,0.06516
-Gross Profit Margins,0.71626997
-Operating Margins,0.17205
+Profit Margins,0.12934
+Gross Profit Margins,0.71884
+Operating Margins,0.20775999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.96
 Dividend Yield,0.007900001
-Dividend Payout Ratio,0.4248
+Dividend Payout Ratio,0.2082
 Five Year Avg Dividend Yield,0.74
 Trailing Annual Dividend Rate,0.96
-Trailing Annual Dividend Yield,0.007871433
+Trailing Annual Dividend Yield,0.007905138
 
 FINANCIAL RATIO
-Debt to Equity,45.522
-Price to Cash Flow,1.1068890430919208e-07
-Enterprise to EBITDA,13.004
-Price to Book,2.03291
-Price to Earnings,"PriceToEarnings(trailing_pe=53.845135, forward_pe=15.326197)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.26, forward_eps=7.94)"
-Enterprise to Revenue,4.237
+Debt to Equity,47.681
+Price to Cash Flow,1.1328912962271199e-07
+Enterprise to EBITDA,12.365
+Price to Book,1.9807332
+Price to Earnings,"PriceToEarnings(trailing_pe=26.314533, forward_pe=13.927669)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.61, forward_eps=8.71)"
+Enterprise to Revenue,4.104
 
 CASH FLOW
-Free to Cash Flow,1099387520.0
-Operating to Cash Flow,1237400064.0
+Free to Cash Flow,1070800000.0
+Operating to Cash Flow,1501900032.0
 
 PROFITABILITY
-Return on Equity,0.03837
-Return on Assets,0.0421
-Return on Invested Capital,0.08323388560117663
-Return on Investment,0.5329213483146067
+Return on Equity,0.07795
+Return on Assets,0.04435
+Return on Invested Capital,0.16036402716822454
+Return on Investment,0.4190869704347826
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
-Payout Ratio,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0074
-SUM DIVIDEND SCORE,8.0074
+SUM DIVIDEND SCORE,4.0074
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,38.69
+Recommendation Key,0
+SUM ANALYST RATING SCORE,38.69
 
 
 

@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,BIIB
 Company,Biogen Inc.
 Country,United States
-Industry,Drug Manufacturers - General
+Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.biogen.com
-Price,246.21
+Price,222.75
 Currency,USD
 
 REVENUE
-Total Revenue,9993299968.0
-Revenue Per Share,69.17
-Revenue Growth,0.009
+Total Revenue,9663099904.0
+Revenue Per Share,66.688
+Revenue Growth,-0.07
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=15.68)"
-Net Earnings,1461799936.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.0, forward_eps=17.4)"
+Net Earnings,1166599936.0
+Earnings Growth,0.011
 
 DEBT
-Total Debt,7715200000.0
-Debt to Equity,53.283
+Total Debt,6946599936.0
+Debt to Equity,45.662
 
 MARGINS
-Profit Margins,0.14628
-Gross Profit Margins,0.75123
-Operating Margins,0.1069
+Profit Margins,0.12073
+Gross Profit Margins,0.51344
+Operating Margins,0.27282
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,53.283
-Price to Cash Flow,1.9728633031399023e-07
-Enterprise to EBITDA,16.123
-Price to Book,2.4492533
-Price to Earnings,"PriceToEarnings(trailing_pe=24.335983, forward_pe=15.613521)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=15.68)"
-Enterprise to Revenue,4.092
+Debt to Equity,45.662
+Price to Cash Flow,2.4613162426763674e-07
+Enterprise to EBITDA,15.129
+Price to Book,2.1199214
+Price to Earnings,"PriceToEarnings(trailing_pe=27.6875, forward_pe=12.729885)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.0, forward_eps=17.4)"
+Enterprise to Revenue,3.945
 
 CASH FLOW
-Free to Cash Flow,1240937472.0
-Operating to Cash Flow,1359699968.0
+Free to Cash Flow,899924992.0
+Operating to Cash Flow,1645100032.0
 
 PROFITABILITY
-Return on Equity,0.10732
-Return on Assets,0.04859
-Return on Invested Capital,0.18947012612260664
-Return on Investment,0.11528390662460568
+Return on Equity,0.0805
+Return on Assets,0.04861
+Return on Invested Capital,0.16793826176849388
+Return on Investment,0.07963139494880546
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,128.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,129.5
 
 
 

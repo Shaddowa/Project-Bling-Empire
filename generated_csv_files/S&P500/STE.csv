@@ -5,63 +5,68 @@ Country,Ireland
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.steris.com
-Price,216.68
+Price,225.99
 Currency,USD
 
 REVENUE
-Total Revenue,5227732992.0
-Revenue Per Share,52.77
-Revenue Growth,0.118
+Total Revenue,5407384064.0
+Revenue Per Share,54.709
+Revenue Growth,0.148
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.51)"
-Net Earnings,549926016.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=10.11)"
+Net Earnings,566841024.0
+Earnings Growth,0.145
 
 DEBT
-Total Debt,3633406976.0
-Debt to Equity,58.706
+Total Debt,3509050880.0
+Debt to Equity,54.589
 
 MARGINS
-Profit Margins,0.10519
-Gross Profit Margins,0.435
-Operating Margins,0.15037
+Profit Margins,0.10483
+Gross Profit Margins,0.43642
+Operating Margins,0.15898
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.08
-Dividend Yield,0.0095999995
-Dividend Payout Ratio,0.3496
-Five Year Avg Dividend Yield,0.88
-Trailing Annual Dividend Rate,1.93
-Trailing Annual Dividend Yield,0.008907144
+Dividend Yield,0.0099
+Dividend Payout Ratio,0.348
+Five Year Avg Dividend Yield,0.87
+Trailing Annual Dividend Rate,1.98
+Trailing Annual Dividend Yield,0.00876145
 
 FINANCIAL RATIO
-Debt to Equity,58.706
-Price to Cash Flow,4.419473619728586e-07
-Enterprise to EBITDA,17.848
-Price to Book,3.4553392
-Price to Earnings,"PriceToEarnings(trailing_pe=39.217785, forward_pe=22.722397)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.51)"
-Enterprise to Revenue,4.74
+Debt to Equity,54.589
+Price to Cash Flow,4.4130270039022815e-07
+Enterprise to EBITDA,16.937
+Price to Book,3.5628695
+Price to Earnings,"PriceToEarnings(trailing_pe=40.655537, forward_pe=22.881306)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=10.11)"
+Enterprise to Revenue,4.454
 
 CASH FLOW
-Free to Cash Flow,488949632.0
-Operating to Cash Flow,848601024.0
+Free to Cash Flow,524198016.0
+Operating to Cash Flow,934265984.0
 
 PROFITABILITY
-Return on Equity,0.09172
-Return on Assets,0.04697
-Return on Invested Capital,0.15135271390382884
-Return on Investment,-0.10362862343829499
+Return on Equity,0.09106
+Return on Assets,0.04773
+Return on Invested Capital,0.16153684654231507
+Return on Investment,-0.08966166149952547
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0088
-SUM DIVIDEND SCORE,8.0088
+5 Year Average,0.0087
+SUM DIVIDEND SCORE,8.0087
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.66999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,34.66999999999999
 
 
 

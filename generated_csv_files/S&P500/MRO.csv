@@ -5,54 +5,54 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.marathonoil.com
-Price,23.13
+Price,27.19
 Currency,USD
 
 REVENUE
-Total Revenue,6454000128.0
-Revenue Per Share,10.401
-Revenue Growth,-0.12
+Total Revenue,6408999936.0
+Revenue Per Share,10.79
+Revenue Growth,-0.028
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.75, forward_eps=2.89)"
-Net Earnings,1682000000.0
-Earnings Growth,-0.385
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.42, forward_eps=3.33)"
+Net Earnings,1434000000.0
+Earnings Growth,-0.219
 
 DEBT
-Total Debt,5843999744.0
-Debt to Equity,52.058
+Total Debt,5427999744.0
+Debt to Equity,48.708
 
 MARGINS
-Profit Margins,0.26061
-Gross Profit Margins,0.77796996
-Operating Margins,0.35814998
+Profit Margins,0.22375
+Gross Profit Margins,0.75908995
+Operating Margins,0.26823
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.44
-Dividend Yield,0.019
-Dividend Payout Ratio,0.1418
-Five Year Avg Dividend Yield,1.58
-Trailing Annual Dividend Rate,0.41
-Trailing Annual Dividend Yield,0.017725898
+Dividend Yield,0.0165
+Dividend Payout Ratio,0.1736
+Five Year Avg Dividend Yield,1.61
+Trailing Annual Dividend Rate,0.43
+Trailing Annual Dividend Yield,0.015814638
 
 FINANCIAL RATIO
-Debt to Equity,52.058
-Price to Cash Flow,1.8492182171447035e-08
-Enterprise to EBITDA,4.406
-Price to Book,1.2198454
-Price to Earnings,"PriceToEarnings(trailing_pe=8.44, forward_pe=8.031141)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.75, forward_eps=2.89)"
-Enterprise to Revenue,2.982
+Debt to Equity,48.708
+Price to Cash Flow,2.063840044588259e-08
+Enterprise to EBITDA,4.847
+Price to Book,1.3552496
+Price to Earnings,"PriceToEarnings(trailing_pe=10.987603, forward_pe=7.9849854)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.42, forward_eps=3.33)"
+Enterprise to Revenue,3.178
 
 CASH FLOW
-Free to Cash Flow,1255124992.0
-Operating to Cash Flow,4134000128.0
+Free to Cash Flow,1288375040.0
+Operating to Cash Flow,3979000064.0
 
 PROFITABILITY
-Return on Equity,0.15009
-Return on Assets,0.074149996
-Return on Invested Capital,0.28781657566816515
+Return on Equity,0.12729
+Return on Assets,0.061490003
+Return on Invested Capital,0.26418571526312074
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0158
-SUM DIVIDEND SCORE,8.0158
+5 Year Average,0.0161
+SUM DIVIDEND SCORE,8.0161
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,18.41
+Recommendation Key,1
+SUM ANALYST RATING SCORE,19.41
 
 
 

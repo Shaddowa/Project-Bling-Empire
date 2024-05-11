@@ -5,7 +5,7 @@ Country,Bermuda
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.northerndrillingltd.com
-Price,0.386
+Price,0.2295
 Currency,NOK
 
 REVENUE
@@ -14,7 +14,7 @@ Revenue Per Share,None
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-5.87, forward_eps=-2.8)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-6.16, forward_eps=-2.8)"
 Net Earnings,-10014000.0
 Earnings Growth,None
 
@@ -38,11 +38,11 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-1.9724375908353983e-09
+Price to Cash Flow,-1.1850115892584395e-09
 Enterprise to EBITDA,None
-Price to Book,0.031176038
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.13642858)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-5.87, forward_eps=-2.8)"
+Price to Book,0.018730106
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.081964284)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-6.16, forward_eps=-2.8)"
 Enterprise to Revenue,None
 
 CASH FLOW
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

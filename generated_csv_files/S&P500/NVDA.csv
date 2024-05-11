@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.nvidia.com
-Price,616.17
+Price,887.47
 Currency,USD
 
 REVENUE
-Total Revenue,44870000640.0
-Revenue Per Share,18.179
-Revenue Growth,2.055
+Total Revenue,60921999360.0
+Revenue Per Share,24.675
+Revenue Growth,2.653
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.57, forward_eps=20.78)"
-Net Earnings,18889000960.0
-Earnings Growth,12.741
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.95, forward_eps=31.3)"
+Net Earnings,29760000000.0
+Earnings Growth,7.613
 
 DEBT
-Total Debt,11027000320.0
-Debt to Equity,33.149
+Total Debt,11056000000.0
+Debt to Equity,25.725
 
 MARGINS
-Profit Margins,0.42097
-Gross Profit Margins,0.69852996
-Operating Margins,0.57488996
+Profit Margins,0.48849
+Gross Profit Margins,0.72718
+Operating Margins,0.61592996
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.16
-Dividend Yield,0.00029999999
-Dividend Payout Ratio,0.0211
-Five Year Avg Dividend Yield,0.15
+Dividend Yield,0.0002
+Dividend Payout Ratio,0.0134000005
+Five Year Avg Dividend Yield,0.13
 Trailing Annual Dividend Rate,0.16
-Trailing Annual Dividend Yield,0.0002596686
+Trailing Annual Dividend Yield,0.00018028778
 
 FINANCIAL RATIO
-Debt to Equity,33.149
-Price to Cash Flow,4.3239931842276497e-08
-Enterprise to EBITDA,67.696
-Price to Book,45.245014
-Price to Earnings,"PriceToEarnings(trailing_pe=80.62219, forward_pe=29.370066)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.57, forward_eps=20.78)"
-Enterprise to Revenue,33.435
+Debt to Equity,25.725
+Price to Cash Flow,4.5240127554178735e-08
+Enterprise to EBITDA,64.734
+Price to Book,51.529644
+Price to Earnings,"PriceToEarnings(trailing_pe=75.211716, forward_pe=28.715017)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.95, forward_eps=31.3)"
+Enterprise to Revenue,36.637
 
 CASH FLOW
-Free to Cash Flow,14114499584.0
-Operating to Cash Flow,18838999040.0
+Free to Cash Flow,19866875904.0
+Operating to Cash Flow,28089999360.0
 
 PROFITABILITY
-Return on Equity,0.69172996
-Return on Assets,0.27228
-Return on Invested Capital,1.7129772729428605
-Return on Investment,-0.23377476435643565
+Return on Equity,0.91458
+Return on Assets,0.38551
+Return on Invested Capital,2.6917510811369825
+Return on Investment,-0.5362162162162162
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0015
-SUM DIVIDEND SCORE,7.0015
+5 Year Average,0.0013
+SUM DIVIDEND SCORE,7.0013
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,1863.34
+Recommendation Key,1
+SUM ANALYST RATING SCORE,1864.34
 
 
 

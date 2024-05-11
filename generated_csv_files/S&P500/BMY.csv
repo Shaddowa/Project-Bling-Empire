@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,BMY
 Company,Bristol-Myers Squibb Company
 Country,United States
-Industry,Drug Manufacturers - General
+Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.bms.com
-Price,49.61
+Price,44.74
 Currency,USD
 
 REVENUE
-Total Revenue,44935000064.0
-Revenue Per Share,21.505
-Revenue Growth,-0.022
+Total Revenue,45533999104.0
+Revenue Per Share,22.212
+Revenue Growth,0.047
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.94, forward_eps=7.09)"
-Net Earnings,8285000192.0
-Earnings Growth,0.24
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.1, forward_eps=6.92)"
+Net Earnings,-6147999744.0
+Earnings Growth,None
 
 DEBT
-Total Debt,39323000832.0
-Debt to Equity,135.307
+Total Debt,57457000448.0
+Debt to Equity,347.214
 
 MARGINS
-Profit Margins,0.18438
-Gross Profit Margins,0.77009004
-Operating Margins,0.19187
+Profit Margins,-0.13502
+Gross Profit Margins,0.76027
+Operating Margins,0.1925
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.4
-Dividend Yield,0.048299998
-Dividend Payout Ratio,0.5787
-Five Year Avg Dividend Yield,3.16
-Trailing Annual Dividend Rate,2.28
-Trailing Annual Dividend Yield,0.045958474
+Dividend Yield,0.053400002
+Dividend Payout Ratio,0.5984
+Five Year Avg Dividend Yield,3.25
+Trailing Annual Dividend Rate,2.34
+Trailing Annual Dividend Yield,0.052302185
 
 FINANCIAL RATIO
-Debt to Equity,135.307
-Price to Cash Flow,3.9711154949015905e-09
-Enterprise to EBITDA,7.271
-Price to Book,3.486007
-Price to Earnings,"PriceToEarnings(trailing_pe=12.614213, forward_pe=7.009873)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.94, forward_eps=7.09)"
-Enterprise to Revenue,2.956
+Debt to Equity,347.214
+Price to Cash Flow,2.745307653206376e-09
+Enterprise to EBITDA,7.646
+Price to Book,5.5242777
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=6.4942193)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.1, forward_eps=6.92)"
+Enterprise to Revenue,3.051
 
 CASH FLOW
-Free to Cash Flow,12515375104.0
-Operating to Cash Flow,12913999872.0
+Free to Cash Flow,16369750016.0
+Operating to Cash Flow,13724000256.0
 
 PROFITABILITY
-Return on Equity,0.26872
-Return on Assets,0.0559
-Return on Invested Capital,0.21069094457954154
-Return on Investment,0.07793979484477893
+Return on Equity,-0.25333
+Return on Assets,0.05389
+Return on Invested Capital,-0.10700175253133222
+Return on Investment,-0.04419841656362329
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0316
-SUM DIVIDEND SCORE,9.0316
+5 Year Average,0.0325
+SUM DIVIDEND SCORE,9.0325
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,30.060000000000002
+Recommendation Key,0
+SUM ANALYST RATING SCORE,30.060000000000002
 
 
 

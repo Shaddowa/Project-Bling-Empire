@@ -5,63 +5,68 @@ Country,United States
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.motorolasolutions.com
-Price,328.59
+Price,360.11
 Currency,USD
 
 REVENUE
-Total Revenue,9836000256.0
-Revenue Per Share,58.801
-Revenue Growth,0.077
+Total Revenue,10195999744.0
+Revenue Per Share,61.155
+Revenue Growth,0.1
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.88, forward_eps=12.68)"
-Net Earnings,1702000000.0
-Earnings Growth,0.656
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.09, forward_eps=14.13)"
+Net Earnings,1392000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,6503000064.0
-Debt to Equity,1729.521
+Total Debt,6876000256.0
+Debt to Equity,1280.447
 
 MARGINS
-Profit Margins,0.17304
-Gross Profit Margins,0.49542
-Operating Margins,0.26252002
+Profit Margins,0.13652
+Gross Profit Margins,0.50216
+Operating Margins,0.24027
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.92
-Dividend Yield,0.012
-Dividend Payout Ratio,0.3559
-Five Year Avg Dividend Yield,1.37
-Trailing Annual Dividend Rate,3.52
-Trailing Annual Dividend Yield,0.010712438
+Dividend Yield,0.0108
+Dividend Payout Ratio,0.4598
+Five Year Avg Dividend Yield,1.34
+Trailing Annual Dividend Rate,3.72
+Trailing Annual Dividend Yield,0.010330178
 
 FINANCIAL RATIO
-Debt to Equity,1729.521
-Price to Cash Flow,1.9917544079375713e-07
-Enterprise to EBITDA,21.233
-Price to Book,149.72452
-Price to Earnings,"PriceToEarnings(trailing_pe=33.006073, forward_pe=25.717665)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.88, forward_eps=12.68)"
-Enterprise to Revenue,6.073
+Debt to Equity,1280.447
+Price to Cash Flow,1.9036001801552313e-07
+Enterprise to EBITDA,22.437
+Price to Book,116.14917
+Price to Earnings,"PriceToEarnings(trailing_pe=44.85167, forward_pe=25.679405)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.09, forward_eps=14.13)"
+Enterprise to Revenue,6.463
 
 CASH FLOW
-Free to Cash Flow,1637250048.0
-Operating to Cash Flow,2072000000.0
+Free to Cash Flow,1906125056.0
+Operating to Cash Flow,2433999872.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,0.12640001
-Return on Invested Capital,0.26172535486383813
-Return on Investment,0.07701357466063348
+Return on Equity,3.5547101
+Return on Assets,0.12637
+Return on Invested Capital,0.20244327334818052
+Return on Investment,0.055903614457831326
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0137
-SUM DIVIDEND SCORE,8.0137
+5 Year Average,0.0134
+SUM DIVIDEND SCORE,9.0134
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,37.14999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,38.14999999999998
 
 
 

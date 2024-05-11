@@ -5,63 +5,68 @@ Country,United States
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.netapp.com
-Price,89.24
+Price,108.18
 Currency,USD
 
 REVENUE
-Total Revenue,6101000192.0
-Revenue Per Share,28.711
-Revenue Growth,-0.061
+Total Revenue,6181000192.0
+Revenue Per Share,29.398
+Revenue Growth,0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.24, forward_eps=6.41)"
-Net Earnings,692000000.0
-Earnings Growth,-0.677
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.39, forward_eps=6.71)"
+Net Earnings,940000000.0
+Earnings Growth,3.933
 
 DEBT
-Total Debt,2662000128.0
-Debt to Equity,345.714
+Total Debt,2656000000.0
+Debt to Equity,267.203
 
 MARGINS
-Profit Margins,0.11342
-Gross Profit Margins,0.68546
-Operating Margins,0.19974001
+Profit Margins,0.15208
+Gross Profit Margins,0.70085996
+Operating Margins,0.23786
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.0227
-Dividend Payout Ratio,0.6173
+Dividend Yield,0.0184
+Dividend Payout Ratio,0.45560002
 Five Year Avg Dividend Yield,2.95
 Trailing Annual Dividend Rate,2.0
-Trailing Annual Dividend Yield,0.022411475
+Trailing Annual Dividend Yield,0.018487705
 
 FINANCIAL RATIO
-Debt to Equity,345.714
-Price to Cash Flow,7.179048060901128e-08
-Enterprise to EBITDA,13.72
-Price to Book,23.558052
-Price to Earnings,"PriceToEarnings(trailing_pe=27.179012, forward_pe=13.737909)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.24, forward_eps=6.41)"
-Enterprise to Revenue,2.98
+Debt to Equity,267.203
+Price to Cash Flow,9.467713787085514e-08
+Enterprise to EBITDA,15.322
+Price to Book,22.487047
+Price to Earnings,"PriceToEarnings(trailing_pe=24.715263, forward_pe=16.169895)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.39, forward_eps=6.71)"
+Enterprise to Revenue,3.579
 
 CASH FLOW
-Free to Cash Flow,1226625024.0
-Operating to Cash Flow,1200000000.0
+Free to Cash Flow,1146000000.0
+Operating to Cash Flow,1307000064.0
 
 PROFITABILITY
-Return on Equity,0.70182997
-Return on Assets,0.0732
-Return on Invested Capital,0.25995490824720524
-Return on Investment,-0.1572727272727273
+Return on Equity,0.89695
+Return on Assets,0.08019
+Return on Invested Capital,0.35391566200766456
+Return on Investment,-0.47
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
-Payout Ratio,0.0
+Dividend Yield,1.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.029500000000000002
-SUM DIVIDEND SCORE,7.0295
+SUM DIVIDEND SCORE,5.0295
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,11.5
+Recommendation Key,0
+SUM ANALYST RATING SCORE,11.5
 
 
 

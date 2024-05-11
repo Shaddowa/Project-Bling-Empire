@@ -5,17 +5,17 @@ Country,United States
 Industry,Integrated Freight & Logistics
 Sector,Industrials
 Website,https://www.fedex.com
-Price,253.13
+Price,262.06
 Currency,USD
 
 REVENUE
-Total Revenue,87945003008.0
-Revenue Per Share,350.378
+Total Revenue,87513997312.0
+Revenue Per Share,350.758
 Revenue Growth,0.139
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.85, forward_eps=21.7)"
-Net Earnings,4280999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.33, forward_eps=21.29)"
+Net Earnings,4389000192.0
 Earnings Growth,-0.133
 
 DEBT
@@ -23,45 +23,50 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.04875
-Gross Profit Margins,0.27582002
+Profit Margins,0.050219998
+Gross Profit Margins,0.27653
 Operating Margins,0.0764
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.04
-Dividend Yield,0.02
-Dividend Payout Ratio,0.2859
-Five Year Avg Dividend Yield,1.56
-Trailing Annual Dividend Rate,4.93
-Trailing Annual Dividend Yield,0.019476157
+Dividend Yield,0.019
+Dividend Payout Ratio,0.2845
+Five Year Avg Dividend Yield,1.6
+Trailing Annual Dividend Rate,5.04
+Trailing Annual Dividend Yield,0.019232238
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,6.338267588771929e-08
+Price to Cash Flow,8.022340368800751e-08
 Enterprise to EBITDA,None
-Price to Book,2.3485203
-Price to Earnings,"PriceToEarnings(trailing_pe=14.928783, forward_pe=11.592166)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.85, forward_eps=21.7)"
+Price to Book,2.4792874
+Price to Earnings,"PriceToEarnings(trailing_pe=15.333527, forward_pe=12.481446)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.33, forward_eps=21.29)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,3968750080.0
-Operating to Cash Flow,9726999552.0
+Free to Cash Flow,3312375040.0
+Operating to Cash Flow,9061000192.0
 
 PROFITABILITY
-Return on Equity,0.16851
-Return on Assets,0.049489997
+Return on Equity,0.17198999
+Return on Assets,0.05094
 Return on Invested Capital,None
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.015600000000000001
-SUM DIVIDEND SCORE,8.0156
+5 Year Average,0.016
+SUM DIVIDEND SCORE,4.016
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,85.26999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,86.26999999999998
 
 
 

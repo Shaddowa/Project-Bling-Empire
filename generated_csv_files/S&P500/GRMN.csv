@@ -5,63 +5,68 @@ Country,Switzerland
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.garmin.com
-Price,125.04
+Price,169.3
 Currency,USD
 
 REVENUE
-Total Revenue,5052106240.0
-Revenue Per Share,26.39
-Revenue Growth,0.12
+Total Revenue,5462476800.0
+Revenue Per Share,28.525
+Revenue Growth,0.204
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.43, forward_eps=5.62)"
-Net Earnings,1040780992.0
-Earnings Growth,0.229
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.1, forward_eps=6.13)"
+Net Earnings,1363270016.0
+Earnings Growth,0.362
 
 DEBT
-Total Debt,144935008.0
-Debt to Equity,2.283
+Total Debt,261559008.0
+Debt to Equity,3.61
 
 MARGINS
-Profit Margins,0.20601
-Gross Profit Margins,0.5712
-Operating Margins,0.21163
+Profit Margins,0.24957001
+Gross Profit Margins,0.57745
+Operating Margins,0.21598
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.92
-Dividend Yield,0.0234
-Dividend Payout Ratio,0.5387
-Five Year Avg Dividend Yield,2.46
+Dividend Rate,3.0
+Dividend Yield,0.0178
+Dividend Payout Ratio,0.4118
+Five Year Avg Dividend Yield,2.43
 Trailing Annual Dividend Rate,2.92
-Trailing Annual Dividend Yield,0.023352528
+Trailing Annual Dividend Yield,0.01724749
 
 FINANCIAL RATIO
-Debt to Equity,2.283
-Price to Cash Flow,2.0321985222251162e-07
-Enterprise to EBITDA,18.712
-Price to Book,3.7600603
-Price to Earnings,"PriceToEarnings(trailing_pe=22.972376, forward_pe=22.19573)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.43, forward_eps=5.62)"
-Enterprise to Revenue,4.417
+Debt to Equity,3.61
+Price to Cash Flow,1.8117926018646795e-07
+Enterprise to EBITDA,22.23
+Price to Book,4.4779325
+Price to Earnings,"PriceToEarnings(trailing_pe=23.792957, forward_pe=27.55791)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.1, forward_eps=6.13)"
+Enterprise to Revenue,5.586
 
 CASH FLOW
-Free to Cash Flow,613817984.0
-Operating to Cash Flow,1278989056.0
+Free to Cash Flow,932391488.0
+Operating to Cash Flow,1532359936.0
 
 PROFITABILITY
-Return on Equity,0.17024
-Return on Assets,0.08168
-Return on Invested Capital,7.181016982244632
-Return on Investment,-0.0505466594788859
+Return on Equity,0.19973
+Return on Assets,0.0912
+Return on Invested Capital,5.212092788537413
+Return on Investment,-0.07516016010408971
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
+Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0246
-SUM DIVIDEND SCORE,8.0246
+5 Year Average,0.024300000000000002
+SUM DIVIDEND SCORE,9.0243
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

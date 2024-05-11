@@ -5,69 +5,74 @@ Country,United States
 Industry,Travel Services
 Sector,Consumer Cyclical
 Website,https://www.bookingholdings.com
-Price,3503.25
+Price,3780.03
 Currency,USD
 
 REVENUE
-Total Revenue,20629999616.0
-Revenue Per Share,556.233
-Revenue Growth,0.213
+Total Revenue,22001999872.0
+Revenue Per Share,623.529
+Revenue Growth,0.169
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=141.46, forward_eps=176.56)"
-Net Earnings,5302000128.0
-Earnings Growth,0.663
+Earnings Per Share,"EarningsPerShare(trailing_eps=132.82, forward_eps=205.74)"
+Net Earnings,4799000064.0
+Earnings Growth,2.196
 
 DEBT
-Total Debt,14316000256.0
+Total Debt,17456001024.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.257
-Gross Profit Margins,0.86137
-Operating Margins,0.42297
+Profit Margins,0.21812001
+Gross Profit Margins,0.84651
+Operating Margins,0.18392
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,None
-Dividend Yield,None
-Dividend Payout Ratio,0.0
+Dividend Rate,35.0
+Dividend Yield,0.0092
+Dividend Payout Ratio,0.0659
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,8.75
+Trailing Annual Dividend Yield,0.0023147964
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,5.366266267782217e-07
-Enterprise to EBITDA,18.038
+Price to Cash Flow,6.332231237527714e-07
+Enterprise to EBITDA,19.181
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=24.880531, forward_pe=19.934301)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=141.46, forward_eps=176.56)"
-Enterprise to Revenue,5.972
+Price to Earnings,"PriceToEarnings(trailing_pe=28.653439, forward_pe=18.49786)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=132.82, forward_eps=205.74)"
+Enterprise to Revenue,5.935
 
 CASH FLOW
-Free to Cash Flow,6558750208.0
-Operating to Cash Flow,8170999808.0
+Free to Cash Flow,6010124800.0
+Operating to Cash Flow,7159000064.0
 
 PROFITABILITY
-Return on Equity,3.4824302
-Return on Assets,0.16604
-Return on Invested Capital,0.37035485050065664
-Return on Investment,0.039508197675111774
+Return on Equity,None
+Return on Assets,0.14846
+Return on Invested Capital,0.2749197877624998
+Return on Investment,0.03293754333562114
 
 DIVIDEND SCORE
-Dividend  Rate,0.0
-Dividend Yield,0.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,0.0
+SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,694.25
+Recommendation Key,1
+SUM ANALYST RATING SCORE,695.25
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
+Earnings,True
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,2.0
 

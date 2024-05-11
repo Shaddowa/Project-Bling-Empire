@@ -5,27 +5,27 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.bergenbio.com
-Price,0.2755
+Price,0.137
 Currency,NOK
 
 REVENUE
-Total Revenue,389000.0
+Total Revenue,354000.0
 Revenue Per Share,0.0
-Revenue Growth,None
+Revenue Growth,-0.09
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.07)"
-Net Earnings,-225954000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.13, forward_eps=-0.08)"
+Net Earnings,-190400992.0
 Earnings Growth,None
 
 DEBT
-Total Debt,101000.0
-Debt to Equity,0.063
+Total Debt,0.0
+Debt to Equity,None
 
 MARGINS
 Profit Margins,0.0
 Gross Profit Margins,1.0
-Operating Margins,-577.57324
+Operating Margins,-123.00565
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,0.063
-Price to Cash Flow,-1.5064500163901761e-09
-Enterprise to EBITDA,-2.564
-Price to Book,4.596774
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-4.0714283)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=-0.07)"
-Enterprise to Revenue,1484.933
+Debt to Equity,None
+Price to Cash Flow,-8.856545002070442e-10
+Enterprise to EBITDA,-1.131
+Price to Book,2.9531915
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.735)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.13, forward_eps=-0.08)"
+Enterprise to Revenue,612.342
 
 CASH FLOW
-Free to Cash Flow,-189186496.0
-Operating to Cash Flow,-280504000.0
+Free to Cash Flow,-156720256.0
+Operating to Cash Flow,-225100992.0
 
 PROFITABILITY
-Return on Equity,-1.38596
-Return on Assets,-0.66313004
-Return on Invested Capital,-2237.166943521282
+Return on Equity,-1.7631799
+Return on Assets,-0.70306
+Return on Invested Capital,-4051084936.1702127
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,1.8612
+Recommendation Key,0
+SUM ANALYST RATING SCORE,1.8612
 
 
 

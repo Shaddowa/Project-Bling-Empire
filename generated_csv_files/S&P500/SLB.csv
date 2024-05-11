@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.slb.com
-Price,52.47
+Price,48.48
 Currency,USD
 
 REVENUE
-Total Revenue,33134999552.0
-Revenue Per Share,23.253
-Revenue Growth,0.141
+Total Revenue,34105999360.0
+Revenue Per Share,23.913
+Revenue Growth,0.126
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.91, forward_eps=4.21)"
-Net Earnings,4203000064.0
-Earnings Growth,0.042
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.0, forward_eps=4.2)"
+Net Earnings,4336999936.0
+Earnings Growth,0.138
 
 DEBT
-Total Debt,12842000384.0
-Debt to Equity,60.125
+Total Debt,12279000064.0
+Debt to Equity,56.01
 
 MARGINS
-Profit Margins,0.12684
-Gross Profit Margins,0.19806999
-Operating Margins,0.1683
+Profit Margins,0.12716
+Gross Profit Margins,0.19973
+Operating Margins,0.16045
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.1
-Dividend Yield,0.0208
-Dividend Payout Ratio,0.3436
-Five Year Avg Dividend Yield,3.43
-Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.019058509
+Dividend Yield,0.0227
+Dividend Payout Ratio,0.3417
+Five Year Avg Dividend Yield,3.26
+Trailing Annual Dividend Rate,1.025
+Trailing Annual Dividend Yield,0.02114274
 
 FINANCIAL RATIO
-Debt to Equity,60.125
-Price to Cash Flow,1.910727925930746e-08
-Enterprise to EBITDA,11.806
-Price to Book,3.7415156
-Price to Earnings,"PriceToEarnings(trailing_pe=18.185566, forward_pe=12.57007)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.91, forward_eps=4.21)"
-Enterprise to Revenue,2.582
+Debt to Equity,56.01
+Price to Cash Flow,1.6379601840018413e-08
+Enterprise to EBITDA,10.58
+Price to Book,3.3432136
+Price to Earnings,"PriceToEarnings(trailing_pe=16.166666, forward_pe=11.54762)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.0, forward_eps=4.2)"
+Enterprise to Revenue,2.325
 
 CASH FLOW
-Free to Cash Flow,2769625088.0
-Operating to Cash Flow,6637000192.0
+Free to Cash Flow,2960999936.0
+Operating to Cash Flow,6633999872.0
 
 PROFITABILITY
-Return on Equity,0.21729
-Return on Assets,0.07531
-Return on Invested Capital,0.32728546438975675
-Return on Investment,-0.038701658047882136
+Return on Equity,0.21979
+Return on Assets,0.07768
+Return on Invested Capital,0.3532046508894016
+Return on Investment,-0.040915093735849055
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.034300000000000004
-SUM DIVIDEND SCORE,8.0343
+5 Year Average,0.0326
+SUM DIVIDEND SCORE,8.0326
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,32.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,33.5
 
 
 

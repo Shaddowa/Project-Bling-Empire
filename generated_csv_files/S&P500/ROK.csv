@@ -5,63 +5,68 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.rockwellautomation.com
-Price,304.24
+Price,269.25
 Currency,USD
 
 REVENUE
-Total Revenue,9057999872.0
-Revenue Per Share,78.902
-Revenue Growth,0.205
+Total Revenue,8979699712.0
+Revenue Per Share,78.357
+Revenue Growth,-0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.94, forward_eps=14.01)"
-Net Earnings,1381500032.0
-Earnings Growth,-0.106
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.23, forward_eps=12.38)"
+Net Earnings,1179200000.0
+Earnings Growth,-0.108
 
 DEBT
-Total Debt,3341900032.0
-Debt to Equity,89.274
+Total Debt,4092600064.0
+Debt to Equity,109.957
 
 MARGINS
-Profit Margins,0.15317
-Gross Profit Margins,0.41035998
-Operating Margins,0.19853
+Profit Margins,0.13191
+Gross Profit Margins,0.40078
+Operating Margins,0.15847
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.0
-Dividend Yield,0.0165
-Dividend Payout Ratio,0.395
-Five Year Avg Dividend Yield,1.81
-Trailing Annual Dividend Rate,4.72
-Trailing Annual Dividend Yield,0.015514067
+Dividend Yield,0.0183
+Dividend Payout Ratio,0.4755
+Five Year Avg Dividend Yield,1.78
+Trailing Annual Dividend Rate,4.86
+Trailing Annual Dividend Yield,0.01805014
 
 FINANCIAL RATIO
-Debt to Equity,89.274
-Price to Cash Flow,2.9695328982377653e-07
-Enterprise to EBITDA,20.11
-Price to Book,9.766632
-Price to Earnings,"PriceToEarnings(trailing_pe=25.376884, forward_pe=21.627409)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.94, forward_eps=14.01)"
-Enterprise to Revenue,4.107
+Debt to Equity,109.957
+Price to Cash Flow,2.773094068735027e-07
+Enterprise to EBITDA,19.143
+Price to Book,8.801917
+Price to Earnings,"PriceToEarnings(trailing_pe=26.74389, forward_pe=22.099354)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.23, forward_eps=12.38)"
+Enterprise to Revenue,3.897
 
 CASH FLOW
-Free to Cash Flow,1020362496.0
-Operating to Cash Flow,1374599936.0
+Free to Cash Flow,986587520.0
+Operating to Cash Flow,1273600000.0
 
 PROFITABILITY
-Return on Equity,0.3781
-Return on Assets,0.09125
-Return on Invested Capital,0.41338759566314376
-Return on Investment,0.1254768421435059
+Return on Equity,0.30245
+Return on Assets,0.0849
+Return on Invested Capital,0.28812978854609667
+Return on Investment,0.22720616570327554
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0181
-SUM DIVIDEND SCORE,8.0181
+5 Year Average,0.0178
+SUM DIVIDEND SCORE,9.0178
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,42.410000000000025
+Recommendation Key,0
+SUM ANALYST RATING SCORE,42.410000000000025
 
 
 

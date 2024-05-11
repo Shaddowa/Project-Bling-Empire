@@ -5,55 +5,55 @@ Country,Switzerland
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.amcor.com
-Price,9.47
+Price,10.32
 Currency,USD
 
 REVENUE
-Total Revenue,14424999936.0
-Revenue Per Share,9.885
-Revenue Growth,-0.072
+Total Revenue,13777999872.0
+Revenue Per Share,9.551
+Revenue Growth,-0.07
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=0.73)"
-Net Earnings,962000000.0
-Earnings Growth,-0.323
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.45, forward_eps=0.74)"
+Net Earnings,650000000.0
+Earnings Growth,0.084
 
 DEBT
-Total Debt,7664999936.0
-Debt to Equity,193.365
+Total Debt,7758000128.0
+Debt to Equity,193.563
 
 MARGINS
-Profit Margins,0.06711
-Gross Profit Margins,0.18731001
-Operating Margins,0.086840004
+Profit Margins,0.04739
+Gross Profit Margins,0.19451
+Operating Margins,0.09909
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.5
-Dividend Yield,0.052399997
-Dividend Payout Ratio,0.7481
+Dividend Yield,0.048299998
+Dividend Payout Ratio,1.0976
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.493
-Trailing Annual Dividend Yield,0.052059133
+Trailing Annual Dividend Rate,0.498
+Trailing Annual Dividend Yield,0.048255816
 
 FINANCIAL RATIO
-Debt to Equity,193.365
-Price to Cash Flow,1.0926270679925743e-08
-Enterprise to EBITDA,10.958
-Price to Book,3.5346427
-Price to Earnings,"PriceToEarnings(trailing_pe=14.454545, forward_pe=13.068493)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=0.73)"
-Enterprise to Revenue,1.454
+Debt to Equity,193.563
+Price to Cash Flow,1.3737775713445655e-08
+Enterprise to EBITDA,11.945
+Price to Book,3.7934823
+Price to Earnings,"PriceToEarnings(trailing_pe=23.022223, forward_pe=13.999999)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.45, forward_eps=0.74)"
+Enterprise to Revenue,1.62
 
 CASH FLOW
-Free to Cash Flow,873124992.0
-Operating to Cash Flow,1386000000.0
+Free to Cash Flow,754124992.0
+Operating to Cash Flow,1310000000.0
 
 PROFITABILITY
-Return on Equity,0.24635
-Return on Assets,0.0496
-Return on Invested Capital,0.12550554568736014
-Return on Investment,0.0717910447761194
+Return on Equity,0.15945
+Return on Assets,0.04718
+Return on Invested Capital,0.08378447912435824
+Return on Investment,0.041666666666666664
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

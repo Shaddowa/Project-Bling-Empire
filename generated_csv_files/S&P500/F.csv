@@ -5,63 +5,68 @@ Country,United States
 Industry,Auto Manufacturers
 Sector,Consumer Cyclical
 Website,https://www.ford.com
-Price,11.34
+Price,12.13
 Currency,USD
 
 REVENUE
-Total Revenue,174227996672.0
-Revenue Per Share,43.552
-Revenue Growth,0.112
+Total Revenue,177493999616.0
+Revenue Per Share,44.426
+Revenue Growth,0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=1.75)"
-Net Earnings,6161999872.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.97, forward_eps=1.96)"
+Net Earnings,3921999872.0
+Earnings Growth,-0.25
 
 DEBT
-Total Debt,142661992448.0
-Debt to Equity,322.211
+Total Debt,151422992384.0
+Debt to Equity,352.992
 
 MARGINS
-Profit Margins,0.03537
-Gross Profit Margins,0.104119994
-Operating Margins,0.03059
+Profit Margins,0.0221
+Gross Profit Margins,0.08604
+Operating Margins,0.0313
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.6
-Dividend Yield,0.052699998
-Dividend Payout Ratio,0.39220002
+Dividend Yield,0.05
+Dividend Payout Ratio,0.6186
 Five Year Avg Dividend Yield,5.76
 Trailing Annual Dividend Rate,0.6
-Trailing Annual Dividend Yield,0.052910056
+Trailing Annual Dividend Yield,0.04946414
 
 FINANCIAL RATIO
-Debt to Equity,322.211
-Price to Cash Flow,-2.930845991500207e-08
-Enterprise to EBITDA,9.42
-Price to Book,1.0300236
-Price to Earnings,"PriceToEarnings(trailing_pe=7.4444447, forward_pe=6.5085716)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=1.75)"
-Enterprise to Revenue,0.914
+Debt to Equity,352.992
+Price to Cash Flow,-6.830935577333766e-09
+Enterprise to EBITDA,15.742
+Price to Book,1.1165953
+Price to Earnings,"PriceToEarnings(trailing_pe=12.360825, forward_pe=6.117347)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.97, forward_eps=1.96)"
+Enterprise to Revenue,0.983
 
 CASH FLOW
-Free to Cash Flow,-388624992.0
-Operating to Cash Flow,13603999744.0
+Free to Cash Flow,-1755250048.0
+Operating to Cash Flow,13502999552.0
 
 PROFITABILITY
-Return on Equity,0.14152001
-Return on Assets,0.025239998
-Return on Invested Capital,0.043193003026145226
-Return on Investment,-0.011352247369196758
+Return on Equity,0.09401
+Return on Assets,0.01116
+Return on Invested Capital,0.02590095341515844
+Return on Investment,-0.006587168075243534
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0576
-SUM DIVIDEND SCORE,4.0576
+SUM DIVIDEND SCORE,7.0576
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,9.01
+Recommendation Key,0
+SUM ANALYST RATING SCORE,9.01
 
 
 

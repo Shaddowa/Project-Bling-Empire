@@ -5,27 +5,27 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.havilashipping.no
-Price,5.35
+Price,6.12
 Currency,NOK
 
 REVENUE
-Total Revenue,688270976.0
-Revenue Per Share,28.948
-Revenue Growth,-0.11
+Total Revenue,699108992.0
+Revenue Per Share,29.404
+Revenue Growth,0.073
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
-Net Earnings,61272000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.2, forward_eps=-2.0)"
+Net Earnings,112872000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1717652992.0
-Debt to Equity,3547.844
+Total Debt,1290038016.0
+Debt to Equity,6604.065
 
 MARGINS
-Profit Margins,0.08902001
-Gross Profit Margins,0.40240002
-Operating Margins,0.14037
+Profit Margins,0.16145
+Gross Profit Margins,0.471
+Operating Margins,0.28434
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,3547.844
-Price to Cash Flow,-1.573817480326646e-08
-Enterprise to EBITDA,7.861
-Price to Book,2.6768172
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-2.725)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.45, forward_eps=-2.0)"
-Enterprise to Revenue,2.55
+Debt to Equity,6604.065
+Price to Cash Flow,1.1044292974993247e-08
+Enterprise to EBITDA,5.051
+Price to Book,7.2992697
+Price to Earnings,"PriceToEarnings(trailing_pe=30.0, forward_pe=-3.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.2, forward_eps=-2.0)"
+Enterprise to Revenue,1.924
 
 CASH FLOW
-Free to Cash Flow,-346291744.0
-Operating to Cash Flow,33491000.0
+Free to Cash Flow,543267008.0
+Operating to Cash Flow,95774000.0
 
 PROFITABILITY
-Return on Equity,3.45662
-Return on Assets,0.02694
-Return on Invested Capital,0.03567193153258976
-Return on Investment,0.0006135888417999887
+Return on Equity,None
+Return on Assets,0.04948
+Return on Invested Capital,0.0874950959027234
+Return on Investment,-0.026556867912098256
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

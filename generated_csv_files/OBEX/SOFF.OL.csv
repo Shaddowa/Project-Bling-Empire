@@ -5,27 +5,27 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.solstad.com
-Price,36.5
+Price,48.22
 Currency,NOK
 
 REVENUE
-Total Revenue,7603133952.0
-Revenue Per Share,98.346
-Revenue Growth,0.171
+Total Revenue,6730333184.0
+Revenue Per Share,85.953
+Revenue Growth,0.406
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.59, forward_eps=6.67)"
-Net Earnings,59300000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.64, forward_eps=14.82)"
+Net Earnings,285152000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,16826186752.0
-Debt to Equity,884.836
+Total Debt,15773256704.0
+Debt to Equity,864.501
 
 MARGINS
-Profit Margins,0.0078
-Gross Profit Margins,0.62135
-Operating Margins,0.26898
+Profit Margins,0.059499998
+Gross Profit Margins,0.73581004
+Operating Margins,0.34338
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,884.836
-Price to Cash Flow,9.153654057649197e-08
-Enterprise to EBITDA,6.577
-Price to Book,1.4630394
-Price to Earnings,"PriceToEarnings(trailing_pe=61.25424, forward_pe=5.4182906)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.59, forward_eps=6.67)"
-Enterprise to Revenue,2.323
+Debt to Equity,864.501
+Price to Cash Flow,-4.419760036495085e-09
+Enterprise to EBITDA,6.877
+Price to Book,2.2064989
+Price to Earnings,"PriceToEarnings(trailing_pe=13.450549, forward_pe=3.3036437)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.64, forward_eps=14.82)"
+Enterprise to Revenue,2.868
 
 CASH FLOW
-Free to Cash Flow,394815008.0
-Operating to Cash Flow,2490850048.0
+Free to Cash Flow,-11077524480.0
+Operating to Cash Flow,2675578112.0
 
 PROFITABILITY
-Return on Equity,0.03444
-Return on Assets,0.03478
-Return on Invested Capital,0.0035242684980835
-Return on Investment,0.00015708205643457637
+Return on Equity,0.16118999
+Return on Assets,0.046630003
+Return on Invested Capital,0.018078194310154744
+Return on Investment,0.0008710066921801772
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0658
 SUM DIVIDEND SCORE,0.0658
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,1
 
 
 

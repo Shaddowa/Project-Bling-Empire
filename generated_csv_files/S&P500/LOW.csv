@@ -5,63 +5,68 @@ Country,United States
 Industry,Home Improvement Retail
 Sector,Consumer Cyclical
 Website,https://www.lowes.com
-Price,212.08
+Price,236.13
 Currency,USD
 
 REVENUE
-Total Revenue,90220003328.0
-Revenue Per Share,153.11
-Revenue Growth,-0.128
+Total Revenue,86376996864.0
+Revenue Per Share,148.414
+Revenue Growth,-0.171
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.04, forward_eps=12.91)"
-Net Earnings,7641999872.0
-Earnings Growth,11.441
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.21, forward_eps=13.44)"
+Net Earnings,7705999872.0
+Earnings Growth,0.118
 
 DEBT
-Total Debt,40144998400.0
+Total Debt,40220999680.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.08495
-Gross Profit Margins,0.33334
-Operating Margins,0.1317
+Profit Margins,0.089449994
+Gross Profit Margins,0.33393002
+Operating Margins,0.09074
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.4
-Dividend Yield,0.0208
-Dividend Payout Ratio,0.3298
-Five Year Avg Dividend Yield,1.68
-Trailing Annual Dividend Rate,4.3
-Trailing Annual Dividend Yield,0.02027537
+Dividend Yield,0.0187
+Dividend Payout Ratio,0.32950002
+Five Year Avg Dividend Yield,1.69
+Trailing Annual Dividend Rate,4.35
+Trailing Annual Dividend Yield,0.018422054
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,4.4728594635811014e-08
-Enterprise to EBITDA,11.947
+Price to Cash Flow,4.899265155002402e-08
+Enterprise to EBITDA,12.892
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=16.256134, forward_pe=16.41983)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.04, forward_eps=12.91)"
-Enterprise to Revenue,1.779
+Price to Earnings,"PriceToEarnings(trailing_pe=17.791824, forward_pe=17.487352)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.21, forward_eps=13.44)"
+Enterprise to Revenue,2.012
 
 CASH FLOW
-Free to Cash Flow,4739250176.0
-Operating to Cash Flow,7482999808.0
+Free to Cash Flow,4797250048.0
+Operating to Cash Flow,8140000256.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.16115999
-Return on Invested Capital,0.19035994972202197
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Assets,0.16896
+Return on Invested Capital,0.1915914556657665
+Return on Investment,0.032323824966442954
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0168
-SUM DIVIDEND SCORE,8.0168
+5 Year Average,0.0169
+SUM DIVIDEND SCORE,8.0169
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,54.97
+Recommendation Key,1
+SUM ANALYST RATING SCORE,55.97
 
 
 

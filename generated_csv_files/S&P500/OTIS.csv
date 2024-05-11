@@ -5,55 +5,55 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.otis.com
-Price,88.98
+Price,96.13
 Currency,USD
 
 REVENUE
-Total Revenue,14028000256.0
-Revenue Per Share,33.927
-Revenue Growth,0.054
+Total Revenue,14300000256.0
+Revenue Per Share,34.953
+Revenue Growth,0.027
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=3.85)"
-Net Earnings,1380000000.0
-Earnings Growth,0.182
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.46, forward_eps=4.24)"
+Net Earnings,1428000000.0
+Earnings Growth,0.089
 
 DEBT
-Total Debt,7699999744.0
+Total Debt,7165000192.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.09837
-Gross Profit Margins,0.29242
-Operating Margins,0.16804
+Profit Margins,0.09986
+Gross Profit Margins,0.29608
+Operating Margins,0.16816999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.36
-Dividend Yield,0.0153
-Dividend Payout Ratio,0.3807
+Dividend Rate,1.56
+Dividend Yield,0.0161
+Dividend Payout Ratio,0.39310002
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,1.26
-Trailing Annual Dividend Yield,0.014160485
+Trailing Annual Dividend Rate,1.36
+Trailing Annual Dividend Yield,0.014147509
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,6.477617470229767e-08
-Enterprise to EBITDA,17.878
+Price to Cash Flow,7.244917079588638e-08
+Enterprise to EBITDA,18.321
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=26.776434, forward_pe=23.020779)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=3.85)"
-Enterprise to Revenue,3.031
+Price to Earnings,"PriceToEarnings(trailing_pe=28.063583, forward_pe=22.900944)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.46, forward_eps=4.24)"
+Enterprise to Revenue,3.199
 
 CASH FLOW
-Free to Cash Flow,1368249984.0
-Operating to Cash Flow,1494000000.0
+Free to Cash Flow,1340249984.0
+Operating to Cash Flow,1520000000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.13854
-Return on Invested Capital,0.1792207854515644
-Return on Investment,0.92
+Return on Assets,0.14686
+Return on Invested Capital,0.19930215829874587
+Return on Investment,0.84
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,12.900000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,13.900000000000006
 
 
 

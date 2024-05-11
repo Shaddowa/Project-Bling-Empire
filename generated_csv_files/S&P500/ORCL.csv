@@ -5,63 +5,68 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.oracle.com
-Price,115.0
+Price,116.64
 Currency,USD
 
 REVENUE
-Total Revenue,51627999232.0
-Revenue Per Share,18.984
-Revenue Growth,0.054
+Total Revenue,52509999104.0
+Revenue Per Share,19.215
+Revenue Growth,0.071
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.62, forward_eps=6.21)"
-Net Earnings,10136999936.0
-Earnings Growth,0.413
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.79, forward_eps=6.23)"
+Net Earnings,10641999872.0
+Earnings Growth,0.25
 
 DEBT
-Total Debt,88789000192.0
-Debt to Equity,2028.072
+Total Debt,87979999232.0
+Debt to Equity,1423.164
 
 MARGINS
-Profit Margins,0.19635001
-Gross Profit Margins,0.71879995
-Operating Margins,0.28768998
+Profit Margins,0.20267001
+Gross Profit Margins,0.71531
+Operating Margins,0.28983
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0139999995
-Dividend Payout Ratio,0.41990003
-Five Year Avg Dividend Yield,1.54
+Dividend Yield,0.0137
+Dividend Payout Ratio,0.42220002
+Five Year Avg Dividend Yield,1.53
 Trailing Annual Dividend Rate,1.6
-Trailing Annual Dividend Yield,0.013913044
+Trailing Annual Dividend Yield,0.013717421
 
 FINANCIAL RATIO
-Debt to Equity,2028.072
-Price to Cash Flow,1.1091331269349846e-08
-Enterprise to EBITDA,19.489
-Price to Book,81.478325
-Price to Earnings,"PriceToEarnings(trailing_pe=31.668509, forward_pe=18.460546)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.62, forward_eps=6.21)"
-Enterprise to Revenue,7.665
+Debt to Equity,1423.164
+Price to Cash Flow,9.65641407710008e-09
+Enterprise to EBITDA,19.196
+Price to Book,56.995605
+Price to Earnings,"PriceToEarnings(trailing_pe=30.783642, forward_pe=18.727127)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.79, forward_eps=6.23)"
+Enterprise to Revenue,7.604
 
 CASH FLOW
-Free to Cash Flow,10336000000.0
-Operating to Cash Flow,17038999552.0
+Free to Cash Flow,12082124800.0
+Operating to Cash Flow,18239000576.0
 
 PROFITABILITY
-Return on Equity,33.67774
-Return on Assets,0.07046
-Return on Invested Capital,0.1141695470600954
-Return on Investment,0.32805825035598707
+Return on Equity,4.98454
+Return on Assets,0.07121
+Return on Invested Capital,0.12095930853204302
+Return on Investment,0.08860949102414654
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0154
-SUM DIVIDEND SCORE,8.0154
+5 Year Average,0.015300000000000001
+SUM DIVIDEND SCORE,5.0153
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,43.33
+Recommendation Key,1
+SUM ANALYST RATING SCORE,44.33
 
 
 

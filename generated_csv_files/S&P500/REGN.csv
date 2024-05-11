@@ -5,27 +5,27 @@ Country,United States
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.regeneron.com
-Price,948.87
+Price,968.0
 Currency,USD
 
 REVENUE
-Total Revenue,13097299968.0
-Revenue Per Share,122.634
-Revenue Growth,0.145
+Total Revenue,13100099584.0
+Revenue Per Share,122.574
+Revenue Growth,-0.005
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=35.06, forward_eps=44.73)"
-Net Earnings,3991099904.0
-Earnings Growth,-0.238
+Earnings Per Share,"EarningsPerShare(trailing_eps=33.89, forward_eps=47.87)"
+Net Earnings,3857799936.0
+Earnings Growth,-0.126
 
 DEBT
-Total Debt,2702599936.0
-Debt to Equity,10.852
+Total Debt,2703300096.0
+Debt to Equity,10.016
 
 MARGINS
-Profit Margins,0.30473
-Gross Profit Margins,0.53087
-Operating Margins,0.36013
+Profit Margins,0.29448998
+Gross Profit Margins,0.51311
+Operating Margins,0.24118
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,10.852
-Price to Cash Flow,2.659960617472825e-07
-Enterprise to EBITDA,19.264
-Price to Book,4.0093403
-Price to Earnings,"PriceToEarnings(trailing_pe=26.812605, forward_pe=21.016096)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=35.06, forward_eps=44.73)"
-Enterprise to Revenue,7.082
+Debt to Equity,10.016
+Price to Cash Flow,3.2140469904574926e-07
+Enterprise to EBITDA,21.978
+Price to Book,3.8928797
+Price to Earnings,"PriceToEarnings(trailing_pe=28.73414, forward_pe=20.342594)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=33.89, forward_eps=47.87)"
+Enterprise to Revenue,7.423
 
 CASH FLOW
-Free to Cash Flow,3534074880.0
-Operating to Cash Flow,5224200192.0
+Free to Cash Flow,3029825024.0
+Operating to Cash Flow,4738899968.0
 
 PROFITABILITY
-Return on Equity,0.17224
-Return on Assets,0.09206
-Return on Invested Capital,1.4767629883310875
-Return on Investment,-0.05536273968650298
+Return on Equity,0.15283
+Return on Assets,0.07739
+Return on Invested Capital,1.4270704109869434
+Return on Investment,-0.0578467526765632
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,211.20000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,212.20000000000005
 
 
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.pgs.com
-Price,6.874
+Price,8.082
 Currency,NOK
 
 REVENUE
-Total Revenue,673100032.0
-Revenue Per Share,0.755
-Revenue Growth,-0.208
+Total Revenue,721500032.0
+Revenue Per Share,0.783
+Revenue Growth,0.223
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.94, forward_eps=1.2)"
-Net Earnings,-79900000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=1.03)"
+Net Earnings,-14500000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,846300032.0
-Debt to Equity,180.872
+Total Debt,835299968.0
+Debt to Equity,158.291
 
 MARGINS
-Profit Margins,-0.1187
-Gross Profit Margins,0.56558996
-Operating Margins,0.28671
+Profit Margins,-0.0201
+Gross Profit Margins,0.60388
+Operating Margins,0.39909
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,180.872
-Price to Cash Flow,1.3149952244508118e-07
-Enterprise to EBITDA,22.348
-Price to Book,13.445312
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=5.736666)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.94, forward_eps=1.2)"
-Enterprise to Revenue,10.372
+Debt to Equity,158.291
+Price to Cash Flow,9.529654765417527e-08
+Enterprise to EBITDA,22.858
+Price to Book,14.600363
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.8388357)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.22, forward_eps=1.03)"
+Enterprise to Revenue,11.69
 
 CASH FLOW
-Free to Cash Flow,52350000.0
-Operating to Cash Flow,437800000.0
+Free to Cash Flow,84725000.0
+Operating to Cash Flow,467200000.0
 
 PROFITABILITY
-Return on Equity,-0.19037001
-Return on Assets,0.04063
-Return on Invested Capital,-0.09441096175175566
-Return on Investment,0.04463687150837989
+Return on Equity,-0.02794
+Return on Assets,0.05381
+Return on Invested Capital,-0.017359033336393537
+Return on Investment,0.00232
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,10 +63,15 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.816000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,5.816000000000001
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

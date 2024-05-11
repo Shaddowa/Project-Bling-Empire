@@ -5,63 +5,68 @@ Country,United States
 Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.loews.com
-Price,72.98
+Price,77.7
 Currency,USD
 
 REVENUE
-Total Revenue,15436000256.0
-Revenue Per Share,66.811
-Revenue Growth,0.134
+Total Revenue,16348999680.0
+Revenue Per Share,72.736
+Revenue Growth,0.118
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.57, forward_eps=2.9)"
-Net Earnings,1532999936.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=2.9)"
+Net Earnings,1516000000.0
+Earnings Growth,0.275
 
 DEBT
-Total Debt,9185999872.0
-Debt to Equity,60.602
+Total Debt,10103000064.0
+Debt to Equity,59.436
 
 MARGINS
-Profit Margins,0.099309996
-Gross Profit Margins,0.36415002
-Operating Margins,0.10902
+Profit Margins,0.09273
+Gross Profit Margins,0.35868
+Operating Margins,0.16686001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.25
-Dividend Yield,0.0034
-Dividend Payout Ratio,0.0381
-Five Year Avg Dividend Yield,0.49
+Dividend Yield,0.0032
+Dividend Payout Ratio,0.037100002
+Five Year Avg Dividend Yield,0.48
 Trailing Annual Dividend Rate,0.25
-Trailing Annual Dividend Yield,0.0034255958
+Trailing Annual Dividend Yield,0.0032175034
 
 FINANCIAL RATIO
-Debt to Equity,60.602
-Price to Cash Flow,1.354046511627907e-05
-Enterprise to EBITDA,7.195
-Price to Book,1.1296506
-Price to Earnings,"PriceToEarnings(trailing_pe=11.077625, forward_pe=25.09655)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.57, forward_eps=2.9)"
-Enterprise to Revenue,1.362
+Debt to Equity,59.436
+Price to Cash Flow,6.792682926829268e-08
+Enterprise to EBITDA,7.505
+Price to Book,1.0700809
+Price to Earnings,"PriceToEarnings(trailing_pe=11.586925, forward_pe=26.889656)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=2.9)"
+Enterprise to Revenue,1.346
 
 CASH FLOW
-Free to Cash Flow,5375000.0
-Operating to Cash Flow,4052000000.0
+Free to Cash Flow,1148000000.0
+Operating to Cash Flow,3385999872.0
 
 PROFITABILITY
-Return on Equity,0.1113
-Return on Assets,0.01977
-Return on Invested Capital,0.1668843834758699
-Return on Investment,0.24725805419354838
+Return on Equity,0.10064
+Return on Assets,0.018919999
+Return on Invested Capital,0.15005443724256154
+Return on Investment,0.1848780487804878
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0049
-SUM DIVIDEND SCORE,4.0049
+5 Year Average,0.0048
+SUM DIVIDEND SCORE,4.0048
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 
@@ -70,11 +75,11 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
-Free Cash Flow,True
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,0.0
 

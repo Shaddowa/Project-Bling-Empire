@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,AMT
 Company,American Tower Corporation
 Country,United States
-Industry,REIT - Specialty
+Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.americantower.com
-Price,200.21
+Price,186.37
 Currency,USD
 
 REVENUE
-Total Revenue,11062500352.0
-Revenue Per Share,23.744
-Revenue Growth,0.055
+Total Revenue,11211100160.0
+Revenue Per Share,24.045
+Revenue Growth,0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=4.85)"
-Net Earnings,714600000.0
-Earnings Growth,-0.301
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.43, forward_eps=6.66)"
+Net Earnings,2064899968.0
+Earnings Growth,1.722
 
 DEBT
-Total Debt,46816198656.0
-Debt to Equity,416.718
+Total Debt,47841001472.0
+Debt to Equity,448.718
 
 MARGINS
-Profit Margins,0.0646
-Gross Profit Margins,0.70584
-Operating Margins,0.34939
+Profit Margins,0.18417999
+Gross Profit Margins,0.71075
+Operating Margins,0.43633
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.8
-Dividend Yield,0.0345
-Dividend Payout Ratio,3.1267002
-Five Year Avg Dividend Yield,2.14
-Trailing Annual Dividend Rate,6.31
-Trailing Annual Dividend Yield,0.031516906
+Dividend Rate,6.48
+Dividend Yield,0.035099998
+Dividend Payout Ratio,1.1063
+Five Year Avg Dividend Yield,2.25
+Trailing Annual Dividend Rate,6.51
+Trailing Annual Dividend Yield,0.034930516
 
 FINANCIAL RATIO
-Debt to Equity,416.718
-Price to Cash Flow,4.1571825001372846e-08
-Enterprise to EBITDA,21.433
-Price to Book,20.286888
-Price to Earnings,"PriceToEarnings(trailing_pe=131.52666, forward_pe=40.67835)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=4.85)"
-Enterprise to Revenue,12.96
+Debt to Equity,448.718
+Price to Cash Flow,3.8002151602766754e-08
+Enterprise to EBITDA,19.736
+Price to Book,21.284033
+Price to Earnings,"PriceToEarnings(trailing_pe=41.6456, forward_pe=27.701202)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.43, forward_eps=6.66)"
+Enterprise to Revenue,12.329
 
 CASH FLOW
-Free to Cash Flow,4745762304.0
-Operating to Cash Flow,4765499904.0
+Free to Cash Flow,4854725120.0
+Operating to Cash Flow,4935499776.0
 
 PROFITABILITY
-Return on Equity,0.054109998
-Return on Assets,0.0336
-Return on Invested Capital,0.015263947530263106
-Return on Investment,0.009276905101908347
+Return on Equity,0.17229
+Return on Assets,0.03897
+Return on Invested Capital,0.043161721203399186
+Return on Investment,0.01849440186296462
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,1.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.021400000000000002
-SUM DIVIDEND SCORE,8.0214
+5 Year Average,0.0225
+SUM DIVIDEND SCORE,5.0225
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,63.50999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,64.50999999999999
 
 
 

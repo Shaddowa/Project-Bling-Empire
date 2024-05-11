@@ -4,64 +4,69 @@ Company,"Hasbro, Inc."
 Country,United States
 Industry,Leisure
 Sector,Consumer Cyclical
-Website,https://www.hasbro.com
-Price,50.08
+Website,https://shop.hasbro.com/en-in
+Price,61.02
 Currency,USD
 
 REVENUE
-Total Revenue,5392900096.0
-Revenue Per Share,38.924
-Revenue Growth,-0.103
+Total Revenue,4759600128.0
+Revenue Per Share,34.26
+Revenue Growth,-0.243
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.02, forward_eps=3.79)"
-Net Earnings,-557100032.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-10.15, forward_eps=4.17)"
+Net Earnings,-1408999936.0
 Earnings Growth,None
 
 DEBT
-Total Debt,3861100032.0
-Debt to Equity,173.673
+Total Debt,3496000000.0
+Debt to Equity,339.45
 
 MARGINS
-Profit Margins,-0.1033
-Gross Profit Margins,0.50571996
-Operating Margins,0.20188
+Profit Margins,-0.29603
+Gross Profit Margins,0.50214
+Operating Margins,0.16545999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.0548
+Dividend Yield,0.0466
 Dividend Payout Ratio,3.2557998
-Five Year Avg Dividend Yield,3.46
+Five Year Avg Dividend Yield,3.62
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.05591054
+Trailing Annual Dividend Yield,0.045886595
 
 FINANCIAL RATIO
-Debt to Equity,173.673
-Price to Cash Flow,1.1253990575660356e-07
-Enterprise to EBITDA,11.638
-Price to Book,3.2264378
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=13.485489)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.02, forward_eps=3.79)"
-Enterprise to Revenue,2.002
+Debt to Equity,339.45
+Price to Cash Flow,6.281376148096323e-08
+Enterprise to EBITDA,16.81
+Price to Book,8.3158045
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.410071)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-10.15, forward_eps=4.17)"
+Enterprise to Revenue,2.378
 
 CASH FLOW
-Free to Cash Flow,454150016.0
-Operating to Cash Flow,445600000.0
+Free to Cash Flow,956637504.0
+Operating to Cash Flow,814600000.0
 
 PROFITABILITY
-Return on Equity,-0.21278
-Return on Assets,0.04991
-Return on Invested Capital,-0.14428531379587328
-Return on Investment,-0.03322003768634466
+Return on Equity,-0.74275
+Return on Assets,0.03894
+Return on Invested Capital,-0.40303201747359574
+Return on Investment,-0.09084461225016119
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0346
-SUM DIVIDEND SCORE,4.0346
+5 Year Average,0.0362
+SUM DIVIDEND SCORE,7.0362
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,16.909999999999997
+Recommendation Key,1
+SUM ANALYST RATING SCORE,17.909999999999997
 
 
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://endur.no
-Price,40.0
+Price,47.95
 Currency,NOK
 
 REVENUE
-Total Revenue,2118800000.0
-Revenue Per Share,68.823
-Revenue Growth,-0.288
+Total Revenue,1978099968.0
+Revenue Per Share,61.249
+Revenue Growth,-0.21
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.37, forward_eps=5.0)"
-Net Earnings,-11300000.0
-Earnings Growth,9.167
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=4.67)"
+Net Earnings,-27000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,646700032.0
-Debt to Equity,62.423
+Total Debt,1011900032.0
+Debt to Equity,84.912
 
 MARGINS
-Profit Margins,-0.00533
-Gross Profit Margins,0.43001
-Operating Margins,0.084139995
+Profit Margins,-0.01365
+Gross Profit Margins,0.4745
+Operating Margins,0.00738
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,62.423
-Price to Cash Flow,7.899807321772639e-07
-Enterprise to EBITDA,8.705
-Price to Book,1.2899572
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.2)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.37, forward_eps=5.0)"
-Enterprise to Revenue,0.895
+Debt to Equity,84.912
+Price to Cash Flow,-2.8133828996282527e-06
+Enterprise to EBITDA,13.922
+Price to Book,1.459426
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.128479)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=4.67)"
+Enterprise to Revenue,1.339
 
 CASH FLOW
-Free to Cash Flow,51900000.0
-Operating to Cash Flow,207600000.0
+Free to Cash Flow,-16812500.0
+Operating to Cash Flow,133000000.0
 
 PROFITABILITY
-Return on Equity,-0.01161
-Return on Assets,0.026789999
-Return on Invested Capital,-0.017473324393817033
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.02587
+Return on Assets,0.01946
+Return on Invested Capital,-0.02668247680737392
+Return on Investment,-0.0019121813031161474
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,1
 
 
 

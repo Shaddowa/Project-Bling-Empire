@@ -5,55 +5,55 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.nordson.com
-Price,254.05
+Price,277.84
 Currency,USD
 
 REVENUE
-Total Revenue,2628632064.0
-Revenue Per Share,46.044
-Revenue Growth,0.052
+Total Revenue,2651347968.0
+Revenue Per Share,46.463
+Revenue Growth,0.037
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.45, forward_eps=11.07)"
-Net Earnings,487492992.0
-Earnings Growth,-0.091
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.56, forward_eps=11.2)"
+Net Earnings,492804000.0
+Earnings Growth,0.05
 
 DEBT
-Total Debt,1862909056.0
-Debt to Equity,71.704
+Total Debt,1755939968.0
+Debt to Equity,64.463
 
 MARGINS
-Profit Margins,0.18546
-Gross Profit Margins,0.54226
-Operating Margins,0.26512
+Profit Margins,0.18586999
+Gross Profit Margins,0.54499
+Operating Margins,0.25340998
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.72
-Dividend Yield,0.0108
-Dividend Payout Ratio,0.3109
+Dividend Yield,0.0098
+Dividend Payout Ratio,0.3111
 Five Year Avg Dividend Yield,0.92
-Trailing Annual Dividend Rate,2.63
-Trailing Annual Dividend Yield,0.010352293
+Trailing Annual Dividend Rate,2.66
+Trailing Annual Dividend Yield,0.009573855
 
 FINANCIAL RATIO
-Debt to Equity,71.704
-Price to Cash Flow,6.847716005961085e-07
-Enterprise to EBITDA,20.326
-Price to Book,5.533857
-Price to Earnings,"PriceToEarnings(trailing_pe=29.846153, forward_pe=22.782295)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.45, forward_eps=11.07)"
-Enterprise to Revenue,6.135
+Debt to Equity,64.463
+Price to Cash Flow,5.426804589112532e-07
+Enterprise to EBITDA,21.548
+Price to Book,5.85559
+Price to Earnings,"PriceToEarnings(trailing_pe=32.58061, forward_pe=24.900894)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.56, forward_eps=11.2)"
+Enterprise to Revenue,6.627
 
 CASH FLOW
-Free to Cash Flow,368297984.0
-Operating to Cash Flow,641281984.0
+Free to Cash Flow,513912000.0
+Operating to Cash Flow,690300992.0
 
 PROFITABILITY
-Return on Equity,0.19928
-Return on Assets,0.0939
-Return on Invested Capital,0.2616837244437261
-Return on Investment,0.057741361412818173
+Return on Equity,0.19062
+Return on Assets,0.09178001
+Return on Invested Capital,0.280649678015198
+Return on Investment,0.04562028456902697
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0092
 SUM DIVIDEND SCORE,8.0092
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,49.110000000000014
+Recommendation Key,1
+SUM ANALYST RATING SCORE,50.110000000000014
 
 
 

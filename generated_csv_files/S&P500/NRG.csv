@@ -5,63 +5,68 @@ Country,United States
 Industry,Utilities—Independent Power Producers
 Sector,Utilities
 Website,https://www.nrg.com
-Price,53.69
+Price,81.76
 Currency,USD
 
 REVENUE
-Total Revenue,29870999552.0
-Revenue Per Share,129.874
-Revenue Growth,-0.066
+Total Revenue,28529999872.0
+Revenue Per Share,128.081
+Revenue Growth,-0.038
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=6.39)"
-Net Earnings,-1816999936.0
-Earnings Growth,3.946
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.01, forward_eps=6.28)"
+Net Earnings,1576999936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,11911000064.0
-Debt to Equity,338.573
+Total Debt,10887999488.0
+Debt to Equity,330.24
 
 MARGINS
-Profit Margins,-0.059559997
-Gross Profit Margins,0.029560002
-Operating Margins,0.07287
+Profit Margins,0.05762
+Gross Profit Margins,0.17841
+Operating Margins,0.11913
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.63
-Dividend Yield,0.03
-Dividend Payout Ratio,0.2708
-Five Year Avg Dividend Yield,2.66
-Trailing Annual Dividend Rate,1.51
-Trailing Annual Dividend Yield,0.028124418
+Dividend Yield,0.0195
+Dividend Payout Ratio,0.2197
+Five Year Avg Dividend Yield,2.81
+Trailing Annual Dividend Rate,1.57
+Trailing Annual Dividend Yield,0.019202543
 
 FINANCIAL RATIO
-Debt to Equity,338.573
-Price to Cash Flow,2.173913015601997e-08
-Enterprise to EBITDA,-39.589
-Price to Book,4.337918
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.489828)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.7, forward_eps=6.39)"
-Enterprise to Revenue,0.816
+Debt to Equity,330.24
+Price to Cash Flow,8.147065857946868e-08
+Enterprise to EBITDA,10.024
+Price to Book,6.5783267
+Price to Earnings,"PriceToEarnings(trailing_pe=11.932953, forward_pe=13.320064)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.01, forward_eps=6.28)"
+Enterprise to Revenue,1.005
 
 CASH FLOW
-Free to Cash Flow,2495500032.0
-Operating to Cash Flow,-1860000000.0
+Free to Cash Flow,1026750016.0
+Operating to Cash Flow,1644000000.0
 
 PROFITABILITY
-Return on Equity,-0.41142
-Return on Assets,-0.03799
-Return on Invested Capital,-0.1525480584610157
-Return on Investment,-0.035281552155339804
+Return on Equity,0.5156
+Return on Assets,0.03405
+Return on Invested Capital,0.14483835491508756
+Return on Investment,0.01961442706467662
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.026600000000000002
-SUM DIVIDEND SCORE,8.0266
+5 Year Average,0.0281
+SUM DIVIDEND SCORE,8.0281
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.349999999999994
+Recommendation Key,1
+SUM ANALYST RATING SCORE,5.349999999999994
 
 
 

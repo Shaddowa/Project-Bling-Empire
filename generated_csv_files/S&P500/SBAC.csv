@@ -5,55 +5,55 @@ Country,United States
 Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.sbasite.com
-Price,232.55
+Price,198.48
 Currency,USD
 
 REVENUE
-Total Revenue,2722653952.0
-Revenue Per Share,25.161
-Revenue Growth,0.01
+Total Revenue,2693929984.0
+Revenue Per Share,24.898
+Revenue Growth,-0.026
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=5.98)"
-Net Earnings,495563008.0
-Earnings Growth,-0.121
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.11, forward_eps=8.46)"
+Net Earnings,555137984.0
+Earnings Growth,0.527
 
 DEBT
-Total Debt,14766687232.0
+Total Debt,14432543744.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.18201
-Gross Profit Margins,0.7557
-Operating Margins,0.40714002
+Profit Margins,0.20607
+Gross Profit Margins,0.77380997
+Operating Margins,0.55029
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.4
-Dividend Yield,0.0149
-Dividend Payout Ratio,0.71650004
+Dividend Rate,3.92
+Dividend Yield,0.0198
+Dividend Payout Ratio,0.6922
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,3.26
-Trailing Annual Dividend Yield,0.01401849
+Trailing Annual Dividend Rate,3.53
+Trailing Annual Dividend Yield,0.017785167
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,3.0658010246789193e-07
-Enterprise to EBITDA,22.11
+Price to Cash Flow,2.061825045896929e-07
+Enterprise to EBITDA,19.701
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=49.980263, forward_pe=38.11204)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=5.98)"
-Enterprise to Revenue,14.398
+Price to Earnings,"PriceToEarnings(trailing_pe=38.65166, forward_pe=23.346334)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.11, forward_eps=8.46)"
+Enterprise to Revenue,13.159
 
 CASH FLOW
-Free to Cash Flow,743394624.0
-Operating to Cash Flow,1400416000.0
+Free to Cash Flow,957937728.0
+Operating to Cash Flow,1527677952.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.0644
-Return on Invested Capital,0.03355952501856592
-Return on Investment,0.0074332853043659565
+Return on Assets,0.07235
+Return on Invested Capital,0.03846432033805261
+Return on Investment,0.008862950325532682
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,100.49000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,101.49000000000001
 
 
 

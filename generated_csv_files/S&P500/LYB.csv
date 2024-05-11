@@ -5,63 +5,68 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.lyondellbasell.com
-Price,95.39
+Price,101.63
 Currency,USD
 
 REVENUE
-Total Revenue,41384001536.0
-Revenue Per Share,127.14
-Revenue Growth,-0.133
+Total Revenue,40784998400.0
+Revenue Per Share,125.589
+Revenue Growth,-0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.99, forward_eps=9.26)"
-Net Earnings,2280000000.0
-Earnings Growth,0.309
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.48, forward_eps=9.9)"
+Net Earnings,2111000064.0
+Earnings Growth,-0.0
 
 DEBT
-Total Debt,12760999936.0
-Debt to Equity,95.71
+Total Debt,12798999552.0
+Debt to Equity,97.65
 
 MARGINS
-Profit Margins,0.05514
-Gross Profit Margins,0.1237
-Operating Margins,0.09751
+Profit Margins,0.051810004
+Gross Profit Margins,0.123500004
+Operating Margins,0.07053
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.0
-Dividend Yield,0.052399997
-Dividend Payout Ratio,0.6981
-Five Year Avg Dividend Yield,5.12
-Trailing Annual Dividend Rate,4.88
-Trailing Annual Dividend Yield,0.051158402
+Dividend Yield,0.0493
+Dividend Payout Ratio,0.7716
+Five Year Avg Dividend Yield,5.14
+Trailing Annual Dividend Rate,5.0
+Trailing Annual Dividend Yield,0.049198072
 
 FINANCIAL RATIO
-Debt to Equity,95.71
-Price to Cash Flow,5.798131890146813e-08
-Enterprise to EBITDA,8.428
-Price to Book,2.344084
-Price to Earnings,"PriceToEarnings(trailing_pe=13.652361, forward_pe=10.305615)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.99, forward_eps=9.26)"
-Enterprise to Revenue,0.989
+Debt to Equity,97.65
+Price to Cash Flow,7.062266076456944e-08
+Enterprise to EBITDA,9.357
+Price to Book,2.5412385
+Price to Earnings,"PriceToEarnings(trailing_pe=15.643518, forward_pe=10.239394)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.48, forward_eps=9.9)"
+Enterprise to Revenue,1.069
 
 CASH FLOW
-Free to Cash Flow,1645874944.0
-Operating to Cash Flow,5041999872.0
+Free to Cash Flow,1435374976.0
+Operating to Cash Flow,4345999872.0
 
 PROFITABILITY
-Return on Equity,0.17839001
-Return on Assets,0.061389998
-Return on Invested Capital,0.17866938360324672
-Return on Investment,-0.035736677115987464
+Return on Equity,0.16319999
+Return on Assets,0.056220002
+Return on Invested Capital,0.164934770787681
+Return on Investment,-0.030772595685131195
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,3.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0512
-SUM DIVIDEND SCORE,8.0512
+5 Year Average,0.051399999999999994
+SUM DIVIDEND SCORE,7.0514
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,18.629999999999995
+Recommendation Key,0
+SUM ANALYST RATING SCORE,18.629999999999995
 
 
 

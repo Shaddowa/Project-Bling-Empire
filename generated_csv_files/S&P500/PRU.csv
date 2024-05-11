@@ -5,54 +5,54 @@ Country,United States
 Industry,Insurance—Life
 Sector,Financial Services
 Website,https://www.prudential.com
-Price,105.77
+Price,117.95
 Currency,USD
 
 REVENUE
-Total Revenue,51527000064.0
-Revenue Per Share,141.015
-Revenue Growth,-0.587
+Total Revenue,60443000832.0
+Revenue Per Share,167.143
+Revenue Growth,0.379
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=13.38)"
-Net Earnings,1304999936.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.93, forward_eps=14.6)"
+Net Earnings,2138000000.0
+Earnings Growth,-0.206
 
 DEBT
-Total Debt,31896999936.0
-Debt to Equity,118.369
+Total Debt,34625998848.0
+Debt to Equity,117.719
 
 MARGINS
-Profit Margins,0.02577
-Gross Profit Margins,0.21565
-Operating Margins,-0.12668
+Profit Margins,0.0358
+Gross Profit Margins,0.26691
+Operating Margins,0.05913
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.0
-Dividend Yield,0.0471
-Dividend Payout Ratio,1.3983
-Five Year Avg Dividend Yield,4.97
-Trailing Annual Dividend Rate,4.95
-Trailing Annual Dividend Yield,0.04679966
+Dividend Rate,5.2
+Dividend Yield,0.0438
+Dividend Payout Ratio,0.85160005
+Five Year Avg Dividend Yield,5.01
+Trailing Annual Dividend Rate,5.05
+Trailing Annual Dividend Yield,0.042814754
 
 FINANCIAL RATIO
-Debt to Equity,118.369
-Price to Cash Flow,1.9751296024186613e-08
-Enterprise to EBITDA,-27.928
-Price to Book,1.4867381
-Price to Earnings,"PriceToEarnings(trailing_pe=30.00565, forward_pe=7.9387145)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=13.38)"
-Enterprise to Revenue,0.821
+Debt to Equity,117.719
+Price to Cash Flow,6.431064752863193e-08
+Enterprise to EBITDA,14.001
+Price to Book,1.5681953
+Price to Earnings,"PriceToEarnings(trailing_pe=20.038786, forward_pe=8.139041)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.93, forward_eps=14.6)"
+Enterprise to Revenue,0.736
 
 CASH FLOW
-Free to Cash Flow,5377874944.0
-Operating to Cash Flow,4784999936.0
+Free to Cash Flow,1847750016.0
+Operating to Cash Flow,10387999744.0
 
 PROFITABILITY
-Return on Equity,0.06123
-Return on Assets,-0.00145
-Return on Invested Capital,0.040912936504856355
+Return on Equity,0.070549995
+Return on Assets,0.00246
+Return on Invested Capital,0.06174551107410797
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.049699999999999994
-SUM DIVIDEND SCORE,8.0497
+5 Year Average,0.0501
+SUM DIVIDEND SCORE,8.0501
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,2.1700000000000017
+Recommendation Key,0
+SUM ANALYST RATING SCORE,2.1700000000000017
 
 
 

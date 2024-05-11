@@ -5,63 +5,68 @@ Country,United States
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.averydennison.com
-Price,200.41
+Price,227.64
 Currency,USD
 
 REVENUE
-Total Revenue,8279699968.0
-Revenue Per Share,102.503
-Revenue Growth,-0.094
+Total Revenue,8450599936.0
+Revenue Per Share,104.846
+Revenue Growth,0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.95, forward_eps=9.44)"
-Net Earnings,482800000.0
-Earnings Growth,-0.367
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.84, forward_eps=10.53)"
+Net Earnings,554200000.0
+Earnings Growth,0.43
 
 DEBT
-Total Debt,3313600000.0
-Debt to Equity,160.574
+Total Debt,3240399872.0
+Debt to Equity,147.024
 
 MARGINS
-Profit Margins,0.05831
-Gross Profit Margins,0.2635
-Operating Margins,0.120670006
+Profit Margins,0.06558
+Gross Profit Margins,0.28015
+Operating Margins,0.124110006
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.24
-Dividend Yield,0.0161
-Dividend Payout Ratio,0.52529997
-Five Year Avg Dividend Yield,1.65
-Trailing Annual Dividend Rate,3.12
-Trailing Annual Dividend Yield,0.015568085
+Dividend Rate,3.52
+Dividend Yield,0.0156
+Dividend Payout Ratio,0.4737
+Five Year Avg Dividend Yield,1.62
+Trailing Annual Dividend Rate,3.24
+Trailing Annual Dividend Yield,0.014233
 
 FINANCIAL RATIO
-Debt to Equity,160.574
-Price to Cash Flow,3.789414206184312e-07
-Enterprise to EBITDA,16.558
-Price to Book,7.8463516
-Price to Earnings,"PriceToEarnings(trailing_pe=33.781513, forward_pe=21.292374)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.95, forward_eps=9.44)"
-Enterprise to Revenue,2.326
+Debt to Equity,147.024
+Price to Cash Flow,3.084105156587733e-07
+Enterprise to EBITDA,15.874
+Price to Book,8.250201
+Price to Earnings,"PriceToEarnings(trailing_pe=32.983917, forward_pe=21.425451)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.84, forward_eps=10.53)"
+Enterprise to Revenue,2.508
 
 CASH FLOW
-Free to Cash Flow,530424992.0
-Operating to Cash Flow,859900032.0
+Free to Cash Flow,731524992.0
+Operating to Cash Flow,943900032.0
 
 PROFITABILITY
-Return on Equity,0.23719999
-Return on Assets,0.069359995
-Return on Invested Capital,0.14570255802376195
-Return on Investment,-0.07304084720121029
+Return on Equity,0.26099002
+Return on Assets,0.08003
+Return on Invested Capital,0.17102827342756444
+Return on Investment,-0.19377622377622378
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0165
-SUM DIVIDEND SCORE,9.0165
+5 Year Average,0.016200000000000003
+SUM DIVIDEND SCORE,9.0162
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.389999999999986
+Recommendation Key,1
+SUM ANALYST RATING SCORE,35.389999999999986
 
 
 

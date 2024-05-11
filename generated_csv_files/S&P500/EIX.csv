@@ -5,63 +5,68 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.edison.com
-Price,67.04
+Price,74.76
 Currency,USD
 
 REVENUE
-Total Revenue,16647999488.0
-Revenue Per Share,43.524
-Revenue Growth,-0.101
+Total Revenue,16449999872.0
+Revenue Per Share,42.894
+Revenue Growth,0.028
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=5.1)"
-Net Earnings,1234000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.27, forward_eps=5.63)"
+Net Earnings,876000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,34767998976.0
-Debt to Equity,197.871
+Total Debt,36652998656.0
+Debt to Equity,208.078
 
 MARGINS
-Profit Margins,0.07412
-Gross Profit Margins,0.59076
-Operating Margins,0.22416
+Profit Margins,0.05325
+Gross Profit Margins,0.59204
+Operating Margins,0.22511
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.12
-Dividend Yield,0.0462
-Dividend Payout Ratio,0.919
-Five Year Avg Dividend Yield,4.2
-Trailing Annual Dividend Rate,2.95
-Trailing Annual Dividend Yield,0.04400358
+Dividend Yield,0.0417
+Dividend Payout Ratio,1.337
+Five Year Avg Dividend Yield,4.22
+Trailing Annual Dividend Rate,3.035
+Trailing Annual Dividend Yield,0.040596575
 
 FINANCIAL RATIO
-Debt to Equity,197.871
-Price to Cash Flow,-2.6812314825812204e-08
-Enterprise to EBITDA,10.982
-Price to Book,1.8909682
-Price to Earnings,"PriceToEarnings(trailing_pe=21.028038, forward_pe=13.235294)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=5.1)"
-Enterprise to Revenue,3.85
+Debt to Equity,208.078
+Price to Cash Flow,-6.500868055555556e-08
+Enterprise to EBITDA,11.199
+Price to Book,2.131432
+Price to Earnings,"PriceToEarnings(trailing_pe=32.991188, forward_pe=13.301953)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.27, forward_eps=5.63)"
+Enterprise to Revenue,4.169
 
 CASH FLOW
-Free to Cash Flow,-2517499904.0
-Operating to Cash Flow,3649999872.0
+Free to Cash Flow,-1152000000.0
+Operating to Cash Flow,4534000128.0
 
 PROFITABILITY
-Return on Equity,0.07079
-Return on Assets,0.02781
-Return on Invested Capital,0.03549240781975635
-Return on Investment,-0.0049538338016860695
+Return on Equity,0.04982
+Return on Assets,0.02869
+Return on Invested Capital,0.023899818058047403
+Return on Investment,-0.004351713859910581
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.042
-SUM DIVIDEND SCORE,8.042
+5 Year Average,0.042199999999999994
+SUM DIVIDEND SCORE,8.0422
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,11.11
+Recommendation Key,1
+SUM ANALYST RATING SCORE,12.11
 
 
 

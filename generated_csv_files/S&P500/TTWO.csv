@@ -5,27 +5,27 @@ Country,United States
 Industry,Electronic Gaming & Multimedia
 Sector,Communication Services
 Website,https://www.take2games.com
-Price,168.5
+Price,145.68
 Currency,USD
 
 REVENUE
-Total Revenue,5437899776.0
-Revenue Per Share,32.215
-Revenue Growth,-0.068
+Total Revenue,5396400128.0
+Revenue Per Share,31.851
+Revenue Growth,-0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-9.07, forward_eps=7.24)"
-Net Earnings,-1513299968.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-8.71, forward_eps=5.96)"
+Net Earnings,-1451500032.0
 Earnings Growth,None
 
 DEBT
-Total Debt,3514700032.0
-Debt to Equity,41.692
+Total Debt,3526099968.0
+Debt to Equity,41.442
 
 MARGINS
-Profit Margins,-0.27829
-Gross Profit Margins,0.51421
-Operating Margins,-0.11938
+Profit Margins,-0.26898
+Gross Profit Margins,0.52074003
+Operating Margins,-0.0557
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,41.692
-Price to Cash Flow,1.0678532166262588e-07
-Enterprise to EBITDA,22.844
-Price to Book,3.375547
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=23.120167)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-9.07, forward_eps=7.24)"
-Enterprise to Revenue,5.734
+Debt to Equity,41.442
+Price to Cash Flow,8.681912476342919e-08
+Enterprise to EBITDA,19.415
+Price to Book,2.9232128
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=24.476511)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-8.71, forward_eps=5.96)"
+Enterprise to Revenue,5.094
 
 CASH FLOW
-Free to Cash Flow,1567537536.0
-Operating to Cash Flow,-84500000.0
+Free to Cash Flow,1680274944.0
+Operating to Cash Flow,-41900000.0
 
 PROFITABILITY
-Return on Equity,-0.16943
-Return on Assets,-0.0191
-Return on Invested Capital,-0.4305630446043166
-Return on Investment,-0.19781698928104574
+Return on Equity,-0.16075
+Return on Assets,-0.01592
+Return on Invested Capital,-0.4116446001616276
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,54.120000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,55.120000000000005
 
 
 

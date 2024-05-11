@@ -5,63 +5,68 @@ Country,United States
 Industry,Consumer Electronics
 Sector,Technology
 Website,https://www.apple.com
-Price,194.17
+Price,184.32
 Currency,USD
 
 REVENUE
-Total Revenue,383285002240.0
-Revenue Per Share,24.344
-Revenue Growth,-0.007
+Total Revenue,381623009280.0
+Revenue Per Share,24.537
+Revenue Growth,-0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.14, forward_eps=7.17)"
-Net Earnings,96995000320.0
-Earnings Growth,0.135
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.43, forward_eps=7.23)"
+Net Earnings,100389003264.0
+Earnings Growth,0.007
 
 DEBT
-Total Debt,123930001408.0
-Debt to Equity,199.418
+Total Debt,104590000128.0
+Debt to Equity,140.968
 
 MARGINS
-Profit Margins,0.25305998
-Gross Profit Margins,0.44131002
-Operating Margins,0.30134
+Profit Margins,0.26306
+Gross Profit Margins,0.45586
+Operating Margins,0.30743
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.96
-Dividend Yield,0.005
-Dividend Payout Ratio,0.1533
-Five Year Avg Dividend Yield,0.8
-Trailing Annual Dividend Rate,0.94
-Trailing Annual Dividend Yield,0.0048411186
+Dividend Rate,1.0
+Dividend Yield,0.0055
+Dividend Payout Ratio,0.14930001
+Five Year Avg Dividend Yield,0.73
+Trailing Annual Dividend Rate,0.96
+Trailing Annual Dividend Yield,0.005208333
 
 FINANCIAL RATIO
-Debt to Equity,199.418
-Price to Cash Flow,2.341445672848513e-09
-Enterprise to EBITDA,24.281
-Price to Book,48.141106
-Price to Earnings,"PriceToEarnings(trailing_pe=31.338762, forward_pe=26.836819)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.14, forward_eps=7.17)"
-Enterprise to Revenue,7.971
+Debt to Equity,140.968
+Price to Cash Flow,2.160471537732257e-09
+Enterprise to EBITDA,21.942
+Price to Book,37.843708
+Price to Earnings,"PriceToEarnings(trailing_pe=28.468119, forward_pe=25.31812)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.43, forward_eps=7.23)"
+Enterprise to Revenue,7.453
 
 CASH FLOW
-Free to Cash Flow,82179997696.0
-Operating to Cash Flow,110543003648.0
+Free to Cash Flow,84726874112.0
+Operating to Cash Flow,110563000320.0
 
 PROFITABILITY
-Return on Equity,1.7195
-Return on Assets,0.20256001
-Return on Invested Capital,0.7826595595488345
-Return on Investment,-0.3135952160362108
+Return on Equity,1.4725
+Return on Assets,0.22073999
+Return on Invested Capital,0.9598336660913909
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.008
-SUM DIVIDEND SCORE,8.008
+5 Year Average,0.0073
+SUM DIVIDEND SCORE,8.0073
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,66.94999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,67.94999999999999
 
 
 

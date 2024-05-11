@@ -5,63 +5,68 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.ibm.com
-Price,190.43
+Price,166.27
 Currency,USD
 
 REVENUE
-Total Revenue,61859999744.0
-Revenue Per Share,67.888
-Revenue Growth,0.041
+Total Revenue,62068998144.0
+Revenue Per Share,67.937
+Revenue Growth,0.015
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.15, forward_eps=10.57)"
-Net Earnings,7513999872.0
-Earnings Growth,0.197
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.83, forward_eps=10.41)"
+Net Earnings,8154999808.0
+Earnings Growth,0.701
 
 DEBT
-Total Debt,59934998528.0
-Debt to Equity,265.047
+Total Debt,62870999040.0
+Debt to Equity,269.451
 
 MARGINS
-Profit Margins,0.12127
-Gross Profit Margins,0.55448
-Operating Margins,0.22972
+Profit Margins,0.13179
+Gross Profit Margins,0.55635
+Operating Margins,0.102139995
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.64
-Dividend Yield,0.0354
-Dividend Payout Ratio,0.8135
-Five Year Avg Dividend Yield,4.9
-Trailing Annual Dividend Rate,6.63
-Trailing Annual Dividend Yield,0.034815945
+Dividend Rate,6.68
+Dividend Yield,0.04
+Dividend Payout Ratio,0.7528
+Five Year Avg Dividend Yield,4.84
+Trailing Annual Dividend Rate,6.64
+Trailing Annual Dividend Yield,0.039935045
 
 FINANCIAL RATIO
-Debt to Equity,265.047
-Price to Cash Flow,1.9352824434672667e-08
-Enterprise to EBITDA,15.824
-Price to Book,7.6081834
-Price to Earnings,"PriceToEarnings(trailing_pe=22.99632, forward_pe=17.731316)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.15, forward_eps=10.57)"
-Enterprise to Revenue,3.524
+Debt to Equity,269.451
+Price to Cash Flow,1.515773231830747e-08
+Enterprise to EBITDA,13.725
+Price to Book,6.600979
+Price to Earnings,"PriceToEarnings(trailing_pe=18.929785, forward_pe=16.056677)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.83, forward_eps=10.41)"
+Enterprise to Revenue,3.18
 
 CASH FLOW
-Free to Cash Flow,9684374528.0
-Operating to Cash Flow,13930999808.0
+Free to Cash Flow,11027375104.0
+Operating to Cash Flow,14325000192.0
 
 PROFITABILITY
-Return on Equity,0.33668998
-Return on Assets,0.04468
-Return on Invested Capital,0.12536915080428876
-Return on Investment,0.06757194129496402
+Return on Equity,0.36240003
+Return on Assets,0.045819998
+Return on Invested Capital,0.12971004006993878
+Return on Investment,0.05006138617556783
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.049
-SUM DIVIDEND SCORE,8.049
+5 Year Average,0.0484
+SUM DIVIDEND SCORE,8.0484
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,47.849999999999994
+Recommendation Key,1
+SUM ANALYST RATING SCORE,48.849999999999994
 
 
 

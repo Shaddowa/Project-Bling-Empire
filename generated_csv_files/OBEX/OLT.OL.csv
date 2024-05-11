@@ -5,55 +5,55 @@ Country,Norway
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.olt.no
-Price,200.0
+Price,223.0
 Currency,NOK
 
 REVENUE
-Total Revenue,4648999936.0
-Revenue Per Share,40.711
-Revenue Growth,0.064
+Total Revenue,4792000000.0
+Revenue Per Share,47.222
+Revenue Growth,0.133
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-8.0, forward_eps=19.12)"
-Net Earnings,-856000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-15.0, forward_eps=19.6)"
+Net Earnings,-1568000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,21275000832.0
-Debt to Equity,66.947
+Total Debt,21223999488.0
+Debt to Equity,69.733
 
 MARGINS
-Profit Margins,-0.18413
-Gross Profit Margins,0.69305
-Operating Margins,0.66047996
+Profit Margins,-0.32721
+Gross Profit Margins,0.69658
+Operating Margins,0.61463
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.5
-Dividend Yield,0.0323
+Dividend Rate,7.0
+Dividend Yield,0.0307
 Dividend Payout Ratio,0.9286
 Five Year Avg Dividend Yield,1.67
-Trailing Annual Dividend Rate,6.5
-Trailing Annual Dividend Yield,0.0325
+Trailing Annual Dividend Rate,7.0
+Trailing Annual Dividend Yield,0.031390134
 
 FINANCIAL RATIO
-Debt to Equity,66.947
-Price to Cash Flow,1.2761904243325795e-07
-Enterprise to EBITDA,13.72
-Price to Book,0.64980197
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.512552)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-8.0, forward_eps=19.12)"
-Enterprise to Revenue,9.001
+Debt to Equity,69.733
+Price to Cash Flow,1.4175798201892015e-07
+Enterprise to EBITDA,14.079
+Price to Book,0.76877946
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=11.632653)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-15.0, forward_eps=19.6)"
+Enterprise to Revenue,9.281
 
 CASH FLOW
-Free to Cash Flow,1575000064.0
-Operating to Cash Flow,2082000000.0
+Free to Cash Flow,1608375040.0
+Operating to Cash Flow,2030000000.0
 
 PROFITABILITY
-Return on Equity,-0.02803
-Return on Assets,0.03012
-Return on Invested Capital,-0.040235015467862324
-Return on Investment,-0.004305835010060362
+Return on Equity,-0.052389998
+Return on Assets,0.03191
+Return on Invested Capital,-0.07387862871821416
+Return on Investment,-0.007337388862891905
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0167
 SUM DIVIDEND SCORE,4.0167
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,22.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,22.0
 
 
 

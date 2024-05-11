@@ -5,63 +5,68 @@ Country,United States
 Industry,Apparel Manufacturing
 Sector,Consumer Cyclical
 Website,https://www.vfc.com
-Price,17.05
+Price,12.73
 Currency,USD
 
 REVENUE
-Total Revenue,11390855168.0
-Revenue Per Share,29.352
-Revenue Growth,-0.015
+Total Revenue,10820470784.0
+Revenue Per Share,27.871
+Revenue Growth,-0.162
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=1.92)"
-Net Earnings,-215146000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.97, forward_eps=1.33)"
+Net Earnings,-765465984.0
 Earnings Growth,None
 
 DEBT
-Total Debt,7802625024.0
-Debt to Equity,353.053
+Total Debt,7341882880.0
+Debt to Equity,348.09
 
 MARGINS
-Profit Margins,-0.01889
-Gross Profit Margins,0.52294
-Operating Margins,0.11978
+Profit Margins,-0.07074
+Gross Profit Margins,0.52269
+Operating Margins,0.09316
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.36
-Dividend Yield,0.0207
+Dividend Yield,0.029000001
 Dividend Payout Ratio,5.3666997
-Five Year Avg Dividend Yield,4.11
-Trailing Annual Dividend Rate,1.41
-Trailing Annual Dividend Yield,0.08269795
+Five Year Avg Dividend Yield,4.36
+Trailing Annual Dividend Rate,0.99
+Trailing Annual Dividend Yield,0.077769056
 
 FINANCIAL RATIO
-Debt to Equity,353.053
-Price to Cash Flow,2.667803387706211e-08
-Enterprise to EBITDA,10.963
-Price to Book,3.052965
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.036459)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.55, forward_eps=1.92)"
-Enterprise to Revenue,1.234
+Debt to Equity,348.09
+Price to Cash Flow,1.2355034002643925e-08
+Enterprise to EBITDA,10.469
+Price to Book,2.2912443
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.345864)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.97, forward_eps=1.33)"
+Enterprise to Revenue,1.034
 
 CASH FLOW
-Free to Cash Flow,650347776.0
-Operating to Cash Flow,238900992.0
+Free to Cash Flow,1006067648.0
+Operating to Cash Flow,1283424000.0
 
 PROFITABILITY
-Return on Equity,-0.08125
-Return on Assets,0.04679
-Return on Invested Capital,-0.02757354085087193
-Return on Investment,-0.011744226034837576
+Return on Equity,-0.282
+Return on Assets,0.03562
+Return on Invested Capital,-0.10426017357476404
+Return on Investment,-0.03133508473743676
 
 DIVIDEND SCORE
 Dividend  Rate,1.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.041100000000000005
-SUM DIVIDEND SCORE,2.0411
+5 Year Average,0.0436
+SUM DIVIDEND SCORE,2.0436
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,12.57
+Recommendation Key,0
+SUM ANALYST RATING SCORE,12.57
 
 
 

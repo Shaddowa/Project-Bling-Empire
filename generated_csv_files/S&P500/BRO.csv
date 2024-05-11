@@ -5,76 +5,81 @@ Country,United States
 Industry,Insurance Brokers
 Sector,Financial Services
 Website,https://www.bbinsurance.com
-Price,77.19
+Price,85.61
 Currency,USD
 
 REVENUE
-Total Revenue,4204699904.0
-Revenue Per Share,15.038
-Revenue Growth,0.124
+Total Revenue,4335699968.0
+Revenue Per Share,15.465
+Revenue Growth,0.118
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.05, forward_eps=3.56)"
-Net Earnings,870499968.0
-Earnings Growth,0.833
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.24, forward_eps=3.82)"
+Net Earnings,914200000.0
+Earnings Growth,0.229
 
 DEBT
-Total Debt,3974200064.0
-Debt to Equity,71.238
+Total Debt,4107000064.0
+Debt to Equity,70.969
 
 MARGINS
-Profit Margins,0.20703
-Gross Profit Margins,0.47996
-Operating Margins,0.24065
+Profit Margins,0.21392
+Gross Profit Margins,0.48183998
+Operating Margins,0.31774
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.52
-Dividend Yield,0.0068
-Dividend Payout Ratio,0.1557
-Five Year Avg Dividend Yield,0.75
-Trailing Annual Dividend Rate,0.475
-Trailing Annual Dividend Yield,0.0061536464
+Dividend Yield,0.006
+Dividend Payout Ratio,0.1512
+Five Year Avg Dividend Yield,0.72
+Trailing Annual Dividend Rate,0.49
+Trailing Annual Dividend Yield,0.0057236305
 
 FINANCIAL RATIO
-Debt to Equity,71.238
-Price to Cash Flow,9.17942756745819e-08
-Enterprise to EBITDA,18.377
-Price to Book,3.9220488
-Price to Earnings,"PriceToEarnings(trailing_pe=25.206556, forward_pe=21.595505)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.05, forward_eps=3.56)"
-Enterprise to Revenue,5.98
+Debt to Equity,70.969
+Price to Cash Flow,1.245258093791461e-07
+Enterprise to EBITDA,19.569
+Price to Book,4.294663
+Price to Earnings,"PriceToEarnings(trailing_pe=26.873457, forward_pe=22.793194)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.24, forward_eps=3.82)"
+Enterprise to Revenue,6.541
 
 CASH FLOW
-Free to Cash Flow,837524992.0
-Operating to Cash Flow,1009500032.0
+Free to Cash Flow,699212480.0
+Operating to Cash Flow,962499968.0
 
 PROFITABILITY
-Return on Equity,0.17093
-Return on Assets,0.05029
-Return on Invested Capital,0.2190377811101614
-Return on Investment,0.02620409295605057
+Return on Equity,0.17447
+Return on Assets,0.054970004
+Return on Invested Capital,0.2225955639739424
+Return on Investment,0.027914503816793893
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0075
-SUM DIVIDEND SCORE,8.0075
+5 Year Average,0.0072
+SUM DIVIDEND SCORE,8.0072
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,10.930000000000007
+Recommendation Key,0
+SUM ANALYST RATING SCORE,10.930000000000007
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,4.0
+CRITERIA PASS COUNT,2.0
 

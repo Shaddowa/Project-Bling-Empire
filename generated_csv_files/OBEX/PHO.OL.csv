@@ -5,27 +5,27 @@ Country,Norway
 Industry,Drug Manufacturers—Specialty & Generic
 Sector,Healthcare
 Website,https://www.photocure.com
-Price,65.4
+Price,59.0
 Currency,NOK
 
 REVENUE
-Total Revenue,462300992.0
-Revenue Per Share,17.021
-Revenue Growth,0.007
+Total Revenue,500656992.0
+Revenue Per Share,18.471
+Revenue Growth,0.368
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.31)"
-Net Earnings,-33692000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=1.84)"
+Net Earnings,267000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,24700000.0
-Debt to Equity,5.267
+Total Debt,19600000.0
+Debt to Equity,4.065
 
 MARGINS
-Profit Margins,-0.07288
-Gross Profit Margins,0.94405
-Operating Margins,-0.03581
+Profit Margins,0.00053
+Gross Profit Margins,0.94778997
+Operating Margins,0.15767999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,5.267
-Price to Cash Flow,5.990202314396348e-06
-Enterprise to EBITDA,-600.316
-Price to Book,3.8786128
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=216.4516)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=0.31)"
-Enterprise to Revenue,3.436
+Debt to Equity,4.065
+Price to Cash Flow,-0.00014114774114774113
+Enterprise to EBITDA,27.191
+Price to Book,3.2495642
+Price to Earnings,"PriceToEarnings(trailing_pe=1445.0, forward_pe=31.413042)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=1.84)"
+Enterprise to Revenue,2.65
 
 CASH FLOW
-Free to Cash Flow,11201625.0
-Operating to Cash Flow,29386000.0
+Free to Cash Flow,-409500.0
+Operating to Cash Flow,48308000.0
 
 PROFITABILITY
-Return on Equity,-0.071040004
-Return on Assets,-0.01544
-Return on Invested Capital,-1.3640476276103661
+Return on Equity,0.00057
+Return on Assets,0.024300002
+Return on Invested Capital,0.013622436617230607
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,67.2
+Recommendation Key,1
+SUM ANALYST RATING SCORE,68.2
 
 
 

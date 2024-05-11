@@ -5,63 +5,68 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.huntington.com
-Price,12.94
+Price,14.02
 Currency,USD
 
 REVENUE
-Total Revenue,6958000128.0
-Revenue Per Share,4.812
-Revenue Growth,-0.145
+Total Revenue,6754999808.0
+Revenue Per Share,4.666
+Revenue Growth,-0.104
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.24, forward_eps=1.38)"
-Net Earnings,1816999936.0
-Earnings Growth,-0.646
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.11, forward_eps=1.43)"
+Net Earnings,1627000064.0
+Earnings Growth,-0.333
 
 DEBT
-Total Debt,13013999616.0
+Total Debt,15907000320.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.2804
+Profit Margins,0.26173002
 Gross Profit Margins,0.0
-Operating Margins,0.31660998
+Operating Margins,0.35441002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.62
-Dividend Yield,0.0475
-Dividend Payout Ratio,0.5
-Five Year Avg Dividend Yield,4.72
+Dividend Yield,0.044099998
+Dividend Payout Ratio,0.5586
+Five Year Avg Dividend Yield,4.77
 Trailing Annual Dividend Rate,0.62
-Trailing Annual Dividend Yield,0.047913447
+Trailing Annual Dividend Yield,0.044222537
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.1145273
-Price to Earnings,"PriceToEarnings(trailing_pe=10.524194, forward_pe=9.456522)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.24, forward_eps=1.38)"
-Enterprise to Revenue,3.436
+Price to Book,1.2037672
+Price to Earnings,"PriceToEarnings(trailing_pe=12.666667, forward_pe=9.832169)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.11, forward_eps=1.43)"
+Enterprise to Revenue,3.822
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,2991000064.0
 
 PROFITABILITY
-Return on Equity,0.10606
-Return on Assets,0.01059
-Return on Invested Capital,0.13961887106030807
-Return on Investment,0.006714707819660015
+Return on Equity,0.0937
+Return on Assets,0.00935
+Return on Invested Capital,0.10228201609826497
+Return on Investment,0.004277076929547844
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0472
-SUM DIVIDEND SCORE,5.0472
+5 Year Average,0.04769999999999999
+SUM DIVIDEND SCORE,5.0477
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,2.9399999999999995
+Recommendation Key,1
+SUM ANALYST RATING SCORE,3.9399999999999995
 
 
 

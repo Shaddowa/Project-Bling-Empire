@@ -5,63 +5,68 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.cigna.com
-Price,298.57
+Price,350.97
 Currency,USD
 
 REVENUE
-Total Revenue,189856006144.0
-Revenue Per Share,640.79
-Revenue Growth,0.085
+Total Revenue,204145000448.0
+Revenue Per Share,700.13
+Revenue Growth,0.193
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.72, forward_eps=28.29)"
-Net Earnings,5292000256.0
-Earnings Growth,-0.472
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.19, forward_eps=32.13)"
+Net Earnings,3620000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,31139999744.0
-Debt to Equity,68.042
+Total Debt,32768000000.0
+Debt to Equity,79.245
 
 MARGINS
-Profit Margins,0.02787
-Gross Profit Margins,0.12759
-Operating Margins,0.04954
+Profit Margins,0.01773
+Gross Profit Margins,0.11605
+Operating Margins,0.0081
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.92
-Dividend Yield,0.0165
-Dividend Payout Ratio,0.2713
-Five Year Avg Dividend Yield,0.82
-Trailing Annual Dividend Rate,4.81
-Trailing Annual Dividend Yield,0.016110124
+Dividend Rate,5.6
+Dividend Yield,0.0161
+Dividend Payout Ratio,0.4179
+Five Year Avg Dividend Yield,0.92
+Trailing Annual Dividend Rate,5.09
+Trailing Annual Dividend Yield,0.014502664
 
 FINANCIAL RATIO
-Debt to Equity,68.042
-Price to Cash Flow,3.02601101273414e-08
-Enterprise to EBITDA,10.625
-Price to Book,1.9117743
-Price to Earnings,"PriceToEarnings(trailing_pe=16.807, forward_pe=10.527394)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.72, forward_eps=28.29)"
-Enterprise to Revenue,0.574
+Debt to Equity,79.245
+Price to Cash Flow,9.065868936123155e-08
+Enterprise to EBITDA,13.298
+Price to Book,2.4043312
+Price to Earnings,"PriceToEarnings(trailing_pe=28.579987, forward_pe=10.843138)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.19, forward_eps=32.13)"
+Enterprise to Revenue,0.6
 
 CASH FLOW
-Free to Cash Flow,9841999872.0
-Operating to Cash Flow,12444999680.0
+Free to Cash Flow,3842874880.0
+Operating to Cash Flow,11624999936.0
 
 PROFITABILITY
-Return on Equity,0.119940005
-Return on Assets,0.03546
-Return on Invested Capital,0.16994220529965534
-Return on Investment,0.04176795782162589
+Return on Equity,0.08968
+Return on Assets,0.030769998
+Return on Invested Capital,0.11047363232398255
+Return on Investment,0.026715867158671587
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.008199999999999999
-SUM DIVIDEND SCORE,8.0082
+5 Year Average,0.0092
+SUM DIVIDEND SCORE,9.0092
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,71.61000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,72.61000000000001
 
 
 

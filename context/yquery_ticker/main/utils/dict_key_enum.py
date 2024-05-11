@@ -31,6 +31,11 @@ class DictKey(Enum):
     RETURN_ON_ASSETS = 'Return on Assets'
     RETURN_ON_INVESTED_CAPITAL = 'Return on Invested Capital'
     RETURN_ON_INVESTMENT = 'Return on Investment'
+    TARGET_HIGH_PRICE = 'Target High Price'
+    TARGET_LOW_PRICE = 'Target Low Price'
+    RECOMMENDATION_MEAN = 'Recommendation Mean'
+    RECOMMENDATION_KEY = 'Recommendation Key'
+    NUMBER_OF_ANALYSTS = 'Number of Analysts'
 
     @property
     def __str__(self):

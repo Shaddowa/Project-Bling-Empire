@@ -5,70 +5,75 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.kraftheinzcompany.com
-Price,37.26
+Price,35.71
 Currency,USD
 
 REVENUE
-Total Revenue,27160999936.0
-Revenue Per Share,22.127
-Revenue Growth,0.01
+Total Revenue,26562000896.0
+Revenue Per Share,21.701
+Revenue Growth,-0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.42, forward_eps=3.03)"
-Net Earnings,2988000000.0
-Earnings Growth,-0.4
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.29, forward_eps=3.19)"
+Net Earnings,2820000000.0
+Earnings Growth,-0.03
 
 DEBT
-Total Debt,19918000128.0
-Debt to Equity,40.273
+Total Debt,20544999424.0
+Debt to Equity,41.348
 
 MARGINS
-Profit Margins,0.110010006
-Gross Profit Margins,0.33243
-Operating Margins,0.21080999
+Profit Margins,0.10617
+Gross Profit Margins,0.3429
+Operating Margins,0.20777
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.043
-Dividend Payout Ratio,0.66120005
-Five Year Avg Dividend Yield,4.91
+Dividend Yield,0.0442
+Dividend Payout Ratio,0.6987
+Five Year Avg Dividend Yield,4.75
 Trailing Annual Dividend Rate,1.6
-Trailing Annual Dividend Yield,0.042941496
+Trailing Annual Dividend Yield,0.044805378
 
 FINANCIAL RATIO
-Debt to Equity,40.273
-Price to Cash Flow,1.5337214340199288e-08
-Enterprise to EBITDA,9.972
-Price to Book,0.92654383
-Price to Earnings,"PriceToEarnings(trailing_pe=15.376032, forward_pe=12.280528)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.42, forward_eps=3.03)"
-Enterprise to Revenue,2.382
+Debt to Equity,41.348
+Price to Cash Flow,1.383206106870229e-08
+Enterprise to EBITDA,9.782
+Price to Book,0.88840955
+Price to Earnings,"PriceToEarnings(trailing_pe=15.825329, forward_pe=11.360502)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.29, forward_eps=3.19)"
+Enterprise to Revenue,2.375
 
 CASH FLOW
-Free to Cash Flow,2426125056.0
-Operating to Cash Flow,3572000000.0
+Free to Cash Flow,2620000000.0
+Operating to Cash Flow,4260999936.0
 
 PROFITABILITY
-Return on Equity,0.06086
-Return on Assets,0.03847
-Return on Invested Capital,0.1500150604866687
-Return on Investment,0.0405427408412483
+Return on Equity,0.056799997
+Return on Assets,0.03779
+Return on Invested Capital,0.13725967746227682
+Return on Investment,0.03610755441741357
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.049100000000000005
-SUM DIVIDEND SCORE,7.0491
+5 Year Average,0.0475
+SUM DIVIDEND SCORE,4.0475
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,9.759999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,10.759999999999998
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False

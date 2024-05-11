@@ -5,27 +5,27 @@ Country,United States
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.zebra.com
-Price,256.99
+Price,316.5
 Currency,USD
 
 REVENUE
-Total Revenue,5078000128.0
-Revenue Per Share,98.693
-Revenue Growth,-0.306
+Total Revenue,4353999872.0
+Revenue Per Share,84.758
+Revenue Growth,-0.164
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.96, forward_eps=11.19)"
-Net Earnings,465000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.05, forward_eps=14.83)"
+Net Earnings,261000000.0
+Earnings Growth,-0.231
 
 DEBT
-Total Debt,2502000128.0
-Debt to Equity,83.04
+Total Debt,2312000000.0
+Debt to Equity,72.957
 
 MARGINS
-Profit Margins,0.09157
-Gross Profit Margins,0.46475
-Operating Margins,0.05021
+Profit Margins,0.05994
+Gross Profit Margins,0.46370998
+Operating Margins,0.14468001
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,83.04
-Price to Cash Flow,8.986013619200387e-07
-Enterprise to EBITDA,16.279
-Price to Book,4.2984743
-Price to Earnings,"PriceToEarnings(trailing_pe=28.143972, forward_pe=22.5353)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.96, forward_eps=11.19)"
-Enterprise to Revenue,3.023
+Debt to Equity,72.957
+Price to Cash Flow,2.128390786674802e-06
+Enterprise to EBITDA,26.456
+Price to Book,5.1221333
+Price to Earnings,"PriceToEarnings(trailing_pe=62.53465, forward_pe=21.294672)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.05, forward_eps=14.83)"
+Enterprise to Revenue,4.223
 
 CASH FLOW
-Free to Cash Flow,280624992.0
-Operating to Cash Flow,122000000.0
+Free to Cash Flow,148375008.0
+Operating to Cash Flow,197000000.0
 
 PROFITABILITY
-Return on Equity,0.16402
-Return on Assets,0.0647
-Return on Invested Capital,0.18585130507916311
+Return on Equity,0.08614001
+Return on Assets,0.044120003
+Return on Invested Capital,0.1128892703459883
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,64.19999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,65.19999999999999
 
 
 

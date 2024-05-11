@@ -5,54 +5,54 @@ Country,United States
 Industry,Utilities—Regulated Gas
 Sector,Utilities
 Website,https://www.nisource.com
-Price,25.56
+Price,28.9
 Currency,USD
 
 REVENUE
-Total Revenue,5788000256.0
-Revenue Per Share,14.039
-Revenue Growth,-0.057
+Total Revenue,5245700096.0
+Revenue Per Share,12.346
+Revenue Growth,-0.132
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=1.71)"
-Net Earnings,666899968.0
-Earnings Growth,0.456
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.54, forward_eps=1.85)"
+Net Earnings,686800000.0
+Earnings Growth,0.076
 
 DEBT
-Total Debt,13258000384.0
-Debt to Equity,170.646
+Total Debt,12970900480.0
+Debt to Equity,132.425
 
 MARGINS
-Profit Margins,0.124639995
-Gross Profit Margins,0.42218
-Operating Margins,0.21705
+Profit Margins,0.14227
+Gross Profit Margins,0.49216
+Operating Margins,0.34191
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.06
-Dividend Yield,0.041100003
-Dividend Payout Ratio,0.65669996
-Five Year Avg Dividend Yield,3.32
-Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.039123632
+Dividend Yield,0.037
+Dividend Payout Ratio,0.65910006
+Five Year Avg Dividend Yield,3.38
+Trailing Annual Dividend Rate,1.015
+Trailing Annual Dividend Yield,0.035121106
 
 FINANCIAL RATIO
-Debt to Equity,170.646
-Price to Cash Flow,-2.1672663609640377e-08
-Enterprise to EBITDA,12.22
-Price to Book,1.761135
-Price to Earnings,"PriceToEarnings(trailing_pe=17.213333, forward_pe=15.099415)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=1.71)"
-Enterprise to Revenue,4.421
+Debt to Equity,132.425
+Price to Cash Flow,-1.7281923052567822e-08
+Enterprise to EBITDA,12.671
+Price to Book,1.627973
+Price to Earnings,"PriceToEarnings(trailing_pe=18.623377, forward_pe=15.502703)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.54, forward_eps=1.85)"
+Enterprise to Revenue,5.266
 
 CASH FLOW
-Free to Cash Flow,-1191362560.0
-Operating to Cash Flow,1909100032.0
+Free to Cash Flow,-1659537536.0
+Operating to Cash Flow,1707900032.0
 
 PROFITABILITY
-Return on Equity,0.09476
-Return on Assets,0.03021
-Return on Invested Capital,0.05030170070498369
+Return on Equity,0.0828
+Return on Assets,0.029509999
+Return on Invested Capital,0.05294929215794834
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0332
-SUM DIVIDEND SCORE,8.0332
+5 Year Average,0.0338
+SUM DIVIDEND SCORE,8.0338
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.32
+Recommendation Key,1
+SUM ANALYST RATING SCORE,5.32
 
 
 
@@ -70,11 +75,11 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
+Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

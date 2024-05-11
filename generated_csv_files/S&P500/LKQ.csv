@@ -5,55 +5,55 @@ Country,United States
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.lkqcorp.com
-Price,47.51
+Price,44.32
 Currency,USD
 
 REVENUE
-Total Revenue,13365999616.0
-Revenue Per Share,49.938
-Revenue Growth,0.149
+Total Revenue,14220000256.0
+Revenue Per Share,53.154
+Revenue Growth,0.106
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.57, forward_eps=4.16)"
-Net Earnings,951000000.0
-Earnings Growth,-0.189
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.1, forward_eps=4.36)"
+Net Earnings,830000000.0
+Earnings Growth,-0.416
 
 DEBT
-Total Debt,5690999808.0
-Debt to Equity,94.897
+Total Debt,5613000192.0
+Debt to Equity,90.928
 
 MARGINS
-Profit Margins,0.0713
-Gross Profit Margins,0.40394002
-Operating Margins,0.09389
+Profit Margins,0.05795
+Gross Profit Margins,0.39852002
+Operating Margins,0.08831
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.2
-Dividend Yield,0.0252
-Dividend Payout Ratio,0.3081
+Dividend Yield,0.0271
+Dividend Payout Ratio,0.371
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,1.1
-Trailing Annual Dividend Yield,0.023153022
+Trailing Annual Dividend Rate,1.15
+Trailing Annual Dividend Yield,0.025947653
 
 FINANCIAL RATIO
-Debt to Equity,94.897
-Price to Cash Flow,9.437979548395471e-08
-Enterprise to EBITDA,10.499
-Price to Book,2.1425362
-Price to Earnings,"PriceToEarnings(trailing_pe=13.34734, forward_pe=11.454328)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.57, forward_eps=4.16)"
-Enterprise to Revenue,1.353
+Debt to Equity,90.928
+Price to Cash Flow,6.04374546356821e-08
+Enterprise to EBITDA,9.911
+Price to Book,1.9165908
+Price to Earnings,"PriceToEarnings(trailing_pe=14.261291, forward_pe=10.139908)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.1, forward_eps=4.36)"
+Enterprise to Revenue,1.201
 
 CASH FLOW
-Free to Cash Flow,504875008.0
-Operating to Cash Flow,1384000000.0
+Free to Cash Flow,731500032.0
+Operating to Cash Flow,1386000000.0
 
 PROFITABILITY
-Return on Equity,0.16870001
-Return on Assets,0.06689
-Return on Invested Capital,0.16710596175855
-Return on Investment,0.2023404255319149
+Return on Equity,0.13981
+Return on Assets,0.0616
+Return on Invested Capital,0.14787100805234737
+Return on Investment,0.06384615384615384
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,21.79
+Recommendation Key,1
+SUM ANALYST RATING SCORE,22.79
 
 
 

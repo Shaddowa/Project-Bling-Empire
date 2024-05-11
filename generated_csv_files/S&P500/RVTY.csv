@@ -5,63 +5,68 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.revvity.com
-Price,108.69
+Price,104.34
 Currency,USD
 
 REVENUE
-Total Revenue,2795884032.0
-Revenue Per Share,22.292
-Revenue Growth,-0.058
+Total Revenue,2725626112.0
+Revenue Per Share,21.983
+Revenue Growth,-0.037
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.71, forward_eps=4.59)"
-Net Earnings,213432992.0
-Earnings Growth,-0.889
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.47, forward_eps=5.19)"
+Net Earnings,183354000.0
+Earnings Growth,-0.954
 
 DEBT
-Total Debt,4013914880.0
-Debt to Equity,52.168
+Total Debt,4003634944.0
+Debt to Equity,51.024
 
 MARGINS
-Profit Margins,0.26545998
-Gross Profit Margins,0.57091
-Operating Margins,0.13835
+Profit Margins,0.054899998
+Gross Profit Margins,0.55498004
+Operating Margins,0.11246
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.28
-Dividend Yield,0.0025
-Dividend Payout Ratio,0.16469999
+Dividend Yield,0.0027
+Dividend Payout Ratio,0.19049999
 Five Year Avg Dividend Yield,0.24
 Trailing Annual Dividend Rate,0.28
-Trailing Annual Dividend Yield,0.002576134
+Trailing Annual Dividend Yield,0.0026835348
 
 FINANCIAL RATIO
-Debt to Equity,52.168
-Price to Cash Flow,6.894761489591006e-08
-Enterprise to EBITDA,18.214
-Price to Book,1.7634423
-Price to Earnings,"PriceToEarnings(trailing_pe=64.327484, forward_pe=23.965141)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.71, forward_eps=4.59)"
-Enterprise to Revenue,5.78
+Debt to Equity,51.024
+Price to Cash Flow,9.251228842139503e-07
+Enterprise to EBITDA,19.305
+Price to Book,1.6494068
+Price to Earnings,"PriceToEarnings(trailing_pe=71.29252, forward_pe=20.192678)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.47, forward_eps=5.19)"
+Enterprise to Revenue,5.591
 
 CASH FLOW
-Free to Cash Flow,1595414144.0
-Operating to Cash Flow,33817000.0
+Free to Cash Flow,113282248.0
+Operating to Cash Flow,175372000.0
 
 PROFITABILITY
-Return on Equity,0.02892
-Return on Assets,0.02096
-Return on Invested Capital,0.05317327224516471
-Return on Investment,0.019386080511553553
+Return on Equity,0.02309
+Return on Assets,0.01598
+Return on Invested Capital,0.045796881997180836
+Return on Investment,0.014945956080144769
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0024
-SUM DIVIDEND SCORE,4.0024
+SUM DIVIDEND SCORE,7.0024
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,80.2
+Recommendation Key,1
+SUM ANALYST RATING SCORE,81.2
 
 
 

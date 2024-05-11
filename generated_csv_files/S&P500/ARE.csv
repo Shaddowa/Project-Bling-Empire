@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,ARE
 Company,"Alexandria Real Estate Equities, Inc."
 Country,United States
-Industry,REIT - Office
+Industry,REIT—Office
 Sector,Real Estate
 Website,https://www.are.com
-Price,123.42
+Price,120.54
 Currency,USD
 
 REVENUE
-Total Revenue,2799553024.0
-Revenue Per Share,16.517
-Revenue Growth,0.082
+Total Revenue,2954952960.0
+Revenue Per Share,17.26
+Revenue Growth,0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.38, forward_eps=3.68)"
-Net Earnings,236164000.0
-Earnings Growth,-0.939
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.07, forward_eps=3.78)"
+Net Earnings,184074000.0
+Earnings Growth,1.205
 
 DEBT
-Total Debt,11587792896.0
-Debt to Equity,51.019
+Total Debt,12598740992.0
+Debt to Equity,55.365
 
 MARGINS
-Profit Margins,0.08801
-Gross Profit Margins,0.69966006
-Operating Margins,0.25347
+Profit Margins,0.06644
+Gross Profit Margins,0.70539004
+Operating Margins,0.28123
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.08
-Dividend Yield,0.040900003
-Dividend Payout Ratio,3.5507002
-Five Year Avg Dividend Yield,2.88
-Trailing Annual Dividend Rate,4.9
-Trailing Annual Dividend Yield,0.039701834
+Dividend Yield,0.0418
+Dividend Payout Ratio,4.6916
+Five Year Avg Dividend Yield,2.97
+Trailing Annual Dividend Rate,5.02
+Trailing Annual Dividend Yield,0.041645925
 
 FINANCIAL RATIO
-Debt to Equity,51.019
-Price to Cash Flow,7.166878639517911e-08
-Enterprise to EBITDA,21.798
-Price to Book,1.1600355
-Price to Earnings,"PriceToEarnings(trailing_pe=90.108696, forward_pe=33.79076)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.38, forward_eps=3.68)"
-Enterprise to Revenue,13.127
+Debt to Equity,55.365
+Price to Cash Flow,8.260933701424433e-08
+Enterprise to EBITDA,21.009
+Price to Book,1.1358774
+Price to Earnings,"PriceToEarnings(trailing_pe=113.635506, forward_pe=32.166664)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.07, forward_eps=3.78)"
+Enterprise to Revenue,12.685
 
 CASH FLOW
-Free to Cash Flow,1735064960.0
-Operating to Cash Flow,1603096064.0
+Free to Cash Flow,1471867520.0
+Operating to Cash Flow,1666136960.0
 
 PROFITABILITY
-Return on Equity,0.01906
-Return on Assets,0.01235
-Return on Invested Capital,0.020380412381795616
-Return on Investment,0.019759701467561373
+Return on Equity,0.01666
+Return on Assets,0.01291
+Return on Invested Capital,0.014610507395374053
+Return on Investment,0.009086484351860994
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0288
-SUM DIVIDEND SCORE,8.0288
+5 Year Average,0.0297
+SUM DIVIDEND SCORE,8.0297
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,64.41
+Recommendation Key,1
+SUM ANALYST RATING SCORE,65.41
 
 
 
@@ -70,11 +75,11 @@ Earnings,False
 Revenue,True
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
-Free Cash Flow,True
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,3.0
+CRITERIA PASS COUNT,1.0
 

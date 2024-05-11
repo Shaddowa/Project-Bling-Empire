@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas Integrated
 Sector,Energy
 Website,https://corporate.exxonmobil.com
-Price,102.13
+Price,118.44
 Currency,USD
 
 REVENUE
-Total Revenue,350391009280.0
-Revenue Per Share,85.822
-Revenue Growth,-0.164
+Total Revenue,335350988800.0
+Revenue Per Share,83.296
+Revenue Growth,-0.035
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.07, forward_eps=8.92)"
-Net Earnings,41130000384.0
-Earnings Growth,-0.519
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.16, forward_eps=9.71)"
+Net Earnings,32800000000.0
+Earnings Growth,-0.262
 
 DEBT
-Total Debt,41252999168.0
-Debt to Equity,19.878
+Total Debt,40440000512.0
+Debt to Equity,18.981
 
 MARGINS
-Profit Margins,0.11738
-Gross Profit Margins,0.33866
-Operating Margins,0.14423999
+Profit Margins,0.09781
+Gross Profit Margins,0.31868
+Operating Margins,0.13229999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.8
-Dividend Yield,0.0369
-Dividend Payout Ratio,0.36150002
-Five Year Avg Dividend Yield,5.23
-Trailing Annual Dividend Rate,3.64
-Trailing Annual Dividend Yield,0.03564085
+Dividend Yield,0.0322
+Dividend Payout Ratio,0.4559
+Five Year Avg Dividend Yield,5.18
+Trailing Annual Dividend Rate,3.72
+Trailing Annual Dividend Yield,0.031408306
 
 FINANCIAL RATIO
-Debt to Equity,19.878
-Price to Cash Flow,4.9784908777435394e-09
-Enterprise to EBITDA,6.786
-Price to Book,2.0439346
-Price to Earnings,"PriceToEarnings(trailing_pe=10.228401, forward_pe=11.547085)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.07, forward_eps=8.92)"
-Enterprise to Revenue,1.211
+Debt to Equity,18.981
+Price to Cash Flow,4.462118270003537e-09
+Enterprise to EBITDA,7.092
+Price to Book,2.2661083
+Price to Earnings,"PriceToEarnings(trailing_pe=14.455882, forward_pe=12.1483)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.16, forward_eps=9.71)"
+Enterprise to Revenue,1.431
 
 CASH FLOW
-Free to Cash Flow,20689000448.0
-Operating to Cash Flow,59307999232.0
+Free to Cash Flow,26435874816.0
+Operating to Cash Flow,53691998208.0
 
 PROFITABILITY
-Return on Equity,0.21168
-Return on Assets,0.08879
-Return on Invested Capital,0.9970184268605091
-Return on Investment,-0.020662112118959106
+Return on Equity,0.16248
+Return on Assets,0.0783
+Return on Invested Capital,0.8110781291421398
+Return on Investment,-0.016600030365909207
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.052300000000000006
-SUM DIVIDEND SCORE,8.0523
+5 Year Average,0.0518
+SUM DIVIDEND SCORE,9.0518
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.040000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,35.040000000000006
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Internet Content & Information
 Sector,Communication Services
 Website,https://www.mtch.com
-Price,38.05
+Price,30.58
 Currency,USD
 
 REVENUE
-Total Revenue,3284429056.0
-Revenue Per Share,11.815
-Revenue Growth,0.089
+Total Revenue,3437027072.0
+Revenue Per Share,12.59
+Revenue Growth,0.092
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=2.19)"
-Net Earnings,508667008.0
-Earnings Growth,0.294
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=2.58)"
+Net Earnings,653928000.0
+Earnings Growth,0.057
 
 DEBT
-Total Debt,3939771904.0
+Total Debt,3843900928.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.1542
-Gross Profit Margins,0.70177
-Operating Margins,0.27627
+Profit Margins,0.19026
+Gross Profit Margins,0.71827006
+Operating Margins,0.2149
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,5.1795180570334255e-08
-Enterprise to EBITDA,14.037
+Price to Cash Flow,3.927249395369948e-08
+Enterprise to EBITDA,10.848
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=21.446327, forward_pe=17.333332)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=2.19)"
-Enterprise to Revenue,4.124
+Price to Earnings,"PriceToEarnings(trailing_pe=13.460526, forward_pe=11.8953495)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=2.58)"
+Enterprise to Revenue,3.223
 
 CASH FLOW
-Free to Cash Flow,732886720.0
-Operating to Cash Flow,845908992.0
+Free to Cash Flow,781462976.0
+Operating to Cash Flow,1060507008.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.08359
-Return on Invested Capital,0.12911077608981297
-Return on Investment,0.01997890857102458
+Return on Assets,0.13119
+Return on Invested Capital,0.17012092983606394
+Return on Investment,0.02544714466387781
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,12 +63,17 @@ Dividend Ex Date,0.0
 5 Year Average,0.0152
 SUM DIVIDEND SCORE,0.0152
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,24.31
+Recommendation Key,1
+SUM ANALYST RATING SCORE,25.31
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False

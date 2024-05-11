@@ -5,27 +5,27 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.prosafe.com
-Price,62.5
+Price,36.65
 Currency,NOK
 
 REVENUE
-Total Revenue,107500000.0
-Revenue Per Share,10.982
-Revenue Growth,-0.484
+Total Revenue,96000000.0
+Revenue Per Share,8.497
+Revenue Growth,-0.292
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-56.46, forward_eps=-6.8)"
-Net Earnings,-60200000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-65.02, forward_eps=0.98)"
+Net Earnings,-67800000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,419600000.0
-Debt to Equity,3203.053
+Total Debt,419500000.0
+Debt to Equity,1241.124
 
 MARGINS
-Profit Margins,-0.56
-Gross Profit Margins,1.10698
-Operating Margins,0.05183
+Profit Margins,-0.70625
+Gross Profit Margins,0.77292
+Operating Margins,-0.51254004
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,3203.053
-Price to Cash Flow,-2.3456090651558073e-06
-Enterprise to EBITDA,571.542
-Price to Book,54.617416
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-9.132353)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-56.46, forward_eps=-6.8)"
-Enterprise to Revenue,10.102
+Debt to Equity,1241.124
+Price to Cash Flow,-6.015239802779022e-07
+Enterprise to EBITDA,-79.523
+Price to Book,17.732557
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=34.23469)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-65.02, forward_eps=0.98)"
+Enterprise to Revenue,10.437
 
 CASH FLOW
-Free to Cash Flow,-26475000.0
-Operating to Cash Flow,9300000.0
+Free to Cash Flow,-55775000.0
+Operating to Cash Flow,-11500000.0
 
 PROFITABILITY
-Return on Equity,-2.1347501
-Return on Assets,-0.034059998
-Return on Invested Capital,-0.14346997101257064
-Return on Investment,-0.02457142857142857
+Return on Equity,-1.9071699
+Return on Assets,-0.05452
+Return on Invested Capital,-0.16162097662506106
+Return on Investment,-0.031682242990654204
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.1294
 SUM DIVIDEND SCORE,0.1294
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,6.210000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,6.210000000000001
 
 
 

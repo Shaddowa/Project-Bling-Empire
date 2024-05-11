@@ -5,27 +5,27 @@ Country,Malta
 Industry,Gambling
 Sector,Consumer Cyclical
 Website,https://www.gig.com
-Price,30.35
+Price,31.25
 Currency,NOK
 
 REVENUE
-Total Revenue,132591000.0
-Revenue Per Share,1.049
-Revenue Growth,0.28
+Total Revenue,89084000.0
+Revenue Per Share,0.697
+Revenue Growth,-0.118
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.82, forward_eps=3.19)"
-Net Earnings,21291000.0
-Earnings Growth,13.596
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=3.89)"
+Net Earnings,13412000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,71175000.0
-Debt to Equity,71.358
+Total Debt,81568000.0
+Debt to Equity,85.523
 
 MARGINS
-Profit Margins,0.14567
-Gross Profit Margins,0.95989996
-Operating Margins,0.207
+Profit Margins,0.16976
+Gross Profit Margins,1.0
+Operating Margins,0.32206002
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,71.358
-Price to Cash Flow,4.356316659155776e-06
-Enterprise to EBITDA,119.907
-Price to Book,37.613487
-Price to Earnings,"PriceToEarnings(trailing_pe=15.934066, forward_pe=9.090909)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.82, forward_eps=3.19)"
-Enterprise to Revenue,28.683
+Debt to Equity,85.523
+Price to Cash Flow,-3.9679718170660663e-07
+Enterprise to EBITDA,79.835
+Price to Book,43.55495
+Price to Earnings,"PriceToEarnings(trailing_pe=27.435898, forward_pe=8.251927)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=3.89)"
+Enterprise to Revenue,48.388
 
 CASH FLOW
-Free to Cash Flow,6657000.0
-Operating to Cash Flow,39083000.0
+Free to Cash Flow,-80897752.0
+Operating to Cash Flow,41074000.0
 
 PROFITABILITY
-Return on Equity,0.25959
-Return on Assets,0.07298
-Return on Invested Capital,0.29913592932021354
+Return on Equity,0.16729
+Return on Assets,0.0771
+Return on Invested Capital,0.16442722487761297
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,24.03
+Recommendation Key,1
+SUM ANALYST RATING SCORE,25.03
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
-Revenue,True
-Net Income,True
-Total Revenue,True
+Revenue,False
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,4.0
+CRITERIA PASS COUNT,1.0
 

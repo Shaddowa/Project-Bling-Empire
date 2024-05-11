@@ -5,69 +5,74 @@ Country,United States
 Industry,Utilities—Diversified
 Sector,Utilities
 Website,https://www.sempra.com
-Price,70.73
+Price,76.17
 Currency,USD
 
 REVENUE
-Total Revenue,16684000256.0
-Revenue Per Share,26.489
-Revenue Growth,-0.078
+Total Revenue,13799999488.0
+Revenue Per Share,21.869
+Revenue Growth,-0.445
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.32, forward_eps=4.82)"
-Net Earnings,2731000064.0
-Earnings Growth,0.481
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.52, forward_eps=5.16)"
+Net Earnings,2862000128.0
+Earnings Growth,-0.176
 
 DEBT
-Total Debt,30961999872.0
-Debt to Equity,93.096
+Total Debt,32263000064.0
+Debt to Equity,93.082
 
 MARGINS
-Profit Margins,0.16633
-Gross Profit Margins,0.33373
-Operating Margins,0.17546
+Profit Margins,0.21058
+Gross Profit Margins,0.38152
+Operating Margins,0.2544
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.38
-Dividend Yield,0.0336
-Dividend Payout Ratio,0.5457
-Five Year Avg Dividend Yield,3.06
-Trailing Annual Dividend Rate,2.355
-Trailing Annual Dividend Yield,0.03329563
+Dividend Rate,2.48
+Dividend Yield,0.0321
+Dividend Payout Ratio,0.53209996
+Five Year Avg Dividend Yield,3.08
+Trailing Annual Dividend Rate,2.4
+Trailing Annual Dividend Yield,0.031508468
 
 FINANCIAL RATIO
-Debt to Equity,93.096
-Price to Cash Flow,-1.82282057721077e-08
-Enterprise to EBITDA,14.673
-Price to Book,1.6317279
-Price to Earnings,"PriceToEarnings(trailing_pe=16.414352, forward_pe=14.711618)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.32, forward_eps=4.82)"
-Enterprise to Revenue,4.815
+Debt to Equity,93.082
+Price to Cash Flow,-1.841839969473357e-08
+Enterprise to EBITDA,16.672
+Price to Book,1.7285553
+Price to Earnings,"PriceToEarnings(trailing_pe=17.075222, forward_pe=14.957365)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.52, forward_eps=5.16)"
+Enterprise to Revenue,6.297
 
 CASH FLOW
-Free to Cash Flow,-3890125056.0
-Operating to Cash Flow,4816000000.0
+Free to Cash Flow,-4190374912.0
+Operating to Cash Flow,6088999936.0
 
 PROFITABILITY
-Return on Equity,0.101330005
-Return on Assets,0.025610002
-Return on Invested Capital,0.08820489863242383
-Return on Investment,-0.005071495012070566
+Return on Equity,0.10248999
+Return on Assets,0.02152
+Return on Invested Capital,0.08870843127923098
+Return on Investment,-0.004766822331778814
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.030600000000000002
-SUM DIVIDEND SCORE,9.0306
+5 Year Average,0.0308
+SUM DIVIDEND SCORE,9.0308
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,11.819999999999993
+Recommendation Key,1
+SUM ANALYST RATING SCORE,12.819999999999993
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

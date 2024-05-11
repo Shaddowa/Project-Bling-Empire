@@ -11,6 +11,8 @@ from ..data_classes.date import Frequency
 from ..data_classes.financial_data import FinancialData, PriceToEarnings, EarningsPerShare
 from ..data_classes.financial_summary import FinancialSummary
 from ..data_classes.general_stock_info import GeneralStockInfo
+from ..enums.analyst_rating_criteria import AnalystRatingCriteria, evaluate_recommendation_key_criteria, \
+    evaluate_difference_current_to_high
 from ..enums.currency import Currency
 from ..enums.dividend_criteria import (
     DividendCriteria,
@@ -32,6 +34,9 @@ class SimpleStockDataClass:
             industry: str,
             sector: str,
             price: str,
+            target_high_price: str,
+            recommendation_mean: str,
+            analyst_rating_score: str,
             currency: str,
             criteria_pass_count: str,
             dividend_score: str,
@@ -42,6 +47,10 @@ class SimpleStockDataClass:
         self.industry = industry
         self.sector = sector
         self.price = price
+        # Missing some analyst data, but not very important
+        self.target_high_price = target_high_price
+        self.recommendation_mean = recommendation_mean
+        self.analyst_rating_score = analyst_rating_score
         self.currency = currency
         self.criteria_pass_count = criteria_pass_count
         self.dividend_score = dividend_score
@@ -106,6 +115,11 @@ class YahooStockDataClass(CsvConverter):
 
         self.financial_data: FinancialData = FinancialData(
             price=financial_data.get("currentPrice"),
+            target_high_price=financial_data.get("targetHighPrice"),
+            target_low_price=financial_data.get("targetLowPrice"),
+            recommendation_mean=financial_data.get("recommendationMean"),
+            recommendation_key=financial_data.get("recommendationKey"),
+            number_of_analyst_opinions=financial_data.get("numberOfAnalystOpinions"),
             total_revenue=financial_data.get("totalRevenue"),
             revenue_per_share=financial_data.get("revenuePerShare"),
             revenue_growth=financial_data.get("revenueGrowth"),
@@ -145,6 +159,7 @@ class YahooStockDataClass(CsvConverter):
 
         self._evaluated_growth_criteria = self.get_evaluated_growth_criteria()
         self._evaluated_dividend_score = self.get_evaluated_dividend_score()
+        self._evaluated_analyst_rating_score = self.get_evaluated_analyst_rating_score()
 
     def _get_revenue_data(self):
         return {
@@ -260,14 +275,6 @@ class YahooStockDataClass(CsvConverter):
             ).combine_process_and_evaluate_growth_criteria(),
         }
 
-    def get_criteria_pass_count(self):
-        return self._get_criteria_pass_count()["CRITERIA PASS COUNT"]
-
-    def _get_criteria_pass_count(self):
-        return {
-            "CRITERIA PASS COUNT": float(sum(1.0 for value in self._evaluated_growth_criteria.values() if value is True))
-        }
-
     def get_evaluated_dividend_score(self):
         return {
             DividendCriteria.DIVIDEND_RATE.__str__: compare_and_evaluate_dividend_data(
@@ -290,12 +297,49 @@ class YahooStockDataClass(CsvConverter):
             if self.financial_data.five_year_avg_dividend_yield is not None else 0.0,
         }
 
+    def get_evaluated_analyst_rating_score(self):
+        return {
+            AnalystRatingCriteria.TARGET_HIGH_PRICE_DIFF_CURRENT_PRICE.__str__: evaluate_difference_current_to_high(
+                current_price=self.financial_data.price,
+                target_high_price=self.financial_data.target_high_price
+            ),
+            AnalystRatingCriteria.RECOMMENDATION_KEY.__str__: evaluate_recommendation_key_criteria(
+                recommendation_key=self.financial_data.recommendation_key
+            )
+        }
+
+    def get_analyst_opinion_data(self):
+        return {
+            DictKey.TARGET_HIGH_PRICE.__str__: self.financial_data.target_high_price,
+            DictKey.TARGET_LOW_PRICE.__str__: self.financial_data.target_low_price,
+            DictKey.RECOMMENDATION_MEAN.__str__: self.financial_data.recommendation_mean,
+            DictKey.RECOMMENDATION_KEY.__str__: self.financial_data.recommendation_key,
+            DictKey.NUMBER_OF_ANALYSTS.__str__: self.financial_data.number_of_analyst_opinions
+        }
+
+    def get_criteria_pass_count(self):
+        return self._get_criteria_pass_count()["CRITERIA PASS COUNT"]
+
+    def _get_criteria_pass_count(self):
+        return {
+            "CRITERIA PASS COUNT": float(
+                sum(1.0 for value in self._evaluated_growth_criteria.values() if value is True))
+        }
+
     def get_dividend_score(self):
         return self._get_dividend_score()["SUM DIVIDEND SCORE"]
 
     def _get_dividend_score(self):
         return {
             "SUM DIVIDEND SCORE": sum(value for value in self._evaluated_dividend_score.values())
+        }
+
+    def get_analyst_rating_score(self):
+        return self._get_analyst_rating_score()["SUM ANALYST RATING SCORE"]
+
+    def _get_analyst_rating_score(self):
+        return {
+            "SUM ANALYST RATING SCORE": sum(value for value in self._evaluated_analyst_rating_score.values())
         }
 
     def to_csv(self, stock_collection: str):
@@ -313,6 +357,8 @@ class YahooStockDataClass(CsvConverter):
             profitability_data=lambda: self._get_profitability_data(),
             evaluated_dividend_score=lambda: self._evaluated_dividend_score,
             get_dividend_score=lambda: self._get_dividend_score(),
+            evaluated_analyst_rating_score=lambda: self._evaluated_analyst_rating_score,
+            get_analyst_rating_score=lambda: self._get_analyst_rating_score(),
             evaluated_growth_criteria=lambda: self._evaluated_growth_criteria,
             get_criteria_pass_count=lambda: self._get_criteria_pass_count()
         )

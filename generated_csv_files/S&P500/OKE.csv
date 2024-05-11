@@ -5,55 +5,55 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.oneok.com/
-Price,70.29
+Price,80.03
 Currency,USD
 
 REVENUE
-Total Revenue,17473892352.0
-Revenue Per Share,38.8
-Revenue Growth,-0.292
+Total Revenue,17937000448.0
+Revenue Per Share,34.606
+Revenue Growth,0.058
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.44, forward_eps=4.97)"
-Net Earnings,2455120896.0
-Earnings Growth,0.031
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.23, forward_eps=5.62)"
+Net Earnings,2248000000.0
+Earnings Growth,-0.534
 
 DEBT
-Total Debt,22058999808.0
-Debt to Equity,135.34
+Total Debt,22001000448.0
+Debt to Equity,133.785
 
 MARGINS
-Profit Margins,0.14057
-Gross Profit Margins,0.28345
-Operating Margins,0.20577998
+Profit Margins,0.12538
+Gross Profit Margins,0.36004
+Operating Margins,0.22254999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.96
-Dividend Yield,0.056199998
-Dividend Payout Ratio,0.6985
+Dividend Yield,0.0495
+Dividend Payout Ratio,0.91129994
 Five Year Avg Dividend Yield,7.04
-Trailing Annual Dividend Rate,3.82
-Trailing Annual Dividend Yield,0.05434628
+Trailing Annual Dividend Rate,3.89
+Trailing Annual Dividend Yield,0.048606776
 
 FINANCIAL RATIO
-Debt to Equity,135.34
-Price to Cash Flow,6.671913066086629e-08
-Enterprise to EBITDA,17.234
-Price to Book,2.5176027
-Price to Earnings,"PriceToEarnings(trailing_pe=12.94853, forward_pe=14.173039)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.44, forward_eps=4.97)"
-Enterprise to Revenue,3.594
+Debt to Equity,133.785
+Price to Cash Flow,9.680519966684792e-08
+Enterprise to EBITDA,14.742
+Price to Book,2.8417802
+Price to Earnings,"PriceToEarnings(trailing_pe=18.929077, forward_pe=14.247332)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.23, forward_eps=5.62)"
+Enterprise to Revenue,3.828
 
 CASH FLOW
-Free to Cash Flow,1055769152.0
-Operating to Cash Flow,3952954880.0
+Free to Cash Flow,827124992.0
+Operating to Cash Flow,3796000000.0
 
 PROFITABILITY
-Return on Equity,0.21726
-Return on Assets,0.05445
-Return on Invested Capital,0.11129792439617375
-Return on Investment,0.16834922316316384
+Return on Equity,0.19077998
+Return on Assets,0.06893
+Return on Invested Capital,0.10217717155336954
+Return on Investment,0.12351648351648352
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0704
 SUM DIVIDEND SCORE,8.0704
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,12.930000000000007
+Recommendation Key,1
+SUM ANALYST RATING SCORE,13.930000000000007
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
+Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.synopsys.com
-Price,536.68
+Price,549.88
 Currency,USD
 
 REVENUE
-Total Revenue,5842618880.0
-Revenue Per Share,38.401
-Revenue Growth,0.245
+Total Revenue,6130508800.0
+Revenue Per Share,40.3
+Revenue Growth,0.211
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=15.64)"
-Net Earnings,1229888000.0
-Earnings Growth,1.288
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.07, forward_eps=15.53)"
+Net Earnings,1407463936.0
+Earnings Growth,0.651
 
 DEBT
-Total Debt,687803008.0
-Debt to Equity,11.122
+Total Debt,669960000.0
+Debt to Equity,9.99
 
 MARGINS
-Profit Margins,0.21049999
-Gross Profit Margins,0.80363
-Operating Margins,0.26836002
+Profit Margins,0.22958
+Gross Profit Margins,0.80583
+Operating Margins,0.21805
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,11.122
-Price to Cash Flow,3.976676317893106e-07
-Enterprise to EBITDA,52.37
-Price to Book,13.063148
-Price to Earnings,"PriceToEarnings(trailing_pe=66.68308, forward_pe=33.767902)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.92, forward_eps=15.64)"
-Enterprise to Revenue,13.59
+Debt to Equity,9.99
+Price to Cash Flow,4.947150066200156e-07
+Enterprise to EBITDA,53.248
+Price to Book,12.729456
+Price to Earnings,"PriceToEarnings(trailing_pe=61.379276, forward_pe=35.847393)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.07, forward_eps=15.53)"
+Enterprise to Revenue,13.76
 
 CASH FLOW
-Free to Cash Flow,1328068864.0
-Operating to Cash Flow,1703273984.0
+Free to Cash Flow,1125314560.0
+Operating to Cash Flow,1500733056.0
 
 PROFITABILITY
-Return on Equity,0.20746
-Return on Assets,0.085200004
-Return on Invested Capital,1.7881397920657194
-Return on Investment,-0.06491338815407514
+Return on Equity,0.22538
+Return on Assets,0.08753
+Return on Invested Capital,2.1008177266147796
+Return on Investment,-0.07665382821477781
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,144.99
+Recommendation Key,1
+SUM ANALYST RATING SCORE,145.99
 
 
 

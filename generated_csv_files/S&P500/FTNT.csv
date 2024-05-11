@@ -5,27 +5,27 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.fortinet.com
-Price,65.55
+Price,58.11
 Currency,USD
 
 REVENUE
-Total Revenue,5172700160.0
-Revenue Per Share,6.611
-Revenue Growth,0.161
+Total Revenue,5395800064.0
+Revenue Per Share,6.977
+Revenue Growth,0.072
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=1.68)"
-Net Earnings,1150700032.0
-Earnings Growth,0.414
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.54, forward_eps=1.96)"
+Net Earnings,1199399936.0
+Earnings Growth,0.258
 
 DEBT
-Total Debt,1056400000.0
-Debt to Equity,1425.641
+Total Debt,1082599936.0
+Debt to Equity,None
 
 MARGINS
-Profit Margins,0.22246
-Gross Profit Margins,0.76442003
-Operating Margins,0.22636
+Profit Margins,0.22228001
+Gross Profit Margins,0.77129
+Operating Margins,0.23653
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,1425.641
-Price to Cash Flow,3.9333731420201554e-08
-Enterprise to EBITDA,36.882
-Price to Book,696.00006
-Price to Earnings,"PriceToEarnings(trailing_pe=45.916668, forward_pe=39.357147)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=1.68)"
-Enterprise to Revenue,9.407
+Debt to Equity,None
+Price to Cash Flow,3.8180267328673636e-08
+Enterprise to EBITDA,30.376
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=37.766235, forward_pe=29.67347)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.54, forward_eps=1.96)"
+Enterprise to Revenue,7.875
 
 CASH FLOW
-Free to Cash Flow,1680999936.0
-Operating to Cash Flow,2271899904.0
+Free to Cash Flow,1523299968.0
+Operating to Cash Flow,2088400000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.11792
-Return on Invested Capital,1.0892654599550546
-Return on Investment,-0.06853484407385349
+Return on Assets,0.11076
+Return on Invested Capital,1.1078884233366701
+Return on Investment,-0.03392927683168317
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.34
+Recommendation Key,1
+SUM ANALYST RATING SCORE,34.34
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
-Operating Cash Flow,True
-Free Cash Flow,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,6.0
+CRITERIA PASS COUNT,2.0
 

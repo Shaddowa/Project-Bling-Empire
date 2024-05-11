@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,CDNS
 Company,"Cadence Design Systems, Inc."
 Country,United States
-Industry,Software - Application
+Industry,Software—Application
 Sector,Technology
 Website,https://www.cadence.com
-Price,291.19
+Price,285.28
 Currency,USD
 
 REVENUE
-Total Revenue,3921240064.0
-Revenue Per Share,14.548
-Revenue Growth,0.134
+Total Revenue,4077399040.0
+Revenue Per Share,15.135
+Revenue Growth,-0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.52, forward_eps=5.89)"
-Net Earnings,957636992.0
-Earnings Growth,0.368
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.85, forward_eps=6.91)"
+Net Earnings,1046982976.0
+Earnings Growth,0.022
 
 DEBT
-Total Debt,648801024.0
-Debt to Equity,20.836
+Total Debt,649312000.0
+Debt to Equity,18.2
 
 MARGINS
-Profit Margins,0.24422
-Gross Profit Margins,0.89176005
-Operating Margins,0.30181998
+Profit Margins,0.25678
+Gross Profit Margins,0.89313006
+Operating Margins,0.2569
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,20.836
-Price to Cash Flow,2.9495004136950025e-07
-Enterprise to EBITDA,61.148
-Price to Book,25.40014
-Price to Earnings,"PriceToEarnings(trailing_pe=82.59375, forward_pe=49.359936)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.52, forward_eps=5.89)"
-Enterprise to Revenue,20.091
+Debt to Equity,18.2
+Price to Cash Flow,2.6801432138460577e-07
+Enterprise to EBITDA,57.207
+Price to Book,21.9283
+Price to Earnings,"PriceToEarnings(trailing_pe=74.670135, forward_pe=41.603477)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.85, forward_eps=6.91)"
+Enterprise to Revenue,19.062
 
 CASH FLOW
-Free to Cash Flow,985692352.0
-Operating to Cash Flow,1340720000.0
+Free to Cash Flow,1072629248.0
+Operating to Cash Flow,1335006976.0
 
 PROFITABILITY
-Return on Equity,0.32897
-Return on Assets,0.13795
-Return on Invested Capital,1.4760102707630536
-Return on Investment,-0.290210616400994
+Return on Equity,0.32173002
+Return on Assets,0.13864
+Return on Invested Capital,1.6124497234931499
+Return on Investment,-0.19334508614799356
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,62.51999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,63.51999999999998
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,3.0
+CRITERIA PASS COUNT,2.0
 

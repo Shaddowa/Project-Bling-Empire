@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,GE
 Company,General Electric Company
 Country,United States
-Industry,Specialty Industrial Machinery
+Industry,Aerospace & Defense
 Sector,Industrials
-Website,https://www.ge.com
-Price,129.93
+Website,https://www.geaerospace.com
+Price,167.5
 Currency,USD
 
 REVENUE
-Total Revenue,67953999872.0
-Revenue Per Share,62.4
-Revenue Growth,-0.108
+Total Revenue,69520998400.0
+Revenue Per Share,63.81
+Revenue Growth,0.108
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.98, forward_eps=5.95)"
-Net Earnings,8771999744.0
-Earnings Growth,-0.254
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=5.0)"
+Net Earnings,4192000000.0
+Earnings Growth,-0.792
 
 DEBT
-Total Debt,20963999744.0
-Debt to Equity,73.352
+Total Debt,22432999424.0
+Debt to Equity,72.125
 
 MARGINS
-Profit Margins,0.13951999
-Gross Profit Margins,0.21597
-Operating Margins,0.06147
+Profit Margins,0.05052
+Gross Profit Margins,0.22494
+Operating Margins,0.09612001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.32
-Dividend Yield,0.0023999999
-Dividend Payout Ratio,0.0401
-Five Year Avg Dividend Yield,0.67
-Trailing Annual Dividend Rate,0.32
-Trailing Annual Dividend Yield,0.0024628646
+Dividend Rate,1.12
+Dividend Yield,0.0069
+Dividend Payout Ratio,0.063200004
+Five Year Avg Dividend Yield,0.48
+Trailing Annual Dividend Rate,0.52
+Trailing Annual Dividend Yield,0.0031044774
 
 FINANCIAL RATIO
-Debt to Equity,73.352
-Price to Cash Flow,None
-Enterprise to EBITDA,25.617
-Price to Book,5.2134004
-Price to Earnings,"PriceToEarnings(trailing_pe=16.43985, forward_pe=22.04874)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.98, forward_eps=5.95)"
-Enterprise to Revenue,2.124
+Debt to Equity,72.125
+Price to Cash Flow,2.6612912002931657e-08
+Enterprise to EBITDA,21.482
+Price to Book,5.990101
+Price to Earnings,"PriceToEarnings(trailing_pe=42.881893, forward_pe=32.676003)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=5.0)"
+Enterprise to Revenue,2.621
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,6139125248.0
+Operating to Cash Flow,6430000128.0
 
 PROFITABILITY
-Return on Equity,0.27297002
-Return on Assets,0.01273
-Return on Invested Capital,0.4184315894194368
-Return on Investment,0.10319999698823529
+Return on Equity,0.13635
+Return on Assets,0.02431
+Return on Invested Capital,0.18686756575308272
+Return on Investment,0.07820895522388059
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0067
-SUM DIVIDEND SCORE,4.0067
+5 Year Average,0.0048
+SUM DIVIDEND SCORE,8.0048
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,47.620000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,48.620000000000005
 
 
 

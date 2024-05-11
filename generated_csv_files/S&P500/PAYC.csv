@@ -5,76 +5,81 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.paycom.com
-Price,192.78
+Price,173.58
 Currency,USD
 
 REVENUE
-Total Revenue,1629687040.0
-Revenue Per Share,28.161
-Revenue Growth,0.216
+Total Revenue,1741917952.0
+Revenue Per Share,30.359
+Revenue Growth,0.107
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.83, forward_eps=8.12)"
-Net Earnings,338982016.0
-Earnings Growth,0.444
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.18, forward_eps=8.84)"
+Net Earnings,468679008.0
+Earnings Growth,1.121
 
 DEBT
-Total Debt,29000000.0
-Debt to Equity,2.04
+Total Debt,0.0
+Debt to Equity,None
 
 MARGINS
-Profit Margins,0.20799999
-Gross Profit Margins,0.87061995
-Operating Margins,0.23849002
+Profit Margins,0.26906002
+Gross Profit Margins,0.86550003
+Operating Margins,0.57176
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.5
-Dividend Yield,0.0077
-Dividend Payout Ratio,0.1284
+Dividend Yield,0.0087
+Dividend Payout Ratio,0.1832
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.75
-Trailing Annual Dividend Yield,0.003890445
+Trailing Annual Dividend Rate,1.5
+Trailing Annual Dividend Yield,0.008641548
 
 FINANCIAL RATIO
-Debt to Equity,2.04
-Price to Cash Flow,5.755455486408655e-07
-Enterprise to EBITDA,20.994
-Price to Book,7.523972
-Price to Earnings,"PriceToEarnings(trailing_pe=33.24357, forward_pe=23.868227)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.83, forward_eps=8.12)"
-Enterprise to Revenue,6.583
+Debt to Equity,None
+Price to Cash Flow,5.985632438492043e-07
+Enterprise to EBITDA,14.86
+Price to Book,6.6270447
+Price to Earnings,"PriceToEarnings(trailing_pe=21.196821, forward_pe=19.614252)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.18, forward_eps=8.84)"
+Enterprise to Revenue,5.417
 
 CASH FLOW
-Free to Cash Flow,336741376.0
-Operating to Cash Flow,479024992.0
+Free to Cash Flow,289676992.0
+Operating to Cash Flow,487569984.0
 
 PROFITABILITY
-Return on Equity,0.27144
-Return on Assets,0.07852
-Return on Invested Capital,11.68902465180738
-Return on Investment,-0.019343209887814843
+Return on Equity,0.33808997
+Return on Assets,0.08031999
+Return on Invested Capital,17913125.210212506
+Return on Investment,-0.023410890672687402
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,3.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,8.0
+SUM DIVIDEND SCORE,7.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,76.61000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,76.61000000000001
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,True
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
-Free Cash Flow,True
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,3.0
+CRITERIA PASS COUNT,2.0
 

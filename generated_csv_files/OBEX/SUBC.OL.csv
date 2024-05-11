@@ -5,55 +5,55 @@ Country,Luxembourg
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.subsea7.com
-Price,150.1
+Price,183.6
 Currency,NOK
 
 REVENUE
-Total Revenue,5633399808.0
-Revenue Per Share,19.057
-Revenue Growth,0.124
+Total Revenue,6122800128.0
+Revenue Per Share,20.393
+Revenue Growth,0.12
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.1, forward_eps=9.26)"
-Net Earnings,60200000.0
-Earnings Growth,10.001
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=16.17)"
+Net Earnings,62300000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,1135399936.0
-Debt to Equity,26.152
+Total Debt,1385900032.0
+Debt to Equity,31.804
 
 MARGINS
-Profit Margins,0.01069
-Gross Profit Margins,0.06511
-Operating Margins,0.0403
+Profit Margins,0.01018
+Gross Profit Margins,0.07546
+Operating Margins,0.0075199995
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.0
-Dividend Yield,0.0066000004
-Dividend Payout Ratio,0.4702
+Dividend Rate,6.0
+Dividend Yield,0.0321
+Dividend Payout Ratio,0.44779998
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.102
-Trailing Annual Dividend Yield,0.0006795469
+Trailing Annual Dividend Rate,0.592
+Trailing Annual Dividend Yield,0.0032244008
 
 FINANCIAL RATIO
-Debt to Equity,26.152
-Price to Cash Flow,-1.1796225308028543e-06
-Enterprise to EBITDA,91.223
-Price to Book,10.494085
-Price to Earnings,"PriceToEarnings(trailing_pe=71.80953, forward_pe=16.285097)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.1, forward_eps=9.26)"
-Enterprise to Revenue,8.148
+Debt to Equity,31.804
+Price to Cash Flow,4.441013986752688e-07
+Enterprise to EBITDA,99.523
+Price to Book,12.946552
+Price to Earnings,"PriceToEarnings(trailing_pe=82.01755, forward_pe=11.564626)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=16.17)"
+Enterprise to Revenue,9.28
 
 CASH FLOW
-Free to Cash Flow,-127837504.0
-Operating to Cash Flow,274300000.0
+Free to Cash Flow,421075008.0
+Operating to Cash Flow,773500032.0
 
 PROFITABILITY
-Return on Equity,0.01113
-Return on Assets,0.00883
-Return on Invested Capital,0.05302096409320984
-Return on Investment,-0.0020372250423011844
+Return on Equity,0.0155299995
+Return on Assets,0.015240001
+Return on Invested Capital,0.04495273678635911
+Return on Investment,-0.001515815085158151
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,9.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,41.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,42.5
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.axon.com
-Price,252.7
+Price,309.09
 Currency,USD
 
 REVENUE
-Total Revenue,1467390976.0
-Revenue Per Share,20.034
-Revenue Growth,0.327
+Total Revenue,1681084032.0
+Revenue Per Share,22.452
+Revenue Growth,0.343
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.96, forward_eps=4.11)"
-Net Earnings,146131008.0
-Earnings Growth,3.588
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.43, forward_eps=5.73)"
+Net Earnings,262306000.0
+Earnings Growth,1.836
 
 DEBT
-Total Debt,721136000.0
-Debt to Equity,47.408
+Total Debt,720041984.0
+Debt to Equity,39.606
 
 MARGINS
-Profit Margins,0.099589996
-Gross Profit Margins,0.61140996
-Operating Margins,0.12693
+Profit Margins,0.15603
+Gross Profit Margins,0.60159
+Operating Margins,0.03533
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,47.408
-Price to Cash Flow,1.0535973206034277e-06
-Enterprise to EBITDA,110.032
-Price to Book,12.382266
-Price to Earnings,"PriceToEarnings(trailing_pe=128.24489, forward_pe=61.15815)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.96, forward_eps=4.11)"
-Enterprise to Revenue,12.516
+Debt to Equity,39.606
+Price to Cash Flow,1.523137881490747e-06
+Enterprise to EBITDA,116.1
+Price to Book,12.595682
+Price to Earnings,"PriceToEarnings(trailing_pe=88.463554, forward_pe=52.954624)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.43, forward_eps=5.73)"
+Enterprise to Revenue,13.417
 
 CASH FLOW
-Free to Cash Flow,238573120.0
-Operating to Cash Flow,180344992.0
+Free to Cash Flow,199213744.0
+Operating to Cash Flow,229648000.0
 
 PROFITABILITY
-Return on Equity,0.10618
-Return on Assets,0.03279
-Return on Invested Capital,0.20264000672051857
+Return on Equity,0.16287
+Return on Assets,0.029579999
+Return on Invested Capital,0.3642926343919835
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,96.57
+Recommendation Key,1
+SUM ANALYST RATING SCORE,97.57
 
 
 

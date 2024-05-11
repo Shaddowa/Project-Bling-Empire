@@ -5,63 +5,68 @@ Country,Ireland
 Industry,Insurance Brokers
 Sector,Financial Services
 Website,https://www.aon.com
-Price,299.71
+Price,287.58
 Currency,USD
 
 REVENUE
-Total Revenue,13130999808.0
-Revenue Per Share,63.976
-Revenue Growth,0.095
+Total Revenue,13575000064.0
+Revenue Per Share,67.286
+Revenue Growth,0.051
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.16, forward_eps=16.2)"
-Net Earnings,2723000064.0
-Earnings Growth,0.161
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.78, forward_eps=17.26)"
+Net Earnings,2584999936.0
+Earnings Growth,0.055
 
 DEBT
-Total Debt,12087000064.0
+Total Debt,17316999168.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.20737
-Gross Profit Margins,0.46554002
-Operating Margins,0.22994
+Profit Margins,0.19042
+Gross Profit Margins,0.47816002
+Operating Margins,0.38673002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.46
-Dividend Yield,0.0081
-Dividend Payout Ratio,0.1784
-Five Year Avg Dividend Yield,0.8
-Trailing Annual Dividend Rate,2.35
-Trailing Annual Dividend Yield,0.007840913
+Dividend Rate,2.7
+Dividend Yield,0.0092
+Dividend Payout Ratio,0.19229999
+Five Year Avg Dividend Yield,0.79
+Trailing Annual Dividend Rate,2.46
+Trailing Annual Dividend Yield,0.008554142
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.479720634076966e-07
-Enterprise to EBITDA,17.821
+Price to Cash Flow,1.0467390117816916e-07
+Enterprise to EBITDA,16.985
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=22.94073, forward_pe=18.635801)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.16, forward_eps=16.2)"
-Enterprise to Revenue,5.465
+Price to Earnings,"PriceToEarnings(trailing_pe=22.934273, forward_pe=16.98146)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.78, forward_eps=17.26)"
+Enterprise to Revenue,5.514
 
 CASH FLOW
-Free to Cash Flow,2040249984.0
-Operating to Cash Flow,3216000000.0
+Free to Cash Flow,2800124928.0
+Operating to Cash Flow,3300999936.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,0.07337
-Return on Invested Capital,0.22528336644653274
-Return on Investment,0.04082458866566717
+Return on Equity,176.13332
+Return on Assets,0.06921
+Return on Invested Capital,0.14927528210989482
+Return on Investment,0.031913579456790124
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.008
-SUM DIVIDEND SCORE,8.008
+5 Year Average,0.0079
+SUM DIVIDEND SCORE,8.0079
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,119.89999999999998
+Recommendation Key,0
+SUM ANALYST RATING SCORE,119.89999999999998
 
 
 

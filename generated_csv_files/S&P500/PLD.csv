@@ -5,63 +5,68 @@ Country,United States
 Industry,REIT—Industrial
 Sector,Real Estate
 Website,https://www.prologis.com
-Price,126.2
+Price,108.15
 Currency,USD
 
 REVENUE
-Total Revenue,8330696192.0
-Revenue Per Share,9.012
-Revenue Growth,0.087
+Total Revenue,8515423232.0
+Revenue Per Share,9.209
+Revenue Growth,0.1
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.29, forward_eps=3.12)"
-Net Earnings,3053372928.0
-Earnings Growth,0.071
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.42, forward_eps=2.89)"
+Net Earnings,3174466048.0
+Earnings Growth,0.259
 
 DEBT
-Total Debt,29000501248.0
-Debt to Equity,50.153
+Total Debt,30172301312.0
+Debt to Equity,52.204
 
 MARGINS
-Profit Margins,0.36722
-Gross Profit Margins,0.75868
-Operating Margins,0.37058997
+Profit Margins,0.37348
+Gross Profit Margins,0.75819
+Operating Margins,0.36222
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.48
-Dividend Yield,0.0274
-Dividend Payout Ratio,1.0577999
-Five Year Avg Dividend Yield,2.36
-Trailing Annual Dividend Rate,3.48
-Trailing Annual Dividend Yield,0.027575279
+Dividend Rate,3.84
+Dividend Yield,0.0357
+Dividend Payout Ratio,1.0439
+Five Year Avg Dividend Yield,2.37
+Trailing Annual Dividend Rate,3.57
+Trailing Annual Dividend Yield,0.033009708
 
 FINANCIAL RATIO
-Debt to Equity,50.153
-Price to Cash Flow,None
-Enterprise to EBITDA,25.696
-Price to Book,2.2057443
-Price to Earnings,"PriceToEarnings(trailing_pe=38.562313, forward_pe=40.663464)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.29, forward_eps=3.12)"
-Enterprise to Revenue,18.056
+Debt to Equity,52.204
+Price to Cash Flow,2.0499483976744362e-08
+Enterprise to EBITDA,22.325
+Price to Book,1.8731376
+Price to Earnings,"PriceToEarnings(trailing_pe=31.429823, forward_pe=37.19377)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.42, forward_eps=2.89)"
+Enterprise to Revenue,15.72
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,5243546624.0
+Operating to Cash Flow,5314221056.0
 
 PROFITABILITY
-Return on Equity,0.05624
-Return on Assets,0.02343
-Return on Invested Capital,0.10528690162397389
+Return on Equity,0.05874
+Return on Assets,0.0239
+Return on Invested Capital,0.10521126675544355
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0236
-SUM DIVIDEND SCORE,4.0236
+5 Year Average,0.023700000000000002
+SUM DIVIDEND SCORE,8.0237
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,46.510000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,47.510000000000005
 
 
 

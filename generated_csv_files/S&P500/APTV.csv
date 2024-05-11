@@ -5,27 +5,27 @@ Country,Ireland
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.aptiv.com
-Price,84.52
+Price,83.69
 Currency,USD
 
 REVENUE
-Total Revenue,19772000256.0
-Revenue Per Share,72.053
-Revenue Growth,0.108
+Total Revenue,20134000640.0
+Revenue Per Share,72.434
+Revenue Growth,0.017
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.03, forward_eps=5.82)"
-Net Earnings,2236999936.0
-Earnings Growth,4.485
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.64, forward_eps=7.79)"
+Net Earnings,2980999936.0
+Earnings Growth,0.466
 
 DEBT
-Total Debt,6993999872.0
-Debt to Equity,63.163
+Total Debt,6769999872.0
+Debt to Equity,59.287
 
 MARGINS
-Profit Margins,0.11542
-Gross Profit Margins,0.16841999
-Operating Margins,0.096599996
+Profit Margins,0.1487
+Gross Profit Margins,0.17756
+Operating Margins,0.09876
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,63.163
-Price to Cash Flow,8.443572129538764e-08
-Enterprise to EBITDA,11.185
-Price to Book,2.2577937
-Price to Earnings,"PriceToEarnings(trailing_pe=10.71482, forward_pe=14.7835045)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.03, forward_eps=5.82)"
-Enterprise to Revenue,1.508
+Debt to Equity,59.287
+Price to Cash Flow,7.818653955042774e-08
+Enterprise to EBITDA,9.979
+Price to Book,2.0251493
+Price to Earnings,"PriceToEarnings(trailing_pe=7.7800746, forward_pe=10.626444)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.64, forward_eps=7.79)"
+Enterprise to Revenue,1.423
 
 CASH FLOW
-Free to Cash Flow,1019000000.0
-Operating to Cash Flow,2204999936.0
+Free to Cash Flow,1058750016.0
+Operating to Cash Flow,2148999936.0
 
 PROFITABILITY
-Return on Equity,0.23778999
-Return on Assets,0.05185
-Return on Invested Capital,0.3198455768875549
-Return on Investment,-0.06799391902735562
+Return on Equity,0.29249
+Return on Assets,0.05382
+Return on Invested Capital,0.4403249592855054
+Return on Investment,-0.08872023619047618
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,13 +63,18 @@ Dividend Ex Date,0.0
 5 Year Average,0.0116
 SUM DIVIDEND SCORE,0.0116
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,62.22
+Recommendation Key,1
+SUM ANALYST RATING SCORE,63.22
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

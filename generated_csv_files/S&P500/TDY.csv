@@ -5,27 +5,27 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.teledyne.com
-Price,424.91
+Price,392.62
 Currency,USD
 
 REVENUE
-Total Revenue,5635500032.0
-Revenue Per Share,304.786
-Revenue Growth,0.005
+Total Revenue,5602299904.0
+Revenue Per Share,118.693
+Revenue Growth,-0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.48, forward_eps=22.49)"
-Net Earnings,885699968.0
-Earnings Growth,2.691
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.49, forward_eps=21.68)"
+Net Earnings,885500032.0
+Earnings Growth,-0.003
 
 DEBT
-Total Debt,3244900096.0
-Debt to Equity,35.172
+Total Debt,3246299904.0
+Debt to Equity,34.782
 
 MARGINS
-Profit Margins,0.15716
-Gross Profit Margins,0.43286
-Operating Margins,0.18863001
+Profit Margins,0.15806
+Gross Profit Margins,0.43316
+Operating Margins,0.17554002
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,35.172
-Price to Cash Flow,None
-Enterprise to EBITDA,7.578
-Price to Book,0.84008235
-Price to Earnings,"PriceToEarnings(trailing_pe=22.670996, forward_pe=18.628723)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.48, forward_eps=22.49)"
-Enterprise to Revenue,1.836
+Debt to Equity,34.782
+Price to Cash Flow,5.297923245324159e-07
+Enterprise to EBITDA,15.552
+Price to Book,2.0003862
+Price to Earnings,"PriceToEarnings(trailing_pe=21.281233, forward_pe=18.149906)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.49, forward_eps=21.68)"
+Enterprise to Revenue,3.748
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,742724992.0
+Operating to Cash Flow,924099968.0
 
 PROFITABILITY
-Return on Equity,0.10192
-Return on Assets,0.04531
-Return on Invested Capital,0.272951340772378
-Return on Investment,0.14860737718120806
+Return on Equity,0.100200005
+Return on Assets,0.04464
+Return on Invested Capital,0.2727720803776429
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,143.51
+Recommendation Key,1
+SUM ANALYST RATING SCORE,144.51
 
 
 

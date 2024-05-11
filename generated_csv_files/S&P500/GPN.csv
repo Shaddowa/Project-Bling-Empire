@@ -5,63 +5,68 @@ Country,United States
 Industry,Specialty Business Services
 Sector,Industrials
 Website,https://www.globalpayments.com
-Price,131.38
+Price,111.57
 Currency,USD
 
 REVENUE
-Total Revenue,9473591296.0
-Revenue Per Share,36.152
-Revenue Growth,0.083
+Total Revenue,9782159360.0
+Revenue Per Share,37.685
+Revenue Growth,0.056
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.28, forward_eps=11.75)"
-Net Earnings,874241984.0
-Earnings Growth,0.324
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.02, forward_eps=13.15)"
+Net Earnings,1310580992.0
+Earnings Growth,None
 
 DEBT
-Total Debt,17361340416.0
-Debt to Equity,74.969
+Total Debt,18244220928.0
+Debt to Equity,79.371
 
 MARGINS
-Profit Margins,0.09228
-Gross Profit Margins,0.60933
-Operating Margins,0.2573
+Profit Margins,0.13397999
+Gross Profit Margins,0.62358004
+Operating Margins,0.21947001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.0
-Dividend Yield,0.0075
-Dividend Payout Ratio,0.3049
-Five Year Avg Dividend Yield,0.51
+Dividend Yield,0.0092
+Dividend Payout Ratio,0.1988
+Five Year Avg Dividend Yield,0.56
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.0076115085
+Trailing Annual Dividend Yield,0.008962983
 
 FINANCIAL RATIO
-Debt to Equity,74.969
-Price to Cash Flow,5.766843434529977e-08
-Enterprise to EBITDA,13.32
-Price to Book,1.5534723
-Price to Earnings,"PriceToEarnings(trailing_pe=40.82317, forward_pe=11.395744)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.28, forward_eps=11.75)"
-Enterprise to Revenue,5.384
+Debt to Equity,79.371
+Price to Cash Flow,5.366732266677534e-08
+Enterprise to EBITDA,10.721
+Price to Book,1.2544215
+Price to Earnings,"PriceToEarnings(trailing_pe=21.758965, forward_pe=8.306464)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.02, forward_eps=13.15)"
+Enterprise to Revenue,4.572
 
 CASH FLOW
-Free to Cash Flow,2321894144.0
-Operating to Cash Flow,2300823040.0
+Free to Cash Flow,2035316736.0
+Operating to Cash Flow,2065532032.0
 
 PROFITABILITY
-Return on Equity,0.03975
-Return on Assets,0.028269999
-Return on Invested Capital,0.05035567293260101
-Return on Investment,0.015300213933691756
+Return on Equity,0.05914
+Return on Assets,0.029140001
+Return on Invested Capital,0.07183540425853258
+Return on Investment,0.017305602839501607
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0051
-SUM DIVIDEND SCORE,4.0051
+5 Year Average,0.005600000000000001
+SUM DIVIDEND SCORE,7.0056
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,94.77
+Recommendation Key,1
+SUM ANALYST RATING SCORE,95.77
 
 
 

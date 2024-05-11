@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.qualcomm.com
-Price,154.47
+Price,180.54
 Currency,USD
 
 REVENUE
-Total Revenue,35819999232.0
-Revenue Per Share,32.068
-Revenue Growth,None
+Total Revenue,36407001088.0
+Revenue Per Share,32.637
+Revenue Growth,0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.52, forward_eps=10.56)"
-Net Earnings,7338999808.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.5, forward_eps=11.18)"
+Net Earnings,8450999808.0
+Earnings Growth,0.357
 
 DEBT
-Total Debt,16067000320.0
-Debt to Equity,74.45
+Total Debt,15457000448.0
+Debt to Equity,63.17
 
 MARGINS
-Profit Margins,0.2019
-Gross Profit Margins,0.55698
-Operating Margins,0.23021999
+Profit Margins,0.23034
+Gross Profit Margins,0.55805
+Operating Margins,0.24923
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.2
-Dividend Yield,0.0212
-Dividend Payout Ratio,0.4755
-Five Year Avg Dividend Yield,2.5
-Trailing Annual Dividend Rate,3.1
-Trailing Annual Dividend Yield,0.020068621
+Dividend Rate,3.4
+Dividend Yield,0.0187
+Dividend Payout Ratio,0.4267
+Five Year Avg Dividend Yield,2.35
+Trailing Annual Dividend Rate,3.2
+Trailing Annual Dividend Yield,0.017724605
 
 FINANCIAL RATIO
-Debt to Equity,74.45
-Price to Cash Flow,1.5353740799751647e-08
-Enterprise to EBITDA,16.492
-Price to Book,7.7799
-Price to Earnings,"PriceToEarnings(trailing_pe=23.116564, forward_pe=14.272727)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.52, forward_eps=10.56)"
-Enterprise to Revenue,4.816
+Debt to Equity,63.17
+Price to Cash Flow,1.5945354502277616e-08
+Enterprise to EBITDA,18.899
+Price to Book,8.319474
+Price to Earnings,"PriceToEarnings(trailing_pe=24.277334, forward_pe=16.286224)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.5, forward_eps=11.18)"
+Enterprise to Revenue,5.625
 
 CASH FLOW
-Free to Cash Flow,9816500224.0
-Operating to Cash Flow,11299000320.0
+Free to Cash Flow,11418999808.0
+Operating to Cash Flow,13249999872.0
 
 PROFITABILITY
-Return on Equity,0.37071
-Return on Assets,0.10807
-Return on Invested Capital,0.4567747341123414
-Return on Investment,-1.1837096464516128
+Return on Equity,0.38268003
+Return on Assets,0.1114
+Return on Invested Capital,0.5467425471367879
+Return on Investment,0.2139493622278481
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.025
-SUM DIVIDEND SCORE,9.025
+5 Year Average,0.0235
+SUM DIVIDEND SCORE,9.0235
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,37.91999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,38.91999999999999
 
 
 

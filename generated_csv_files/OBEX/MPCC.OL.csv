@@ -5,55 +5,55 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.mpc-container.com
-Price,15.75
+Price,18.6
 Currency,NOK
 
 REVENUE
-Total Revenue,720512000.0
-Revenue Per Share,1.623
-Revenue Growth,0.149
+Total Revenue,711281984.0
+Revenue Per Share,1.603
+Revenue Growth,-0.057
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.22, forward_eps=0.5)"
-Net Earnings,392857984.0
-Earnings Growth,-0.464
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.96, forward_eps=0.15)"
+Net Earnings,324960992.0
+Earnings Growth,-0.652
 
 DEBT
-Total Debt,173799008.0
-Debt to Equity,22.251
+Total Debt,126515000.0
+Debt to Equity,16.791
 
 MARGINS
-Profit Margins,0.54525
-Gross Profit Margins,0.73203003
-Operating Margins,0.46473
+Profit Margins,0.45687
+Gross Profit Margins,0.72826
+Operating Margins,0.48975
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.31
-Dividend Yield,0.39790002
-Dividend Payout Ratio,0.8003
+Dividend Rate,5.49
+Dividend Yield,0.2899
+Dividend Payout Ratio,0.90809995
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.59
-Trailing Annual Dividend Yield,0.037460316
+Trailing Annual Dividend Rate,0.57
+Trailing Annual Dividend Yield,0.03064516
 
 FINANCIAL RATIO
-Debt to Equity,22.251
-Price to Cash Flow,7.896031041315621e-07
-Enterprise to EBITDA,13.999
-Price to Book,9.036489
-Price to Earnings,"PriceToEarnings(trailing_pe=1.7190889, forward_pe=31.7)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.22, forward_eps=0.5)"
-Enterprise to Revenue,9.878
+Debt to Equity,16.791
+Price to Cash Flow,2.434203542473936e-07
+Enterprise to EBITDA,17.035
+Price to Book,11.213017
+Price to Earnings,"PriceToEarnings(trailing_pe=2.3806534, forward_pe=126.333336)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.96, forward_eps=0.15)"
+Enterprise to Revenue,11.836
 
 CASH FLOW
-Free to Cash Flow,20073376.0
-Operating to Cash Flow,513868000.0
+Free to Cash Flow,77848872.0
+Operating to Cash Flow,484633984.0
 
 PROFITABILITY
-Return on Equity,0.52986
-Return on Assets,0.25862
-Return on Invested Capital,2.2604155487195365
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.44085997
+Return on Assets,0.25786
+Return on Invested Capital,2.568556990547672
+Return on Investment,-0.014459998487080109
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -63,14 +63,19 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,8.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,True
+Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False

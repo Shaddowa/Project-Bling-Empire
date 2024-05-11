@@ -5,63 +5,68 @@ Country,United States
 Industry,Steel
 Sector,Basic Materials
 Website,https://www.nucor.com
-Price,174.7
+Price,174.37
 Currency,USD
 
 REVENUE
-Total Revenue,35732926464.0
-Revenue Per Share,141.842
-Revenue Growth,-0.164
+Total Revenue,34140604416.0
+Revenue Per Share,138.14
+Revenue Growth,-0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.77, forward_eps=12.73)"
-Net Earnings,4976413184.0
-Earnings Growth,-0.298
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.01, forward_eps=12.01)"
+Net Earnings,4216346112.0
+Earnings Growth,-0.224
 
 DEBT
-Total Debt,6836658176.0
-Debt to Equity,31.785
+Total Debt,6851451904.0
+Debt to Equity,31.536
 
 MARGINS
-Profit Margins,0.13979
-Gross Profit Margins,0.23905
-Operating Margins,0.17492001
+Profit Margins,0.12399
+Gross Profit Margins,0.21576001
+Operating Margins,0.14474
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.16
-Dividend Yield,0.0123000005
-Dividend Payout Ratio,0.103199996
-Five Year Avg Dividend Yield,2.22
-Trailing Annual Dividend Rate,2.04
-Trailing Annual Dividend Yield,0.011677161
+Dividend Yield,0.0124
+Dividend Payout Ratio,0.123500004
+Five Year Avg Dividend Yield,2.12
+Trailing Annual Dividend Rate,2.1
+Trailing Annual Dividend Yield,0.012043356
 
 FINANCIAL RATIO
-Debt to Equity,31.785
-Price to Cash Flow,3.649235451702439e-08
-Enterprise to EBITDA,5.519
-Price to Book,2.103354
-Price to Earnings,"PriceToEarnings(trailing_pe=8.8568535, forward_pe=13.75491)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.77, forward_eps=12.73)"
-Enterprise to Revenue,1.237
+Debt to Equity,31.536
+Price to Cash Flow,6.397940839810927e-08
+Enterprise to EBITDA,6.307
+Price to Book,2.021458
+Price to Earnings,"PriceToEarnings(trailing_pe=10.256907, forward_pe=14.5270605)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.01, forward_eps=12.01)"
+Enterprise to Revenue,1.294
 
 CASH FLOW
-Free to Cash Flow,4798265344.0
-Operating to Cash Flow,8125142016.0
+Free to Cash Flow,2726971136.0
+Operating to Cash Flow,6364410880.0
 
 PROFITABILITY
-Return on Equity,0.26609
-Return on Assets,0.12757
-Return on Invested Capital,0.727901409620463
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.22278999
+Return on Assets,0.10955
+Return on Invested Capital,0.6153945350509334
+Return on Investment,-0.022200105262825353
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0222
-SUM DIVIDEND SCORE,8.0222
+5 Year Average,0.0212
+SUM DIVIDEND SCORE,8.0212
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,65.53
+Recommendation Key,1
+SUM ANALYST RATING SCORE,66.53
 
 
 

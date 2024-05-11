@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,CPT
 Company,Camden Property Trust
 Country,United States
-Industry,REIT - Residential
+Industry,REIT—Residential
 Sector,Real Estate
 Website,https://www.camdenliving.com
-Price,95.86
+Price,106.83
 Currency,USD
 
 REVENUE
-Total Revenue,1534348032.0
-Revenue Per Share,14.129
-Revenue Growth,0.047
+Total Revenue,1553746944.0
+Revenue Per Share,14.296
+Revenue Growth,0.02
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.04, forward_eps=1.69)"
-Net Earnings,226312992.0
-Earnings Growth,0.63
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.08, forward_eps=1.75)"
+Net Earnings,444556992.0
+Earnings Growth,0.998
 
 DEBT
-Total Debt,3659527936.0
-Debt to Equity,74.155
+Total Debt,3558868992.0
+Debt to Equity,71.268
 
 MARGINS
-Profit Margins,0.14774
-Gross Profit Margins,0.62686
-Operating Margins,0.21529
+Profit Margins,0.28659
+Gross Profit Margins,0.6207
+Operating Margins,0.19760999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.0
-Dividend Yield,0.0418
-Dividend Payout Ratio,1.9314
-Five Year Avg Dividend Yield,3.07
-Trailing Annual Dividend Rate,3.94
-Trailing Annual Dividend Yield,0.04110161
+Dividend Rate,4.12
+Dividend Yield,0.038599998
+Dividend Payout Ratio,0.9877
+Five Year Avg Dividend Yield,3.14
+Trailing Annual Dividend Rate,4.03
+Trailing Annual Dividend Yield,0.037723485
 
 FINANCIAL RATIO
-Debt to Equity,74.155
-Price to Cash Flow,1.3520915391757078e-07
-Enterprise to EBITDA,15.652
-Price to Book,2.143017
-Price to Earnings,"PriceToEarnings(trailing_pe=46.936275, forward_pe=56.656803)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.04, forward_eps=1.69)"
-Enterprise to Revenue,9.085
+Debt to Equity,71.268
+Price to Cash Flow,1.4586444852908672e-07
+Enterprise to EBITDA,16.543
+Price to Book,2.3539279
+Price to Earnings,"PriceToEarnings(trailing_pe=26.137255, forward_pe=60.93714)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.08, forward_eps=1.75)"
+Enterprise to Revenue,9.589
 
 CASH FLOW
-Free to Cash Flow,708162112.0
-Operating to Cash Flow,771152000.0
+Free to Cash Flow,731089728.0
+Operating to Cash Flow,791129024.0
 
 PROFITABILITY
-Return on Equity,0.04657
-Return on Assets,0.02161
-Return on Invested Capital,0.061842126414879156
-Return on Investment,-0.01604726630692978
+Return on Equity,0.09056
+Return on Assets,0.02197
+Return on Invested Capital,0.12491524339341703
+Return on Investment,-0.02796976205156598
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.030699999999999998
-SUM DIVIDEND SCORE,8.0307
+5 Year Average,0.031400000000000004
+SUM DIVIDEND SCORE,8.0314
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,11.36
+Recommendation Key,1
+SUM ANALYST RATING SCORE,12.36
 
 
 

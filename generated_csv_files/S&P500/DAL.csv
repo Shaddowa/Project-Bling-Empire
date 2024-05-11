@@ -5,76 +5,81 @@ Country,United States
 Industry,Airlines
 Sector,Industrials
 Website,https://www.delta.com
-Price,40.18
+Price,52.75
 Currency,USD
 
 REVENUE
-Total Revenue,58048000000.0
-Revenue Per Share,90.842
-Revenue Growth,0.059
+Total Revenue,59036999680.0
+Revenue Per Share,92.354
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.17, forward_eps=7.44)"
-Net Earnings,4608999936.0
-Earnings Growth,1.432
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.8, forward_eps=7.29)"
+Net Earnings,5008999936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,28303998976.0
-Debt to Equity,257.872
+Total Debt,27409000448.0
+Debt to Equity,245.799
 
 MARGINS
-Profit Margins,0.0794
-Gross Profit Margins,0.24872999
-Operating Margins,0.08922
+Profit Margins,0.08485
+Gross Profit Margins,0.22217
+Operating Margins,0.04117
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.4
-Dividend Yield,0.0101
-Dividend Payout Ratio,0.0279
+Dividend Yield,0.0076
+Dividend Payout Ratio,0.0385
 Five Year Avg Dividend Yield,2.3
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,0.4
+Trailing Annual Dividend Yield,0.0075829383
 
 FINANCIAL RATIO
-Debt to Equity,257.872
-Price to Cash Flow,None
-Enterprise to EBITDA,5.061
-Price to Book,2.307155
-Price to Earnings,"PriceToEarnings(trailing_pe=5.527197, forward_pe=5.326613)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.17, forward_eps=7.44)"
-Enterprise to Revenue,0.857
+Debt to Equity,245.799
+Price to Cash Flow,-9.165758966105735e-08
+Enterprise to EBITDA,6.927
+Price to Book,3.024379
+Price to Earnings,"PriceToEarnings(trailing_pe=6.7435894, forward_pe=7.2153635)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.8, forward_eps=7.29)"
+Enterprise to Revenue,0.96
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,-573875008.0
+Operating to Cash Flow,6637000192.0
 
 PROFITABILITY
-Return on Equity,0.525
-Return on Assets,0.06451
-Return on Invested Capital,0.16283917820626873
-Return on Investment,-0.010997375175375806
+Return on Equity,0.57537997
+Return on Assets,0.05173
+Return on Invested Capital,0.18275018610491173
+Return on Investment,-0.012869989558067832
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,3.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.023
-SUM DIVIDEND SCORE,4.023
+SUM DIVIDEND SCORE,7.023
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,32.4
+Recommendation Key,1
+SUM ANALYST RATING SCORE,33.4
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
-Operating Cash Flow,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,5.0
+CRITERIA PASS COUNT,2.0
 

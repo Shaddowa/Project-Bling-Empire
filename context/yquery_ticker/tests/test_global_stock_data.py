@@ -109,6 +109,11 @@ class test_global_stock_data(unittest.TestCase):
     def test_financial_data(self):
         financial_data = FinancialData(
             price=10,
+            target_high_price=0,
+            target_low_price=0,
+            recommendation_mean=0,
+            recommendation_key=None,
+            number_of_analyst_opinions=0,
             total_revenue=0.00000,
             revenue_per_share="",  # type: ignore
             revenue_growth="N/A",  # type: ignore
@@ -415,6 +420,11 @@ class test_global_stock_data(unittest.TestCase):
 
         financial_data = FinancialData(
             price=10,
+            target_high_price=0,
+            target_low_price=0,
+            recommendation_mean=0,
+            recommendation_key=None,
+            number_of_analyst_opinions=0,
             total_revenue=0.00000,
             revenue_per_share="",  # type: ignore
             revenue_growth="N/A",  # type: ignore

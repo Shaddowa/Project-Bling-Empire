@@ -5,63 +5,68 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.synchrony.com
-Price,38.46
+Price,46.1
 Currency,USD
 
 REVENUE
-Total Revenue,7662000128.0
-Revenue Per Share,18.191
-Revenue Growth,-0.02
+Total Revenue,8666999808.0
+Revenue Per Share,20.946
+Revenue Growth,0.526
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.19, forward_eps=6.31)"
-Net Earnings,2196000000.0
-Earnings Growth,-0.185
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.98, forward_eps=5.89)"
+Net Earnings,2888000000.0
+Earnings Growth,1.326
 
 DEBT
-Total Debt,15982000128.0
+Total Debt,16133000192.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.29209
+Profit Margins,0.33806
 Gross Profit Margins,0.0
-Operating Margins,0.31375
+Operating Margins,0.58614
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.98
-Dividend Yield,0.0248
-Dividend Payout Ratio,0.185
-Five Year Avg Dividend Yield,2.7
-Trailing Annual Dividend Rate,0.96
-Trailing Annual Dividend Yield,0.024960998
+Dividend Rate,1.0
+Dividend Yield,0.0219
+Dividend Payout Ratio,0.14039999
+Five Year Avg Dividend Yield,2.69
+Trailing Annual Dividend Rate,0.98
+Trailing Annual Dividend Yield,0.021258136
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.221728
-Price to Earnings,"PriceToEarnings(trailing_pe=7.6184974, forward_pe=6.2662444)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.19, forward_eps=6.31)"
-Enterprise to Revenue,2.42
+Price to Book,1.3056015
+Price to Earnings,"PriceToEarnings(trailing_pe=6.5515757, forward_pe=7.764007)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.98, forward_eps=5.89)"
+Enterprise to Revenue,1.811
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,8954999808.0
 
 PROFITABILITY
-Return on Equity,0.16715999
-Return on Assets,0.02016
-Return on Invested Capital,0.13740457877394896
-Return on Investment,0.006798761609907121
+Return on Equity,0.20579
+Return on Assets,0.02559
+Return on Invested Capital,0.17901196053800475
+Return on Investment,0.00697753080454216
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.027000000000000003
-SUM DIVIDEND SCORE,5.027
+5 Year Average,0.0269
+SUM DIVIDEND SCORE,8.0269
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,16.270000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,17.270000000000003
 
 
 

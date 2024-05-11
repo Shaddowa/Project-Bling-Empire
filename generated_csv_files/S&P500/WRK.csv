@@ -5,54 +5,54 @@ Country,United States
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.westrock.com
-Price,42.43
+Price,51.7
 Currency,USD
 
 REVENUE
-Total Revenue,20309999616.0
-Revenue Per Share,79.367
-Revenue Growth,-0.077
+Total Revenue,19456000000.0
+Revenue Per Share,75.69
+Revenue Growth,-0.104
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.44, forward_eps=3.64)"
-Net Earnings,-1648999936.0
-Earnings Growth,-0.683
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.21, forward_eps=3.53)"
+Net Earnings,304900000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,9285999616.0
-Debt to Equity,91.962
+Total Debt,9682100224.0
+Debt to Equity,96.016
 
 MARGINS
-Profit Margins,-0.081190005
-Gross Profit Margins,0.17627001
-Operating Margins,0.06078
+Profit Margins,0.01567
+Gross Profit Margins,0.17645
+Operating Margins,0.0468
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.21
-Dividend Yield,0.028499998
-Dividend Payout Ratio,0.32959998
-Five Year Avg Dividend Yield,3.39
-Trailing Annual Dividend Rate,1.1
-Trailing Annual Dividend Yield,0.025925053
+Dividend Yield,0.0234
+Dividend Payout Ratio,0.95449996
+Five Year Avg Dividend Yield,3.26
+Trailing Annual Dividend Rate,1.155
+Trailing Annual Dividend Yield,0.022340424
 
 FINANCIAL RATIO
-Debt to Equity,91.962
-Price to Cash Flow,6.185048094607149e-08
-Enterprise to EBITDA,7.306
-Price to Book,1.078187
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=11.645604)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.44, forward_eps=3.64)"
-Enterprise to Revenue,0.974
+Debt to Equity,96.016
+Price to Cash Flow,4.5968622324020865e-08
+Enterprise to EBITDA,8.791
+Price to Book,1.3240687
+Price to Earnings,"PriceToEarnings(trailing_pe=42.677685, forward_pe=14.628895)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.21, forward_eps=3.53)"
+Enterprise to Revenue,1.158
 
 CASH FLOW
-Free to Cash Flow,685362496.0
-Operating to Cash Flow,1827900032.0
+Free to Cash Flow,1123374976.0
+Operating to Cash Flow,1590000000.0
 
 PROFITABILITY
-Return on Equity,-0.15279001
-Return on Assets,0.02691
-Return on Invested Capital,-0.1775791511101327
+Return on Equity,0.03113
+Return on Assets,0.02398
+Return on Invested Capital,0.031491101281520426
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0339
-SUM DIVIDEND SCORE,8.0339
+5 Year Average,0.0326
+SUM DIVIDEND SCORE,8.0326
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,5.159999999999997
+Recommendation Key,0
+SUM ANALYST RATING SCORE,5.159999999999997
 
 
 

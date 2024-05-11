@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.bio-rad.com
-Price,316.3
+Price,277.31
 Currency,USD
 
 REVENUE
-Total Revenue,2720366080.0
-Revenue Per Share,92.427
-Revenue Growth,-0.072
+Total Revenue,2605238016.0
+Revenue Per Share,90.024
+Revenue Growth,-0.098
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.02, forward_eps=11.57)"
-Net Earnings,-159298000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-10.69, forward_eps=11.64)"
+Net Earnings,-322369984.0
+Earnings Growth,4.797
 
 DEBT
-Total Debt,1405484032.0
-Debt to Equity,16.7
+Total Debt,1199868032.0
+Debt to Equity,13.257
 
 MARGINS
-Profit Margins,-0.05856
-Gross Profit Margins,0.53768003
-Operating Margins,0.14419
+Profit Margins,-0.123739995
+Gross Profit Margins,0.5353
+Operating Margins,0.08761
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,16.7
-Price to Cash Flow,1.6730391807929712e-06
-Enterprise to EBITDA,17.231
-Price to Book,1.139496
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=28.43993)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.02, forward_eps=11.57)"
-Enterprise to Revenue,3.395
+Debt to Equity,13.257
+Price to Cash Flow,1.3453524770057316e-06
+Enterprise to EBITDA,15.541
+Price to Book,0.88851357
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=24.226803)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-10.69, forward_eps=11.64)"
+Enterprise to Revenue,2.914
 
 CASH FLOW
-Free to Cash Flow,196678000.0
-Operating to Cash Flow,373505984.0
+Free to Cash Flow,209610496.0
+Operating to Cash Flow,346572992.0
 
 PROFITABILITY
-Return on Equity,-0.01889
-Return on Assets,0.020450002
-Return on Invested Capital,-0.11334028963976964
-Return on Investment,0.030009230827195147
+Return on Equity,-0.03427
+Return on Assets,0.01622
+Return on Invested Capital,-0.2686711289330212
+Return on Investment,0.05168421977458195
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,158.0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,159.0
 
 
 

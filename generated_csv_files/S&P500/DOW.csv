@@ -5,63 +5,68 @@ Country,United States
 Industry,Chemicals
 Sector,Basic Materials
 Website,https://www.dow.com
-Price,54.94
+Price,59.45
 Currency,USD
 
 REVENUE
-Total Revenue,44622000128.0
-Revenue Per Share,63.231
-Revenue Growth,-0.104
+Total Revenue,43535998976.0
+Revenue Per Share,61.773
+Revenue Growth,-0.092
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.82, forward_eps=4.26)"
-Net Earnings,589000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.68, forward_eps=4.22)"
+Net Earnings,1187000064.0
 Earnings Growth,None
 
 DEBT
-Total Debt,16446999552.0
-Debt to Equity,86.074
+Total Debt,17813999616.0
+Debt to Equity,94.169
 
 MARGINS
-Profit Margins,0.013200001
-Gross Profit Margins,0.10936
-Operating Margins,0.032390002
+Profit Margins,0.027520001
+Gross Profit Margins,0.113350004
+Operating Margins,0.056760002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.051799998
-Dividend Payout Ratio,3.4146
-Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Dividend Yield,0.0471
+Dividend Payout Ratio,1.6667
+Five Year Avg Dividend Yield,5.0
+Trailing Annual Dividend Rate,2.8
+Trailing Annual Dividend Yield,0.047098402
 
 FINANCIAL RATIO
-Debt to Equity,86.074
-Price to Cash Flow,6.639238693555811e-08
-Enterprise to EBITDA,11.022
-Price to Book,2.040385
-Price to Earnings,"PriceToEarnings(trailing_pe=65.926834, forward_pe=12.690141)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.82, forward_eps=4.26)"
-Enterprise to Revenue,1.164
+Debt to Equity,94.169
+Price to Cash Flow,2.370473830594546e-08
+Enterprise to EBITDA,10.928
+Price to Book,2.2674706
+Price to Earnings,"PriceToEarnings(trailing_pe=35.3631, forward_pe=14.078199)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.68, forward_eps=4.22)"
+Enterprise to Revenue,1.277
 
 CASH FLOW
-Free to Cash Flow,814249984.0
-Operating to Cash Flow,5196000256.0
+Free to Cash Flow,2506249984.0
+Operating to Cash Flow,5125000192.0
 
 PROFITABILITY
-Return on Equity,0.03271
-Return on Assets,0.02214
-Return on Invested Capital,0.03581200310664184
-Return on Investment,-0.005701839303000968
+Return on Equity,0.06414
+Return on Assets,0.026180001
+Return on Invested Capital,0.06663299022348812
+Return on Investment,-0.009842454925373135
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,3.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0
-SUM DIVIDEND SCORE,4.0
+5 Year Average,0.05
+SUM DIVIDEND SCORE,7.05
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,8.590000000000003
+Recommendation Key,0
+SUM ANALYST RATING SCORE,8.590000000000003
 
 
 

@@ -5,68 +5,73 @@ Country,United States
 Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.ironmountain.com
-Price,68.43
+Price,79.59
 Currency,USD
 
 REVENUE
-Total Revenue,5339509248.0
-Revenue Per Share,18.307
-Revenue Growth,0.079
+Total Revenue,5642803200.0
+Revenue Per Share,19.307
+Revenue Growth,0.124
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.94, forward_eps=1.84)"
-Net Earnings,278188992.0
-Earnings Growth,-0.53
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=2.09)"
+Net Earnings,193700000.0
+Earnings Growth,0.136
 
 DEBT
-Total Debt,14411665408.0
-Debt to Equity,3383.806
+Total Debt,15534235648.0
+Debt to Equity,7850.252
 
 MARGINS
-Profit Margins,0.0521
-Gross Profit Margins,0.56991
-Operating Margins,0.20327999
+Profit Margins,0.03433
+Gross Profit Margins,0.56769
+Operating Margins,0.19947
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.6
-Dividend Yield,0.0385
-Dividend Payout Ratio,2.6654
-Five Year Avg Dividend Yield,6.31
-Trailing Annual Dividend Rate,2.506
-Trailing Annual Dividend Yield,0.036621366
+Dividend Yield,0.0326
+Dividend Payout Ratio,3.8917
+Five Year Avg Dividend Yield,6.08
+Trailing Annual Dividend Rate,2.537
+Trailing Annual Dividend Yield,0.031875864
 
 FINANCIAL RATIO
-Debt to Equity,3383.806
-Price to Cash Flow,3.082169657654712e-06
-Enterprise to EBITDA,19.051
-Price to Book,75.15016
-Price to Earnings,"PriceToEarnings(trailing_pe=71.87234, forward_pe=36.71739)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.94, forward_eps=1.84)"
-Enterprise to Revenue,6.392
+Debt to Equity,7850.252
+Price to Cash Flow,-1.87784692611077e-07
+Enterprise to EBITDA,20.624
+Price to Book,1266.1904
+Price to Earnings,"PriceToEarnings(trailing_pe=120.863625, forward_pe=38.167465)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=2.09)"
+Enterprise to Revenue,6.895
 
 CASH FLOW
-Free to Cash Flow,21919624.0
-Operating to Cash Flow,1033713984.0
+Free to Cash Flow,-424795008.0
+Operating to Cash Flow,1114797056.0
 
 PROFITABILITY
-Return on Equity,0.5386
-Return on Assets,0.041279998
-Return on Invested Capital,0.019303042646842343
-Return on Investment,-0.030792875074716078
+Return on Equity,0.47373
+Return on Assets,0.041500002
+Return on Invested Capital,0.012469232757142635
+Return on Investment,-0.009301186537528872
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.06309999999999999
-SUM DIVIDEND SCORE,8.0631
+5 Year Average,0.0608
+SUM DIVIDEND SCORE,8.0608
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,11.230000000000004
+Recommendation Key,1
+SUM ANALYST RATING SCORE,12.230000000000004
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

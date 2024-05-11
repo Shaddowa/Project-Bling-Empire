@@ -5,63 +5,68 @@ Country,United States
 Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.progressive.com
-Price,178.01
+Price,213.72
 Currency,USD
 
 REVENUE
-Total Revenue,62082301952.0
-Revenue Per Share,106.142
-Revenue Growth,0.254
+Total Revenue,65021399040.0
+Revenue Per Share,111.143
+Revenue Growth,0.206
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.58, forward_eps=10.34)"
-Net Earnings,3864800000.0
-Earnings Growth,1.424
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.78, forward_eps=11.82)"
+Net Earnings,5738599936.0
+Earnings Growth,4.253
 
 DEBT
-Total Debt,6888600064.0
-Debt to Equity,33.972
+Total Debt,6889699840.0
+Debt to Equity,31.588
 
 MARGINS
-Profit Margins,0.06286
-Gross Profit Margins,0.088929996
-Operating Margins,0.1524
+Profit Margins,0.08898
+Gross Profit Margins,0.12185001
+Operating Margins,0.17459999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.15
-Dividend Yield,0.0064
-Dividend Payout Ratio,0.0456
-Five Year Avg Dividend Yield,2.12
-Trailing Annual Dividend Rate,0.4
-Trailing Annual Dividend Yield,0.0022470648
+Dividend Yield,0.0053
+Dividend Payout Ratio,0.1177
+Five Year Avg Dividend Yield,1.96
+Trailing Annual Dividend Rate,1.15
+Trailing Annual Dividend Yield,0.005380872
 
 FINANCIAL RATIO
-Debt to Equity,33.972
-Price to Cash Flow,None
-Enterprise to EBITDA,20.131
-Price to Book,5.178963
-Price to Earnings,"PriceToEarnings(trailing_pe=27.267477, forward_pe=17.35203)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.58, forward_eps=10.34)"
-Enterprise to Revenue,1.774
+Debt to Equity,31.588
+Price to Cash Flow,1.6819261081030597e-08
+Enterprise to EBITDA,16.754
+Price to Book,5.79377
+Price to Earnings,"PriceToEarnings(trailing_pe=22.06135, forward_pe=18.253807)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.78, forward_eps=11.82)"
+Enterprise to Revenue,2.027
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,12828149760.0
+Operating to Cash Flow,12429200384.0
 
 PROFITABILITY
-Return on Equity,0.21579
-Return on Assets,0.03938
-Return on Invested Capital,0.5610428744093846
-Return on Investment,0.1260123899576133
+Return on Equity,0.29917
+Return on Assets,0.054169998
+Return on Invested Capital,0.8329245160529216
+Return on Investment,0.19761019063360882
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0212
-SUM DIVIDEND SCORE,8.0212
+5 Year Average,0.0196
+SUM DIVIDEND SCORE,4.0196
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,63.24000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,64.24000000000001
 
 
 

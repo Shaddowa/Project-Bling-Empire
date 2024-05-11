@@ -5,63 +5,68 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.key.com
-Price,14.54
+Price,15.08
 Currency,USD
 
 REVENUE
-Total Revenue,5894000128.0
-Revenue Per Share,6.357
-Revenue Growth,-0.121
+Total Revenue,5746999808.0
+Revenue Per Share,6.193
+Revenue Growth,-0.094
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.88, forward_eps=1.68)"
-Net Earnings,821000000.0
-Earnings Growth,-0.921
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=1.64)"
+Net Earnings,729000000.0
+Earnings Growth,-0.339
 
 DEBT
-Total Debt,22645000192.0
+Total Debt,25091000320.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.16407
+Profit Margins,0.15208
 Gross Profit Margins,0.0
-Operating Margins,0.039890002
+Operating Margins,0.19564
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.82
-Dividend Yield,0.0559
-Dividend Payout Ratio,0.9318
-Five Year Avg Dividend Yield,4.73
+Dividend Yield,0.0544
+Dividend Payout Ratio,1.0512999
+Five Year Avg Dividend Yield,4.87
 Trailing Annual Dividend Rate,0.82
-Trailing Annual Dividend Yield,0.05639615
+Trailing Annual Dividend Yield,0.054376658
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.1320318
-Price to Earnings,"PriceToEarnings(trailing_pe=16.670454, forward_pe=8.732143)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.88, forward_eps=1.68)"
-Enterprise to Revenue,6.244
+Price to Book,1.1801534
+Price to Earnings,"PriceToEarnings(trailing_pe=19.333334, forward_pe=9.195122)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=1.64)"
+Enterprise to Revenue,6.821
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,2544000000.0
 
 PROFITABILITY
-Return on Equity,0.06863
-Return on Assets,0.0050999997
-Return on Invested Capital,0.03625524365507448
-Return on Investment,0.0025449473031618104
+Return on Equity,0.06041
+Return on Assets,0.00453
+Return on Invested Capital,0.029054242171750323
+Return on Investment,0.0016890639481000928
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0473
-SUM DIVIDEND SCORE,4.0473
+5 Year Average,0.0487
+SUM DIVIDEND SCORE,7.0487
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,3.92
+Recommendation Key,1
+SUM ANALYST RATING SCORE,4.92
 
 
 

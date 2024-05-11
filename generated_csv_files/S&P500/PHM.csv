@@ -5,68 +5,73 @@ Country,United States
 Industry,Residential Construction
 Sector,Consumer Cyclical
 Website,https://www.pultegroup.com
-Price,105.13
+Price,116.99
 Currency,USD
 
 REVENUE
-Total Revenue,17072587776.0
-Revenue Per Share,76.506
-Revenue Growth,0.028
+Total Revenue,16435096576.0
+Revenue Per Share,75.865
+Revenue Growth,0.104
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.51)"
-Net Earnings,2761303040.0
-Earnings Growth,0.078
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.47, forward_eps=13.45)"
+Net Earnings,2725861888.0
+Earnings Growth,0.322
 
 DEBT
-Total Debt,2506742016.0
-Debt to Equity,25.036
+Total Debt,2593849088.0
+Debt to Equity,24.102
 
 MARGINS
-Profit Margins,0.16246
-Gross Profit Margins,0.29112
-Operating Margins,0.20715
+Profit Margins,0.1663
+Gross Profit Margins,0.29663
+Operating Margins,0.20613001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0076
-Dividend Payout Ratio,0.0523
-Five Year Avg Dividend Yield,1.16
-Trailing Annual Dividend Rate,0.63
-Trailing Annual Dividend Yield,0.0059925807
+Dividend Yield,0.0068
+Dividend Payout Ratio,0.0577
+Five Year Avg Dividend Yield,1.11
+Trailing Annual Dividend Rate,0.72
+Trailing Annual Dividend Yield,0.0061543724
 
 FINANCIAL RATIO
-Debt to Equity,25.036
-Price to Cash Flow,5.12422238170487e-08
-Enterprise to EBITDA,6.312
-Price to Book,2.269185
-Price to Earnings,"PriceToEarnings(trailing_pe=8.588236, forward_pe=9.132928)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.24, forward_eps=11.51)"
-Enterprise to Revenue,1.366
+Debt to Equity,24.102
+Price to Cash Flow,8.274012432775196e-08
+Enterprise to EBITDA,7.068
+Price to Book,2.3035214
+Price to Earnings,"PriceToEarnings(trailing_pe=9.437049, forward_pe=8.749442)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.47, forward_eps=13.45)"
+Enterprise to Revenue,1.559
 
 CASH FLOW
-Free to Cash Flow,2051433216.0
-Operating to Cash Flow,2880734976.0
+Free to Cash Flow,1422284544.0
+Operating to Cash Flow,1725181056.0
 
 PROFITABILITY
-Return on Equity,0.30519
-Return on Assets,0.15098
-Return on Invested Capital,1.1015505270769244
-Return on Investment,-0.30408482165471823
+Return on Equity,0.27296
+Return on Assets,0.14134
+Return on Invested Capital,1.0508945362024666
+Return on Investment,-0.2976481642279974
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0116
-SUM DIVIDEND SCORE,8.0116
+5 Year Average,0.0111
+SUM DIVIDEND SCORE,8.0111
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,65.32
+Recommendation Key,1
+SUM ANALYST RATING SCORE,66.32
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

@@ -7,14 +7,26 @@ from config import TIME_STAMP
 from const import GENERATED_CSV_FILES_PATH
 from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
 from context.yquery_ticker.main.classes.global_stock_data import YahooStockDataClass, SimpleStockDataClass
+from context.yquery_ticker.main.utils.dict_key_enum import DictKey
 
 GENERATE_INDIVIDUAL_TICKER_CSV = True
 GENERATE_DIVIDEND_SCORE_CSV = True
+GENERATE_ANALYST_RATING_CSV = True
 
 
 class DividendScoreHeaders(Enum):
     TICKER = "TICKER"
     DIVIDEND_SCORE = "DIVIDEND SCORE"
+
+
+class AnalystRatingHeaders(Enum):
+    TICKER = "TICKER"
+    TARGET_HIGH_PRICE = "TARGET HIGH PRICE"
+    TARGET_LOW_PRICE = "TARGET LOW PRICE"
+    RECOMMENDATION_MEAN = "RECOMMENDATION MEAN"
+    RECOMMENDATION_KEY = "RECOMMENDATION KEY"
+    NUMBER_OF_ANALYSTS = "NUMBER OF ANALYSTS"
+    ANALYST_RATING = "ANALYST RATING SCORE"
 
 
 class MainCriteriaHeaders(Enum):
@@ -27,11 +39,13 @@ class MainCriteriaHeaders(Enum):
     CURRENCY = "CURRENCY"
     CRITERIA_PASS_COUNT = "CRITERIA PASSED"
     DIVIDEND_SCORE = "DIVIDEND SCORE"
+    ANALYST_RATING = "ANALYST RATING SCORE"
 
 
 class CSVType(Enum):
     MAIN_CRITERIA = ("MAIN_CRITERIA", MainCriteriaHeaders, "ticker_comparison_by_criteria.csv")
     DIVIDEND_SCORE = ("DIVIDEND_SCORE", DividendScoreHeaders, "ticker_comparison_by_dividend.csv")
+    ANALYST_RATING = ("ANALYST_RATING", AnalystRatingHeaders, "ticker_comparison_by_analyst_rating.csv")
 
     @property
     def __str__(self):
@@ -90,11 +104,36 @@ class ComparableCSV:
                     collection=collection
                 )
 
+            if GENERATE_ANALYST_RATING_CSV:
+                self._create_csv(
+                    pathPrefix=pathPrefix,
+                    csv_type=CSVType.ANALYST_RATING,
+                    collection=collection
+                )
+
             self._create_csv(
                 pathPrefix=pathPrefix,
                 csv_type=CSVType.MAIN_CRITERIA,
                 collection=collection,
             )
+
+    @staticmethod
+    def get_sort_key(csv_type: CSVType, stock_ticker, source):
+        if csv_type is CSVType.DIVIDEND_SCORE:
+            if source == "from_ticker":
+                return stock_ticker.get_dividend_score()
+            else:
+                return stock_ticker.dividend_score
+        elif csv_type is CSVType.ANALYST_RATING:
+            if source == "from_ticker":
+                return stock_ticker.get_analyst_rating_score()
+            else:
+                return stock_ticker.analyst_rating_score
+        else:
+            if source == "from_ticker":
+                return stock_ticker.get_criteria_pass_count()
+            else:
+                return stock_ticker.criteria_pass_count
 
     def _create_from_tickers(
             self,
@@ -102,10 +141,10 @@ class ComparableCSV:
             writer: csv.writer,
             csv_type: CSVType
     ):
+
         sorted_collection: list[YahooStockDataClass] = sorted(
             self.stock_collection[collection],
-            key=lambda stock_ticker: stock_ticker.get_criteria_pass_count() if csv_type is CSVType.MAIN_CRITERIA
-            else stock_ticker.get_dividend_score(),
+            key=lambda stock_ticker: self.get_sort_key(csv_type, stock_ticker, source="from_ticker"),
             reverse=True
         )
 
@@ -126,12 +165,24 @@ class ComparableCSV:
                     ticker.financial_data.price,
                     currency.value if currency is not None else collection.get_default_currency(),
                     int(ticker.get_criteria_pass_count()),
-                    ticker.get_dividend_score()
+                    ticker.get_dividend_score(),
+                    ticker.get_analyst_rating_score()
                 ])
             elif csv_type is CSVType.DIVIDEND_SCORE:
                 writer.writerow([
                     ticker.general_stock_info.ticker,
                     ticker.get_dividend_score()
+                ])
+            elif csv_type is CSVType.ANALYST_RATING:
+                analyst_opinion_data = ticker.get_analyst_opinion_data()
+                writer.writerow([
+                    ticker.general_stock_info.ticker,
+                    analyst_opinion_data.get(DictKey.TARGET_HIGH_PRICE.__str__),
+                    analyst_opinion_data.get(DictKey.TARGET_LOW_PRICE.__str__),
+                    analyst_opinion_data.get(DictKey.RECOMMENDATION_MEAN.__str__),
+                    analyst_opinion_data.get(DictKey.RECOMMENDATION_KEY.__str__),
+                    analyst_opinion_data.get(DictKey.NUMBER_OF_ANALYSTS.__str__),
+                    ticker.get_analyst_rating_score()
                 ])
 
     def _create_from_csv_files(
@@ -142,8 +193,7 @@ class ComparableCSV:
     ):
         sorted_collection: list[SimpleStockDataClass] = sorted(
             self.stock_collection[collection],
-            key=lambda stock_ticker: stock_ticker.criteria_pass_count if csv_type is CSVType.MAIN_CRITERIA else
-            stock_ticker.dividend_score,
+            key=lambda stock_ticker: self.get_sort_key(csv_type, stock_ticker, source="from_csv"),
             reverse=True
         )
 
@@ -164,4 +214,10 @@ class ComparableCSV:
                 writer.writerow([
                     ticker.ticker_symbol,
                     ticker.dividend_score
+                ])
+            elif csv_type is CSVType.ANALYST_RATING:
+                writer.writerow([
+                    ticker.ticker_symbol,
+                    ticker.recommendation_mean,
+                    ticker.target_high_price
                 ])

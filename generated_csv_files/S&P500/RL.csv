@@ -5,63 +5,68 @@ Country,United States
 Industry,Apparel Manufacturing
 Sector,Consumer Cyclical
 Website,https://www.ralphlauren.com
-Price,141.85
+Price,168.04
 Currency,USD
 
 REVENUE
-Total Revenue,6502600192.0
-Revenue Per Share,98.45
-Revenue Growth,0.034
+Total Revenue,6604299776.0
+Revenue Per Share,100.56
+Revenue Growth,0.056
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.57)"
-Net Earnings,527800000.0
-Earnings Growth,0.005
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.83, forward_eps=11.24)"
+Net Earnings,587900032.0
+Earnings Growth,0.309
 
 DEBT
-Total Debt,2774899968.0
-Debt to Equity,117.124
+Total Debt,2756100096.0
+Debt to Equity,107.162
 
 MARGINS
-Profit Margins,0.08116999
-Gross Profit Margins,0.65296996
-Operating Margins,0.10514
+Profit Margins,0.08902001
+Gross Profit Margins,0.65660006
+Operating Margins,0.16354999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.0
-Dividend Yield,0.0208
-Dividend Payout Ratio,0.3831
+Dividend Yield,0.0179
+Dividend Payout Ratio,0.3401
 Five Year Avg Dividend Yield,2.23
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.0211491
+Trailing Annual Dividend Yield,0.017852893
 
 FINANCIAL RATIO
-Debt to Equity,117.124
-Price to Cash Flow,2.918998327148595e-07
-Enterprise to EBITDA,11.228
-Price to Book,3.9352233
-Price to Earnings,"PriceToEarnings(trailing_pe=18.42711, forward_pe=13.632924)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.82, forward_eps=10.57)"
-Enterprise to Revenue,1.633
+Debt to Equity,107.162
+Price to Cash Flow,2.3111356791585853e-07
+Enterprise to EBITDA,11.829
+Price to Book,4.152898
+Price to Earnings,"PriceToEarnings(trailing_pe=18.929785, forward_pe=14.870996)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.83, forward_eps=11.24)"
+Enterprise to Revenue,1.745
 
 CASH FLOW
-Free to Cash Flow,493662496.0
-Operating to Cash Flow,752700032.0
+Free to Cash Flow,723237504.0
+Operating to Cash Flow,962700032.0
 
 PROFITABILITY
-Return on Equity,0.22825001
-Return on Assets,0.06658
-Return on Invested Capital,0.19020505211778194
-Return on Investment,-0.03830188679245283
+Return on Equity,0.23331
+Return on Assets,0.06622
+Return on Invested Capital,0.21330866185439865
+Return on Investment,-0.05291629450945094
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0223
-SUM DIVIDEND SCORE,4.0223
+SUM DIVIDEND SCORE,7.0223
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,76.85
+Recommendation Key,1
+SUM ANALYST RATING SCORE,77.85
 
 
 

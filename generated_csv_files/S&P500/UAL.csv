@@ -5,27 +5,27 @@ Country,United States
 Industry,Airlines
 Sector,Industrials
 Website,https://www.united.com
-Price,42.96
+Price,52.63
 Currency,USD
 
 REVENUE
-Total Revenue,53717000192.0
-Revenue Per Share,161.847
-Revenue Growth,0.099
+Total Revenue,54826999808.0
+Revenue Per Share,167.143
+Revenue Growth,0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.89, forward_eps=12.13)"
-Net Earnings,2617999872.0
-Earnings Growth,-0.291
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.19, forward_eps=11.88)"
+Net Earnings,2688000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,36738998272.0
-Debt to Equity,394.026
+Total Debt,34844000256.0
+Debt to Equity,379.234
 
 MARGINS
-Profit Margins,0.04874
-Gross Profit Margins,0.33266997
-Operating Margins,0.07669
+Profit Margins,0.04903
+Gross Profit Margins,0.33925
+Operating Margins,0.011089999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,394.026
-Price to Cash Flow,-2.297826360596613e-08
-Enterprise to EBITDA,4.654
-Price to Book,1.5118675
-Price to Earnings,"PriceToEarnings(trailing_pe=5.3929024, forward_pe=3.5078318)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.89, forward_eps=12.13)"
-Enterprise to Revenue,0.679
+Debt to Equity,379.234
+Price to Cash Flow,-3.893288863270247e-08
+Enterprise to EBITDA,4.784
+Price to Book,1.8866304
+Price to Earnings,"PriceToEarnings(trailing_pe=6.437119, forward_pe=4.4377103)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.19, forward_eps=11.88)"
+Enterprise to Revenue,0.696
 
 CASH FLOW
-Free to Cash Flow,-1851750016.0
-Operating to Cash Flow,6911000064.0
+Free to Cash Flow,-1354125056.0
+Operating to Cash Flow,6616000000.0
 
 PROFITABILITY
-Return on Equity,0.32281
-Return on Assets,0.04658
-Return on Invested Capital,0.07125942440269904
-Return on Investment,-0.006445100620384048
+Return on Equity,0.33905
+Return on Assets,0.047659997
+Return on Invested Capital,0.07714384049177676
+Return on Investment,-0.008255528255528256
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,45.28
+Recommendation Key,1
+SUM ANALYST RATING SCORE,46.28
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
-Operating Cash Flow,True
+Net Income,False
+Total Revenue,False
+Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,5.0
+CRITERIA PASS COUNT,2.0
 

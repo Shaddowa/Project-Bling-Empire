@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.hess.com
-Price,144.03
+Price,159.95
 Currency,USD
 
 REVENUE
-Total Revenue,10224000000.0
-Revenue Per Share,33.42
-Revenue Growth,-0.102
+Total Revenue,11185000448.0
+Revenue Per Share,36.534
+Revenue Growth,0.377
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.76, forward_eps=7.85)"
-Net Earnings,1466000000.0
-Earnings Growth,-0.018
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.51, forward_eps=10.9)"
+Net Earnings,2008000000.0
+Earnings Growth,1.796
 
 DEBT
-Total Debt,9303000064.0
-Debt to Equity,100.043
+Total Debt,9642999808.0
+Debt to Equity,91.568
 
 MARGINS
-Profit Margins,0.14339
-Gross Profit Margins,0.73914003
-Operating Margins,0.3326
+Profit Margins,0.17953
+Gross Profit Margins,0.75405
+Operating Margins,0.46511
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.75
-Dividend Yield,0.0121
-Dividend Payout Ratio,0.3545
-Five Year Avg Dividend Yield,1.47
-Trailing Annual Dividend Rate,1.688
-Trailing Annual Dividend Yield,0.01171978
+Dividend Yield,0.0109
+Dividend Payout Ratio,0.2684
+Five Year Avg Dividend Yield,1.44
+Trailing Annual Dividend Rate,1.75
+Trailing Annual Dividend Yield,0.01094092
 
 FINANCIAL RATIO
-Debt to Equity,100.043
-Price to Cash Flow,3.6789289880304285e-07
-Enterprise to EBITDA,10.267
-Price to Book,5.111796
-Price to Earnings,"PriceToEarnings(trailing_pe=30.30672, forward_pe=18.37707)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.76, forward_eps=7.85)"
-Enterprise to Revenue,5.093
+Debt to Equity,91.568
+Price to Cash Flow,-9.305293259217717e-07
+Enterprise to EBITDA,9.779
+Price to Book,4.9915977
+Price to Earnings,"PriceToEarnings(trailing_pe=24.639015, forward_pe=14.715596)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.51, forward_eps=10.9)"
+Enterprise to Revenue,5.197
 
 CASH FLOW
-Free to Cash Flow,392124992.0
-Operating to Cash Flow,3849999872.0
+Free to Cash Flow,-172375008.0
+Operating to Cash Flow,4188999936.0
 
 PROFITABILITY
-Return on Equity,0.20774001
-Return on Assets,0.085039996
-Return on Invested Capital,0.15758357362866657
-Return on Investment,-0.005899396378269617
+Return on Equity,0.24694
+Return on Assets,0.100439996
+Return on Invested Capital,0.20823395554179502
+Return on Investment,-0.006099635479951397
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0147
-SUM DIVIDEND SCORE,8.0147
+5 Year Average,0.0144
+SUM DIVIDEND SCORE,4.0144
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,51.599999999999994
+Recommendation Key,0
+SUM ANALYST RATING SCORE,51.599999999999994
 
 
 

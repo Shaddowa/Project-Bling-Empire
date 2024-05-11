@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.microchip.com
-Price,89.65
+Price,91.48
 Currency,USD
 
 REVENUE
-Total Revenue,8944799744.0
-Revenue Per Share,16.379
-Revenue Growth,0.087
+Total Revenue,7634400256.0
+Revenue Per Share,14.086
+Revenue Growth,-0.406
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=4.55)"
-Net Earnings,2517299968.0
-Earnings Growth,0.235
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.48, forward_eps=4.21)"
+Net Earnings,1906899968.0
+Earnings Growth,-0.743
 
 DEBT
-Total Debt,6108100096.0
-Debt to Equity,87.653
+Total Debt,5999799808.0
+Debt to Equity,90.117
 
 MARGINS
-Profit Margins,0.28143
-Gross Profit Margins,0.67927
-Operating Margins,0.39338002
+Profit Margins,0.24978
+Gross Profit Margins,0.65436995
+Operating Margins,0.17868
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.59
-Dividend Yield,0.0183
-Dividend Payout Ratio,0.3243
-Five Year Avg Dividend Yield,1.46
-Trailing Annual Dividend Rate,1.479
-Trailing Annual Dividend Yield,0.016497489
+Dividend Rate,1.81
+Dividend Yield,0.0198
+Dividend Payout Ratio,0.48330003
+Five Year Avg Dividend Yield,1.47
+Trailing Annual Dividend Rate,1.682
+Trailing Annual Dividend Yield,0.018386532
 
 FINANCIAL RATIO
-Debt to Equity,87.653
-Price to Cash Flow,4.268238029857066e-08
-Enterprise to EBITDA,12.048
-Price to Book,6.748447
-Price to Earnings,"PriceToEarnings(trailing_pe=19.061403, forward_pe=19.103296)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.56, forward_eps=4.55)"
-Enterprise to Revenue,5.912
+Debt to Equity,90.117
+Price to Cash Flow,None
+Enterprise to EBITDA,15.976
+Price to Book,7.406508
+Price to Earnings,"PriceToEarnings(trailing_pe=26.293104, forward_pe=21.733967)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.48, forward_eps=4.21)"
+Enterprise to Revenue,7.203
 
 CASH FLOW
-Free to Cash Flow,2036437504.0
-Operating to Cash Flow,3596800000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.38516
-Return on Assets,0.13208
-Return on Invested Capital,0.41212487076633386
-Return on Investment,-0.42165828609715245
+Return on Equity,0.28955
+Return on Assets,0.09925
+Return on Invested Capital,0.31782726509156917
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0146
-SUM DIVIDEND SCORE,8.0146
+5 Year Average,0.0147
+SUM DIVIDEND SCORE,9.0147
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,18.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,19.5
 
 
 

@@ -4,28 +4,28 @@ Company,Lululemon Athletica Inc.
 Country,Canada
 Industry,Apparel Retail
 Sector,Consumer Cyclical
-Website,https://shop.lululemon.com
-Price,474.3
+Website,https://corporate.lululemon.com
+Price,352.95
 Currency,USD
 
 REVENUE
-Total Revenue,9186013184.0
-Revenue Per Share,72.312
-Revenue Growth,0.187
+Total Revenue,9619277824.0
+Revenue Per Share,75.906
+Revenue Growth,0.156
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.84, forward_eps=14.24)"
-Net Earnings,1000532992.0
-Earnings Growth,-0.02
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.2, forward_eps=15.84)"
+Net Earnings,1550189952.0
+Earnings Growth,4.639
 
 DEBT
-Total Debt,1168092032.0
-Debt to Equity,33.129
+Total Debt,1403282048.0
+Debt to Equity,33.158
 
 MARGINS
-Profit Margins,0.10892
-Gross Profit Margins,0.57232
-Operating Margins,0.19795
+Profit Margins,0.16115
+Gross Profit Margins,0.58314
+Operating Margins,0.28514
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,33.129
-Price to Cash Flow,4.081194179597446e-07
-Enterprise to EBITDA,25.213
-Price to Book,17.115288
-Price to Earnings,"PriceToEarnings(trailing_pe=60.973213, forward_pe=33.569523)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.84, forward_eps=14.24)"
-Enterprise to Revenue,6.575
+Debt to Equity,33.158
+Price to Cash Flow,2.3747407162062985e-07
+Enterprise to EBITDA,16.87
+Price to Book,10.527006
+Price to Earnings,"PriceToEarnings(trailing_pe=28.931147, forward_pe=22.282827)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.2, forward_eps=15.84)"
+Enterprise to Revenue,4.536
 
 CASH FLOW
-Free to Cash Flow,1171299328.0
-Operating to Cash Flow,1958329984.0
+Free to Cash Flow,1486309632.0
+Operating to Cash Flow,2296164096.0
 
 PROFITABILITY
-Return on Equity,0.30481002
-Return on Assets,0.22496
-Return on Invested Capital,0.8565532001475625
-Return on Investment,-0.015337764485316548
+Return on Equity,0.42006
+Return on Assets,0.21726
+Return on Invested Capital,1.1046887667167609
+Return on Investment,-0.023780843456850727
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,197.04000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,198.04000000000002
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

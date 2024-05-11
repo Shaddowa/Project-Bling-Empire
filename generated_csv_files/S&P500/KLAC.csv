@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductor Equipment & Materials
 Sector,Technology
 Website,https://www.kla.com
-Price,641.69
+Price,710.67
 Currency,USD
 
 REVENUE
-Total Revenue,9671427072.0
-Revenue Per Share,70.755
-Revenue Growth,-0.167
+Total Revenue,9598649344.0
+Revenue Per Share,70.604
+Revenue Growth,-0.03
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.77, forward_eps=26.59)"
-Net Earnings,2706400000.0
-Earnings Growth,-0.379
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.11, forward_eps=28.47)"
+Net Earnings,2610104064.0
+Earnings Growth,-0.119
 
 DEBT
-Total Debt,5892725760.0
-Debt to Equity,193.603
+Total Debt,6823686144.0
+Debt to Equity,220.483
 
 MARGINS
-Profit Margins,0.27983
-Gross Profit Margins,0.59758
-Operating Margins,0.38347
+Profit Margins,0.27192
+Gross Profit Margins,0.59573
+Operating Margins,0.34191
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.8
-Dividend Yield,0.0097
-Dividend Payout Ratio,0.2709
-Five Year Avg Dividend Yield,1.49
-Trailing Annual Dividend Rate,5.35
-Trailing Annual Dividend Yield,0.008337359
+Dividend Yield,0.0081
+Dividend Payout Ratio,0.288
+Five Year Avg Dividend Yield,1.38
+Trailing Annual Dividend Rate,5.5
+Trailing Annual Dividend Yield,0.007739176
 
 FINANCIAL RATIO
-Debt to Equity,193.603
-Price to Cash Flow,2.3710949110797276e-07
-Enterprise to EBITDA,21.241
-Price to Book,26.690863
-Price to Earnings,"PriceToEarnings(trailing_pe=30.317146, forward_pe=22.54118)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.77, forward_eps=26.59)"
-Enterprise to Revenue,8.663
+Debt to Equity,220.483
+Price to Cash Flow,2.893540600589631e-07
+Enterprise to EBITDA,25.542
+Price to Book,31.264473
+Price to Earnings,"PriceToEarnings(trailing_pe=37.58608, forward_pe=25.229013)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.11, forward_eps=28.47)"
+Enterprise to Revenue,10.339
 
 CASH FLOW
-Free to Cash Flow,2527819520.0
-Operating to Cash Flow,3475952128.0
+Free to Cash Flow,2482322176.0
+Operating to Cash Flow,3375075072.0
 
 PROFITABILITY
-Return on Equity,0.95852995
-Return on Assets,0.15769
-Return on Invested Capital,0.4592781167685717
-Return on Investment,0.10088193414195934
+Return on Equity,0.90352
+Return on Assets,0.15187
+Return on Invested Capital,0.382506463534718
+Return on Investment,0.08460793610248497
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0149
-SUM DIVIDEND SCORE,8.0149
+5 Year Average,0.0138
+SUM DIVIDEND SCORE,8.0138
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,131.73000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,132.73000000000002
 
 
 

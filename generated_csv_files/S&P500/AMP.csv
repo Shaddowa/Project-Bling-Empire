@@ -5,63 +5,68 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.ameriprise.com
-Price,391.38
+Price,430.03
 Currency,USD
 
 REVENUE
-Total Revenue,15660000256.0
-Revenue Per Share,146.321
-Revenue Growth,0.135
+Total Revenue,16576000000.0
+Revenue Per Share,158.736
+Revenue Growth,0.125
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.86, forward_eps=36.54)"
-Net Earnings,2238000128.0
-Earnings Growth,-0.196
+Earnings Per Share,"EarningsPerShare(trailing_eps=29.39, forward_eps=38.18)"
+Net Earnings,3128999936.0
+Earnings Growth,1.496
 
 DEBT
-Total Debt,3600000000.0
-Debt to Equity,76.126
+Total Debt,3945999872.0
+Debt to Equity,80.877
 
 MARGINS
-Profit Margins,0.14291
-Gross Profit Margins,0.52981997
-Operating Margins,0.28335
+Profit Margins,0.18877001
+Gross Profit Margins,0.58615
+Operating Margins,0.36763
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.4
-Dividend Yield,0.0138
-Dividend Payout Ratio,0.2507
-Five Year Avg Dividend Yield,2.03
-Trailing Annual Dividend Rate,5.2
-Trailing Annual Dividend Yield,0.01328632
+Dividend Rate,5.92
+Dividend Yield,0.0137
+Dividend Payout Ratio,0.1838
+Five Year Avg Dividend Yield,1.93
+Trailing Annual Dividend Rate,5.4
+Trailing Annual Dividend Yield,0.0125572635
 
 FINANCIAL RATIO
-Debt to Equity,76.126
-Price to Cash Flow,1.316792109787061e-07
+Debt to Equity,80.877
+Price to Cash Flow,1.2413299822048798e-07
 Enterprise to EBITDA,None
-Price to Book,10.373982
-Price to Earnings,"PriceToEarnings(trailing_pe=18.763182, forward_pe=10.711549)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.86, forward_eps=36.54)"
-Enterprise to Revenue,2.282
+Price to Book,8.854465
+Price to Earnings,"PriceToEarnings(trailing_pe=14.7516165, forward_pe=11.355421)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=29.39, forward_eps=38.18)"
+Enterprise to Revenue,2.398
 
 CASH FLOW
-Free to Cash Flow,2972375040.0
-Operating to Cash Flow,3759000064.0
+Free to Cash Flow,3492624896.0
+Operating to Cash Flow,5072999936.0
 
 PROFITABILITY
-Return on Equity,0.63202
-Return on Assets,0.01785
-Return on Invested Capital,0.6216666957069825
-Return on Investment,0.054057974106280195
+Return on Equity,0.69356
+Return on Assets,0.021189999
+Return on Invested Capital,0.7929548906923423
+Return on Investment,0.06615221852008457
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0203
-SUM DIVIDEND SCORE,8.0203
+5 Year Average,0.019299999999999998
+SUM DIVIDEND SCORE,8.0193
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,66.44999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,67.44999999999999
 
 
 

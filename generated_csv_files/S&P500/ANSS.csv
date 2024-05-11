@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,ANSS
 Company,"ANSYS, Inc."
 Country,United States
-Industry,Software - Application
+Industry,Software—Application
 Sector,Technology
 Website,https://www.ansys.com
-Price,339.42
+Price,327.25
 Currency,USD
 
 REVENUE
-Total Revenue,2158956032.0
-Revenue Per Share,24.854
-Revenue Growth,-0.029
+Total Revenue,2227107072.0
+Revenue Per Share,25.638
+Revenue Growth,-0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.56)"
-Net Earnings,483596992.0
-Earnings Growth,-0.419
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.99, forward_eps=10.45)"
+Net Earnings,434568000.0
+Earnings Growth,-0.653
 
 DEBT
-Total Debt,876524992.0
-Debt to Equity,17.507
+Total Debt,871790016.0
+Debt to Equity,16.115
 
 MARGINS
-Profit Margins,0.22399999
-Gross Profit Margins,0.91438
-Operating Margins,0.15217
+Profit Margins,0.19513
+Gross Profit Margins,0.91538
+Operating Margins,0.09288
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,17.507
-Price to Cash Flow,5.85662331778261e-07
-Enterprise to EBITDA,42.118
-Price to Book,5.762353
-Price to Earnings,"PriceToEarnings(trailing_pe=60.297638, forward_pe=34.753136)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.51, forward_eps=9.56)"
-Enterprise to Revenue,13.479
+Debt to Equity,16.115
+Price to Cash Flow,4.87081861923206e-07
+Enterprise to EBITDA,41.991
+Price to Book,5.2970033
+Price to Earnings,"PriceToEarnings(trailing_pe=65.78156, forward_pe=31.411484)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.99, forward_eps=10.45)"
+Enterprise to Revenue,12.778
 
 CASH FLOW
-Free to Cash Flow,567289344.0
-Operating to Cash Flow,658371968.0
+Free to Cash Flow,673911360.0
+Operating to Cash Flow,739172992.0
 
 PROFITABILITY
-Return on Equity,0.10127
-Return on Assets,0.05489
-Return on Invested Capital,0.5517206749416235
-Return on Investment,0.07848052450503083
+Return on Equity,0.08528
+Return on Assets,0.04968
+Return on Invested Capital,0.4984777998533872
+Return on Investment,0.06340078490874342
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,49.089999999999975
+Recommendation Key,0
+SUM ANALYST RATING SCORE,49.089999999999975
 
 
 

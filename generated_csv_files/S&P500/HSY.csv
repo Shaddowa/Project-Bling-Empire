@@ -5,55 +5,55 @@ Country,United States
 Industry,Confectioners
 Sector,Consumer Defensive
 Website,https://www.thehersheycompany.com
-Price,189.36
+Price,200.09
 Currency,USD
 
 REVENUE
-Total Revenue,11160218624.0
-Revenue Per Share,54.47
-Revenue Growth,0.111
+Total Revenue,11430126592.0
+Revenue Per Share,55.872
+Revenue Growth,0.089
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.28, forward_eps=9.86)"
-Net Earnings,1909041024.0
-Earnings Growth,0.299
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.1, forward_eps=9.83)"
+Net Earnings,2072055040.0
+Earnings Growth,0.365
 
 DEBT
-Total Debt,5232045056.0
-Debt to Equity,131.868
+Total Debt,5696727040.0
+Debt to Equity,138.664
 
 MARGINS
-Profit Margins,0.17106001
-Gross Profit Margins,0.44979
-Operating Margins,0.24229999
+Profit Margins,0.18128
+Gross Profit Margins,0.46313
+Operating Margins,0.32946998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.77
-Dividend Yield,0.0251
-Dividend Payout Ratio,0.4634
+Dividend Rate,5.48
+Dividend Yield,0.026800001
+Dividend Payout Ratio,0.4743
 Five Year Avg Dividend Yield,1.96
-Trailing Annual Dividend Rate,4.3
-Trailing Annual Dividend Yield,0.02270807
+Trailing Annual Dividend Rate,4.79
+Trailing Annual Dividend Yield,0.023939228
 
 FINANCIAL RATIO
-Debt to Equity,131.868
-Price to Cash Flow,1.584879116376258e-07
-Enterprise to EBITDA,14.552
-Price to Book,9.803123
-Price to Earnings,"PriceToEarnings(trailing_pe=20.496769, forward_pe=19.291077)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.28, forward_eps=9.86)"
-Enterprise to Revenue,3.912
+Debt to Equity,138.664
+Price to Cash Flow,2.878218679988364e-07
+Enterprise to EBITDA,14.394
+Price to Book,10.079741
+Price to Earnings,"PriceToEarnings(trailing_pe=20.275248, forward_pe=20.832146)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.1, forward_eps=9.83)"
+Enterprise to Revenue,4.076
 
 CASH FLOW
-Free to Cash Flow,1200154624.0
-Operating to Cash Flow,2333184000.0
+Free to Cash Flow,711481728.0
+Operating to Cash Flow,2136926976.0
 
 PROFITABILITY
-Return on Equity,0.54152
-Return on Assets,0.14259
-Return on Invested Capital,0.36487472804369053
-Return on Investment,-0.048733592627575116
+Return on Equity,0.54768
+Return on Assets,0.14931
+Return on Invested Capital,0.36372728025433293
+Return on Investment,-0.0430816500332668
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -63,12 +63,17 @@ Dividend Ex Date,0.0
 5 Year Average,0.0196
 SUM DIVIDEND SCORE,9.0196
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.22
+Recommendation Key,0
+SUM ANALYST RATING SCORE,34.22
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

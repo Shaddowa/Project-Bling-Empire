@@ -5,63 +5,68 @@ Country,United States
 Industry,Integrated Freight & Logistics
 Sector,Industrials
 Website,https://www.jbhunt.com
-Price,206.26
+Price,170.01
 Currency,USD
 
 REVENUE
-Total Revenue,12829665280.0
-Revenue Per Share,122.83
-Revenue Growth,-0.095
+Total Revenue,12544077824.0
+Revenue Per Share,121.411
+Revenue Growth,-0.088
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.98, forward_eps=9.59)"
-Net Earnings,728286976.0
-Earnings Growth,-0.235
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.29, forward_eps=8.47)"
+Net Earnings,658012032.0
+Earnings Growth,-0.355
 
 DEBT
-Total Debt,1968834048.0
-Debt to Equity,47.976
+Total Debt,1756905984.0
+Debt to Equity,42.168
 
 MARGINS
-Profit Margins,0.05677
-Gross Profit Margins,0.18677999
-Operating Margins,0.061529998
+Profit Margins,0.05246
+Gross Profit Margins,0.18667
+Operating Margins,0.066020004
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.72
-Dividend Yield,0.0083
-Dividend Payout Ratio,0.241
-Five Year Avg Dividend Yield,0.85
-Trailing Annual Dividend Rate,1.68
-Trailing Annual Dividend Yield,0.008145059
+Dividend Yield,0.0101
+Dividend Payout Ratio,0.2683
+Five Year Avg Dividend Yield,0.84
+Trailing Annual Dividend Rate,1.69
+Trailing Annual Dividend Yield,0.009940593
 
 FINANCIAL RATIO
-Debt to Equity,47.976
-Price to Cash Flow,None
-Enterprise to EBITDA,13.518
-Price to Book,5.1920414
-Price to Earnings,"PriceToEarnings(trailing_pe=29.573065, forward_pe=21.524504)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.98, forward_eps=9.59)"
-Enterprise to Revenue,1.81
+Debt to Equity,42.168
+Price to Cash Flow,-1.5119188732995145e-06
+Enterprise to EBITDA,11.658
+Price to Book,4.225244
+Price to Earnings,"PriceToEarnings(trailing_pe=27.120827, forward_pe=20.140495)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.29, forward_eps=8.47)"
+Enterprise to Revenue,1.538
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,-112830128.0
+Operating to Cash Flow,1723463936.0
 
 PROFITABILITY
-Return on Equity,0.18745
-Return on Assets,0.07598
-Return on Invested Capital,0.36990774414603067
-Return on Investment,-0.003826994355305708
+Return on Equity,0.16525
+Return on Assets,0.07014
+Return on Invested Capital,0.3745288722738913
+Return on Investment,-0.004473478684739734
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0085
-SUM DIVIDEND SCORE,8.0085
+5 Year Average,0.0084
+SUM DIVIDEND SCORE,8.0084
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,47.41
+Recommendation Key,1
+SUM ANALYST RATING SCORE,48.41
 
 
 

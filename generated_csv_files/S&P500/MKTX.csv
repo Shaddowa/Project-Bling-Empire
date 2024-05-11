@@ -5,63 +5,68 @@ Country,United States
 Industry,Capital Markets
 Sector,Financial Services
 Website,https://www.marketaxess.com
-Price,273.37
+Price,204.82
 Currency,USD
 
 REVENUE
-Total Revenue,733201024.0
-Revenue Per Share,19.561
-Revenue Growth,0.001
+Total Revenue,759696000.0
+Revenue Per Share,20.199
+Revenue Growth,0.035
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.58, forward_eps=7.62)"
-Net Earnings,247654000.0
-Earnings Growth,-0.076
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.8, forward_eps=8.04)"
+Net Earnings,257042000.0
+Earnings Growth,-0.02
 
 DEBT
-Total Debt,83169000.0
-Debt to Equity,6.983
+Total Debt,78236000.0
+Debt to Equity,5.935
 
 MARGINS
-Profit Margins,0.33777002
-Gross Profit Margins,0.65444
-Operating Margins,0.38836
+Profit Margins,0.33835
+Gross Profit Margins,0.63073003
+Operating Margins,0.43980998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.88
-Dividend Yield,0.0104
-Dividend Payout Ratio,0.43400002
-Five Year Avg Dividend Yield,0.74
-Trailing Annual Dividend Rate,2.86
-Trailing Annual Dividend Yield,0.010462011
+Dividend Rate,2.96
+Dividend Yield,0.014400001
+Dividend Payout Ratio,0.42580003
+Five Year Avg Dividend Yield,0.78
+Trailing Annual Dividend Rate,2.9
+Trailing Annual Dividend Yield,0.014158773
 
 FINANCIAL RATIO
-Debt to Equity,6.983
-Price to Cash Flow,1.1434679881236148e-06
-Enterprise to EBITDA,26.842
-Price to Book,8.748062
-Price to Earnings,"PriceToEarnings(trailing_pe=42.02128, forward_pe=36.28609)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.58, forward_eps=7.62)"
-Enterprise to Revenue,13.7
+Debt to Equity,5.935
+Price to Cash Flow,2.3507004679092605e-06
+Enterprise to EBITDA,19.282
+Price to Book,5.931735
+Price to Earnings,"PriceToEarnings(trailing_pe=30.310293, forward_pe=25.635572)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.8, forward_eps=8.04)"
+Enterprise to Revenue,9.758
 
 CASH FLOW
-Free to Cash Flow,241808256.0
-Operating to Cash Flow,326308000.0
+Free to Cash Flow,87680248.0
+Operating to Cash Flow,321291008.0
 
 PROFITABILITY
-Return on Equity,0.22415
-Return on Assets,0.11967
-Return on Invested Capital,2.9777189323334143
-Return on Investment,-0.04392586023412558
+Return on Equity,0.21070999
+Return on Assets,0.10975
+Return on Invested Capital,3.2854681456086503
+Return on Investment,-0.04908847850581517
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0074
-SUM DIVIDEND SCORE,6.0074
+5 Year Average,0.0078000000000000005
+SUM DIVIDEND SCORE,9.0078
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,103.88999999999999
+Recommendation Key,0
+SUM ANALYST RATING SCORE,103.88999999999999
 
 
 

@@ -5,63 +5,68 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://arendalsfossekompani.no
-Price,161.8
+Price,182.0
 Currency,NOK
 
 REVENUE
-Total Revenue,5387120128.0
-Revenue Per Share,76.983
-Revenue Growth,0.099
+Total Revenue,5400158208.0
+Revenue Per Share,98.485
+Revenue Growth,0.018
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.48, forward_eps=None)"
-Net Earnings,-7256000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.58, forward_eps=None)"
+Net Earnings,32590000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,2496000000.0
-Debt to Equity,66.471
+Total Debt,2939230976.0
+Debt to Equity,80.781
 
 MARGINS
-Profit Margins,-0.00135
-Gross Profit Margins,0.65082
-Operating Margins,0.0482
+Profit Margins,0.00604
+Gross Profit Margins,0.65566003
+Operating Margins,0.0023700001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.0
-Dividend Yield,0.0248
-Dividend Payout Ratio,3.6320999
-Five Year Avg Dividend Yield,3.5
-Trailing Annual Dividend Rate,3.95
-Trailing Annual Dividend Yield,0.024412856
+Dividend Yield,0.0219
+Dividend Payout Ratio,6.6949
+Five Year Avg Dividend Yield,1.76
+Trailing Annual Dividend Rate,4.0
+Trailing Annual Dividend Yield,0.021978023
 
 FINANCIAL RATIO
-Debt to Equity,66.471
-Price to Cash Flow,-1.5208193956297644e-06
-Enterprise to EBITDA,14.089
-Price to Book,2.8598766
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.48, forward_eps=None)"
-Enterprise to Revenue,1.843
+Debt to Equity,80.781
+Price to Cash Flow,-2.0051431351024554e-07
+Enterprise to EBITDA,20.428
+Price to Book,3.3415592
+Price to Earnings,"PriceToEarnings(trailing_pe=315.17242, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.58, forward_eps=None)"
+Enterprise to Revenue,2.159
 
 CASH FLOW
-Free to Cash Flow,-106127000.0
-Operating to Cash Flow,-9876000.0
+Free to Cash Flow,-911655616.0
+Operating to Cash Flow,-398391008.0
 
 PROFITABILITY
-Return on Equity,-0.016139999
-Return on Assets,0.04085
-Return on Invested Capital,-0.002907051216321177
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.00795
+Return on Assets,0.03056
+Return on Invested Capital,0.011087934109141127
+Return on Investment,-0.0008076467468613544
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.035
-SUM DIVIDEND SCORE,8.035
+5 Year Average,0.0176
+SUM DIVIDEND SCORE,4.0176
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,41.19999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,42.19999999999999
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.jnj.com
-Price,159.56
+Price,149.85
 Currency,USD
 
 REVENUE
-Total Revenue,98656002048.0
-Revenue Per Share,38.161
-Revenue Growth,-0.097
+Total Revenue,85647998976.0
+Revenue Per Share,34.477
+Revenue Growth,0.023
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=11.08)"
-Net Earnings,13991999488.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=10.95)"
+Net Earnings,17072000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,29920999424.0
-Debt to Equity,42.007
+Total Debt,33632000000.0
+Debt to Equity,48.032
 
 MARGINS
-Profit Margins,0.35096002
-Gross Profit Margins,0.67557997
-Operating Margins,0.20131001
+Profit Margins,0.44923002
+Gross Profit Margins,0.69338
+Operating Margins,0.29509002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.76
-Dividend Yield,0.0298
-Dividend Payout Ratio,0.90379995
-Five Year Avg Dividend Yield,2.65
-Trailing Annual Dividend Rate,4.64
-Trailing Annual Dividend Yield,0.02907997
+Dividend Rate,4.96
+Dividend Yield,0.033099998
+Dividend Payout Ratio,0.7073
+Five Year Avg Dividend Yield,2.68
+Trailing Annual Dividend Rate,4.76
+Trailing Annual Dividend Yield,0.0317651
 
 FINANCIAL RATIO
-Debt to Equity,42.007
-Price to Cash Flow,7.535092202755599e-09
-Enterprise to EBITDA,11.149
-Price to Book,5.3903346
-Price to Earnings,"PriceToEarnings(trailing_pe=30.673079, forward_pe=14.395307)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=11.08)"
-Enterprise to Revenue,3.957
+Debt to Equity,48.032
+Price to Cash Flow,6.16951661245453e-09
+Enterprise to EBITDA,12.028
+Price to Book,5.152609
+Price to Earnings,"PriceToEarnings(trailing_pe=22.274889, forward_pe=13.690412)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=10.95)"
+Enterprise to Revenue,4.299
 
 CASH FLOW
-Free to Cash Flow,21167624192.0
-Operating to Cash Flow,20277999616.0
+Free to Cash Flow,24298500096.0
+Operating to Cash Flow,23190999040.0
 
 PROFITABILITY
-Return on Equity,0.1919
-Return on Assets,0.101110004
-Return on Invested Capital,0.4676314208588779
-Return on Investment,-0.04751103391511036
+Return on Equity,0.24235001
+Return on Assets,0.08009
+Return on Invested Capital,0.5076117978482262
+Return on Investment,-0.04840374255741423
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0265
-SUM DIVIDEND SCORE,8.0265
+5 Year Average,0.0268
+SUM DIVIDEND SCORE,8.0268
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,65.09
+Recommendation Key,1
+SUM ANALYST RATING SCORE,66.09
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Discount Stores
 Sector,Consumer Defensive
 Website,https://www.dollartree.com
-Price,132.23
+Price,120.15
 Currency,USD
 
 REVENUE
-Total Revenue,29684600832.0
-Revenue Per Share,134.762
-Revenue Growth,0.054
+Total Revenue,30603800576.0
+Revenue Per Share,139.425
+Revenue Growth,0.119
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=7.03)"
-Net Earnings,1163600000.0
-Earnings Growth,-0.193
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.55, forward_eps=8.16)"
+Net Earnings,-998400000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,10688300032.0
-Debt to Equity,118.783
+Total Debt,10386899968.0
+Debt to Equity,142.031
 
 MARGINS
-Profit Margins,0.0392
-Gross Profit Margins,0.30128
-Operating Margins,0.04125
+Profit Margins,-0.03262
+Gross Profit Margins,0.30774
+Operating Margins,0.08758
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,118.783
-Price to Cash Flow,3.0972785056404304e-07
-Enterprise to EBITDA,15.612
-Price to Book,3.2135677
-Price to Earnings,"PriceToEarnings(trailing_pe=25.185957, forward_pe=18.88051)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=7.03)"
-Enterprise to Revenue,1.319
+Debt to Equity,142.031
+Price to Cash Flow,2.0988837545232125e-07
+Enterprise to EBITDA,13.685
+Price to Book,3.6065671
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.833334)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.55, forward_eps=8.16)"
+Enterprise to Revenue,1.179
 
 CASH FLOW
-Free to Cash Flow,428537504.0
-Operating to Cash Flow,2310299904.0
+Free to Cash Flow,576687488.0
+Operating to Cash Flow,2684499968.0
 
 PROFITABILITY
-Return on Equity,0.13473
-Return on Assets,0.0452
-Return on Invested Capital,0.10886670396786617
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.1243
+Return on Assets,0.049840003
+Return on Invested Capital,-0.09612107557114778
+Return on Investment,0.005271383315733897
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,58.959999999999994
+Recommendation Key,1
+SUM ANALYST RATING SCORE,59.959999999999994
 
 
 

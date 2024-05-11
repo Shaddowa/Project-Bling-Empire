@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,ABBV
 Company,AbbVie Inc.
 Country,United States
-Industry,Drug Manufacturers - General
+Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.abbvie.com
-Price,165.13
+Price,160.4
 Currency,USD
 
 REVENUE
-Total Revenue,55138000896.0
-Revenue Per Share,31.173
-Revenue Growth,-0.06
+Total Revenue,54402998272.0
+Revenue Per Share,30.775
+Revenue Growth,0.007
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.65, forward_eps=11.23)"
-Net Earnings,6471000064.0
-Earnings Growth,-0.548
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.36, forward_eps=12.07)"
+Net Earnings,5951000064.0
+Earnings Growth,4.964
 
 DEBT
-Total Debt,61182001152.0
-Debt to Equity,504.427
+Total Debt,74358996992.0
+Debt to Equity,924.059
 
 MARGINS
-Profit Margins,0.118140005
-Gross Profit Margins,0.69921
-Operating Margins,0.17757
+Profit Margins,0.11016
+Gross Profit Margins,0.69174004
+Operating Margins,0.28294
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.2
-Dividend Yield,0.0377
-Dividend Payout Ratio,1.6027
-Five Year Avg Dividend Yield,4.49
-Trailing Annual Dividend Rate,5.92
-Trailing Annual Dividend Yield,0.03585054
+Dividend Yield,0.038599998
+Dividend Payout Ratio,1.7827001
+Five Year Avg Dividend Yield,4.4
+Trailing Annual Dividend Rate,6.06
+Trailing Annual Dividend Yield,0.03778055
 
 FINANCIAL RATIO
-Debt to Equity,504.427
-Price to Cash Flow,6.8313563359286895e-09
-Enterprise to EBITDA,12.081
-Price to Book,24.0
-Price to Earnings,"PriceToEarnings(trailing_pe=45.041092, forward_pe=14.6393585)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.65, forward_eps=11.23)"
-Enterprise to Revenue,6.133
+Debt to Equity,924.059
+Price to Cash Flow,6.808123003467848e-09
+Enterprise to EBITDA,13.026
+Price to Book,35.44653
+Price to Earnings,"PriceToEarnings(trailing_pe=47.842262, forward_pe=13.318145)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.36, forward_eps=12.07)"
+Enterprise to Revenue,6.253
 
 CASH FLOW
-Free to Cash Flow,24065499136.0
-Operating to Cash Flow,25514000384.0
+Free to Cash Flow,23611500544.0
+Operating to Cash Flow,22685999104.0
 
 PROFITABILITY
-Return on Equity,0.46321
-Return on Assets,0.086540006
-Return on Invested Capital,0.10576640092564163
-Return on Investment,0.0176465777583856
+Return on Equity,0.56244
+Return on Assets,0.07705
+Return on Invested Capital,0.08003066615163335
+Return on Investment,0.015389190752521334
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0449
-SUM DIVIDEND SCORE,8.0449
+5 Year Average,0.044000000000000004
+SUM DIVIDEND SCORE,8.044
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,46.25
+Recommendation Key,1
+SUM ANALYST RATING SCORE,47.25
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.albemarle.com
-Price,118.45
+Price,133.55
 Currency,USD
 
 REVENUE
-Total Revenue,9882015744.0
-Revenue Per Share,84.268
-Revenue Growth,0.105
+Total Revenue,8397686784.0
+Revenue Per Share,71.548
+Revenue Growth,-0.473
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.21, forward_eps=10.39)"
-Net Earnings,3323600896.0
-Earnings Growth,-0.662
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.76, forward_eps=8.31)"
+Net Earnings,325760000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,3808100096.0
-Debt to Equity,37.472
+Total Debt,3667872000.0
+Debt to Equity,31.084
 
 MARGINS
-Profit Margins,0.33633
-Gross Profit Margins,0.29258
-Operating Margins,-0.05545
+Profit Margins,0.040170003
+Gross Profit Margins,-0.00485
+Operating Margins,-0.10560001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0134000005
-Dividend Payout Ratio,0.056500003
-Five Year Avg Dividend Yield,1.22
-Trailing Annual Dividend Rate,1.595
-Trailing Annual Dividend Yield,0.013465598
+Dividend Yield,0.0123000005
+Dividend Payout Ratio,0.5797
+Five Year Avg Dividend Yield,1.2
+Trailing Annual Dividend Rate,1.6
+Trailing Annual Dividend Yield,0.011980532
 
 FINANCIAL RATIO
-Debt to Equity,37.472
-Price to Cash Flow,-9.619618946986422e-08
-Enterprise to EBITDA,6.333
-Price to Book,1.4208647
-Price to Earnings,"PriceToEarnings(trailing_pe=4.248139, forward_pe=11.534166)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.21, forward_eps=10.39)"
-Enterprise to Revenue,1.673
+Debt to Equity,31.084
+Price to Cash Flow,-5.135422640164503e-08
+Enterprise to EBITDA,-61.017
+Price to Book,1.6384987
+Price to Earnings,"PriceToEarnings(trailing_pe=46.963768, forward_pe=15.598073)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.76, forward_eps=8.31)"
+Enterprise to Revenue,2.304
 
 CASH FLOW
-Free to Cash Flow,-1245787392.0
-Operating to Cash Flow,2375787008.0
+Free to Cash Flow,-2524037632.0
+Operating to Cash Flow,702294976.0
 
 PROFITABILITY
-Return on Equity,0.40118998
-Return on Assets,0.08558
-Return on Invested Capital,0.8727713921908009
-Return on Investment,-0.0195568632061455
+Return on Equity,0.03862
+Return on Assets,-0.02676
+Return on Invested Capital,0.08881443871922971
+Return on Investment,-0.0015825369073198647
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,1.0
-Payout Ratio,0.0
+Dividend  Rate,3.0
+Dividend Yield,4.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.012199999999999999
-SUM DIVIDEND SCORE,5.0122
+5 Year Average,0.012
+SUM DIVIDEND SCORE,8.012
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,86.38
+Recommendation Key,1
+SUM ANALYST RATING SCORE,87.38
 
 
 

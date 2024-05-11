@@ -5,63 +5,68 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.l3harris.com
-Price,204.64
+Price,219.49
 Currency,USD
 
 REVENUE
-Total Revenue,19419000832.0
-Revenue Per Share,102.421
+Total Revenue,20159000576.0
+Revenue Per Share,106.38
 Revenue Growth,0.166
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.44, forward_eps=14.35)"
-Net Earnings,1227000064.0
-Earnings Growth,-0.617
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.15, forward_eps=14.2)"
+Net Earnings,1172999936.0
+Earnings Growth,-0.159
 
 DEBT
-Total Debt,13125000192.0
-Debt to Equity,69.706
+Total Debt,13708000256.0
+Debt to Equity,73.187
 
 MARGINS
-Profit Margins,0.06319
-Gross Profit Margins,0.26484
-Operating Margins,0.09869
+Profit Margins,0.05819
+Gross Profit Margins,0.26266
+Operating Margins,0.119940005
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.56
-Dividend Yield,0.0218
-Dividend Payout Ratio,0.70809996
-Five Year Avg Dividend Yield,1.83
-Trailing Annual Dividend Rate,4.56
-Trailing Annual Dividend Yield,0.022283033
+Dividend Rate,4.64
+Dividend Yield,0.0211
+Dividend Payout Ratio,0.7438
+Five Year Avg Dividend Yield,1.87
+Trailing Annual Dividend Rate,4.58
+Trailing Annual Dividend Yield,0.020866554
 
 FINANCIAL RATIO
-Debt to Equity,69.706
-Price to Cash Flow,1.3045050532364267e-07
-Enterprise to EBITDA,15.794
-Price to Book,2.106657
-Price to Earnings,"PriceToEarnings(trailing_pe=32.486027, forward_pe=14.579094)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.44, forward_eps=14.35)"
-Enterprise to Revenue,2.69
+Debt to Equity,73.187
+Price to Cash Flow,1.5765951628015714e-07
+Enterprise to EBITDA,15.096
+Price to Book,2.2289665
+Price to Earnings,"PriceToEarnings(trailing_pe=35.707317, forward_pe=15.464789)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.15, forward_eps=14.2)"
+Enterprise to Revenue,2.726
 
 CASH FLOW
-Free to Cash Flow,1603750016.0
-Operating to Cash Flow,2096000000.0
+Free to Cash Flow,1392875008.0
+Operating to Cash Flow,1642000000.0
 
 PROFITABILITY
-Return on Equity,0.06397
-Return on Assets,0.03558
-Return on Invested Capital,0.09348571708699194
-Return on Investment,0.02410609163064833
+Return on Equity,0.06161
+Return on Assets,0.03886
+Return on Invested Capital,0.08557046291679851
+Return on Investment,0.015829958650472334
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0183
-SUM DIVIDEND SCORE,4.0183
+5 Year Average,0.0187
+SUM DIVIDEND SCORE,8.0187
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,104.4
+Recommendation Key,1
+SUM ANALYST RATING SCORE,105.4
 
 
 

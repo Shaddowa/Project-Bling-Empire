@@ -18,6 +18,7 @@ class Section(Enum):
     CASH_FLOW = "CASH FLOW"
     PROFITABILITY = "PROFITABILITY"
     DIVIDEND_SCORE = "DIVIDEND SCORE"
+    ANALYST_RATING_SCORE = "ANALYST RATING SCORE"
     GROWTH_CRITERIA = "PASSES GROWTH CRITERIA"
 
 
@@ -56,6 +57,8 @@ class CsvConverter:
             profitability_data: Callable[[], dict],
             evaluated_dividend_score: Callable[[], dict],
             get_dividend_score: Callable[[], dict],
+            evaluated_analyst_rating_score: Callable[[], dict],
+            get_analyst_rating_score: Callable[[], dict],
             evaluated_growth_criteria: Callable[[], dict],
             get_criteria_pass_count: Callable[[], dict],
     ):
@@ -69,6 +72,7 @@ class CsvConverter:
             Section.CASH_FLOW: cash_flow_data,
             Section.PROFITABILITY: profitability_data,
             Section.DIVIDEND_SCORE: {**evaluated_dividend_score(), **get_dividend_score()},
+            Section.ANALYST_RATING_SCORE: {**evaluated_analyst_rating_score(), **get_analyst_rating_score()},
             Section.GROWTH_CRITERIA: {**evaluated_growth_criteria(), **get_criteria_pass_count()},
         }
 

@@ -5,55 +5,55 @@ Country,United States
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.paychex.com
-Price,121.01
+Price,121.3
 Currency,USD
 
 REVENUE
-Total Revenue,5154500096.0
-Revenue Per Share,14.294
-Revenue Growth,0.057
+Total Revenue,5212800000.0
+Revenue Per Share,14.461
+Revenue Growth,0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.5, forward_eps=5.03)"
-Net Earnings,1629699968.0
-Earnings Growth,0.091
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.6, forward_eps=4.98)"
+Net Earnings,1660899968.0
+Earnings Growth,0.07
 
 DEBT
-Total Debt,865500032.0
-Debt to Equity,24.557
+Total Debt,868800000.0
+Debt to Equity,23.186
 
 MARGINS
-Profit Margins,0.31617
-Gross Profit Margins,0.71539
-Operating Margins,0.40242
+Profit Margins,0.31862
+Gross Profit Margins,0.71725
+Operating Margins,0.45147
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.56
-Dividend Yield,0.0294
-Dividend Payout Ratio,0.7689
+Dividend Rate,3.92
+Dividend Yield,0.032
+Dividend Payout Ratio,0.77559996
 Five Year Avg Dividend Yield,2.72
-Trailing Annual Dividend Rate,3.46
-Trailing Annual Dividend Yield,0.028592678
+Trailing Annual Dividend Rate,3.56
+Trailing Annual Dividend Yield,0.029348722
 
 FINANCIAL RATIO
-Debt to Equity,24.557
-Price to Cash Flow,8.01073013389797e-08
-Enterprise to EBITDA,18.836
-Price to Book,12.347116
-Price to Earnings,"PriceToEarnings(trailing_pe=26.875557, forward_pe=24.043737)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.5, forward_eps=5.03)"
-Enterprise to Revenue,8.339
+Debt to Equity,23.186
+Price to Cash Flow,7.989178515258364e-08
+Enterprise to EBITDA,18.638
+Price to Book,11.772335
+Price to Earnings,"PriceToEarnings(trailing_pe=26.641306, forward_pe=24.608435)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.6, forward_eps=4.98)"
+Enterprise to Revenue,8.297
 
 CASH FLOW
-Free to Cash Flow,1509725056.0
-Operating to Cash Flow,1984000000.0
+Free to Cash Flow,1533949952.0
+Operating to Cash Flow,2086599936.0
 
 PROFITABILITY
-Return on Equity,0.48433
-Return on Assets,0.12389
-Return on Invested Capital,1.88295769994429
-Return on Investment,-0.19424314278903457
+Return on Equity,0.4647
+Return on Assets,0.11351
+Return on Invested Capital,1.9117172514951928
+Return on Investment,-0.1811232244274809
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.027200000000000002
 SUM DIVIDEND SCORE,8.0272
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,7.450000000000003
+Recommendation Key,0
+SUM ANALYST RATING SCORE,7.450000000000003
 
 
 

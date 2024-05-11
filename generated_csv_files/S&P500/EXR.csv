@@ -5,69 +5,74 @@ Country,United States
 Industry,REIT—Industrial
 Sector,Real Estate
 Website,https://www.extraspace.com
-Price,148.83
+Price,146.22
 Currency,USD
 
 REVENUE
-Total Revenue,2318781952.0
+Total Revenue,2916270080.0
 Revenue Per Share,15.478
-Revenue Growth,0.496
+Revenue Growth,0.587
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.29, forward_eps=5.28)"
-Net Earnings,790105984.0
-Earnings Growth,-0.416
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.28, forward_eps=5.24)"
+Net Earnings,818726016.0
+Earnings Growth,-0.309
 
 DEBT
-Total Debt,11194519552.0
-Debt to Equity,71.913
+Total Debt,11391386624.0
+Debt to Equity,74.507
 
 MARGINS
-Profit Margins,0.34127
-Gross Profit Margins,0.76056
-Operating Margins,0.48358002
+Profit Margins,0.28118
+Gross Profit Margins,0.74801004
+Operating Margins,0.43071
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.48
-Dividend Yield,0.043899998
-Dividend Payout Ratio,1.2
+Dividend Yield,0.0442
+Dividend Payout Ratio,1.5105001
 Five Year Avg Dividend Yield,3.22
-Trailing Annual Dividend Rate,6.36
-Trailing Annual Dividend Yield,0.04273332
+Trailing Annual Dividend Rate,6.48
+Trailing Annual Dividend Yield,0.044316784
 
 FINANCIAL RATIO
-Debt to Equity,71.913
-Price to Cash Flow,1.9969220074925998e-07
-Enterprise to EBITDA,27.013
-Price to Book,2.1432724
-Price to Earnings,"PriceToEarnings(trailing_pe=27.877127, forward_pe=27.929924)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.29, forward_eps=5.28)"
-Enterprise to Revenue,18.594
+Debt to Equity,74.507
+Price to Cash Flow,1.0334326503423192e-07
+Enterprise to EBITDA,21.809
+Price to Book,2.171345
+Price to Earnings,"PriceToEarnings(trailing_pe=34.26869, forward_pe=27.99046)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.28, forward_eps=5.24)"
+Enterprise to Revenue,14.866
 
 CASH FLOW
-Free to Cash Flow,738486528.0
-Operating to Cash Flow,1328077056.0
+Free to Cash Flow,1419250688.0
+Operating to Cash Flow,1586381056.0
 
 PROFITABILITY
-Return on Equity,0.085810006
-Return on Assets,0.03837
-Return on Invested Capital,0.07057971317782306
-Return on Investment,0.010850376677291286
+Return on Equity,0.0896
+Return on Assets,0.04319
+Return on Invested Capital,0.07187237499429856
+Return on Investment,0.008320707669605127
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0322
-SUM DIVIDEND SCORE,8.0322
+SUM DIVIDEND SCORE,4.0322
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.33000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,33.33000000000001
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

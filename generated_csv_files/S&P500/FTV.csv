@@ -5,55 +5,55 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.fortive.com
-Price,74.29
+Price,77.48
 Currency,USD
 
 REVENUE
-Total Revenue,6011500032.0
-Revenue Per Share,17.025
-Revenue Growth,0.026
+Total Revenue,6129099776.0
+Revenue Per Share,17.411
+Revenue Growth,0.044
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.33, forward_eps=3.68)"
-Net Earnings,827800000.0
-Earnings Growth,0.151
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=4.17)"
+Net Earnings,899600000.0
+Earnings Growth,0.184
 
 DEBT
-Total Debt,2896999936.0
-Debt to Equity,28.73
+Total Debt,3941700096.0
+Debt to Equity,37.601
 
 MARGINS
-Profit Margins,0.1377
-Gross Profit Margins,0.58872
-Operating Margins,0.19478
+Profit Margins,0.14678
+Gross Profit Margins,0.59554
+Operating Margins,0.15684
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.32
-Dividend Yield,0.0043
-Dividend Payout Ratio,0.12020001
+Dividend Yield,0.0042
+Dividend Payout Ratio,0.118999995
 Five Year Avg Dividend Yield,0.41
-Trailing Annual Dividend Rate,0.28
-Trailing Annual Dividend Yield,0.0037690133
+Trailing Annual Dividend Rate,0.3
+Trailing Annual Dividend Yield,0.0038719669
 
 FINANCIAL RATIO
-Debt to Equity,28.73
-Price to Cash Flow,6.406825081192498e-08
-Enterprise to EBITDA,17.69
-Price to Book,2.5792391
-Price to Earnings,"PriceToEarnings(trailing_pe=31.746782, forward_pe=20.100544)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.33, forward_eps=3.68)"
-Enterprise to Revenue,4.688
+Debt to Equity,37.601
+Price to Cash Flow,7.054424629088483e-08
+Enterprise to EBITDA,18.821
+Price to Book,2.583073
+Price to Earnings,"PriceToEarnings(trailing_pe=30.507936, forward_pe=18.43645)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=4.17)"
+Enterprise to Revenue,4.945
 
 CASH FLOW
-Free to Cash Flow,1154550016.0
-Operating to Cash Flow,1371000064.0
+Free to Cash Flow,1089812480.0
+Operating to Cash Flow,1435900032.0
 
 PROFITABILITY
-Return on Equity,0.084989995
-Return on Assets,0.04498
-Return on Invested Capital,0.28574387645590593
-Return on Investment,0.05732686980609418
+Return on Equity,0.088369995
+Return on Assets,0.04237
+Return on Invested Capital,0.22822639249500576
+Return on Investment,0.05573729863692689
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0040999999999999995
 SUM DIVIDEND SCORE,8.0041
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,21.120000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,22.120000000000005
 
 
 

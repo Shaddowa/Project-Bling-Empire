@@ -23,6 +23,11 @@ class EarningsPerShare(IterableDataInterface, CastableDataInterface):
 @dataclass
 class FinancialData(IterableDataInterface, CastableDataInterface):
     price: Optional[float]
+    target_high_price: Optional[float]
+    target_low_price: Optional[float]
+    recommendation_mean: Optional[float]
+    recommendation_key: Optional[str]
+    number_of_analyst_opinions: Optional[float]
     total_revenue: Optional[float]
     revenue_per_share: Optional[float]
     revenue_growth: Optional[float]
@@ -107,6 +112,11 @@ class FinancialData(IterableDataInterface, CastableDataInterface):
     def mockk(cls):
         return FinancialData(
             price=0,
+            target_high_price=0,
+            target_low_price=0,
+            recommendation_mean=0,
+            recommendation_key=None,
+            number_of_analyst_opinions=0,
             total_revenue=0,
             revenue_per_share=0,
             revenue_growth=0,

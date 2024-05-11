@@ -5,17 +5,17 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.intuit.com
-Price,641.49
+Price,626.86
 Currency,USD
 
 REVENUE
-Total Revenue,14748999680.0
-Revenue Per Share,52.534
+Total Revenue,15093999616.0
+Revenue Per Share,53.811
 Revenue Growth,0.41
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.11, forward_eps=18.83)"
-Net Earnings,2584999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.8, forward_eps=18.85)"
+Net Earnings,2769999872.0
 Earnings Growth,-0.185
 
 DEBT
@@ -23,45 +23,50 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.17527
-Gross Profit Margins,0.79205
+Profit Margins,0.18351999
+Gross Profit Margins,0.79103994
 Operating Margins,0.15697
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.6
-Dividend Yield,0.0056
-Dividend Payout Ratio,0.3549
-Five Year Avg Dividend Yield,0.63
-Trailing Annual Dividend Rate,3.24
-Trailing Annual Dividend Yield,0.005050741
+Dividend Yield,0.0057
+Dividend Payout Ratio,0.3432
+Five Year Avg Dividend Yield,0.62
+Trailing Annual Dividend Rate,3.36
+Trailing Annual Dividend Yield,0.0053600483
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.4948373980877776e-07
+Price to Cash Flow,1.5511575696430523e-07
 Enterprise to EBITDA,None
-Price to Book,10.572507
-Price to Earnings,"PriceToEarnings(trailing_pe=70.40176, forward_pe=34.06054)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.11, forward_eps=18.83)"
+Price to Book,10.472176
+Price to Earnings,"PriceToEarnings(trailing_pe=64.52142, forward_pe=33.544296)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.8, forward_eps=18.85)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,4290500096.0
-Operating to Cash Flow,4621000192.0
+Free to Cash Flow,4076375040.0
+Operating to Cash Flow,4950000128.0
 
 PROFITABILITY
-Return on Equity,0.15639
-Return on Assets,0.07585
+Return on Equity,0.16916001
+Return on Assets,0.07627
 Return on Invested Capital,None
-Return on Investment,0.09609665189591078
+Return on Investment,0.1188841146781116
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0063
-SUM DIVIDEND SCORE,8.0063
+5 Year Average,0.0062
+SUM DIVIDEND SCORE,8.0062
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,142.69000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,143.69000000000005
 
 
 

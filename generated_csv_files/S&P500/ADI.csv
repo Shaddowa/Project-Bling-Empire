@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.analog.com
-Price,197.3
+Price,204.79
 Currency,USD
 
 REVENUE
-Total Revenue,12305539072.0
-Revenue Per Share,24.502
-Revenue Growth,-0.164
+Total Revenue,11568613376.0
+Revenue Per Share,23.165
+Revenue Growth,-0.227
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=8.73)"
-Net Earnings,3314578944.0
-Earnings Growth,-0.453
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.59, forward_eps=7.57)"
+Net Earnings,2815832064.0
+Earnings Growth,-0.505
 
 DEBT
-Total Debt,7455540224.0
-Debt to Equity,20.963
+Total Debt,7027512832.0
+Debt to Equity,19.769
 
 MARGINS
-Profit Margins,0.26936
-Gross Profit Margins,0.64014
-Operating Margins,0.27372998
+Profit Margins,0.24340001
+Gross Profit Margins,0.62469
+Operating Margins,0.23962
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.44
-Dividend Yield,0.0177
-Dividend Payout Ratio,0.50990003
-Five Year Avg Dividend Yield,1.82
-Trailing Annual Dividend Rate,3.44
-Trailing Annual Dividend Yield,0.017435377
+Dividend Rate,3.68
+Dividend Yield,0.0178
+Dividend Payout Ratio,0.6143
+Five Year Avg Dividend Yield,1.81
+Trailing Annual Dividend Rate,3.5
+Trailing Annual Dividend Yield,0.017090678
 
 FINANCIAL RATIO
-Debt to Equity,20.963
-Price to Cash Flow,5.852401489268601e-08
-Enterprise to EBITDA,16.38
-Price to Book,2.7060251
-Price to Earnings,"PriceToEarnings(trailing_pe=29.5625, forward_pe=22.214205)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=8.73)"
-Enterprise to Revenue,8.349
+Debt to Equity,19.769
+Price to Cash Flow,6.928551405505493e-08
+Enterprise to EBITDA,19.093
+Price to Book,2.8903646
+Price to Earnings,"PriceToEarnings(trailing_pe=37.0644, forward_pe=27.36988)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.59, forward_eps=7.57)"
+Enterprise to Revenue,9.376
 
 CASH FLOW
-Free to Cash Flow,3313682432.0
-Operating to Cash Flow,4817633792.0
+Free to Cash Flow,2990379776.0
+Operating to Cash Flow,4550160896.0
 
 PROFITABILITY
-Return on Equity,0.09203
-Return on Assets,0.05019
-Return on Invested Capital,0.4445793078104355
-Return on Investment,-0.04526993931828332
+Return on Equity,0.07813
+Return on Assets,0.043730002
+Return on Invested Capital,0.4006868578674926
+Return on Investment,-0.0377647217300922
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
+Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0182
-SUM DIVIDEND SCORE,8.0182
+5 Year Average,0.0181
+SUM DIVIDEND SCORE,8.0181
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,46.81
+Recommendation Key,1
+SUM ANALYST RATING SCORE,47.81
 
 
 

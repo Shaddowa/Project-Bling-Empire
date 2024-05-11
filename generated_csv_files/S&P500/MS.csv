@@ -5,63 +5,68 @@ Country,United States
 Industry,Capital Markets
 Sector,Financial Services
 Website,https://www.morganstanley.com
-Price,88.02
+Price,98.11
 Currency,USD
 
 REVENUE
-Total Revenue,53610999808.0
-Revenue Per Share,32.931
-Revenue Growth,0.018
+Total Revenue,54470000640.0
+Revenue Per Share,33.686
+Revenue Growth,0.06
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.18, forward_eps=7.35)"
-Net Earnings,8529999872.0
-Earnings Growth,-0.332
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.5, forward_eps=7.61)"
+Net Earnings,8960000000.0
+Earnings Growth,0.188
 
 DEBT
-Total Debt,379196997632.0
-Debt to Equity,378.599
+Total Debt,416833011712.0
+Debt to Equity,416.25
 
 MARGINS
-Profit Margins,0.16950001
-Gross Profit Margins,0.86474997
-Operating Margins,0.30009001
+Profit Margins,0.17476
+Gross Profit Margins,0.86503
+Operating Margins,0.34685
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.4
-Dividend Yield,0.0388
-Dividend Payout Ratio,0.62740004
-Five Year Avg Dividend Yield,2.88
-Trailing Annual Dividend Rate,3.325
-Trailing Annual Dividend Yield,0.03777551
+Dividend Yield,0.0346
+Dividend Payout Ratio,0.6045
+Five Year Avg Dividend Yield,2.95
+Trailing Annual Dividend Rate,3.4
+Trailing Annual Dividend Yield,0.03465498
 
 FINANCIAL RATIO
-Debt to Equity,378.599
+Debt to Equity,416.25
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.5926585
-Price to Earnings,"PriceToEarnings(trailing_pe=16.936295, forward_pe=11.936055)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.18, forward_eps=7.35)"
-Enterprise to Revenue,-0.177
+Price to Book,1.7674987
+Price to Earnings,"PriceToEarnings(trailing_pe=17.869091, forward_pe=12.914586)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.5, forward_eps=7.61)"
+Enterprise to Revenue,-2.585
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,-19310999552.0
 
 PROFITABILITY
-Return on Equity,0.09166
-Return on Assets,None
-Return on Invested Capital,0.022494903504059426
-Return on Investment,0.002542473881371088
+Return on Equity,0.09559
+Return on Assets,0.00796
+Return on Invested Capital,0.02149541842188701
+Return on Investment,0.002131202131202131
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0288
-SUM DIVIDEND SCORE,8.0288
+5 Year Average,0.029500000000000002
+SUM DIVIDEND SCORE,4.0295
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,19.72
+Recommendation Key,1
+SUM ANALYST RATING SCORE,20.72
 
 
 

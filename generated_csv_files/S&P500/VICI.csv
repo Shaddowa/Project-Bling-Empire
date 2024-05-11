@@ -5,76 +5,81 @@ Country,United States
 Industry,REIT—Diversified
 Sector,Real Estate
 Website,https://www.viciproperties.com
-Price,30.52
+Price,29.3
 Currency,USD
 
 REVENUE
-Total Revenue,3473224960.0
-Revenue Per Share,3.486
-Revenue Growth,0.168
+Total Revenue,3685821952.0
+Revenue Per Share,3.597
+Revenue Growth,0.083
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.64)"
-Net Earnings,2369824000.0
-Earnings Growth,0.615
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=2.72)"
+Net Earnings,2584816128.0
+Earnings Growth,0.093
 
 DEBT
-Total Debt,17538957312.0
-Debt to Equity,71.483
+Total Debt,17614292992.0
+Debt to Equity,68.223
 
 MARGINS
-Profit Margins,0.68231004
-Gross Profit Margins,0.99084
-Operating Margins,0.84573
+Profit Margins,0.70128995
+Gross Profit Margins,0.98998
+Operating Margins,0.84196
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.66
-Dividend Yield,0.0546
-Dividend Payout Ratio,0.65769994
-Five Year Avg Dividend Yield,4.91
-Trailing Annual Dividend Rate,1.585
-Trailing Annual Dividend Yield,0.05193316
+Dividend Yield,0.0563
+Dividend Payout Ratio,0.64879996
+Five Year Avg Dividend Yield,4.95
+Trailing Annual Dividend Rate,1.635
+Trailing Annual Dividend Yield,0.055802047
 
 FINANCIAL RATIO
-Debt to Equity,71.483
-Price to Cash Flow,-5.857104216108846e-09
-Enterprise to EBITDA,15.384
-Price to Book,1.2791921
-Price to Earnings,"PriceToEarnings(trailing_pe=12.614107, forward_pe=11.515151)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.64)"
-Enterprise to Revenue,14.058
+Debt to Equity,68.223
+Price to Cash Flow,-2.4018156097660263e-06
+Enterprise to EBITDA,14.143
+Price to Book,1.2108028
+Price to Earnings,"PriceToEarnings(trailing_pe=11.706349, forward_pe=10.845588)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=2.72)"
+Enterprise to Revenue,13.106
 
 CASH FLOW
-Free to Cash Flow,-5190278144.0
-Operating to Cash Flow,2092435968.0
+Free to Cash Flow,-12282375.0
+Operating to Cash Flow,2202714880.0
 
 PROFITABILITY
-Return on Equity,0.10343
-Return on Assets,0.049450003
-Return on Invested Capital,0.13511772419717988
-Return on Investment,0.015173593681169516
+Return on Equity,0.10614
+Return on Assets,0.049569998
+Return on Invested Capital,0.14674538033395146
+Return on Investment,0.01584125581985403
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.049100000000000005
-SUM DIVIDEND SCORE,8.0491
+5 Year Average,0.0495
+SUM DIVIDEND SCORE,8.0495
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,13.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,14.5
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,4.0
+CRITERIA PASS COUNT,2.0
 

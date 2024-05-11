@@ -5,63 +5,68 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.yum.com
-Price,130.22
+Price,137.95
 Currency,USD
 
 REVENUE
-Total Revenue,7058999808.0
-Revenue Per Share,25.076
-Revenue Growth,0.041
+Total Revenue,7029000192.0
+Revenue Per Share,24.992
+Revenue Growth,-0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.25, forward_eps=5.82)"
-Net Earnings,1504999936.0
-Earnings Growth,0.281
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.64, forward_eps=6.39)"
+Net Earnings,1611000064.0
+Earnings Growth,0.048
 
 DEBT
-Total Debt,12277000192.0
+Total Debt,11936000000.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.2132
-Gross Profit Margins,0.49071997
-Operating Margins,0.36593
+Profit Margins,0.22919
+Gross Profit Margins,0.49595
+Operating Margins,0.34480998
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.68
-Dividend Yield,0.0208
-Dividend Payout Ratio,0.45340002
-Five Year Avg Dividend Yield,1.74
-Trailing Annual Dividend Rate,0.605
-Trailing Annual Dividend Yield,0.0046459837
+Dividend Yield,0.0195
+Dividend Payout Ratio,0.4406
+Five Year Avg Dividend Yield,1.76
+Trailing Annual Dividend Rate,1.815
+Trailing Annual Dividend Yield,0.013156942
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.1181464147082593e-07
-Enterprise to EBITDA,19.087
+Price to Cash Flow,1.175485847895213e-07
+Enterprise to EBITDA,19.461
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=24.588572, forward_pe=22.18041)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.25, forward_eps=5.82)"
-Enterprise to Revenue,6.768
+Price to Earnings,"PriceToEarnings(trailing_pe=24.40071, forward_pe=21.536776)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.64, forward_eps=6.39)"
+Enterprise to Revenue,7.115
 
 CASH FLOW
-Free to Cash Flow,1154499968.0
-Operating to Cash Flow,1607000064.0
+Free to Cash Flow,1170749952.0
+Operating to Cash Flow,1616999936.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.24863
-Return on Invested Capital,0.12258694437150565
-Return on Investment,0.020448368695652173
+Return on Assets,0.25171
+Return on Invested Capital,0.1349698448161279
+Return on Investment,0.02212912175824176
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0174
-SUM DIVIDEND SCORE,9.0174
+5 Year Average,0.0176
+SUM DIVIDEND SCORE,9.0176
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,23.379999999999995
+Recommendation Key,1
+SUM ANALYST RATING SCORE,24.379999999999995
 
 
 

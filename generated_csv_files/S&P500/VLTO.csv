@@ -5,63 +5,68 @@ Country,United States
 Industry,Pollution & Treatment Controls
 Sector,Industrials
 Website,https://www.veralto.com
-Price,76.7
+Price,95.94
 Currency,USD
 
 REVENUE
-Total Revenue,4981000192.0
-Revenue Per Share,20.224
-Revenue Growth,0.03
+Total Revenue,5041999872.0
+Revenue Per Share,20.45
+Revenue Growth,0.017
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.93, forward_eps=3.24)"
-Net Earnings,855000000.0
-Earnings Growth,-0.06
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.23, forward_eps=3.6)"
+Net Earnings,798000000.0
+Earnings Growth,-0.187
 
 DEBT
-Total Debt,2736000000.0
-Debt to Equity,262.32
+Total Debt,2784000000.0
+Debt to Equity,187.097
 
 MARGINS
-Profit Margins,0.17165
-Gross Profit Margins,0.57539004
-Operating Margins,0.22231
+Profit Margins,0.15827
+Gross Profit Margins,0.5831
+Operating Margins,0.23515
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.36
-Dividend Yield,0.0047
-Dividend Payout Ratio,0.0
+Dividend Yield,0.0037
+Dividend Payout Ratio,0.0557
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,0.18
+Trailing Annual Dividend Yield,0.0018761726
 
 FINANCIAL RATIO
-Debt to Equity,262.32
-Price to Cash Flow,None
-Enterprise to EBITDA,17.064
+Debt to Equity,187.097
+Price to Cash Flow,1.065121412803532e-07
+Enterprise to EBITDA,20.793
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=26.27645, forward_pe=23.762344)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.93, forward_eps=3.24)"
-Enterprise to Revenue,4.272
+Price to Earnings,"PriceToEarnings(trailing_pe=29.876162, forward_pe=26.805555)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.23, forward_eps=3.6)"
+Enterprise to Revenue,5.114
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,1037000000.0
+Free to Cash Flow,906000000.0
+Operating to Cash Flow,922000000.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,None
+Return on Equity,0.33001998
+Return on Assets,0.13668999
 Return on Invested Capital,None
-Return on Investment,0.03263358778625954
+Return on Investment,0.1375862068965517
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,4.0
+SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,7.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,8.5
 
 
 

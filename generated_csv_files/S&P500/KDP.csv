@@ -5,63 +5,68 @@ Country,United States
 Industry,Beverages—Non-Alcoholic
 Sector,Consumer Defensive
 Website,https://www.keurigdrpepper.com
-Price,31.59
+Price,33.99
 Currency,USD
 
 REVENUE
-Total Revenue,14750000128.0
-Revenue Per Share,10.5
-Revenue Growth,0.051
+Total Revenue,14929000448.0
+Revenue Per Share,10.718
+Revenue Growth,0.034
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.37, forward_eps=1.91)"
-Net Earnings,1940999936.0
-Earnings Growth,1.911
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.55, forward_eps=2.07)"
+Net Earnings,2168000000.0
+Earnings Growth,-0.004
 
 DEBT
-Total Debt,14677999616.0
-Debt to Equity,57.869
+Total Debt,16750000128.0
+Debt to Equity,67.943
 
 MARGINS
-Profit Margins,0.13159001
-Gross Profit Margins,0.53498
-Operating Margins,0.23679
+Profit Margins,0.14522
+Gross Profit Margins,0.55436003
+Operating Margins,0.21943001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.86
-Dividend Yield,0.0269
-Dividend Payout Ratio,0.5949
-Five Year Avg Dividend Yield,2.17
-Trailing Annual Dividend Rate,0.815
-Trailing Annual Dividend Yield,0.025799304
+Dividend Yield,0.0253
+Dividend Payout Ratio,0.5452
+Five Year Avg Dividend Yield,2.12
+Trailing Annual Dividend Rate,0.845
+Trailing Annual Dividend Yield,0.024860254
 
 FINANCIAL RATIO
-Debt to Equity,57.869
-Price to Cash Flow,2.9522269635754496e-08
-Enterprise to EBITDA,15.048
-Price to Book,1.763052
-Price to Earnings,"PriceToEarnings(trailing_pe=23.343065, forward_pe=16.743456)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.37, forward_eps=1.91)"
-Enterprise to Revenue,4.009
+Debt to Equity,67.943
+Price to Cash Flow,8.596147600204154e-08
+Enterprise to EBITDA,15.222
+Price to Book,1.8712195
+Price to Earnings,"PriceToEarnings(trailing_pe=21.954838, forward_pe=16.439613)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.55, forward_eps=2.07)"
+Enterprise to Revenue,4.191
 
 CASH FLOW
-Free to Cash Flow,1083250048.0
-Operating to Cash Flow,1771000064.0
+Free to Cash Flow,395875008.0
+Operating to Cash Flow,1343000064.0
 
 PROFITABILITY
-Return on Equity,0.07692
-Return on Assets,0.03892
-Return on Invested Capital,0.13223872355777297
-Return on Investment,0.028377192046783625
+Return on Equity,0.08715
+Return on Assets,0.040960003
+Return on Invested Capital,0.12943283469126754
+Return on Investment,0.0291006711409396
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0217
-SUM DIVIDEND SCORE,9.0217
+5 Year Average,0.0212
+SUM DIVIDEND SCORE,9.0212
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,6.969999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,7.969999999999999
 
 
 

@@ -5,70 +5,75 @@ Country,United States
 Industry,Waste Management
 Sector,Industrials
 Website,https://www.republicservices.com
-Price,170.28
+Price,188.13
 Currency,USD
 
 REVENUE
-Total Revenue,14662700032.0
-Revenue Per Share,46.322
-Revenue Growth,0.063
+Total Revenue,15245100032.0
+Revenue Per Share,48.27
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.16, forward_eps=5.96)"
-Net Earnings,1638200064.0
-Earnings Growth,0.153
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=6.78)"
+Net Earnings,1800899968.0
+Earnings Growth,0.19
 
 DEBT
-Total Debt,12270199808.0
-Debt to Equity,118.755
+Total Debt,13070799872.0
+Debt to Equity,120.796
 
 MARGINS
-Profit Margins,0.11173
-Gross Profit Margins,0.40619
-Operating Margins,0.19309999
+Profit Margins,0.11813
+Gross Profit Margins,0.41756
+Operating Margins,0.19128999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.14
-Dividend Yield,0.0125
-Dividend Payout Ratio,0.39150003
-Five Year Avg Dividend Yield,1.57
-Trailing Annual Dividend Rate,2.02
-Trailing Annual Dividend Yield,0.011862814
+Dividend Yield,0.0113
+Dividend Payout Ratio,0.3684
+Five Year Avg Dividend Yield,1.52
+Trailing Annual Dividend Rate,2.1
+Trailing Annual Dividend Yield,0.011162493
 
 FINANCIAL RATIO
-Debt to Equity,118.755
-Price to Cash Flow,9.883303327265158e-08
-Enterprise to EBITDA,15.659
-Price to Book,5.2243266
-Price to Earnings,"PriceToEarnings(trailing_pe=33.195736, forward_pe=28.739931)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.16, forward_eps=5.96)"
-Enterprise to Revenue,4.502
+Debt to Equity,120.796
+Price to Cash Flow,1.1197053062491286e-07
+Enterprise to EBITDA,16.109
+Price to Book,5.507727
+Price to Earnings,"PriceToEarnings(trailing_pe=33.25835, forward_pe=27.911505)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=6.78)"
+Enterprise to Revenue,4.761
 
 CASH FLOW
-Free to Cash Flow,1733124992.0
-Operating to Cash Flow,3529299968.0
+Free to Cash Flow,1690087552.0
+Operating to Cash Flow,3741600000.0
 
 PROFITABILITY
-Return on Equity,0.16533001
-Return on Assets,0.05822
-Return on Invested Capital,0.13351046317554738
-Return on Investment,-0.0260528
+Return on Equity,0.17371
+Return on Assets,0.06057
+Return on Invested Capital,0.137780394536057
+Return on Investment,-0.02482630228839261
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.015700000000000002
-SUM DIVIDEND SCORE,8.0157
+5 Year Average,0.0152
+SUM DIVIDEND SCORE,8.0152
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,40.75999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,41.75999999999999
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,True
+Earnings,True
+Revenue,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,2.0
 

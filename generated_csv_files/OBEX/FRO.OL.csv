@@ -5,55 +5,55 @@ Country,Cyprus
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.frontlineplc.cy
-Price,227.2
+Price,275.0
 Currency,NOK
 
 REVENUE
-Total Revenue,1917320960.0
-Revenue Per Share,8.612
-Revenue Growth,-0.013
+Total Revenue,1802183936.0
+Revenue Per Share,8.095
+Revenue Growth,-0.217
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=36.89, forward_eps=33.18)"
-Net Earnings,777096000.0
-Earnings Growth,-0.309
+Earnings Per Share,"EarningsPerShare(trailing_eps=32.16, forward_eps=44.25)"
+Net Earnings,656414016.0
+Earnings Growth,-0.505
 
 DEBT
-Total Debt,2257940992.0
-Debt to Equity,101.44
+Total Debt,3458996992.0
+Debt to Equity,151.887
 
 MARGINS
-Profit Margins,0.4053
-Gross Profit Margins,0.57429004
-Operating Margins,0.30325
+Profit Margins,0.36423
+Gross Profit Margins,0.5588
+Operating Margins,0.32763
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,30.38
-Dividend Yield,0.13239999
-Dividend Payout Ratio,0.73010004
+Dividend Rate,16.05
+Dividend Yield,0.0558
+Dividend Payout Ratio,0.97290003
 Five Year Avg Dividend Yield,10.92
-Trailing Annual Dividend Rate,2.57
-Trailing Annual Dividend Yield,0.01131162
+Trailing Annual Dividend Rate,2.17
+Trailing Annual Dividend Yield,0.007890909
 
 FINANCIAL RATIO
-Debt to Equity,101.44
-Price to Cash Flow,6.254825657259423e-07
-Enterprise to EBITDA,50.995
-Price to Book,22.952703
-Price to Earnings,"PriceToEarnings(trailing_pe=6.2225537, forward_pe=6.9183245)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=36.89, forward_eps=33.18)"
-Enterprise to Revenue,27.562
+Debt to Equity,151.887
+Price to Cash Flow,-2.7854883727731894e-07
+Enterprise to EBITDA,71.884
+Price to Book,28.11767
+Price to Earnings,"PriceToEarnings(trailing_pe=8.945896, forward_pe=6.501695)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=32.16, forward_eps=44.25)"
+Enterprise to Revenue,37.283
 
 CASH FLOW
-Free to Cash Flow,366996640.0
-Operating to Cash Flow,977843008.0
+Free to Cash Flow,-1032852992.0
+Operating to Cash Flow,856180992.0
 
 PROFITABILITY
-Return on Equity,0.36539
-Return on Assets,0.113199994
-Return on Invested Capital,0.3441613396060097
-Return on Investment,0.08453955026598928
+Return on Equity,0.28934
+Return on Assets,0.084809996
+Return on Invested Capital,0.1897700447778455
+Return on Investment,-0.005152851442634146
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.1092
 SUM DIVIDEND SCORE,8.1092
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,83.93
+Recommendation Key,1
+SUM ANALYST RATING SCORE,84.93
 
 
 

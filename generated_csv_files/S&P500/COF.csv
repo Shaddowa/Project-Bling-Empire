@@ -5,63 +5,68 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.capitalone.com
-Price,132.55
+Price,141.89
 Currency,USD
 
 REVENUE
-Total Revenue,26360999936.0
-Revenue Per Share,68.936
-Revenue Growth,0.004
+Total Revenue,26972000256.0
+Revenue Per Share,70.552
+Revenue Growth,0.1
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.94, forward_eps=16.66)"
-Net Earnings,4582000128.0
-Earnings Growth,-0.448
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.77, forward_eps=16.13)"
+Net Earnings,4895000064.0
+Earnings Growth,0.355
 
 DEBT
-Total Debt,49856000000.0
+Total Debt,54355001344.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.18539
+Profit Margins,0.19305
 Gross Profit Margins,0.0
-Operating Margins,0.14348
+Operating Margins,0.23828
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.4
-Dividend Yield,0.0173
-Dividend Payout Ratio,0.2008
-Five Year Avg Dividend Yield,1.8
+Dividend Yield,0.0168
+Dividend Payout Ratio,0.1879
+Five Year Avg Dividend Yield,1.78
 Trailing Annual Dividend Rate,2.4
-Trailing Annual Dividend Yield,0.018106375
+Trailing Annual Dividend Yield,0.016914511
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.9910837
-Price to Earnings,"PriceToEarnings(trailing_pe=11.618091, forward_pe=8.32653)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.94, forward_eps=16.66)"
-Enterprise to Revenue,2.434
+Price to Book,1.0285343
+Price to Earnings,"PriceToEarnings(trailing_pe=11.163664, forward_pe=8.83819)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.77, forward_eps=16.13)"
+Enterprise to Revenue,2.262
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,20593000448.0
 
 PROFITABILITY
-Return on Equity,0.088319995
-Return on Assets,0.01047
-Return on Invested Capital,0.09190468780360006
-Return on Investment,0.004562836215893248
+Return on Equity,0.092609994
+Return on Assets,0.01092
+Return on Invested Capital,0.09005611131418192
+Return on Investment,0.003810821381082133
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.018000000000000002
-SUM DIVIDEND SCORE,4.018
+5 Year Average,0.0178
+SUM DIVIDEND SCORE,4.0178
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,46.44
+Recommendation Key,0
+SUM ANALYST RATING SCORE,46.44
 
 
 

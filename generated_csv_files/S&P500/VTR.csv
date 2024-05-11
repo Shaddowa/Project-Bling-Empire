@@ -5,63 +5,68 @@ Country,United States
 Industry,REIT—Healthcare Facilities
 Sector,Real Estate
 Website,https://www.ventasreit.com
-Price,47.44
+Price,47.55
 Currency,USD
 
 REVENUE
-Total Revenue,4358944768.0
-Revenue Per Share,10.871
-Revenue Growth,0.099
+Total Revenue,4614910976.0
+Revenue Per Share,11.461
+Revenue Growth,0.107
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.02, forward_eps=-0.27)"
-Net Earnings,4827000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.16, forward_eps=0.35)"
+Net Earnings,-72802000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,13586163712.0
-Debt to Equity,133.993
+Total Debt,13757390848.0
+Debt to Equity,141.19
 
 MARGINS
-Profit Margins,0.0011100001
-Gross Profit Margins,0.43034
-Operating Margins,0.13407
+Profit Margins,-0.01578
+Gross Profit Margins,0.43041
+Operating Margins,0.12372
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.8
-Dividend Yield,0.038
+Dividend Yield,0.0378
 Dividend Payout Ratio,90.0
-Five Year Avg Dividend Yield,4.62
+Five Year Avg Dividend Yield,4.56
 Trailing Annual Dividend Rate,1.8
-Trailing Annual Dividend Yield,0.037942663
+Trailing Annual Dividend Yield,0.037854888
 
 FINANCIAL RATIO
-Debt to Equity,133.993
-Price to Cash Flow,4.771181387995852e-08
-Enterprise to EBITDA,18.934
-Price to Book,1.9414295
-Price to Earnings,"PriceToEarnings(trailing_pe=2370.0002, forward_pe=-175.55556)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.02, forward_eps=-0.27)"
-Enterprise to Revenue,7.464
+Debt to Equity,141.19
+Price to Cash Flow,4.8843359665970246e-08
+Enterprise to EBITDA,18.136
+Price to Book,2.0456793
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=135.88573)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.16, forward_eps=0.35)"
+Enterprise to Revenue,7.089
 
 CASH FLOW
-Free to Cash Flow,993464640.0
-Operating to Cash Flow,1108041984.0
+Free to Cash Flow,973724992.0
+Operating to Cash Flow,1143504000.0
 
 PROFITABILITY
-Return on Equity,0.00106
-Return on Assets,0.01579
-Return on Invested Capital,0.000355287930695417
-Return on Investment,9.409576832206602e-05
+Return on Equity,-0.0061500003
+Return on Assets,0.01668
+Return on Invested Capital,-0.005291846446853951
+Return on Investment,-0.0013802190468787622
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0462
-SUM DIVIDEND SCORE,7.0462
+5 Year Average,0.045599999999999995
+SUM DIVIDEND SCORE,4.0456
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,13.439999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,14.439999999999998
 
 
 

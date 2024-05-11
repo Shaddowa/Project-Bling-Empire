@@ -4,64 +4,69 @@ Company,"Steel Dynamics, Inc."
 Country,United States
 Industry,Steel
 Sector,Basic Materials
-Website,https://stld.steeldynamics.com
-Price,115.9
+Website,https://www.steeldynamics.com
+Price,134.84
 Currency,USD
 
 REVENUE
-Total Revenue,18795315200.0
-Revenue Per Share,112.85
-Revenue Growth,-0.123
+Total Revenue,18596112384.0
+Revenue Per Share,113.864
+Revenue Growth,-0.041
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.64, forward_eps=9.67)"
-Net Earnings,2450882048.0
-Earnings Growth,-0.277
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.61, forward_eps=10.21)"
+Net Earnings,2397613056.0
+Earnings Growth,-0.008
 
 DEBT
-Total Debt,3071055872.0
-Debt to Equity,34.742
+Total Debt,3037942016.0
+Debt to Equity,33.577
 
 MARGINS
-Profit Margins,0.1304
-Gross Profit Margins,0.21525998
-Operating Margins,0.122489996
+Profit Margins,0.12893
+Gross Profit Margins,0.21351999
+Operating Margins,0.15999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.7
-Dividend Yield,0.0147
-Dividend Payout Ratio,0.1161
-Five Year Avg Dividend Yield,2.18
-Trailing Annual Dividend Rate,1.7
-Trailing Annual Dividend Yield,0.014667817
+Dividend Rate,1.84
+Dividend Yield,0.0136
+Dividend Payout Ratio,0.1188
+Five Year Avg Dividend Yield,2.11
+Trailing Annual Dividend Rate,1.735
+Trailing Annual Dividend Yield,0.012867102
 
 FINANCIAL RATIO
-Debt to Equity,34.742
-Price to Cash Flow,8.324371334291321e-08
-Enterprise to EBITDA,5.475
-Price to Book,2.1120093
-Price to Earnings,"PriceToEarnings(trailing_pe=7.923497, forward_pe=11.995863)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.64, forward_eps=9.67)"
-Enterprise to Revenue,1.045
+Debt to Equity,33.577
+Price to Cash Flow,1.3341470781740787e-07
+Enterprise to EBITDA,6.483
+Price to Book,2.3641546
+Price to Earnings,"PriceToEarnings(trailing_pe=9.252566, forward_pe=13.23996)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.61, forward_eps=10.21)"
+Enterprise to Revenue,1.224
 
 CASH FLOW
-Free to Cash Flow,1393498624.0
-Operating to Cash Flow,3519928064.0
+Free to Cash Flow,1013231616.0
+Operating to Cash Flow,3141361920.0
 
 PROFITABILITY
-Return on Equity,0.29138002
-Return on Assets,0.13551
-Return on Invested Capital,0.7980584223533916
-Return on Investment,-0.018622690747397752
+Return on Equity,0.2778
+Return on Assets,0.13108
+Return on Invested Capital,0.7892227693107594
+Return on Investment,-0.014322778422280712
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
+Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0218
-SUM DIVIDEND SCORE,7.0218
+5 Year Average,0.021099999999999997
+SUM DIVIDEND SCORE,8.0211
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,29.819999999999993
+Recommendation Key,0
+SUM ANALYST RATING SCORE,29.819999999999993
 
 
 

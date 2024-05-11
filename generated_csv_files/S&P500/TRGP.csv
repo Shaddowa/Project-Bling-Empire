@@ -5,54 +5,54 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.targaresources.com
-Price,85.99
+Price,113.59
 Currency,USD
 
 REVENUE
-Total Revenue,16375600128.0
-Revenue Per Share,72.619
-Revenue Growth,-0.273
+Total Revenue,16102200320.0
+Revenue Per Share,71.981
+Revenue Growth,0.009
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=6.53)"
-Net Earnings,868400000.0
-Earnings Growth,0.155
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=7.39)"
+Net Earnings,1097100032.0
+Earnings Growth,42.844
 
 DEBT
-Total Debt,12955899904.0
-Debt to Equity,295.945
+Total Debt,13132600320.0
+Debt to Equity,286.888
 
 MARGINS
-Profit Margins,0.08331
-Gross Profit Margins,0.32202998
-Operating Margins,0.12963
+Profit Margins,0.06981
+Gross Profit Margins,0.32459998
+Operating Margins,0.14015001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.0
-Dividend Yield,0.023
-Dividend Payout Ratio,0.44619998
-Five Year Avg Dividend Yield,5.76
-Trailing Annual Dividend Rate,1.85
-Trailing Annual Dividend Yield,0.02151413
+Dividend Rate,3.0
+Dividend Yield,0.026500002
+Dividend Payout Ratio,0.4124
+Five Year Avg Dividend Yield,5.31
+Trailing Annual Dividend Rate,2.25
+Trailing Annual Dividend Yield,0.019808082
 
 FINANCIAL RATIO
-Debt to Equity,295.945
-Price to Cash Flow,4.6314103713203524e-07
-Enterprise to EBITDA,8.805
-Price to Book,7.727434
-Price to Earnings,"PriceToEarnings(trailing_pe=22.784777, forward_pe=13.294026)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.81, forward_eps=6.53)"
-Enterprise to Revenue,2.079
+Debt to Equity,286.888
+Price to Cash Flow,-1.232108843537415e-05
+Enterprise to EBITDA,10.58
+Price to Book,9.300797
+Price to Earnings,"PriceToEarnings(trailing_pe=23.388428, forward_pe=15.317997)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=7.39)"
+Enterprise to Revenue,2.484
 
 CASH FLOW
-Free to Cash Flow,187437504.0
-Operating to Cash Flow,2791399936.0
+Free to Cash Flow,-9187500.0
+Operating to Cash Flow,2918200064.0
 
 PROFITABILITY
-Return on Equity,0.35516
-Return on Assets,0.080299996
-Return on Invested Capital,0.06702737792678569
+Return on Equity,0.30183
+Return on Assets,0.07615
+Return on Invested Capital,0.08354019799966259
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,18 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0576
-SUM DIVIDEND SCORE,9.0576
+5 Year Average,0.053099999999999994
+SUM DIVIDEND SCORE,9.0531
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,20.980000000000004
+Recommendation Key,1
+SUM ANALYST RATING SCORE,21.980000000000004
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

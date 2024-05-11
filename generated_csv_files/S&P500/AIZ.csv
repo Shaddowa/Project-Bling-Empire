@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,AIZ
 Company,"Assurant, Inc."
 Country,United States
-Industry,Insurance - Specialty
+Industry,Insurance—Specialty
 Sector,Financial Services
 Website,https://www.assurant.com
-Price,171.33
+Price,179.29
 Currency,USD
 
 REVENUE
-Total Revenue,10801300480.0
-Revenue Per Share,201.725
-Revenue Growth,0.089
+Total Revenue,11368899584.0
+Revenue Per Share,213.641
+Revenue Growth,0.09
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.81, forward_eps=14.37)"
-Net Earnings,528100000.0
-Earnings Growth,25.049
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.3, forward_eps=17.05)"
+Net Earnings,765299968.0
+Earnings Growth,1.108
 
 DEBT
-Total Debt,2080000000.0
-Debt to Equity,46.319
+Total Debt,2081200000.0
+Debt to Equity,42.301
 
 MARGINS
-Profit Margins,0.04889
-Gross Profit Margins,0.09653
-Operating Margins,0.092209995
+Profit Margins,0.06732
+Gross Profit Margins,0.11528
+Operating Margins,0.111
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.88
-Dividend Yield,0.016900001
-Dividend Payout Ratio,0.2851
-Five Year Avg Dividend Yield,1.96
-Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.01634273
+Dividend Yield,0.0163
+Dividend Payout Ratio,0.19860001
+Five Year Avg Dividend Yield,1.91
+Trailing Annual Dividend Rate,2.84
+Trailing Annual Dividend Yield,0.015840258
 
 FINANCIAL RATIO
-Debt to Equity,46.319
-Price to Cash Flow,2.393115723381621e-07
-Enterprise to EBITDA,9.074
-Price to Book,2.004486
-Price to Earnings,"PriceToEarnings(trailing_pe=17.398571, forward_pe=11.877522)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.81, forward_eps=14.37)"
-Enterprise to Revenue,0.865
+Debt to Equity,42.301
+Price to Cash Flow,None
+Enterprise to EBITDA,None
+Price to Book,1.8845361
+Price to Earnings,"PriceToEarnings(trailing_pe=12.342657, forward_pe=10.351907)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.3, forward_eps=17.05)"
+Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,713212480.0
-Operating to Cash Flow,1052600000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.122959994
-Return on Assets,0.01592
-Return on Invested Capital,0.2538942203755582
-Return on Investment,0.3000568181818182
+Return on Equity,0.16429001
+Return on Assets,0.02069
+Return on Invested Capital,0.36772051391524113
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0196
-SUM DIVIDEND SCORE,8.0196
+5 Year Average,0.0191
+SUM DIVIDEND SCORE,8.0191
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,46.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,47.5
 
 
 

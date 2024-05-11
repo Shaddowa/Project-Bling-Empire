@@ -5,69 +5,74 @@ Country,Norway
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://vekselbanken.no
-Price,256.0
+Price,248.0
 Currency,NOK
 
 REVENUE
-Total Revenue,164100992.0
-Revenue Per Share,67.743
-Revenue Growth,0.433
+Total Revenue,171252992.0
+Revenue Per Share,72.865
+Revenue Growth,0.17
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.39, forward_eps=36.25)"
-Net Earnings,68401000.0
-Earnings Growth,0.322
+Earnings Per Share,"EarningsPerShare(trailing_eps=33.05, forward_eps=36.69)"
+Net Earnings,77653000.0
+Earnings Growth,0.68
 
 DEBT
-Total Debt,1119298048.0
+Total Debt,1109510016.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.41682
+Profit Margins,0.45344
 Gross Profit Margins,0.0
-Operating Margins,0.56184
+Operating Margins,0.68091005
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,None
-Dividend Yield,None
+Dividend Rate,14.1
+Dividend Yield,0.056399997
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,4.32
-Trailing Annual Dividend Rate,10.5
-Trailing Annual Dividend Yield,0.041015625
+Trailing Annual Dividend Rate,14.1
+Trailing Annual Dividend Yield,0.05685484
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.8794863
-Price to Earnings,"PriceToEarnings(trailing_pe=9.01726, forward_pe=7.062069)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=28.39, forward_eps=36.25)"
-Enterprise to Revenue,5.752
+Price to Book,0.81753045
+Price to Earnings,"PriceToEarnings(trailing_pe=7.5642967, forward_pe=6.813846)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=33.05, forward_eps=36.69)"
+Enterprise to Revenue,4.97
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,88796000.0
+Operating to Cash Flow,173504992.0
 
 PROFITABILITY
-Return on Equity,0.10288999
-Return on Assets,0.011460001
-Return on Invested Capital,0.0611106061823364
-Return on Investment,0.00493812989113171
+Return on Equity,0.109510005
+Return on Assets,0.01281
+Return on Invested Capital,0.06998853320633433
+Return on Investment,0.004820443103587414
 
 DIVIDEND SCORE
-Dividend  Rate,0.5
-Dividend Yield,0.5
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0432
-SUM DIVIDEND SCORE,1.0432
+SUM DIVIDEND SCORE,4.0432
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,39.0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,40.0
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
+Earnings,True
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,2.0
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.trimble.com
-Price,51.69
+Price,56.78
 Currency,USD
 
 REVENUE
-Total Revenue,3722800128.0
-Revenue Per Share,15.025
-Revenue Growth,0.082
+Total Revenue,3836600064.0
+Revenue Per Share,15.503
+Revenue Growth,0.041
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.35, forward_eps=2.72)"
-Net Earnings,333900000.0
-Earnings Growth,-0.118
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.96, forward_eps=3.09)"
+Net Earnings,239700000.0
+Earnings Growth,-0.558
 
 DEBT
-Total Debt,3157799936.0
-Debt to Equity,72.71
+Total Debt,3145700096.0
+Debt to Equity,72.33
 
 MARGINS
-Profit Margins,0.08969
-Gross Profit Margins,0.63441
-Operating Margins,0.13914
+Profit Margins,0.062480003
+Gross Profit Margins,0.64651
+Operating Margins,0.12294
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,72.71
-Price to Cash Flow,1.2783751129122685e-07
-Enterprise to EBITDA,20.923
-Price to Book,2.920486
-Price to Earnings,"PriceToEarnings(trailing_pe=37.762962, forward_pe=18.742647)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.35, forward_eps=2.72)"
-Enterprise to Revenue,4.197
+Debt to Equity,72.33
+Price to Cash Flow,1.759875977821795e-07
+Enterprise to EBITDA,20.817
+Price to Book,3.2063222
+Price to Earnings,"PriceToEarnings(trailing_pe=59.166668, forward_pe=18.381878)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.96, forward_eps=3.09)"
+Enterprise to Revenue,4.388
 
 CASH FLOW
-Free to Cash Flow,398787488.0
-Operating to Cash Flow,604300032.0
+Free to Cash Flow,322750016.0
+Operating to Cash Flow,622200000.0
 
 PROFITABILITY
-Return on Equity,0.08156
-Return on Assets,0.03944
-Return on Invested Capital,0.10573817370367901
+Return on Equity,0.05578
+Return on Assets,0.03892
+Return on Invested Capital,0.0761992533728588
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,23.200000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,24.200000000000003
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Auto Manufacturers
 Sector,Consumer Cyclical
 Website,https://www.tesla.com
-Price,182.63
+Price,171.97
 Currency,USD
 
 REVENUE
-Total Revenue,96772997120.0
-Revenue Per Share,27.768
-Revenue Growth,0.035
+Total Revenue,94745001984.0
+Revenue Per Share,29.803
+Revenue Growth,-0.087
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.1, forward_eps=4.3)"
-Net Earnings,14997000192.0
-Earnings Growth,1.117
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.91, forward_eps=3.34)"
+Net Earnings,13651999744.0
+Earnings Growth,-0.534
 
 DEBT
-Total Debt,5230000128.0
-Debt to Equity,8.222
+Total Debt,9911000064.0
+Debt to Equity,15.206
 
 MARGINS
-Profit Margins,0.15496999
-Gross Profit Margins,0.18249
-Operating Margins,0.08201
+Profit Margins,0.14368
+Gross Profit Margins,0.17778999
+Operating Margins,0.054970004
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,8.222
-Price to Cash Flow,None
-Enterprise to EBITDA,41.573
-Price to Book,9.306754
-Price to Earnings,"PriceToEarnings(trailing_pe=59.112904, forward_pe=42.616276)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.1, forward_eps=4.3)"
-Enterprise to Revenue,5.787
+Debt to Equity,15.206
+Price to Cash Flow,-2.6609279704441047e-07
+Enterprise to EBITDA,42.49
+Price to Book,8.345057
+Price to Earnings,"PriceToEarnings(trailing_pe=43.086956, forward_pe=50.44012)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.91, forward_eps=3.34)"
+Enterprise to Revenue,5.5
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,-633124992.0
+Operating to Cash Flow,10984999936.0
 
 PROFITABILITY
-Return on Equity,0.2739
-Return on Assets,0.058819998
-Return on Invested Capital,2.867495175621346
-Return on Investment,-0.01830241663656334
+Return on Equity,0.23736
+Return on Assets,0.04717
+Return on Invested Capital,1.3774593510275908
+Return on Investment,-0.014843970581711427
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,151.53
+Recommendation Key,0
+SUM ANALYST RATING SCORE,151.53
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,3.0
+CRITERIA PASS COUNT,2.0
 

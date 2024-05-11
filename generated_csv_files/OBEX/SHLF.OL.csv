@@ -5,27 +5,27 @@ Country,United Arab Emirates
 Industry,Oil & Gas Drilling
 Sector,Energy
 Website,https://www.shelfdrilling.com
-Price,33.5
+Price,19.72
 Currency,NOK
 
 REVENUE
-Total Revenue,888220992.0
-Revenue Per Share,4.719
-Revenue Growth,0.614
+Total Revenue,881400000.0
+Revenue Per Share,4.463
+Revenue Growth,0.155
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=0.69)"
-Net Earnings,7795000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.44, forward_eps=0.76)"
+Net Earnings,-7600000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1444000000.0
-Debt to Equity,341.371
+Total Debt,1337200000.0
+Debt to Equity,332.389
 
 MARGINS
-Profit Margins,0.00878
-Gross Profit Margins,0.36808997
-Operating Margins,0.29545
+Profit Margins,-0.0086199995
+Gross Profit Margins,0.34831002
+Operating Margins,0.22084999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,341.371
-Price to Cash Flow,-2.453930253568258e-07
-Enterprise to EBITDA,36.821
-Price to Book,21.66054
-Price to Earnings,"PriceToEarnings(trailing_pe=67.98077, forward_pe=51.23188)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.52, forward_eps=0.69)"
-Enterprise to Revenue,10.04
+Debt to Equity,332.389
+Price to Cash Flow,3.736095473992344e-07
+Enterprise to EBITDA,22.427
+Price to Book,13.346203
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=27.289474)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.44, forward_eps=0.76)"
+Enterprise to Revenue,6.514
 
 CASH FLOW
-Free to Cash Flow,-144054624.0
-Operating to Cash Flow,74196000.0
+Free to Cash Flow,55512500.0
+Operating to Cash Flow,86100000.0
 
 PROFITABILITY
-Return on Equity,0.0218
-Return on Assets,0.05493
-Return on Invested Capital,0.005398199439882368
-Return on Investment,-0.0004532530134493165
+Return on Equity,-0.04792
+Return on Assets,0.056360003
+Return on Invested Capital,-0.005683517791779699
+Return on Investment,-0.0003307223672758921
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,2
+SUM ANALYST RATING SCORE,2
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
-Return On Income Capital,True
-Return On Equity,True
+Return On Income Capital,False
+Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,3.0
+CRITERIA PASS COUNT,1.0
 

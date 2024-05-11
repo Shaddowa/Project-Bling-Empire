@@ -5,63 +5,68 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.franklinresources.com
-Price,27.48
+Price,24.14
 Currency,USD
 
 REVENUE
-Total Revenue,7849399808.0
-Revenue Per Share,16.019
-Revenue Growth,0.024
+Total Revenue,8098999808.0
+Revenue Per Share,16.32
+Revenue Growth,0.117
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.72, forward_eps=2.89)"
-Net Earnings,845100032.0
-Earnings Growth,0.263
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.73, forward_eps=2.78)"
+Net Earnings,861200000.0
+Earnings Growth,-0.402
 
 DEBT
-Total Debt,3520600064.0
-Debt to Equity,25.937
+Total Debt,4024199936.0
+Debt to Equity,27.125
 
 MARGINS
-Profit Margins,0.11247
-Gross Profit Margins,0.40004003
-Operating Margins,0.20593001
+Profit Margins,0.11094
+Gross Profit Margins,0.39856
+Operating Margins,0.13406
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.24
-Dividend Yield,0.044899996
-Dividend Payout Ratio,0.69769996
-Five Year Avg Dividend Yield,4.2
-Trailing Annual Dividend Rate,1.2
-Trailing Annual Dividend Yield,0.043668125
+Dividend Yield,0.052199997
+Dividend Payout Ratio,0.70519996
+Five Year Avg Dividend Yield,4.32
+Trailing Annual Dividend Rate,1.22
+Trailing Annual Dividend Yield,0.05053853
 
 FINANCIAL RATIO
-Debt to Equity,25.937
-Price to Cash Flow,-5.723472858781383e-08
-Enterprise to EBITDA,7.78
-Price to Book,1.148196
-Price to Earnings,"PriceToEarnings(trailing_pe=16.040697, forward_pe=9.546713)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.72, forward_eps=2.89)"
-Enterprise to Revenue,1.928
+Debt to Equity,27.125
+Price to Cash Flow,-2.60803880965646e-08
+Enterprise to EBITDA,7.845
+Price to Book,0.97127897
+Price to Earnings,"PriceToEarnings(trailing_pe=13.722543, forward_pe=8.539568)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.73, forward_eps=2.78)"
+Enterprise to Revenue,1.875
 
 CASH FLOW
-Free to Cash Flow,-482049984.0
-Operating to Cash Flow,1138700032.0
+Free to Cash Flow,-910262528.0
+Operating to Cash Flow,1352999936.0
 
 PROFITABILITY
-Return on Equity,0.08054
-Return on Assets,0.03223
-Return on Invested Capital,0.24004431371616747
-Return on Investment,0.08570994239350913
+Return on Equity,0.0775
+Return on Assets,0.02994
+Return on Invested Capital,0.21400527023150454
+Return on Investment,0.19396396396396395
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.042
-SUM DIVIDEND SCORE,8.042
+5 Year Average,0.0432
+SUM DIVIDEND SCORE,8.0432
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.260000000000002
+Recommendation Key,0
+SUM ANALYST RATING SCORE,4.260000000000002
 
 
 

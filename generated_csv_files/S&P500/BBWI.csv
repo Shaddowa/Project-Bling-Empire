@@ -5,63 +5,68 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.bbwinc.com
-Price,41.66
+Price,48.56
 Currency,USD
 
 REVENUE
-Total Revenue,7405000192.0
-Revenue Per Share,32.442
-Revenue Growth,-0.026
+Total Revenue,7429000192.0
+Revenue Per Share,32.583
+Revenue Growth,0.008
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=3.32)"
-Net Earnings,727000000.0
-Earnings Growth,0.303
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.84, forward_eps=3.73)"
+Net Earnings,878000000.0
+Earnings Growth,0.352
 
 DEBT
-Total Debt,5709000192.0
+Total Debt,5573000192.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.09899
-Gross Profit Margins,0.42512
-Operating Margins,0.14149
+Profit Margins,0.118190005
+Gross Profit Margins,0.43558997
+Operating Margins,0.23900999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0189
-Dividend Payout Ratio,0.2548
+Dividend Yield,0.0168
+Dividend Payout Ratio,0.2083
 Five Year Avg Dividend Yield,5.47
 Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.019203072
+Trailing Annual Dividend Yield,0.016474465
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,7.377662091338711e-08
-Enterprise to EBITDA,9.971
+Price to Cash Flow,9.314397649363368e-08
+Enterprise to EBITDA,9.771
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=13.515923, forward_pe=12.783133)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=3.32)"
-Enterprise to Revenue,2.01
+Price to Earnings,"PriceToEarnings(trailing_pe=12.3828125, forward_pe=12.747989)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.84, forward_eps=3.73)"
+Enterprise to Revenue,2.044
 
 CASH FLOW
-Free to Cash Flow,575249984.0
-Operating to Cash Flow,1104999936.0
+Free to Cash Flow,510500000.0
+Operating to Cash Flow,954000000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.14878
-Return on Invested Capital,0.12734278800880022
-Return on Investment,0.019972527472527472
+Return on Assets,0.1466
+Return on Invested Capital,0.15754530251040946
+Return on Investment,0.02239795918367347
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0547
-SUM DIVIDEND SCORE,4.0547
+SUM DIVIDEND SCORE,7.0547
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,17.450000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,18.450000000000003
 
 
 

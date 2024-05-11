@@ -5,27 +5,27 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.f5.com
-Price,184.64
+Price,171.04
 Currency,USD
 
 REVENUE
-Total Revenue,2813168896.0
-Revenue Per Share,46.957
-Revenue Growth,0.01
+Total Revenue,2783567104.0
+Revenue Per Share,46.955
+Revenue Growth,-0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=13.76)"
-Net Earnings,394948000.0
-Earnings Growth,0.719
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.32, forward_eps=13.75)"
+Net Earnings,498512992.0
+Earnings Growth,0.493
 
 DEBT
-Total Debt,280985984.0
-Debt to Equity,10.034
+Total Debt,266848000.0
+Debt to Equity,9.097
 
 MARGINS
-Profit Margins,0.14039
-Gross Profit Margins,0.78910005
-Operating Margins,0.24292
+Profit Margins,0.17909001
+Gross Profit Margins,0.79877
+Operating Margins,0.20555
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,10.034
-Price to Cash Flow,3.074321493579883e-07
-Enterprise to EBITDA,16.048
-Price to Book,3.8825693
-Price to Earnings,"PriceToEarnings(trailing_pe=27.992378, forward_pe=13.345203)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.56, forward_eps=13.76)"
-Enterprise to Revenue,3.712
+Debt to Equity,9.097
+Price to Cash Flow,2.4739284098800207e-07
+Enterprise to EBITDA,12.395
+Price to Book,3.429108
+Price to Earnings,"PriceToEarnings(trailing_pe=20.627403, forward_pe=12.481454)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.32, forward_eps=13.75)"
+Enterprise to Revenue,3.385
 
 CASH FLOW
-Free to Cash Flow,597302528.0
-Operating to Cash Flow,653409024.0
+Free to Cash Flow,693714496.0
+Operating to Cash Flow,741809984.0
 
 PROFITABILITY
-Return on Equity,0.14991
-Return on Assets,0.06389
-Return on Invested Capital,1.405578769088164
-Return on Investment,-0.07289015207441311
+Return on Equity,0.17618999
+Return on Assets,0.076
+Return on Invested Capital,1.8681530253278171
+Return on Investment,-0.10195790730969036
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,48.379999999999995
+Recommendation Key,0
+SUM ANALYST RATING SCORE,48.379999999999995
 
 
 

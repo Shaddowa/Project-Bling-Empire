@@ -2,7 +2,6 @@ import csv
 import os
 import re
 import concurrent.futures
-from datetime import datetime
 from typing import Optional, Dict, List, TextIO
 from yahooquery import Ticker
 
@@ -61,17 +60,19 @@ def _get_query_ticker_objects_from_csv(stock_collection: StockCollectionClass) -
 
     folder_path = f'{GENERATED_CSV_FILES_PATH}{stock_collection.stock_index_name}'
 
-    desired_keys = [
-        "Ticker",
-        "Company",
-        "Website",
-        "Industry",
-        "Sector",
-        "Price",
-        "Currency",
-        "CRITERIA PASS COUNT",
-        "DIVIDEND SCORE"
-    ]
+    # KEYS
+    TICKER = "Ticker"
+    COMPANY = "Company"
+    WEBSITE = "Website"
+    INDUSTRY = "Industry"
+    SECTOR = "Sector"
+    PRICE = "Price"
+    TARGET_HIGH_PRICE = "Target High Price"
+    RECOMMENDATION_MEAN = "Recommendation Mean"
+    ANALYST_RATING_SCORE = "Analyst Rating Score"
+    CURRENCY = "Currency"
+    CRITERIA_PASS_COUNT = "CRITERIA PASS COUNT"
+    DIVIDEND_SCORE = "DIVIDEND SCORE"
 
     for file_name in os.listdir(folder_path):
         file_path = os.path.join(folder_path, file_name)
@@ -86,20 +87,35 @@ def _get_query_ticker_objects_from_csv(stock_collection: StockCollectionClass) -
                         if len(comma_separated_row) == 2:
                             key = comma_separated_row[0]
                             value = comma_separated_row[1]
-                            if key in desired_keys:
+                            if key in [
+                                TICKER,
+                                COMPANY,
+                                WEBSITE,
+                                INDUSTRY,
+                                SECTOR,
+                                PRICE,
+                                TARGET_HIGH_PRICE,
+                                RECOMMENDATION_MEAN,
+                                CURRENCY,
+                                CRITERIA_PASS_COUNT,
+                                DIVIDEND_SCORE
+                            ]:
                                 simple_stock_data[key] = value.strip()
 
                 csv_tickers.append(
                     SimpleStockDataClass(
-                        ticker_symbol=simple_stock_data["Ticker"],
-                        company=simple_stock_data["Company"] if "Company" in simple_stock_data else "",
-                        website=simple_stock_data["Website"],
-                        industry=simple_stock_data["Industry"],
-                        sector=simple_stock_data["Sector"],
-                        price=simple_stock_data["Price"],
-                        currency=simple_stock_data["Currency"],
-                        criteria_pass_count=simple_stock_data["CRITERIA PASS COUNT"],
-                        dividend_score=simple_stock_data["DIVIDEND SCORE"]
+                        ticker_symbol=simple_stock_data[TICKER],
+                        company=simple_stock_data[COMPANY] if COMPANY in simple_stock_data else "",
+                        website=simple_stock_data[WEBSITE],
+                        industry=simple_stock_data[INDUSTRY],
+                        sector=simple_stock_data[SECTOR],
+                        price=simple_stock_data[PRICE],
+                        target_high_price=simple_stock_data[TARGET_HIGH_PRICE],
+                        recommendation_mean=simple_stock_data[RECOMMENDATION_MEAN],
+                        analyst_rating_score=simple_stock_data[ANALYST_RATING_SCORE],
+                        currency=simple_stock_data[CURRENCY],
+                        criteria_pass_count=simple_stock_data[CRITERIA_PASS_COUNT],
+                        dividend_score=simple_stock_data[DIVIDEND_SCORE]
                     )
                 )
     return csv_tickers
@@ -135,7 +151,8 @@ def _get_query_ticker_objects_from_api(stock_collection: StockCollectionClass) -
     return yquery_tickers
 
 
-def get_grouped_yahoo_query_ticker_objects() -> Dict[StockCollectionClass, List[YahooStockDataClass | SimpleStockDataClass]]:
+def get_grouped_yahoo_query_ticker_objects() -> Dict[
+    StockCollectionClass, List[YahooStockDataClass | SimpleStockDataClass]]:
     stock_collection_tickers: Dict[StockCollectionClass, List[YahooStockDataClass | SimpleStockDataClass]] = {}
 
     with concurrent.futures.ThreadPoolExecutor() as executor:

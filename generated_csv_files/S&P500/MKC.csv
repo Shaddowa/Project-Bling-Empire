@@ -5,63 +5,68 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.mccormickcorporation.com
-Price,68.6
+Price,75.34
 Currency,USD
 
 REVENUE
-Total Revenue,6662199808.0
-Revenue Per Share,24.822
-Revenue Growth,0.034
+Total Revenue,6699400192.0
+Revenue Per Share,24.956
+Revenue Growth,0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=3.08)"
-Net Earnings,680600000.0
-Earnings Growth,0.176
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.62, forward_eps=3.08)"
+Net Earnings,707500032.0
+Earnings Growth,0.193
 
 DEBT
-Total Debt,4644599808.0
-Debt to Equity,91.366
+Total Debt,4508899840.0
+Debt to Equity,85.763
 
 MARGINS
-Profit Margins,0.10216
-Gross Profit Margins,0.37563
-Operating Margins,0.17914
+Profit Margins,0.10561
+Gross Profit Margins,0.37897
+Operating Margins,0.14956
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.68
-Dividend Yield,0.024300002
-Dividend Payout Ratio,0.619
-Five Year Avg Dividend Yield,1.59
-Trailing Annual Dividend Rate,1.56
-Trailing Annual Dividend Yield,0.022740524
+Dividend Yield,0.0221
+Dividend Payout Ratio,0.6069
+Five Year Avg Dividend Yield,1.64
+Trailing Annual Dividend Rate,1.59
+Trailing Annual Dividend Yield,0.021104328
 
 FINANCIAL RATIO
-Debt to Equity,91.366
-Price to Cash Flow,8.257354831207618e-08
-Enterprise to EBITDA,18.954
-Price to Book,3.659674
-Price to Earnings,"PriceToEarnings(trailing_pe=27.412699, forward_pe=22.428572)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=3.08)"
-Enterprise to Revenue,3.457
+Debt to Equity,85.763
+Price to Cash Flow,9.03200924149018e-08
+Enterprise to EBITDA,20.261
+Price to Book,3.9063303
+Price to Earnings,"PriceToEarnings(trailing_pe=29.064888, forward_pe=24.724028)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.62, forward_eps=3.08)"
+Enterprise to Revenue,3.701
 
 CASH FLOW
-Free to Cash Flow,836587520.0
-Operating to Cash Flow,1237299968.0
+Free to Cash Flow,843112512.0
+Operating to Cash Flow,1272300032.0
 
 PROFITABILITY
-Return on Equity,0.13914
-Return on Assets,0.04978
-Return on Invested Capital,0.14653576742213714
-Return on Investment,0.04462950819672131
+Return on Equity,0.13948
+Return on Assets,0.05007
+Return on Invested Capital,0.15691189736899533
+Return on Investment,0.04673051730515192
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0159
-SUM DIVIDEND SCORE,8.0159
+5 Year Average,0.016399999999999998
+SUM DIVIDEND SCORE,8.0164
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,15.849999999999994
+Recommendation Key,0
+SUM ANALYST RATING SCORE,15.849999999999994
 
 
 

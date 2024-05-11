@@ -5,54 +5,54 @@ Country,United States
 Industry,Beverages—Brewers
 Sector,Consumer Defensive
 Website,https://www.molsoncoors.com
-Price,62.88
+Price,58.81
 Currency,USD
 
 REVENUE
-Total Revenue,11540799488.0
-Revenue Per Share,53.337
-Revenue Growth,0.124
+Total Revenue,11952199680.0
+Revenue Per Share,55.579
+Revenue Growth,0.107
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=5.52)"
-Net Earnings,255100000.0
-Earnings Growth,1.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.89)"
+Net Earnings,1084199936.0
+Earnings Growth,1.939
 
 DEBT
-Total Debt,6390000128.0
-Debt to Equity,47.375
+Total Debt,6436599808.0
+Debt to Equity,48.185
 
 MARGINS
-Profit Margins,0.0221
-Gross Profit Margins,0.36908
-Operating Margins,0.18247999
+Profit Margins,0.09071
+Gross Profit Margins,0.38165
+Operating Margins,0.12182
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.64
-Dividend Yield,0.026099999
-Dividend Payout Ratio,1.3761001
+Dividend Rate,1.76
+Dividend Yield,0.0298
+Dividend Payout Ratio,0.33330002
 Five Year Avg Dividend Yield,2.65
-Trailing Annual Dividend Rate,1.61
-Trailing Annual Dividend Yield,0.025604326
+Trailing Annual Dividend Rate,1.67
+Trailing Annual Dividend Yield,0.02839653
 
 FINANCIAL RATIO
-Debt to Equity,47.375
-Price to Cash Flow,5.7488430916007796e-08
-Enterprise to EBITDA,8.96
-Price to Book,1.0221404
-Price to Earnings,"PriceToEarnings(trailing_pe=53.623936, forward_pe=11.365942)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.17, forward_eps=5.52)"
-Enterprise to Revenue,1.678
+Debt to Equity,48.185
+Price to Cash Flow,5.607654011458705e-08
+Enterprise to EBITDA,7.683
+Price to Book,0.95505345
+Price to Earnings,"PriceToEarnings(trailing_pe=11.786427, forward_pe=10.025467)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.89)"
+Enterprise to Revenue,1.567
 
 CASH FLOW
-Free to Cash Flow,1091350016.0
-Operating to Cash Flow,1988999936.0
+Free to Cash Flow,1053025024.0
+Operating to Cash Flow,2100999936.0
 
 PROFITABILITY
-Return on Equity,0.01942
-Return on Assets,0.0348
-Return on Invested Capital,0.03992175155548964
+Return on Equity,0.0832
+Return on Assets,0.0423
+Return on Invested Capital,0.1684429602470852
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0265
 SUM DIVIDEND SCORE,8.0265
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,15.950000000000003
+Recommendation Key,0
+SUM ANALYST RATING SCORE,15.950000000000003
 
 
 

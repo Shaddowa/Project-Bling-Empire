@@ -5,63 +5,68 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.cvshealth.com
-Price,71.99
+Price,55.68
 Currency,USD
 
 REVENUE
-Total Revenue,346600996864.0
-Revenue Per Share,268.631
-Revenue Growth,0.105
+Total Revenue,359661993984.0
+Revenue Per Share,281.151
+Revenue Growth,0.036
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.53, forward_eps=8.52)"
-Net Earnings,8470000128.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.7, forward_eps=7.8)"
+Net Earnings,7320999936.0
+Earnings Growth,-0.467
 
 DEBT
-Total Debt,80096002048.0
-Debt to Equity,107.497
+Total Debt,81792000000.0
+Debt to Equity,110.306
 
 MARGINS
-Profit Margins,0.02444
-Gross Profit Margins,0.15291001
-Operating Margins,0.03931
+Profit Margins,0.02036
+Gross Profit Margins,0.14554
+Operating Margins,0.021329999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.66
-Dividend Yield,0.0364
-Dividend Payout Ratio,0.36220002
-Five Year Avg Dividend Yield,2.87
-Trailing Annual Dividend Rate,2.365
-Trailing Annual Dividend Yield,0.032851785
+Dividend Yield,0.0477
+Dividend Payout Ratio,0.4351
+Five Year Avg Dividend Yield,2.86
+Trailing Annual Dividend Rate,2.48
+Trailing Annual Dividend Yield,0.04454023
 
 FINANCIAL RATIO
-Debt to Equity,107.497
-Price to Cash Flow,6.094442836298155e-09
-Enterprise to EBITDA,8.615
-Price to Book,1.2638505
-Price to Earnings,"PriceToEarnings(trailing_pe=11.1791725, forward_pe=8.568074)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.53, forward_eps=8.52)"
-Enterprise to Revenue,0.456
+Debt to Equity,110.306
+Price to Cash Flow,6.6742392283642425e-09
+Enterprise to EBITDA,8.211
+Price to Book,0.9448205
+Price to Earnings,"PriceToEarnings(trailing_pe=9.792983, forward_pe=7.15641)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.7, forward_eps=7.8)"
+Enterprise to Revenue,0.386
 
 CASH FLOW
-Free to Cash Flow,11978125312.0
-Operating to Cash Flow,14110000128.0
+Free to Cash Flow,8363500032.0
+Operating to Cash Flow,10890999808.0
 
 PROFITABILITY
-Return on Equity,0.1167
-Return on Assets,0.03638
-Return on Invested Capital,0.10574810109518427
-Return on Investment,0.037948029247311825
+Return on Equity,0.10087
+Return on Assets,0.03175
+Return on Invested Capital,0.08950753045177884
+Return on Investment,0.025979417799858056
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0287
-SUM DIVIDEND SCORE,8.0287
+5 Year Average,0.0286
+SUM DIVIDEND SCORE,9.0286
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,37.49
+Recommendation Key,1
+SUM ANALYST RATING SCORE,38.49
 
 
 

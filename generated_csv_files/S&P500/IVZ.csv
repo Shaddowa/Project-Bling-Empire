@@ -5,63 +5,68 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.invesco.com
-Price,16.2
+Price,15.21
 Currency,USD
 
 REVENUE
-Total Revenue,5716400128.0
-Revenue Per Share,12.569
-Revenue Growth,-0.021
+Total Revenue,5773499904.0
+Revenue Per Share,12.729
+Revenue Growth,0.04
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=1.89)"
-Net Earnings,-333700000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.74, forward_eps=1.84)"
+Net Earnings,-337200000.0
+Earnings Growth,-0.021
 
 DEBT
-Total Debt,1489500032.0
-Debt to Equity,9.359
+Total Debt,1257500032.0
+Debt to Equity,7.932
 
 MARGINS
-Profit Margins,-0.01695
-Gross Profit Margins,0.25530002
-Operating Margins,-0.76114
+Profit Margins,-0.01739
+Gross Profit Margins,0.25125
+Operating Margins,0.14445
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.8
-Dividend Yield,0.0494
+Dividend Rate,0.82
+Dividend Yield,0.052600004
 Dividend Payout Ratio,0.5962
-Five Year Avg Dividend Yield,5.46
-Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.049382713
+Five Year Avg Dividend Yield,5.39
+Trailing Annual Dividend Rate,0.805
+Trailing Annual Dividend Yield,0.052925706
 
 FINANCIAL RATIO
-Debt to Equity,9.359
-Price to Cash Flow,None
-Enterprise to EBITDA,9.524
-Price to Book,0.4991532
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.576719)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=1.89)"
-Enterprise to Revenue,1.509
+Debt to Equity,7.932
+Price to Cash Flow,2.1627246092856958e-08
+Enterprise to EBITDA,12.698
+Price to Book,0.66507405
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.472826)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.74, forward_eps=1.84)"
+Enterprise to Revenue,2.197
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,1300800000.0
+Free to Cash Flow,720849984.0
+Operating to Cash Flow,1345299968.0
 
 PROFITABILITY
-Return on Equity,-0.0102699995
-Return on Assets,-0.00837
-Return on Invested Capital,-0.22403490134632412
-Return on Investment,0.061229357798165136
+Return on Equity,-0.0073400005
+Return on Assets,0.01768
+Return on Invested Capital,-0.2681510816170464
+Return on Investment,0.3242307692307692
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend  Rate,4.0
+Dividend Yield,1.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0546
-SUM DIVIDEND SCORE,8.0546
+5 Year Average,0.053899999999999997
+SUM DIVIDEND SCORE,6.0539
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,3.91
+Recommendation Key,0
+SUM ANALYST RATING SCORE,3.91
 
 
 

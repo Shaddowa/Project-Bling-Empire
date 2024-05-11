@@ -5,63 +5,68 @@ Country,United States
 Industry,Health Information Services
 Sector,Healthcare
 Website,https://www.gehealthcare.com
-Price,72.87
+Price,82.73
 Currency,USD
 
 REVENUE
-Total Revenue,19284000768.0
-Revenue Per Share,42.362
-Revenue Growth,0.054
+Total Revenue,19495000064.0
+Revenue Per Share,42.799
+Revenue Growth,-0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.37, forward_eps=4.22)"
-Net Earnings,1534000000.0
-Earnings Growth,-0.232
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=4.76)"
+Net Earnings,1574000000.0
+Earnings Growth,0.976
 
 DEBT
-Total Debt,10625000448.0
-Debt to Equity,145.488
+Total Debt,9667999744.0
+Debt to Equity,127.227
 
 MARGINS
-Profit Margins,0.08914
-Gross Profit Margins,0.39918998
-Operating Margins,0.15222
+Profit Margins,0.08053
+Gross Profit Margins,0.40687
+Operating Margins,0.13849
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.12
-Dividend Yield,0.0016
-Dividend Payout Ratio,0.0178
+Dividend Yield,0.0014
+Dividend Payout Ratio,0.0349
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.09
-Trailing Annual Dividend Yield,0.0012350761
+Trailing Annual Dividend Rate,0.12
+Trailing Annual Dividend Yield,0.0014505015
 
 FINANCIAL RATIO
-Debt to Equity,145.488
-Price to Cash Flow,2.9990263000019317e-08
-Enterprise to EBITDA,11.888
-Price to Book,4.669646
-Price to Earnings,"PriceToEarnings(trailing_pe=21.706232, forward_pe=17.334124)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.37, forward_eps=4.22)"
-Enterprise to Revenue,2.162
+Debt to Equity,127.227
+Price to Cash Flow,4.662473919663871e-08
+Enterprise to EBITDA,12.895
+Price to Book,5.1373663
+Price to Earnings,"PriceToEarnings(trailing_pe=24.244186, forward_pe=17.521008)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=4.76)"
+Enterprise to Revenue,2.328
 
 CASH FLOW
-Free to Cash Flow,2439124992.0
-Operating to Cash Flow,2092999936.0
+Free to Cash Flow,1788749952.0
+Operating to Cash Flow,2052000000.0
 
 PROFITABILITY
-Return on Equity,0.14512
-Return on Assets,0.061680004
-Return on Invested Capital,0.14437646428778225
-Return on Investment,0.026818181818181817
+Return on Equity,0.22392
+Return on Assets,0.05625
+Return on Invested Capital,0.16280513436441207
+Return on Investment,0.02251788268955651
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,8.0
+SUM DIVIDEND SCORE,4.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,21.599999999999994
+Recommendation Key,1
+SUM ANALYST RATING SCORE,22.599999999999994
 
 
 

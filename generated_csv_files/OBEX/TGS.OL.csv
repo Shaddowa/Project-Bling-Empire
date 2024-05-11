@@ -5,54 +5,54 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.tgs.com
-Price,106.1
+Price,122.7
 Currency,NOK
 
 REVENUE
-Total Revenue,823942976.0
-Revenue Per Share,6.659
-Revenue Growth,0.666
+Total Revenue,773227008.0
+Revenue Per Share,6.091
+Revenue Growth,-0.122
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.28, forward_eps=14.81)"
-Net Earnings,73899000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.2, forward_eps=15.55)"
+Net Earnings,13835000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,61449000.0
-Debt to Equity,4.72
+Total Debt,201264000.0
+Debt to Equity,16.205
 
 MARGINS
-Profit Margins,0.08969
-Gross Profit Margins,0.73316
-Operating Margins,0.17817
+Profit Margins,0.01789
+Gross Profit Margins,0.74834996
+Operating Margins,-0.0621
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.24
-Dividend Yield,0.059
-Dividend Payout Ratio,0.9249
-Five Year Avg Dividend Yield,4.51
+Dividend Rate,6.08
+Dividend Yield,0.0508
+Dividend Payout Ratio,4.9934
+Five Year Avg Dividend Yield,4.66
 Trailing Annual Dividend Rate,0.56
-Trailing Annual Dividend Yield,0.0052780397
+Trailing Annual Dividend Yield,0.0045639775
 
 FINANCIAL RATIO
-Debt to Equity,4.72
-Price to Cash Flow,1.0259643055963269e-06
-Enterprise to EBITDA,36.265
-Price to Book,10.639582
-Price to Earnings,"PriceToEarnings(trailing_pe=16.847134, forward_pe=7.1438217)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.28, forward_eps=14.81)"
-Enterprise to Revenue,16.636
+Debt to Equity,16.205
+Price to Cash Flow,-1.6458328448127147e-06
+Enterprise to EBITDA,54.208
+Price to Book,12.234042
+Price to Earnings,"PriceToEarnings(trailing_pe=99.666664, forward_pe=7.691318)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.2, forward_eps=15.55)"
+Enterprise to Revenue,19.705
 
 CASH FLOW
-Free to Cash Flow,103122496.0
-Operating to Cash Flow,556361024.0
+Free to Cash Flow,-72668376.0
+Operating to Cash Flow,499830016.0
 
 PROFITABILITY
-Return on Equity,0.061539996
-Return on Assets,0.06112
-Return on Invested Capital,1.2026068453722198
+Return on Equity,0.01129
+Return on Assets,0.037920002
+Return on Invested Capital,0.06874055632399396
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,16 +60,21 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0451
-SUM DIVIDEND SCORE,8.0451
+5 Year Average,0.0466
+SUM DIVIDEND SCORE,8.0466
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,64.27000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,65.27000000000001
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

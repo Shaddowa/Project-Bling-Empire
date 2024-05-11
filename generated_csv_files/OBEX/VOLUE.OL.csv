@@ -5,27 +5,27 @@ Country,Norway
 Industry,Software—Application
 Sector,Technology
 Website,https://www.volue.com
-Price,22.0
+Price,30.15
 Currency,NOK
 
 REVENUE
-Total Revenue,1414145024.0
-Revenue Per Share,9.902
-Revenue Growth,0.137
+Total Revenue,1489348992.0
+Revenue Per Share,10.363
+Revenue Growth,0.22
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.04)"
-Net Earnings,52038000.0
-Earnings Growth,-0.154
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.25, forward_eps=1.51)"
+Net Earnings,36044000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,434884000.0
-Debt to Equity,50.009
+Total Debt,591473984.0
+Debt to Equity,69.609
 
 MARGINS
-Profit Margins,0.0368
-Gross Profit Margins,0.32047
-Operating Margins,0.07379
+Profit Margins,0.0242
+Gross Profit Margins,0.36888
+Operating Margins,-0.04052
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,50.009
-Price to Cash Flow,-9.819773742526998e-08
-Enterprise to EBITDA,28.668
-Price to Book,3.8177762
-Price to Earnings,"PriceToEarnings(trailing_pe=61.805553, forward_pe=21.394232)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.04)"
-Enterprise to Revenue,2.464
+Debt to Equity,69.609
+Price to Cash Flow,-1.8486192119041122e-07
+Enterprise to EBITDA,45.81
+Price to Book,5.205688
+Price to Earnings,"PriceToEarnings(trailing_pe=123.0, forward_pe=20.364239)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.25, forward_eps=1.51)"
+Enterprise to Revenue,3.247
 
 CASH FLOW
-Free to Cash Flow,-226583632.0
-Operating to Cash Flow,75225000.0
+Free to Cash Flow,-166340368.0
+Operating to Cash Flow,91221000.0
 
 PROFITABILITY
-Return on Equity,0.06161
-Return on Assets,0.031570002
-Return on Invested Capital,0.11965949380208163
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.043449998
+Return on Assets,0.025020001
+Return on Invested Capital,0.06093928154924844
+Return on Investment,-0.003507044446174204
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,19.28
+Recommendation Key,1
+SUM ANALYST RATING SCORE,20.28
 
 
 

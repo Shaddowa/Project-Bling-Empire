@@ -5,68 +5,73 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.stryker.com
-Price,311.91
+Price,330.86
 Currency,USD
 
 REVENUE
-Total Revenue,19885000704.0
-Revenue Per Share,52.432
-Revenue Growth,0.096
+Total Revenue,20963000320.0
+Revenue Per Share,55.173
+Revenue Growth,0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=11.56)"
-Net Earnings,2584999936.0
-Earnings Growth,-0.159
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.76, forward_eps=13.41)"
+Net Earnings,3360999936.0
+Earnings Growth,0.331
 
 DEBT
-Total Debt,13189000192.0
-Debt to Equity,73.661
+Total Debt,13400000512.0
+Debt to Equity,69.894
 
 MARGINS
-Profit Margins,0.13
-Gross Profit Margins,0.63606
-Operating Margins,0.19719
+Profit Margins,0.16033001
+Gross Profit Margins,0.63994
+Operating Margins,0.18558
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.2
-Dividend Yield,0.010299999
-Dividend Payout Ratio,0.44509998
-Five Year Avg Dividend Yield,1.06
-Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.009618159
+Dividend Yield,0.0097
+Dividend Payout Ratio,0.3539
+Five Year Avg Dividend Yield,1.05
+Trailing Annual Dividend Rate,3.1
+Trailing Annual Dividend Yield,0.009369522
 
 FINANCIAL RATIO
-Debt to Equity,73.661
-Price to Cash Flow,1.4437373906676817e-07
-Enterprise to EBITDA,25.944
-Price to Book,6.6062675
-Price to Earnings,"PriceToEarnings(trailing_pe=46.264484, forward_pe=26.934254)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=11.56)"
-Enterprise to Revenue,6.514
+Debt to Equity,69.894
+Price to Cash Flow,1.442399736524557e-07
+Enterprise to EBITDA,25.18
+Price to Book,6.5686407
+Price to Earnings,"PriceToEarnings(trailing_pe=37.737442, forward_pe=24.651752)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.76, forward_eps=13.41)"
+Enterprise to Revenue,6.532
 
 CASH FLOW
-Free to Cash Flow,2156624896.0
-Operating to Cash Flow,3185999872.0
+Free to Cash Flow,2291875072.0
+Operating to Cash Flow,3470000128.0
 
 PROFITABILITY
-Return on Equity,0.15043001
-Return on Assets,0.0669
-Return on Invested Capital,0.1959966554804097
-Return on Investment,-0.041828477928802586
+Return on Equity,0.18638
+Return on Assets,0.07226
+Return on Invested Capital,0.2508208802206453
+Return on Investment,-0.05491829960784314
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0106
-SUM DIVIDEND SCORE,9.0106
+5 Year Average,0.0105
+SUM DIVIDEND SCORE,8.0105
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,75.42000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,76.42000000000002
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

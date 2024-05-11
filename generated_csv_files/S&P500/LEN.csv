@@ -5,54 +5,54 @@ Country,United States
 Industry,Residential Construction
 Sector,Consumer Cyclical
 Website,https://www.lennar.com
-Price,149.12
+Price,160.89
 Currency,USD
 
 REVENUE
-Total Revenue,34233366528.0
-Revenue Per Share,120.83
-Revenue Growth,0.078
+Total Revenue,35055865856.0
+Revenue Per Share,124.738
+Revenue Growth,0.127
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.73, forward_eps=16.11)"
-Net Earnings,3938511104.0
-Earnings Growth,0.059
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.24, forward_eps=16.34)"
+Net Earnings,4012494080.0
+Earnings Growth,0.249
 
 DEBT
-Total Debt,5263520768.0
-Debt to Equity,19.712
+Total Debt,4507293184.0
+Debt to Equity,16.832
 
 MARGINS
-Profit Margins,0.11505
-Gross Profit Margins,0.23952
-Operating Margins,0.17444
+Profit Margins,0.11585
+Gross Profit Margins,0.23989001
+Operating Margins,0.13446
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.0135
-Dividend Payout Ratio,0.1092
-Five Year Avg Dividend Yield,0.95
-Trailing Annual Dividend Rate,1.5
-Trailing Annual Dividend Yield,0.010059013
+Dividend Yield,0.0123000005
+Dividend Payout Ratio,0.1141
+Five Year Avg Dividend Yield,1.0
+Trailing Annual Dividend Rate,1.625
+Trailing Annual Dividend Yield,0.0101000685
 
 FINANCIAL RATIO
-Debt to Equity,19.712
-Price to Cash Flow,None
-Enterprise to EBITDA,6.818
-Price to Book,1.5598916
-Price to Earnings,"PriceToEarnings(trailing_pe=10.806993, forward_pe=9.210428)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.73, forward_eps=16.11)"
-Enterprise to Revenue,1.127
+Debt to Equity,16.832
+Price to Cash Flow,3.483093001156169e-08
+Enterprise to EBITDA,7.431
+Price to Book,1.7018498
+Price to Earnings,"PriceToEarnings(trailing_pe=11.441713, forward_pe=9.971235)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.24, forward_eps=16.34)"
+Enterprise to Revenue,1.215
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,4677739008.0
+Operating to Cash Flow,4569399808.0
 
 PROFITABILITY
-Return on Equity,0.15552
-Return on Assets,0.089829996
-Return on Invested Capital,0.748265506382721
+Return on Equity,0.15904
+Return on Assets,0.092939995
+Return on Invested Capital,0.8902225417721493
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0095
-SUM DIVIDEND SCORE,8.0095
+5 Year Average,0.01
+SUM DIVIDEND SCORE,8.01
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,75.07
+Recommendation Key,1
+SUM ANALYST RATING SCORE,76.07
 
 
 

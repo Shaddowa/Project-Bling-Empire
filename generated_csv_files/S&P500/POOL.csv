@@ -5,69 +5,74 @@ Country,United States
 Industry,Industrial Distribution
 Sector,Industrials
 Website,https://www.poolcorp.com
-Price,378.56
+Price,373.0
 Currency,USD
 
 REVENUE
-Total Revenue,5634464768.0
-Revenue Per Share,145.137
-Revenue Growth,-0.087
+Total Revenue,5455630848.0
+Revenue Per Share,141.572
+Revenue Growth,-0.071
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.89, forward_eps=14.19)"
-Net Earnings,540763008.0
-Earnings Growth,-0.266
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.8, forward_eps=14.48)"
+Net Earnings,497779008.0
+Earnings Growth,-0.209
 
 DEBT
-Total Debt,1332788992.0
-Debt to Equity,93.976
+Total Debt,1294068992.0
+Debt to Equity,96.164
 
 MARGINS
-Profit Margins,0.09649
-Gross Profit Margins,0.29852
-Operating Margins,0.13225001
+Profit Margins,0.09172
+Gross Profit Margins,0.29856002
+Operating Margins,0.096999995
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.4
-Dividend Yield,0.0117
-Dividend Payout Ratio,0.3026
-Five Year Avg Dividend Yield,0.9
-Trailing Annual Dividend Rate,4.2
-Trailing Annual Dividend Yield,0.0110946745
+Dividend Rate,4.8
+Dividend Yield,0.0128
+Dividend Payout Ratio,0.3435
+Five Year Avg Dividend Yield,0.91
+Trailing Annual Dividend Rate,4.4
+Trailing Annual Dividend Yield,0.011796247
 
 FINANCIAL RATIO
-Debt to Equity,93.976
-Price to Cash Flow,5.065601900296949e-07
-Enterprise to EBITDA,19.467
-Price to Book,10.292081
-Price to Earnings,"PriceToEarnings(trailing_pe=27.169907, forward_pe=26.595491)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.89, forward_eps=14.19)"
-Enterprise to Revenue,2.812
+Debt to Equity,96.164
+Price to Cash Flow,4.895359220912809e-07
+Enterprise to EBITDA,20.74
+Price to Book,10.695687
+Price to Earnings,"PriceToEarnings(trailing_pe=29.235155, forward_pe=25.843233)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.8, forward_eps=14.48)"
+Enterprise to Revenue,2.853
 
 CASH FLOW
-Free to Cash Flow,745005248.0
-Operating to Cash Flow,927401984.0
+Free to Cash Flow,764417856.0
+Operating to Cash Flow,930467968.0
 
 PROFITABILITY
-Return on Equity,0.41674
-Return on Assets,0.1362
-Return on Invested Capital,0.40573788976972813
-Return on Investment,0.08318407088358355
+Return on Equity,0.38457
+Return on Assets,0.116459996
+Return on Invested Capital,0.3846618670404207
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.009000000000000001
-SUM DIVIDEND SCORE,8.009
+5 Year Average,0.0091
+SUM DIVIDEND SCORE,8.0091
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,53.79000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,54.79000000000002
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
-Revenue,True
+Earnings,False
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,0.0
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.navamedic.com
-Price,37.0
+Price,33.4
 Currency,NOK
 
 REVENUE
-Total Revenue,502652992.0
-Revenue Per Share,22.737
-Revenue Growth,0.519
+Total Revenue,511151008.0
+Revenue Per Share,29.639
+Revenue Growth,-0.007
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=2.65)"
-Net Earnings,24352000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.19, forward_eps=3.31)"
+Net Earnings,-11445000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,130076000.0
-Debt to Equity,59.594
+Total Debt,150295008.0
+Debt to Equity,66.456
 
 MARGINS
-Profit Margins,0.048449997
-Gross Profit Margins,0.40408
-Operating Margins,0.09836
+Profit Margins,-0.02239
+Gross Profit Margins,0.3827
+Operating Margins,0.040510003
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,59.594
-Price to Cash Flow,1.0269152848706932e-06
-Enterprise to EBITDA,12.697
-Price to Book,3.0723734
-Price to Earnings,"PriceToEarnings(trailing_pe=31.694918, forward_pe=14.113208)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.18, forward_eps=2.65)"
-Enterprise to Revenue,1.448
+Debt to Equity,66.456
+Price to Cash Flow,3.6938357024286133e-06
+Enterprise to EBITDA,26.992
+Price to Book,2.582709
+Price to Earnings,"PriceToEarnings(trailing_pe=174.21053, forward_pe=10.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.19, forward_eps=3.31)"
+Enterprise to Revenue,1.361
 
 CASH FLOW
-Free to Cash Flow,36419752.0
-Operating to Cash Flow,47456000.0
+Free to Cash Flow,8960875.0
+Operating to Cash Flow,-6483000.0
 
 PROFITABILITY
-Return on Equity,0.11968
-Return on Assets,0.07154
-Return on Invested Capital,0.18721361143522794
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.05069
+Return on Assets,0.01956
+Return on Invested Capital,-0.07615022731865242
+Return on Investment,-0.005788196024882415
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,18 +63,23 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,13.899999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,14.899999999999999
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
 Revenue,True
 Net Income,False
-Total Revenue,True
-Operating Cash Flow,True
-Free Cash Flow,True
+Total Revenue,False
+Operating Cash Flow,False
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,4.0
+CRITERIA PASS COUNT,1.0
 

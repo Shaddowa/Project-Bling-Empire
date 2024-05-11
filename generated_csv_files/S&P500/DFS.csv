@@ -5,63 +5,68 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.discover.com
-Price,103.74
+Price,124.04
 Currency,USD
 
 REVENUE
-Total Revenue,12920999936.0
-Revenue Per Share,50.87
-Revenue Growth,0.079
+Total Revenue,9914999808.0
+Revenue Per Share,39.502
+Revenue Growth,0.028
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.26, forward_eps=13.88)"
-Net Earnings,2859000064.0
-Earnings Growth,-0.592
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.81, forward_eps=12.99)"
+Net Earnings,2201999872.0
+Earnings Growth,-0.691
 
 DEBT
-Total Debt,21330999296.0
-Debt to Equity,143.856
+Total Debt,20475000832.0
+Debt to Equity,139.096
 
 MARGINS
-Profit Margins,0.22754
-Gross Profit Margins,0.71465
-Operating Margins,0.1665
+Profit Margins,0.22995001
+Gross Profit Margins,0.93626
+Operating Margins,0.14891
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.026199998
-Dividend Payout Ratio,0.23979999
-Five Year Avg Dividend Yield,2.27
-Trailing Annual Dividend Rate,2.7
-Trailing Annual Dividend Yield,0.026026607
+Dividend Yield,0.0227
+Dividend Payout Ratio,0.31780002
+Five Year Avg Dividend Yield,2.28
+Trailing Annual Dividend Rate,2.8
+Trailing Annual Dividend Yield,0.022573363
 
 FINANCIAL RATIO
-Debt to Equity,143.856
+Debt to Equity,139.096
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.8026706
-Price to Earnings,"PriceToEarnings(trailing_pe=9.495559, forward_pe=7.70317)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.26, forward_eps=13.88)"
-Enterprise to Revenue,1.755
+Price to Book,2.263182
+Price to Earnings,"PriceToEarnings(trailing_pe=14.00681, forward_pe=9.499616)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.81, forward_eps=12.99)"
+Enterprise to Revenue,3.878
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,8615000064.0
 
 PROFITABILITY
-Return on Equity,0.19988
-Return on Assets,0.020769998
-Return on Invested Capital,0.13403029161350713
-Return on Investment,0.007441436918271734
+Return on Equity,0.15705
+Return on Assets,0.01596
+Return on Invested Capital,0.10754577663775239
+Return on Investment,0.0044359385012087025
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,3.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0227
-SUM DIVIDEND SCORE,8.0227
+5 Year Average,0.022799999999999997
+SUM DIVIDEND SCORE,7.0228
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,27.599999999999994
+Recommendation Key,0
+SUM ANALYST RATING SCORE,27.599999999999994
 
 
 

@@ -1,31 +1,31 @@
 GENERAL STOCK INFO
 Ticker,FLT
-Company,"FLEETCOR Technologies, Inc."
+Company,"Corpay, Inc."
 Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.fleetcor.com
-Price,293.8
+Price,305.8
 Currency,USD
 
 REVENUE
-Total Revenue,3704008960.0
-Revenue Per Share,50.39
-Revenue Growth,0.087
+Total Revenue,3757719040.0
+Revenue Per Share,51.367
+Revenue Growth,0.061
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.76, forward_eps=19.37)"
-Net Earnings,951352000.0
-Earnings Growth,0.106
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.2, forward_eps=22.55)"
+Net Earnings,981889984.0
+Earnings Growth,0.143
 
 DEBT
-Total Debt,6976514048.0
-Debt to Equity,228.032
+Total Debt,6892476928.0
+Debt to Equity,209.985
 
 MARGINS
-Profit Margins,0.25684
-Gross Profit Margins,0.7786
-Operating Margins,0.45832002
+Profit Margins,0.2613
+Gross Profit Margins,0.78181
+Operating Margins,0.45241
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,228.032
-Price to Cash Flow,3.422757682884342e-07
-Enterprise to EBITDA,14.369
-Price to Book,6.9386168
-Price to Earnings,"PriceToEarnings(trailing_pe=23.041536, forward_pe=15.178627)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.76, forward_eps=19.37)"
-Enterprise to Revenue,7.307
+Debt to Equity,209.985
+Price to Cash Flow,2.8449865644135126e-07
+Enterprise to EBITDA,13.679
+Price to Book,6.625882
+Price to Earnings,"PriceToEarnings(trailing_pe=22.974243, forward_pe=13.448338)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.2, forward_eps=22.55)"
+Enterprise to Revenue,7.257
 
 CASH FLOW
-Free to Cash Flow,858985728.0
-Operating to Cash Flow,1220059008.0
+Free to Cash Flow,1065945280.0
+Operating to Cash Flow,2101132032.0
 
 PROFITABILITY
-Return on Equity,0.35992
-Return on Assets,0.06731
-Return on Invested Capital,0.1363649507012084
-Return on Investment,0.019008753579056948
+Return on Equity,0.33720002
+Return on Assets,0.07005
+Return on Invested Capital,0.1424582175227892
+Return on Investment,0.017611681404500628
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,39.74000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,40.74000000000001
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.onsemi.com
-Price,72.69
+Price,71.26
 Currency,USD
 
 REVENUE
-Total Revenue,8338500096.0
-Revenue Per Share,19.312
-Revenue Growth,-0.005
+Total Revenue,8156000256.0
+Revenue Per Share,18.978
+Revenue Growth,-0.05
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.96, forward_eps=4.76)"
-Net Earnings,2225299968.0
-Earnings Growth,0.858
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.9, forward_eps=4.77)"
+Net Earnings,2175000064.0
+Earnings Growth,0.009
 
 DEBT
-Total Debt,3740800000.0
-Debt to Equity,49.851
+Total Debt,3594200064.0
+Debt to Equity,44.141
 
 MARGINS
-Profit Margins,0.26687
-Gross Profit Margins,0.47516
-Operating Margins,0.31933
+Profit Margins,0.26667
+Gross Profit Margins,0.46832
+Operating Margins,0.28271
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,49.851
-Price to Cash Flow,2.851008936718304e-07
-Enterprise to EBITDA,9.726
-Price to Book,4.125769
-Price to Earnings,"PriceToEarnings(trailing_pe=14.457661, forward_pe=15.065125)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.96, forward_eps=4.76)"
-Enterprise to Revenue,3.834
+Debt to Equity,44.141
+Price to Cash Flow,9.959010600706713e-06
+Enterprise to EBITDA,9.98
+Price to Book,3.7288315
+Price to Earnings,"PriceToEarnings(trailing_pe=14.379591, forward_pe=14.771488)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.9, forward_eps=4.77)"
+Enterprise to Revenue,3.839
 
 CASH FLOW
-Free to Cash Flow,251524992.0
-Operating to Cash Flow,2097600000.0
+Free to Cash Flow,7075000.0
+Operating to Cash Flow,2067299968.0
 
 PROFITABILITY
-Return on Equity,0.33785
-Return on Assets,0.13864
-Return on Invested Capital,0.5948727431727215
-Return on Investment,-0.014216443927681595
+Return on Equity,0.29804
+Return on Assets,0.122209996
+Return on Invested Capital,0.6051416208992767
+Return on Investment,-0.016191469247375866
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,12 +63,17 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.540000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,34.540000000000006
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

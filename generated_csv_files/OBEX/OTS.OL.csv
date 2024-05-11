@@ -5,17 +5,17 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.oceanteam.nl
-Price,1.285
+Price,1.185
 Currency,NOK
 
 REVENUE
-Total Revenue,70000.0
+Total Revenue,60000.0
 Revenue Per Share,0.002
-Revenue Growth,0.333
+Revenue Growth,-0.333
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.31, forward_eps=None)"
-Net Earnings,-1011000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.24, forward_eps=None)"
+Net Earnings,-761000.0
 Earnings Growth,None
 
 DEBT
@@ -25,7 +25,7 @@ Debt to Equity,None
 MARGINS
 Profit Margins,0.0
 Gross Profit Margins,1.0
-Operating Margins,-16.675
+Operating Margins,-16.6
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,21 +38,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-9.123898392949715e-07
-Enterprise to EBITDA,-26.685
-Price to Book,14.666667
+Price to Cash Flow,2.0154656136887135e-07
+Enterprise to EBITDA,-39.23
+Price to Book,17.01389
 Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=None)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.31, forward_eps=None)"
-Enterprise to Revenue,614.527
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.24, forward_eps=None)"
+Enterprise to Revenue,651.88
 
 CASH FLOW
-Free to Cash Flow,-1446750.0
-Operating to Cash Flow,-1383000.0
+Free to Cash Flow,6078000.0
+Operating to Cash Flow,-1182000.0
 
 PROFITABILITY
-Return on Equity,-0.13619
-Return on Assets,-0.06346
-Return on Invested Capital,-11233333.333333334
+Return on Equity,-0.21792999
+Return on Assets,-0.10097
+Return on Invested Capital,-10569444.444444446
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

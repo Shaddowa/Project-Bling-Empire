@@ -5,63 +5,68 @@ Country,United States
 Industry,REIT—Residential
 Sector,Real Estate
 Website,https://www.equityapartments.com
-Price,58.86
+Price,67.04
 Currency,USD
 
 REVENUE
-Total Revenue,2846167040.0
-Revenue Per Share,7.522
-Revenue Growth,0.042
+Total Revenue,2899694080.0
+Revenue Per Share,7.653
+Revenue Growth,0.036
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.74, forward_eps=1.56)"
-Net Earnings,679676032.0
-Earnings Growth,-0.471
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.34, forward_eps=1.66)"
+Net Earnings,914881024.0
+Earnings Growth,0.379
 
 DEBT
-Total Debt,7792037888.0
-Debt to Equity,67.501
+Total Debt,7520151040.0
+Debt to Equity,64.986
 
 MARGINS
-Profit Margins,0.23989001
-Gross Profit Margins,0.63961
-Operating Margins,0.31091
+Profit Margins,0.317
+Gross Profit Margins,0.63796
+Operating Margins,0.28788
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.65
-Dividend Yield,0.0448
-Dividend Payout Ratio,1.5041001
-Five Year Avg Dividend Yield,3.47
-Trailing Annual Dividend Rate,2.613
-Trailing Annual Dividend Yield,0.044393472
+Dividend Rate,2.7
+Dividend Yield,0.0404
+Dividend Payout Ratio,1.1381
+Five Year Avg Dividend Yield,3.56
+Trailing Annual Dividend Rate,2.663
+Trailing Annual Dividend Yield,0.039722554
 
 FINANCIAL RATIO
-Debt to Equity,67.501
-Price to Cash Flow,4.554117473986782e-08
-Enterprise to EBITDA,17.468
-Price to Book,2.037681
-Price to Earnings,"PriceToEarnings(trailing_pe=34.0, forward_pe=37.923077)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.74, forward_eps=1.56)"
-Enterprise to Revenue,10.799
+Debt to Equity,64.986
+Price to Cash Flow,5.1910102792696385e-08
+Enterprise to EBITDA,18.614
+Price to Book,2.2906523
+Price to Earnings,"PriceToEarnings(trailing_pe=28.54701, forward_pe=40.240967)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.34, forward_eps=1.66)"
+Enterprise to Revenue,11.488
 
 CASH FLOW
-Free to Cash Flow,1299044224.0
-Operating to Cash Flow,1523052032.0
+Free to Cash Flow,1286840064.0
+Operating to Cash Flow,1560550016.0
 
 PROFITABILITY
-Return on Equity,0.06141
-Return on Assets,0.02735
-Return on Invested Capital,0.08722699237824069
-Return on Investment,0.031202274811893735
+Return on Equity,0.082049996
+Return on Assets,0.02785
+Return on Invested Capital,0.12165726666737678
+Return on Investment,0.046146680991652166
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0347
-SUM DIVIDEND SCORE,8.0347
+5 Year Average,0.0356
+SUM DIVIDEND SCORE,8.0356
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,6.200000000000003
+Recommendation Key,0
+SUM ANALYST RATING SCORE,6.200000000000003
 
 
 

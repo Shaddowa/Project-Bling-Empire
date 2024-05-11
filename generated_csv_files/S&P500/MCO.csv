@@ -5,63 +5,68 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.moodys.com
-Price,392.6
+Price,401.53
 Currency,USD
 
 REVENUE
-Total Revenue,5726000128.0
-Revenue Per Share,31.226
-Revenue Growth,0.155
+Total Revenue,6232000000.0
+Revenue Per Share,34.05
+Revenue Growth,0.215
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.21, forward_eps=11.16)"
-Net Earnings,1512999936.0
-Earnings Growth,0.279
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.17, forward_eps=12.42)"
+Net Earnings,1683000064.0
+Earnings Growth,0.158
 
 DEBT
-Total Debt,7544999936.0
-Debt to Equity,225.089
+Total Debt,7529999872.0
+Debt to Equity,201.606
 
 MARGINS
-Profit Margins,0.26423
-Gross Profit Margins,0.7073
-Operating Margins,0.38314998
+Profit Margins,0.27006
+Gross Profit Margins,0.72304
+Operating Margins,0.45241
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.08
-Dividend Yield,0.007900001
-Dividend Payout Ratio,0.3662
-Five Year Avg Dividend Yield,0.85
-Trailing Annual Dividend Rate,3.01
-Trailing Annual Dividend Yield,0.0076668365
+Dividend Rate,3.4
+Dividend Yield,0.0085
+Dividend Payout Ratio,0.345
+Five Year Avg Dividend Yield,0.84
+Trailing Annual Dividend Rate,3.16
+Trailing Annual Dividend Yield,0.007869898
 
 FINANCIAL RATIO
-Debt to Equity,225.089
-Price to Cash Flow,2.4020979204625683e-07
-Enterprise to EBITDA,31.363
-Price to Book,22.325516
-Price to Earnings,"PriceToEarnings(trailing_pe=47.416565, forward_pe=34.882618)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.21, forward_eps=11.16)"
-Enterprise to Revenue,13.425
+Debt to Equity,201.606
+Price to Cash Flow,2.156041727500056e-07
+Enterprise to EBITDA,27.413
+Price to Book,20.450018
+Price to Earnings,"PriceToEarnings(trailing_pe=43.65867, forward_pe=32.2343)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.17, forward_eps=12.42)"
+Enterprise to Revenue,12.558
 
 CASH FLOW
-Free to Cash Flow,1620625024.0
-Operating to Cash Flow,2051000064.0
+Free to Cash Flow,1856875008.0
+Operating to Cash Flow,2318000128.0
 
 PROFITABILITY
-Return on Equity,0.52369
-Return on Assets,0.09269
-Return on Invested Capital,0.20053014517392778
-Return on Investment,0.044110785306122446
+Return on Equity,0.49580002
+Return on Assets,0.10385
+Return on Invested Capital,0.2235059878131726
+Return on Investment,0.04382812666666667
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0085
-SUM DIVIDEND SCORE,8.0085
+5 Year Average,0.0084
+SUM DIVIDEND SCORE,8.0084
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,49.64999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,50.64999999999998
 
 
 

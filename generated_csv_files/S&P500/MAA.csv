@@ -5,63 +5,68 @@ Country,United States
 Industry,REIT—Residential
 Sector,Real Estate
 Website,https://www.maac.com
-Price,131.98
+Price,136.34
 Currency,USD
 
 REVENUE
-Total Revenue,2134185984.0
-Revenue Per Share,18.365
-Revenue Growth,0.041
+Total Revenue,2163056896.0
+Revenue Per Share,18.544
+Revenue Growth,0.028
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.0, forward_eps=4.22)"
-Net Earnings,581971968.0
-Earnings Growth,-0.105
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.77, forward_eps=4.27)"
+Net Earnings,556731008.0
+Earnings Growth,0.055
 
 DEBT
-Total Debt,4421834752.0
-Debt to Equity,70.148
+Total Debt,4651398144.0
+Debt to Equity,74.334
 
 MARGINS
-Profit Margins,0.27455
-Gross Profit Margins,0.61349
-Operating Margins,0.30679
+Profit Margins,0.25919
+Gross Profit Margins,0.60565
+Operating Margins,0.30492002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.88
-Dividend Yield,0.044899996
-Dividend Payout Ratio,1.09
-Five Year Avg Dividend Yield,3.02
-Trailing Annual Dividend Rate,5.45
-Trailing Annual Dividend Yield,0.041294135
+Dividend Yield,0.0434
+Dividend Payout Ratio,1.1887001
+Five Year Avg Dividend Yield,3.08
+Trailing Annual Dividend Rate,5.67
+Trailing Annual Dividend Yield,0.04158721
 
 FINANCIAL RATIO
-Debt to Equity,70.148
-Price to Cash Flow,1.2770546626558015e-07
-Enterprise to EBITDA,15.744
-Price to Book,2.4960415
-Price to Earnings,"PriceToEarnings(trailing_pe=26.168, forward_pe=31.00474)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.0, forward_eps=4.22)"
-Enterprise to Revenue,9.237
+Debt to Equity,74.334
+Price to Cash Flow,1.5042649481229686e-07
+Enterprise to EBITDA,16.471
+Price to Book,2.6040907
+Price to Earnings,"PriceToEarnings(trailing_pe=28.40042, forward_pe=31.725996)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.77, forward_eps=4.27)"
+Enterprise to Revenue,9.527
 
 CASH FLOW
-Free to Cash Flow,1024545024.0
-Operating to Cash Flow,1123420032.0
+Free to Cash Flow,900572736.0
+Operating to Cash Flow,1119133952.0
 
 PROFITABILITY
-Return on Equity,0.09665
-Return on Assets,0.0379
-Return on Invested Capital,0.13161323155229615
-Return on Investment,-0.1435337562274947
+Return on Equity,0.0912
+Return on Assets,0.03729
+Return on Invested Capital,0.11969110889627364
+Return on Investment,-0.026357000194103974
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0302
-SUM DIVIDEND SCORE,8.0302
+5 Year Average,0.0308
+SUM DIVIDEND SCORE,8.0308
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,18.53
+Recommendation Key,0
+SUM ANALYST RATING SCORE,18.53
 
 
 

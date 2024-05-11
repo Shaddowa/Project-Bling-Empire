@@ -4,64 +4,69 @@ Company,"Universal Health Services, Inc."
 Country,United States
 Industry,Medical Care Facilities
 Sector,Healthcare
-Website,https://uhs.com
-Price,156.98
+Website,https://www.uhs.com
+Price,177.05
 Currency,USD
 
 REVENUE
-Total Revenue,14025409536.0
-Revenue Per Share,199.906
-Revenue Growth,0.068
+Total Revenue,14658039808.0
+Revenue Per Share,214.023
+Revenue Growth,0.108
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.52, forward_eps=11.75)"
-Net Earnings,675838976.0
-Earnings Growth,-0.04
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.77, forward_eps=15.14)"
+Net Earnings,816206016.0
+Earnings Growth,0.675
 
 DEBT
-Total Debt,5383834112.0
-Debt to Equity,88.098
+Total Debt,5307198976.0
+Debt to Equity,84.097
 
 MARGINS
-Profit Margins,0.04822
-Gross Profit Margins,0.39179
-Operating Margins,0.08009
+Profit Margins,0.0557
+Gross Profit Margins,0.40284002
+Operating Margins,0.10115
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0050999997
-Dividend Payout Ratio,0.084
-Five Year Avg Dividend Yield,0.49
+Dividend Yield,0.0045
+Dividend Payout Ratio,0.068
+Five Year Avg Dividend Yield,0.5
 Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.0050961906
+Trailing Annual Dividend Yield,0.0045184977
 
 FINANCIAL RATIO
-Debt to Equity,88.098
-Price to Cash Flow,6.081207042526351e-07
-Enterprise to EBITDA,9.288
-Price to Book,1.7733986
-Price to Earnings,"PriceToEarnings(trailing_pe=16.55147, forward_pe=13.410213)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.52, forward_eps=11.75)"
-Enterprise to Revenue,1.148
+Debt to Equity,84.097
+Price to Cash Flow,4.272778600423814e-07
+Enterprise to EBITDA,9.292
+Price to Book,1.9128894
+Price to Earnings,"PriceToEarnings(trailing_pe=15.13084, forward_pe=11.762879)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.77, forward_eps=15.14)"
+Enterprise to Revenue,1.175
 
 CASH FLOW
-Free to Cash Flow,259109744.0
-Operating to Cash Flow,1112669952.0
+Free to Cash Flow,416801376.0
+Operating to Cash Flow,1373449984.0
 
 PROFITABILITY
-Return on Equity,0.111490004
-Return on Assets,0.05335
-Return on Invested Capital,0.12553116436851777
-Return on Investment,-0.021726965087121457
+Return on Equity,0.13305001
+Return on Assets,0.05821
+Return on Invested Capital,0.1537922368038124
+Return on Investment,-0.0221126326084424
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0049
-SUM DIVIDEND SCORE,7.0049
+5 Year Average,0.005
+SUM DIVIDEND SCORE,4.005
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,29.909999999999997
+Recommendation Key,1
+SUM ANALYST RATING SCORE,30.909999999999997
 
 
 

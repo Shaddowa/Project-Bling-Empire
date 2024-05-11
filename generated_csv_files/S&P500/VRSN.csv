@@ -5,27 +5,27 @@ Country,United States
 Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.verisign.com
-Price,203.04
+Price,169.79
 Currency,USD
 
 REVENUE
-Total Revenue,1481900032.0
-Revenue Per Share,14.208
-Revenue Growth,0.054
+Total Revenue,1512999936.0
+Revenue Per Share,14.779
+Revenue Growth,0.055
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.01, forward_eps=8.17)"
-Net Earnings,732400000.0
-Earnings Growth,0.158
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.12, forward_eps=8.65)"
+Net Earnings,833000000.0
+Earnings Growth,0.129
 
 DEBT
-Total Debt,1798099968.0
+Total Debt,1795699968.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.49423
-Gross Profit Margins,0.86551005
-Operating Margins,0.67579
+Profit Margins,0.55056
+Gross Profit Margins,0.87013
+Operating Margins,0.67369
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,21 +38,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.8786960921460316e-07
-Enterprise to EBITDA,20.858
+Price to Cash Flow,2.5154525145558067e-07
+Enterprise to EBITDA,16.903
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=28.974321, forward_pe=24.860464)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.01, forward_eps=8.17)"
-Enterprise to Revenue,14.571
+Price to Earnings,"PriceToEarnings(trailing_pe=21.087439, forward_pe=19.795376)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.12, forward_eps=8.65)"
+Enterprise to Revenue,11.848
 
 CASH FLOW
-Free to Cash Flow,705562496.0
-Operating to Cash Flow,866499968.0
+Free to Cash Flow,680712512.0
+Operating to Cash Flow,852099968.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.35963002
-Return on Invested Capital,0.4073188474119048
+Return on Assets,0.36523
+Return on Invested Capital,0.46388596225689777
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,43.77000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,43.77000000000001
 
 
 

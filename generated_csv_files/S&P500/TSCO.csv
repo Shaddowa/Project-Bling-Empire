@@ -5,69 +5,74 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.tractorsupply.com
-Price,226.33
+Price,269.7
 Currency,USD
 
 REVENUE
-Total Revenue,14902275072.0
-Revenue Per Share,135.905
-Revenue Growth,0.043
+Total Revenue,14651350016.0
+Revenue Per Share,134.947
+Revenue Growth,0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.24, forward_eps=10.35)"
-Net Earnings,1130193024.0
-Earnings Growth,0.11
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.26, forward_eps=11.4)"
+Net Earnings,1122305024.0
+Earnings Growth,0.109
 
 DEBT
-Total Debt,4977289216.0
-Debt to Equity,235.764
+Total Debt,5084422144.0
+Debt to Equity,239.378
 
 MARGINS
-Profit Margins,0.075840004
-Gross Profit Margins,0.35557
-Operating Margins,0.09991
+Profit Margins,0.0766
+Gross Profit Margins,0.36032
+Operating Margins,0.07751
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.12
-Dividend Yield,0.018099999
-Dividend Payout Ratio,0.39119998
-Five Year Avg Dividend Yield,1.35
-Trailing Annual Dividend Rate,4.01
-Trailing Annual Dividend Yield,0.017717494
+Dividend Rate,4.4
+Dividend Yield,0.0162
+Dividend Payout Ratio,0.408
+Five Year Avg Dividend Yield,1.37
+Trailing Annual Dividend Rate,4.19
+Trailing Annual Dividend Yield,0.01553578
 
 FINANCIAL RATIO
-Debt to Equity,235.764
-Price to Cash Flow,4.6853756076373507e-07
-Enterprise to EBITDA,15.443
-Price to Book,11.695612
-Price to Earnings,"PriceToEarnings(trailing_pe=22.228516, forward_pe=21.99227)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.24, forward_eps=10.35)"
-Enterprise to Revenue,1.957
+Debt to Equity,239.378
+Price to Cash Flow,3.721861340605707e-07
+Enterprise to EBITDA,17.98
+Price to Book,13.794277
+Price to Earnings,"PriceToEarnings(trailing_pe=26.455164, forward_pe=23.809649)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.26, forward_eps=11.4)"
+Enterprise to Revenue,2.329
 
 CASH FLOW
-Free to Cash Flow,485809504.0
-Operating to Cash Flow,1668574976.0
+Free to Cash Flow,729285632.0
+Operating to Cash Flow,1571886976.0
 
 PROFITABILITY
-Return on Equity,0.55781
-Return on Assets,0.10983
-Return on Invested Capital,0.2270699914217651
-Return on Investment,-0.01488404313264817
+Return on Equity,0.5558
+Return on Assets,0.10172
+Return on Invested Capital,0.22073403581978743
+Return on Investment,-0.016961575153965316
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.013500000000000002
-SUM DIVIDEND SCORE,8.0135
+5 Year Average,0.0137
+SUM DIVIDEND SCORE,9.0137
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.56999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,34.56999999999999
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,True
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

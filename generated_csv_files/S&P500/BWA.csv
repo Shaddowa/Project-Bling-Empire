@@ -5,63 +5,68 @@ Country,United States
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.borgwarner.com
-Price,33.79
+Price,37.72
 Currency,USD
 
 REVENUE
-Total Revenue,17159000064.0
-Revenue Per Share,73.636
-Revenue Growth,0.123
+Total Revenue,14410000384.0
+Revenue Per Share,62.239
+Revenue Growth,0.063
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.1, forward_eps=4.27)"
-Net Earnings,963000000.0
-Earnings Growth,-0.816
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.91, forward_eps=4.62)"
+Net Earnings,677000000.0
+Earnings Growth,-0.032
 
 DEBT
-Total Debt,3860000000.0
-Debt to Equity,64.258
+Total Debt,3883000064.0
+Debt to Equity,64.267
 
 MARGINS
-Profit Margins,0.04231
-Gross Profit Margins,0.19115
-Operating Margins,0.0889
+Profit Margins,0.04261
+Gross Profit Margins,0.18285999
+Operating Margins,0.08428001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.44
-Dividend Yield,0.0128999995
-Dividend Payout Ratio,0.1512
-Five Year Avg Dividend Yield,1.7
-Trailing Annual Dividend Rate,0.62
-Trailing Annual Dividend Yield,0.018348623
+Dividend Yield,0.0117
+Dividend Payout Ratio,0.1718
+Five Year Avg Dividend Yield,1.69
+Trailing Annual Dividend Rate,0.5
+Trailing Annual Dividend Yield,0.013255567
 
 FINANCIAL RATIO
-Debt to Equity,64.258
-Price to Cash Flow,3.3806163861419174e-08
-Enterprise to EBITDA,4.616
-Price to Book,1.3912548
-Price to Earnings,"PriceToEarnings(trailing_pe=8.326829, forward_pe=7.995316)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.1, forward_eps=4.27)"
-Enterprise to Revenue,0.651
+Debt to Equity,64.267
+Price to Cash Flow,5.353319302364336e-08
+Enterprise to EBITDA,6.242
+Price to Book,1.4627297
+Price to Earnings,"PriceToEarnings(trailing_pe=12.886598, forward_pe=8.116883)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.91, forward_eps=4.62)"
+Enterprise to Revenue,0.804
 
 CASH FLOW
-Free to Cash Flow,1009875008.0
-Operating to Cash Flow,1334000000.0
+Free to Cash Flow,700499968.0
+Operating to Cash Flow,1196000000.0
 
 PROFITABILITY
-Return on Equity,0.15885
-Return on Assets,0.06979
-Return on Invested Capital,0.24948186369895453
-Return on Investment,-0.011464285714285715
+Return on Equity,0.10918
+Return on Assets,0.0507
+Return on Invested Capital,0.17434972556575165
+Return on Investment,-0.010561622464898597
 
 DIVIDEND SCORE
 Dividend  Rate,1.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.017
-SUM DIVIDEND SCORE,2.017
+5 Year Average,0.0169
+SUM DIVIDEND SCORE,2.0169
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,12.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,13.5
 
 
 

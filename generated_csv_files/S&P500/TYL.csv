@@ -5,27 +5,27 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.tylertech.com
-Price,429.25
+Price,481.84
 Currency,USD
 
 REVENUE
-Total Revenue,1923037952.0
-Revenue Per Share,45.892
-Revenue Growth,0.045
+Total Revenue,1992257024.0
+Revenue Per Share,47.267
+Revenue Growth,0.086
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.7, forward_eps=8.78)"
-Net Earnings,158092992.0
-Earnings Growth,-0.127
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.41, forward_eps=10.44)"
+Net Earnings,189214000.0
+Earnings Growth,0.726
 
 DEBT
-Total Debt,788795008.0
-Debt to Equity,27.649
+Total Debt,645416000.0
+Debt to Equity,21.349
 
 MARGINS
-Profit Margins,0.08221
-Gross Profit Margins,0.43759
-Operating Margins,0.12923999
+Profit Margins,0.094969995
+Gross Profit Margins,0.44417998
+Operating Margins,0.13071999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,27.649
-Price to Cash Flow,1.134532411827372e-06
-Enterprise to EBITDA,58.658
-Price to Book,6.3556395
-Price to Earnings,"PriceToEarnings(trailing_pe=116.38378, forward_pe=49.04556)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.7, forward_eps=8.78)"
-Enterprise to Revenue,9.769
+Debt to Equity,21.349
+Price to Cash Flow,1.2488877592552487e-06
+Enterprise to EBITDA,60.901
+Price to Book,6.8053684
+Price to Earnings,"PriceToEarnings(trailing_pe=109.922905, forward_pe=46.432953)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.41, forward_eps=10.44)"
+Enterprise to Revenue,10.555
 
 CASH FLOW
-Free to Cash Flow,379557248.0
-Operating to Cash Flow,354878016.0
+Free to Cash Flow,388153376.0
+Operating to Cash Flow,377569984.0
 
 PROFITABILITY
-Return on Equity,0.05855
-Return on Assets,0.028800001
-Return on Invested Capital,0.20042340128566444
-Return on Investment,0.1784748159855498
+Return on Equity,0.06628
+Return on Assets,0.03286
+Return on Invested Capital,0.2931659257241915
+Return on Investment,-0.09311712598425197
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,45.24000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,46.24000000000001
 
 
 

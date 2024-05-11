@@ -5,63 +5,68 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.nasdaq.com
-Price,58.37
+Price,60.18
 Currency,USD
 
 REVENUE
-Total Revenue,5999000064.0
-Revenue Per Share,12.222
-Revenue Growth,-0.068
+Total Revenue,6205000192.0
+Revenue Per Share,11.79
+Revenue Growth,0.092
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.78)"
-Net Earnings,1103000064.0
-Earnings Growth,0.014
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.87, forward_eps=3.02)"
+Net Earnings,991000000.0
+Earnings Growth,-0.344
 
 DEBT
-Total Debt,10172000256.0
-Debt to Equity,157.0
+Total Debt,10464000000.0
+Debt to Equity,96.719
 
 MARGINS
-Profit Margins,0.18386
-Gross Profit Margins,0.61427
-Operating Margins,0.31771
+Profit Margins,0.15970999
+Gross Profit Margins,0.66043997
+Operating Margins,0.27121
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.88
-Dividend Yield,0.015
-Dividend Payout Ratio,0.37669998
-Five Year Avg Dividend Yield,1.48
-Trailing Annual Dividend Rate,0.84
-Trailing Annual Dividend Yield,0.014390954
+Dividend Rate,0.96
+Dividend Yield,0.015800001
+Dividend Payout Ratio,0.4706
+Five Year Avg Dividend Yield,1.45
+Trailing Annual Dividend Rate,0.88
+Trailing Annual Dividend Yield,0.014622798
 
 FINANCIAL RATIO
-Debt to Equity,157.0
-Price to Cash Flow,4.2964726179687366e-08
-Enterprise to EBITDA,19.015
-Price to Book,4.453392
-Price to Earnings,"PriceToEarnings(trailing_pe=26.286995, forward_pe=21.08633)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.78)"
-Enterprise to Revenue,6.425
+Debt to Equity,96.719
+Price to Cash Flow,4.6782993446222426e-08
+Enterprise to EBITDA,19.914
+Price to Book,3.2312362
+Price to Earnings,"PriceToEarnings(trailing_pe=32.438503, forward_pe=20.086092)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.87, forward_eps=3.02)"
+Enterprise to Revenue,7.26
 
 CASH FLOW
-Free to Cash Flow,1364375040.0
-Operating to Cash Flow,1772999936.0
+Free to Cash Flow,1296625024.0
+Operating to Cash Flow,1660999936.0
 
 PROFITABILITY
-Return on Equity,0.17811
-Return on Assets,0.046680003
-Return on Invested Capital,0.10843492280901798
-Return on Investment,0.04342519937007874
+Return on Equity,0.11637
+Return on Assets,0.04538
+Return on Invested Capital,0.0947056573224475
+Return on Investment,0.018385899814471245
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0148
-SUM DIVIDEND SCORE,8.0148
+5 Year Average,0.014499999999999999
+SUM DIVIDEND SCORE,9.0145
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,19.340000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,20.340000000000003
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Railroads
 Sector,Industrials
 Website,https://www.csx.com
-Price,35.0
+Price,34.5
 Currency,USD
 
 REVENUE
-Total Revenue,14657000448.0
-Revenue Per Share,7.281
-Revenue Growth,-0.013
+Total Revenue,14631999488.0
+Revenue Per Share,7.375
+Revenue Growth,-0.007
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.85, forward_eps=2.2)"
-Net Earnings,3715000064.0
-Earnings Growth,-0.078
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=2.18)"
+Net Earnings,3620999936.0
+Earnings Growth,-0.05
 
 DEBT
-Total Debt,18532999168.0
-Debt to Equity,152.749
+Total Debt,19132999680.0
+Debt to Equity,151.825
 
 MARGINS
-Profit Margins,0.25346002
-Gross Profit Margins,0.48700002
-Operating Margins,0.35652
+Profit Margins,0.24746999
+Gross Profit Margins,0.48756
+Operating Margins,0.37055
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.44
-Dividend Yield,0.0124
-Dividend Payout Ratio,0.2378
+Dividend Rate,0.48
+Dividend Yield,0.0139999995
+Dividend Payout Ratio,0.2459
 Five Year Avg Dividend Yield,1.26
-Trailing Annual Dividend Rate,0.44
-Trailing Annual Dividend Yield,0.012571429
+Trailing Annual Dividend Rate,0.45
+Trailing Annual Dividend Yield,0.013043478
 
 FINANCIAL RATIO
-Debt to Equity,152.749
-Price to Cash Flow,1.4112252649016967e-08
-Enterprise to EBITDA,12.157
-Price to Book,5.7432647
-Price to Earnings,"PriceToEarnings(trailing_pe=19.129728, forward_pe=16.086363)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.85, forward_eps=2.2)"
-Enterprise to Revenue,5.921
+Debt to Equity,151.825
+Price to Cash Flow,1.4850971511679406e-08
+Enterprise to EBITDA,11.896
+Price to Book,5.335196
+Price to Earnings,"PriceToEarnings(trailing_pe=18.786886, forward_pe=15.770642)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.83, forward_eps=2.18)"
+Enterprise to Revenue,5.8
 
 CASH FLOW
-Free to Cash Flow,2507749888.0
-Operating to Cash Flow,5549000192.0
+Free to Cash Flow,2315000064.0
+Operating to Cash Flow,5382000128.0
 
 PROFITABILITY
-Return on Equity,0.30010998
-Return on Assets,0.08193
-Return on Invested Capital,0.2004532579475486
-Return on Investment,-0.05479351126843658
+Return on Equity,0.29042
+Return on Assets,0.08177
+Return on Invested Capital,0.18925416794761823
+Return on Investment,-0.04987603217630854
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0126
-SUM DIVIDEND SCORE,4.0126
+SUM DIVIDEND SCORE,8.0126
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,9.619999999999997
+Recommendation Key,1
+SUM ANALYST RATING SCORE,10.619999999999997
 
 
 

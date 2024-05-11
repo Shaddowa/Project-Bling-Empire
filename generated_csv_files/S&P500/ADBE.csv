@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,ADBE
 Company,Adobe Inc.
 Country,United States
-Industry,Software - Infrastructure
+Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.adobe.com
-Price,622.58
+Price,482.65
 Currency,USD
 
 REVENUE
-Total Revenue,19409000448.0
-Revenue Per Share,42.461
-Revenue Growth,0.116
+Total Revenue,19936000000.0
+Revenue Per Share,43.762
+Revenue Growth,0.113
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.85, forward_eps=20.36)"
-Net Earnings,5427999744.0
-Earnings Growth,0.278
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.47, forward_eps=20.37)"
+Net Earnings,4800999936.0
+Earnings Growth,-0.498
 
 DEBT
-Total Debt,4080000000.0
-Debt to Equity,24.7
+Total Debt,4086000128.0
+Debt to Equity,26.429
 
 MARGINS
-Profit Margins,0.27966
-Gross Profit Margins,0.87872005
-Operating Margins,0.34529
+Profit Margins,0.24082
+Gross Profit Margins,0.88082004
+Operating Margins,0.368
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,24.7
-Price to Cash Flow,9.287018969781456e-08
-Enterprise to EBITDA,37.663
-Price to Book,16.911274
-Price to Earnings,"PriceToEarnings(trailing_pe=51.808437, forward_pe=30.153732)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.85, forward_eps=20.36)"
-Enterprise to Revenue,14.103
+Debt to Equity,26.429
+Price to Cash Flow,7.165870965010669e-08
+Enterprise to EBITDA,28.111
+Price to Book,14.131799
+Price to Earnings,"PriceToEarnings(trailing_pe=46.06399, forward_pe=23.676485)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.47, forward_eps=20.37)"
+Enterprise to Revenue,10.701
 
 CASH FLOW
-Free to Cash Flow,6610625024.0
-Operating to Cash Flow,7302000128.0
+Free to Cash Flow,6730375168.0
+Operating to Cash Flow,6783000064.0
 
 PROFITABILITY
-Return on Equity,0.35513002
-Return on Assets,0.14598
-Return on Invested Capital,1.3303920822800923
-Return on Investment,-0.405074607761194
+Return on Equity,0.32367
+Return on Assets,0.15724
+Return on Invested Capital,1.174987700808026
+Return on Investment,-0.600124992
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0012
 SUM DIVIDEND SCORE,0.0012
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,250.22999999999996
+Recommendation Key,1
+SUM ANALYST RATING SCORE,251.22999999999996
 
 
 

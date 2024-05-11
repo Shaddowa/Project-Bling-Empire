@@ -5,63 +5,68 @@ Country,United States
 Industry,REIT—Healthcare Facilities
 Sector,Real Estate
 Website,https://www.welltower.com
-Price,87.22
+Price,98.55
 Currency,USD
 
 REVENUE
-Total Revenue,6322204160.0
-Revenue Per Share,12.665
-Revenue Growth,0.128
+Total Revenue,6937007104.0
+Revenue Per Share,12.939
+Revenue Growth,0.192
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=1.2)"
-Net Earnings,252455008.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.86, forward_eps=1.69)"
+Net Earnings,441567008.0
+Earnings Growth,3.231
 
 DEBT
-Total Debt,16276159488.0
-Debt to Equity,68.334
+Total Debt,14605725696.0
+Debt to Equity,51.162
 
 MARGINS
-Profit Margins,0.03993
-Gross Profit Margins,0.40155
-Operating Margins,0.16386999
+Profit Margins,0.06365
+Gross Profit Margins,0.41245997
+Operating Margins,0.18424
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.44
-Dividend Yield,0.0279
-Dividend Payout Ratio,4.6038
-Five Year Avg Dividend Yield,3.83
+Dividend Yield,0.0247
+Dividend Payout Ratio,2.8372
+Five Year Avg Dividend Yield,3.7
 Trailing Annual Dividend Rate,2.44
-Trailing Annual Dividend Yield,0.027975235
+Trailing Annual Dividend Yield,0.024759006
 
 FINANCIAL RATIO
-Debt to Equity,68.334
-Price to Cash Flow,3.535092766788722e-08
-Enterprise to EBITDA,25.579
-Price to Book,2.0264347
-Price to Earnings,"PriceToEarnings(trailing_pe=164.8868, forward_pe=72.825)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=1.2)"
-Enterprise to Revenue,9.711
+Debt to Equity,51.162
+Price to Cash Flow,6.730004367781687e-08
+Enterprise to EBITDA,48.332
+Price to Book,2.1199965
+Price to Earnings,"PriceToEarnings(trailing_pe=114.9186, forward_pe=58.47929)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.86, forward_eps=1.69)"
+Enterprise to Revenue,18.942
 
 CASH FLOW
-Free to Cash Flow,2472070912.0
-Operating to Cash Flow,1484744960.0
+Free to Cash Flow,1468498304.0
+Operating to Cash Flow,1632609024.0
 
 PROFITABILITY
-Return on Equity,0.012259999
-Return on Assets,0.01581
-Return on Invested Capital,0.015510723369184772
-Return on Investment,0.002211778113424425
+Return on Equity,0.01839
+Return on Assets,0.01874
+Return on Invested Capital,0.03023245922738047
+Return on Investment,0.003782647760010074
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0383
-SUM DIVIDEND SCORE,4.0383
+5 Year Average,0.037000000000000005
+SUM DIVIDEND SCORE,4.037
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,30.17
+Recommendation Key,1
+SUM ANALYST RATING SCORE,31.17
 
 
 

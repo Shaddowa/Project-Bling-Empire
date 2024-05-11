@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.ti.com
-Price,167.42
+Price,185.32
 Currency,USD
 
 REVENUE
-Total Revenue,17518999552.0
-Revenue Per Share,19.294
-Revenue Growth,-0.127
+Total Revenue,16801000448.0
+Revenue Per Share,18.488
+Revenue Growth,-0.164
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=6.6)"
-Net Earnings,6510000128.0
-Earnings Growth,-0.302
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.42, forward_eps=6.4)"
+Net Earnings,5877000192.0
+Earnings Growth,-0.351
 
 DEBT
-Total Debt,11223000064.0
-Debt to Equity,66.42
+Total Debt,14188999680.0
+Debt to Equity,83.548
 
 MARGINS
-Profit Margins,0.3716
-Gross Profit Margins,0.62896997
-Operating Margins,0.37601003
+Profit Margins,0.35159
+Gross Profit Margins,0.61014
+Operating Margins,0.31658
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.2
-Dividend Yield,0.0317
-Dividend Payout Ratio,0.71
-Five Year Avg Dividend Yield,2.61
-Trailing Annual Dividend Rate,5.02
-Trailing Annual Dividend Yield,0.02998447
+Dividend Yield,0.0278
+Dividend Payout Ratio,0.7913
+Five Year Avg Dividend Yield,2.64
+Trailing Annual Dividend Rate,5.08
+Trailing Annual Dividend Yield,0.027412042
 
 FINANCIAL RATIO
-Debt to Equity,66.42
-Price to Cash Flow,-4.188640543667521e-07
-Enterprise to EBITDA,17.847
-Price to Book,8.827263
-Price to Earnings,"PriceToEarnings(trailing_pe=23.209333, forward_pe=24.862122)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=6.6)"
-Enterprise to Revenue,8.665
+Debt to Equity,83.548
+Price to Cash Flow,-1.1752140403729282e-07
+Enterprise to EBITDA,22.321
+Price to Book,10.022505
+Price to Earnings,"PriceToEarnings(trailing_pe=29.135513, forward_pe=29.226562)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.42, forward_eps=6.4)"
+Enterprise to Revenue,10.363
 
 CASH FLOW
-Free to Cash Flow,-391750016.0
-Operating to Cash Flow,6419999744.0
+Free to Cash Flow,-1591624960.0
+Operating to Cash Flow,6277000192.0
 
 PROFITABILITY
-Return on Equity,0.41367
-Return on Assets,0.15387
-Return on Invested Capital,0.5800588149419516
-Return on Investment,-0.015281690441314553
+Return on Equity,0.3666
+Return on Assets,0.1276
+Return on Invested Capital,0.4141941163444931
+Return on Investment,-0.012959206597574421
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.026099999999999998
-SUM DIVIDEND SCORE,8.0261
+5 Year Average,0.0264
+SUM DIVIDEND SCORE,8.0264
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,37.94999999999999
+Recommendation Key,0
+SUM ANALYST RATING SCORE,37.94999999999999
 
 
 

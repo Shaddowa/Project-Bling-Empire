@@ -5,63 +5,68 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.xcelenergy.com
-Price,58.89
+Price,55.24
 Currency,USD
 
 REVENUE
-Total Revenue,14206000128.0
-Revenue Per Share,25.736
-Revenue Growth,-0.151
+Total Revenue,13774999552.0
+Revenue Per Share,24.898
+Revenue Growth,-0.106
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=3.83)"
-Net Earnings,1771000064.0
-Earnings Growth,0.069
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.33, forward_eps=3.85)"
+Net Earnings,1840999936.0
+Earnings Growth,0.157
 
 DEBT
-Total Debt,27185999872.0
-Debt to Equity,157.063
+Total Debt,28682000384.0
+Debt to Equity,160.765
 
 MARGINS
-Profit Margins,0.12467
-Gross Profit Margins,0.40075
-Operating Margins,0.18826
+Profit Margins,0.13365
+Gross Profit Margins,0.43985
+Operating Margins,0.18745
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.08
-Dividend Yield,0.035
-Dividend Payout Ratio,0.648
-Five Year Avg Dividend Yield,2.75
-Trailing Annual Dividend Rate,2.08
-Trailing Annual Dividend Yield,0.03532009
+Dividend Rate,2.19
+Dividend Yield,0.0395
+Dividend Payout Ratio,0.6329
+Five Year Avg Dividend Yield,2.82
+Trailing Annual Dividend Rate,2.108
+Trailing Annual Dividend Yield,0.038160753
 
 FINANCIAL RATIO
-Debt to Equity,157.063
-Price to Cash Flow,None
-Enterprise to EBITDA,11.56
-Price to Book,1.892848
-Price to Earnings,"PriceToEarnings(trailing_pe=18.501556, forward_pe=15.506528)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=3.83)"
-Enterprise to Revenue,4.176
+Debt to Equity,160.765
+Price to Cash Flow,-2.9789176593728038e-08
+Enterprise to EBITDA,11.104
+Price to Book,1.7267038
+Price to Earnings,"PriceToEarnings(trailing_pe=16.654655, forward_pe=14.405195)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.33, forward_eps=3.85)"
+Enterprise to Revenue,4.28
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,-1861750016.0
+Operating to Cash Flow,4840000000.0
 
 PROFITABILITY
-Return on Equity,0.10423
-Return on Assets,None
-Return on Invested Capital,0.06514382661275867
-Return on Investment,-0.0049221791662034465
+Return on Equity,0.10624
+Return on Assets,0.02686
+Return on Invested Capital,0.06418659470367263
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0275
-SUM DIVIDEND SCORE,4.0275
+5 Year Average,0.0282
+SUM DIVIDEND SCORE,8.0282
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,16.54
+Recommendation Key,1
+SUM ANALYST RATING SCORE,17.54
 
 
 
@@ -71,10 +76,10 @@ Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
-Free Cash Flow,True
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

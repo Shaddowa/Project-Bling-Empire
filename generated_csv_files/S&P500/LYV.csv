@@ -5,27 +5,27 @@ Country,United States
 Industry,Entertainment
 Sector,Communication Services
 Website,https://www.livenationentertainment.com
-Price,89.78
+Price,97.03
 Currency,USD
 
 REVENUE
-Total Revenue,21200869376.0
-Revenue Per Share,92.949
-Revenue Growth,0.325
+Total Revenue,23421212672.0
+Revenue Per Share,102.296
+Revenue Growth,0.215
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=2.22)"
-Net Earnings,349491008.0
-Earnings Growth,0.281
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=2.49)"
+Net Earnings,252102000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,8420724224.0
-Debt to Equity,495.122
+Total Debt,8021221888.0
+Debt to Equity,552.146
 
 MARGINS
-Profit Margins,0.02693
-Gross Profit Margins,0.24991
-Operating Margins,0.075679995
+Profit Margins,0.02219
+Gross Profit Margins,0.23903
+Operating Margins,0.03917
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,495.122
-Price to Cash Flow,6.850870694795925e-08
-Enterprise to EBITDA,15.287
-Price to Book,91.95674
-Price to Earnings,"PriceToEarnings(trailing_pe=59.52667, forward_pe=40.220722)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.5, forward_eps=2.22)"
-Enterprise to Revenue,1.148
+Debt to Equity,552.146
+Price to Cash Flow,1.2601069356202613e-07
+Enterprise to EBITDA,15.545
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=89.00917, forward_pe=38.963856)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=2.49)"
+Enterprise to Revenue,1.083
 
 CASH FLOW
-Free to Cash Flow,1303337984.0
-Operating to Cash Flow,1666146944.0
+Free to Cash Flow,769934656.0
+Operating to Cash Flow,1203815936.0
 
 PROFITABILITY
-Return on Equity,0.55486
-Return on Assets,0.03858
-Return on Invested Capital,0.0415036757721636
-Return on Investment,0.019601070543235635
+Return on Equity,0.58682996
+Return on Assets,0.03529
+Return on Invested Capital,0.03142937616436344
+Return on Investment,0.014056974624044429
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,13 +63,18 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.980000000000004
+Recommendation Key,1
+SUM ANALYST RATING SCORE,35.980000000000004
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,True
-Total Revenue,True
+Earnings,True
+Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

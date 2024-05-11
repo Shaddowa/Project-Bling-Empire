@@ -5,71 +5,76 @@ Country,United States
 Industry,Chemicals
 Sector,Basic Materials
 Website,https://www.celanese.com
-Price,145.37
+Price,161.42
 Currency,USD
 
 REVENUE
-Total Revenue,10718999552.0
-Revenue Per Share,98.576
-Revenue Growth,0.183
+Total Revenue,10698000384.0
+Revenue Per Share,98.17
+Revenue Growth,-0.085
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.59, forward_eps=11.89)"
-Net Earnings,2032999936.0
-Earnings Growth,3.964
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.24, forward_eps=13.81)"
+Net Earnings,1996000000.0
+Earnings Growth,0.321
 
 DEBT
-Total Debt,14120999936.0
-Debt to Equity,203.209
+Total Debt,13752999936.0
+Debt to Equity,182.619
 
 MARGINS
-Profit Margins,0.18929
-Gross Profit Margins,0.22148001
-Operating Margins,0.13036999
+Profit Margins,0.18601999
+Gross Profit Margins,0.23621
+Operating Margins,0.08005
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.019199999
-Dividend Payout Ratio,0.1506
-Five Year Avg Dividend Yield,2.18
+Dividend Yield,0.0179
+Dividend Payout Ratio,0.1535
+Five Year Avg Dividend Yield,2.16
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.019261196
+Trailing Annual Dividend Yield,0.017346054
 
 FINANCIAL RATIO
-Debt to Equity,203.209
-Price to Cash Flow,-5.193780394312773e-07
-Enterprise to EBITDA,17.035
-Price to Book,2.4507797
-Price to Earnings,"PriceToEarnings(trailing_pe=7.8612156, forward_pe=12.291)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.59, forward_eps=11.89)"
-Enterprise to Revenue,2.718
+Debt to Equity,182.619
+Price to Cash Flow,None
+Enterprise to EBITDA,16.602
+Price to Book,2.417608
+Price to Earnings,"PriceToEarnings(trailing_pe=8.590461, forward_pe=11.346126)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=18.24, forward_eps=13.81)"
+Enterprise to Revenue,2.788
 
 CASH FLOW
-Free to Cash Flow,-281375008.0
-Operating to Cash Flow,1610000000.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.3326
-Return on Assets,0.02813
-Return on Invested Capital,0.14396996931018688
+Return on Equity,0.29295
+Return on Assets,0.02664
+Return on Invested Capital,0.14513197119771343
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0218
-SUM DIVIDEND SCORE,4.0218
+5 Year Average,0.0216
+SUM DIVIDEND SCORE,7.0216
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,40.31
+Recommendation Key,0
+SUM ANALYST RATING SCORE,40.31
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

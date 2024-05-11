@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,CFG
 Company,"Citizens Financial Group, Inc."
 Country,United States
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.citizensbank.com
-Price,33.6
+Price,36.02
 Currency,USD
 
 REVENUE
-Total Revenue,7536999936.0
-Revenue Per Share,15.864
-Revenue Growth,-0.108
+Total Revenue,7365000192.0
+Revenue Per Share,15.701
+Revenue Growth,-0.088
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=4.08)"
-Net Earnings,1491000064.0
-Earnings Growth,-0.728
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.78, forward_eps=4.03)"
+Net Earnings,1307000064.0
+Earnings Growth,-0.35
 
 DEBT
-Total Debt,15534000128.0
+Total Debt,15518000128.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.21335
+Profit Margins,0.1943
 Gross Profit Margins,0.0
-Operating Margins,0.11557999
+Operating Margins,0.24049
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.68
-Dividend Yield,0.05
-Dividend Payout Ratio,0.5367
-Five Year Avg Dividend Yield,4.41
+Dividend Yield,0.0466
+Dividend Payout Ratio,0.6043
+Five Year Avg Dividend Yield,4.53
 Trailing Annual Dividend Rate,1.68
-Trailing Annual Dividend Yield,0.05
+Trailing Annual Dividend Yield,0.046640754
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.70167744
-Price to Earnings,"PriceToEarnings(trailing_pe=10.731629, forward_pe=8.232843)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=4.08)"
-Enterprise to Revenue,2.752
+Price to Book,0.7602463
+Price to Earnings,"PriceToEarnings(trailing_pe=12.971224, forward_pe=8.94789)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.78, forward_eps=4.03)"
+Enterprise to Revenue,2.916
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,2360999936.0
 
 PROFITABILITY
-Return on Equity,0.06696
-Return on Assets,0.00717
-Return on Invested Capital,0.09598300805454953
-Return on Investment,0.004626124927086565
+Return on Equity,0.05967
+Return on Assets,0.0064600003
+Return on Invested Capital,0.08422477440548264
+Return on Investment,0.0030810939745403113
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,3.0
-Payout Ratio,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0441
-SUM DIVIDEND SCORE,7.0441
+5 Year Average,0.0453
+SUM DIVIDEND SCORE,4.0453
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,6.939999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,7.939999999999998
 
 
 

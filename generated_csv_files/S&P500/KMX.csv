@@ -5,27 +5,27 @@ Country,United States
 Industry,Auto & Truck Dealerships
 Sector,Consumer Cyclical
 Website,https://www.carmax.com
-Price,69.08
+Price,71.04
 Currency,USD
 
 REVENUE
-Total Revenue,28248430592.0
-Revenue Per Share,178.474
-Revenue Growth,-0.043
+Total Revenue,28213440512.0
+Revenue Per Share,178.322
+Revenue Growth,-0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=3.44)"
-Net Earnings,497948000.0
-Earnings Growth,1.176
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.02, forward_eps=3.69)"
+Net Earnings,479204000.0
+Earnings Growth,-0.254
 
 DEBT
-Total Debt,19711006720.0
-Debt to Equity,326.105
+Total Debt,19530113024.0
+Debt to Equity,321.55
 
 MARGINS
-Profit Margins,0.01763
-Gross Profit Margins,0.116210006
-Operating Margins,0.021429999
+Profit Margins,0.01698
+Gross Profit Margins,0.11630999
+Operating Margins,0.01508
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,326.105
-Price to Cash Flow,9.657523898480262e-07
-Enterprise to EBITDA,29.825
-Price to Book,1.8329412
-Price to Earnings,"PriceToEarnings(trailing_pe=22.39936, forward_pe=20.380814)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.13, forward_eps=3.44)"
-Enterprise to Revenue,1.068
+Debt to Equity,321.55
+Price to Cash Flow,1.3372431530912808e-07
+Enterprise to EBITDA,30.373
+Price to Book,1.8608574
+Price to Earnings,"PriceToEarnings(trailing_pe=23.745033, forward_pe=19.433603)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.02, forward_eps=3.69)"
+Enterprise to Revenue,1.072
 
 CASH FLOW
-Free to Cash Flow,72596248.0
-Operating to Cash Flow,-229766000.0
+Free to Cash Flow,536252512.0
+Operating to Cash Flow,458616992.0
 
 PROFITABILITY
-Return on Equity,0.08636
-Return on Assets,0.018099999
-Return on Invested Capital,0.0252624336294535
-Return on Investment,0.004915470740023415
+Return on Equity,0.08201
+Return on Assets,0.01771
+Return on Invested Capital,0.024536673109140466
+Return on Investment,0.004209108005055806
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.290000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,34.290000000000006
 
 
 

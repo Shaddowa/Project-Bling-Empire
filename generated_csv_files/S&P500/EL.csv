@@ -5,63 +5,68 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.elcompanies.com
-Price,128.66
+Price,131.66
 Currency,USD
 
 REVENUE
-Total Revenue,15498000384.0
-Revenue Per Share,43.287
-Revenue Growth,-0.105
+Total Revenue,15345999872.0
+Revenue Per Share,42.788
+Revenue Growth,0.05
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=4.14)"
-Net Earnings,548000000.0
-Earnings Growth,-0.936
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.78, forward_eps=4.24)"
+Net Earnings,641000000.0
+Earnings Growth,1.116
 
 DEBT
-Total Debt,10311999488.0
-Debt to Equity,167.185
+Total Debt,9840000000.0
+Debt to Equity,149.453
 
 MARGINS
-Profit Margins,0.03536
-Gross Profit Margins,0.7028
-Operating Margins,0.025009999
+Profit Margins,0.04177
+Gross Profit Margins,0.70774
+Operating Margins,0.14036
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.64
-Dividend Yield,0.0202
-Dividend Payout Ratio,1.7255
-Five Year Avg Dividend Yield,0.97
+Dividend Yield,0.02
+Dividend Payout Ratio,1.4830999
+Five Year Avg Dividend Yield,1.02
 Trailing Annual Dividend Rate,2.64
-Trailing Annual Dividend Yield,0.020519199
+Trailing Annual Dividend Yield,0.020051649
 
 FINANCIAL RATIO
-Debt to Equity,167.185
-Price to Cash Flow,-8.620150066320851e-08
-Enterprise to EBITDA,27.845
-Price to Book,8.762058
-Price to Earnings,"PriceToEarnings(trailing_pe=85.4902, forward_pe=31.594204)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=4.14)"
+Debt to Equity,149.453
+Price to Cash Flow,-1.0981697171381032e-07
+Enterprise to EBITDA,26.161
+Price to Book,8.2397
+Price to Earnings,"PriceToEarnings(trailing_pe=74.1573, forward_pe=31.132076)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.78, forward_eps=4.24)"
 Enterprise to Revenue,3.539
 
 CASH FLOW
-Free to Cash Flow,-1517374976.0
-Operating to Cash Flow,1972999936.0
+Free to Cash Flow,-1202000000.0
+Operating to Cash Flow,2184999936.0
 
 PROFITABILITY
-Return on Equity,0.08901
-Return on Assets,0.03521
-Return on Invested Capital,0.053141973081399035
-Return on Investment,-0.0019405099150141642
+Return on Equity,0.09985
+Return on Assets,0.034849998
+Return on Invested Capital,0.06514227631670942
+Return on Investment,-0.002504884720593982
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0097
-SUM DIVIDEND SCORE,4.0097
+5 Year Average,0.0102
+SUM DIVIDEND SCORE,4.0102
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,63.0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,64.0
 
 
 

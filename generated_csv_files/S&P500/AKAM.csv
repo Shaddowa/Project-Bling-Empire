@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,AKAM
 Company,"Akamai Technologies, Inc."
 Country,United States
-Industry,Software - Infrastructure
+Industry,Software—Infrastructure
 Sector,Technology
 Website,https://www.akamai.com
-Price,123.66
+Price,102.46
 Currency,USD
 
 REVENUE
-Total Revenue,3744681984.0
-Revenue Per Share,24.309
-Revenue Growth,0.095
+Total Revenue,3883192064.0
+Revenue Per Share,25.63
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.72)"
-Net Earnings,515225984.0
-Earnings Growth,0.334
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.01, forward_eps=7.33)"
+Net Earnings,625940992.0
+Earnings Growth,0.79
 
 DEBT
-Total Debt,4502085120.0
-Debt to Equity,104.114
+Total Debt,4572958208.0
+Debt to Equity,98.688
 
 MARGINS
-Profit Margins,0.13758999
-Gross Profit Margins,0.60707
-Operating Margins,0.18827
+Profit Margins,0.16118999
+Gross Profit Margins,0.60308
+Operating Margins,0.16948
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,104.114
-Price to Cash Flow,2.320408595858421e-07
-Enterprise to EBITDA,20.249
-Price to Book,4.2960377
-Price to Earnings,"PriceToEarnings(trailing_pe=37.17825, forward_pe=18.3125)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=6.72)"
-Enterprise to Revenue,5.908
+Debt to Equity,98.688
+Price to Cash Flow,1.7467767056432653e-07
+Enterprise to EBITDA,14.964
+Price to Book,2.983966
+Price to Earnings,"PriceToEarnings(trailing_pe=22.740648, forward_pe=12.440656)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.01, forward_eps=7.33)"
+Enterprise to Revenue,4.307
 
 CASH FLOW
-Free to Cash Flow,530337632.0
-Operating to Cash Flow,1300743936.0
+Free to Cash Flow,522047264.0
+Operating to Cash Flow,1466818048.0
 
 PROFITABILITY
-Return on Equity,0.12042
-Return on Assets,0.04917
-Return on Invested Capital,0.11444163470676878
-Return on Investment,-0.007530881106656279
+Return on Equity,0.14218001
+Return on Assets,0.048520003
+Return on Invested Capital,0.13687879034668496
+Return on Investment,-0.009813186842819002
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,58.81
+Recommendation Key,1
+SUM ANALYST RATING SCORE,59.81
 
 
 

@@ -5,63 +5,68 @@ Country,Ireland
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.accenture.com
-Price,371.94
+Price,306.61
 Currency,USD
 
 REVENUE
-Total Revenue,64588247040.0
-Revenue Per Share,102.509
-Revenue Growth,0.03
+Total Revenue,64573603840.0
+Revenue Per Share,102.561
+Revenue Growth,-0.001
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.8, forward_eps=13.54)"
-Net Earnings,6880051200.0
-Earnings Growth,0.006
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.03, forward_eps=13.12)"
+Net Earnings,7031262208.0
+Earnings Growth,0.101
 
 DEBT
-Total Debt,3080221952.0
-Debt to Equity,11.207
+Total Debt,3158580992.0
+Debt to Equity,11.298
 
 MARGINS
-Profit Margins,0.106520005
-Gross Profit Margins,0.32502997
-Operating Margins,0.1667
+Profit Margins,0.10889
+Gross Profit Margins,0.32578
+Operating Margins,0.13683
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.16
-Dividend Yield,0.0139
-Dividend Payout Ratio,0.431
-Five Year Avg Dividend Yield,1.36
-Trailing Annual Dividend Rate,4.82
-Trailing Annual Dividend Yield,0.01295908
+Dividend Yield,0.0168
+Dividend Payout Ratio,0.437
+Five Year Avg Dividend Yield,1.34
+Trailing Annual Dividend Rate,4.99
+Trailing Annual Dividend Yield,0.016274747
 
 FINANCIAL RATIO
-Debt to Equity,11.207
-Price to Cash Flow,4.208531118909138e-08
-Enterprise to EBITDA,20.294
-Price to Book,8.721414
-Price to Earnings,"PriceToEarnings(trailing_pe=34.358334, forward_pe=27.405466)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.8, forward_eps=13.54)"
-Enterprise to Revenue,3.552
+Debt to Equity,11.298
+Price to Cash Flow,3.591784263478974e-08
+Enterprise to EBITDA,16.978
+Price to Book,7.1021514
+Price to Earnings,"PriceToEarnings(trailing_pe=27.772438, forward_pe=23.348322)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.03, forward_eps=13.12)"
+Enterprise to Revenue,2.965
 
 CASH FLOW
-Free to Cash Flow,8817090560.0
-Operating to Cash Flow,9527420928.0
+Free to Cash Flow,8528630272.0
+Operating to Cash Flow,9298353152.0
 
 PROFITABILITY
-Return on Equity,0.27437
-Return on Assets,0.12973
-Return on Invested Capital,2.233621866274554
-Return on Investment,-0.17695832508134107
+Return on Equity,0.27381
+Return on Assets,0.12888
+Return on Invested Capital,2.2260825762560046
+Return on Investment,-0.1785817165149545
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.013600000000000001
-SUM DIVIDEND SCORE,9.0136
+5 Year Average,0.0134
+SUM DIVIDEND SCORE,9.0134
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,133.67000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,134.67000000000002
 
 
 

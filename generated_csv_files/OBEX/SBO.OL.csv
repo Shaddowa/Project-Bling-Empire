@@ -5,63 +5,68 @@ Country,Norway
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.selvaagboligasa.no
-Price,31.9
+Price,36.35
 Currency,NOK
 
 REVENUE
-Total Revenue,2672710912.0
-Revenue Per Share,28.594
-Revenue Growth,-0.518
+Total Revenue,3249814016.0
+Revenue Per Share,34.743
+Revenue Growth,0.868
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.94, forward_eps=2.77)"
-Net Earnings,181732000.0
-Earnings Growth,-0.753
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.62, forward_eps=2.41)"
+Net Earnings,244632992.0
+Earnings Growth,1.424
 
 DEBT
-Total Debt,2175415040.0
-Debt to Equity,99.888
+Total Debt,1421142016.0
+Debt to Equity,61.602
 
 MARGINS
-Profit Margins,0.068
-Gross Profit Margins,0.19603
-Operating Margins,0.066199996
+Profit Margins,0.075279996
+Gross Profit Margins,0.17621
+Operating Margins,0.09686
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.0
-Dividend Yield,0.0938
-Dividend Payout Ratio,1.5464
-Five Year Avg Dividend Yield,10.18
-Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.09404389
+Dividend Rate,2.0
+Dividend Yield,0.0556
+Dividend Payout Ratio,1.145
+Five Year Avg Dividend Yield,10.15
+Trailing Annual Dividend Rate,2.0
+Trailing Annual Dividend Yield,0.055020634
 
 FINANCIAL RATIO
-Debt to Equity,99.888
-Price to Cash Flow,1.514187253178014e-07
-Enterprise to EBITDA,18.581
-Price to Book,1.3699803
-Price to Earnings,"PriceToEarnings(trailing_pe=16.494844, forward_pe=11.552346)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.94, forward_eps=2.77)"
-Enterprise to Revenue,1.857
+Debt to Equity,61.602
+Price to Cash Flow,3.373285628777743e-08
+Enterprise to EBITDA,14.346
+Price to Book,1.466216
+Price to Earnings,"PriceToEarnings(trailing_pe=13.7404585, forward_pe=14.937758)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.62, forward_eps=2.41)"
+Enterprise to Revenue,1.395
 
 CASH FLOW
-Free to Cash Flow,211334496.0
-Operating to Cash Flow,330119008.0
+Free to Cash Flow,1067208768.0
+Operating to Cash Flow,1196612992.0
 
 PROFITABILITY
-Return on Equity,0.081429996
-Return on Assets,0.02884
-Return on Invested Capital,0.08353900046985795
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.105170004
+Return on Assets,0.0367
+Return on Invested Capital,0.17213831201897842
+Return on Investment,0.19444638105079087
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.1018
-SUM DIVIDEND SCORE,4.1018
+5 Year Average,0.1015
+SUM DIVIDEND SCORE,7.1015
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,2.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,2.0
 
 
 

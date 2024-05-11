@@ -5,68 +5,73 @@ Country,Norway
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.atea.com
-Price,140.6
+Price,144.0
 Currency,NOK
 
 REVENUE
-Total Revenue,35124998144.0
-Revenue Per Share,318.021
-Revenue Growth,-0.042
+Total Revenue,33617999872.0
+Revenue Per Share,302.483
+Revenue Growth,-0.125
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.58, forward_eps=8.88)"
-Net Earnings,850000000.0
-Earnings Growth,-0.074
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.59, forward_eps=9.62)"
+Net Earnings,817000000.0
+Earnings Growth,0.089
 
 DEBT
-Total Debt,2729999872.0
-Debt to Equity,64.799
+Total Debt,2528999936.0
+Debt to Equity,56.063
 
 MARGINS
-Profit Margins,0.0242
-Gross Profit Margins,0.28652
-Operating Margins,0.03849
+Profit Margins,0.024300002
+Gross Profit Margins,0.30629
+Operating Margins,0.03366
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.25
-Dividend Yield,0.043899998
+Dividend Rate,7.0
+Dividend Yield,0.0476
 Dividend Payout Ratio,0.7751
-Five Year Avg Dividend Yield,4.64
-Trailing Annual Dividend Rate,6.25
-Trailing Annual Dividend Yield,0.044452347
+Five Year Avg Dividend Yield,4.59
+Trailing Annual Dividend Rate,7.0
+Trailing Annual Dividend Yield,0.048611112
 
 FINANCIAL RATIO
-Debt to Equity,64.799
-Price to Cash Flow,9.64769647696477e-08
-Enterprise to EBITDA,11.212
-Price to Book,3.7534924
-Price to Earnings,"PriceToEarnings(trailing_pe=18.78628, forward_pe=16.036036)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.58, forward_eps=8.88)"
-Enterprise to Revenue,0.499
+Debt to Equity,56.063
+Price to Cash Flow,5.547169811320755e-07
+Enterprise to EBITDA,12.075
+Price to Book,3.632769
+Price to Earnings,"PriceToEarnings(trailing_pe=19.367588, forward_pe=15.280665)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.59, forward_eps=9.62)"
+Enterprise to Revenue,0.538
 
 CASH FLOW
-Free to Cash Flow,1476000000.0
-Operating to Cash Flow,1894000000.0
+Free to Cash Flow,265000000.0
+Operating to Cash Flow,770000000.0
 
 PROFITABILITY
-Return on Equity,0.21019
-Return on Assets,0.05199
-Return on Invested Capital,0.31135532162684354
-Return on Investment,0.11333333333333333
+Return on Equity,0.18728
+Return on Assets,0.047420003
+Return on Invested Capital,0.32305259296284805
+Return on Investment,0.10893333333333333
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0464
-SUM DIVIDEND SCORE,4.0464
+5 Year Average,0.045899999999999996
+SUM DIVIDEND SCORE,4.0459
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,51.0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,52.0
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

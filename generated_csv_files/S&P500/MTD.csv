@@ -5,27 +5,27 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.mt.com
-Price,1202.45
+Price,1290.42
 Currency,USD
 
 REVENUE
-Total Revenue,3911002112.0
-Revenue Per Share,177.757
-Revenue Growth,-0.044
+Total Revenue,3788308992.0
+Revenue Per Share,173.393
+Revenue Growth,-0.116
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=39.2, forward_eps=39.4)"
-Net Earnings,869817984.0
-Earnings Growth,-0.056
+Earnings Per Share,"EarningsPerShare(trailing_eps=35.62, forward_eps=44.44)"
+Net Earnings,788777984.0
+Earnings Growth,-0.282
 
 DEBT
-Total Debt,2108483968.0
+Total Debt,2196284928.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.2224
-Gross Profit Margins,0.59366
-Operating Margins,0.29657
+Profit Margins,0.20820999
+Gross Profit Margins,0.59163
+Operating Margins,0.28430998
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.8392883731993113e-06
-Enterprise to EBITDA,22.876
+Price to Cash Flow,2.0642119626141083e-06
+Enterprise to EBITDA,25.637
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=31.057907, forward_pe=30.900251)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=39.2, forward_eps=39.4)"
-Enterprise to Revenue,7.271
+Price to Earnings,"PriceToEarnings(trailing_pe=42.398933, forward_pe=33.984024)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=35.62, forward_eps=44.44)"
+Enterprise to Revenue,7.878
 
 CASH FLOW
-Free to Cash Flow,661924480.0
-Operating to Cash Flow,988012032.0
+Free to Cash Flow,731635136.0
+Operating to Cash Flow,965873984.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.22172001
-Return on Invested Capital,0.41253241628365833
-Return on Investment,0.19725105653445812
+Return on Assets,0.19847
+Return on Invested Capital,0.35914192026974723
+Return on Investment,0.15964257200105245
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

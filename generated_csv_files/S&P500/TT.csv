@@ -5,70 +5,75 @@ Country,Ireland
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.tranetechnologies.com
-Price,252.12
+Price,332.92
 Currency,USD
 
 REVENUE
-Total Revenue,17327300608.0
-Revenue Per Share,75.616
-Revenue Growth,0.117
+Total Revenue,18227300352.0
+Revenue Per Share,79.9
+Revenue Growth,0.15
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.58, forward_eps=10.04)"
-Net Earnings,1981799936.0
-Earnings Growth,0.156
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.46, forward_eps=11.69)"
+Net Earnings,2180199936.0
+Earnings Growth,0.43
 
 DEBT
-Total Debt,4824600064.0
-Debt to Equity,72.005
+Total Debt,4880799744.0
+Debt to Equity,70.626
 
 MARGINS
-Profit Margins,0.11304
-Gross Profit Margins,0.32349998
-Operating Margins,0.17602
+Profit Margins,0.11813
+Gross Profit Margins,0.3387
+Operating Margins,0.14971
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.0
-Dividend Yield,0.0119
-Dividend Payout Ratio,0.3407
-Five Year Avg Dividend Yield,1.6
-Trailing Annual Dividend Rate,2.92
-Trailing Annual Dividend Yield,0.011581787
+Dividend Rate,3.36
+Dividend Yield,0.0101
+Dividend Payout Ratio,0.3266
+Five Year Avg Dividend Yield,1.55
+Trailing Annual Dividend Rate,3.09
+Trailing Annual Dividend Yield,0.009281509
 
 FINANCIAL RATIO
-Debt to Equity,72.005
-Price to Cash Flow,1.6936701066632233e-07
-Enterprise to EBITDA,20.151
-Price to Book,8.574594
-Price to Earnings,"PriceToEarnings(trailing_pe=29.313519, forward_pe=25.050797)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.58, forward_eps=10.04)"
-Enterprise to Revenue,3.527
+Debt to Equity,70.626
+Price to Cash Flow,1.7424827536722328e-07
+Enterprise to EBITDA,23.817
+Price to Book,10.923629
+Price to Earnings,"PriceToEarnings(trailing_pe=35.093025, forward_pe=28.398634)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.46, forward_eps=11.69)"
+Enterprise to Revenue,4.345
 
 CASH FLOW
-Free to Cash Flow,1484999936.0
-Operating to Cash Flow,2215099904.0
+Free to Cash Flow,1905212544.0
+Operating to Cash Flow,2628300032.0
 
 PROFITABILITY
-Return on Equity,0.31844
-Return on Assets,0.0932
-Return on Invested Capital,0.41076978353895344
-Return on Investment,0.12401751789737171
+Return on Equity,0.33898997
+Return on Assets,0.10077
+Return on Invested Capital,0.4466890749010563
+Return on Investment,0.134083636900369
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.016
-SUM DIVIDEND SCORE,8.016
+5 Year Average,0.0155
+SUM DIVIDEND SCORE,8.0155
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.01999999999998
+Recommendation Key,0
+SUM ANALYST RATING SCORE,34.01999999999998
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,True
+Earnings,True
+Revenue,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,2.0
 

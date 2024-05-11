@@ -5,63 +5,68 @@ Country,United States
 Industry,Tobacco
 Sector,Consumer Defensive
 Website,https://www.pmi.com
-Price,91.21
+Price,99.46
 Currency,USD
 
 REVENUE
-Total Revenue,34279000064.0
-Revenue Per Share,22.094
-Revenue Growth,0.138
+Total Revenue,35947999232.0
+Revenue Per Share,23.159
+Revenue Growth,0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.15, forward_eps=6.57)"
-Net Earnings,7991000064.0
-Earnings Growth,-0.015
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.12, forward_eps=6.89)"
+Net Earnings,7944000000.0
+Earnings Growth,0.078
 
 DEBT
-Total Debt,47805001728.0
+Total Debt,50458001408.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.23379
-Gross Profit Margins,0.63578
-Operating Margins,0.35904
+Profit Margins,0.2216
+Gross Profit Margins,0.63689
+Operating Margins,0.30854
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.2
-Dividend Yield,0.0572
-Dividend Payout Ratio,0.9922
-Five Year Avg Dividend Yield,5.48
-Trailing Annual Dividend Rate,5.11
-Trailing Annual Dividend Yield,0.056024563
+Dividend Yield,0.052199997
+Dividend Payout Ratio,1.0098001
+Five Year Avg Dividend Yield,5.5
+Trailing Annual Dividend Rate,5.17
+Trailing Annual Dividend Yield,0.051980697
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.62406153161957e-08
-Enterprise to EBITDA,13.945
+Price to Cash Flow,1.327384168861261e-08
+Enterprise to EBITDA,14.487
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=17.640776, forward_pe=13.828006)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.15, forward_eps=6.57)"
-Enterprise to Revenue,5.471
+Price to Earnings,"PriceToEarnings(trailing_pe=19.464846, forward_pe=14.464442)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.12, forward_eps=6.89)"
+Enterprise to Revenue,5.652
 
 CASH FLOW
-Free to Cash Flow,5593999872.0
-Operating to Cash Flow,8995000320.0
+Free to Cash Flow,7507999744.0
+Operating to Cash Flow,10400000000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.1461
-Return on Invested Capital,0.16715824236306617
-Return on Investment,0.08695321070729053
+Return on Assets,0.12324
+Return on Invested Capital,0.15743786474635255
+Return on Investment,0.04589254766031196
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0548
-SUM DIVIDEND SCORE,8.0548
+5 Year Average,0.055
+SUM DIVIDEND SCORE,8.055
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.34
+Recommendation Key,1
+SUM ANALYST RATING SCORE,35.34
 
 
 
@@ -72,9 +77,9 @@ Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
-Book Value + Dividends,True
+Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

@@ -4,64 +4,69 @@ Company,Willis Towers Watson Public Limited Company
 Country,United Kingdom
 Industry,Insurance Brokers
 Sector,Financial Services
-Website,https://www.willistowerswatson.com
-Price,250.72
+Website,https://www.wtwco.com
+Price,255.61
 Currency,USD
 
 REVENUE
-Total Revenue,9290999808.0
-Revenue Per Share,87.035
-Revenue Growth,0.109
+Total Revenue,9580000256.0
+Revenue Per Share,92.115
+Revenue Growth,0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.46, forward_eps=16.21)"
-Net Earnings,1034000000.0
-Earnings Growth,-0.251
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.89, forward_eps=18.4)"
+Net Earnings,1042000000.0
+Earnings Growth,-0.027
 
 DEBT
-Total Debt,5910000128.0
-Debt to Equity,62.309
+Total Debt,6649999872.0
+Debt to Equity,69.503
 
 MARGINS
-Profit Margins,0.10989001
-Gross Profit Margins,0.4739
-Operating Margins,0.12004
+Profit Margins,0.10877
+Gross Profit Margins,0.44990003
+Operating Margins,0.19009
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.36
-Dividend Yield,0.0135
-Dividend Payout Ratio,0.3534
-Five Year Avg Dividend Yield,1.37
-Trailing Annual Dividend Rate,3.36
-Trailing Annual Dividend Yield,0.013401403
+Dividend Rate,3.52
+Dividend Yield,0.0137
+Dividend Payout Ratio,0.3434
+Five Year Avg Dividend Yield,1.36
+Trailing Annual Dividend Rate,2.56
+Trailing Annual Dividend Yield,0.010015258
 
 FINANCIAL RATIO
-Debt to Equity,62.309
-Price to Cash Flow,1.8853579516363638e-07
-Enterprise to EBITDA,11.877
-Price to Book,2.739281
-Price to Earnings,"PriceToEarnings(trailing_pe=26.372093, forward_pe=15.3905)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.46, forward_eps=16.21)"
-Enterprise to Revenue,3.283
+Debt to Equity,69.503
+Price to Cash Flow,1.8814096660916333e-07
+Enterprise to EBITDA,12.537
+Price to Book,2.7675984
+Price to Earnings,"PriceToEarnings(trailing_pe=25.978765, forward_pe=13.963587)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.89, forward_eps=18.4)"
+Enterprise to Revenue,3.247
 
 CASH FLOW
-Free to Cash Flow,1323250048.0
-Operating to Cash Flow,1198000000.0
+Free to Cash Flow,1365624960.0
+Operating to Cash Flow,1235000064.0
 
 PROFITABILITY
-Return on Equity,0.10795
-Return on Assets,0.044439998
-Return on Invested Capital,0.17495769233014274
-Return on Investment,0.04787037037037037
+Return on Equity,0.10656
+Return on Assets,0.04019
+Return on Invested Capital,0.15669173015188942
+Return on Investment,0.04184738955823293
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
+Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0137
-SUM DIVIDEND SCORE,7.0137
+5 Year Average,0.013600000000000001
+SUM DIVIDEND SCORE,8.0136
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,72.07
+Recommendation Key,1
+SUM ANALYST RATING SCORE,73.07
 
 
 

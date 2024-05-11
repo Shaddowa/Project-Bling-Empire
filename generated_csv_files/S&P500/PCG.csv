@@ -5,63 +5,68 @@ Country,United States
 Industry,Utilities—Regulated Electric
 Sector,Utilities
 Website,https://www.pgecorp.com
-Price,16.76
+Price,17.9
 Currency,USD
 
 REVENUE
-Total Revenue,22756999168.0
-Revenue Per Share,11.224
-Revenue Growth,0.092
+Total Revenue,24079998976.0
+Revenue Per Share,11.468
+Revenue Growth,-0.056
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.86, forward_eps=1.35)"
-Net Earnings,1836000000.0
-Earnings Growth,-0.238
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.12, forward_eps=1.48)"
+Net Earnings,2404999936.0
+Earnings Growth,0.259
 
 DEBT
-Total Debt,55959998464.0
-Debt to Equity,229.495
+Total Debt,58567999488.0
+Debt to Equity,225.409
 
 MARGINS
-Profit Margins,0.08068
-Gross Profit Margins,0.33383
-Operating Margins,0.105979994
+Profit Margins,0.09988
+Gross Profit Margins,0.35664
+Operating Margins,0.23887
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.04
-Dividend Yield,0.0023999999
-Dividend Payout Ratio,0.0
+Dividend Rate,0.02
+Dividend Yield,0.0011
+Dividend Payout Ratio,0.0179
 Five Year Avg Dividend Yield,3.32
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,0.02
+Trailing Annual Dividend Yield,0.0011173184
 
 FINANCIAL RATIO
-Debt to Equity,229.495
-Price to Cash Flow,-3.2597849511694266e-09
-Enterprise to EBITDA,14.395
-Price to Book,1.5020776
-Price to Earnings,"PriceToEarnings(trailing_pe=19.755814, forward_pe=12.585185)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.86, forward_eps=1.35)"
-Enterprise to Revenue,4.037
+Debt to Equity,225.409
+Price to Cash Flow,-2.6897982988353006e-09
+Enterprise to EBITDA,12.422
+Price to Book,1.480897
+Price to Earnings,"PriceToEarnings(trailing_pe=15.919642, forward_pe=12.0472975)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.12, forward_eps=1.48)"
+Enterprise to Revenue,3.998
 
 CASH FLOW
-Free to Cash Flow,-5212000256.0
-Operating to Cash Flow,5279000064.0
+Free to Cash Flow,-6628749824.0
+Operating to Cash Flow,5823000064.0
 
 PROFITABILITY
-Return on Equity,0.07834
-Return on Assets,0.013309999
-Return on Invested Capital,0.03280915028634294
-Return on Investment,-0.004267782426778242
+Return on Equity,0.097040005
+Return on Assets,0.02056
+Return on Invested Capital,0.04106337857755168
+Return on Investment,-0.0058119863122281295
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0332
 SUM DIVIDEND SCORE,4.0332
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.170000000000002
+Recommendation Key,1
+SUM ANALYST RATING SCORE,5.170000000000002
 
 
 

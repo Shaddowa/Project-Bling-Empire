@@ -5,63 +5,68 @@ Country,United States
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.corning.com
-Price,30.82
+Price,34.2
 Currency,USD
 
 REVENUE
-Total Revenue,12999999488.0
-Revenue Per Share,15.353
-Revenue Growth,-0.09
+Total Revenue,12385000448.0
+Revenue Per Share,14.571
+Revenue Growth,-0.064
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.68, forward_eps=1.97)"
-Net Earnings,585000000.0
-Earnings Growth,-0.208
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=2.18)"
+Net Earnings,614000000.0
+Earnings Growth,0.2
 
 DEBT
-Total Debt,8456999936.0
-Debt to Equity,72.011
+Total Debt,8290999808.0
+Debt to Equity,71.728
 
 MARGINS
-Profit Margins,0.045
-Gross Profit Margins,0.32862
-Operating Margins,0.07091
+Profit Margins,0.04958
+Gross Profit Margins,0.33944
+Operating Margins,0.086389996
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.12
-Dividend Yield,0.0363
-Dividend Payout Ratio,1.6324
-Five Year Avg Dividend Yield,2.86
-Trailing Annual Dividend Rate,1.11
-Trailing Annual Dividend Yield,0.036015574
+Dividend Yield,0.0328
+Dividend Payout Ratio,1.5555999
+Five Year Avg Dividend Yield,2.94
+Trailing Annual Dividend Rate,1.12
+Trailing Annual Dividend Yield,0.03274854
 
 FINANCIAL RATIO
-Debt to Equity,72.011
-Price to Cash Flow,1.3823068309070548e-07
-Enterprise to EBITDA,12.379
-Price to Book,2.213932
-Price to Earnings,"PriceToEarnings(trailing_pe=45.382355, forward_pe=15.664975)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.68, forward_eps=1.97)"
-Enterprise to Revenue,2.574
+Debt to Equity,71.728
+Price to Cash Flow,1.0445548593242304e-07
+Enterprise to EBITDA,13.785
+Price to Book,2.4928868
+Price to Earnings,"PriceToEarnings(trailing_pe=47.45833, forward_pe=15.674311)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=2.18)"
+Enterprise to Revenue,2.95
 
 CASH FLOW
-Free to Cash Flow,223250000.0
-Operating to Cash Flow,1908999936.0
+Free to Cash Flow,327124992.0
+Operating to Cash Flow,2150000128.0
 
 PROFITABILITY
-Return on Equity,0.05573
-Return on Assets,0.02923
-Return on Invested Capital,0.06917346617747344
-Return on Investment,-0.006617647058823529
+Return on Equity,0.057389997
+Return on Assets,0.02846
+Return on Invested Capital,0.07405620711659672
+Return on Investment,-0.010442176870748299
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,3.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0286
-SUM DIVIDEND SCORE,8.0286
+5 Year Average,0.0294
+SUM DIVIDEND SCORE,7.0294
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,5.829999999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,6.829999999999998
 
 
 

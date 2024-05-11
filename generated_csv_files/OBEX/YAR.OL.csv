@@ -5,54 +5,54 @@ Country,Norway
 Industry,Agricultural Inputs
 Sector,Basic Materials
 Website,https://www.yara.com
-Price,344.6
+Price,317.4
 Currency,NOK
 
 REVENUE
-Total Revenue,17362999296.0
-Revenue Per Share,68.164
-Revenue Growth,-0.374
+Total Revenue,14595000320.0
+Revenue Per Share,57.297
+Revenue Growth,-0.202
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.58, forward_eps=30.49)"
-Net Earnings,573000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.64, forward_eps=33.51)"
+Net Earnings,-38000000.0
+Earnings Growth,-0.827
 
 DEBT
-Total Debt,4107000064.0
-Debt to Equity,57.392
+Total Debt,4281999872.0
+Debt to Equity,57.701
 
 MARGINS
-Profit Margins,0.033
-Gross Profit Margins,0.22167999
-Operating Margins,0.024419999
+Profit Margins,-0.0026
+Gross Profit Margins,0.22850001
+Operating Margins,0.04121
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,55.0
-Dividend Yield,0.1558
-Dividend Payout Ratio,2.2621
-Five Year Avg Dividend Yield,5.34
-Trailing Annual Dividend Rate,5.583
-Trailing Annual Dividend Yield,0.016201394
+Dividend Rate,5.0
+Dividend Yield,0.0156
+Dividend Payout Ratio,26.788101
+Five Year Avg Dividend Yield,6.32
+Trailing Annual Dividend Rate,0.493
+Trailing Annual Dividend Yield,0.0015532451
 
 FINANCIAL RATIO
-Debt to Equity,57.392
-Price to Cash Flow,1.3348459227510188e-07
-Enterprise to EBITDA,52.402
-Price to Book,12.590056
-Price to Earnings,"PriceToEarnings(trailing_pe=14.970314, forward_pe=11.577566)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.58, forward_eps=30.49)"
-Enterprise to Revenue,5.366
+Debt to Equity,57.701
+Price to Cash Flow,2.0270120536145396e-07
+Enterprise to EBITDA,71.64
+Price to Book,11.029361
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.573262)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.64, forward_eps=33.51)"
+Enterprise to Revenue,5.871
 
 CASH FLOW
-Free to Cash Flow,2644499968.0
-Operating to Cash Flow,3207000064.0
+Free to Cash Flow,1582625024.0
+Operating to Cash Flow,1843000064.0
 
 PROFITABILITY
-Return on Equity,0.07683
-Return on Assets,0.03611
-Return on Invested Capital,0.13951789314805263
+Return on Equity,-0.00433
+Return on Assets,0.01377
+Return on Invested Capital,-0.008874357981737096
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.053399999999999996
-SUM DIVIDEND SCORE,8.0534
+5 Year Average,0.0632
+SUM DIVIDEND SCORE,8.0632
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,111.39999999999998
+Recommendation Key,0
+SUM ANALYST RATING SCORE,111.39999999999998
 
 
 

@@ -2,71 +2,76 @@ GENERAL STOCK INFO
 Ticker,GPC
 Company,Genuine Parts Company
 Country,United States
-Industry,Specialty Retail
+Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.genpt.com
-Price,142.52
+Price,155.34
 Currency,USD
 
 REVENUE
-Total Revenue,23028375552.0
-Revenue Per Share,163.684
-Revenue Growth,0.026
+Total Revenue,23109122048.0
+Revenue Per Share,165.038
+Revenue Growth,0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.86, forward_eps=9.88)"
-Net Earnings,1251624960.0
-Earnings Growth,0.132
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.97, forward_eps=10.74)"
+Net Earnings,1261460992.0
+Earnings Growth,-0.168
 
 DEBT
-Total Debt,4236934912.0
-Debt to Equity,100.849
+Total Debt,4945126912.0
+Debt to Equity,111.952
 
 MARGINS
-Profit Margins,0.05435
-Gross Profit Margins,0.35743
-Operating Margins,0.08203
+Profit Margins,0.05459
+Gross Profit Margins,0.36141
+Operating Margins,0.07229
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.8
-Dividend Yield,0.026600001
-Dividend Payout Ratio,0.42270002
-Five Year Avg Dividend Yield,2.77
-Trailing Annual Dividend Rate,3.745
-Trailing Annual Dividend Yield,0.026277011
+Dividend Rate,4.0
+Dividend Yield,0.025799999
+Dividend Payout Ratio,0.4292
+Five Year Avg Dividend Yield,2.75
+Trailing Annual Dividend Rate,3.85
+Trailing Annual Dividend Yield,0.024784343
 
 FINANCIAL RATIO
-Debt to Equity,100.849
-Price to Cash Flow,1.8953982754429823e-07
-Enterprise to EBITDA,11.539
-Price to Book,4.7780647
-Price to Earnings,"PriceToEarnings(trailing_pe=16.098196, forward_pe=14.436235)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.86, forward_eps=9.88)"
-Enterprise to Revenue,1.025
+Debt to Equity,111.952
+Price to Cash Flow,1.7352333308705323e-07
+Enterprise to EBITDA,11.892
+Price to Book,4.91423
+Price to Earnings,"PriceToEarnings(trailing_pe=17.309921, forward_pe=14.4571705)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.97, forward_eps=10.74)"
+Enterprise to Revenue,1.105
 
 CASH FLOW
-Free to Cash Flow,752506752.0
-Operating to Cash Flow,1304825984.0
+Free to Cash Flow,894807616.0
+Operating to Cash Flow,1556408960.0
 
 PROFITABILITY
-Return on Equity,0.31768999
-Return on Assets,0.06343
-Return on Invested Capital,0.29540811392614863
-Return on Investment,-0.03960061506919529
+Return on Equity,0.3019
+Return on Assets,0.06362
+Return on Invested Capital,0.2550917309885457
+Return on Investment,-0.030791749362299385
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0277
-SUM DIVIDEND SCORE,9.0277
+5 Year Average,0.0275
+SUM DIVIDEND SCORE,9.0275
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,27.72999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,28.72999999999999
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

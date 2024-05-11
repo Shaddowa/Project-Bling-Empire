@@ -5,63 +5,68 @@ Country,Norway
 Industry,Financial Conglomerates
 Sector,Financial Services
 Website,https://www.storebrand.no
-Price,97.0
+Price,110.0
 Currency,NOK
 
 REVENUE
-Total Revenue,111589998592.0
-Revenue Per Share,241.681
-Revenue Growth,None
+Total Revenue,77898997760.0
+Revenue Per Share,171.782
+Revenue Growth,1.051
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=9.31)"
-Net Earnings,2912999936.0
-Earnings Growth,0.645
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=9.45)"
+Net Earnings,3203000064.0
+Earnings Growth,-0.106
 
 DEBT
-Total Debt,49894998016.0
-Debt to Equity,172.408
+Total Debt,53803999232.0
+Debt to Equity,179.61
 
 MARGINS
-Profit Margins,0.02633
-Gross Profit Margins,0.9423
-Operating Margins,1.71339
+Profit Margins,0.041490003
+Gross Profit Margins,0.91089994
+Operating Margins,0.91560996
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.7
-Dividend Yield,0.0381
-Dividend Payout Ratio,0.5864
+Dividend Rate,4.1
+Dividend Yield,0.0369
+Dividend Payout Ratio,1.1033
 Five Year Avg Dividend Yield,5.36
-Trailing Annual Dividend Rate,3.7
-Trailing Annual Dividend Yield,0.03814433
+Trailing Annual Dividend Rate,4.1
+Trailing Annual Dividend Yield,0.037272725
 
 FINANCIAL RATIO
-Debt to Equity,172.408
-Price to Cash Flow,1.582759319286872e-09
-Enterprise to EBITDA,0.8
-Price to Book,1.5384372
-Price to Earnings,"PriceToEarnings(trailing_pe=15.40729, forward_pe=10.442534)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=9.31)"
-Enterprise to Revenue,0.699
+Debt to Equity,179.61
+Price to Cash Flow,2.5153104169408105e-09
+Enterprise to EBITDA,1.366
+Price to Book,1.6638958
+Price to Earnings,"PriceToEarnings(trailing_pe=15.714285, forward_pe=11.756614)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=9.45)"
+Enterprise to Revenue,1.137
 
 CASH FLOW
-Free to Cash Flow,61424373760.0
-Operating to Cash Flow,-883000000.0
+Free to Cash Flow,44169498624.0
+Operating to Cash Flow,247000000.0
 
 PROFITABILITY
-Return on Equity,0.08861
-Return on Assets,0.075229995
-Return on Invested Capital,0.05838260443214063
-Return on Investment,0.005449953107577175
+Return on Equity,0.10734
+Return on Assets,0.04473
+Return on Invested Capital,0.05953089186203233
+Return on Investment,0.004961276431226766
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0536
-SUM DIVIDEND SCORE,5.0536
+SUM DIVIDEND SCORE,4.0536
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,13.900000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,14.900000000000006
 
 
 

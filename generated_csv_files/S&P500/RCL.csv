@@ -5,27 +5,27 @@ Country,United States
 Industry,Travel Services
 Sector,Consumer Cyclical
 Website,https://www.rclinvestor.com
-Price,127.71
+Price,141.74
 Currency,USD
 
 REVENUE
-Total Revenue,13172573184.0
-Revenue Per Share,51.523
-Revenue Growth,0.39
+Total Revenue,14741999616.0
+Revenue Per Share,57.474
+Revenue Growth,0.292
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.28, forward_eps=9.17)"
-Net Earnings,919721024.0
-Earnings Growth,27.254
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.86, forward_eps=12.67)"
+Net Earnings,2104999936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,20567212032.0
-Debt to Equity,447.484
+Total Debt,21184999424.0
+Debt to Equity,397.84
 
 MARGINS
-Profit Margins,0.06982
-Gross Profit Margins,0.43611
-Operating Margins,0.30408
+Profit Margins,0.14279
+Gross Profit Margins,0.47049
+Operating Margins,0.20118
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,447.484
-Price to Cash Flow,5.814979262990782e-08
-Enterprise to EBITDA,13.778
-Price to Book,7.1525407
-Price to Earnings,"PriceToEarnings(trailing_pe=37.640244, forward_pe=13.463468)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.28, forward_eps=9.17)"
-Enterprise to Revenue,3.931
+Debt to Equity,397.84
+Price to Cash Flow,-4.4230359136466837e-07
+Enterprise to EBITDA,11.788
+Price to Book,7.0463624
+Price to Earnings,"PriceToEarnings(trailing_pe=17.94402, forward_pe=11.131806)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.86, forward_eps=12.67)"
+Enterprise to Revenue,3.881
 
 CASH FLOW
-Free to Cash Flow,2123137408.0
-Operating to Cash Flow,3937603072.0
+Free to Cash Flow,-318876000.0
+Operating to Cash Flow,4495000064.0
 
 PROFITABILITY
-Return on Equity,0.23709999
-Return on Assets,0.044060003
-Return on Invested Capital,0.04471782669411659
-Return on Investment,0.006219298277408038
+Return on Equity,0.5068
+Return on Assets,0.061929997
+Return on Invested Capital,0.09936275625414694
+Return on Investment,-0.022041884146596857
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0252
 SUM DIVIDEND SCORE,0.0252
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,42.96000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,43.96000000000001
 
 
 

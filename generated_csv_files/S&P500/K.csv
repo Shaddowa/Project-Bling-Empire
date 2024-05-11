@@ -4,64 +4,64 @@ Company,Kellanova
 Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
-Website,https://www.kellanova.com/us/en
-Price,54.63
+Website,https://www.kellanova.com
+Price,61.6
 Currency,USD
 
 REVENUE
-Total Revenue,15866000384.0
-Revenue Per Share,46.238
-Revenue Growth,-0.002
+Total Revenue,12979999744.0
+Revenue Per Share,37.971
+Revenue Growth,-0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.38, forward_eps=3.62)"
-Net Earnings,826000000.0
-Earnings Growth,-0.133
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.36, forward_eps=3.84)"
+Net Earnings,812000000.0
+Earnings Growth,-0.1
 
 DEBT
-Total Debt,7776999936.0
-Debt to Equity,181.833
+Total Debt,6675999744.0
+Debt to Equity,203.661
 
 MARGINS
-Profit Margins,0.052059997
-Gross Profit Margins,0.31829
-Operating Margins,0.14344
+Profit Margins,0.070879996
+Gross Profit Margins,0.33398
+Operating Margins,0.13
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.24
-Dividend Yield,0.040900003
-Dividend Payout Ratio,0.9958
-Five Year Avg Dividend Yield,3.61
-Trailing Annual Dividend Rate,2.37
-Trailing Annual Dividend Yield,0.043382753
+Dividend Yield,0.036199998
+Dividend Payout Ratio,0.9788
+Five Year Avg Dividend Yield,3.63
+Trailing Annual Dividend Rate,2.31
+Trailing Annual Dividend Yield,0.0375
 
 FINANCIAL RATIO
-Debt to Equity,181.833
-Price to Cash Flow,6.312815396283723e-08
-Enterprise to EBITDA,12.184
-Price to Book,4.6496224
-Price to Earnings,"PriceToEarnings(trailing_pe=23.0, forward_pe=15.121548)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.38, forward_eps=3.62)"
-Enterprise to Revenue,1.616
+Debt to Equity,203.661
+Price to Cash Flow,1.8910202984429877e-07
+Enterprise to EBITDA,15.005
+Price to Book,6.692632
+Price to Earnings,"PriceToEarnings(trailing_pe=26.211866, forward_pe=16.109375)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.36, forward_eps=3.84)"
+Enterprise to Revenue,2.134
 
 CASH FLOW
-Free to Cash Flow,867124992.0
-Operating to Cash Flow,1871000064.0
+Free to Cash Flow,327124992.0
+Operating to Cash Flow,1732999936.0
 
 PROFITABILITY
-Return on Equity,0.18502001
-Return on Assets,0.054330003
-Return on Invested Capital,0.10621062177537124
-Return on Investment,-0.51625
+Return on Equity,0.21271
+Return on Assets,0.05365
+Return on Invested Capital,0.12162972288990197
+Return on Investment,2.7066666666666666
 
 DIVIDEND SCORE
 Dividend  Rate,1.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0361
-SUM DIVIDEND SCORE,2.0361
+5 Year Average,0.0363
+SUM DIVIDEND SCORE,2.0362999999999998
 
 
 

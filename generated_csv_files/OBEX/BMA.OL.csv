@@ -5,27 +5,27 @@ Country,Norway
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.byggma.no
-Price,19.25
+Price,18.55
 Currency,NOK
 
 REVENUE
-Total Revenue,2223166976.0
-Revenue Per Share,31.816
-Revenue Growth,-0.168
+Total Revenue,2249100032.0
+Revenue Per Share,32.213
+Revenue Growth,-0.0
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
-Net Earnings,143610000.0
-Earnings Growth,-0.477
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.87, forward_eps=None)"
+Net Earnings,61000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,1479299968.0
-Debt to Equity,153.486
+Total Debt,1440000000.0
+Debt to Equity,127.547
 
 MARGINS
-Profit Margins,0.0646
-Gross Profit Margins,0.53088003
-Operating Margins,0.04147
+Profit Margins,0.02712
+Gross Profit Margins,0.51332
+Operating Margins,0.06459
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,153.486
-Price to Cash Flow,1.5639887732605464e-07
-Enterprise to EBITDA,8.995
-Price to Book,1.3764126
-Price to Earnings,"PriceToEarnings(trailing_pe=9.268292, forward_pe=None)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=None)"
-Enterprise to Revenue,1.247
+Debt to Equity,127.547
+Price to Cash Flow,-4.819120607910632e-07
+Enterprise to EBITDA,26.338
+Price to Book,1.1470442
+Price to Earnings,"PriceToEarnings(trailing_pe=21.321838, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.87, forward_eps=None)"
+Enterprise to Revenue,1.187
 
 CASH FLOW
-Free to Cash Flow,121484248.0
-Operating to Cash Flow,221979008.0
+Free to Cash Flow,-38492500.0
+Operating to Cash Flow,209100000.0
 
 PROFITABILITY
-Return on Equity,0.18325001
-Return on Assets,0.04994
-Return on Invested Capital,0.09707970105216132
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.06219
+Return on Assets,-0.00364
+Return on Invested Capital,0.042361110635372304
+Return on Investment,0.004475586044975971
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,10 +63,15 @@ Dividend Ex Date,0.0
 5 Year Average,0.0724
 SUM DIVIDEND SCORE,0.0724
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

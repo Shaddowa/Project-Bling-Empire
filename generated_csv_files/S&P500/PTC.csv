@@ -5,27 +5,27 @@ Country,United States
 Industry,Software—Application
 Sector,Technology
 Website,https://www.ptc.com
-Price,180.03
+Price,180.0
 Currency,USD
 
 REVENUE
-Total Revenue,2097053056.0
-Revenue Per Share,17.72
-Revenue Growth,0.076
+Total Revenue,2242247936.0
+Revenue Per Share,18.842
+Revenue Growth,0.112
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.06, forward_eps=6.11)"
-Net Earnings,245540000.0
-Earnings Growth,-0.576
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.39, forward_eps=5.81)"
+Net Earnings,287832992.0
+Earnings Growth,0.792
 
 DEBT
-Total Debt,1888977024.0
-Debt to Equity,70.556
+Total Debt,2189530112.0
+Debt to Equity,74.395
 
 MARGINS
-Profit Margins,0.117089994
-Gross Profit Margins,0.78970003
-Operating Margins,0.22397
+Profit Margins,0.12837
+Gross Profit Margins,0.79850996
+Operating Margins,0.29822
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,70.556
-Price to Cash Flow,1.491951387646766e-07
-Enterprise to EBITDA,42.311
-Price to Book,8.019265
-Price to Earnings,"PriceToEarnings(trailing_pe=87.694176, forward_pe=29.566282)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.06, forward_eps=6.11)"
-Enterprise to Revenue,11.036
+Debt to Equity,74.395
+Price to Cash Flow,-3.2784272058751745e-06
+Enterprise to EBITDA,38.673
+Price to Book,7.3218355
+Price to Earnings,"PriceToEarnings(trailing_pe=75.313805, forward_pe=30.981068)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.39, forward_eps=5.81)"
+Enterprise to Revenue,10.478
 
 CASH FLOW
-Free to Cash Flow,1210830336.0
-Operating to Cash Flow,610860992.0
+Free to Cash Flow,-54904376.0
+Operating to Cash Flow,657062976.0
 
 PROFITABILITY
-Return on Equity,0.09874
-Return on Assets,0.054419998
-Return on Invested Capital,0.12998569805357896
-Return on Investment,0.010483306293228589
+Return on Equity,0.105399996
+Return on Assets,0.05331
+Return on Invested Capital,0.13145879437360164
+Return on Investment,0.011197897308611045
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,40.0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,41.0
 
 
 

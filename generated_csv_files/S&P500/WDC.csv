@@ -5,17 +5,17 @@ Country,United States
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.westerndigital.com
-Price,60.33
+Price,72.09
 Currency,USD
 
 REVENUE
-Total Revenue,11256999936.0
-Revenue Per Share,35.014
+Total Revenue,11911000064.0
+Revenue Per Share,36.933
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.15, forward_eps=4.55)"
-Net Earnings,-2292999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-5.07, forward_eps=7.94)"
+Net Earnings,-1627000064.0
 Earnings Growth,None
 
 DEBT
@@ -23,8 +23,8 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,-0.19899
-Gross Profit Margins,0.08608
+Profit Margins,-0.13164
+Gross Profit Margins,0.13828
 Operating Margins,0.15403
 
 DIVIDEND
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-7.764e-07
+Price to Cash Flow,-2.3341482075097918e-07
 Enterprise to EBITDA,None
-Price to Book,1.8985361
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.797802)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.15, forward_eps=4.55)"
+Price to Book,2.306255
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.017632)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-5.07, forward_eps=7.94)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,-75000000.0
-Operating to Cash Flow,-1167000064.0
+Free to Cash Flow,-306750016.0
+Operating to Cash Flow,-728000000.0
 
 PROFITABILITY
-Return on Equity,-0.19513
-Return on Assets,-0.043330003
+Return on Equity,-0.13354
+Return on Assets,-0.02582
 Return on Invested Capital,None
-Return on Investment,-0.41690907927272725
+Return on Investment,-0.05148734379746835
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0323
 SUM DIVIDEND SCORE,0.0323
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,28.400000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,29.400000000000006
 
 
 

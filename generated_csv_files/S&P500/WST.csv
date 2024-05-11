@@ -5,63 +5,68 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.westpharma.com
-Price,354.22
+Price,365.59
 Currency,USD
 
 REVENUE
-Total Revenue,2926500096.0
-Revenue Per Share,39.335
-Revenue Growth,0.088
+Total Revenue,2928600064.0
+Revenue Per Share,39.549
+Revenue Growth,-0.03
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.41, forward_eps=8.8)"
-Net Earnings,559400000.0
-Earnings Growth,0.346
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.58, forward_eps=9.08)"
+Net Earnings,568700032.0
+Earnings Growth,-0.162
 
 DEBT
-Total Debt,306800000.0
-Debt to Equity,10.697
+Total Debt,306600000.0
+Debt to Equity,11.438
 
 MARGINS
-Profit Margins,0.19115
-Gross Profit Margins,0.38039002
-Operating Margins,0.24525
+Profit Margins,0.19419001
+Gross Profit Margins,0.37182
+Operating Margins,0.18062
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
 Dividend Yield,0.0022
-Dividend Payout Ratio,0.1024
-Five Year Avg Dividend Yield,0.28
-Trailing Annual Dividend Rate,0.76
-Trailing Annual Dividend Yield,0.0021455593
+Dividend Payout Ratio,0.1029
+Five Year Avg Dividend Yield,0.26
+Trailing Annual Dividend Rate,0.78
+Trailing Annual Dividend Yield,0.0021335375
 
 FINANCIAL RATIO
-Debt to Equity,10.697
-Price to Cash Flow,1.5987612555694727e-06
-Enterprise to EBITDA,29.69
-Price to Book,9.323254
-Price to Earnings,"PriceToEarnings(trailing_pe=48.76653, forward_pe=41.063633)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.41, forward_eps=8.8)"
-Enterprise to Revenue,8.934
+Debt to Equity,11.438
+Price to Cash Flow,2.5407865341369415e-06
+Enterprise to EBITDA,32.403
+Price to Book,9.917758
+Price to Earnings,"PriceToEarnings(trailing_pe=48.046173, forward_pe=40.10903)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.58, forward_eps=9.08)"
+Enterprise to Revenue,8.958
 
 CASH FLOW
-Free to Cash Flow,226024992.0
-Operating to Cash Flow,768200000.0
+Free to Cash Flow,143337504.0
+Operating to Cash Flow,756600000.0
 
 PROFITABILITY
-Return on Equity,0.20955
-Return on Assets,0.13224
-Return on Invested Capital,1.8233374489219811
-Return on Investment,-0.016992709599027947
+Return on Equity,0.20844
+Return on Assets,0.114029996
+Return on Invested Capital,1.8548596343369188
+Return on Investment,-0.01607859858637263
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0028000000000000004
-SUM DIVIDEND SCORE,8.0028
+5 Year Average,0.0026
+SUM DIVIDEND SCORE,8.0026
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,105.81
+Recommendation Key,1
+SUM ANALYST RATING SCORE,106.81
 
 
 

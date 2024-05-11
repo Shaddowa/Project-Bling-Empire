@@ -5,63 +5,68 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.labcorp.com
-Price,226.65
+Price,206.15
 Currency,USD
 
 REVENUE
-Total Revenue,15070900224.0
-Revenue Per Share,171.066
-Revenue Growth,0.066
+Total Revenue,12300399616.0
+Revenue Per Share,142.986
+Revenue Growth,0.046
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.72, forward_eps=14.61)"
-Net Earnings,860200000.0
-Earnings Growth,-0.459
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.67, forward_eps=15.85)"
+Net Earnings,399200000.0
+Earnings Growth,0.123
 
 DEBT
-Total Debt,6424800256.0
-Debt to Equity,81.404
+Total Debt,6047099904.0
+Debt to Equity,75.828
 
 MARGINS
-Profit Margins,0.043870002
-Gross Profit Margins,0.26659
-Operating Margins,0.08833
+Profit Margins,0.03521
+Gross Profit Margins,0.2774
+Operating Margins,0.10168
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.88
-Dividend Yield,0.0128
-Dividend Payout Ratio,0.29659998
+Dividend Yield,0.0139
+Dividend Payout Ratio,0.6154
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,2.88
-Trailing Annual Dividend Yield,0.012706817
+Trailing Annual Dividend Yield,0.01397041
 
 FINANCIAL RATIO
-Debt to Equity,81.404
-Price to Cash Flow,1.6468606799562357e-07
-Enterprise to EBITDA,11.661
-Price to Book,2.4254317
-Price to Earnings,"PriceToEarnings(trailing_pe=23.139917, forward_pe=15.394936)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.72, forward_eps=14.61)"
-Enterprise to Revenue,1.646
+Debt to Equity,75.828
+Price to Cash Flow,1.9740728483166794e-07
+Enterprise to EBITDA,14.466
+Price to Book,2.199428
+Price to Earnings,"PriceToEarnings(trailing_pe=44.46895, forward_pe=13.102208)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.67, forward_eps=15.85)"
+Enterprise to Revenue,1.908
 
 CASH FLOW
-Free to Cash Flow,1365750016.0
-Operating to Cash Flow,1506700032.0
+Free to Cash Flow,1051987520.0
+Operating to Cash Flow,1275800064.0
 
 PROFITABILITY
-Return on Equity,0.095690005
-Return on Assets,0.05333
-Return on Invested Capital,0.13388742891746067
-Return on Investment,-0.23061662198391422
+Return on Equity,0.04366
+Return on Assets,0.03757
+Return on Invested Capital,0.0660151147003198
+Return on Investment,-0.03394557823129252
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,7.0
+SUM DIVIDEND SCORE,4.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,54.33000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,55.33000000000001
 
 
 

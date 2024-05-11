@@ -5,27 +5,27 @@ Country,United States
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.arista.com
-Price,264.42
+Price,296.07
 Currency,USD
 
 REVENUE
-Total Revenue,5595282944.0
-Revenue Per Share,18.167
-Revenue Growth,0.283
+Total Revenue,6080190976.0
+Revenue Per Share,19.559
+Revenue Growth,0.163
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.0, forward_eps=7.29)"
-Net Earnings,1900774016.0
-Earnings Growth,0.522
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.19, forward_eps=8.89)"
+Net Earnings,2288539904.0
+Earnings Growth,0.442
 
 DEBT
-Total Debt,48044000.0
-Debt to Equity,0.739
+Total Debt,0.0
+Debt to Equity,None
 
 MARGINS
-Profit Margins,0.33971
-Gross Profit Margins,0.60758996
-Operating Margins,0.39928
+Profit Margins,0.37639
+Gross Profit Margins,0.62945
+Operating Margins,0.42009997
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,0.739
-Price to Cash Flow,2.418147924334988e-07
-Enterprise to EBITDA,36.04
-Price to Book,12.638623
-Price to Earnings,"PriceToEarnings(trailing_pe=44.066666, forward_pe=36.26886)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.0, forward_eps=7.29)"
-Enterprise to Revenue,13.913
+Debt to Equity,None
+Price to Cash Flow,2.0663790626027036e-07
+Enterprise to EBITDA,37.21
+Price to Book,12.525627
+Price to Earnings,"PriceToEarnings(trailing_pe=43.675938, forward_pe=35.32396)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.19, forward_eps=8.89)"
+Enterprise to Revenue,15.288
 
 CASH FLOW
-Free to Cash Flow,1093398784.0
-Operating to Cash Flow,1548023040.0
+Free to Cash Flow,1519711488.0
+Operating to Cash Flow,2173336064.0
 
 PROFITABILITY
-Return on Equity,0.34905997
-Return on Assets,0.17122
-Return on Invested Capital,39.563175179801334
+Return on Equity,0.34697
+Return on Assets,0.16806999
+Return on Invested Capital,91282354.27386223
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -63,13 +63,18 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,74.97000000000003
+Recommendation Key,1
+SUM ANALYST RATING SCORE,75.97000000000003
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,True
-Total Revenue,True
+Earnings,True
+Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

@@ -5,63 +5,68 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.conagrabrands.com
-Price,29.68
+Price,30.78
 Currency,USD
 
 REVENUE
-Total Revenue,12171899904.0
-Revenue Per Share,25.459
-Revenue Growth,-0.032
+Total Revenue,12118299648.0
+Revenue Per Share,25.336
+Revenue Growth,-0.017
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=2.69)"
-Net Earnings,985100032.0
-Earnings Growth,-0.243
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.99, forward_eps=2.71)"
+Net Earnings,952000000.0
+Earnings Growth,-0.099
 
 DEBT
-Total Debt,9069599744.0
-Debt to Equity,99.949
+Total Debt,8677300224.0
+Debt to Equity,94.058
 
 MARGINS
-Profit Margins,0.08093
-Gross Profit Margins,0.27111998
-Operating Margins,0.14323
+Profit Margins,0.07856
+Gross Profit Margins,0.2734
+Operating Margins,0.1765
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.4
-Dividend Yield,0.0473
-Dividend Payout Ratio,0.66339993
-Five Year Avg Dividend Yield,3.29
-Trailing Annual Dividend Rate,1.36
-Trailing Annual Dividend Yield,0.045822103
+Dividend Yield,0.045
+Dividend Payout Ratio,0.6935
+Five Year Avg Dividend Yield,3.39
+Trailing Annual Dividend Rate,1.38
+Trailing Annual Dividend Yield,0.04483431
 
 FINANCIAL RATIO
-Debt to Equity,99.949
-Price to Cash Flow,4.5090579148878876e-08
-Enterprise to EBITDA,10.229
-Price to Book,1.5724373
-Price to Earnings,"PriceToEarnings(trailing_pe=14.448781, forward_pe=11.011152)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=2.69)"
-Enterprise to Revenue,1.909
+Debt to Equity,94.058
+Price to Cash Flow,3.208740816961038e-08
+Enterprise to EBITDA,10.494
+Price to Book,1.6255875
+Price to Earnings,"PriceToEarnings(trailing_pe=15.643215, forward_pe=11.487084)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.99, forward_eps=2.71)"
+Enterprise to Revenue,1.943
 
 CASH FLOW
-Free to Cash Flow,656899968.0
-Operating to Cash Flow,1552199936.0
+Free to Cash Flow,970162496.0
+Operating to Cash Flow,1823299968.0
 
 PROFITABILITY
-Return on Equity,0.11056
-Return on Assets,0.05328
-Return on Invested Capital,0.10861560132305745
-Return on Investment,0.020361720380322447
+Return on Equity,0.10474
+Return on Assets,0.05258
+Return on Invested Capital,0.10971154314402387
+Return on Investment,0.020152413209144793
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0329
-SUM DIVIDEND SCORE,8.0329
+5 Year Average,0.0339
+SUM DIVIDEND SCORE,8.0339
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,2.870000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,2.870000000000001
 
 
 

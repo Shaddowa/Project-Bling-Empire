@@ -5,70 +5,75 @@ Country,United States
 Industry,REIT—Specialty
 Sector,Real Estate
 Website,https://www.equinix.com
-Price,815.31
+Price,772.43
 Currency,USD
 
 REVENUE
-Total Revenue,7489844224.0
-Revenue Per Share,80.371
-Revenue Growth,0.165
+Total Revenue,7883490816.0
+Revenue Per Share,83.833
+Revenue Growth,0.064
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.33, forward_eps=10.89)"
-Net Earnings,870372992.0
-Earnings Growth,0.274
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.0, forward_eps=13.44)"
+Net Earnings,941177984.0
+Earnings Growth,-0.123
 
 DEBT
-Total Debt,17381287936.0
-Debt to Equity,145.92
+Total Debt,17276999680.0
+Debt to Equity,140.19
 
 MARGINS
-Profit Margins,0.116210006
-Gross Profit Margins,0.45171002
-Operating Margins,0.14588
+Profit Margins,0.11939
+Gross Profit Margins,0.45294997
+Operating Margins,0.34932
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,17.04
-Dividend Yield,0.021
-Dividend Payout Ratio,1.4349
-Five Year Avg Dividend Yield,1.68
-Trailing Annual Dividend Rate,13.33
-Trailing Annual Dividend Yield,0.01634961
+Dividend Yield,0.0225
+Dividend Payout Ratio,1.5386
+Five Year Avg Dividend Yield,1.66
+Trailing Annual Dividend Rate,15.34
+Trailing Annual Dividend Yield,0.019859405
 
 FINANCIAL RATIO
-Debt to Equity,145.92
-Price to Cash Flow,2.9155538155912965e-07
-Enterprise to EBITDA,32.925
-Price to Book,6.405187
-Price to Earnings,"PriceToEarnings(trailing_pe=86.92175, forward_pe=74.47015)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.33, forward_eps=10.89)"
-Enterprise to Revenue,12.175
+Debt to Equity,140.19
+Price to Cash Flow,2.917357805189818e-07
+Enterprise to EBITDA,29.542
+Price to Book,5.8318515
+Price to Earnings,"PriceToEarnings(trailing_pe=75.768, forward_pe=56.375)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.0, forward_eps=13.44)"
+Enterprise to Revenue,11.099
 
 CASH FLOW
-Free to Cash Flow,2781564160.0
-Operating to Cash Flow,2978070016.0
+Free to Cash Flow,2597144576.0
+Operating to Cash Flow,3122595072.0
 
 PROFITABILITY
-Return on Equity,0.07547
-Return on Assets,0.019340001
-Return on Invested Capital,0.05007528722063843
-Return on Investment,-0.0047635630411784055
+Return on Equity,0.07728
+Return on Assets,0.02063
+Return on Invested Capital,0.054475776717873535
+Return on Investment,-0.004760699857458924
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0168
-SUM DIVIDEND SCORE,8.0168
+5 Year Average,0.0166
+SUM DIVIDEND SCORE,8.0166
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,262.32000000000005
+Recommendation Key,1
+SUM ANALYST RATING SCORE,263.32000000000005
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False

@@ -5,70 +5,75 @@ Country,Ireland
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.eaton.com
-Price,245.82
+Price,333.26
 Currency,USD
 
 REVENUE
-Total Revenue,22613000192.0
-Revenue Per Share,56.706
-Revenue Growth,0.107
+Total Revenue,23655999488.0
+Revenue Per Share,59.221
+Revenue Growth,0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.48, forward_eps=10.06)"
-Net Earnings,2993999872.0
-Earnings Growth,0.461
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.46, forward_eps=11.61)"
+Net Earnings,3400999936.0
+Earnings Growth,0.283
 
 DEBT
-Total Debt,9635000320.0
-Debt to Equity,52.31
+Total Debt,9788999680.0
+Debt to Equity,50.652
 
 MARGINS
-Profit Margins,0.13239999
-Gross Profit Margins,0.35542
-Operating Margins,0.18214001
+Profit Margins,0.14377
+Gross Profit Margins,0.37065
+Operating Margins,0.17079
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.44
-Dividend Yield,0.0139999995
-Dividend Payout Ratio,0.45380002
-Five Year Avg Dividend Yield,2.44
-Trailing Annual Dividend Rate,3.39
-Trailing Annual Dividend Yield,0.013790579
+Dividend Rate,3.76
+Dividend Yield,0.0114
+Dividend Payout Ratio,0.4156
+Five Year Avg Dividend Yield,2.3
+Trailing Annual Dividend Rate,3.52
+Trailing Annual Dividend Yield,0.010562323
 
 FINANCIAL RATIO
-Debt to Equity,52.31
-Price to Cash Flow,1.0822028180309634e-07
-Enterprise to EBITDA,22.765
-Price to Book,5.341023
-Price to Earnings,"PriceToEarnings(trailing_pe=32.872993, forward_pe=24.442345)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.48, forward_eps=10.06)"
-Enterprise to Revenue,4.685
+Debt to Equity,50.652
+Price to Cash Flow,1.3289246060198645e-07
+Enterprise to EBITDA,27.632
+Price to Book,6.8506236
+Price to Earnings,"PriceToEarnings(trailing_pe=39.07447, forward_pe=28.47287)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.46, forward_eps=11.61)"
+Enterprise to Revenue,5.899
 
 CASH FLOW
-Free to Cash Flow,2272124928.0
-Operating to Cash Flow,3512000000.0
+Free to Cash Flow,2487500032.0
+Operating to Cash Flow,3764000000.0
 
 PROFITABILITY
-Return on Equity,0.17379999
-Return on Assets,0.06491
-Return on Invested Capital,0.3107420610541357
-Return on Investment,-0.07736433777777778
+Return on Equity,0.18505
+Return on Assets,0.06983
+Return on Invested Capital,0.3474307927687127
+Return on Investment,-0.06161231768115942
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.024399999999999998
-SUM DIVIDEND SCORE,9.0244
+5 Year Average,0.023
+SUM DIVIDEND SCORE,9.023
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,44.43000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,45.43000000000001
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
-Net Income,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False

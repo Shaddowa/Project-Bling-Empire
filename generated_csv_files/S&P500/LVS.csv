@@ -5,55 +5,55 @@ Country,United States
 Industry,Resorts & Casinos
 Sector,Consumer Cyclical
 Website,https://www.sands.com
-Price,50.15
+Price,47.2
 Currency,USD
 
 REVENUE
-Total Revenue,10371999744.0
-Revenue Per Share,13.793
-Revenue Growth,1.61
+Total Revenue,11210999808.0
+Revenue Per Share,14.761
+Revenue Growth,0.396
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.62, forward_eps=3.12)"
-Net Earnings,1220999936.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.07, forward_eps=3.1)"
+Net Earnings,1568000000.0
+Earnings Growth,2.467
 
 DEBT
-Total Debt,14394000384.0
-Debt to Equity,323.315
+Total Debt,13957000192.0
+Debt to Equity,346.758
 
 MARGINS
-Profit Margins,0.11772
-Gross Profit Margins,0.39104998
-Operating Margins,0.24528
+Profit Margins,0.13986
+Gross Profit Margins,0.77611
+Operating Margins,0.24704
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.6
-Dividend Yield,0.012
-Dividend Payout Ratio,0.2469
+Dividend Rate,0.8
+Dividend Yield,0.0172
+Dividend Payout Ratio,0.2899
 Five Year Avg Dividend Yield,4.75
-Trailing Annual Dividend Rate,0.6
-Trailing Annual Dividend Yield,0.011964108
+Trailing Annual Dividend Rate,0.8
+Trailing Annual Dividend Yield,0.016949153
 
 FINANCIAL RATIO
-Debt to Equity,323.315
-Price to Cash Flow,None
-Enterprise to EBITDA,13.393
-Price to Book,8.394295
-Price to Earnings,"PriceToEarnings(trailing_pe=30.882715, forward_pe=16.035257)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.62, forward_eps=3.12)"
-Enterprise to Revenue,4.528
+Debt to Equity,346.758
+Price to Cash Flow,2.9802290045364028e-08
+Enterprise to EBITDA,11.117
+Price to Book,8.771202
+Price to Earnings,"PriceToEarnings(trailing_pe=22.483093, forward_pe=15.012904)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.07, forward_eps=3.1)"
+Enterprise to Revenue,3.902
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,1561624960.0
+Operating to Cash Flow,3500000000.0
 
 PROFITABILITY
-Return on Equity,0.35298002
-Return on Assets,None
-Return on Invested Capital,0.08482700451027243
-Return on Investment,0.021881719283154123
+Return on Equity,0.47594002
+Return on Assets,0.07618
+Return on Invested Capital,0.1123450582384213
+Return on Investment,0.0542560553633218
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0475
 SUM DIVIDEND SCORE,7.0475
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,29.46
+Recommendation Key,1
+SUM ANALYST RATING SCORE,30.46
 
 
 

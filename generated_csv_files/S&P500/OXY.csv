@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.oxy.com
-Price,58.01
+Price,64.24
 Currency,USD
 
 REVENUE
-Total Revenue,29304000512.0
-Revenue Per Share,32.728
-Revenue Growth,-0.238
+Total Revenue,27007000576.0
+Revenue Per Share,30.519
+Revenue Growth,-0.173
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.59, forward_eps=4.03)"
-Net Earnings,4447000064.0
-Earnings Growth,-0.524
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.46, forward_eps=4.79)"
+Net Earnings,3304999936.0
+Earnings Growth,-0.248
 
 DEBT
-Total Debt,20710000640.0
-Debt to Equity,70.654
+Total Debt,20835999744.0
+Debt to Equity,67.285
 
 MARGINS
-Profit Margins,0.18513
-Gross Profit Margins,0.61841
-Operating Margins,0.23624
+Profit Margins,0.16
+Gross Profit Margins,0.59577
+Operating Margins,0.17071
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.72
-Dividend Yield,0.0123000005
-Dividend Payout Ratio,0.146
-Five Year Avg Dividend Yield,4.74
-Trailing Annual Dividend Rate,0.67
-Trailing Annual Dividend Yield,0.011549734
+Dividend Rate,0.88
+Dividend Yield,0.0138
+Dividend Payout Ratio,0.2197
+Five Year Avg Dividend Yield,4.49
+Trailing Annual Dividend Rate,0.76
+Trailing Annual Dividend Yield,0.011830635
 
 FINANCIAL RATIO
-Debt to Equity,70.654
-Price to Cash Flow,1.209078425981027e-08
-Enterprise to EBITDA,5.628
-Price to Book,2.4379044
-Price to Earnings,"PriceToEarnings(trailing_pe=12.723311, forward_pe=14.491315)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.59, forward_eps=4.03)"
-Enterprise to Revenue,2.718
+Debt to Equity,67.285
+Price to Cash Flow,1.570502174268728e-08
+Enterprise to EBITDA,6.917
+Price to Book,2.5026574
+Price to Earnings,"PriceToEarnings(trailing_pe=18.372831, forward_pe=13.271399)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.46, forward_eps=4.79)"
+Enterprise to Revenue,3.124
 
 CASH FLOW
-Free to Cash Flow,4830125056.0
-Operating to Cash Flow,13043999744.0
+Free to Cash Flow,4047749888.0
+Operating to Cash Flow,11445000192.0
 
 PROFITABILITY
-Return on Equity,0.18697001
-Return on Assets,0.06086
-Return on Invested Capital,0.214727181141034
-Return on Investment,-0.010631126139134592
+Return on Equity,0.13518
+Return on Assets,0.0444
+Return on Invested Capital,0.15861969536271564
+Return on Investment,-0.00732166578644218
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.047400000000000005
-SUM DIVIDEND SCORE,8.0474
+5 Year Average,0.0449
+SUM DIVIDEND SCORE,8.0449
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,26.43
+Recommendation Key,0
+SUM ANALYST RATING SCORE,26.43
 
 
 

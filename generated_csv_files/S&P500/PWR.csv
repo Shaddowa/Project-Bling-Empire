@@ -5,55 +5,55 @@ Country,United States
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.quantaservices.com
-Price,197.99
+Price,270.17
 Currency,USD
 
 REVENUE
-Total Revenue,19514875904.0
-Revenue Per Share,134.92
-Revenue Growth,0.26
+Total Revenue,21485199360.0
+Revenue Per Share,147.574
+Revenue Growth,0.136
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=8.36)"
-Net Earnings,696353024.0
-Earnings Growth,0.726
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.14, forward_eps=9.69)"
+Net Earnings,768003008.0
+Earnings Growth,0.234
 
 DEBT
-Total Debt,4247703040.0
-Debt to Equity,70.844
+Total Debt,4006462976.0
+Debt to Equity,62.923
 
 MARGINS
-Profit Margins,0.03568
-Gross Profit Margins,0.1441
-Operating Margins,0.06928
+Profit Margins,0.03575
+Gross Profit Margins,0.13904001
+Operating Margins,0.02855
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.36
-Dividend Yield,0.0018000001
-Dividend Payout Ratio,0.0682
+Dividend Yield,0.0013
+Dividend Payout Ratio,0.048499998
 Five Year Avg Dividend Yield,0.26
-Trailing Annual Dividend Rate,0.32
-Trailing Annual Dividend Yield,0.0016162432
+Trailing Annual Dividend Rate,0.34
+Trailing Annual Dividend Yield,0.0012584669
 
 FINANCIAL RATIO
-Debt to Equity,70.844
-Price to Cash Flow,4.960501570338629e-07
-Enterprise to EBITDA,19.948
-Price to Book,4.7627134
-Price to Earnings,"PriceToEarnings(trailing_pe=41.85501, forward_pe=23.480862)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=8.36)"
-Enterprise to Revenue,1.664
+Debt to Equity,62.923
+Price to Cash Flow,2.466356957837543e-07
+Enterprise to EBITDA,24.705
+Price to Book,6.2518425
+Price to Earnings,"PriceToEarnings(trailing_pe=52.817123, forward_pe=28.016514)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.14, forward_eps=9.69)"
+Enterprise to Revenue,2.012
 
 CASH FLOW
-Free to Cash Flow,395726112.0
-Operating to Cash Flow,1155543040.0
+Free to Cash Flow,1100732800.0
+Operating to Cash Flow,1775497984.0
 
 PROFITABILITY
-Return on Equity,0.12703
-Return on Assets,0.04559
-Return on Invested Capital,0.16393637000650557
-Return on Investment,-0.09326239841427156
+Return on Equity,0.13118
+Return on Assets,0.047340002
+Return on Invested Capital,0.1916910262934148
+Return on Investment,-0.11808345884776826
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -63,13 +63,18 @@ Dividend Ex Date,0.0
 5 Year Average,0.0026
 SUM DIVIDEND SCORE,8.0026
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,35.31999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,36.31999999999999
+
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

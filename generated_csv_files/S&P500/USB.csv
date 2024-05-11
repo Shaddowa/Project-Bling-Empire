@@ -5,63 +5,68 @@ Country,United States
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.usbank.com
-Price,42.81
+Price,41.54
 Currency,USD
 
 REVENUE
-Total Revenue,25738000384.0
-Revenue Per Share,16.68
-Revenue Growth,0.215
+Total Revenue,25155999744.0
+Revenue Per Share,16.232
+Revenue Growth,-0.087
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.27, forward_eps=4.37)"
-Net Earnings,5050999808.0
-Earnings Growth,-0.132
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.01, forward_eps=4.29)"
+Net Earnings,4668000256.0
+Earnings Growth,-0.254
 
 DEBT
-Total Debt,66759000064.0
+Total Debt,74720002048.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.21093
+Profit Margins,0.20075001
 Gross Profit Margins,0.0
-Operating Margins,0.21338
+Operating Margins,0.32192
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.96
-Dividend Yield,0.046
-Dividend Payout Ratio,0.5902
-Five Year Avg Dividend Yield,3.8
-Trailing Annual Dividend Rate,1.93
-Trailing Annual Dividend Yield,0.045082923
+Dividend Yield,0.0468
+Dividend Payout Ratio,0.64449996
+Five Year Avg Dividend Yield,3.92
+Trailing Annual Dividend Rate,1.94
+Trailing Annual Dividend Yield,0.046701975
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.3698277
-Price to Earnings,"PriceToEarnings(trailing_pe=13.039755, forward_pe=9.757437)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.27, forward_eps=4.37)"
-Enterprise to Revenue,3.08
+Price to Book,1.3392857
+Price to Earnings,"PriceToEarnings(trailing_pe=13.903654, forward_pe=9.755244)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.01, forward_eps=4.29)"
+Enterprise to Revenue,2.689
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,10266000384.0
 
 PROFITABILITY
-Return on Equity,0.102019995
-Return on Assets,0.00816
-Return on Invested Capital,0.07566020762447903
-Return on Investment,0.004747180270676692
+Return on Equity,0.0928
+Return on Assets,0.0074400003
+Return on Invested Capital,0.06247323509238023
+Return on Investment,0.003320057081081081
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.038
-SUM DIVIDEND SCORE,9.038
+5 Year Average,0.0392
+SUM DIVIDEND SCORE,8.0392
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,12.149999999999999
+Recommendation Key,1
+SUM ANALYST RATING SCORE,13.149999999999999
 
 
 

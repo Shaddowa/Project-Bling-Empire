@@ -5,27 +5,27 @@ Country,Norway
 Industry,Railroads
 Sector,Industrials
 Website,https://www.nrcgroup.com
-Price,11.28
+Price,13.3
 Currency,NOK
 
 REVENUE
-Total Revenue,6887000064.0
-Revenue Per Share,91.981
-Revenue Growth,-0.072
+Total Revenue,6732000256.0
+Revenue Per Share,92.44
+Revenue Growth,-0.079
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.39)"
-Net Earnings,-349000000.0
-Earnings Growth,0.048
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=1.9)"
+Net Earnings,38000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,1338000000.0
-Debt to Equity,54.702
+Total Debt,1131000064.0
+Debt to Equity,46.562
 
 MARGINS
-Profit Margins,-0.050679997
-Gross Profit Margins,0.17671
-Operating Margins,0.04013
+Profit Margins,0.00564
+Gross Profit Margins,0.19979
+Operating Margins,0.01889
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,54.702
-Price to Cash Flow,1.0366972477064221e-07
-Enterprise to EBITDA,10.332
-Price to Book,0.33786815
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=8.129497)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-4.81, forward_eps=1.39)"
-Enterprise to Revenue,0.264
+Debt to Equity,46.562
+Price to Cash Flow,4.957921697768021e-08
+Enterprise to EBITDA,10.17
+Price to Book,0.4064309
+Price to Earnings,"PriceToEarnings(trailing_pe=26.568628, forward_pe=7.131579)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.51, forward_eps=1.9)"
+Enterprise to Revenue,0.26
 
 CASH FLOW
-Free to Cash Flow,109000000.0
-Operating to Cash Flow,230000000.0
+Free to Cash Flow,273300000.0
+Operating to Cash Flow,376000000.0
 
 PROFITABILITY
-Return on Equity,-0.13568
-Return on Assets,0.01194
-Return on Invested Capital,-0.26083706373415877
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.01561
+Return on Assets,0.01464
+Return on Invested Capital,0.03359858243107656
+Return on Investment,0.0031666666666666666
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,1.4499999999999993
+Recommendation Key,1
+SUM ANALYST RATING SCORE,2.4499999999999993
 
 
 

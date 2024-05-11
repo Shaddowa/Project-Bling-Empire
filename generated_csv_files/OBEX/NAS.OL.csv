@@ -5,27 +5,27 @@ Country,Norway
 Industry,Airlines
 Sector,Industrials
 Website,https://www.norwegian.com
-Price,13.415
+Price,14.65
 Currency,NOK
 
 REVENUE
-Total Revenue,23393900544.0
-Revenue Per Share,25.046
-Revenue Growth,0.219
+Total Revenue,25539299328.0
+Revenue Per Share,26.945
+Revenue Growth,0.255
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.51)"
-Net Earnings,1340899968.0
-Earnings Growth,1.241
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.67, forward_eps=2.18)"
+Net Earnings,1610599936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,13709299712.0
-Debt to Equity,221.887
+Total Debt,14025400320.0
+Debt to Equity,242.965
 
 MARGINS
-Profit Margins,0.06263
-Gross Profit Margins,0.14404
-Operating Margins,0.25492
+Profit Margins,0.06801
+Gross Profit Margins,0.20135
+Operating Margins,0.054840002
 
 DIVIDEND
 Dividend Ex Date,None
@@ -33,35 +33,40 @@ Dividend Rate,None
 Dividend Yield,None
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.0
-Trailing Annual Dividend Yield,0.0
+Trailing Annual Dividend Rate,0.6
+Trailing Annual Dividend Yield,0.040955633
 
 FINANCIAL RATIO
-Debt to Equity,221.887
-Price to Cash Flow,3.0823573861926e-09
-Enterprise to EBITDA,7.217
-Price to Book,2.0848248
-Price to Earnings,"PriceToEarnings(trailing_pe=10.303847, forward_pe=8.870861)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.3, forward_eps=1.51)"
-Enterprise to Revenue,0.735
+Debt to Equity,242.965
+Price to Cash Flow,7.521283719402697e-09
+Enterprise to EBITDA,7.703
+Price to Book,3.2920232
+Price to Earnings,"PriceToEarnings(trailing_pe=8.748503, forward_pe=6.7018347)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.67, forward_eps=2.18)"
+Enterprise to Revenue,0.728
 
 CASH FLOW
-Free to Cash Flow,4345699840.0
-Operating to Cash Flow,4375799808.0
+Free to Cash Flow,1942487552.0
+Operating to Cash Flow,5257500160.0
 
 PROFITABILITY
-Return on Equity,0.26549
-Return on Assets,0.041199997
-Return on Invested Capital,0.09780951584258236
-Return on Investment,0.012628554982105859
+Return on Equity,0.34822
+Return on Assets,0.053260002
+Return on Invested Capital,0.11483450730412838
+Return on Investment,0.013297555614266843
 
 DIVIDEND SCORE
-Dividend  Rate,0.0
-Dividend Yield,0.0
+Dividend  Rate,0.5
+Dividend Yield,0.5
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,0.0
+SUM DIVIDEND SCORE,1.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,7.390000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,8.39
 
 
 

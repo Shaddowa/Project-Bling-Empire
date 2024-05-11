@@ -6,7 +6,7 @@ from context.yquery_ticker.main.const import YQUERY_TEST_PATH
 class CONST_COLLECTION:
 
     STCOK_COLLECTION_LIST = [
-        # NORWAY,
+        NORWAY,
         STANDARD_AND_POOR_500,
         # GERMANY,
         # HONG_KONG,

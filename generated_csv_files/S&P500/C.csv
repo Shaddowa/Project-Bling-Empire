@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,C
 Company,Citigroup Inc.
 Country,United States
-Industry,Banks - Diversified
+Industry,Banks—Diversified
 Sector,Financial Services
 Website,https://www.citigroup.com
-Price,53.73
+Price,63.32
 Currency,USD
 
 REVENUE
-Total Revenue,70699999232.0
-Revenue Per Share,36.63
-Revenue Growth,-0.1
+Total Revenue,69645000704.0
+Revenue Per Share,36.239
+Revenue Growth,-0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.04, forward_eps=7.1)"
-Net Earnings,8031000064.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.43, forward_eps=7.21)"
+Net Earnings,6602999808.0
+Earnings Growth,-0.281
 
 DEBT
-Total Debt,593232986112.0
+Total Debt,666290028544.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.13052
+Profit Margins,0.11477
 Gross Profit Margins,0.0
-Operating Margins,-0.088319995
+Operating Margins,0.25541002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.1
-Dividend Yield,0.039100002
-Dividend Payout Ratio,0.5149
-Five Year Avg Dividend Yield,3.63
-Trailing Annual Dividend Rate,2.08
-Trailing Annual Dividend Yield,0.038712077
+Dividend Rate,2.12
+Dividend Yield,0.0334
+Dividend Payout Ratio,0.6122
+Five Year Avg Dividend Yield,3.7
+Trailing Annual Dividend Rate,2.1
+Trailing Annual Dividend Yield,0.033164874
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.5437194
-Price to Earnings,"PriceToEarnings(trailing_pe=13.284653, forward_pe=7.559155)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.04, forward_eps=7.1)"
-Enterprise to Revenue,-4.182
+Price to Book,0.6412119
+Price to Earnings,"PriceToEarnings(trailing_pe=18.521866, forward_pe=8.811373)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.43, forward_eps=7.21)"
+Enterprise to Revenue,-3.208
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,-53761998848.0
 
 PROFITABILITY
-Return on Equity,0.04598
-Return on Assets,0.00389
-Return on Invested Capital,0.01353768291830537
-Return on Investment,0.0013067460809007777
+Return on Equity,0.03909
+Return on Assets,0.00333
+Return on Invested Capital,0.009910098491864318
+Return on Investment,0.0008414573292044195
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0363
-SUM DIVIDEND SCORE,9.0363
+5 Year Average,0.037000000000000005
+SUM DIVIDEND SCORE,8.037
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,22.47
+Recommendation Key,1
+SUM ANALYST RATING SCORE,23.47
 
 
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.axactor.com
-Price,5.06
+Price,4.455
 Currency,NOK
 
 REVENUE
-Total Revenue,252131008.0
-Revenue Per Share,0.833
-Revenue Growth,0.095
+Total Revenue,248511008.0
+Revenue Per Share,0.797
+Revenue Growth,-0.083
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.51, forward_eps=1.1)"
-Net Earnings,35324000.0
-Earnings Growth,-0.375
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.01, forward_eps=1.29)"
+Net Earnings,26262000.0
+Earnings Growth,-0.917
 
 DEBT
-Total Debt,964097024.0
-Debt to Equity,232.166
+Total Debt,937163008.0
+Debt to Equity,225.723
 
 MARGINS
-Profit Margins,0.13048
-Gross Profit Margins,0.99417
-Operating Margins,0.50416
+Profit Margins,0.097849995
+Gross Profit Margins,0.9931
+Operating Margins,0.42533
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,232.166
-Price to Cash Flow,-9.207679204456517e-07
-Enterprise to EBITDA,20.07
-Price to Book,3.563792
-Price to Earnings,"PriceToEarnings(trailing_pe=3.3112583, forward_pe=4.5454545)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.51, forward_eps=1.1)"
-Enterprise to Revenue,9.617
+Debt to Equity,225.723
+Price to Cash Flow,1.5699546265393352e-07
+Enterprise to EBITDA,19.998
+Price to Book,3.5186656
+Price to Earnings,"PriceToEarnings(trailing_pe=4.3861384, forward_pe=3.4341085)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.01, forward_eps=1.29)"
+Enterprise to Revenue,9.607
 
 CASH FLOW
-Free to Cash Flow,-5430250.0
-Operating to Cash Flow,19746000.0
+Free to Cash Flow,28217376.0
+Operating to Cash Flow,105685000.0
 
 PROFITABILITY
-Return on Equity,0.08465999
-Return on Assets,0.05309
-Return on Invested Capital,0.036639465810232426
-Return on Investment,-0.08468952289618796
+Return on Equity,0.06506
+Return on Assets,0.05242
+Return on Invested Capital,0.02802287301199068
+Return on Investment,-0.06462106299212599
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,2.59
+Recommendation Key,0
+SUM ANALYST RATING SCORE,2.59
 
 
 

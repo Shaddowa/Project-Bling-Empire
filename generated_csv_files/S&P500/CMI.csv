@@ -5,71 +5,76 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.cummins.com
-Price,238.85
+Price,294.58
 Currency,USD
 
 REVENUE
-Total Revenue,33291999232.0
-Revenue Per Share,235.03
-Revenue Growth,0.15
+Total Revenue,34015000576.0
+Revenue Per Share,240.134
+Revenue Growth,-0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.64, forward_eps=19.58)"
-Net Earnings,2796999936.0
-Earnings Growth,0.628
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.62, forward_eps=21.57)"
+Net Earnings,1938000000.0
+Earnings Growth,1.528
 
 DEBT
-Total Debt,8125000192.0
-Debt to Equity,69.575
+Total Debt,7420000256.0
+Debt to Equity,73.458
 
 MARGINS
-Profit Margins,0.08401
-Gross Profit Margins,0.24231
-Operating Margins,0.1026
+Profit Margins,0.05697
+Gross Profit Margins,0.24285999
+Operating Margins,0.09877
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.72
-Dividend Yield,0.0279
-Dividend Payout Ratio,0.32549998
-Five Year Avg Dividend Yield,2.68
-Trailing Annual Dividend Rate,6.39
-Trailing Annual Dividend Yield,0.02675319
+Dividend Yield,0.0225
+Dividend Payout Ratio,0.485
+Five Year Avg Dividend Yield,2.65
+Trailing Annual Dividend Rate,6.61
+Trailing Annual Dividend Yield,0.022438727
 
 FINANCIAL RATIO
-Debt to Equity,69.575
-Price to Cash Flow,2.399401700914657e-07
-Enterprise to EBITDA,8.769
-Price to Book,3.20025
-Price to Earnings,"PriceToEarnings(trailing_pe=12.252037, forward_pe=12.289581)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.64, forward_eps=19.58)"
-Enterprise to Revenue,1.214
+Debt to Equity,73.458
+Price to Cash Flow,7.12524254601464e-08
+Enterprise to EBITDA,10.576
+Price to Book,4.5046687
+Price to Earnings,"PriceToEarnings(trailing_pe=21.924376, forward_pe=13.843764)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.62, forward_eps=21.57)"
+Enterprise to Revenue,1.36
 
 CASH FLOW
-Free to Cash Flow,1002875008.0
-Operating to Cash Flow,3324000000.0
+Free to Cash Flow,4190874880.0
+Operating to Cash Flow,3747000064.0
 
 PROFITABILITY
-Return on Equity,0.27029
-Return on Assets,0.073
-Return on Invested Capital,0.34424613464868076
+Return on Equity,0.19655001
+Return on Assets,0.066
+Return on Invested Capital,0.2611859724828348
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0268
-SUM DIVIDEND SCORE,8.0268
+5 Year Average,0.0265
+SUM DIVIDEND SCORE,9.0265
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,46.389999999999986
+Recommendation Key,0
+SUM ANALYST RATING SCORE,46.389999999999986
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
-Total Revenue,True
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

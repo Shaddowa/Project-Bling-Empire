@@ -5,63 +5,68 @@ Country,United States
 Industry,REIT—Retail
 Sector,Real Estate
 Website,https://www.regencycenters.com
-Price,63.97
+Price,59.32
 Currency,USD
 
 REVENUE
-Total Revenue,1312902016.0
-Revenue Per Share,7.603
-Revenue Growth,0.089
+Total Revenue,1415766016.0
+Revenue Per Share,7.889
+Revenue Growth,0.139
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.12, forward_eps=2.15)"
-Net Earnings,368401984.0
-Earnings Growth,-0.02
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=2.12)"
+Net Earnings,368580000.0
+Earnings Growth,0.014
 
 DEBT
-Total Debt,4311486976.0
-Debt to Equity,59.621
+Total Debt,4662415872.0
+Debt to Equity,64.954
 
 MARGINS
-Profit Margins,0.28184998
-Gross Profit Margins,0.71630996
-Operating Margins,0.38412997
+Profit Margins,0.26632
+Gross Profit Margins,0.70839
+Operating Margins,0.37750998
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.68
-Dividend Yield,0.0421
-Dividend Payout Ratio,1.2264
-Five Year Avg Dividend Yield,4.13
-Trailing Annual Dividend Rate,2.6
-Trailing Annual Dividend Yield,0.04064405
+Dividend Yield,0.045
+Dividend Payout Ratio,1.2878
+Five Year Avg Dividend Yield,4.19
+Trailing Annual Dividend Rate,2.64
+Trailing Annual Dividend Yield,0.044504385
 
 FINANCIAL RATIO
-Debt to Equity,59.621
-Price to Cash Flow,1.1921459088221618e-07
-Enterprise to EBITDA,20.105
-Price to Book,1.7131313
-Price to Earnings,"PriceToEarnings(trailing_pe=30.0, forward_pe=29.581394)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.12, forward_eps=2.15)"
-Enterprise to Revenue,12.432
+Debt to Equity,64.954
+Price to Cash Flow,1.1045132283193972e-07
+Enterprise to EBITDA,18.277
+Price to Book,1.6159835
+Price to Earnings,"PriceToEarnings(trailing_pe=29.058537, forward_pe=28.099058)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=2.12)"
+Enterprise to Revenue,11.149
 
 CASH FLOW
-Free to Cash Flow,533491744.0
-Operating to Cash Flow,675257984.0
+Free to Cash Flow,539332608.0
+Operating to Cash Flow,725249984.0
 
 PROFITABILITY
-Return on Equity,0.05588
-Return on Assets,0.02702
-Return on Invested Capital,0.08544661804118002
-Return on Investment,0.012313147456165565
+Return on Equity,0.05782
+Return on Assets,0.027999999
+Return on Invested Capital,0.07905343650259716
+Return on Investment,0.011202086144644225
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.041299999999999996
-SUM DIVIDEND SCORE,8.0413
+5 Year Average,0.04190000000000001
+SUM DIVIDEND SCORE,8.0419
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,15.43
+Recommendation Key,1
+SUM ANALYST RATING SCORE,16.43
 
 
 

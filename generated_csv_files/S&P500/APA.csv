@@ -4,64 +4,69 @@ Company,APA Corporation
 Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
-Website,https://www.apachecorp.com
-Price,32.04
+Website,https://www.apacorp.com
+Price,30.88
 Currency,USD
 
 REVENUE
-Total Revenue,8439000064.0
-Revenue Per Share,27.267
-Revenue Growth,-0.2
+Total Revenue,8082999808.0
+Revenue Per Share,26.437
+Revenue Growth,-0.005
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.19)"
-Net Earnings,1524999936.0
-Earnings Growth,0.164
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.91, forward_eps=4.95)"
+Net Earnings,2744999936.0
+Earnings Growth,-0.438
 
 DEBT
-Total Debt,5692000256.0
-Debt to Equity,270.147
+Total Debt,5298999808.0
+Debt to Equity,145.059
 
 MARGINS
-Profit Margins,0.18070999
-Gross Profit Margins,0.71442
-Operating Margins,0.39775002
+Profit Margins,0.3396
+Gross Profit Margins,0.71199
+Operating Margins,0.30977
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.0
-Dividend Yield,0.0311
-Dividend Payout Ratio,0.1996
-Five Year Avg Dividend Yield,2.74
+Dividend Yield,0.032899998
+Dividend Payout Ratio,0.1122
+Five Year Avg Dividend Yield,2.75
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.031210985
+Trailing Annual Dividend Yield,0.03238342
 
 FINANCIAL RATIO
-Debt to Equity,270.147
-Price to Cash Flow,2.0671119656301197e-08
-Enterprise to EBITDA,3.124
-Price to Book,9.137735
-Price to Earnings,"PriceToEarnings(trailing_pe=6.4091816, forward_pe=6.1868978)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=5.19)"
-Enterprise to Revenue,1.952
+Debt to Equity,145.059
+Price to Cash Flow,2.4845635814835834e-08
+Enterprise to EBITDA,3.545
+Price to Book,3.5088935
+Price to Earnings,"PriceToEarnings(trailing_pe=3.409652, forward_pe=6.137374)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.91, forward_eps=4.95)"
+Enterprise to Revenue,2.167
 
 CASH FLOW
-Free to Cash Flow,1553374976.0
-Operating to Cash Flow,3512000000.0
+Free to Cash Flow,1222749952.0
+Operating to Cash Flow,3161999872.0
 
 PROFITABILITY
-Return on Equity,1.02898
-Return on Assets,0.16643
-Return on Invested Capital,0.26791986410243224
-Return on Investment,-0.008645124353741497
+Return on Equity,1.21628
+Return on Assets,0.13976
+Return on Invested Capital,0.5180222741980072
+Return on Investment,-0.016261847962085307
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0274
-SUM DIVIDEND SCORE,4.0274
+5 Year Average,0.0275
+SUM DIVIDEND SCORE,7.0275
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,27.62
+Recommendation Key,0
+SUM ANALYST RATING SCORE,27.62
 
 
 

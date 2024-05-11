@@ -5,63 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.micron.com
-Price,89.2
+Price,117.81
 Currency,USD
 
 REVENUE
-Total Revenue,16181000192.0
-Revenue Per Share,14.77
-Revenue Growth,0.157
+Total Revenue,18311999488.0
+Revenue Per Share,16.67
+Revenue Growth,0.577
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.28, forward_eps=6.62)"
-Net Earnings,-6872000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.44, forward_eps=7.71)"
+Net Earnings,-3767000064.0
 Earnings Growth,None
 
 DEBT
-Total Debt,14168000512.0
-Debt to Equity,33.037
+Total Debt,14380000256.0
+Debt to Equity,32.779
 
 MARGINS
-Profit Margins,-0.42470002
-Gross Profit Margins,-0.14486
-Operating Margins,-0.23868
+Profit Margins,-0.20571
+Gross Profit Margins,-0.00322
+Operating Margins,0.0328
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.46
-Dividend Yield,0.0052
+Dividend Yield,0.0038
 Dividend Payout Ratio,0.3156
 Five Year Avg Dividend Yield,0.33
 Trailing Annual Dividend Rate,0.46
-Trailing Annual Dividend Yield,0.005156951
+Trailing Annual Dividend Yield,0.0039045922
 
 FINANCIAL RATIO
-Debt to Equity,33.037
-Price to Cash Flow,-2.261461465802055e-08
-Enterprise to EBITDA,80.376
-Price to Book,2.266701
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=13.300605)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.28, forward_eps=6.62)"
-Enterprise to Revenue,6.323
+Debt to Equity,32.779
+Price to Cash Flow,-3.9752449600766315e-08
+Enterprise to EBITDA,38.119
+Price to Book,3.0592983
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=15.725032)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-3.44, forward_eps=7.71)"
+Enterprise to Revenue,7.625
 
 CASH FLOW
-Free to Cash Flow,-3893499904.0
-Operating to Cash Flow,2016999936.0
+Free to Cash Flow,-3049874944.0
+Operating to Cash Flow,2892999936.0
 
 PROFITABILITY
-Return on Equity,-0.14908
-Return on Assets,-0.06068
-Return on Invested Capital,-0.4850366835700147
-Return on Investment,0.011293344289235827
+Return on Equity,-0.082679994
+Return on Assets,-0.03765
+Return on Invested Capital,-0.26196105608876585
+Return on Investment,0.007308886426076833
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0033
-SUM DIVIDEND SCORE,7.0033
+SUM DIVIDEND SCORE,4.0033
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,103.76
+Recommendation Key,1
+SUM ANALYST RATING SCORE,104.76
 
 
 

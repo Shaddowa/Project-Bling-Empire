@@ -5,55 +5,55 @@ Country,United States
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.corporate.carrier.com
-Price,56.31
+Price,65.24
 Currency,USD
 
 REVENUE
-Total Revenue,22101000192.0
-Revenue Per Share,26.428
-Revenue Growth,0.051
+Total Revenue,23007000576.0
+Revenue Per Share,26.961
+Revenue Growth,0.172
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.41, forward_eps=2.86)"
-Net Earnings,1199000064.0
-Earnings Growth,-0.725
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.43, forward_eps=3.06)"
+Net Earnings,1244999936.0
+Earnings Growth,-0.341
 
 DEBT
-Total Debt,9249999872.0
-Debt to Equity,108.798
+Total Debt,17400000512.0
+Debt to Equity,146.145
 
 MARGINS
-Profit Margins,0.054250002
-Gross Profit Margins,0.28094
-Operating Margins,0.14919
+Profit Margins,0.054109998
+Gross Profit Margins,0.29268998
+Operating Margins,0.09706
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.76
-Dividend Yield,0.0137
-Dividend Payout Ratio,0.5
+Dividend Yield,0.0116
+Dividend Payout Ratio,0.52099997
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.74
-Trailing Annual Dividend Yield,0.013141538
+Trailing Annual Dividend Rate,0.75
+Trailing Annual Dividend Yield,0.011496015
 
 FINANCIAL RATIO
-Debt to Equity,108.798
-Price to Cash Flow,2.465604238999349e-08
-Enterprise to EBITDA,16.49
-Price to Book,5.6909986
-Price to Earnings,"PriceToEarnings(trailing_pe=39.368793, forward_pe=19.409092)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.41, forward_eps=2.86)"
-Enterprise to Revenue,2.364
+Debt to Equity,146.145
+Price to Cash Flow,-1.1764705544256329e-07
+Enterprise to EBITDA,24.745
+Price to Book,5.1044264
+Price to Earnings,"PriceToEarnings(trailing_pe=45.8042, forward_pe=21.40523)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.43, forward_eps=3.06)"
+Enterprise to Revenue,3.279
 
 CASH FLOW
-Free to Cash Flow,2251375104.0
-Operating to Cash Flow,2668000000.0
+Free to Cash Flow,-556750016.0
+Operating to Cash Flow,2527000064.0
 
 PROFITABILITY
-Return on Equity,0.16023001
-Return on Assets,0.063540004
-Return on Invested Capital,0.1296216301975394
-Return on Investment,0.04312949870503597
+Return on Equity,0.13174
+Return on Assets,0.043309998
+Return on Invested Capital,0.0715517183015729
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,9.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,13.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,14.5
 
 
 

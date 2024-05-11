@@ -5,63 +5,68 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.dupont.com
-Price,64.11
+Price,78.8
 Currency,USD
 
 REVENUE
-Total Revenue,12273999872.0
-Revenue Per Share,26.586
-Revenue Growth,-0.078
+Total Revenue,11980999680.0
+Revenue Per Share,27.174
+Revenue Growth,-0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.97, forward_eps=3.62)"
-Net Earnings,895000000.0
-Earnings Growth,-0.039
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.92, forward_eps=4.21)"
+Net Earnings,404000000.0
+Earnings Growth,-0.209
 
 DEBT
-Total Debt,8817999872.0
-Debt to Equity,35.806
+Total Debt,8320999936.0
+Debt to Equity,34.654
 
 MARGINS
-Profit Margins,0.38056
-Gross Profit Margins,0.34699002
-Operating Margins,0.14977
+Profit Margins,0.02963
+Gross Profit Margins,0.35356
+Operating Margins,0.13204001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.44
-Dividend Yield,0.0223
-Dividend Payout Ratio,0.7157
-Five Year Avg Dividend Yield,2.36
-Trailing Annual Dividend Rate,1.41
-Trailing Annual Dividend Yield,0.021993449
+Dividend Rate,1.52
+Dividend Yield,0.019299999
+Dividend Payout Ratio,1.587
+Five Year Avg Dividend Yield,2.31
+Trailing Annual Dividend Rate,1.46
+Trailing Annual Dividend Yield,0.01852792
 
 FINANCIAL RATIO
-Debt to Equity,35.806
-Price to Cash Flow,1.6102084829521694e-08
-Enterprise to EBITDA,12.328
-Price to Book,1.1495049
-Price to Earnings,"PriceToEarnings(trailing_pe=32.82741, forward_pe=17.864641)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.97, forward_eps=3.62)"
-Enterprise to Revenue,2.911
+Debt to Equity,34.654
+Price to Cash Flow,3.038140654216452e-08
+Enterprise to EBITDA,14.009
+Price to Book,1.3961817
+Price to Earnings,"PriceToEarnings(trailing_pe=85.608696, forward_pe=18.707838)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.92, forward_eps=4.21)"
+Enterprise to Revenue,3.317
 
 CASH FLOW
-Free to Cash Flow,4016250112.0
-Operating to Cash Flow,1243000064.0
+Free to Cash Flow,2592375040.0
+Operating to Cash Flow,2036999936.0
 
 PROFITABILITY
-Return on Equity,0.03742
-Return on Assets,0.026600001
-Return on Invested Capital,0.10149693890695076
-Return on Investment,-0.005450669914738125
+Return on Equity,0.01731
+Return on Assets,0.02654
+Return on Invested Capital,0.04855185679226776
+Return on Investment,-0.0025880845611787316
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0236
-SUM DIVIDEND SCORE,8.0236
+5 Year Average,0.0231
+SUM DIVIDEND SCORE,8.0231
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,14.239999999999995
+Recommendation Key,0
+SUM ANALYST RATING SCORE,14.239999999999995
 
 
 

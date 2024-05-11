@@ -5,63 +5,68 @@ Country,United States
 Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.lilly.com
-Price,627.62
+Price,771.55
 Currency,USD
 
 REVENUE
-Total Revenue,32072499200.0
-Revenue Per Share,35.615
-Revenue Growth,0.368
+Total Revenue,35932098560.0
+Revenue Per Share,39.919
+Revenue Growth,0.26
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.5, forward_eps=12.45)"
-Net Earnings,4988400128.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.76, forward_eps=19.48)"
+Net Earnings,6138399744.0
+Earnings Growth,0.664
 
 DEBT
-Total Debt,20331599872.0
-Debt to Equity,179.808
+Total Debt,26346500096.0
+Debt to Equity,204.278
 
 MARGINS
-Profit Margins,0.15554
-Gross Profit Margins,0.78666
-Operating Margins,0.37278998
+Profit Margins,0.17083
+Gross Profit Margins,0.80160004
+Operating Margins,0.312
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.2
-Dividend Yield,0.0081
-Dividend Payout Ratio,0.7917
-Five Year Avg Dividend Yield,1.51
-Trailing Annual Dividend Rate,4.37
-Trailing Annual Dividend Yield,0.0069628116
+Dividend Yield,0.0068
+Dividend Payout Ratio,0.6907
+Five Year Avg Dividend Yield,1.42
+Trailing Annual Dividend Rate,4.69
+Trailing Annual Dividend Yield,0.006078673
 
 FINANCIAL RATIO
-Debt to Equity,179.808
-Price to Cash Flow,1.6371505835848052e-07
-Enterprise to EBITDA,52.374
-Price to Book,51.23427
-Price to Earnings,"PriceToEarnings(trailing_pe=116.22727, forward_pe=51.345383)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.5, forward_eps=12.45)"
-Enterprise to Revenue,18.479
+Debt to Equity,204.278
+Price to Cash Flow,-6.167704641583387e-07
+Enterprise to EBITDA,52.946
+Price to Book,53.412045
+Price to Earnings,"PriceToEarnings(trailing_pe=112.42603, forward_pe=39.014374)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.76, forward_eps=19.48)"
+Enterprise to Revenue,19.706
 
 CASH FLOW
-Free to Cash Flow,3904649984.0
-Operating to Cash Flow,5713399808.0
+Free to Cash Flow,-1232225024.0
+Operating to Cash Flow,3675500032.0
 
 PROFITABILITY
-Return on Equity,0.46460998
-Return on Assets,0.11627
-Return on Invested Capital,0.24535207048849117
-Return on Investment,-0.00994715772597659
+Return on Equity,0.50747
+Return on Assets,0.12604
+Return on Invested Capital,0.23298729312500877
+Return on Investment,-0.009522804443065467
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0151
-SUM DIVIDEND SCORE,8.0151
+5 Year Average,0.014199999999999999
+SUM DIVIDEND SCORE,8.0142
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,263.0
+Recommendation Key,1
+SUM ANALYST RATING SCORE,264.0
 
 
 

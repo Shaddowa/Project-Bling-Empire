@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.halliburton.com
-Price,37.0
+Price,37.48
 Currency,USD
 
 REVENUE
-Total Revenue,23018000384.0
-Revenue Per Share,25.604
-Revenue Growth,0.028
+Total Revenue,23145000960.0
+Revenue Per Share,25.853
+Revenue Growth,0.022
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.92, forward_eps=3.94)"
-Net Earnings,2638000128.0
-Earnings Growth,0.028
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.88, forward_eps=3.93)"
+Net Earnings,2592999936.0
+Earnings Growth,-0.056
 
 DEBT
-Total Debt,8808999936.0
-Debt to Equity,93.385
+Total Debt,8787000320.0
+Debt to Equity,90.756
 
 MARGINS
-Profit Margins,0.11461
-Gross Profit Margins,0.1902
-Operating Margins,0.18435
+Profit Margins,0.11203
+Gross Profit Margins,0.19058001
+Operating Margins,0.17006001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.68
-Dividend Yield,0.018099999
-Dividend Payout Ratio,0.2192
-Five Year Avg Dividend Yield,2.23
-Trailing Annual Dividend Rate,0.64
-Trailing Annual Dividend Yield,0.017297298
+Dividend Yield,0.0183
+Dividend Payout Ratio,0.22569999
+Five Year Avg Dividend Yield,2.19
+Trailing Annual Dividend Rate,0.65
+Trailing Annual Dividend Yield,0.017342582
 
 FINANCIAL RATIO
-Debt to Equity,93.385
-Price to Cash Flow,2.4986684420772304e-08
-Enterprise to EBITDA,7.892
-Price to Book,3.5688474
-Price to Earnings,"PriceToEarnings(trailing_pe=12.852739, forward_pe=9.52538)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.92, forward_eps=3.94)"
-Enterprise to Revenue,1.742
+Debt to Equity,90.756
+Price to Cash Flow,1.883518523733484e-08
+Enterprise to EBITDA,7.776
+Price to Book,3.4046657
+Price to Earnings,"PriceToEarnings(trailing_pe=12.871527, forward_pe=9.4325695)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.88, forward_eps=3.93)"
+Enterprise to Revenue,1.718
 
 CASH FLOW
-Free to Cash Flow,1502000000.0
-Operating to Cash Flow,3457999872.0
+Free to Cash Flow,1968125056.0
+Operating to Cash Flow,3823000064.0
 
 PROFITABILITY
-Return on Equity,0.3058
-Return on Assets,0.10647
-Return on Invested Capital,0.29946647111098473
-Return on Investment,-0.06280952685714286
+Return on Equity,0.28863
+Return on Assets,0.10599
+Return on Invested Capital,0.2950950083483103
+Return on Investment,-0.08849829133105802
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0223
-SUM DIVIDEND SCORE,8.0223
+5 Year Average,0.0219
+SUM DIVIDEND SCORE,8.0219
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,16.93
+Recommendation Key,1
+SUM ANALYST RATING SCORE,17.93
 
 
 

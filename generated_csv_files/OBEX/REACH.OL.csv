@@ -5,55 +5,55 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://reachsubsea.no
-Price,4.4
+Price,6.3
 Currency,NOK
 
 REVENUE
-Total Revenue,1849179008.0
-Revenue Per Share,7.753
-Revenue Growth,0.782
+Total Revenue,2307312896.0
+Revenue Per Share,8.987
+Revenue Growth,1.458
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.66)"
-Net Earnings,180782000.0
-Earnings Growth,0.13
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.88, forward_eps=1.05)"
+Net Earnings,226120992.0
+Earnings Growth,1.0
 
 DEBT
-Total Debt,1348728064.0
-Debt to Equity,163.869
+Total Debt,1726086016.0
+Debt to Equity,184.015
 
 MARGINS
-Profit Margins,0.09776
-Gross Profit Margins,0.78433
-Operating Margins,0.1726
+Profit Margins,0.098000005
+Gross Profit Margins,0.77468
+Operating Margins,0.049850002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.18
-Dividend Yield,0.040799998
-Dividend Payout Ratio,0.2864
+Dividend Rate,0.36
+Dividend Yield,0.056999996
+Dividend Payout Ratio,0.2045
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.18
-Trailing Annual Dividend Yield,0.040909093
+Trailing Annual Dividend Rate,0.36
+Trailing Annual Dividend Yield,0.057142857
 
 FINANCIAL RATIO
-Debt to Equity,163.869
-Price to Cash Flow,1.1888130588499666e-08
-Enterprise to EBITDA,7.289
-Price to Book,1.368715
-Price to Earnings,"PriceToEarnings(trailing_pe=7.0, forward_pe=6.6818175)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.63, forward_eps=0.66)"
-Enterprise to Revenue,1.265
+Debt to Equity,184.015
+Price to Cash Flow,1.0066267128454336e-08
+Enterprise to EBITDA,5.854
+Price to Book,1.4266367
+Price to Earnings,"PriceToEarnings(trailing_pe=7.1818185, forward_pe=6.019048)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.88, forward_eps=1.05)"
+Enterprise to Revenue,1.241
 
 CASH FLOW
-Free to Cash Flow,370958240.0
-Operating to Cash Flow,643075968.0
+Free to Cash Flow,627839488.0
+Operating to Cash Flow,913955008.0
 
 PROFITABILITY
-Return on Equity,0.26047
-Return on Assets,0.09729
-Return on Invested Capital,0.13403888032993932
-Return on Investment,-0.02043427150446479
+Return on Equity,0.27534
+Return on Assets,0.09354
+Return on Invested Capital,0.13100215709044968
+Return on Investment,-0.03829378854849362
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,4.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0.6799999999999997
+Recommendation Key,2
+SUM ANALYST RATING SCORE,2.6799999999999997
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Drug Manufacturers—General
 Sector,Healthcare
 Website,https://www.gilead.com
-Price,80.23
+Price,64.58
 Currency,USD
 
 REVENUE
-Total Revenue,27391000576.0
-Revenue Per Share,21.904
-Revenue Growth,0.001
+Total Revenue,27449999360.0
+Revenue Per Share,22.0
+Revenue Growth,0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.67, forward_eps=7.22)"
-Net Earnings,5875999744.0
-Earnings Growth,0.218
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=7.15)"
+Net Earnings,485000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,24981999616.0
-Debt to Equity,112.319
+Total Debt,25821999104.0
+Debt to Equity,147.935
 
 MARGINS
-Profit Margins,0.21451999
-Gross Profit Margins,0.78810996
-Operating Margins,0.38511002
+Profit Margins,0.01767
+Gross Profit Margins,0.77523005
+Operating Margins,0.36433998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.0
-Dividend Yield,0.0377
-Dividend Payout Ratio,0.6381
-Five Year Avg Dividend Yield,3.95
-Trailing Annual Dividend Rate,2.98
-Trailing Annual Dividend Yield,0.03714321
+Dividend Rate,3.08
+Dividend Yield,0.0467
+Dividend Payout Ratio,8.3889
+Five Year Avg Dividend Yield,4.0
+Trailing Annual Dividend Rate,3.02
+Trailing Annual Dividend Yield,0.046763703
 
 FINANCIAL RATIO
-Debt to Equity,112.319
-Price to Cash Flow,8.628121345287513e-09
-Enterprise to EBITDA,9.884
-Price to Book,4.443948
-Price to Earnings,"PriceToEarnings(trailing_pe=17.027836, forward_pe=11.01385)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.67, forward_eps=7.22)"
-Enterprise to Revenue,4.236
+Debt to Equity,147.935
+Price to Cash Flow,5.2736360208950856e-09
+Enterprise to EBITDA,8.088
+Price to Book,4.7084017
+Price to Earnings,"PriceToEarnings(trailing_pe=183.22221, forward_pe=9.225175)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=7.15)"
+Enterprise to Revenue,3.763
 
 CASH FLOW
-Free to Cash Flow,9216374784.0
-Operating to Cash Flow,8403999744.0
+Free to Cash Flow,12507499520.0
+Operating to Cash Flow,8480999936.0
 
 PROFITABILITY
-Return on Equity,0.26924
-Return on Assets,0.0921
-Return on Invested Capital,0.23520934393209317
-Return on Investment,0.04572762446692607
+Return on Equity,0.02391
+Return on Assets,0.10625
+Return on Invested Capital,0.018782434225309348
+Return on Investment,0.0035793357933579335
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0395
-SUM DIVIDEND SCORE,8.0395
+5 Year Average,0.04
+SUM DIVIDEND SCORE,5.04
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,51.040000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,52.040000000000006
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.illumina.com
-Price,142.76
+Price,111.35
 Currency,USD
 
 REVENUE
-Total Revenue,4464999936.0
-Revenue Per Share,28.304
-Revenue Growth,0.004
+Total Revenue,4493000192.0
+Revenue Per Share,28.392
+Revenue Growth,-0.01
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.1, forward_eps=0.82)"
-Net Earnings,-1124999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-8.15, forward_eps=2.55)"
+Net Earnings,-1290000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,2272000000.0
-Debt to Equity,38.522
+Total Debt,2276000000.0
+Debt to Equity,39.693
 
 MARGINS
-Profit Margins,-0.25195998
-Gross Profit Margins,0.65778
-Operating Margins,0.012510001
+Profit Margins,-0.28711
+Gross Profit Margins,0.65724
+Operating Margins,-0.05483
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,38.522
-Price to Cash Flow,3.5738246505717915e-07
-Enterprise to EBITDA,74.672
-Price to Book,3.7673125
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=171.5)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-7.1, forward_eps=0.82)"
-Enterprise to Revenue,5.301
+Debt to Equity,39.693
+Price to Cash Flow,1.5787181040953328e-07
+Enterprise to EBITDA,54.422
+Price to Book,3.0649142
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=43.345097)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-8.15, forward_eps=2.55)"
+Enterprise to Revenue,4.179
 
 CASH FLOW
-Free to Cash Flow,393500000.0
-Operating to Cash Flow,401000000.0
+Free to Cash Flow,700124992.0
+Operating to Cash Flow,545000000.0
 
 PROFITABILITY
-Return on Equity,-0.17816
-Return on Assets,-0.0065499996
-Return on Invested Capital,-0.4951584143997498
-Return on Investment,0.11597937484536082
+Return on Equity,-0.20761
+Return on Assets,-0.00503
+Return on Invested Capital,-0.5667838223023176
+Return on Investment,0.44482758620689655
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,142.47
+Recommendation Key,0
+SUM ANALYST RATING SCORE,142.47
 
 
 

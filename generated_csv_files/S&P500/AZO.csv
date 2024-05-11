@@ -5,27 +5,27 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.autozone.com
-Price,2748.61
+Price,2987.05
 Currency,USD
 
 REVENUE
-Total Revenue,17662418944.0
-Revenue Per Share,971.236
-Revenue Growth,0.051
+Total Revenue,17830563840.0
+Revenue Per Share,999.527
+Revenue Growth,0.046
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=137.34, forward_eps=163.82)"
-Net Earnings,2582571008.0
-Earnings Growth,0.186
+Earnings Per Share,"EarningsPerShare(trailing_eps=141.82, forward_eps=166.96)"
+Net Earnings,2621057024.0
+Earnings Growth,0.172
 
 DEBT
-Total Debt,11992704000.0
+Total Debt,12026298368.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.14622
-Gross Profit Margins,0.52597
-Operating Margins,0.20252001
+Profit Margins,0.147
+Gross Profit Margins,0.5294
+Operating Margins,0.19259001
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.8845446795160225e-06
-Enterprise to EBITDA,14.541
+Price to Cash Flow,2.0986542825654973e-06
+Enterprise to EBITDA,15.079
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=20.243484, forward_pe=16.97131)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=137.34, forward_eps=163.82)"
-Enterprise to Revenue,3.382
+Price to Earnings,"PriceToEarnings(trailing_pe=21.007755, forward_pe=17.844513)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=141.82, forward_eps=166.96)"
+Enterprise to Revenue,3.546
 
 CASH FLOW
-Free to Cash Flow,1475284736.0
-Operating to Cash Flow,2977459968.0
+Free to Cash Flow,1419633536.0
+Operating to Cash Flow,3057113088.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.14235
-Return on Invested Capital,0.21534518593978572
-Return on Investment,-0.12095558174171249
+Return on Assets,0.1423
+Return on Invested Capital,0.21794379323500374
+Return on Investment,-0.10482802434868858
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,620.6799999999998
+Recommendation Key,1
+SUM ANALYST RATING SCORE,621.6799999999998
 
 
 
@@ -74,7 +79,7 @@ Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
-Return On Equity,True
+Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

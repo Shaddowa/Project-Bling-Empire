@@ -5,63 +5,68 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.campbellsoupcompany.com
-Price,44.24
+Price,45.25
 Currency,USD
 
 REVENUE
-Total Revenue,9299999744.0
-Revenue Per Share,31.13
-Revenue Growth,-0.022
+Total Revenue,9271000064.0
+Revenue Per Share,31.059
+Revenue Growth,-0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.64, forward_eps=3.24)"
-Net Earnings,795000000.0
-Earnings Growth,-0.212
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.55, forward_eps=3.23)"
+Net Earnings,766000000.0
+Earnings Growth,-0.117
 
 DEBT
-Total Debt,4998000128.0
-Debt to Equity,133.032
+Total Debt,4817999872.0
+Debt to Equity,125.11
 
 MARGINS
-Profit Margins,0.085480005
-Gross Profit Margins,0.31118
-Operating Margins,0.15568
+Profit Margins,0.08262
+Gross Profit Margins,0.31430998
+Operating Margins,0.15106
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.48
-Dividend Yield,0.033299997
-Dividend Payout Ratio,0.56060004
-Five Year Avg Dividend Yield,3.16
+Dividend Yield,0.0322
+Dividend Payout Ratio,0.5804
+Five Year Avg Dividend Yield,3.13
 Trailing Annual Dividend Rate,1.48
-Trailing Annual Dividend Yield,0.033453885
+Trailing Annual Dividend Yield,0.032707185
 
 FINANCIAL RATIO
-Debt to Equity,133.032
-Price to Cash Flow,6.482156165227964e-08
-Enterprise to EBITDA,10.397
-Price to Book,3.5314658
-Price to Earnings,"PriceToEarnings(trailing_pe=16.85606, forward_pe=13.734568)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.64, forward_eps=3.24)"
-Enterprise to Revenue,1.954
+Debt to Equity,125.11
+Price to Cash Flow,7.206429840495094e-08
+Enterprise to EBITDA,10.533
+Price to Book,3.557603
+Price to Earnings,"PriceToEarnings(trailing_pe=18.019608, forward_pe=14.2260065)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.55, forward_eps=3.23)"
+Enterprise to Revenue,1.979
 
 CASH FLOW
-Free to Cash Flow,686499968.0
-Operating to Cash Flow,1090000000.0
+Free to Cash Flow,637625024.0
+Operating to Cash Flow,1095000064.0
 
 PROFITABILITY
-Return on Equity,0.22004
-Return on Assets,0.070089996
-Return on Invested Capital,0.15906362097548937
-Return on Investment,-0.1419642857142857
+Return on Equity,0.20558001
+Return on Assets,0.07062
+Return on Invested Capital,0.15898713538747933
+Return on Investment,-0.07979166666666666
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0316
-SUM DIVIDEND SCORE,5.0316
+5 Year Average,0.0313
+SUM DIVIDEND SCORE,5.0313
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.049999999999997
+Recommendation Key,0
+SUM ANALYST RATING SCORE,4.049999999999997
 
 
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.xxlasa.com
-Price,1.122
+Price,0.765
 Currency,NOK
 
 REVENUE
-Total Revenue,8175000064.0
-Revenue Per Share,19.949
-Revenue Growth,-0.102
+Total Revenue,7535000064.0
+Revenue Per Share,6.488
+Revenue Growth,-0.215
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.35, forward_eps=-0.16)"
-Net Earnings,-976000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.33, forward_eps=0.02)"
+Net Earnings,-1508999936.0
 Earnings Growth,None
 
 DEBT
-Total Debt,3392000000.0
-Debt to Equity,101.801
+Total Debt,3300000000.0
+Debt to Equity,156.546
 
 MARGINS
-Profit Margins,-0.14398
-Gross Profit Margins,0.27754998
-Operating Margins,-0.0777
+Profit Margins,-0.22202998
+Gross Profit Margins,0.33071998
+Operating Margins,-0.120670006
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,101.801
-Price to Cash Flow,2.1496340557537832e-10
-Enterprise to EBITDA,-6.472
-Price to Book,0.5808384
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-7.2750006)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.35, forward_eps=-0.16)"
-Enterprise to Revenue,0.608
+Debt to Equity,156.546
+Price to Cash Flow,1.519645144168182e-10
+Enterprise to EBITDA,-26.453
+Price to Book,0.5956956
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=38.75)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.33, forward_eps=0.02)"
+Enterprise to Revenue,0.583
 
 CASH FLOW
-Free to Cash Flow,5414875136.0
-Operating to Cash Flow,91000000.0
+Free to Cash Flow,5099874816.0
+Operating to Cash Flow,279000000.0
 
 PROFITABILITY
-Return on Equity,-0.29051
-Return on Assets,-0.0728
-Return on Invested Capital,-0.28773584888660886
+Return on Equity,-0.58709
+Return on Assets,-0.060500003
+Return on Invested Capital,-0.4572727076985116
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

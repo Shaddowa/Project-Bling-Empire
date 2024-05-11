@@ -5,27 +5,27 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.chipotle.com
-Price,2311.77
+Price,3232.97
 Currency,USD
 
 REVENUE
-Total Revenue,9535928320.0
-Revenue Per Share,345.311
-Revenue Growth,0.113
+Total Revenue,10204916736.0
+Revenue Per Share,370.953
+Revenue Growth,0.141
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=42.11, forward_eps=53.49)"
-Net Earnings,1170377984.0
-Earnings Growth,0.23
+Earnings Per Share,"EarningsPerShare(trailing_eps=46.97, forward_eps=66.85)"
+Net Earnings,1296380032.0
+Earnings Growth,0.239
 
 DEBT
-Total Debt,4018081024.0
-Debt to Equity,139.211
+Total Debt,4157497088.0
+Debt to Equity,123.686
 
 MARGINS
-Profit Margins,0.122729994
-Gross Profit Margins,0.40585998
-Operating Margins,0.1627
+Profit Margins,0.12703
+Gross Profit Margins,0.40884
+Operating Margins,0.16535999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,139.211
-Price to Cash Flow,1.98376732974795e-06
-Enterprise to EBITDA,36.165
-Price to Book,22.151808
-Price to Earnings,"PriceToEarnings(trailing_pe=55.24222, forward_pe=43.489437)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=42.11, forward_eps=53.49)"
-Enterprise to Revenue,6.964
+Debt to Equity,123.686
+Price to Cash Flow,3.255743966870422e-06
+Enterprise to EBITDA,46.015
+Price to Book,26.46927
+Price to Earnings,"PriceToEarnings(trailing_pe=68.963806, forward_pe=48.4552)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=46.97, forward_eps=66.85)"
+Enterprise to Revenue,8.987
 
 CASH FLOW
-Free to Cash Flow,1172642560.0
-Operating to Cash Flow,1919591040.0
+Free to Cash Flow,994927744.0
+Operating to Cash Flow,1897675008.0
 
 PROFITABILITY
-Return on Equity,0.44896
-Return on Assets,0.1297
-Return on Invested Capital,0.2912778379582395
-Return on Investment,-0.021981117068928926
+Return on Equity,0.44374
+Return on Assets,0.13474
+Return on Invested Capital,0.31181741475719355
+Return on Investment,-0.02262186718784082
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,13 +63,18 @@ Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,360.77
+Recommendation Key,1
+SUM ANALYST RATING SCORE,361.77
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,True
-Total Revenue,True
+Earnings,True
+Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False

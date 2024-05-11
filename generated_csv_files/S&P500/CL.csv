@@ -5,63 +5,68 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.colgatepalmolive.com
-Price,81.22
+Price,94.08
 Currency,USD
 
 REVENUE
-Total Revenue,19456999424.0
-Revenue Per Share,23.516
-Revenue Growth,0.069
+Total Revenue,19751999488.0
+Revenue Per Share,23.935
+Revenue Growth,0.062
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.77, forward_eps=3.47)"
-Net Earnings,2300000000.0
-Earnings Growth,144.315
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.15, forward_eps=3.84)"
+Net Earnings,2611000064.0
+Earnings Growth,0.855
 
 DEBT
-Total Debt,8549000192.0
-Debt to Equity,893.312
+Total Debt,8689000448.0
+Debt to Equity,1408.266
 
 MARGINS
-Profit Margins,0.11821
-Gross Profit Margins,0.5821
-Operating Margins,0.21273
+Profit Margins,0.13219
+Gross Profit Margins,0.59002
+Operating Margins,0.20948
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.92
-Dividend Yield,0.0232
-Dividend Payout Ratio,0.6895
-Five Year Avg Dividend Yield,2.37
-Trailing Annual Dividend Rate,1.91
-Trailing Annual Dividend Yield,0.023516374
+Dividend Rate,2.0
+Dividend Yield,0.021
+Dividend Payout Ratio,0.6095
+Five Year Avg Dividend Yield,2.35
+Trailing Annual Dividend Rate,1.92
+Trailing Annual Dividend Yield,0.020408163
 
 FINANCIAL RATIO
-Debt to Equity,893.312
-Price to Cash Flow,2.8969136073281763e-08
-Enterprise to EBITDA,16.92
-Price to Book,111.932434
-Price to Earnings,"PriceToEarnings(trailing_pe=29.902529, forward_pe=23.870317)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.77, forward_eps=3.47)"
-Enterprise to Revenue,3.904
+Debt to Equity,1408.266
+Price to Cash Flow,3.3927933581381465e-08
+Enterprise to EBITDA,18.238
+Price to Book,339.64285
+Price to Earnings,"PriceToEarnings(trailing_pe=30.190475, forward_pe=24.765625)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.15, forward_eps=3.84)"
+Enterprise to Revenue,4.343
 
 CASH FLOW
-Free to Cash Flow,2859249920.0
-Operating to Cash Flow,3744999936.0
+Free to Cash Flow,2803000064.0
+Operating to Cash Flow,3691000064.0
 
 PROFITABILITY
-Return on Equity,2.78503
-Return on Assets,0.15261
-Return on Invested Capital,0.2690373082402327
+Return on Equity,5.3167
+Return on Assets,0.15709
+Return on Invested Capital,0.3004948704447185
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.023700000000000002
-SUM DIVIDEND SCORE,5.0237
+5 Year Average,0.0235
+SUM DIVIDEND SCORE,8.0235
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,9.900000000000006
+Recommendation Key,1
+SUM ANALYST RATING SCORE,10.900000000000006
 
 
 

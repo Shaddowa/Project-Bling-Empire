@@ -5,27 +5,27 @@ Country,United States
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.modernatx.com
-Price,102.81
+Price,122.69
 Currency,USD
 
 REVENUE
-Total Revenue,9121000448.0
-Revenue Per Share,23.784
-Revenue Growth,-0.456
+Total Revenue,5152999936.0
+Revenue Per Share,13.525
+Revenue Growth,-0.91
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-9.23, forward_eps=-6.86)"
-Net Earnings,-3465999872.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-15.6, forward_eps=-5.28)"
+Net Earnings,-5968000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1455000064.0
-Debt to Equity,10.814
+Total Debt,1236999936.0
+Debt to Equity,9.651
 
 MARGINS
-Profit Margins,-0.38
-Gross Profit Margins,-0.13277
-Operating Margins,-1.09885
+Profit Margins,-1.15816
+Gross Profit Margins,-0.70269996
+Operating Margins,-7.5808396
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,10.814
-Price to Cash Flow,-9.206285082447804e-08
-Enterprise to EBITDA,-15.097
-Price to Book,2.882911
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-14.841107)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-9.23, forward_eps=-6.86)"
-Enterprise to Revenue,3.585
+Debt to Equity,9.651
+Price to Cash Flow,-6.001279083290137e-08
+Enterprise to EBITDA,-8.261
+Price to Book,3.5054533
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-22.217802)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-15.6, forward_eps=-5.28)"
+Enterprise to Revenue,7.311
 
 CASH FLOW
-Free to Cash Flow,-1105874944.0
-Operating to Cash Flow,-2078000000.0
+Free to Cash Flow,-1954749952.0
+Operating to Cash Flow,-2881999872.0
 
 PROFITABILITY
-Return on Equity,-0.22042999
-Return on Assets,-0.0732
-Return on Invested Capital,-2.3821303336211175
-Return on Investment,0.07002019943434343
+Return on Equity,-0.37677
+Return on Assets,-0.15724
+Return on Invested Capital,-4.824575705188698
+Return on Investment,0.08288888888888889
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,192.69
+Recommendation Key,1
+SUM ANALYST RATING SCORE,193.69
 
 
 

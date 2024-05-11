@@ -5,63 +5,68 @@ Country,United States
 Industry,Agricultural Inputs
 Sector,Basic Materials
 Website,https://www.fmc.com
-Price,57.47
+Price,67.02
 Currency,USD
 
 REVENUE
-Total Revenue,4962699776.0
-Revenue Per Share,39.642
-Revenue Growth,-0.287
+Total Revenue,4060499968.0
+Revenue Per Share,32.494
+Revenue Growth,-0.317
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.7, forward_eps=4.38)"
-Net Earnings,592899968.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.75, forward_eps=5.06)"
+Net Earnings,1220000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,4263300096.0
-Debt to Equity,128.626
+Total Debt,4484700160.0
+Debt to Equity,103.503
 
 MARGINS
-Profit Margins,0.10012999
-Gross Profit Margins,0.41931
-Operating Margins,0.13137999
+Profit Margins,0.27652
+Gross Profit Margins,0.39143002
+Operating Margins,0.12516
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.32
-Dividend Yield,0.0398
-Dividend Payout Ratio,0.4936
-Five Year Avg Dividend Yield,1.89
+Dividend Yield,0.0344
+Dividend Payout Ratio,0.2379
+Five Year Avg Dividend Yield,2.07
 Trailing Annual Dividend Rate,2.32
-Trailing Annual Dividend Yield,0.040368885
+Trailing Annual Dividend Yield,0.034616534
 
 FINANCIAL RATIO
-Debt to Equity,128.626
-Price to Cash Flow,-2.81969188146775e-07
-Enterprise to EBITDA,9.731
-Price to Book,2.2120707
-Price to Earnings,"PriceToEarnings(trailing_pe=12.414894, forward_pe=13.321918)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.7, forward_eps=4.38)"
-Enterprise to Revenue,2.265
+Debt to Equity,103.503
+Price to Cash Flow,1.534423994546694e-07
+Enterprise to EBITDA,18.893
+Price to Book,1.9550112
+Price to Earnings,"PriceToEarnings(trailing_pe=6.9261537, forward_pe=13.34585)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.75, forward_eps=5.06)"
+Enterprise to Revenue,3.082
 
 CASH FLOW
-Free to Cash Flow,-206937504.0
-Operating to Cash Flow,-60700000.0
+Free to Cash Flow,440100000.0
+Operating to Cash Flow,313100000.0
 
 PROFITABILITY
-Return on Equity,0.18450001
-Return on Assets,0.05606
-Return on Invested Capital,0.13907066145493177
-Return on Investment,0.01925625099058136
+Return on Equity,0.31211
+Return on Assets,0.025150001
+Return on Invested Capital,0.272036021824775
+Return on Investment,0.03150012909888975
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0189
-SUM DIVIDEND SCORE,5.0189
+5 Year Average,0.0207
+SUM DIVIDEND SCORE,4.0207
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,27.47
+Recommendation Key,0
+SUM ANALYST RATING SCORE,27.47
 
 
 

@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas Integrated
 Sector,Energy
 Website,https://www.chevron.com
-Price,148.57
+Price,165.45
 Currency,USD
 
 REVENUE
-Total Revenue,202701996032.0
-Revenue Per Share,107.562
-Revenue Growth,-0.182
+Total Revenue,192786006016.0
+Revenue Per Share,103.611
+Revenue Growth,-0.041
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.47, forward_eps=12.69)"
-Net Earnings,25462999040.0
-Earnings Growth,-0.398
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.88, forward_eps=13.91)"
+Net Earnings,20295999488.0
+Earnings Growth,-0.142
 
 DEBT
-Total Debt,20558999552.0
-Debt to Equity,12.366
+Total Debt,21834999808.0
+Debt to Equity,13.507
 
 MARGINS
-Profit Margins,0.12562001
-Gross Profit Margins,0.39765
-Operating Margins,0.12877
+Profit Margins,0.10528
+Gross Profit Margins,0.39516997
+Operating Margins,0.13908
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.04
-Dividend Yield,0.0405
-Dividend Payout Ratio,0.44169998
-Five Year Avg Dividend Yield,4.41
-Trailing Annual Dividend Rate,5.95
-Trailing Annual Dividend Yield,0.040048458
+Dividend Rate,6.52
+Dividend Yield,0.039300002
+Dividend Payout Ratio,0.5667
+Five Year Avg Dividend Yield,4.42
+Trailing Annual Dividend Rate,6.16
+Trailing Annual Dividend Yield,0.03723179
 
 FINANCIAL RATIO
-Debt to Equity,12.366
-Price to Cash Flow,8.17939402987958e-09
-Enterprise to EBITDA,6.469
-Price to Book,1.7035615
-Price to Earnings,"PriceToEarnings(trailing_pe=11.072012, forward_pe=11.752562)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.47, forward_eps=12.69)"
-Enterprise to Revenue,1.466
+Debt to Equity,13.507
+Price to Cash Flow,1.1224436174002973e-08
+Enterprise to EBITDA,7.83
+Price to Book,1.9067442
+Price to Earnings,"PriceToEarnings(trailing_pe=15.240809, forward_pe=11.920921)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.88, forward_eps=13.91)"
+Enterprise to Revenue,1.675
 
 CASH FLOW
-Free to Cash Flow,18233624576.0
-Operating to Cash Flow,35673001984.0
+Free to Cash Flow,14773125120.0
+Operating to Cash Flow,35231997952.0
 
 PROFITABILITY
-Return on Equity,0.15678
-Return on Assets,0.07394
-Return on Invested Capital,1.2385329775978484
-Return on Investment,-0.01773312837941361
+Return on Equity,0.12641
+Return on Assets,0.061479997
+Return on Invested Capital,0.929516811799029
+Return on Investment,-0.012735943453815261
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0441
-SUM DIVIDEND SCORE,9.0441
+5 Year Average,0.044199999999999996
+SUM DIVIDEND SCORE,9.0442
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,40.18000000000001
+Recommendation Key,1
+SUM ANALYST RATING SCORE,41.18000000000001
 
 
 

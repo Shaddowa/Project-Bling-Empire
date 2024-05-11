@@ -5,63 +5,68 @@ Country,United States
 Industry,Oil & Gas Refining & Marketing
 Sector,Energy
 Website,https://www.marathonpetroleum.com
-Price,157.27
+Price,182.93
 Currency,USD
 
 REVENUE
-Total Revenue,152728993792.0
-Revenue Per Share,355.597
-Revenue Growth,-0.103
+Total Revenue,147394002944.0
+Revenue Per Share,381.603
+Revenue Growth,-0.056
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.52, forward_eps=15.1)"
-Net Earnings,11470000128.0
-Earnings Growth,-0.086
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.13, forward_eps=17.05)"
+Net Earnings,7888000000.0
+Earnings Growth,-0.576
 
 DEBT
-Total Debt,28583000064.0
-Debt to Equity,87.149
+Total Debt,28530999296.0
+Debt to Equity,95.835
 
 MARGINS
-Profit Margins,0.07563
-Gross Profit Margins,0.15170999
-Operating Margins,0.10781
+Profit Margins,0.05356
+Gross Profit Margins,0.12571
+Operating Margins,0.047620002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.3
-Dividend Yield,0.020599999
-Dividend Payout Ratio,0.113199994
-Five Year Avg Dividend Yield,3.69
-Trailing Annual Dividend Rate,3.075
-Trailing Annual Dividend Yield,0.019552361
+Dividend Yield,0.0184
+Dividend Payout Ratio,0.1566
+Five Year Avg Dividend Yield,3.61
+Trailing Annual Dividend Rate,3.225
+Trailing Annual Dividend Yield,0.017629694
 
 FINANCIAL RATIO
-Debt to Equity,87.149
-Price to Cash Flow,1.3200386661528807e-08
-Enterprise to EBITDA,4.31
-Price to Book,2.3958209
-Price to Earnings,"PriceToEarnings(trailing_pe=6.0527906, forward_pe=10.630464)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.52, forward_eps=15.1)"
-Enterprise to Revenue,0.546
+Debt to Equity,95.835
+Price to Cash Flow,2.428127175956784e-08
+Enterprise to EBITDA,6.237
+Price to Book,2.780901
+Price to Earnings,"PriceToEarnings(trailing_pe=8.92002, forward_pe=10.531379)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.13, forward_eps=17.05)"
+Enterprise to Revenue,0.618
 
 CASH FLOW
-Free to Cash Flow,12160249856.0
-Operating to Cash Flow,17376000000.0
+Free to Cash Flow,7394999808.0
+Operating to Cash Flow,11591999488.0
 
 PROFITABILITY
-Return on Equity,0.38646
-Return on Assets,0.111870006
-Return on Invested Capital,0.40128748121020674
-Return on Investment,0.32585227636363634
+Return on Equity,0.29637
+Return on Assets,0.08161
+Return on Invested Capital,0.27647121295377886
+Return on Investment,0.17336263736263735
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0369
-SUM DIVIDEND SCORE,8.0369
+5 Year Average,0.0361
+SUM DIVIDEND SCORE,8.0361
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,64.44
+Recommendation Key,1
+SUM ANALYST RATING SCORE,65.44
 
 
 

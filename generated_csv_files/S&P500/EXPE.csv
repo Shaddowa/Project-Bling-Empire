@@ -5,27 +5,27 @@ Country,United States
 Industry,Travel Services
 Sector,Consumer Cyclical
 Website,https://www.expediagroup.com
-Price,152.3
+Price,112.53
 Currency,USD
 
 REVENUE
-Total Revenue,12570000384.0
-Revenue Per Share,84.2
-Revenue Growth,0.086
+Total Revenue,13063000064.0
+Revenue Per Share,92.828
+Revenue Growth,0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=12.25)"
-Net Earnings,842000000.0
-Earnings Growth,-0.037
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=14.98)"
+Net Earnings,807000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,6537999872.0
-Debt to Equity,223.445
+Total Debt,6557000192.0
+Debt to Equity,306.976
 
 MARGINS
-Profit Margins,0.06698
-Gross Profit Margins,0.86913
-Operating Margins,0.2339
+Profit Margins,0.06178
+Gross Profit Margins,0.88387
+Operating Margins,-0.01454
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,223.445
-Price to Cash Flow,7.224870685229049e-08
-Enterprise to EBITDA,15.121
-Price to Book,12.701053
-Price to Earnings,"PriceToEarnings(trailing_pe=27.877064, forward_pe=12.402449)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=12.25)"
-Enterprise to Revenue,1.896
+Debt to Equity,306.976
+Price to Cash Flow,6.435588595967278e-08
+Enterprise to EBITDA,9.902
+Price to Book,16.930233
+Price to Earnings,"PriceToEarnings(trailing_pe=21.411764, forward_pe=7.53271)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.27, forward_eps=14.98)"
+Enterprise to Revenue,1.307
 
 CASH FLOW
-Free to Cash Flow,2102875008.0
-Operating to Cash Flow,2745999872.0
+Free to Cash Flow,1753374976.0
+Operating to Cash Flow,2412000000.0
 
 PROFITABILITY
-Return on Equity,0.21901
-Return on Assets,0.03871
-Return on Invested Capital,0.12878556361945842
-Return on Investment,-0.0235195530726257
+Return on Equity,0.25507
+Return on Assets,0.03872
+Return on Invested Capital,0.12307457305923288
+Return on Investment,-0.02708053691275168
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -63,12 +63,17 @@ Dividend Ex Date,0.0
 5 Year Average,0.0096
 SUM DIVIDEND SCORE,0.0096
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,87.16
+Recommendation Key,0
+SUM ANALYST RATING SCORE,87.16
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
-Net Income,True
+Earnings,True
+Revenue,True
+Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,2.0
 

@@ -2,57 +2,57 @@ GENERAL STOCK INFO
 Ticker,AWK
 Company,"American Water Works Company, Inc."
 Country,United States
-Industry,Utilities - Regulated Water
+Industry,Utilities—Regulated Water
 Sector,Utilities
 Website,https://www.amwater.com
-Price,123.98
+Price,134.38
 Currency,USD
 
 REVENUE
-Total Revenue,4132999936.0
-Revenue Per Share,21.81
-Revenue Growth,0.079
+Total Revenue,4306999808.0
+Revenue Per Share,22.059
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=5.15)"
-Net Earnings,920000000.0
-Earnings Growth,0.016
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.95, forward_eps=5.68)"
+Net Earnings,959000000.0
+Earnings Growth,0.043
 
 DEBT
-Total Debt,12270000128.0
-Debt to Equity,123.977
+Total Debt,13203999744.0
+Debt to Equity,131.948
 
 MARGINS
-Profit Margins,0.2226
-Gross Profit Margins,0.59327
-Operating Margins,0.41731
+Profit Margins,0.22266
+Gross Profit Margins,0.59531
+Operating Margins,0.33136
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.83
-Dividend Yield,0.023
-Dividend Payout Ratio,0.56299996
-Five Year Avg Dividend Yield,1.62
-Trailing Annual Dividend Rate,2.725
-Trailing Annual Dividend Yield,0.02197935
+Dividend Rate,3.06
+Dividend Yield,0.0226
+Dividend Payout Ratio,0.5729
+Five Year Avg Dividend Yield,1.66
+Trailing Annual Dividend Rate,2.83
+Trailing Annual Dividend Yield,0.02105968
 
 FINANCIAL RATIO
-Debt to Equity,123.977
-Price to Cash Flow,-9.675734005769716e-08
-Enterprise to EBITDA,16.174
-Price to Book,2.422931
-Price to Earnings,"PriceToEarnings(trailing_pe=25.446281, forward_pe=23.914564)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.84, forward_eps=5.15)"
-Enterprise to Revenue,8.601
+Debt to Equity,131.948
+Price to Cash Flow,-1.4207077088007095e-07
+Enterprise to EBITDA,17.029
+Price to Book,2.637983
+Price to Earnings,"PriceToEarnings(trailing_pe=27.37374, forward_pe=23.855635)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.95, forward_eps=5.68)"
+Enterprise to Revenue,9.043
 
 CASH FLOW
-Free to Cash Flow,-1272875008.0
-Operating to Cash Flow,1691000064.0
+Free to Cash Flow,-953750016.0
+Operating to Cash Flow,1971000064.0
 
 PROFITABILITY
-Return on Equity,0.10422
-Return on Assets,0.03317
-Return on Invested Capital,0.07497962400907245
+Return on Equity,0.09809
+Return on Assets,0.03299
+Return on Invested Capital,0.07262950733584816
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,8 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.016200000000000003
-SUM DIVIDEND SCORE,9.0162
+5 Year Average,0.0166
+SUM DIVIDEND SCORE,9.0166
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,23.5
+Recommendation Key,1
+SUM ANALYST RATING SCORE,24.5
 
 
 

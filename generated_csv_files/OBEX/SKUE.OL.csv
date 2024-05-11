@@ -5,76 +5,81 @@ Country,Norway
 Industry,Banks—Regional
 Sector,Financial Services
 Website,https://skuesparebank.no
-Price,244.0
+Price,239.0
 Currency,NOK
 
 REVENUE
-Total Revenue,460808992.0
-Revenue Per Share,220.254
-Revenue Growth,0.215
+Total Revenue,471911008.0
+Revenue Per Share,225.579
+Revenue Growth,0.107
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=86.67, forward_eps=33.61)"
-Net Earnings,55268000.0
-Earnings Growth,0.327
+Earnings Per Share,"EarningsPerShare(trailing_eps=98.78, forward_eps=31.19)"
+Net Earnings,53433000.0
+Earnings Growth,-0.177
 
 DEBT
-Total Debt,4281369088.0
+Total Debt,4248281088.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.44556
+Profit Margins,0.43792
 Gross Profit Margins,0.0
-Operating Margins,0.56586
+Operating Margins,0.49791
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,None
-Dividend Yield,None
+Dividend Rate,17.0
+Dividend Yield,0.0708
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,5.24
-Trailing Annual Dividend Rate,12.5
-Trailing Annual Dividend Yield,0.051229507
+Trailing Annual Dividend Rate,17.0
+Trailing Annual Dividend Yield,0.07112971
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.2508038
-Price to Earnings,"PriceToEarnings(trailing_pe=2.8152764, forward_pe=7.259744)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=86.67, forward_eps=33.61)"
-Enterprise to Revenue,5.639
+Price to Book,0.23559578
+Price to Earnings,"PriceToEarnings(trailing_pe=2.4296417, forward_pe=7.6947737)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=98.78, forward_eps=31.19)"
+Enterprise to Revenue,4.892
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-42208000.0
+Operating to Cash Flow,-13193000.0
 
 PROFITABILITY
-Return on Equity,0.09934
-Return on Assets,0.01228
-Return on Invested Capital,0.012908951857514365
-Return on Investment,0.0013281171149955064
+Return on Equity,0.09593
+Return on Assets,0.01212
+Return on Invested Capital,0.012577554563950885
+Return on Investment,0.001105900079269315
 
 DIVIDEND SCORE
-Dividend  Rate,0.5
-Dividend Yield,0.5
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0524
-SUM DIVIDEND SCORE,1.0524
+SUM DIVIDEND SCORE,4.0524000000000004
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,34.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,34.0
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,True
-Net Income,True
-Total Revenue,True
+Net Income,False
+Total Revenue,False
 Operating Cash Flow,False
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
-Owner Earnings,True
-CRITERIA PASS COUNT,4.0
+Owner Earnings,False
+CRITERIA PASS COUNT,2.0
 

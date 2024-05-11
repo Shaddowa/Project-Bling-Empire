@@ -5,68 +5,73 @@ Country,United States
 Industry,REIT—Hotel & Motel
 Sector,Real Estate
 Website,https://www.hosthotels.com
-Price,19.57
+Price,18.42
 Currency,USD
 
 REVENUE
-Total Revenue,5257999872.0
-Revenue Per Share,7.382
-Revenue Growth,0.019
+Total Revenue,5408000000.0
+Revenue Per Share,7.645
+Revenue Growth,0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.94)"
-Net Earnings,755000000.0
-Earnings Growth,-0.019
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.02, forward_eps=1.48)"
+Net Earnings,721000000.0
+Earnings Growth,-0.05
 
 DEBT
-Total Debt,4776999936.0
-Debt to Equity,67.942
+Total Debt,5073999872.0
+Debt to Equity,73.112
 
 MARGINS
-Profit Margins,0.14359
-Gross Profit Margins,0.29954
-Operating Margins,0.084300004
+Profit Margins,0.13332
+Gross Profit Margins,0.29512
+Operating Margins,0.18120001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.65
-Dividend Yield,0.033
-Dividend Payout Ratio,0.5429
+Dividend Rate,0.8
+Dividend Yield,0.0436
+Dividend Payout Ratio,0.7157
 Five Year Avg Dividend Yield,4.49
-Trailing Annual Dividend Rate,0.57
-Trailing Annual Dividend Yield,0.029126214
+Trailing Annual Dividend Rate,0.73
+Trailing Annual Dividend Yield,0.039630838
 
 FINANCIAL RATIO
-Debt to Equity,67.942
-Price to Cash Flow,1.6500890733158733e-08
-Enterprise to EBITDA,12.231
-Price to Book,2.022795
-Price to Earnings,"PriceToEarnings(trailing_pe=18.761906, forward_pe=20.957447)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=0.94)"
-Enterprise to Revenue,3.408
+Debt to Equity,73.112
+Price to Cash Flow,1.6409798149103615e-08
+Enterprise to EBITDA,11.376
+Price to Book,1.9194139
+Price to Earnings,"PriceToEarnings(trailing_pe=17.980392, forward_pe=12.3918915)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.02, forward_eps=1.48)"
+Enterprise to Revenue,3.118
 
 CASH FLOW
-Free to Cash Flow,1193874944.0
-Operating to Cash Flow,1494000000.0
+Free to Cash Flow,1117624960.0
+Operating to Cash Flow,1498000000.0
 
 PROFITABILITY
-Return on Equity,0.109469995
-Return on Assets,0.04027
-Return on Invested Capital,0.15804898651368976
+Return on Equity,0.104940005
+Return on Assets,0.039189998
+Return on Invested Capital,0.14209696823623874
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0449
-SUM DIVIDEND SCORE,9.0449
+SUM DIVIDEND SCORE,8.0449
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,6.66
+Recommendation Key,1
+SUM ANALYST RATING SCORE,7.66
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

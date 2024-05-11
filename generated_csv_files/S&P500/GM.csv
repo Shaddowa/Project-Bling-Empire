@@ -5,63 +5,68 @@ Country,United States
 Industry,Auto Manufacturers
 Sector,Consumer Cyclical
 Website,https://www.gm.com
-Price,35.16
+Price,45.36
 Currency,USD
 
 REVENUE
-Total Revenue,171971002368.0
-Revenue Per Share,123.565
-Revenue Growth,0.054
+Total Revenue,174871003136.0
+Revenue Per Share,134.129
+Revenue Growth,0.076
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.12, forward_eps=7.84)"
-Net Earnings,9930000384.0
-Earnings Growth,-0.022
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.19, forward_eps=9.67)"
+Net Earnings,10622000128.0
+Earnings Growth,0.515
 
 DEBT
-Total Debt,122002997248.0
-Debt to Equity,154.97
+Total Debt,124623003648.0
+Debt to Equity,176.517
 
 MARGINS
-Profit Margins,0.05829
-Gross Profit Margins,0.12309
-Operating Margins,0.07095
+Profit Margins,0.06126
+Gross Profit Margins,0.11467
+Operating Margins,0.08876
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.36
-Dividend Yield,0.010199999
-Dividend Payout Ratio,0.0506
+Dividend Rate,0.48
+Dividend Yield,0.0106
+Dividend Payout Ratio,0.0476
 Five Year Avg Dividend Yield,4.06
-Trailing Annual Dividend Rate,0.36
-Trailing Annual Dividend Yield,0.010238908
+Trailing Annual Dividend Rate,0.39
+Trailing Annual Dividend Yield,0.008597883
 
 FINANCIAL RATIO
-Debt to Equity,154.97
-Price to Cash Flow,3.19676514206638e-09
-Enterprise to EBITDA,8.612
-Price to Book,0.66132796
-Price to Earnings,"PriceToEarnings(trailing_pe=4.9410114, forward_pe=4.487245)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.12, forward_eps=7.84)"
-Enterprise to Revenue,0.835
+Debt to Equity,176.517
+Price to Cash Flow,-2.2576779386994726e-08
+Enterprise to EBITDA,9.463
+Price to Book,0.7467297
+Price to Earnings,"PriceToEarnings(trailing_pe=5.520147, forward_pe=4.6752844)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.19, forward_eps=9.67)"
+Enterprise to Revenue,0.913
 
 CASH FLOW
-Free to Cash Flow,11004874752.0
-Operating to Cash Flow,22897000448.0
+Free to Cash Flow,-2002499968.0
+Operating to Cash Flow,20995999744.0
 
 PROFITABILITY
-Return on Equity,0.13272001
-Return on Assets,0.02466
-Return on Invested Capital,0.0813914461419765
-Return on Investment,-0.004557345625774473
+Return on Equity,0.14425999
+Return on Assets,0.02468
+Return on Invested Capital,0.08523306140848351
+Return on Investment,-0.004529251291147876
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0406
-SUM DIVIDEND SCORE,4.0406
+SUM DIVIDEND SCORE,8.0406
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,50.79
+Recommendation Key,1
+SUM ANALYST RATING SCORE,51.79
 
 
 

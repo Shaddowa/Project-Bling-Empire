@@ -5,55 +5,55 @@ Country,Norway
 Industry,Aluminum
 Sector,Basic Materials
 Website,https://www.hydro.com
-Price,61.92
+Price,65.98
 Currency,NOK
 
 REVENUE
-Total Revenue,190941003776.0
-Revenue Per Share,93.758
-Revenue Growth,-0.148
+Total Revenue,192629997568.0
+Revenue Per Share,86.387
+Revenue Growth,-0.02
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=5.61)"
-Net Earnings,6369999872.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=7.01)"
+Net Earnings,3259000064.0
+Earnings Growth,-0.001
 
 DEBT
-Total Debt,35707998208.0
-Debt to Equity,33.14
+Total Debt,39165001728.0
+Debt to Equity,35.047
 
 MARGINS
-Profit Margins,0.03355
-Gross Profit Margins,0.35707
-Operating Margins,0.13385999
+Profit Margins,0.01692
+Gross Profit Margins,0.36527002
+Operating Margins,0.19559999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.65
-Dividend Yield,0.09
-Dividend Payout Ratio,1.7994
+Dividend Rate,2.5
+Dividend Yield,0.0375
+Dividend Payout Ratio,3.1920998
 Five Year Avg Dividend Yield,3.34
-Trailing Annual Dividend Rate,5.65
-Trailing Annual Dividend Yield,0.09124678
+Trailing Annual Dividend Rate,2.5
+Trailing Annual Dividend Yield,0.037890267
 
 FINANCIAL RATIO
-Debt to Equity,33.14
-Price to Cash Flow,2.5410014833307505e-09
-Enterprise to EBITDA,3.178
-Price to Book,1.233127
-Price to Earnings,"PriceToEarnings(trailing_pe=19.98726, forward_pe=11.187165)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=5.61)"
-Enterprise to Revenue,0.766
+Debt to Equity,35.047
+Price to Cash Flow,None
+Enterprise to EBITDA,2.557
+Price to Book,0.9581079
+Price to Earnings,"PriceToEarnings(trailing_pe=37.627117, forward_pe=9.500712)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.77, forward_eps=7.01)"
+Enterprise to Revenue,0.633
 
 CASH FLOW
-Free to Cash Flow,24698923008.0
-Operating to Cash Flow,27310999552.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.05193
-Return on Assets,0.111949995
-Return on Invested Capital,0.17839140199950046
-Return on Investment,-0.0069884803861766315
+Return on Equity,0.018480001
+Return on Assets,0.112220004
+Return on Invested Capital,0.08321204939168499
+Return on Investment,-0.0036046898174980644
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -63,10 +63,15 @@ Dividend Ex Date,0.0
 5 Year Average,0.0334
 SUM DIVIDEND SCORE,4.0334
 
+ANALYST RATING SCORE
+Target High Price Diff Current Price,43.400000000000006
+Recommendation Key,0
+SUM ANALYST RATING SCORE,43.400000000000006
+
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -76,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

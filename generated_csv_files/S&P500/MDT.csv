@@ -5,63 +5,68 @@ Country,Ireland
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.medtronic.com
-Price,85.79
+Price,82.76
 Currency,USD
 
 REVENUE
-Total Revenue,31957999616.0
-Revenue Per Share,24.024
-Revenue Growth,0.053
+Total Revenue,32320000000.0
+Revenue Per Share,24.298
+Revenue Growth,0.047
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.08, forward_eps=5.45)"
-Net Earnings,4102000128.0
-Earnings Growth,1.125
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.15, forward_eps=5.45)"
+Net Earnings,4200999936.0
+Earnings Growth,0.078
 
 DEBT
-Total Debt,25080000512.0
-Debt to Equity,48.56
+Total Debt,25181999104.0
+Debt to Equity,48.431
 
 MARGINS
-Profit Margins,0.12836
-Gross Profit Margins,0.65667
-Operating Margins,0.19264
+Profit Margins,0.12998
+Gross Profit Margins,0.65724
+Operating Margins,0.19173999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.76
-Dividend Yield,0.0319
-Dividend Payout Ratio,0.8896
-Five Year Avg Dividend Yield,2.45
-Trailing Annual Dividend Rate,2.74
-Trailing Annual Dividend Yield,0.031938452
+Dividend Yield,0.033299997
+Dividend Payout Ratio,0.873
+Five Year Avg Dividend Yield,2.52
+Trailing Annual Dividend Rate,2.75
+Trailing Annual Dividend Yield,0.033228613
 
 FINANCIAL RATIO
-Debt to Equity,48.56
-Price to Cash Flow,1.9368846230623242e-08
-Enterprise to EBITDA,15.63
-Price to Book,2.236927
-Price to Earnings,"PriceToEarnings(trailing_pe=28.097404, forward_pe=15.8789)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.08, forward_eps=5.45)"
-Enterprise to Revenue,4.149
+Debt to Equity,48.431
+Price to Cash Flow,1.5039258987083555e-08
+Enterprise to EBITDA,14.644
+Price to Book,2.12672
+Price to Earnings,"PriceToEarnings(trailing_pe=26.29841, forward_pe=15.2)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.15, forward_eps=5.45)"
+Enterprise to Revenue,3.931
 
 CASH FLOW
-Free to Cash Flow,4467999744.0
-Operating to Cash Flow,5569999872.0
+Free to Cash Flow,5508250112.0
+Operating to Cash Flow,6470000128.0
 
 PROFITABILITY
-Return on Equity,0.079569995
-Return on Assets,0.041149996
-Return on Invested Capital,0.16355662033219678
-Return on Investment,-0.25798742943396225
+Return on Equity,0.081709996
+Return on Assets,0.042290002
+Return on Invested Capital,0.16682551342139118
+Return on Investment,-0.32068701801526717
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0245
-SUM DIVIDEND SCORE,5.0245
+5 Year Average,0.0252
+SUM DIVIDEND SCORE,8.0252
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,21.159999999999997
+Recommendation Key,1
+SUM ANALYST RATING SCORE,22.159999999999997
 
 
 

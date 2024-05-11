@@ -5,63 +5,68 @@ Country,United States
 Industry,Banks—Diversified
 Sector,Financial Services
 Website,https://www.wellsfargo.com
-Price,49.88
+Price,61.28
 Currency,USD
 
 REVENUE
-Total Revenue,77198000128.0
-Revenue Per Share,20.931
-Revenue Growth,0.027
+Total Revenue,77600997376.0
+Revenue Per Share,21.366
+Revenue Growth,0.021
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.83, forward_eps=5.34)"
-Net Earnings,17981999104.0
-Earnings Growth,0.284
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.8, forward_eps=5.53)"
+Net Earnings,17582000128.0
+Earnings Growth,-0.024
 
 DEBT
-Total Debt,315641987072.0
+Total Debt,317961994240.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.24796
+Profit Margins,0.24188
 Gross Profit Margins,0.0
-Operating Margins,0.17764
+Operating Margins,0.2804
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.4
-Dividend Yield,0.0278
-Dividend Payout Ratio,0.2692
-Five Year Avg Dividend Yield,3.28
-Trailing Annual Dividend Rate,1.3
-Trailing Annual Dividend Yield,0.026062548
+Dividend Yield,0.0226
+Dividend Payout Ratio,0.28129998
+Five Year Avg Dividend Yield,3.2
+Trailing Annual Dividend Rate,1.35
+Trailing Annual Dividend Yield,0.022030028
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.0890596
-Price to Earnings,"PriceToEarnings(trailing_pe=10.41822, forward_pe=9.423221)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.83, forward_eps=5.34)"
-Enterprise to Revenue,1.097
+Price to Book,1.3350158
+Price to Earnings,"PriceToEarnings(trailing_pe=12.893749, forward_pe=11.191681)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.8, forward_eps=5.53)"
+Enterprise to Revenue,0.909
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,20827000832.0
 
 PROFITABILITY
-Return on Equity,0.10305
-Return on Assets,0.009980001
-Return on Invested Capital,0.05696960429179502
-Return on Investment,0.006651377512113927
+Return on Equity,0.10261
+Return on Assets,0.00976
+Return on Invested Capital,0.05529591726036765
+Return on Investment,0.0047091279537175915
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.032799999999999996
-SUM DIVIDEND SCORE,8.0328
+5 Year Average,0.032
+SUM DIVIDEND SCORE,8.032
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,8.11
+Recommendation Key,1
+SUM ANALYST RATING SCORE,9.11
 
 
 

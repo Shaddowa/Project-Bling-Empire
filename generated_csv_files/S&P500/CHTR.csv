@@ -4,28 +4,28 @@ Company,"Charter Communications, Inc."
 Country,United States
 Industry,Telecom Services
 Sector,Communication Services
-Website,https://corporate.charter.com
-Price,369.07
+Website,https://www.corporate.charter.com
+Price,263.93
 Currency,USD
 
 REVENUE
-Total Revenue,54570000384.0
-Revenue Per Share,361.424
-Revenue Growth,0.003
+Total Revenue,54633000960.0
+Revenue Per Share,370.453
+Revenue Growth,0.002
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.62, forward_eps=36.89)"
-Net Earnings,4695000064.0
-Earnings Growth,0.118
+Earnings Per Share,"EarningsPerShare(trailing_eps=30.89, forward_eps=34.0)"
+Net Earnings,4641999872.0
+Earnings Growth,0.135
 
 DEBT
-Total Debt,98090000384.0
-Debt to Equity,665.288
+Total Debt,97964998656.0
+Debt to Equity,627.739
 
 MARGINS
-Profit Margins,0.08604
-Gross Profit Margins,0.44882
-Operating Margins,0.23241
+Profit Margins,0.08497
+Gross Profit Margins,0.39066002
+Operating Margins,0.22619
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,665.288
-Price to Cash Flow,1.2312992720859909e-07
-Enterprise to EBITDA,7.413
-Price to Book,5.0257907
-Price to Earnings,"PriceToEarnings(trailing_pe=12.3145, forward_pe=10.22147)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.62, forward_eps=36.89)"
-Enterprise to Revenue,2.876
+Debt to Equity,627.739
+Price to Cash Flow,8.575096341324095e-08
+Enterprise to EBITDA,6.661
+Price to Book,3.34239
+Price to Earnings,"PriceToEarnings(trailing_pe=8.920362, forward_pe=8.104411)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=30.89, forward_eps=34.0)"
+Enterprise to Revenue,2.576
 
 CASH FLOW
-Free to Cash Flow,3062374912.0
-Operating to Cash Flow,14364999680.0
+Free to Cash Flow,3213374976.0
+Operating to Cash Flow,14321999872.0
 
 PROFITABILITY
-Return on Equity,0.39987
-Return on Assets,0.05369
-Return on Invested Capital,0.04786420676958953
-Return on Investment,-0.07722039578947368
+Return on Equity,0.37589002
+Return on Assets,0.05311
+Return on Invested Capital,0.047384269195917435
+Return on Investment,-0.0703333313939394
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,384.45
+Recommendation Key,0
+SUM ANALYST RATING SCORE,384.45
 
 
 

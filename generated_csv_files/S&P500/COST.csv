@@ -5,63 +5,68 @@ Country,United States
 Industry,Discount Stores
 Sector,Consumer Defensive
 Website,https://www.costco.com
-Price,679.9
+Price,779.04
 Currency,USD
 
 REVENUE
-Total Revenue,245651996672.0
-Revenue Per Share,553.455
-Revenue Growth,0.062
+Total Revenue,248828002304.0
+Revenue Per Share,560.607
+Revenue Growth,0.057
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.7, forward_eps=17.12)"
-Net Earnings,6517000192.0
-Earnings Growth,0.166
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.27, forward_eps=17.43)"
+Net Earnings,6793999872.0
+Earnings Growth,0.188
 
 DEBT
-Total Debt,9347000320.0
-Debt to Equity,35.748
+Total Debt,9432999936.0
+Debt to Equity,45.438
 
 MARGINS
-Profit Margins,0.026530001
-Gross Profit Margins,0.12525
-Operating Margins,0.03433
+Profit Margins,0.0273
+Gross Profit Margins,0.12550001
+Operating Margins,0.03528
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.08
+Dividend Rate,4.64
 Dividend Yield,0.0058999998
-Dividend Payout Ratio,0.2699
-Five Year Avg Dividend Yield,0.76
-Trailing Annual Dividend Rate,3.96
-Trailing Annual Dividend Yield,0.0058243857
+Dividend Payout Ratio,0.26700002
+Five Year Avg Dividend Yield,0.73
+Trailing Annual Dividend Rate,4.08
+Trailing Annual Dividend Yield,0.005237215
 
 FINANCIAL RATIO
-Debt to Equity,35.748
-Price to Cash Flow,9.879256295661356e-08
-Enterprise to EBITDA,27.258
-Price to Book,11.658237
-Price to Earnings,"PriceToEarnings(trailing_pe=46.726532, forward_pe=40.121494)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.7, forward_eps=17.12)"
-Enterprise to Revenue,1.206
+Debt to Equity,45.438
+Price to Cash Flow,1.9904924699522445e-07
+Enterprise to EBITDA,31.452
+Price to Book,16.818861
+Price to Earnings,"PriceToEarnings(trailing_pe=51.551407, forward_pe=45.162937)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.27, forward_eps=17.43)"
+Enterprise to Revenue,1.399
 
 CASH FLOW
-Free to Cash Flow,6952750080.0
-Operating to Cash Flow,13109000192.0
+Free to Cash Flow,3954749952.0
+Operating to Cash Flow,10648000512.0
 
 PROFITABILITY
-Return on Equity,0.27369
-Return on Assets,0.07816
-Return on Invested Capital,0.697229049727973
-Return on Investment,-0.01626403841277764
+Return on Equity,0.31194
+Return on Assets,0.08351
+Return on Invested Capital,0.7202374519649319
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0076
-SUM DIVIDEND SCORE,8.0076
+5 Year Average,0.0073
+SUM DIVIDEND SCORE,8.0073
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,82.80999999999995
+Recommendation Key,1
+SUM ANALYST RATING SCORE,83.80999999999995
 
 
 

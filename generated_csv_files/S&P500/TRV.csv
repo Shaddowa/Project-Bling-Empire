@@ -5,63 +5,68 @@ Country,United States
 Industry,Insurance—Property & Casualty
 Sector,Financial Services
 Website,https://www.travelers.com
-Price,211.52
+Price,219.42
 Currency,USD
 
 REVENUE
-Total Revenue,40072998912.0
-Revenue Per Share,173.645
-Revenue Growth,0.116
+Total Revenue,42887999488.0
+Revenue Per Share,187.263
+Revenue Growth,0.157
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.79, forward_eps=20.66)"
-Net Earnings,2168999936.0
-Earnings Growth,1.034
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.46, forward_eps=20.93)"
+Net Earnings,3116000000.0
+Earnings Growth,0.162
 
 DEBT
-Total Debt,8031000064.0
-Debt to Equity,40.199
+Total Debt,8032000000.0
+Debt to Equity,32.1
 
 MARGINS
-Profit Margins,0.0545
-Gross Profit Margins,0.19452
-Operating Margins,0.19663
+Profit Margins,0.073189996
+Gross Profit Margins,0.22183001
+Operating Margins,0.13074
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.0
-Dividend Yield,0.0189
-Dividend Payout Ratio,0.3073
-Five Year Avg Dividend Yield,2.32
-Trailing Annual Dividend Rate,3.86
-Trailing Annual Dividend Yield,0.018248865
+Dividend Rate,4.2
+Dividend Yield,0.019199999
+Dividend Payout Ratio,0.2972
+Five Year Avg Dividend Yield,2.29
+Trailing Annual Dividend Rate,4.0
+Trailing Annual Dividend Yield,0.01822988
 
 FINANCIAL RATIO
-Debt to Equity,40.199
-Price to Cash Flow,1.6234031640441094e-08
-Enterprise to EBITDA,14.878
-Price to Book,2.4171991
-Price to Earnings,"PriceToEarnings(trailing_pe=16.530884, forward_pe=10.233785)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.79, forward_eps=20.66)"
-Enterprise to Revenue,1.279
+Debt to Equity,32.1
+Price to Cash Flow,1.6833428454761762e-08
+Enterprise to EBITDA,10.73
+Price to Book,1.9997071
+Price to Earnings,"PriceToEarnings(trailing_pe=16.233284, forward_pe=10.43956)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.46, forward_eps=20.93)"
+Enterprise to Revenue,1.229
 
 CASH FLOW
-Free to Cash Flow,13023875072.0
-Operating to Cash Flow,6946999808.0
+Free to Cash Flow,12980124672.0
+Operating to Cash Flow,8157000192.0
 
 PROFITABILITY
-Return on Equity,0.109519996
-Return on Assets,0.01435
-Return on Invested Capital,0.2700784329587212
-Return on Investment,0.029631146666666667
+Return on Equity,0.13059
+Return on Assets,0.021359999
+Return on Invested Capital,0.3879482018937316
+Return on Investment,0.040362694300518136
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0232
-SUM DIVIDEND SCORE,8.0232
+5 Year Average,0.0229
+SUM DIVIDEND SCORE,8.0229
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,33.5
+Recommendation Key,0
+SUM ANALYST RATING SCORE,33.5
 
 
 

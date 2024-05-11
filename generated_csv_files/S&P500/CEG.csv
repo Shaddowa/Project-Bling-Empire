@@ -4,56 +4,56 @@ Company,Constellation Energy Corporation
 Country,United States
 Industry,Utilities—Renewable
 Sector,Utilities
-Website,https://constellationenergy.com
-Price,120.55
+Website,https://www.constellationenergy.com
+Price,215.91
 Currency,USD
 
 REVENUE
-Total Revenue,26454999040.0
-Revenue Per Share,81.213
-Revenue Growth,0.01
+Total Revenue,24917999616.0
+Revenue Per Share,77.146
+Revenue Growth,-0.21
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=6.56)"
-Net Earnings,1694000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=8.15)"
+Net Earnings,1623000064.0
 Earnings Growth,None
 
 DEBT
-Total Debt,8154999808.0
-Debt to Equity,67.958
+Total Debt,9911000064.0
+Debt to Equity,87.817
 
 MARGINS
-Profit Margins,0.06403
-Gross Profit Margins,0.122889996
-Operating Margins,0.16510999
+Profit Margins,0.06513
+Gross Profit Margins,0.13376
+Operating Margins,-0.02484
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.13
-Dividend Yield,0.0093
-Dividend Payout Ratio,0.1894
+Dividend Rate,1.41
+Dividend Yield,0.0068
+Dividend Payout Ratio,0.2251
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.99
-Trailing Annual Dividend Yield,0.00821236
+Trailing Annual Dividend Rate,1.128
+Trailing Annual Dividend Yield,0.0052243993
 
 FINANCIAL RATIO
-Debt to Equity,67.958
-Price to Cash Flow,-1.975885895536987e-07
-Enterprise to EBITDA,10.942
-Price to Book,3.3200097
-Price to Earnings,"PriceToEarnings(trailing_pe=23.27639, forward_pe=18.48628)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.21, forward_eps=6.56)"
-Enterprise to Revenue,1.714
+Debt to Equity,87.817
+Price to Cash Flow,-1.3336229292452757e-07
+Enterprise to EBITDA,18.281
+Price to Book,6.2363625
+Price to Earnings,"PriceToEarnings(trailing_pe=42.900196, forward_pe=26.37178)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.01, forward_eps=8.15)"
+Enterprise to Revenue,3.04
 
 CASH FLOW
-Free to Cash Flow,-613750016.0
-Operating to Cash Flow,-4541000192.0
+Free to Cash Flow,-1611624960.0
+Operating to Cash Flow,-5301000192.0
 
 PROFITABILITY
-Return on Equity,0.14191
-Return on Assets,0.022049999
-Return on Invested Capital,0.20772532584864248
-Return on Investment,-0.010443896424167693
+Return on Equity,0.1392
+Return on Assets,0.02086
+Return on Invested Capital,0.16375744605749035
+Return on Investment,-0.010156445957446808
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,8.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,27.069999999999993
+Recommendation Key,1
+SUM ANALYST RATING SCORE,28.069999999999993
 
 
 

@@ -2,66 +2,71 @@ GENERAL STOCK INFO
 Ticker,MELG.OL
 Company,Melhus Sparebank
 Country,Norway
-Industry,Banks - Regional
+Industry,Banks—Regional
 Sector,Financial Services
 Website,https://www.melhusbanken.no
-Price,163.0
+Price,154.0
 Currency,NOK
 
 REVENUE
-Total Revenue,308756992.0
-Revenue Per Share,111.205
-Revenue Growth,0.25
+Total Revenue,319628000.0
+Revenue Per Share,115.13
+Revenue Growth,0.069
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.12, forward_eps=16.23)"
-Net Earnings,47994000.0
-Earnings Growth,0.274
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.09, forward_eps=13.99)"
+Net Earnings,44681000.0
+Earnings Growth,-0.36
 
 DEBT
-Total Debt,2422780928.0
+Total Debt,2321648896.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.45616
+Profit Margins,0.42347
 Gross Profit Margins,0.0
-Operating Margins,0.50734
+Operating Margins,0.39686
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,11.0
-Dividend Yield,0.0671
-Dividend Payout Ratio,0.6425
+Dividend Rate,12.5
+Dividend Yield,0.081199996
+Dividend Payout Ratio,0.6837
 Five Year Avg Dividend Yield,7.13
-Trailing Annual Dividend Rate,11.0
-Trailing Annual Dividend Yield,0.06748466
+Trailing Annual Dividend Rate,12.5
+Trailing Annual Dividend Yield,0.08116883
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.3458099
-Price to Earnings,"PriceToEarnings(trailing_pe=9.579439, forward_pe=10.104745)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.12, forward_eps=16.23)"
-Enterprise to Revenue,8.931
+Price to Book,0.3125038
+Price to Earnings,"PriceToEarnings(trailing_pe=9.571162, forward_pe=11.007863)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=16.09, forward_eps=13.99)"
+Enterprise to Revenue,7.609
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-189115008.0
+Operating to Cash Flow,243563008.0
 
 PROFITABILITY
-Return on Equity,0.10515001
-Return on Assets,0.0126600005
-Return on Invested Capital,0.01980946360057433
+Return on Equity,0.09741
+Return on Assets,0.01254
+Return on Invested Capital,0.019245369354935163
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0713
-SUM DIVIDEND SCORE,4.0713
+SUM DIVIDEND SCORE,7.0713
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,4.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,4.0
 
 
 

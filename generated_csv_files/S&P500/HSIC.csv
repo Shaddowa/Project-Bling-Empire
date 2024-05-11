@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.henryschein.com
-Price,74.04
+Price,73.44
 Currency,USD
 
 REVENUE
-Total Revenue,12693000192.0
-Revenue Per Share,96.391
-Revenue Growth,0.031
+Total Revenue,12451000320.0
+Revenue Per Share,95.808
+Revenue Growth,0.037
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.38, forward_eps=5.09)"
-Net Earnings,445000000.0
-Earnings Growth,-0.037
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.97, forward_eps=5.6)"
+Net Earnings,346000000.0
+Earnings Growth,-0.565
 
 DEBT
-Total Debt,2287000064.0
-Debt to Equity,44.834
+Total Debt,2718000128.0
+Debt to Equity,53.982
 
 MARGINS
-Profit Margins,0.03506
-Gross Profit Margins,0.31001
-Operating Margins,0.06673
+Profit Margins,0.031159999
+Gross Profit Margins,0.31379
+Operating Margins,0.0558
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,44.834
-Price to Cash Flow,1.5535200469576767e-07
-Enterprise to EBITDA,12.325
-Price to Book,2.6407573
-Price to Earnings,"PriceToEarnings(trailing_pe=21.952662, forward_pe=14.577602)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.38, forward_eps=5.09)"
-Enterprise to Revenue,1.041
+Debt to Equity,53.982
+Price to Cash Flow,1.63592750479759e-07
+Enterprise to EBITDA,14.404
+Price to Book,2.6163454
+Price to Earnings,"PriceToEarnings(trailing_pe=24.6835, forward_pe=13.091071)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.97, forward_eps=5.6)"
+Enterprise to Revenue,1.075
 
 CASH FLOW
-Free to Cash Flow,477624992.0
-Operating to Cash Flow,786000000.0
+Free to Cash Flow,448124992.0
+Operating to Cash Flow,670000000.0
 
 PROFITABILITY
-Return on Equity,0.09486
-Return on Assets,0.057239998
-Return on Invested Capital,0.19457804201125994
-Return on Investment,0.2119047619047619
+Return on Equity,0.08344
+Return on Assets,0.04408
+Return on Invested Capital,0.12729947760807045
+Return on Investment,0.3844444444444444
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -62,6 +62,11 @@ Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,0.0
+
+ANALYST RATING SCORE
+Target High Price Diff Current Price,18.689999999999998
+Recommendation Key,0
+SUM ANALYST RATING SCORE,18.689999999999998
 
 
 
