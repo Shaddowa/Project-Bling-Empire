@@ -2,7 +2,8 @@
 import locale
 from datetime import datetime
 
-from context.net_worth.main.gocardless_requests import get_bank_account_total_balance_from_api
+from context.net_worth.main.gocardless_requests import get_bank_account_total_balance_from_dnb, \
+    get_credit_card_used_balance_and_due_date
 from data_classes.expense import UpcomingExpense
 from data_classes.asset import TotalAssets
 from data_classes.debt import TotalDebts
@@ -25,7 +26,7 @@ def get_not_listed_account_sum_balance():
 
 
 TotalAssets = TotalAssets(
-    cash=get_bank_account_total_balance_from_api() + get_not_listed_account_sum_balance(),
+    cash=get_bank_account_total_balance_from_dnb() + get_not_listed_account_sum_balance(),
     stocks=0,
     funds=0,
     crypto=0,
@@ -37,13 +38,22 @@ TotalDebts = TotalDebts(
     student_loan=0
 )
 
+sum_used_credit, due_date = get_credit_card_used_balance_and_due_date()
 UpcomingExpenses = [
     UpcomingExpense(
         expense="Apartment",
-        amount=0,
+        amount=-0,
         date=datetime(year=2024, month=7, day=1)
     )
 ]
+
+if sum_used_credit < 0:
+    due_date_datetime = datetime.strptime(due_date, "%Y-%m-%d")
+    UpcomingExpenses.append(UpcomingExpense(
+        expense="CreditCard",
+        amount=sum_used_credit,
+        date=due_date_datetime
+    ))
 
 UpcomingCashFlowIn = [
     UpcomingCashFlowIn(

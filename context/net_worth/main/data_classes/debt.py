@@ -7,4 +7,4 @@ class TotalDebts:
     student_loan: float
 
     def sum(self) -> float:
-        return sum([self.mortgage_loan, self.student_loan])
+        return abs(sum([self.mortgage_loan, self.student_loan]))

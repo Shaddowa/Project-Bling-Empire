@@ -2,7 +2,6 @@ import requests
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
 API_SECRET_ID = os.getenv('API_SECRET_ID')
@@ -13,6 +12,7 @@ SUPER_SAVER_ACCOUNT_ID = os.getenv('SUPER_SAVER_ACCOUNT_ID')
 DEFAULT_STOCKS_ACCOUNT_ID = os.getenv('DEFAULT_STOCKS_ACCOUNT_ID')
 GEEK_FREAK_ACCOUNT_ID = os.getenv('GEEK_FREAK_ACCOUNT_ID')
 STUDENT_LOAN_ACCOUNT = os.getenv('STUDENT_LOAN_ACCOUNT')
+BANK_NORWEGIAN_ACCOUNT_ID = os.getenv('BANK_NORWEGIAN_ACCOUNT_ID')
 
 ACCOUNTS = [
     DEFAULT_ACCOUNT_ID,
@@ -44,12 +44,12 @@ def get_access_token():
         return None
 
 
-def make_authenticated_request(access_token):
+def make_authenticated_request(access_token, institution_id):
     response = requests.post(
         BASE_URL + "requisitions/",
         json={
-            "redirect": "https://www.bulq.no",  # URL to redirect to after requisition is complete
-            "institution_id": "DNB_DNBANOKK"  # ID of the institution (bank) involved in the requisition
+            "redirect": "https://www.bulq.no",
+            "institution_id": institution_id
         },
         headers={"Authorization": f"Bearer {access_token}"}
     )
@@ -68,14 +68,35 @@ def get_bank_account_balances(access_token, account_id):
         return response.status_code, response.text
 
 
-def get_bank_account_total_balance_from_api():
+def get_credit_card_used_balance_and_due_date(access_token=None, account_id=BANK_NORWEGIAN_ACCOUNT_ID):
+    sum_used_credit = 0.0
+    reference_date = None
+    access_token = get_access_token()
+
+    if access_token:
+        # The requisitions ID is used to help find account ids
+        # we have already saved our ids and don't need to use this for now
+        requisition_id, link = make_authenticated_request(access_token, institution_id="NORWEGIAN_NO_NORWNOK1")
+        print(f"use this link to authenticate with BANK NORWEGIAN if needed: {link}")
+        balances = get_bank_account_balances(access_token, account_id)
+        for balance in balances:
+            balanceType = balance.get("balanceType")
+            balanceAmount = balance.get("balanceAmount")
+            reference_date = balance.get("referenceDate")
+            if balanceAmount:
+                if balanceType == "closingBooked":
+                    sum_used_credit += float(balanceAmount.get("amount"))
+    return sum_used_credit, reference_date
+
+
+def get_bank_account_total_balance_from_dnb():
     sum_balance = 0.0
     access_token = get_access_token()
     if access_token:
         # The requisitions ID is used to help find account ids
         # we have already saved our ids and don't need to use this for now
-        requisition_id, link = make_authenticated_request(access_token)
-        print(f"use this link to authenticate if needed: {link}")
+        requisition_id, link = make_authenticated_request(access_token, institution_id="DNB_DNBANOKK")
+        print(f"use this link to authenticate with DNB if needed: {link}")
         for account in ACCOUNTS:
             balances = get_bank_account_balances(access_token, account)
             for balance in balances:

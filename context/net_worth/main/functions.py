@@ -89,6 +89,6 @@ def calculate_future_gross_liquid_net_worth(
         [expense.amount for expense in upcoming_expenses if expense.date <= date_threshold]
     )
 
-    return locale.currency(total_assets + total_upcoming_cash_flow_in - total_upcoming_expenses, grouping=True)
+    return locale.currency(sum([total_assets, total_upcoming_cash_flow_in, total_upcoming_expenses]), grouping=True)
 
 
