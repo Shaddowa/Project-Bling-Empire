@@ -8,14 +8,12 @@ from data_classes.expense import UpcomingExpense
 from data_classes.asset import TotalAssets
 from data_classes.debt import TotalDebts
 from data_classes.cash_flow import UpcomingCashFlowIn
-from functions import (
-    calculate_net_worth,
-    calculate_future_net_worth,
-    calculate_gross_liquid_net_worth,
-    calculate_future_gross_liquid_net_worth
-)
 
 locale.setlocale(locale.LC_ALL, 'no_NO')
+
+
+def format_currency(value: float) -> str:
+    return locale.currency(value, grouping=True)
 
 
 def get_not_listed_account_sum_balance():
@@ -34,8 +32,8 @@ TotalAssets = TotalAssets(
 )
 
 TotalDebts = TotalDebts(
-    mortgage_loan=0,
-    student_loan=0
+    mortgage_loan=-0,
+    student_loan=-0
 )
 
 sum_used_credit, due_date = get_credit_card_used_balance_and_due_date()
@@ -63,16 +61,7 @@ UpcomingCashFlowIn = [
     ),
     UpcomingCashFlowIn(
         cash_flow="Holiday Pay",
-        amount=34500,
+        amount=0,
         date=datetime(year=2024, month=6, day=15)
     )
 ]
-
-print(f"Net Worth: {calculate_net_worth(TotalAssets, TotalDebts)}")
-print(f"Future Net Worth: {calculate_future_net_worth(TotalAssets, TotalDebts, UpcomingCashFlowIn, UpcomingExpenses)}")
-print(f"Gross Liquid Net Worth: {calculate_gross_liquid_net_worth(TotalAssets)}")
-print(f"Gross Liquid Future Net Worth: {calculate_future_gross_liquid_net_worth(TotalAssets, UpcomingCashFlowIn, UpcomingExpenses)}")
-print(f"Total Assets: {locale.currency(TotalAssets.sum(), grouping=True)}")
-print(f"Total Debts: {locale.currency(TotalDebts.sum(), grouping=True)}")
-
-
