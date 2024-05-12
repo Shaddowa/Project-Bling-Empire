@@ -1,9 +1,9 @@
 from datetime import datetime
 
-from context.net_worth.main.data_classes.expense import UpcomingExpense
-from context.net_worth.main.data_classes.asset import TotalAssets
-from context.net_worth.main.data_classes.debt import TotalDebts
-from context.net_worth.main.data_classes.cash_flow import UpcomingCashFlowIn
+from .data_classes.expense import UpcomingExpense
+from .data_classes.asset import TotalAssets
+from .data_classes.debt import TotalDebts
+from .data_classes.cash_flow import UpcomingCashFlowIn
 
 
 def calculate_net_worth(total_assets: TotalAssets = TotalAssets, total_debts: TotalDebts = TotalDebts) -> int:
