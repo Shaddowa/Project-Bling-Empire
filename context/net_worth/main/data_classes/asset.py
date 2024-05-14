@@ -1,14 +1,26 @@
 from dataclasses import dataclass
 from datetime import datetime
+from typing import Optional
+
+from .currency import CurrencyValue
 
 
 @dataclass
 class StockPurchase:
     stock_collection: str
     ticker: str
-    quantity: int
-    price: float
+    quantity: float
+    price: CurrencyValue
+    brokerage: CurrencyValue
     date: datetime
+    exchange_rate: Optional[CurrencyValue] = None
+
+
+@dataclass
+class StockPortfolio:
+    stocks: list[
+        StockPurchase
+    ]
 
 
 @dataclass
