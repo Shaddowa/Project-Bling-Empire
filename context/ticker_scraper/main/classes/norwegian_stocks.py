@@ -20,3 +20,6 @@ class NorwegianStocksClass(StockCollectionClass):
 
     def get_default_currency(self):
         return Currency.NOK.value
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return self.stock_ticker_suffixes

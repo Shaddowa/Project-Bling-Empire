@@ -9,3 +9,6 @@ class StandardAndPoor500StocksClass(StockCollectionClass):
 
     def get_default_currency(self):
         return Currency.USD.value
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return None

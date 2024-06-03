@@ -24,3 +24,6 @@ class UnitedKingdomStocksClass(StockCollectionClass):
         df3 = df.copy()[self.column] + IL
 
         return pd.concat([df1, df2, df3])
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return self.stock_ticker_suffixes

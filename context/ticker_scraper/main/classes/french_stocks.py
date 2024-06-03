@@ -25,3 +25,6 @@ class FrenchStocksClass(StockCollectionClass):
         df2 = df.copy()[self.column] + NX
 
         return pd.concat([df1, df2])
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return self.stock_ticker_suffixes

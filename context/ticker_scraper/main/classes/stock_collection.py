@@ -50,5 +50,9 @@ class StockCollectionClass(ABC):
     def get_default_currency(self):
         pass
 
+    @abstractmethod
+    def get_stock_ticker_suffixes_or_none(self):
+        pass
+
     def __str__(self):
         return self.stock_index_name

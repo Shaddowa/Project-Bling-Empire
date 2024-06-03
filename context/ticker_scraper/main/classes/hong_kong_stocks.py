@@ -37,3 +37,6 @@ class HongKongStocksClass(StockCollectionClass):
         df[0] = df[0].str[:10]
         df[0] = df[0].str.replace(r'(\D+)', '', regex=True)
         return df[0].str.zfill(4) + HK
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return self.stock_ticker_suffixes

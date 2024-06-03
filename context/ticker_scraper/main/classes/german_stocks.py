@@ -8,3 +8,6 @@ class GermanStocksClass(StockCollectionClass):
 
     def get_default_currency(self):
         return None
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return None

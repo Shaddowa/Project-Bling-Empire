@@ -19,3 +19,6 @@ class DutchStocksClass(StockCollectionClass):
     def modify_tickers(self, df):
         AS = self.stock_ticker_suffixes[0]
         return df[self.column] + AS
+
+    def get_stock_ticker_suffixes_or_none(self):
+        return self.stock_ticker_suffixes
