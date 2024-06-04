@@ -22,7 +22,6 @@ def convert_currency_value_to_default_currency(value: float, from_currency: Curr
             },
             timeout=10
         )
-
         return response.json()["nanoapi"]
     return value
 
@@ -34,8 +33,9 @@ class StockPurchase:
     quantity: float
     price: CurrencyValue
     brokerage: CurrencyValue
+    cost_price: Optional[CurrencyValue] = None
+    exchange_rate: Optional[CurrencyValue] = CurrencyValue(1, Currency.NOK)
     date: Optional[datetime] = None
-    exchange_rate: Optional[CurrencyValue] = None
 
 
 @dataclass
@@ -44,32 +44,60 @@ class StockPortfolio:
         StockPurchase
     ]
 
-    def _get_stock_quantity_dict(self) -> dict:
-        stocks_quantity_dict = {}
+    @staticmethod
+    def calculate_roi(stocks_dict_local_currency) -> dict:
+        for stock in stocks_dict_local_currency:
+            stocks_dict_local_currency[stock]["roi"] = (
+                convert_currency_value_to_default_currency(
+                    stocks_dict_local_currency[stock]["value"],
+                    from_currency=stocks_dict_local_currency[stock]["base_currency"]
+                ) - stocks_dict_local_currency[stock]["cost_price"]
+            )
+        return stocks_dict_local_currency
+
+    @staticmethod
+    def _get_current_value_for_stocks(stock_dict: dict) -> dict:
+        for stock in stock_dict:
+            YQTicker = Ticker(stock)
+            current_price = YQTicker.financial_data.get(stock).get("currentPrice")
+            currency = YQTicker.summary_detail.get(stock).get("currency")
+            sum_stock_value = stock_dict[stock]["quantity"] * current_price
+            stock_dict[stock]["value"] = sum_stock_value
+            stock_dict[stock]["base_currency"] = Currency.from_str(currency)
+        return stock_dict
+
+    @staticmethod
+    def _get_stock_cost_price(stock: StockPurchase) -> float:
+        return stock.cost_price.value if stock.cost_price is not None \
+            else stock.quantity * stock.price.value * stock.exchange_rate.value + stock.brokerage.value
+
+    def _get_stock_dict(self) -> dict:
+        stocks_dict_local_currency = {}
         for stock in self.stocks:
+
             stock_ticker_suffixes = stock.stock_collection.get_stock_ticker_suffixes_or_none()
+
             if stock_ticker_suffixes:
                 stock_ticker = stock.ticker + stock_ticker_suffixes[0]
             else:
                 stock_ticker = stock.ticker
 
-            if stock_ticker in stocks_quantity_dict:
-                stocks_quantity_dict[stock_ticker]["quantity"] += stock.quantity
+            if stock_ticker in stocks_dict_local_currency:
+                stocks_dict_local_currency[stock_ticker]["quantity"] += stock.quantity
+                stocks_dict_local_currency[stock_ticker]["cost_price"] += self._get_stock_cost_price(stock)
+
             else:
-                stocks_quantity_dict[stock_ticker] = {"quantity": stock.quantity}
-        return stocks_quantity_dict
+                stocks_dict_local_currency[stock_ticker] = {
+                    "quantity": stock.quantity,
+                    "cost_price": self._get_stock_cost_price(stock)
+                }
+        return self.calculate_roi(self._get_current_value_for_stocks(stocks_dict_local_currency))
 
     def sum(self) -> dict:
         portfolio_value = {Currency.NOK:  0.0, Currency.USD: 0.0}
-        stocks_quantity_dict = self._get_stock_quantity_dict()
-
-        for stock in stocks_quantity_dict:
-            YQTicker = Ticker(stock)
-            current_price = YQTicker.financial_data.get(stock).get("currentPrice")
-            currency = YQTicker.summary_detail.get(stock).get("currency")
-            sum_stock_value = stocks_quantity_dict[stock]["quantity"] * current_price
-            portfolio_value[Currency.from_str(currency)] += sum_stock_value
-
+        stocks_dict = self._get_stock_dict()
+        for stock in stocks_dict:
+            portfolio_value[stocks_dict[stock]["base_currency"]] += stocks_dict[stock]["value"]
         return portfolio_value
 
     def sum_local_currency(self, local_currency=Currency.NOK) -> float:
@@ -82,7 +110,6 @@ class StockPortfolio:
                 from_currency=currency,
                 to_currency=local_currency
             )
-
         return round(sum_local_currency, 2)
 
 
