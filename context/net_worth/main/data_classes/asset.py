@@ -45,7 +45,7 @@ class StockPortfolio:
     ]
 
     @staticmethod
-    def calculate_roi(stocks_dict_local_currency) -> dict:
+    def calculate_roi_for_each_stock(stocks_dict_local_currency) -> dict:
         for stock in stocks_dict_local_currency:
             stocks_dict_local_currency[stock]["roi"] = (
                 convert_currency_value_to_default_currency(
@@ -54,6 +54,14 @@ class StockPortfolio:
                 ) - stocks_dict_local_currency[stock]["cost_price"]
             )
         return stocks_dict_local_currency
+
+    def calculate_roi_for_whole_portfolio(self) -> float:
+        sum_roi = 0
+        stocks_dict = self._get_stock_dict()
+        for stock in stocks_dict:
+            sum_roi += stocks_dict[stock]["roi"]
+
+        return sum_roi
 
     @staticmethod
     def _get_current_value_for_stocks(stock_dict: dict) -> dict:
@@ -91,7 +99,7 @@ class StockPortfolio:
                     "quantity": stock.quantity,
                     "cost_price": self._get_stock_cost_price(stock)
                 }
-        return self.calculate_roi(self._get_current_value_for_stocks(stocks_dict_local_currency))
+        return self.calculate_roi_for_each_stock(self._get_current_value_for_stocks(stocks_dict_local_currency))
 
     def sum(self) -> dict:
         portfolio_value = {Currency.NOK:  0.0, Currency.USD: 0.0}
