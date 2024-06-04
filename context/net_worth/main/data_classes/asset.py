@@ -1,9 +1,30 @@
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
+import requests
 from yahooquery import Ticker
 from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
-from .currency import CurrencyValue
+from .currency import CurrencyValue, Currency
+
+
+def convert_currency_value_to_default_currency(value: float, from_currency: Currency, to_currency=Currency.NOK) -> float:
+    # https://exchange.nanoapi.dev/
+    if from_currency != to_currency:
+        response = requests.get(
+            "https://exchange.nanoapi.dev/api/exchange",
+            params={
+                "from": from_currency.value,
+                "to": to_currency.value,
+                "amount": value,
+            },
+            headers={
+                "Authorization": "FREE",
+            },
+            timeout=10
+        )
+
+        return response.json()["nanoapi"]
+    return value
 
 
 @dataclass
@@ -13,7 +34,7 @@ class StockPurchase:
     quantity: float
     price: CurrencyValue
     brokerage: CurrencyValue
-    date: datetime
+    date: Optional[datetime] = None
     exchange_rate: Optional[CurrencyValue] = None
 
 
@@ -39,7 +60,7 @@ class StockPortfolio:
         return stocks_quantity_dict
 
     def sum(self) -> dict:
-        portfolio_value = {"NOK":  0.0, "USD": 0.0}
+        portfolio_value = {Currency.NOK:  0.0, Currency.USD: 0.0}
         stocks_quantity_dict = self._get_stock_quantity_dict()
 
         for stock in stocks_quantity_dict:
@@ -47,9 +68,22 @@ class StockPortfolio:
             current_price = YQTicker.financial_data.get(stock).get("currentPrice")
             currency = YQTicker.summary_detail.get(stock).get("currency")
             sum_stock_value = stocks_quantity_dict[stock]["quantity"] * current_price
-            portfolio_value[currency] += sum_stock_value
+            portfolio_value[Currency.from_str(currency)] += sum_stock_value
 
         return portfolio_value
+
+    def sum_local_currency(self, local_currency=Currency.NOK) -> float:
+        sum_local_currency = 0
+        portfolio_value = self.sum()
+
+        for currency in portfolio_value:
+            sum_local_currency += convert_currency_value_to_default_currency(
+                portfolio_value[currency],
+                from_currency=currency,
+                to_currency=local_currency
+            )
+
+        return round(sum_local_currency, 2)
 
 
 @dataclass
