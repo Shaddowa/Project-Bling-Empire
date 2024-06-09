@@ -22,7 +22,6 @@ stockPortfolio_example = StockPortfolio(
                 value=0,
                 currency=Currency.NOK
             ),
-            cost_price=CurrencyValue(0, Currency.NOK),
             date=None
         ),
         StockPurchase(
@@ -41,7 +40,6 @@ stockPortfolio_example = StockPortfolio(
                 value=61.95,
                 currency=Currency.NOK
             ),
-            cost_price=CurrencyValue(16123664.04, Currency.NOK),
             date=datetime(year=2020, month=11, day=27)
         ),
         StockPurchase(

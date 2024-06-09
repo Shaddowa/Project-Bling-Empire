@@ -33,7 +33,6 @@ class StockPurchase:
     quantity: float
     price: CurrencyValue
     brokerage: CurrencyValue
-    cost_price: Optional[CurrencyValue] = None
     exchange_rate: Optional[CurrencyValue] = CurrencyValue(1, Currency.NOK)
     date: Optional[datetime] = None
 
@@ -76,8 +75,7 @@ class StockPortfolio:
 
     @staticmethod
     def _get_stock_cost_price(stock: StockPurchase) -> float:
-        return stock.cost_price.value if stock.cost_price is not None \
-            else stock.quantity * stock.price.value * stock.exchange_rate.value + stock.brokerage.value
+        return (stock.quantity * stock.price.value * stock.exchange_rate.value) + stock.brokerage.value
 
     def _get_stock_dict(self) -> dict:
         stocks_dict_local_currency = {}
