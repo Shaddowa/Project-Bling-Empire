@@ -5,6 +5,9 @@ import requests
 from yahooquery import Ticker
 from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
 from .currency import CurrencyValue, Currency
+from ..firi_requests import get_grouped_transaction_history_by_year, get_filtered_transaction_history, \
+    get_summed_transaction_history
+import yfinance as yf
 
 
 def convert_currency_value_to_default_currency(value: float, from_currency: Currency, to_currency=Currency.NOK) -> float:
@@ -24,6 +27,59 @@ def convert_currency_value_to_default_currency(value: float, from_currency: Curr
         )
         return response.json()["nanoapi"]
     return value
+
+
+@dataclass
+class CryptoCoin:
+    currency: Currency
+    quantity: float
+
+
+@dataclass
+class CryptoPortfolio:
+    coins: list[
+        CryptoCoin
+    ]
+
+    def _parse_summed_transaction_history(self, summed_transaction_history):
+        for currency in summed_transaction_history:
+            self.coins.append(
+                CryptoCoin(
+                    currency=currency,
+                    quantity=summed_transaction_history[currency]["total_amount"]
+                )
+            )
+
+        return self
+
+    def _get_crypto_dict(self) -> dict:
+        crypto_dict = {}
+        for coin in self.coins:
+            crypto_ticker = yf.Ticker(f"{coin.currency.value}-USD")
+            closing_price = crypto_ticker.info.get("regularMarketPreviousClose")
+            crypto_dict[coin.currency] = (
+                convert_currency_value_to_default_currency(
+                    value=coin.quantity * closing_price, from_currency=Currency.USD
+                )
+            )
+        return crypto_dict
+
+    def sum(self) -> dict:
+        portfolio_value = {Currency.NOK: 0.0}
+        crypto_dict = self._get_crypto_dict()
+
+        for coin in crypto_dict:
+            portfolio_value[Currency.NOK] += crypto_dict[coin]
+
+        return portfolio_value
+
+    @staticmethod
+    def synchronize_with_firi() -> "CryptoPortfolio":
+        grouped_transaction_history = get_grouped_transaction_history_by_year(years=[2023, 2024])
+        filtered_transaction_history = get_filtered_transaction_history(grouped_transaction_history)
+        return CryptoPortfolio(coins=[])._parse_summed_transaction_history(
+            get_summed_transaction_history(filtered_transaction_history)
+        )
 
 
 @dataclass
@@ -100,7 +156,7 @@ class StockPortfolio:
         return self.calculate_roi_for_each_stock(self._get_current_value_for_stocks(stocks_dict_local_currency))
 
     def sum(self) -> dict:
-        portfolio_value = {Currency.NOK:  0.0, Currency.USD: 0.0}
+        portfolio_value = {Currency.NOK: 0.0, Currency.USD: 0.0}
         stocks_dict = self._get_stock_dict()
         for stock in stocks_dict:
             portfolio_value[stocks_dict[stock]["base_currency"]] += stocks_dict[stock]["value"]
@@ -137,4 +193,3 @@ class TotalAssets:
                 self.real_estate
             ]
         )
-
