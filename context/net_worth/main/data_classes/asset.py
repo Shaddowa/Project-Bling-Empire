@@ -1,3 +1,4 @@
+import os
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
@@ -41,7 +42,16 @@ class CryptoPortfolio:
         CryptoCoin
     ]
 
+    def _add_daedalus_coins(self):
+        self.coins.append(
+            CryptoCoin(
+                currency=Currency.ADA,
+                quantity=float(os.getenv('ADA_DAEDALUS_COINS'))
+            )
+        )
+
     def _parse_summed_transaction_history(self, summed_transaction_history):
+        self._add_daedalus_coins()
         for currency in summed_transaction_history:
             self.coins.append(
                 CryptoCoin(
@@ -49,7 +59,6 @@ class CryptoPortfolio:
                     quantity=summed_transaction_history[currency]["total_amount"]
                 )
             )
-
         return self
 
     def _get_crypto_dict(self) -> dict:
@@ -57,11 +66,15 @@ class CryptoPortfolio:
         for coin in self.coins:
             crypto_ticker = yf.Ticker(f"{coin.currency.value}-USD")
             closing_price = crypto_ticker.info.get("regularMarketPreviousClose")
-            crypto_dict[coin.currency] = (
-                convert_currency_value_to_default_currency(
+            if coin.currency.value not in crypto_dict:
+                crypto_dict[coin.currency.value] = convert_currency_value_to_default_currency(
                     value=coin.quantity * closing_price, from_currency=Currency.USD
                 )
-            )
+            else:
+                crypto_dict[coin.currency.value] += convert_currency_value_to_default_currency(
+                    value=coin.quantity * closing_price, from_currency=Currency.USD
+                )
+
         return crypto_dict
 
     def sum(self) -> dict:
