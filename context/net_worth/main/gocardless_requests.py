@@ -48,7 +48,7 @@ def make_authenticated_request(access_token, institution_id):
     response = requests.post(
         BASE_URL + "requisitions/",
         json={
-            "redirect": "https://www.bulq.no",
+            "redirect": "https://hannatronsen.herokuapp.com/",
             "institution_id": institution_id
         },
         headers={"Authorization": f"Bearer {access_token}"}
