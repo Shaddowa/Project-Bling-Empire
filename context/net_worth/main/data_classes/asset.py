@@ -7,7 +7,7 @@ from yahooquery import Ticker
 from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
 from .currency import CurrencyValue, Currency
 from ..firi_requests import get_grouped_transaction_history_by_year, get_filtered_transaction_history, \
-    get_summed_transaction_history
+    get_summed_transaction_history, add_match_fee_to_cost_price
 import yfinance as yf
 
 
@@ -34,6 +34,7 @@ def convert_currency_value_to_default_currency(value: float, from_currency: Curr
 class CryptoCoin:
     currency: Currency
     quantity: float
+    cost_price: CurrencyValue
 
 
 @dataclass
@@ -42,21 +43,32 @@ class CryptoPortfolio:
         CryptoCoin
     ]
 
-    def _add_daedalus_coins(self):
+    def sum_daedalus_coins(self) -> "CryptoPortfolio":
         self.coins.append(
             CryptoCoin(
                 currency=Currency.ADA,
-                quantity=float(os.getenv('ADA_DAEDALUS_COINS'))
+                quantity=float(os.getenv('ADA_DAEDALUS_COINS')),
+                cost_price=CurrencyValue(
+                    value=-1,  # Not sure what the cost price was...
+                    currency=Currency.NOK
+                )
             )
         )
+        return self
 
     def _parse_summed_transaction_history(self, summed_transaction_history):
-        self._add_daedalus_coins()
         for currency in summed_transaction_history:
             self.coins.append(
                 CryptoCoin(
                     currency=currency,
-                    quantity=summed_transaction_history[currency]["total_amount"]
+                    quantity=summed_transaction_history[currency]["total_amount"],
+                    cost_price=CurrencyValue(
+                        value=convert_currency_value_to_default_currency(
+                            summed_transaction_history[currency]["total_cost_price"],
+                            from_currency=Currency.USD
+                        ),
+                        currency=Currency.NOK
+                    )
                 )
             )
         return self
@@ -66,32 +78,44 @@ class CryptoPortfolio:
         for coin in self.coins:
             crypto_ticker = yf.Ticker(f"{coin.currency.value}-USD")
             closing_price = crypto_ticker.info.get("regularMarketPreviousClose")
+            crypto_dict[coin.currency.value] = {"value": 0.0, "roi": 0.0}
             if coin.currency.value not in crypto_dict:
-                crypto_dict[coin.currency.value] = convert_currency_value_to_default_currency(
+                crypto_dict[coin.currency.value]["value"] = convert_currency_value_to_default_currency(
                     value=coin.quantity * closing_price, from_currency=Currency.USD
                 )
             else:
-                crypto_dict[coin.currency.value] += convert_currency_value_to_default_currency(
+                crypto_dict[coin.currency.value]["value"] += convert_currency_value_to_default_currency(
                     value=coin.quantity * closing_price, from_currency=Currency.USD
                 )
 
+            crypto_dict[coin.currency.value]["roi"] = crypto_dict[coin.currency.value]["value"] - coin.cost_price.value
         return crypto_dict
 
-    def sum(self) -> dict:
+    def sum_local_currency(self) -> dict:
         portfolio_value = {Currency.NOK: 0.0}
         crypto_dict = self._get_crypto_dict()
 
         for coin in crypto_dict:
-            portfolio_value[Currency.NOK] += crypto_dict[coin]
+            portfolio_value[coin] = crypto_dict[coin]
+            portfolio_value[Currency.NOK] += crypto_dict[coin]["value"]
 
         return portfolio_value
+
+    def calculate_roi_for_whole_portfolio(self) -> float:
+        sum_roi = 0
+        crypto_dict = self._get_crypto_dict()
+        for coin in crypto_dict:
+            sum_roi += crypto_dict[coin]["roi"]
+
+        return sum_roi
 
     @staticmethod
     def synchronize_with_firi() -> "CryptoPortfolio":
         grouped_transaction_history = get_grouped_transaction_history_by_year(years=[2023, 2024])
         filtered_transaction_history = get_filtered_transaction_history(grouped_transaction_history)
+        filtered_and_transformed_transaction_history = add_match_fee_to_cost_price(filtered_transaction_history)
         return CryptoPortfolio(coins=[])._parse_summed_transaction_history(
-            get_summed_transaction_history(filtered_transaction_history)
+            get_summed_transaction_history(filtered_and_transformed_transaction_history)
         )
 
 
@@ -116,10 +140,10 @@ class StockPortfolio:
     def calculate_roi_for_each_stock(stocks_dict_local_currency) -> dict:
         for stock in stocks_dict_local_currency:
             stocks_dict_local_currency[stock]["roi"] = (
-                convert_currency_value_to_default_currency(
-                    stocks_dict_local_currency[stock]["value"],
-                    from_currency=stocks_dict_local_currency[stock]["base_currency"]
-                ) - stocks_dict_local_currency[stock]["cost_price"]
+                    convert_currency_value_to_default_currency(
+                        stocks_dict_local_currency[stock]["value"],
+                        from_currency=stocks_dict_local_currency[stock]["base_currency"]
+                    ) - stocks_dict_local_currency[stock]["cost_price"]
             )
         return stocks_dict_local_currency
 
