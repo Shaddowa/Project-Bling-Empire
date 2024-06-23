@@ -1,11 +1,9 @@
-import requests
 from datetime import datetime
 
-from .data_classes.currency import Currency
-from .data_classes.expense import UpcomingExpense
-from .data_classes.asset import TotalAssets
-from .data_classes.debt import TotalDebts
-from .data_classes.cash_flow import UpcomingCashFlowIn
+from .data_classes.liabilities.expense import UpcomingExpense
+from .data_classes.assetsManager import TotalAssets
+from .data_classes.liabilitiesManager import TotalDebts
+from .data_classes.assets.cash_flow import UpcomingCashFlowIn
 
 
 def calculate_net_worth(total_assets: TotalAssets = TotalAssets, total_debts: TotalDebts = TotalDebts) -> int:
@@ -19,7 +17,7 @@ def calculate_net_worth(total_assets: TotalAssets = TotalAssets, total_debts: To
         ]
     )
 
-    total_debts = sum([total_debts.mortgage_loan, total_debts.student_loan])
+    total_debts = sum([total_debts.mortgage, total_debts.student_loan.sum_total_student_loan()])
 
     return sum([total_assets, total_debts])
 
@@ -41,7 +39,7 @@ def calculate_future_net_worth(
         ]
     )
 
-    total_debts = sum([total_debts.mortgage_loan, total_debts.student_loan])
+    total_debts = sum([total_debts.mortgage, total_debts.student_loan])
 
     total_upcoming_cash_flow_in = sum(
         [cash_flow_in.amount for cash_flow_in in upcoming_cash_flow_in if cash_flow_in.date <= date_threshold]

@@ -1,8 +1,7 @@
 import os
+import yfinance as yf
 from dataclasses import dataclass
 from datetime import datetime
-
-import yfinance as yf
 from ..currency import CurrencyValue, Currency
 from ..transaction_type import TransactionType
 from ...curreny_requests import convert_currency_value_to_default_currency

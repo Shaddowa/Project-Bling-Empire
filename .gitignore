@@ -5,5 +5,7 @@ TODO
 .idea/
 .DS_Store
 context/net_worth/main/net_worth.py
-context/net_worth/main/stock_portfolio.py
+context/net_worth/main/data_classes/assets/stock_portfolio.py
+context/net_worth/main/data_classes/liabilities/student_loan_payment_plan.py
+context/net_worth/main/data_classes/liabilities/mortgage_loan_payment_plan.py
 .env
