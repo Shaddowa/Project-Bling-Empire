@@ -1,16 +1,14 @@
-from datetime import datetime
 from ..liabilities.expense import UpcomingExpense
+from ...const import NOW
 
 
 class StudentLoan:
-
-    NOW = datetime.now()
 
     def __init__(self, student_loan: list[UpcomingExpense]):
         self.student_loan = student_loan
 
     def _sum_future_amounts(self, attribute: str):
-        return sum(getattr(expense, attribute) for expense in self.student_loan if expense.date >= self.NOW)
+        return sum(getattr(expense, attribute) for expense in self.student_loan if expense.date >= NOW)
 
     def _sum_historic_amounts(self, attribute: str):
         return sum(getattr(expense, attribute) for expense in self.student_loan)
@@ -31,6 +29,6 @@ class StudentLoan:
         return self._sum_future_amounts('interest_balance')
 
     def sum_loan_balance(self):
-        future_expenses = [expense.loan_balance for expense in self.student_loan if expense.date >= self.NOW]
+        future_expenses = [expense.loan_balance for expense in self.student_loan if expense.date >= NOW]
         return future_expenses[-1] if future_expenses else 0.0
 

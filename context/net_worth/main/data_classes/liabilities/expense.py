@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from datetime import datetime
+from typing import Optional
 
 
 @dataclass
@@ -8,7 +9,8 @@ class UpcomingExpense:
     term_payment: float
     interest: float
     principal: float
-    interest_balance: float
     loan_balance: float
     date: datetime
+    interest_balance: Optional[float] = None
+    fee: Optional[float] = None
 
