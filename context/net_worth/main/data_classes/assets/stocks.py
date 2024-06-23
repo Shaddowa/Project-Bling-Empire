@@ -4,7 +4,7 @@ from typing import Optional
 from yahooquery import Ticker
 from context.ticker_scraper.main.classes.stock_collection import StockCollectionClass
 from ..currency import CurrencyValue, Currency
-from ...functions import convert_currency_value_to_default_currency
+from ...curreny_requests import convert_currency_value_to_default_currency
 
 
 @dataclass
@@ -28,7 +28,7 @@ class StockPortfolio:
     def calculate_roi_for_each_stock(stocks_dict_local_currency) -> dict:
         for stock in stocks_dict_local_currency:
             stocks_dict_local_currency[stock]["roi"] = (
-                    convert_currency_value_to_default_currency(
+                    convert_currency_value_to_default_currency(   # Add date parameter
                         stocks_dict_local_currency[stock]["value"],
                         from_currency=stocks_dict_local_currency[stock]["base_currency"]
                     ) - stocks_dict_local_currency[stock]["cost_price"]
@@ -92,7 +92,7 @@ class StockPortfolio:
         portfolio_value = self.sum()
 
         for currency in portfolio_value:
-            sum_local_currency += convert_currency_value_to_default_currency(
+            sum_local_currency += convert_currency_value_to_default_currency(  # Add date parameter
                 portfolio_value[currency],
                 from_currency=currency,
                 to_currency=local_currency

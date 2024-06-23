@@ -1,9 +1,11 @@
 import os
 from dataclasses import dataclass
+from datetime import datetime
+
 import yfinance as yf
 from ..currency import CurrencyValue, Currency
 from ..transaction_type import TransactionType
-from ...functions import convert_currency_value_to_default_currency
+from ...curreny_requests import convert_currency_value_to_default_currency
 from ...firi_requests import get_grouped_transaction_history_by_year
 
 
@@ -40,10 +42,7 @@ class CryptoPortfolio:
                     currency=currency,
                     quantity=summed_transaction_history[currency]["total_amount"],
                     cost_price=CurrencyValue(
-                        value=convert_currency_value_to_default_currency(
-                            summed_transaction_history[currency]["total_cost_price"],
-                            from_currency=Currency.USD
-                        ),
+                        value=summed_transaction_history[currency]["total_converted_cost_price"],
                         currency=Currency.NOK
                     )
                 )
@@ -92,6 +91,7 @@ class CryptoPortfolio:
                 Currency.USD,
                 Currency.LINK,
                 Currency.XRP,
+                Currency.SOL  # Temporarily removed
             ]:
                 filtered_transaction_dict[currency] = {}
                 if currency == Currency.NOK and TransactionType.MATCH_FEE in transaction_dict[currency]:
@@ -118,7 +118,8 @@ class CryptoPortfolio:
             fee['date']: convert_currency_value_to_default_currency(
                 value=fee['amount'],
                 from_currency=Currency.NOK,
-                to_currency=Currency.USD
+                to_currency=Currency.USD,
+                end_period=datetime.strptime(fee['date'], "%Y-%m-%dT%H:%M:%S.%fZ")
             )
             for fee in transactions.pop(Currency.NOK, {}).get(TransactionType.MATCH_FEE, [])
         }
@@ -142,17 +143,37 @@ class CryptoPortfolio:
         summed_transaction_history = {}
 
         for currency in transaction_history:
-            summed_transaction_history[currency] = {"total_amount": 0.0, "total_cost_price": 0.0}
+            summed_transaction_history[currency] = {
+                "total_amount": 0.0,
+                "total_cost_price": 0.0,
+                "total_converted_cost_price": 0.0
+            }
+
             for transaction_type in transaction_history[currency]:
-                sum_transaction_type = sum(
-                    [transaction["amount"] for transaction in transaction_history[currency][transaction_type]]
-                )
-                sum_cost_price = sum(
-                    [transaction["cost_price"] for transaction in transaction_history[currency][transaction_type]]
-                )
-                summed_transaction_history[currency]["total_amount"] += sum_transaction_type
-                summed_transaction_history[currency]["total_cost_price"] += sum_cost_price
-                summed_transaction_history[currency][transaction_type] = sum_transaction_type
+                total_amount = 0.0
+                total_cost_price = 0.0
+                total_converted_cost_price = 0.0
+
+                for transaction in transaction_history[currency][transaction_type]:
+                    amount = transaction["amount"]
+                    cost_price = transaction["cost_price"]
+                    transaction_date = datetime.strptime(transaction["date"], "%Y-%m-%dT%H:%M:%S.%fZ")
+
+                    converted_cost_price = convert_currency_value_to_default_currency(
+                        cost_price,
+                        from_currency=Currency.USD,
+                        to_currency=Currency.NOK,
+                        end_period=transaction_date
+                    )
+
+                    total_amount += amount
+                    total_cost_price += cost_price
+                    total_converted_cost_price += converted_cost_price
+
+                summed_transaction_history[currency]["total_amount"] += total_amount
+                summed_transaction_history[currency]["total_cost_price"] += total_cost_price
+                summed_transaction_history[currency]["total_converted_cost_price"] += total_converted_cost_price
+                summed_transaction_history[currency][transaction_type] = total_amount
 
         return summed_transaction_history
 
@@ -162,6 +183,5 @@ class CryptoPortfolio:
         grouped_transaction_history = get_grouped_transaction_history_by_year(years=[2023, 2024])
         filtered_transaction_history = cls._filter_transaction_history(grouped_transaction_history)
         transformed_transaction_history = cls._add_match_fee_to_cost_price(filtered_transaction_history)
-        return crypto_portfolio._parse_summed_transaction_history(
-            cls.sum_transaction_history(transformed_transaction_history)
-        )
+        summed_transaction_history = cls.sum_transaction_history(transformed_transaction_history)
+        return crypto_portfolio._parse_summed_transaction_history(summed_transaction_history)

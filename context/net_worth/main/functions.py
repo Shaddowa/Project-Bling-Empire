@@ -8,25 +8,6 @@ from .data_classes.debt import TotalDebts
 from .data_classes.cash_flow import UpcomingCashFlowIn
 
 
-def convert_currency_value_to_default_currency(value: float, from_currency: Currency, to_currency=Currency.NOK) -> float:
-    # https://exchange.nanoapi.dev/
-    if from_currency != to_currency:
-        response = requests.get(
-            "https://exchange.nanoapi.dev/api/exchange",
-            params={
-                "from": from_currency.value,
-                "to": to_currency.value,
-                "amount": value,
-            },
-            headers={
-                "Authorization": "FREE",
-            },
-            timeout=10
-        )
-        return response.json()["nanoapi"]
-    return value
-
-
 def calculate_net_worth(total_assets: TotalAssets = TotalAssets, total_debts: TotalDebts = TotalDebts) -> int:
     total_assets = sum(
         [
