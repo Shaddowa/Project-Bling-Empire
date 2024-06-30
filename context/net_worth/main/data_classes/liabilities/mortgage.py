@@ -1,13 +1,16 @@
 from dataclasses import dataclass
-from ..liabilities.expense import UpcomingExpense
-from ...const import NOW
+from ..liabilities.expense import DebtExpense
+from ...const import NOW, FROM_DATE, TO_DATE
 
 
 @dataclass
 class Mortgage:
 
-    def __init__(self, mortgage: list[UpcomingExpense]):
+    def __init__(self, mortgage: list[DebtExpense]):
         self.mortgage = mortgage
+
+    def sum_monthly_mortgage_loan_payment(self):
+        return sum([expense.term_payment for expense in self.mortgage if FROM_DATE <= expense.date < TO_DATE])
 
     def _sum_future_amounts(self, attribute: str):
         return sum(getattr(expense, attribute) for expense in self.mortgage if expense.date >= NOW)

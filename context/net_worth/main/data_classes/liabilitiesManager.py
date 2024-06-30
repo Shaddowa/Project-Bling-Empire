@@ -1,28 +1,13 @@
 from dataclasses import dataclass
 
-from .liabilities.mortgage_loan_payment_plan import get_mortgage_loan
-from .liabilities.student_loan_payment_plan import get_student_loan
-from .liabilities.student_loan import StudentLoan
+from .liabilities.expense import Basis, ReoccurringExpense
 from .liabilities.mortgage import Mortgage
-
-
-# sum_used_credit, due_date = get_credit_card_used_balance_and_due_date()
-
-# UpcomingExpenses = [
-#     UpcomingExpense(
-#         expense="Apartment",
-#         amount=-712640,
-#         date=datetime(year=2024, month=7, day=1)
-#     )
-# ]
-
-# if sum_used_credit < 0:
-#     due_date_datetime = datetime.strptime(due_date, "%Y-%m-%d")
-#     UpcomingExpenses.append(UpcomingExpense(
-#         expense="CreditCard",
-#         amount=sum_used_credit,
-#         date=due_date_datetime
-#     ))
+from .liabilities.mortgage_loan_payment_plan import get_mortgage_loan
+from .liabilities.reoccurring_expenses import get_monthly_reoccurring_expenses, get_extra_monthly_payments
+from .liabilities.student_loan import StudentLoan
+from .liabilities.student_loan_payment_plan import get_student_loan
+from .liabilities.upcoming_expenses import get_upcoming_expenses
+from ..const import FROM_DATE, TO_DATE
 
 
 @dataclass
@@ -38,3 +23,40 @@ class TotalDebts:
 
     def get_mortgage(self):
         return self.mortgage.sum_total_remaining_mortgage_loan()
+
+    @staticmethod
+    def process_extra_expenses(expenses: list[ReoccurringExpense]):
+        return sum([expense.amount for expense in expenses])
+
+    def get_monthly_debt_expenses(self):
+        student_loan = self.student_loan.sum_monthly_student_loan_payment()
+        mortgage_loan = self.mortgage.sum_monthly_mortgage_loan_payment()
+        extra_payments = self.process_extra_expenses(get_extra_monthly_payments())
+
+        # I have postponed payment of student loan to pay off mortgage loan
+        if student_loan == 0:
+            return mortgage_loan + extra_payments
+        return student_loan + mortgage_loan
+
+
+@dataclass
+class TotalLiabilities:
+    total_debts: TotalDebts = TotalDebts()
+    reoccurring_expenses = get_monthly_reoccurring_expenses()
+    upcoming_expenses = get_upcoming_expenses()
+
+    def sum_monthly_reoccurring_expenses(self):
+        return sum([expense.amount for expense in self.reoccurring_expenses if expense.basis == Basis.monthly])
+
+    def sum_monthly_debt_expenses(self):
+        return self.total_debts.get_monthly_debt_expenses()
+
+    def sum_upcoming_expenses_within_monthly_interval(self):
+        return sum([expense.amount for expense in self.upcoming_expenses if FROM_DATE <= expense.date < TO_DATE])
+
+    def get_total_monthly_liabilities(self):
+        return sum([
+            self.sum_monthly_reoccurring_expenses(),
+            self.sum_monthly_debt_expenses(),
+            self.sum_upcoming_expenses_within_monthly_interval()
+        ])
