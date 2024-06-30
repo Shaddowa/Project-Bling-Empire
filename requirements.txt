@@ -5,3 +5,5 @@ autopep8==2.0.2
 python-dotenv==1.0.1
 requests~=2.31.0
 forex-python==1.6
+fpdf==1.7.2
+pillow==10.3.0

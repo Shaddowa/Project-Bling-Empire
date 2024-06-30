@@ -9,4 +9,6 @@ context/net_worth/main/data_classes/assets/stock_portfolio.py
 context/net_worth/main/data_classes/liabilities/student_loan_payment_plan.py
 context/net_worth/main/data_classes/liabilities/mortgage_loan_payment_plan.py
 context/net_worth/main/data_classes/liabilities/reoccurring_expenses.py
+context/planing/meals/main/dishes_dict.py
+context/planing/meals/main/generated_meal_plans
 .env
