@@ -11,6 +11,5 @@ class UpcomingExpense:
     principal: float
     loan_balance: float
     date: datetime
-    interest_balance: Optional[float] = None
     fee: Optional[float] = None
 
