@@ -1,14 +1,18 @@
 from dataclasses import dataclass
 from datetime import datetime
 
-
-@dataclass
-class MonthlyIncome:
-    salary: float
+from context.net_worth.main.data_classes.basis import Basis
 
 
 @dataclass
-class UpcomingCashFlowIn:
+class ReoccurringCashFlow:
+    cash_flow: str
+    amount: float
+    basis: Basis
+
+
+@dataclass
+class UpcomingCashFlow:
     cash_flow: str
     amount: float
     date: datetime

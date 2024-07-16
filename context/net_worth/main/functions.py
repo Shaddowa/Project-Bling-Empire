@@ -1,91 +1,48 @@
-from datetime import datetime
+import locale
 
-from .data_classes.liabilities.expense import UpcomingExpense
-from .data_classes.assetsManager import TotalAssets
-from .data_classes.liabilitiesManager import TotalDebts
-from .data_classes.assets.cash_flow import UpcomingCashFlowIn
+from .const import TO_DATE
+from .data_classes.liabilitiesManager import LiabilitiesManager
+from .data_classes.assetsManager import AssetsManager
+from .data_classes.cashManager import CashManager
 
+LIABILITIES_MANAGER = LiabilitiesManager()
+ASSETS_MANAGER = AssetsManager()
+CASH_MANAGER = CashManager()
 
-def calculate_net_worth(total_assets: TotalAssets = TotalAssets, total_debts: TotalDebts = TotalDebts) -> int:
-    total_assets = sum(
-        [
-            total_assets.cash,
-            total_assets.stocks,
-            total_assets.funds,
-            total_assets.crypto,
-            total_assets.real_estate
-        ]
-    )
-
-    total_debts = sum([total_debts.mortgage, total_debts.student_loan.sum_total_student_loan()])
-
-    return sum([total_assets, total_debts])
+locale.setlocale(locale.LC_ALL, 'no_NO')
 
 
-def calculate_future_net_worth(
-        total_assets: TotalAssets = TotalAssets,
-        total_debts: TotalDebts = TotalDebts,
-        upcoming_cash_flow_in: list[UpcomingCashFlowIn] = None,
-        upcoming_expenses: list[UpcomingExpense] = None,
-        date_threshold=datetime(year=2024, month=7, day=2)
-) -> int:
-    total_assets = sum(
-        [
-            total_assets.cash,
-            total_assets.stocks,
-            total_assets.funds,
-            total_assets.crypto,
-            total_assets.real_estate
-        ]
-    )
-
-    total_debts = sum([total_debts.mortgage, total_debts.student_loan])
-
-    total_upcoming_cash_flow_in = sum(
-        [cash_flow_in.amount for cash_flow_in in upcoming_cash_flow_in if cash_flow_in.date <= date_threshold]
-    )
-
-    total_upcoming_expenses = sum(
-        [expense.amount for expense in upcoming_expenses if expense.date <= date_threshold]
-    )
-
-    return sum([total_assets, total_upcoming_cash_flow_in, total_debts, total_upcoming_expenses])
+def format_currency(value: float) -> str:
+    return locale.currency(value, grouping=True)
 
 
-def calculate_gross_liquid_net_worth(total_assets: TotalAssets = TotalAssets) -> int:
-    total_assets = sum(
-        [
-            total_assets.cash,
-            total_assets.stocks,
-            total_assets.funds,
-            total_assets.crypto,
-        ]
-    )
+def calculate_net_worth() -> int:
+    INVESTMENTS = ASSETS_MANAGER.sum_investments()
+    CASH_RESERVE = CASH_MANAGER.get_total_cash_reserve()
+    DEBTS = LIABILITIES_MANAGER.sum_total_debts()
 
-    return total_assets
+    return INVESTMENTS + CASH_RESERVE - DEBTS
 
 
-def calculate_future_gross_liquid_net_worth(
-        total_assets: TotalAssets = TotalAssets,
-        upcoming_cash_flow_in: list[UpcomingCashFlowIn] = None,
-        upcoming_expenses: list[UpcomingExpense] = None,
-        date_threshold=datetime(year=2024, month=7, day=2)
-) -> int:
-    total_assets = sum(
-        [
-            total_assets.cash,
-            total_assets.stocks,
-            total_assets.funds,
-            total_assets.crypto
-        ]
-    )
+def calculate_expenses_after_cash_flow(date_threshold=TO_DATE) -> int:
+    CASH_FLOW = ASSETS_MANAGER.sum_upcoming_cash_flow_within_monthly_interval(date_threshold)
+    EXPENSES = LIABILITIES_MANAGER.sum_upcoming_expenses_within_monthly_interval(date_threshold)
 
-    total_upcoming_cash_flow_in = sum(
-        [cash_flow_in.amount for cash_flow_in in upcoming_cash_flow_in if cash_flow_in.date <= date_threshold]
-    )
+    return CASH_FLOW - EXPENSES
 
-    total_upcoming_expenses = sum(
-        [expense.amount for expense in upcoming_expenses if expense.date <= date_threshold]
-    )
 
-    return sum([total_assets, total_upcoming_cash_flow_in, total_upcoming_expenses])
+def calculate_future_net_worth(date_threshold=TO_DATE) -> int:
+    CURRENT_NET_WORTH = calculate_net_worth()
+
+    return CURRENT_NET_WORTH + calculate_expenses_after_cash_flow(date_threshold)
+
+
+def calculate_gross_liquid_net_worth() -> int:
+    LIQUID_INVESTMENTS = ASSETS_MANAGER.sum_liquid_investments()
+    CASH_RESERVE = CASH_MANAGER.get_total_cash_reserve()
+
+    return sum([LIQUID_INVESTMENTS, CASH_RESERVE])
+
+
+def calculate_future_gross_liquid_net_worth(date_threshold=TO_DATE) -> int:
+    return sum([calculate_gross_liquid_net_worth(), calculate_expenses_after_cash_flow(date_threshold)])

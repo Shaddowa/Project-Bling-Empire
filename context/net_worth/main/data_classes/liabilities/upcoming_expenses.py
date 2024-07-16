@@ -16,8 +16,18 @@ def get_upcoming_expenses():
         ),
         UpcomingExpense(
             expense="Credit Card",
-            amount=6436,
-            date=datetime(year=2024, month=7, day=20)
+            amount=400,
+            date=datetime(year=2024, month=8, day=12)
+        ),
+        UpcomingExpense(
+            expense="Insurance",
+            amount=1001,
+            date=datetime(year=2024, month=8, day=20)
+        ),
+        UpcomingExpense(
+            expense="Insurance",
+            amount=5414,
+            date=datetime(year=2024, month=8, day=11)
         )
     ]
 

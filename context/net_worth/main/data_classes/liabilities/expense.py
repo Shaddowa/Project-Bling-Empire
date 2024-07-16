@@ -1,14 +1,7 @@
 from dataclasses import dataclass
 from datetime import datetime
-from enum import Enum
 from typing import Optional
-
-
-class Basis(Enum):
-    monthly = "monthly"
-    yearly = "yearly"
-    weekly = "weekly"
-    daily = "daily"
+from context.net_worth.main.data_classes.basis import Basis
 
 
 @dataclass

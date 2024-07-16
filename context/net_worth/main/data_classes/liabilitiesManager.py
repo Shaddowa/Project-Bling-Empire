@@ -40,10 +40,13 @@ class TotalDebts:
 
 
 @dataclass
-class TotalLiabilities:
+class LiabilitiesManager:
     total_debts: TotalDebts = TotalDebts()
     reoccurring_expenses = get_monthly_reoccurring_expenses()
     upcoming_expenses = get_upcoming_expenses()
+
+    def sum_total_debts(self):
+        return self.total_debts.get_total_debts()
 
     def sum_monthly_reoccurring_expenses(self):
         return sum([expense.amount for expense in self.reoccurring_expenses if expense.basis == Basis.monthly])
@@ -51,8 +54,8 @@ class TotalLiabilities:
     def sum_monthly_debt_expenses(self):
         return self.total_debts.get_monthly_debt_expenses()
 
-    def sum_upcoming_expenses_within_monthly_interval(self):
-        return sum([expense.amount for expense in self.upcoming_expenses if FROM_DATE <= expense.date < TO_DATE])
+    def sum_upcoming_expenses_within_monthly_interval(self, date_threshold=TO_DATE):
+        return sum([expense.amount for expense in self.upcoming_expenses if FROM_DATE <= expense.date < date_threshold])
 
     def get_total_monthly_liabilities(self):
         return sum([
