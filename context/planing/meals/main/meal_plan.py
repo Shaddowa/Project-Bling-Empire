@@ -2,12 +2,13 @@ import os
 import random
 import re
 from .const import DAYS, GENERATED_MEAL_PLANS_PATH
+from .diet_dishes_dict import diet_dishes
 from ...meals.main.data_classes.pdf import PDF
 from ...meals.main.dishes_dict import dishes
 
 
 def generate_weekly_plan():
-    return random.sample(dishes, 3)
+    return random.sample(diet_dishes, 7)
 
 
 def add_dish_details_to_pdf(pdf, dish):
@@ -21,12 +22,17 @@ def add_dish_details_to_pdf(pdf, dish):
     pdf.section_separator()
     ingredients = "Ingredients:\n"
     for ingredient in dish.ingredients:
-        ingredients += f" - {ingredient.name} ({ingredient.price if ingredient.price else 'Price not available'})\n"
+        ingredients += (
+            f" {ingredient.ingredientType} {ingredient.name}"
+            f" [{ingredient.measurement.amount if ingredient.measurement is not None else ''} {ingredient.measurement.unit if ingredient.measurement is not None else ''}] "
+            f"({ingredient.price if ingredient.price else 'Price not discovered yet' })\n"
+        )
     pdf.chapter_body(ingredients)
     pdf.section_separator()
     recipe = "Recipe:\n"
-    for step in dish.recipe:
-        recipe += f" - {step}\n"
+    for step_number, step in sorted(dish.recipe.items()):
+        recipe += f"{step_number}. {step}\n"
+
     pdf.chapter_body(recipe)
     pdf.section_separator()
 
@@ -38,7 +44,7 @@ def save_to_pdf(plan):
     for day, dish in zip(DAYS, plan):
         pdf = PDF()
         pdf.add_page()
-        pdf.chapter_title(re.sub(r'^\d+-', '', day))
+        pdf.chapter_title(re.sub(r'^\d+_', '', day))
         add_dish_details_to_pdf(pdf, dish)
         pdf.output(os.path.join(GENERATED_MEAL_PLANS_PATH, f"{day.lower()}.pdf"))
 
@@ -48,7 +54,7 @@ def save_weekly_pdf(plan):
 
     for day, dish in zip(DAYS, plan):
         combined_pdf.add_page()
-        combined_pdf.chapter_title(re.sub(r'^\d+-', '', day))
+        combined_pdf.chapter_title(re.sub(r'^\d+_', '', day))
         add_dish_details_to_pdf(combined_pdf, dish)
 
     combined_pdf.output(os.path.join(GENERATED_MEAL_PLANS_PATH, "weekly_meal_plan.pdf"))
