@@ -2,9 +2,7 @@ import unittest
 from datetime import datetime
 
 from context.net_worth.main.data_classes.liabilities.expense import UpcomingExpense
-from context.net_worth.main.data_classes.assetsManager import TotalAssets
 from context.net_worth.main.data_classes.liabilitiesManager import TotalDebts
-from context.net_worth.main.data_classes.assets.cash_flow import UpcomingCashFlowIn
 from context.net_worth.main.functions import calculate_net_worth, calculate_gross_liquid_net_worth, \
     calculate_future_gross_liquid_net_worth, calculate_future_net_worth
 

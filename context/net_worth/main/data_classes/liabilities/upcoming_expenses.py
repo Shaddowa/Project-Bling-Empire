@@ -9,25 +9,21 @@ def get_upcoming_expenses():
     sum_used_credit, due_date = 0, "2024-07-20"
 
     expenses = [
-        UpcomingExpense(
-            expense="Sats PT & Membership",
-            amount=3196.30,
-            date=datetime(year=2024, month=7, day=20)
-        ),
+
         UpcomingExpense(
             expense="Credit Card",
-            amount=400,
-            date=datetime(year=2024, month=8, day=12)
-        ),
-        UpcomingExpense(
-            expense="Insurance",
-            amount=1001,
-            date=datetime(year=2024, month=8, day=20)
+            amount=545,
+            date=datetime(year=2024, month=9, day=12)
         ),
         UpcomingExpense(
             expense="Insurance",
             amount=5414,
             date=datetime(year=2024, month=8, day=11)
+        ),
+        UpcomingExpense(
+            expense="Insurance",
+            amount=4000,
+            date=datetime(year=2024, month=8, day=16)
         )
     ]
 
