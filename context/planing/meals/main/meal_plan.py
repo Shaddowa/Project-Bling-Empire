@@ -24,7 +24,7 @@ def add_dish_details_to_pdf(pdf, dish):
     for ingredient in dish.ingredients:
         ingredients += (
             f" {ingredient.ingredientType} {ingredient.name}"
-            f" [{ingredient.measurement.amount if ingredient.measurement is not None else ''} {ingredient.measurement.unit if ingredient.measurement is not None else ''}] "
+            f" [{ingredient.measurement.amount if ingredient.measurement is not None else ''} {ingredient.measurement.unit.value if ingredient.measurement is not None else ''}] "
             f"({ingredient.price if ingredient.price else 'Price not discovered yet' })\n"
         )
     pdf.chapter_body(ingredients)
