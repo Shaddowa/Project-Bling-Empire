@@ -86,7 +86,7 @@ diet_dishes = [
     ),
     Dish(
         title="Portobello Mushroom Tostadas",
-        image_url="salmon_burgers_greek_yogurt_sauce.png",
+        image_url=None,
         category=[Category("Vegetarian"), Category("Low Carb")],
         time=25,
         budget_friendly=None,
