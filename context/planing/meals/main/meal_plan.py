@@ -1,25 +1,16 @@
 import base64
-import os
-import random
-import re
-import smtplib
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.base import MIMEBase
-from email import encoders
-from .const import DAYS, GENERATED_MEAL_PLANS_PATH, WEEK_NUMBER
-from .diet_dishes_dict import diet_dishes
-from ...meals.main.data_classes.pdf import PDF
-from ...meals.main.dishes_dict import dishes
-from sendgrid import SendGridAPIClient
-from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
-from dotenv import load_dotenv
 # Email the PDF to yourself
 # using SendGrid's Python Library
 # https://github.com/sendgrid/sendgrid-python
 import os
+import random
+import re
+from dotenv import load_dotenv
 from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
+from .const import DAYS, GENERATED_MEAL_PLANS_PATH, WEEK_NUMBER
+from .diet_dishes_dict import diet_dishes
+from ...meals.main.data_classes.pdf import PDF
 
 load_dotenv()
 
@@ -82,34 +73,29 @@ def save_weekly_pdf(plan):
 def email_pdf(_pdf_path, from_email="hanntro@hotmail.com", to_email=None):
     # Create the SendGrid message
     message = Mail(
-        from_email=from_email,
-        to_emails="hanna.tronsen@airthings.com",
-        subject=f"Weekly Meal Plan PDF for week ",
+        from_email="hanna.tronsen@airthings.com",
+        to_emails="hannatro@hotmail.com",
+        subject=f"Weekly Meal Plan PDF for week {WEEK_NUMBER}",
         html_content='Attached is your weekly meal plan PDF'
     )
 
-    # with open(_pdf_path, 'rb') as f:
-    #     file_data = f.read()
-    #     encoded_file = base64.b64encode(file_data).decode()
-    #
-    #     # Attach PDF to SendGrid email
-    # attached_file = Attachment(
-    #     FileContent(encoded_file),
-    #     FileName(os.path.basename(_pdf_path)),
-    #     FileType("application/pdf"),
-    #     Disposition("attachment")
-    # )
-    #message.attachment = attached_file
+    with open(_pdf_path, 'rb') as f:
+        data = f.read()
+        f.close()
+        encoded_file = base64.b64encode(data).decode()
 
-    try:
-        sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))
-        response = sg.send(message)
-        print(response.status_code)
-        print(response.body)
-        print(response.headers)
-        print("SendGrid Email sent!")
-    except Exception as e:
-        print(e)
+    attachedFile = Attachment(
+        FileContent(encoded_file),
+        FileName('attachment.pdf'),
+        FileType('application/pdf'),
+        Disposition('attachment')
+    )
+    message.attachment = attachedFile
+
+    sg = SendGridAPIClient(os.getenv('SENDGRID_API_KEY'))
+    response = sg.send(message)
+    print(response.status_code, response.body, response.headers)
+    print("SendGrid Email sent!")
 
 
 weekly_plan = generate_weekly_plan()
