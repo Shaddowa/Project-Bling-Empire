@@ -8,12 +8,13 @@ class UnitConverter:
         MeasurementUnit.CUP: 240,  # cups to milliliters
         MeasurementUnit.FL_OZ: 29.57,  # fluid ounces to milliliters
         MeasurementUnit.OZ: 28.35,  # ounces to grams
-        MeasurementUnit.LB: 453.59,  # pounds to grams
+        MeasurementUnit.LB: 453.592,  # pounds to grams
         MeasurementUnit.INCH: 2.54  # inches to centimeters
     }
 
     @staticmethod
     def _convert_to_metric(amount, unit: MeasurementUnit):
+        # Convert to float if amount is a Fraction or string
         if isinstance(amount, Fraction):
             amount = float(amount)
         elif isinstance(amount, str):
@@ -35,20 +36,19 @@ class UnitConverter:
         if metric_unit == MeasurementUnit.ML:
             if amount >= 1000:
                 return Measurement(amount / 1000, MeasurementUnit.L)
-            elif amount >= 100:
-                return Measurement(amount / 100, MeasurementUnit.DL)
-            else:
-                return Measurement(amount, MeasurementUnit.ML)
         elif metric_unit == MeasurementUnit.GRAMS:
             if amount >= 1000:
                 return Measurement(amount / 1000, MeasurementUnit.KG)
-            else:
-                return Measurement(amount, MeasurementUnit.GRAMS)
+        elif metric_unit == MeasurementUnit.KG:
+            if amount < 1:
+                return Measurement(amount * 1000, MeasurementUnit.GRAMS)
+        elif metric_unit == MeasurementUnit.L:
+            if amount < 1:
+                return Measurement(amount * 100, MeasurementUnit.DL)
         return Measurement(amount, metric_unit)
 
     @staticmethod
     def convert(measurement: Measurement):
-
         if measurement.unit in [
             MeasurementUnit.GRAMS,
             MeasurementUnit.KG,
