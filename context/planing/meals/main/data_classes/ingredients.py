@@ -21,7 +21,8 @@ class Ingredient(ABC):
         if Ingredient.check_ean_path_exists(self):
             pass
         else:
-            print(f"Path {self.ean_products_path} does not exist")
+            pass  # TODO: Implement a method to create the path and check the prices
+            # print(f"Path {self.ean_products_path} does not exist")
 
     def check_ean_path_exists(self):
         if os.path.exists(self.ean_products_path):
@@ -38,33 +39,32 @@ class Fruit(Ingredient):
 
 class Vegetable(Ingredient):
     BELL_PEPPER = "bell pepper"
+    RED_BELL_PEPPER = "red bell pepper"
+    GREEN_BELL_PEPPER = "green bell pepper"
     RED_ONION = "red onion"
-    SCALLIONS = "scallions"
+    GREEN_ONION = "green onion"
     CILANTRO = "cilantro"
     BIBB_LETTUCE_LEAVES = "bibb lettuce leaves"
-    PERSIAN_CUCUMBERS = "persian cucumbers"
+    PERSIAN_CUCUMBER = "persian cucumber"
     BROCCOLI_OR_RADISH_SPROUTS = "broccoli or radish sprouts"
     PORTOBELLO_MUSHROOM_CAPS = "portobello mushroom caps"
+    MUSHROOM = "mushroom"
     AVOCADO = "avocado"
     CILANTRO_LEAVES = "cilantro leaves"
-    RADISHES = "radishes"
+    RADISH = "radish"
     BASIL_LEAVES = "basil leaves"
-    HEIRLOOM_TOMATOES = "heirloom tomatoes"
-    CHERRY_TOMATOES = "cherry tomatoes"
+    HEIRLOOM_TOMATO = "heirloom tomato"
+    CHERRY_TOMATO = "cherry tomato"
     SHALLOT = "shallot"
     BABY_ARUGULA = "baby arugula"
-    ONION = "onion"
+    YELLOW_ONION = "yellow onion"
     CELERY = "celery"
     CARROT = "carrot"
     BIB_BUTTER_OR_ROMAINE_LETTUCE = "bib, butter, or romaine lettuce"
-    GREEN_ONIONS = "green onions"
     BOK_CHOY = "bok choy"
-    MUSHROOMS = "mushrooms"
-    CARROTS = "carrots"
     ZUCCHINI = "zucchini"
     SCALLION = "scallion"
-    JALAPENO = "jalapeño"    # Appears under both 'spice' and 'vegetable'
-    AVOCADOS = "avocados"
+    JALAPENO = "jalapeño"  # Appears under both 'spice' and 'vegetable'
     PURPLE_CABBAGE = "purple cabbage"
 
     def __init__(self, name, ingredientType, measurement, price=None):
@@ -74,7 +74,7 @@ class Vegetable(Ingredient):
 class Meat(Ingredient):
     PORK_LOIN = "pork loin"
     SALMON_FILLET = "salmon fillet"
-    CHICKEN_THIGHS = "chicken thighs"
+    CHICKEN_THIGH = "chicken thigh"
     SEAFOOD = "seafood"
     CHICKEN_BREAST = "chicken breast"
     GROUND_CHICKEN = "ground chicken"
@@ -92,6 +92,8 @@ class Seasoning(Ingredient):  # New class
     LEMON_ZEST = "lemon zest"
     RED_PEPPER_FLAKES = "red pepper flakes"
     CHIPOTLE_CHILI_POWDER = "chipotle chili powder"
+    CHIPOTLES_IN_ADOBO = "chipotles in adobo"
+    GINGER = "ginger"  # Added
 
     def __init__(self, name, ingredientType, measurement, price=None):
         super().__init__(name, ingredientType, measurement, price)
@@ -148,6 +150,10 @@ class Dairy(Ingredient):
     COTIJA_CHEESE = "cotija cheese"
     WHOLE_MILK_COTTAGE_CHEESE = "whole milk cottage cheese"
     PARMESAN = "parmesan"
+    GREEK_YOGURT = "greek yogurt"
+
+    def __init__(self, name, ingredientType, measurement, price=None):
+        super().__init__(name, ingredientType, measurement, price)
 
 
 class Seed(Ingredient):

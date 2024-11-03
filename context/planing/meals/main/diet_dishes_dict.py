@@ -5,8 +5,23 @@ from .data_classes.spice_level import SpiceLevel
 from .data_classes.unit import MeasurementUnit, GeneralUnit
 from .utils.unit_converter import UnitConverter
 from ...meals.main.data_classes.dish import Dish
-from ...meals.main.data_classes.ingredients import Vegetable, Spice, Measurement, Condiment, Fruit, Meat, Bread, Dairy, \
-    Dough, Seed, Other, Noodle
+from ...meals.main.data_classes.ingredients import (
+    Vegetable,
+    Seasoning,
+    Measurement,
+    Fruit,
+    Meat,
+    Bread,
+    Dairy,
+    Dough,
+    Seed,
+    Other,
+    Noodle,
+    Sweetener,
+    Oil,
+    SauceVinegar,
+    Egg
+)
 
 diet_dishes = [
     Dish(
@@ -21,19 +36,19 @@ diet_dishes = [
         description="Sweet pineapple threaded between bites of savory pork provides a sweet, juicy contrast.",
         nutritional_info="Per serving: About 308 cal, 11 g fat (2.5 g sat), 65 mg chol, 897 mg sodium, 24 g carb, 2 g fiber, 17 g sugar (6 g added sugar), 29 g protein",
         ingredients=[
-            Spice("Ginger", "Grated", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Spice("Sugar", "White", Measurement(2, MeasurementUnit.TBSP), None),
-            Spice("Kosher salt", "to taste", None, None),
-            Spice("Pepper", "to taste", None, None),
-            Spice("Jalapeño", "Sliced", None, None),
-            Vegetable("Bell Pepper", "Mixed colors", UnitConverter.convert(Measurement(8, MeasurementUnit.OZ)), None),
-            Vegetable("Red Onion", "Halved crosswise", Measurement(1, GeneralUnit.WHOLE), None),
-            Fruit("Pineapple", "Peeled and cored", Measurement(Fraction(1, 2), GeneralUnit.HALF), None),
-            Meat("Pork loin", "trimmed", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
-            Condiment("Soy Sauce", "reduced sodium", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Condiment("Mirin", "Regular", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Condiment("Sake", "Regular", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Condiment("Olive oil", "Extra Virgin", Measurement(2, MeasurementUnit.TBSP), None)
+            Seasoning(Seasoning.GINGER, "Grated", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            Sweetener(Sweetener.SUGAR, "White", Measurement(2, MeasurementUnit.TBSP), None),
+            Seasoning(Seasoning.KOSHER_SALT, "to taste", None, None),
+            Seasoning(Seasoning.PEPPER, "to taste", None, None),
+            Vegetable(Vegetable.JALAPENO, "Sliced", None, None),
+            Vegetable(Vegetable.BELL_PEPPER, "Mixed colors", UnitConverter.convert(Measurement(8, MeasurementUnit.OZ)), None),
+            Vegetable(Vegetable.RED_ONION, "Halved crosswise", Measurement(1, GeneralUnit.WHOLE), None),
+            Fruit(Fruit.PINEAPPLE, "Peeled and cored", Measurement(Fraction(1, 2), GeneralUnit.HALF), None),
+            Meat(Meat.PORK_LOIN, "trimmed", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
+            SauceVinegar(SauceVinegar.SOY_SAUCE, "reduced sodium", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            SauceVinegar(SauceVinegar.MIRIN, "Regular", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            SauceVinegar(SauceVinegar.SAKE, "Regular", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            Oil(Oil.OLIVE_OIL, "Extra Virgin", Measurement(2, MeasurementUnit.TBSP), None)
         ],
         recipe={
             1: "In a small saucepan, combine sake, mirin, soy sauce, sugar, and ginger. "
@@ -45,7 +60,7 @@ diet_dishes = [
 
             3: "Heat grill to medium. Thread pork, pineapple, and vegetables onto skewers."
                "Grill, turning occasionally, until pork is cooked through, 8 to 10 minutes, basting with sauce during"
-               "last 5 minutes of grilling. Serve topped with sliced jalapeños..",
+               "last 5 minutes of grilling. Serve topped with sliced jalapeños.",
         }
     ),
     Dish(
@@ -60,28 +75,28 @@ diet_dishes = [
         description="Skip the frozen patties and make your own salmon burger, starting with the fresh fish. You'll get the same rich, juicy flavor without any preservatives.",
         nutritional_info="Per serving: 379 cal, 13 g fat (3.5 g sat), 34 g protein, 580 mg sodium, 32 g carb, 8.5 g sugars (0 g added sugars), 3 g fiber",
         ingredients=[
-            Condiment("Egg", "large", Measurement(1, GeneralUnit.WHOLE), None),
-            Meat("Salmon fillet", "finely chopped", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
-            Vegetable("Scallions", "chopped", Measurement(2, GeneralUnit.WHOLE), None),
-            Spice("Jalapeño", "finely chopped", Measurement(1, GeneralUnit.WHOLE), None),
-            Vegetable("Cilantro", "chopped and divided", Measurement(3, MeasurementUnit.TBSP), None),
-            Spice("Kosher salt", "to taste", None, None),
-            Spice("Pepper", "to taste", None, None),
-            Condiment("Olive oil", "for cooking", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Greek yogurt", "plain", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Spice("Lime zest", "fresh", Measurement(1, MeasurementUnit.TSP), None),
-            Condiment("Lime juice", "fresh", Measurement(2, MeasurementUnit.TBSP), None),
-            Bread("Brioche buns", "toasted", Measurement(4, GeneralUnit.WHOLE), None),
-            Vegetable("Bibb lettuce leaves", GeneralUnit.WHOLE, Measurement(8, GeneralUnit.LEAVES), None),
-            Vegetable("Persian cucumbers", "shaved lengthwise", Measurement(2, GeneralUnit.WHOLE), None),
-            Vegetable("Broccoli or radish sprouts", "fresh", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None)
+            Egg(Egg.EGG, "large", Measurement(1, GeneralUnit.WHOLE), None),
+            Meat(Meat.SALMON_FILLET, "finely chopped", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
+            Vegetable(Vegetable.SCALLION, "chopped", Measurement(2, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.JALAPENO, "finely chopped", Measurement(1, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.CILANTRO, "chopped and divided", Measurement(3, MeasurementUnit.TBSP), None),
+            Seasoning(Seasoning.KOSHER_SALT, "to taste", None, None),
+            Seasoning(Seasoning.PEPPER, "to taste", None, None),
+            Oil(Oil.OLIVE_OIL, "for cooking", Measurement(1, MeasurementUnit.TBSP), None),
+            Dairy(Dairy.GREEK_YOGURT, "plain", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            Seasoning(Seasoning.LIME_ZEST, "fresh", Measurement(1, MeasurementUnit.TSP), None),
+            SauceVinegar(SauceVinegar.LIME_JUICE, "fresh", Measurement(2, MeasurementUnit.TBSP), None),
+            Bread(Bread.BRIOCHE_BUNS, "toasted", Measurement(4, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.BIBB_LETTUCE_LEAVES, GeneralUnit.WHOLE, Measurement(8, GeneralUnit.LEAVES), None),
+            Vegetable(Vegetable.PERSIAN_CUCUMBER, "shaved lengthwise", Measurement(2, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.BROCCOLI_OR_RADISH_SPROUTS, "fresh", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None)
         ],
         recipe={
             1: "In a medium bowl, beat egg until frothy. Fold in salmon, scallions, jalapeño, 2 tbsp. cilantro, 1/2 tsp. salt, and 1/4 tsp. pepper.",
             2: f"Heat oil in a large nonstick skillet on medium. Spoon 4 mounds of salmon mixture (about {UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)).unit.value} each)"
-               "into skillet and flatten into patties. Cook until golden brown, 2 minutes per side.",
+               " into skillet and flatten into patties. Cook until golden brown, 2 minutes per side.",
             3: "Meanwhile, in a bowl, combine yogurt, lime zest and juice, remaining 1 tbsp. cilantro, and 1/4 tsp."
-               "each salt and pepper. Spread on buns. Top bottom buns with lettuce, salmon patties, cucumber, and sprouts; sandwich with top buns."
+               " each salt and pepper. Spread on buns. Top bottom buns with lettuce, salmon patties, cucumber, and sprouts; sandwich with top buns."
         }
     ),
     Dish(
@@ -96,20 +111,20 @@ diet_dishes = [
         description="Mushrooms brushed with tangy BBQ and smoky adobo sauces build lingering heat, while creamy guacamole cools things down. Dinner with heaps of flavor is done.",
         nutritional_info="Per serving: 335 cal, 15 g fat (3 g sat), 7 g protein, 767 mg sodium, 46 g carb, 14.5 g sugars (0 g added sugars), 7 g fiber",
         ingredients=[
-            Vegetable("Red onion", "thinly sliced", Measurement(Fraction(1, 2), GeneralUnit.SMALL), None),
-            Spice("Jalapeño", "half sliced, other half finely chopped", Measurement(1, GeneralUnit.WHOLE), None),
-            Condiment("Lime juice", "fresh", Measurement(2.5, MeasurementUnit.TBSP), None),
-            Spice("Sugar", "Pinch", None, None),
-            Spice("Kosher salt", "to taste", None, None),
-            Dough("Corn tortillas", "regular", Measurement(8, GeneralUnit.WHOLE), None),
-            Condiment("Olive oil", "for brushing", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Barbecue sauce", "regular", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Spice("Chipotles in adobo", "chopped, plus adobo sauce", Measurement(1, MeasurementUnit.TSP), None),
-            Vegetable("Portobello mushroom caps", "gills removed", Measurement(4, GeneralUnit.WHOLE), None),
-            Vegetable("Avocado", "halved and scooped", Measurement(1, GeneralUnit.WHOLE), None),
-            Vegetable("Cilantro leaves", "finely chopped", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
-            Vegetable("Radishes", "thinly sliced", Measurement(3, GeneralUnit.WHOLE), None),
-            Dairy("Cotija cheese", "crumbled", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None)
+            Vegetable(Vegetable.RED_ONION, "thinly sliced", Measurement(Fraction(1, 2), GeneralUnit.SMALL), None),
+            Vegetable(Vegetable.JALAPENO, "half sliced, other half finely chopped", Measurement(1, GeneralUnit.WHOLE), None),
+            SauceVinegar(SauceVinegar.LIME_JUICE, "fresh", Measurement(2.5, MeasurementUnit.TBSP), None),
+            Sweetener(Sweetener.SUGAR, "Pinch", None, None),
+            Seasoning(Seasoning.KOSHER_SALT, "to taste", None, None),
+            Dough(Dough.CORN_TORTILLAS, "regular", Measurement(8, GeneralUnit.WHOLE), None),
+            Oil(Oil.OLIVE_OIL, "for brushing", Measurement(1, MeasurementUnit.TBSP), None),
+            SauceVinegar(SauceVinegar.BARBECUE_SAUCE, "regular", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            Seasoning(Seasoning.CHIPOTLES_IN_ADOBO, "chopped, plus adobo sauce", Measurement(1, MeasurementUnit.TSP), None),  # You may need to add this to Seasoning
+            Vegetable(Vegetable.PORTOBELLO_MUSHROOM_CAPS, "gills removed", Measurement(4, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.AVOCADO, "halved and scooped", Measurement(1, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.CILANTRO_LEAVES, "finely chopped", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
+            Vegetable(Vegetable.RADISH, "thinly sliced", Measurement(3, GeneralUnit.WHOLE), None),
+            Dairy(Dairy.COTIJA_CHEESE, "crumbled", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None)
         ],
         recipe={
             1: "Heat oven to 450°F. In a small bowl, combine onion, sliced jalapeño, 1 tbsp. lime juice, sugar, and pinch of salt.",
@@ -131,20 +146,20 @@ diet_dishes = [
         description="A delightful grilled pizza topped with a smooth cottage cheese mixture, heirloom and cherry tomatoes, and fresh arugula salad.",
         nutritional_info="Per serving: 468 cal, 21 g fat (4.5 g sat), 10 mg chol, 842 mg sodium, 49 g carb, 9 g fiber, 9 g sugar (3.5 g added sugar), 19 g protein",
         ingredients=[
-            Dough("Whole wheat pizza dough", "at room temp for 1 hr if refrigerated", None, None),
-            Dairy("Whole milk cottage cheese", "regular", UnitConverter.convert(Measurement(Fraction(3, 4), MeasurementUnit.CUP)), None),
-            Dairy("Parmesan", "finely grated", UnitConverter.convert(Measurement(1, MeasurementUnit.OZ)), None),
-            Vegetable("Basil leaves", "chopped", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
-            Spice("Lemon zest", "fresh", Measurement(1, MeasurementUnit.TSP), None),
-            Condiment("Lemon juice", "fresh", Measurement(1, MeasurementUnit.TBSP), None),
-            Vegetable("Heirloom tomatoes", "sliced", Measurement(3, GeneralUnit.MEDIUM), None),
-            Vegetable("Cherry tomatoes", GeneralUnit.WHOLE, UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Condiment("Olive oil", "for brushing", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Honey", "regular", Measurement(Fraction(1, 2), MeasurementUnit.TSP), None),
-            Spice("Kosher salt", "to taste", None, None),
-            Spice("Pepper", "to taste", None, None),
-            Vegetable("Shallot", "chopped", Measurement(1, GeneralUnit.SMALL), None),
-            Vegetable("Baby arugula", "fresh", UnitConverter.convert(Measurement(4, MeasurementUnit.CUP)), None)
+            Dough(Dough.WHOLE_WHEAT_PIZZA_DOUGH, "at room temp for 1 hr if refrigerated", None, None),
+            Dairy(Dairy.WHOLE_MILK_COTTAGE_CHEESE, "regular", UnitConverter.convert(Measurement(Fraction(3, 4), MeasurementUnit.CUP)), None),
+            Dairy(Dairy.PARMESAN, "finely grated", UnitConverter.convert(Measurement(1, MeasurementUnit.OZ)), None),
+            Vegetable(Vegetable.BASIL_LEAVES, "chopped", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
+            Seasoning(Seasoning.LEMON_ZEST, "fresh", Measurement(1, MeasurementUnit.TSP), None),
+            SauceVinegar(SauceVinegar.LEMON_JUICE, "fresh", Measurement(1, MeasurementUnit.TBSP), None),
+            Vegetable(Vegetable.HEIRLOOM_TOMATO, "sliced", Measurement(3, GeneralUnit.MEDIUM), None),
+            Vegetable(Vegetable.CHERRY_TOMATO, GeneralUnit.WHOLE, UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            Oil(Oil.OLIVE_OIL, "for brushing", Measurement(1, MeasurementUnit.TBSP), None),
+            Sweetener(Sweetener.HONEY, "regular", Measurement(Fraction(1, 2), MeasurementUnit.TSP), None),
+            Seasoning(Seasoning.KOSHER_SALT, "to taste", None, None),
+            Seasoning(Seasoning.PEPPER, "to taste", None, None),
+            Vegetable(Vegetable.SHALLOT, "chopped", Measurement(1, GeneralUnit.SMALL), None),
+            Vegetable(Vegetable.BABY_ARUGULA, "fresh", UnitConverter.convert(Measurement(4, MeasurementUnit.CUP)), None)
         ],
         recipe={
             1: "Prepare and grill pizza dough; transfer to cutting board.",
@@ -164,18 +179,18 @@ diet_dishes = [
         description="Quick and flavorful Sriracha Chicken Lettuce Wraps that are easy to assemble and perfect for lunch or dinner.",
         nutritional_info="Per serving: 297 cal, 11 g fat (2 g sat), 162 mg cholesterol, 696 mg sodium, 15 g carb, 1 g fiber, 11 g sugar, 33 g protein",
         ingredients=[
-            Condiment("Avocado oil", "or your favorite cooking oil", Measurement(1, MeasurementUnit.TBSP), None),
-            Vegetable("Onion", "diced", Measurement(Fraction(1, 2), GeneralUnit.WHOLE), None),
-            Meat("Chicken thighs", "skinless boneless, cut into bite sized pieces", UnitConverter.convert(Measurement(1.5, MeasurementUnit.LB)), None),
-            Spice("Garlic", "minced", Measurement(3, GeneralUnit.CLOVES), None),
-            Vegetable("Celery", "chopped", UnitConverter.convert(Measurement(1, MeasurementUnit.CUP)), None),
-            Vegetable("Carrot", "shredded", Measurement(1, GeneralUnit.WHOLE), None),
-            Condiment("Sugar free sriracha sauce", "regular", Measurement(3, MeasurementUnit.TBSP), None),
-            Condiment("Coconut aminos", "or soy sauce, for keto", Measurement(3, MeasurementUnit.TBSP), None),
-            Condiment("Honey", "or monkfruit sweetener, for keto", Measurement(2, MeasurementUnit.TBSP), None),
-            Vegetable("Bib, butter, or romaine lettuce", "leaves", Measurement(12, GeneralUnit.WHOLE), None),
-            Seed("Sesame seeds", "for garnish", None, None),
-            Vegetable("Green onions", "chopped, for garnish", None, None)
+            Oil(Oil.AVOCADO_OIL, "or your favorite cooking oil", Measurement(1, MeasurementUnit.TBSP), None),
+            Vegetable(Vegetable.YELLOW_ONION, "diced", Measurement(Fraction(1, 2), GeneralUnit.WHOLE), None),
+            Meat(Meat.CHICKEN_THIGH, "skinless boneless, cut into bite sized pieces", UnitConverter.convert(Measurement(1.5, MeasurementUnit.LB)), None),
+            Seasoning(Seasoning.GARLIC, "minced", Measurement(3, GeneralUnit.CLOVES), None),
+            Vegetable(Vegetable.CELERY, "chopped", UnitConverter.convert(Measurement(1, MeasurementUnit.CUP)), None),
+            Vegetable(Vegetable.CARROT, "shredded", Measurement(1, GeneralUnit.WHOLE), None),
+            SauceVinegar(SauceVinegar.SRIRACHA_SAUCE, "regular", Measurement(3, MeasurementUnit.TBSP), None),
+            SauceVinegar(SauceVinegar.COCONUT_AMINOS, "or soy sauce, for keto", Measurement(3, MeasurementUnit.TBSP), None),
+            Sweetener(Sweetener.HONEY, "or monkfruit sweetener, for keto", Measurement(2, MeasurementUnit.TBSP), None),
+            Vegetable(Vegetable.BIB_BUTTER_OR_ROMAINE_LETTUCE, "leaves", Measurement(12, GeneralUnit.WHOLE), None),
+            Seed(Seed.SESAME_SEEDS, "for garnish", None, None),
+            Vegetable(Vegetable.GREEN_ONION, "chopped, for garnish", None, None)
         ],
         recipe={
             1: "Heat oil in a large skillet over medium high heat.",
@@ -199,22 +214,22 @@ diet_dishes = [
         description="A simple noodle recipe that pairs your favorite seafood with ramen noodles, perfect for slow cooking in a crockpot.",
         nutritional_info="Per serving: 297 kcal",
         ingredients=[
-            Meat("Seafood", "raw or cooked", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
-            Noodle("Ramen", "uncooked", Measurement(178, MeasurementUnit.ML), None),
-            Other("Broth", "vegetable, seafood, or chicken", Measurement(948, MeasurementUnit.ML), None),
-            Other("Water", "regular", Measurement(474, MeasurementUnit.ML), None),
-            Vegetable("Green onions", "sliced", Measurement(2, GeneralUnit.WHOLE), None),
-            Condiment("Soy sauce", "low sodium", Measurement(59, MeasurementUnit.ML), None),
-            Condiment("Rice vinegar", "regular", Measurement(59, MeasurementUnit.ML), None),
-            Spice("Garlic", "minced", Measurement(2, GeneralUnit.CLOVES), None),
-            Spice("Ginger", "minced", Measurement(1, MeasurementUnit.TBSP), None),
-            Vegetable("Bok choy", "chopped", Measurement(76, MeasurementUnit.GRAMS), None),
-            Vegetable("Mushrooms", "sliced", Measurement(86, MeasurementUnit.GRAMS), None),
-            Vegetable("Carrots", "shredded", Measurement(128, MeasurementUnit.GRAMS), None),
-            Condiment("Sesame oil", "regular", Measurement(Fraction(1, 4), MeasurementUnit.TSP), None),
-            Spice("Salt", "or more to taste", Measurement(1, MeasurementUnit.TSP), None),
-            Spice("Pepper", "to taste", Measurement(Fraction(1, 4), MeasurementUnit.TSP), None),
-            Spice("Red pepper flakes", "optional", Measurement(Fraction(1, 4), MeasurementUnit.TSP), None)
+            Meat(Meat.SEAFOOD, "raw or cooked", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
+            Noodle(Noodle.RAMEN, "uncooked", Measurement(178, MeasurementUnit.ML), None),
+            Other(Other.BROTH, "vegetable, seafood, or chicken", Measurement(948, MeasurementUnit.ML), None),
+            Other(Other.WATER, "regular", Measurement(474, MeasurementUnit.ML), None),
+            Vegetable(Vegetable.GREEN_ONION, "sliced", Measurement(2, GeneralUnit.WHOLE), None),
+            SauceVinegar(SauceVinegar.SOY_SAUCE, "low sodium", Measurement(59, MeasurementUnit.ML), None),
+            SauceVinegar(SauceVinegar.RICE_VINEGAR, "regular", Measurement(59, MeasurementUnit.ML), None),
+            Seasoning(Seasoning.GARLIC, "minced", Measurement(2, GeneralUnit.CLOVES), None),
+            Seasoning(Seasoning.GINGER, "minced", Measurement(1, MeasurementUnit.TBSP), None),
+            Vegetable(Vegetable.BOK_CHOY, "chopped", Measurement(76, MeasurementUnit.GRAMS), None),
+            Vegetable(Vegetable.MUSHROOM, "sliced", Measurement(86, MeasurementUnit.GRAMS), None),
+            Vegetable(Vegetable.CARROT, "shredded", Measurement(128, MeasurementUnit.GRAMS), None),
+            Oil(Oil.SESAME_OIL, "regular", Measurement(Fraction(1, 4), MeasurementUnit.TSP), None),
+            Seasoning(Seasoning.SALT, "or more to taste", Measurement(1, MeasurementUnit.TSP), None),
+            Seasoning(Seasoning.PEPPER, "to taste", Measurement(Fraction(1, 4), MeasurementUnit.TSP), None),
+            Seasoning(Seasoning.RED_PEPPER_FLAKES, "optional", Measurement(Fraction(1, 4), MeasurementUnit.TSP), None)
         ],
         recipe={
             1: "Add broth, water, green onions, soy sauce, rice vinegar, garlic, ginger, mushrooms, carrots, sesame oil, salt, pepper, and red pepper flakes (if using) to the slow cooker. Stir to mix well.",
@@ -281,19 +296,19 @@ diet_dishes = [
         description="This quick Chicken and Zucchini Stir Fry is made with chicken breast, zucchini, and an easy stir fry sauce.",
         nutritional_info="Per serving: 242 cal, 6.5 g fat, 28 g protein, 17 g carbs",
         ingredients=[
-            Condiment("Soy sauce", "low sodium or gluten free", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
-            Other("Chicken broth", "regular", UnitConverter.convert(Measurement(1, MeasurementUnit.CUP)), None),
-            Other("Cornstarch", "regular", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Mirin", "regular", Measurement(2, MeasurementUnit.TBSP), None),
-            Spice("Sugar", "regular", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Sesame oil", "regular", Measurement(2, MeasurementUnit.TSP), None),
-            Condiment("Canola oil", "divided", Measurement(1, MeasurementUnit.TBSP), None),
-            Spice("Garlic", "minced", Measurement(1, MeasurementUnit.TBSP), None),
-            Spice("Ginger", "minced", Measurement(1, MeasurementUnit.TBSP), None),
-            Meat("Chicken breast", "sliced very thinly", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
-            Vegetable("Zucchini", "cut into 1/4 inch thick half moons", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None),
-            Other("Sesame seeds", "for garnish", None, None),
-            Vegetable("Scallion", "for garnish", None, None)
+            SauceVinegar(SauceVinegar.SOY_SAUCE, "low sodium or gluten free", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
+            Other(Other.CHICKEN_BROTH, "regular", UnitConverter.convert(Measurement(1, MeasurementUnit.CUP)), None),
+            Other(Other.CORNSTARCH, "regular", Measurement(1, MeasurementUnit.TBSP), None),
+            SauceVinegar(SauceVinegar.MIRIN, "regular", Measurement(2, MeasurementUnit.TBSP), None),
+            Sweetener(Sweetener.SUGAR, "regular", Measurement(1, MeasurementUnit.TBSP), None),
+            Oil(Oil.SESAME_OIL, "regular", Measurement(2, MeasurementUnit.TSP), None),
+            Oil(Oil.CANOLA_OIL, "divided", Measurement(1, MeasurementUnit.TBSP), None),
+            Seasoning(Seasoning.GARLIC, "minced", Measurement(1, MeasurementUnit.TBSP), None),
+            Seasoning(Seasoning.GINGER, "minced", Measurement(1, MeasurementUnit.TBSP), None),
+            Meat(Meat.CHICKEN_BREAST, "sliced very thinly", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
+            Vegetable(Vegetable.ZUCCHINI, "cut into 1/4 inch thick half moons", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None),
+            Seed(Seed.SESAME_SEEDS, "for garnish", None, None),
+            Vegetable(Vegetable.SCALLION, "for garnish", None, None)
         ],
         recipe={
             1: "In a large bowl, add the soy sauce, chicken broth, cornstarch, mirin, sugar, and sesame oil and whisk until everything is completely dissolved.",
@@ -315,10 +330,10 @@ diet_dishes = [
     #     description="This egg roll in a bowl recipe is one of my favorite low carb meals. It's packed with protein and veggies, made in one skillet and comes together in less than 30 minutes!",
     #     nutritional_info="Per serving: 242 cal, 28g protein, 17g carbs, 6.5g fat",
     #     ingredients=[
-    #         Meat("Ground turkey or chicken", "regular", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
-    #         Vegetable("Yellow onion", "chopped", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
-    #         Spice("Garlic", "minced", Measurement(3, GeneralUnit.CLOVES), None),
-    #         Spice("Fresh ginger", "grated or minced", Measurement(2, MeasurementUnit.TSP), None),
+    #         Meat(Meat.GROUND_CHICKEN, "regular", UnitConverter.convert(Measurement(1, MeasurementUnit.LB)), None),
+    #         Vegetable(Vegetable.YELLOW_ONION, "chopped", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
+    #         Seasoning(Seasoning.GARLIC, "minced", Measurement(3, GeneralUnit.CLOVES), None),
+    #         Seasoning(Seasoning.GINGER, "grated or minced", Measurement(2, MeasurementUnit.TSP), None),
     #         Condiment("Toasted sesame oil", "regular", Measurement(2, MeasurementUnit.TSP), None),
     #         Vegetable("Coleslaw mix", "regular", Measurement(1, "12 14 oz package"), None), # Special case
     #         Condiment("Low sodium soy sauce, tamari or coconut aminos", "regular", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
@@ -350,26 +365,26 @@ diet_dishes = [
         ingredients=[
             # For the pineapple salsa
             Fruit(Fruit.PINEAPPLE, "small diced fresh", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None),
-            Vegetable("Red onion", "finely diced", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
-            Vegetable("Jalapeño", "finely diced", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Lime juice", "fresh", Measurement(2, MeasurementUnit.TBSP), None),
-            Spice("Garlic", "minced", Measurement(1, GeneralUnit.CLOVES), None),
-            Vegetable("Cilantro", "finely chopped fresh", Measurement(1, MeasurementUnit.TBSP), None),
-            Condiment("Avocado oil", "or olive oil", Measurement(1, MeasurementUnit.TSP), None),
-            Spice("Salt", "Pinch", None, None),
+            Vegetable(Vegetable.RED_ONION,"finely diced", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
+            Vegetable(Vegetable.JALAPENO, "finely diced", Measurement(1, MeasurementUnit.TBSP), None),
+            SauceVinegar(SauceVinegar.LIME_JUICE, "fresh", Measurement(2, MeasurementUnit.TBSP), None),
+            Seasoning(Seasoning.GARLIC, "minced", Measurement(1, GeneralUnit.CLOVES), None),
+            Vegetable(Vegetable.CILANTRO, "finely chopped fresh", Measurement(1, MeasurementUnit.TBSP), None),
+            Oil(Oil.AVOCADO_OIL, "or olive oil", Measurement(1, MeasurementUnit.TSP), None),
+            Seasoning(Seasoning.SALT, "Pinch", None, None),
             # For the chipotle chicken
-            Condiment("Avocado oil", "or olive oil", Measurement(1, MeasurementUnit.TBSP), None),
-            Meat("Ground chicken", "regular", UnitConverter.convert(Measurement(2, MeasurementUnit.LB)), None),
-            Spice("Chipotle chili powder", "regular", Measurement(2, MeasurementUnit.TSP), None),
-            Spice("Salt", "to taste", None, None),
-            Spice("Pepper", "to taste", None, None),
-            Other("Chicken broth", "low sodium", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
-            Other("Tomato paste", "regular", Measurement(1, MeasurementUnit.TBSP), None),
+            Oil(Oil.AVOCADO_OIL, "or olive oil", Measurement(1, MeasurementUnit.TSP), None),
+            Meat(Meat.GROUND_CHICKEN, "regular", UnitConverter.convert(Measurement(2, MeasurementUnit.LB)), None),
+            Seasoning(Seasoning.CHIPOTLE_CHILI_POWDER, "regular", Measurement(2, MeasurementUnit.TSP), None),
+            Seasoning(Seasoning.SALT, "to taste", None, None),
+            Seasoning(Seasoning.PEPPER, "to taste", None, None),
+            Other(Other.BROTH, "low sodium", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
+            Other(Other.TOMATO_PASTE, "regular", Measurement(1, MeasurementUnit.TBSP), None),
             # To assemble
-            Other("Grain free tortillas", "6 (8 inch), can use Siete tortillas", None, None),
-            Vegetable("Avocados", "mashed", Measurement(2, GeneralUnit.WHOLE), None),
-            Vegetable("Purple cabbage", "shredded", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
-            Vegetable("Cilantro", "chopped fresh",  UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None)
+            Other(Other.GRAIN_FREE_TORTILLAS, "6 (8 inch), can use Siete tortillas", None, None), # measurement in inches
+            Vegetable(Vegetable.AVOCADO, "mashed", Measurement(2, GeneralUnit.WHOLE), None),
+            Vegetable(Vegetable.PURPLE_CABBAGE, "shredded", UnitConverter.convert(Measurement(Fraction(1, 2), MeasurementUnit.CUP)), None),
+            Vegetable(Vegetable.CILANTRO, "chopped fresh",  UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None)
         ],
         recipe={
             1: "Preheat the oven to 350 degrees F and line a baking sheet with parchment paper.",
