@@ -101,4 +101,4 @@ def email_pdf(_pdf_path, from_email="hanntro@hotmail.com", to_email=None):
 weekly_plan = generate_weekly_plan()
 save_to_pdf(weekly_plan)
 pdf_path = save_weekly_pdf(weekly_plan)
-email_pdf(pdf_path)
+# email_pdf(pdf_path)
