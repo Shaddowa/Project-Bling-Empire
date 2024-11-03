@@ -8,6 +8,7 @@ from sendgrid import SendGridAPIClient
 from sendgrid.helpers.mail import Mail, Attachment, FileContent, FileName, FileType, Disposition
 from .const import DAYS, GENERATED_MEAL_PLANS_PATH, WEEK_NUMBER
 from .diet_dishes_dict import diet_dishes
+from .email_recipients import EMAIL_RECIPIENTS
 from ...meals.main.data_classes.pdf import PDF
 
 load_dotenv()
@@ -178,7 +179,7 @@ def email_pdf(_pdf_path, from_email="hanntro@hotmail.com", to_email=None):
     # Create the SendGrid message
     message = Mail(
         from_email="hanna.tronsen@airthings.com",
-        to_emails="hannatro@hotmail.com",
+        to_emails=EMAIL_RECIPIENTS,
         subject=f"Weekly Meal Plan PDF for week {WEEK_NUMBER}",
         html_content='Attached is your weekly meal plan PDF'
     )
