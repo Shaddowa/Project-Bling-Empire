@@ -16,7 +16,7 @@ load_dotenv()
 
 
 def generate_weekly_plan():
-    return random.sample(diet_dishes, 7)
+    return random.sample(diet_dishes, 1)
 
 
 def add_dish_details_to_pdf(pdf, dish):

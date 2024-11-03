@@ -349,7 +349,7 @@ diet_dishes = [
         nutritional_info="Per serving: 462 cal, 26.8g carbohydrates, 31.8g protein, 26.7g fat, 6.3g saturated fat, 7g fiber, 7.1g sugar",
         ingredients=[
             # For the pineapple salsa
-            Vegetable("Pineapple", "small diced fresh", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None),
+            Fruit(Fruit.PINEAPPLE, "small diced fresh", UnitConverter.convert(Measurement(2, MeasurementUnit.CUP)), None),
             Vegetable("Red onion", "finely diced", UnitConverter.convert(Measurement(Fraction(1, 4), MeasurementUnit.CUP)), None),
             Vegetable("Jalapeño", "finely diced", Measurement(1, MeasurementUnit.TBSP), None),
             Condiment("Lime juice", "fresh", Measurement(2, MeasurementUnit.TBSP), None),
