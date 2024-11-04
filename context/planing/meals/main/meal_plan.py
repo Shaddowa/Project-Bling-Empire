@@ -13,6 +13,7 @@ from ...meals.main.data_classes.pdf import PDF
 
 load_dotenv()
 
+
 def section_separator(pdf):
     pdf.set_line_width(0.2)  # Set a thinner line width
     pdf.set_draw_color(150, 150, 150)  # Optional: change color for a lighter line
@@ -23,12 +24,16 @@ def section_separator(pdf):
 def generate_weekly_plan():
     ingredient_entries = defaultdict(list)
     ingredient_totals = defaultdict(lambda: defaultdict(float))
+    ingredient_types = {}
     dishes = random.sample(diet_dishes, 7)
 
     for dish in dishes:
         for ingredient in dish.ingredients:
             ingredient_name = ingredient.name
             measurement = ingredient.measurement
+            ingredient_type = ingredient.__class__.__name__
+
+            ingredient_types[ingredient_name] = ingredient_type  # Store the mapping
 
             if measurement is not None:
                 ingredient_entries[ingredient_name].append((measurement.amount, measurement.unit.value))
@@ -41,13 +46,21 @@ def generate_weekly_plan():
     return {
         "dishes": dishes,
         "ingredient_entries": dict(sorted(ingredient_entries.items())),
-        "ingredient_totals": dict(sorted(ingredient_totals.items()))
+        "ingredient_totals": dict(sorted(ingredient_totals.items())),
+        "ingredient_types": ingredient_types  # Include the mapping in the return
     }
 
 
 def add_meal_plan_overview_to_pdf(pdf, plan):
     ingredient_entries = plan["ingredient_entries"]
     ingredient_totals = plan["ingredient_totals"]
+    ingredient_types = plan["ingredient_types"]  # Get the ingredient types mapping
+
+    # Group ingredients by their types
+    ingredients_by_type = defaultdict(list)
+    for ingredient_name in ingredient_entries.keys():
+        ingredient_type = ingredient_types.get(ingredient_name, "Other")
+        ingredients_by_type[ingredient_type].append(ingredient_name)
 
     pdf.add_page()
 
@@ -58,64 +71,33 @@ def add_meal_plan_overview_to_pdf(pdf, plan):
 
     # Setting up the summary title
     pdf.set_font("Arial", "B", 10)
-    pdf.cell(0, 6, "Summary of batch ingredients", ln=True, align='C')
+    pdf.cell(0, 6, "Summary of Batch Ingredients", ln=True, align='C')
     pdf.ln(3)
 
     section_separator(pdf)
 
-    # Prepare data for the two columns
-    entries = []
-    for ingredient, units_dict in ingredient_totals.items():
-        combined_list = []
-        for unit, total_amount in units_dict.items():
-            if total_amount != 0:
-                combined_list.append(f"{round(total_amount, 2)} {unit}")
+    # For each ingredient type
+    for ingredient_type in sorted(ingredients_by_type.keys()):
+        pdf.set_font("Arial", "B", 12)
+        pdf.cell(0, 6, ingredient_type, ln=True, align='L')
+        pdf.ln(2)
+        pdf.set_font("Arial", "", 9)
 
-        entry_text = f"{ingredient.capitalize()}: [ {', '.join(combined_list) if combined_list else ', '.join(str(entry) for entry in ingredient_entries[ingredient])} ]"
-        entries.append(entry_text)
+        entries = []
+        for ingredient_name in sorted(ingredients_by_type[ingredient_type]):
+            units_dict = ingredient_totals.get(ingredient_name, {})
+            combined_list = []
+            for unit, total_amount in units_dict.items():
+                if total_amount != 0:
+                    combined_list.append(f"{round(total_amount, 2)} {unit}")
+            entry_text = f"{ingredient_name.capitalize()}: [ {', '.join(combined_list) if combined_list else ', '.join(str(entry) for entry in ingredient_entries[ingredient_name])} ]"
+            entries.append(entry_text)
 
-    # Split entries into two columns
-    mid_index = len(entries) // 2
-    left_column = entries[:mid_index]
-    right_column = entries[mid_index:]
-
-    # Set font for columns
-    pdf.set_font("Arial", "", 9)
-
-    # Width of each column
-    col_width = (pdf.w - 2 * pdf.l_margin) / 2
-
-    # Get the maximum number of entries
-    max_len = max(len(left_column), len(right_column))
-
-    for i in range(max_len):
-        y_current = pdf.get_y()
-
-        # Left column entry
-        if i < len(left_column):
-            left_entry = left_column[i]
-            pdf.set_xy(pdf.l_margin, y_current)
-            pdf.multi_cell(col_width, 5, left_entry, border=0, align='L')
-            left_cell_height = pdf.get_y() - y_current
-        else:
-            left_cell_height = 0
-
-        # Right column entry
-        if i < len(right_column):
-            right_entry = right_column[i]
-            pdf.set_xy(pdf.l_margin + col_width, y_current)
-            pdf.multi_cell(col_width, 5, right_entry, border=0, align='L')
-            right_cell_height = pdf.get_y() - y_current
-        else:
-            right_cell_height = 0
-
-        # Determine the maximum cell height
-        max_cell_height = max(left_cell_height, right_cell_height, 5)
-
-        # Move cursor to the next line
-        pdf.set_y(y_current + max_cell_height)
-
-    section_separator(pdf)
+        # Display the entries
+        for entry in entries:
+            pdf.multi_cell(0, 5, entry, border=0, align='L')
+        pdf.ln(5)
+        section_separator(pdf)
 
 
 def add_dish_details_to_pdf(pdf, dish):
