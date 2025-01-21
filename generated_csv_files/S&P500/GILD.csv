@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,GILD
 Company,"Gilead Sciences, Inc."
 Country,United States
-Industry,Drug Manufacturers—General
+Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.gilead.com
-Price,64.58
+Price,91.84
 Currency,USD
 
 REVENUE
-Total Revenue,27449999360.0
-Revenue Per Share,22.0
-Revenue Growth,0.053
+Total Revenue,28298999808.0
+Revenue Per Share,22.703
+Revenue Growth,0.07
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=7.15)"
-Net Earnings,485000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.09, forward_eps=7.43)"
+Net Earnings,126000000.0
+Earnings Growth,-0.422
 
 DEBT
-Total Debt,25821999104.0
-Debt to Equity,147.935
+Total Debt,23249000448.0
+Debt to Equity,126.415
 
 MARGINS
-Profit Margins,0.01767
-Gross Profit Margins,0.77523005
-Operating Margins,0.36433998
+Profit Margins,0.00445
+Gross Profit Margins,0.77805
+Operating Margins,0.41962
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.08
-Dividend Yield,0.0467
-Dividend Payout Ratio,8.3889
-Five Year Avg Dividend Yield,4.0
-Trailing Annual Dividend Rate,3.02
-Trailing Annual Dividend Yield,0.046763703
+Dividend Yield,0.0335
+Dividend Payout Ratio,34.0
+Five Year Avg Dividend Yield,4.01
+Trailing Annual Dividend Rate,3.06
+Trailing Annual Dividend Yield,0.033318818
 
 FINANCIAL RATIO
-Debt to Equity,147.935
-Price to Cash Flow,5.2736360208950856e-09
-Enterprise to EBITDA,8.088
-Price to Book,4.7084017
-Price to Earnings,"PriceToEarnings(trailing_pe=183.22221, forward_pe=9.225175)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=7.15)"
-Enterprise to Revenue,3.763
+Debt to Equity,126.415
+Price to Cash Flow,1.0308011690352408e-08
+Enterprise to EBITDA,9.386
+Price to Book,6.311459
+Price to Earnings,"PriceToEarnings(trailing_pe=1039.7777, forward_pe=12.594886)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.09, forward_eps=7.43)"
+Enterprise to Revenue,4.626
 
 CASH FLOW
-Free to Cash Flow,12507499520.0
-Operating to Cash Flow,8480999936.0
+Free to Cash Flow,9078375424.0
+Operating to Cash Flow,10021999616.0
 
 PROFITABILITY
-Return on Equity,0.02391
-Return on Assets,0.10625
-Return on Invested Capital,0.018782434225309348
-Return on Investment,0.0035793357933579335
+Return on Equity,0.00561
+Return on Assets,0.119619995
+Return on Invested Capital,0.005419587831376336
+Return on Investment,0.0009203798392987582
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.04
-SUM DIVIDEND SCORE,5.04
+5 Year Average,0.0401
+SUM DIVIDEND SCORE,8.0401
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,51.040000000000006
-Recommendation Key,1
-SUM ANALYST RATING SCORE,52.040000000000006
+Target High Price Diff Current Price,31.42
+Recommendation Key,100
+SUM ANALYST RATING SCORE,131.42000000000002
 
 
 

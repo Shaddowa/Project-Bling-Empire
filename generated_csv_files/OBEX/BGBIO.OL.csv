@@ -5,17 +5,17 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.bergenbio.com
-Price,0.137
+Price,8.439
 Currency,NOK
 
 REVENUE
-Total Revenue,354000.0
-Revenue Per Share,0.0
-Revenue Growth,-0.09
+Total Revenue,521000.0
+Revenue Per Share,0.018
+Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.13, forward_eps=-0.08)"
-Net Earnings,-190400992.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.74, forward_eps=-5.84)"
+Net Earnings,-155404992.0
 Earnings Growth,None
 
 DEBT
@@ -25,7 +25,7 @@ Debt to Equity,None
 MARGINS
 Profit Margins,0.0
 Gross Profit Margins,1.0
-Operating Margins,-123.00565
+Operating Margins,-311.238
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,21 +38,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-8.856545002070442e-10
-Enterprise to EBITDA,-1.131
-Price to Book,2.9531915
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.735)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.13, forward_eps=-0.08)"
-Enterprise to Revenue,612.342
+Price to Cash Flow,-7.799032905239218e-08
+Enterprise to EBITDA,-0.246
+Price to Book,1.7928706
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-1.4554794)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.74, forward_eps=-5.84)"
+Enterprise to Revenue,76.387
 
 CASH FLOW
-Free to Cash Flow,-156720256.0
-Operating to Cash Flow,-225100992.0
+Free to Cash Flow,-108987872.0
+Operating to Cash Flow,-175687008.0
 
 PROFITABILITY
-Return on Equity,-1.7631799
-Return on Assets,-0.70306
-Return on Invested Capital,-4051084936.1702127
+Return on Equity,-0.85552
+Return on Assets,-0.44167998
+Return on Invested Capital,-32778947.90128665
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,1.8612
+Target High Price Diff Current Price,29.5
 Recommendation Key,0
-SUM ANALYST RATING SCORE,1.8612
+SUM ANALYST RATING SCORE,29.5
 
 
 

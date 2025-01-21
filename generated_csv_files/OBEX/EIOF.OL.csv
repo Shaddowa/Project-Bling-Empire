@@ -5,59 +5,59 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.eidesvik.no
-Price,15.82
+Price,13.6
 Currency,NOK
 
 REVENUE
-Total Revenue,721033024.0
-Revenue Per Share,9.879
-Revenue Growth,-0.507
+Total Revenue,751697024.0
+Revenue Per Share,10.284
+Revenue Growth,0.009
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.05, forward_eps=-4.58)"
-Net Earnings,514742016.0
-Earnings Growth,-0.704
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.91, forward_eps=-4.58)"
+Net Earnings,169462000.0
+Earnings Growth,-0.935
 
 DEBT
-Total Debt,879475968.0
-Debt to Equity,54.435
+Total Debt,823921984.0
+Debt to Equity,47.35
 
 MARGINS
-Profit Margins,0.71389997
-Gross Profit Margins,0.55903
-Operating Margins,0.19701
+Profit Margins,0.22544001
+Gross Profit Margins,0.55653
+Operating Margins,0.14107999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.25
-Dividend Yield,0.0154
-Dividend Payout Ratio,0.0
+Dividend Yield,0.0184
+Dividend Payout Ratio,0.1078
 Five Year Avg Dividend Yield,2.95
-Trailing Annual Dividend Rate,0.25
-Trailing Annual Dividend Yield,0.015802782
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,54.435
-Price to Cash Flow,-6.364592772712479e-08
-Enterprise to EBITDA,6.127
-Price to Book,0.7906367
-Price to Earnings,"PriceToEarnings(trailing_pe=2.3092198, forward_pe=-3.5545855)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.05, forward_eps=-4.58)"
-Enterprise to Revenue,2.332
+Debt to Equity,47.35
+Price to Cash Flow,-1.353432629973444e-07
+Enterprise to EBITDA,5.492
+Price to Book,0.65562624
+Price to Earnings,"PriceToEarnings(trailing_pe=2.284264, forward_pe=-2.9475982)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.91, forward_eps=-4.58)"
+Enterprise to Revenue,2.129
 
 CASH FLOW
-Free to Cash Flow,-255790128.0
-Operating to Cash Flow,251295008.0
+Free to Cash Flow,-99746376.0
+Operating to Cash Flow,352284992.0
 
 PROFITABILITY
-Return on Equity,0.41924998
-Return on Assets,0.029979998
-Return on Invested Capital,0.5852826258789205
-Return on Investment,-0.023648142162110013
+Return on Equity,0.120129995
+Return on Assets,0.028380001
+Return on Invested Capital,0.2056772352913696
+Return on Investment,-0.009452154124182861
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.029500000000000002
@@ -71,8 +71,8 @@ SUM ANALYST RATING SCORE,0
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
-Revenue,True
+Earnings,False
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,0.0
 

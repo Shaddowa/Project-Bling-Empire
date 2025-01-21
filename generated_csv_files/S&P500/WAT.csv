@@ -5,27 +5,27 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.waters.com
-Price,336.42
+Price,404.0
 Currency,USD
 
 REVENUE
-Total Revenue,2908581120.0
-Revenue Per Share,49.191
-Revenue Growth,-0.07
+Total Revenue,2905146880.0
+Revenue Per Share,49.019
+Revenue Growth,0.04
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.18, forward_eps=13.06)"
-Net Earnings,603507008.0
-Earnings Growth,-0.277
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.46, forward_eps=12.93)"
+Net Earnings,622641024.0
+Earnings Growth,0.194
 
 DEBT
-Total Debt,2144077056.0
-Debt to Equity,170.635
+Total Debt,1931297024.0
+Debt to Equity,120.473
 
 MARGINS
-Profit Margins,0.20749001
-Gross Profit Margins,0.59683996
-Operating Margins,0.22625
+Profit Margins,0.21431999
+Gross Profit Margins,0.59725
+Operating Margins,0.28697002
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,170.635
-Price to Cash Flow,6.536065634511743e-07
-Enterprise to EBITDA,22.42
-Price to Book,16.572735
-Price to Earnings,"PriceToEarnings(trailing_pe=34.490173, forward_pe=26.884378)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.18, forward_eps=13.06)"
-Enterprise to Revenue,7.782
+Debt to Equity,120.473
+Price to Cash Flow,6.352728308422969e-07
+Enterprise to EBITDA,25.384
+Price to Book,15.226271
+Price to Earnings,"PriceToEarnings(trailing_pe=39.30736, forward_pe=31.79853)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.46, forward_eps=12.93)"
+Enterprise to Revenue,8.808
 
 CASH FLOW
-Free to Cash Flow,537188608.0
-Operating to Cash Flow,668928000.0
+Free to Cash Flow,647210112.0
+Operating to Cash Flow,752105984.0
 
 PROFITABILITY
-Return on Equity,0.65021
-Return on Assets,0.13215
-Return on Invested Capital,0.28147635848617647
-Return on Investment,0.10693842615398245
+Return on Equity,0.4964
+Return on Assets,0.11332
+Return on Invested Capital,0.3223952647142694
+Return on Investment,0.0879399211897801
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,6.889999999999986
+Target High Price Diff Current Price,18.845000000000027
 Recommendation Key,0
-SUM ANALYST RATING SCORE,6.889999999999986
+SUM ANALYST RATING SCORE,18.845000000000027
 
 
 

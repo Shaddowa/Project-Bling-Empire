@@ -5,68 +5,68 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.blackrock.com
-Price,789.13
+Price,1004.96
 Currency,USD
 
 REVENUE
-Total Revenue,18343999488.0
-Revenue Per Share,123.095
-Revenue Growth,0.114
+Total Revenue,19360999424.0
+Revenue Per Share,130.415
+Revenue Growth,0.149
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=39.36, forward_eps=46.84)"
-Net Earnings,5918000128.0
-Earnings Growth,0.372
+Earnings Per Share,"EarningsPerShare(trailing_eps=42.01, forward_eps=49.1)"
+Net Earnings,6073999872.0
+Earnings Growth,0.023
 
 DEBT
-Total Debt,11632000000.0
-Debt to Equity,27.864
+Total Debt,14179000320.0
+Debt to Equity,32.503
 
 MARGINS
-Profit Margins,0.32261002
-Gross Profit Margins,0.48997003
-Operating Margins,0.36421
+Profit Margins,0.31372
+Gross Profit Margins,0.49992
+Operating Margins,0.3985
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,20.4
-Dividend Yield,0.0256
-Dividend Payout Ratio,0.5108
-Five Year Avg Dividend Yield,2.51
-Trailing Annual Dividend Rate,20.1
-Trailing Annual Dividend Yield,0.02547109
+Dividend Yield,0.0212
+Dividend Payout Ratio,0.501
+Five Year Avg Dividend Yield,2.43
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,27.864
-Price to Cash Flow,1.7469876106718305e-07
-Enterprise to EBITDA,17.426
-Price to Book,2.9833136
-Price to Earnings,"PriceToEarnings(trailing_pe=20.240599, forward_pe=17.008326)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=39.36, forward_eps=46.84)"
-Enterprise to Revenue,6.702
+Debt to Equity,32.503
+Price to Cash Flow,2.0070897472751047e-07
+Enterprise to EBITDA,19.745
+Price to Book,3.6414592
+Price to Earnings,"PriceToEarnings(trailing_pe=24.124733, forward_pe=20.64114)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=42.01, forward_eps=49.1)"
+Enterprise to Revenue,7.826
 
 CASH FLOW
-Free to Cash Flow,4560249856.0
-Operating to Cash Flow,4151000064.0
+Free to Cash Flow,5049500160.0
+Operating to Cash Flow,4336000000.0
 
 PROFITABILITY
-Return on Equity,0.15170999
-Return on Assets,0.03374
-Return on Invested Capital,0.5087689126665519
-Return on Investment,0.18321981820433436
+Return on Equity,0.1505
+Return on Assets,0.03597
+Return on Invested Capital,0.4283799714855054
+Return on Investment,0.09812600762520193
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.025099999999999997
-SUM DIVIDEND SCORE,9.0251
+5 Year Average,0.024300000000000002
+SUM DIVIDEND SCORE,5.0243
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,273.33000000000004
-Recommendation Key,1
-SUM ANALYST RATING SCORE,274.33000000000004
+Target High Price Diff Current Price,261.52
+Recommendation Key,100
+SUM ANALYST RATING SCORE,361.52
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.hii.com
-Price,250.97
+Price,202.55
 Currency,USD
 
 REVENUE
-Total Revenue,11585000448.0
-Revenue Per Share,291.08
-Revenue Growth,0.049
+Total Revenue,11708000256.0
+Revenue Per Share,296.218
+Revenue Growth,-0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.72, forward_eps=18.94)"
-Net Earnings,705000000.0
-Earnings Growth,0.198
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.7, forward_eps=15.68)"
+Net Earnings,701000000.0
+Earnings Growth,-0.309
 
 DEBT
-Total Debt,2655000064.0
-Debt to Equity,64.348
+Total Debt,2820000000.0
+Debt to Equity,67.095
 
 MARGINS
-Profit Margins,0.060850002
-Gross Profit Margins,0.14423999
-Operating Margins,0.06631
+Profit Margins,0.05987
+Gross Profit Margins,0.13836999
+Operating Margins,0.04147
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.2
-Dividend Yield,0.020599999
-Dividend Payout Ratio,0.2868
-Five Year Avg Dividend Yield,2.12
-Trailing Annual Dividend Rate,5.08
-Trailing Annual Dividend Yield,0.020241464
+Dividend Rate,5.4
+Dividend Yield,0.026700001
+Dividend Payout Ratio,0.2938
+Five Year Avg Dividend Yield,2.22
+Trailing Annual Dividend Rate,5.2
+Trailing Annual Dividend Yield,0.025672672
 
 FINANCIAL RATIO
-Debt to Equity,64.348
-Price to Cash Flow,6.537743190661479e-07
-Enterprise to EBITDA,11.116
-Price to Book,2.4133868
-Price to Earnings,"PriceToEarnings(trailing_pe=14.222913, forward_pe=13.306758)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=17.72, forward_eps=18.94)"
-Enterprise to Revenue,1.086
+Debt to Equity,67.095
+Price to Cash Flow,1.7379831932773108e-06
+Enterprise to EBITDA,10.024
+Price to Book,1.9254473
+Price to Earnings,"PriceToEarnings(trailing_pe=11.684746, forward_pe=13.190051)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.7, forward_eps=15.68)"
+Enterprise to Revenue,0.917
 
 CASH FLOW
-Free to Cash Flow,385500000.0
-Operating to Cash Flow,777000000.0
+Free to Cash Flow,119000000.0
+Operating to Cash Flow,564000000.0
 
 PROFITABILITY
-Return on Equity,0.18338
-Return on Assets,0.044970002
-Return on Invested Capital,0.2655367063185132
-Return on Investment,-0.05035714285714286
+Return on Equity,0.17666
+Return on Assets,0.042680003
+Return on Invested Capital,0.24858155081519903
+Return on Investment,-0.03594871794871795
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0212
-SUM DIVIDEND SCORE,8.0212
+5 Year Average,0.0222
+SUM DIVIDEND SCORE,8.0222
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,64.97
+Target High Price Diff Current Price,119.18
 Recommendation Key,0
-SUM ANALYST RATING SCORE,64.97
+SUM ANALYST RATING SCORE,119.18
 
 
 

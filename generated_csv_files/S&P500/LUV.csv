@@ -5,55 +5,55 @@ Country,United States
 Industry,Airlines
 Sector,Industrials
 Website,https://www.southwest.com
-Price,27.28
+Price,32.1
 Currency,USD
 
 REVENUE
-Total Revenue,26713999360.0
-Revenue Per Share,44.841
-Revenue Growth,0.109
+Total Revenue,27376001024.0
+Revenue Per Share,45.837
+Revenue Growth,0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.64, forward_eps=1.89)"
-Net Earnings,393000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.08, forward_eps=1.59)"
+Net Earnings,-48000000.0
+Earnings Growth,-0.644
 
 DEBT
-Total Debt,9160999936.0
-Debt to Equity,89.849
+Total Debt,9095000064.0
+Debt to Equity,87.36
 
 MARGINS
-Profit Margins,0.01471
-Gross Profit Margins,0.22812
-Operating Margins,-0.0621
+Profit Margins,-0.0017499999
+Gross Profit Margins,0.21691
+Operating Margins,0.0027700001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.72
-Dividend Yield,0.026300002
-Dividend Payout Ratio,1.125
+Dividend Yield,0.0224
+Dividend Payout Ratio,5.5385
 Five Year Avg Dividend Yield,1.03
 Trailing Annual Dividend Rate,0.72
-Trailing Annual Dividend Yield,0.026392963
+Trailing Annual Dividend Yield,0.022429908
 
 FINANCIAL RATIO
-Debt to Equity,89.849
-Price to Cash Flow,-7.839541547277937e-08
-Enterprise to EBITDA,7.191
-Price to Book,1.6059165
-Price to Earnings,"PriceToEarnings(trailing_pe=42.750004, forward_pe=14.476191)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.64, forward_eps=1.89)"
-Enterprise to Revenue,0.562
+Debt to Equity,87.36
+Price to Cash Flow,-1.9188127633935714e-08
+Enterprise to EBITDA,11.275
+Price to Book,1.8993031
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=20.73585)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.08, forward_eps=1.59)"
+Enterprise to Revenue,0.693
 
 CASH FLOW
-Free to Cash Flow,-349000000.0
-Operating to Cash Flow,2353999872.0
+Free to Cash Flow,-1718249984.0
+Operating to Cash Flow,411000000.0
 
 PROFITABILITY
-Return on Equity,0.03835
-Return on Assets,0.01345
-Return on Invested Capital,0.042899247027036055
-Return on Investment,-0.001497142857142857
+Return on Equity,-0.00447
+Return on Assets,0.00458
+Return on Invested Capital,-0.005277625021508269
+Return on Investment,0.0002542372881355932
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.0103
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.64
+Target High Price Diff Current Price,9.030000000000001
 Recommendation Key,0
-SUM ANALYST RATING SCORE,10.64
+SUM ANALYST RATING SCORE,9.030000000000001
 
 
 

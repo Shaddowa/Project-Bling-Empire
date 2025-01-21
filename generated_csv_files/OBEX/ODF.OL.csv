@@ -5,55 +5,55 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.odfjell.com
-Price,192.0
+Price,120.4
 Currency,NOK
 
 REVENUE
-Total Revenue,1196679040.0
-Revenue Per Share,16.684
-Revenue Growth,0.009
+Total Revenue,1248779008.0
+Revenue Per Share,15.79
+Revenue Growth,0.074
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.98, forward_eps=39.79)"
-Net Earnings,224404000.0
-Earnings Growth,1.301
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.54, forward_eps=3.18)"
+Net Earnings,279404000.0
+Earnings Growth,0.372
 
 DEBT
-Total Debt,1043900032.0
-Debt to Equity,128.765
+Total Debt,1061100032.0
+Debt to Equity,119.359
 
 MARGINS
-Profit Margins,0.18752001
-Gross Profit Margins,0.44169998
-Operating Margins,0.27912
+Profit Margins,0.22374001
+Gross Profit Margins,0.46131
+Operating Margins,0.2758
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,13.25
-Dividend Yield,0.0701
-Dividend Payout Ratio,0.4402
+Dividend Rate,17.18
+Dividend Yield,0.1427
+Dividend Payout Ratio,0.4357
 Five Year Avg Dividend Yield,3.97
-Trailing Annual Dividend Rate,1.25
-Trailing Annual Dividend Yield,0.0065104165
+Trailing Annual Dividend Rate,1.63
+Trailing Annual Dividend Yield,0.013538206
 
 FINANCIAL RATIO
-Debt to Equity,128.765
-Price to Cash Flow,9.40909977238143e-07
-Enterprise to EBITDA,26.496
-Price to Book,11.622188
-Price to Earnings,"PriceToEarnings(trailing_pe=6.1007104, forward_pe=4.749937)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.98, forward_eps=39.79)"
-Enterprise to Revenue,8.674
+Debt to Equity,119.359
+Price to Cash Flow,4.998004857350345e-07
+Enterprise to EBITDA,23.851
+Price to Book,10.51695
+Price to Earnings,"PriceToEarnings(trailing_pe=2.9156387, forward_pe=37.16981)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.54, forward_eps=3.18)"
+Enterprise to Revenue,8.361
 
 CASH FLOW
-Free to Cash Flow,200869376.0
-Operating to Cash Flow,359492992.0
+Free to Cash Flow,236494368.0
+Operating to Cash Flow,417992992.0
 
 PROFITABILITY
-Return on Equity,0.29935
-Return on Assets,0.0941
-Return on Invested Capital,0.2149669409189247
-Return on Investment,0.024343317097512557
+Return on Equity,0.3419
+Return on Assets,0.106879994
+Return on Invested Capital,0.2633154166567757
+Return on Investment,0.03424782123726757
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,9.0397
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,34.52000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,35.52000000000001
+Target High Price Diff Current Price,96.82148
+Recommendation Key,0
+SUM ANALYST RATING SCORE,96.82148
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.blackstone.com
-Price,123.03
+Price,179.95
 Currency,USD
 
 REVENUE
-Total Revenue,9927148544.0
-Revenue Per Share,13.085
-Revenue Growth,1.737
+Total Revenue,11138276352.0
+Revenue Per Share,14.505
+Revenue Growth,0.541
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.84, forward_eps=6.03)"
-Net Earnings,2152453888.0
-Earnings Growth,9.091
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.92, forward_eps=5.83)"
+Net Earnings,2224434944.0
+Earnings Growth,0.396
 
 DEBT
-Total Debt,12435795968.0
-Debt to Equity,67.303
+Total Debt,12838316032.0
+Debt to Equity,65.956
 
 MARGINS
-Profit Margins,0.21681999
-Gross Profit Margins,0.89985
-Operating Margins,0.5241
+Profit Margins,0.19971001
+Gross Profit Margins,0.95264
+Operating Margins,0.51078
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.36
-Dividend Yield,0.0271
-Dividend Payout Ratio,1.1796
-Five Year Avg Dividend Yield,3.73
-Trailing Annual Dividend Rate,3.36
-Trailing Annual Dividend Yield,0.027310412
+Dividend Rate,3.45
+Dividend Yield,0.019199999
+Dividend Payout Ratio,1.1649
+Five Year Avg Dividend Yield,3.47
+Trailing Annual Dividend Rate,3.45
+Trailing Annual Dividend Yield,0.019171992
 
 FINANCIAL RATIO
-Debt to Equity,67.303
+Debt to Equity,65.956
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,12.880582
-Price to Earnings,"PriceToEarnings(trailing_pe=43.67606, forward_pe=20.57048)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.84, forward_eps=6.03)"
-Enterprise to Revenue,11.074
+Price to Book,19.837278
+Price to Earnings,"PriceToEarnings(trailing_pe=61.998287, forward_pe=31.052317)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.92, forward_eps=5.83)"
+Enterprise to Revenue,14.453
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,4644023808.0
+Operating to Cash Flow,4215944960.0
 
 PROFITABILITY
-Return on Equity,0.20594
-Return on Assets,0.094799995
-Return on Invested Capital,0.17308533300738602
-Return on Investment,0.08178016291793314
+Return on Equity,0.22041
+Return on Assets,0.100150004
+Return on Invested Capital,0.17326532053536386
+Return on Investment,0.06247745869822884
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0373
-SUM DIVIDEND SCORE,4.0373
+5 Year Average,0.0347
+SUM DIVIDEND SCORE,7.0347
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,19.959999999999994
-Recommendation Key,0
-SUM ANALYST RATING SCORE,19.959999999999994
+Target High Price Diff Current Price,48.965
+Recommendation Key,100
+SUM ANALYST RATING SCORE,148.965
 
 
 

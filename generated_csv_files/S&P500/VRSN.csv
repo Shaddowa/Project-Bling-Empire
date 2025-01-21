@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,VRSN
 Company,"VeriSign, Inc."
 Country,United States
-Industry,Software—Infrastructure
+Industry,Software - Infrastructure
 Sector,Technology
 Website,https://www.verisign.com
-Price,169.79
+Price,209.72
 Currency,USD
 
 REVENUE
-Total Revenue,1512999936.0
-Revenue Per Share,14.779
-Revenue Growth,0.055
+Total Revenue,1542400000.0
+Revenue Per Share,15.467
+Revenue Growth,0.038
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.12, forward_eps=8.65)"
-Net Earnings,833000000.0
-Earnings Growth,0.129
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.58, forward_eps=8.65)"
+Net Earnings,858899968.0
+Earnings Growth,0.131
 
 DEBT
-Total Debt,1795699968.0
+Total Debt,1802099968.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.55056
-Gross Profit Margins,0.87013
-Operating Margins,0.67369
+Profit Margins,0.55686
+Gross Profit Margins,0.87584
+Operating Margins,0.68945
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,21 +38,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.5154525145558067e-07
-Enterprise to EBITDA,16.903
+Price to Cash Flow,2.862283293250838e-07
+Enterprise to EBITDA,19.566
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=21.087439, forward_pe=19.795376)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.12, forward_eps=8.65)"
-Enterprise to Revenue,11.848
+Price to Earnings,"PriceToEarnings(trailing_pe=24.29021, forward_pe=24.093643)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.58, forward_eps=8.65)"
+Enterprise to Revenue,13.817
 
 CASH FLOW
-Free to Cash Flow,680712512.0
-Operating to Cash Flow,852099968.0
+Free to Cash Flow,728124992.0
+Operating to Cash Flow,875299968.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.36523
-Return on Invested Capital,0.46388596225689777
+Return on Assets,0.4159
+Return on Invested Capital,0.4766106168627683
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,43.77000000000001
-Recommendation Key,0
-SUM ANALYST RATING SCORE,43.77000000000001
+Target High Price Diff Current Price,41.59
+Recommendation Key,100
+SUM ANALYST RATING SCORE,141.59
 
 
 

@@ -5,55 +5,55 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://www.akerasa.com
-Price,619.0
+Price,580.0
 Currency,NOK
 
 REVENUE
-Total Revenue,14497000448.0
-Revenue Per Share,195.134
-Revenue Growth,None
+Total Revenue,17357000704.0
+Revenue Per Share,233.631
+Revenue Growth,0.882
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=38.36, forward_eps=26.25)"
-Net Earnings,2904999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=89.96, forward_eps=26.25)"
+Net Earnings,3167000064.0
 Earnings Growth,None
 
 DEBT
-Total Debt,29987000320.0
-Debt to Equity,59.039
+Total Debt,40164999168.0
+Debt to Equity,65.636
 
 MARGINS
-Profit Margins,0.22315
-Gross Profit Margins,0.34083
-Operating Margins,-0.31248
+Profit Margins,0.42391998
+Gross Profit Margins,0.41234002
+Operating Margins,0.05472
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,31.0
-Dividend Yield,0.049099997
-Dividend Payout Ratio,0.78150004
+Dividend Yield,0.053400002
+Dividend Payout Ratio,0.33900002
 Five Year Avg Dividend Yield,4.6
-Trailing Annual Dividend Rate,15.5
-Trailing Annual Dividend Yield,0.025040388
+Trailing Annual Dividend Rate,0.5
+Trailing Annual Dividend Yield,0.00086206896
 
 FINANCIAL RATIO
-Debt to Equity,59.039
-Price to Cash Flow,-1.1450087044759346e-07
-Enterprise to EBITDA,-24.221
-Price to Book,1.0434271
-Price to Earnings,"PriceToEarnings(trailing_pe=16.449427, forward_pe=24.038095)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=38.36, forward_eps=26.25)"
-Enterprise to Revenue,5.126
+Debt to Equity,65.636
+Price to Cash Flow,-9.491358405211751e-08
+Enterprise to EBITDA,-89.431
+Price to Book,0.8766834
+Price to Earnings,"PriceToEarnings(trailing_pe=6.425078, forward_pe=22.019047)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=89.96, forward_eps=26.25)"
+Enterprise to Revenue,4.807
 
 CASH FLOW
-Free to Cash Flow,-5510875136.0
-Operating to Cash Flow,1536999936.0
+Free to Cash Flow,-6089750016.0
+Operating to Cash Flow,1656999936.0
 
 PROFITABILITY
-Return on Equity,-0.03628
-Return on Assets,-0.030439999
-Return on Invested Capital,0.09687530751378004
-Return on Investment,0.01137876982373678
+Return on Equity,0.09192
+Return on Assets,-0.01268
+Return on Invested Capital,0.07884974673514539
+Return on Investment,0.012405013960047003
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.046
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,299.0
-Recommendation Key,2
-SUM ANALYST RATING SCORE,301.0
+Target High Price Diff Current Price,272.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,272.0
 
 
 

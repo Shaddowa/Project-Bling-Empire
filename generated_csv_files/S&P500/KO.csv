@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,KO
 Company,The Coca-Cola Company
 Country,United States
-Industry,Beverages—Non-Alcoholic
+Industry,Beverages - Non-Alcoholic
 Sector,Consumer Defensive
 Website,https://www.coca-colacompany.com
-Price,62.88
+Price,62.71
 Currency,USD
 
 REVENUE
-Total Revenue,46073999360.0
-Revenue Per Share,10.668
-Revenue Growth,0.029
+Total Revenue,46365999104.0
+Revenue Per Share,10.753
+Revenue Growth,-0.008
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.49, forward_eps=3.02)"
-Net Earnings,10784000000.0
-Earnings Growth,0.026
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.97)"
+Net Earnings,10408999936.0
+Earnings Growth,-0.07
 
 DEBT
-Total Debt,43767001088.0
-Debt to Equity,156.613
+Total Debt,47118000128.0
+Debt to Equity,167.358
 
 MARGINS
-Profit Margins,0.23406
-Gross Profit Margins,0.59981996
-Operating Margins,0.32965
+Profit Margins,0.2245
+Gross Profit Margins,0.60433996
+Operating Margins,0.30235
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.94
-Dividend Yield,0.0307
-Dividend Payout Ratio,0.749
-Five Year Avg Dividend Yield,3.03
-Trailing Annual Dividend Rate,1.865
-Trailing Annual Dividend Yield,0.029659668
+Dividend Yield,0.0309
+Dividend Payout Ratio,0.7946
+Five Year Avg Dividend Yield,3.02
+Trailing Annual Dividend Rate,1.915
+Trailing Annual Dividend Yield,0.030537395
 
 FINANCIAL RATIO
-Debt to Equity,156.613
-Price to Cash Flow,5.8532073885850725e-09
-Enterprise to EBITDA,20.531
-Price to Book,10.311328
-Price to Earnings,"PriceToEarnings(trailing_pe=25.405622, forward_pe=20.94702)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.49, forward_eps=3.02)"
-Enterprise to Revenue,6.53
+Debt to Equity,167.358
+Price to Cash Flow,4.493227754627581e-09
+Enterprise to EBITDA,20.277
+Price to Book,10.237283
+Price to Earnings,"PriceToEarnings(trailing_pe=26.136929, forward_pe=21.208755)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.41, forward_eps=2.97)"
+Enterprise to Revenue,6.486
 
 CASH FLOW
-Free to Cash Flow,10807749632.0
-Operating to Cash Flow,11966999552.0
+Free to Cash Flow,14018875392.0
+Operating to Cash Flow,5523999744.0
 
 PROFITABILITY
-Return on Equity,0.39314997
-Return on Assets,0.08607
-Return on Invested Capital,0.24639568008796267
-Return on Investment,0.09560283687943262
+Return on Equity,0.3723
+Return on Assets,0.08438
+Return on Invested Capital,0.220913449347676
+Return on Investment,0.08942439807560137
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.030299999999999997
-SUM DIVIDEND SCORE,8.0303
+5 Year Average,0.0302
+SUM DIVIDEND SCORE,8.0302
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.740000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,11.740000000000002
+Target High Price Diff Current Price,22.009999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,122.00999999999999
 
 
 

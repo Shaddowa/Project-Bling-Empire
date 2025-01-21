@@ -5,68 +5,68 @@ Country,United States
 Industry,Capital Markets
 Sector,Financial Services
 Website,https://www.goldmansachs.com
-Price,455.56
+Price,625.94
 Currency,USD
 
 REVENUE
-Total Revenue,46726000640.0
-Revenue Per Share,138.222
-Revenue Growth,0.121
+Total Revenue,49386999808.0
+Revenue Per Share,149.014
+Revenue Growth,0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=25.65, forward_eps=40.9)"
-Net Earnings,8700999680.0
-Earnings Growth,0.318
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.56, forward_eps=41.56)"
+Net Earnings,11418999808.0
+Earnings Growth,0.536
 
 DEBT
-Total Debt,722595020800.0
-Debt to Equity,607.856
+Total Debt,741734023168.0
+Debt to Equity,609.793
 
 MARGINS
-Profit Margins,0.20146999
-Gross Profit Margins,0.83492994
-Operating Margins,0.37855
+Profit Margins,0.24648
+Gross Profit Margins,0.83236
+Operating Margins,0.32743
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,11.0
-Dividend Yield,0.0242
-Dividend Payout Ratio,0.41889998
-Five Year Avg Dividend Yield,2.25
-Trailing Annual Dividend Rate,10.75
-Trailing Annual Dividend Yield,0.023597332
+Dividend Rate,12.0
+Dividend Yield,0.021
+Dividend Payout Ratio,0.32970002
+Five Year Avg Dividend Yield,2.31
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,607.856
+Debt to Equity,609.793
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.4460019
-Price to Earnings,"PriceToEarnings(trailing_pe=17.728266, forward_pe=11.118093)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=25.65, forward_eps=40.9)"
-Enterprise to Revenue,-3.457
+Price to Book,1.8984406
+Price to Earnings,"PriceToEarnings(trailing_pe=15.334073, forward_pe=14.965111)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.56, forward_eps=41.56)"
+Enterprise to Revenue,-1.872
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-50028998656.0
+Operating to Cash Flow,-88335998976.0
 
 PROFITABILITY
-Return on Equity,0.07944
-Return on Assets,0.00582
-Return on Invested Capital,0.012041322491511578
-Return on Investment,0.0013440328215267694
+Return on Equity,0.1017
+Return on Assets,0.00737
+Return on Invested Capital,0.015395006088820152
+Return on Investment,0.0016297955880337977
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
-Payout Ratio,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0225
-SUM DIVIDEND SCORE,9.0225
+5 Year Average,0.0231
+SUM DIVIDEND SCORE,4.0231
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,62.26999999999998
-Recommendation Key,1
-SUM ANALYST RATING SCORE,63.26999999999998
+Target High Price Diff Current Price,160.04999999999995
+Recommendation Key,100
+SUM ANALYST RATING SCORE,260.04999999999995
 
 
 

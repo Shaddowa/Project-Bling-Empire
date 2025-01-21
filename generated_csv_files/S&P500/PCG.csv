@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,PCG
 Company,PG&E Corporation
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.pgecorp.com
-Price,17.9
+Price,17.01
 Currency,USD
 
 REVENUE
-Total Revenue,24079998976.0
-Revenue Per Share,11.468
-Revenue Growth,-0.056
+Total Revenue,24828999680.0
+Revenue Per Share,11.628
+Revenue Growth,0.009
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.12, forward_eps=1.48)"
-Net Earnings,2404999936.0
-Earnings Growth,0.259
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.28, forward_eps=1.48)"
+Net Earnings,2747000064.0
+Earnings Growth,0.685
 
 DEBT
-Total Debt,58567999488.0
-Debt to Equity,225.409
+Total Debt,60031000576.0
+Debt to Equity,221.631
 
 MARGINS
-Profit Margins,0.09988
-Gross Profit Margins,0.35664
-Operating Margins,0.23887
+Profit Margins,0.110640004
+Gross Profit Margins,0.38387
+Operating Margins,0.21714
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.02
-Dividend Yield,0.0011
-Dividend Payout Ratio,0.0179
+Dividend Rate,0.1
+Dividend Yield,0.0058999998
+Dividend Payout Ratio,0.0313
 Five Year Avg Dividend Yield,3.32
-Trailing Annual Dividend Rate,0.02
-Trailing Annual Dividend Yield,0.0011173184
+Trailing Annual Dividend Rate,0.04
+Trailing Annual Dividend Yield,0.0023515578
 
 FINANCIAL RATIO
-Debt to Equity,225.409
-Price to Cash Flow,-2.6897982988353006e-09
-Enterprise to EBITDA,12.422
-Price to Book,1.480897
-Price to Earnings,"PriceToEarnings(trailing_pe=15.919642, forward_pe=12.0472975)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.12, forward_eps=1.48)"
-Enterprise to Revenue,3.998
+Debt to Equity,221.631
+Price to Cash Flow,-2.323399216328263e-09
+Enterprise to EBITDA,10.276
+Price to Book,1.3682172
+Price to Earnings,"PriceToEarnings(trailing_pe=13.419219, forward_pe=11.60581)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.28, forward_eps=1.48)"
+Enterprise to Revenue,3.856
 
 CASH FLOW
-Free to Cash Flow,-6628749824.0
-Operating to Cash Flow,5823000064.0
+Free to Cash Flow,-7392875008.0
+Operating to Cash Flow,6579999744.0
 
 PROFITABILITY
-Return on Equity,0.097040005
-Return on Assets,0.02056
-Return on Invested Capital,0.04106337857755168
-Return on Investment,-0.0058119863122281295
+Return on Equity,0.10674
+Return on Assets,0.026099999
+Return on Invested Capital,0.0457596914438865
+Return on Investment,-0.007509568244942592
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0332
-SUM DIVIDEND SCORE,4.0332
+SUM DIVIDEND SCORE,8.0332
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,4.170000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,5.170000000000002
+Target High Price Diff Current Price,8.8234
+Recommendation Key,100
+SUM ANALYST RATING SCORE,108.82339999999999
 
 
 

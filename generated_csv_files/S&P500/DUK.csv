@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,DUK
 Company,Duke Energy Corporation
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.duke-energy.com
-Price,103.02
+Price,109.26
 Currency,USD
 
 REVENUE
-Total Revenue,28996999168.0
-Revenue Per Share,37.597
-Revenue Growth,0.054
+Total Revenue,29750999040.0
+Revenue Per Share,38.55
+Revenue Growth,0.02
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.59, forward_eps=6.33)"
-Net Earnings,4311000064.0
-Earnings Growth,0.427
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.57, forward_eps=6.34)"
+Net Earnings,4325000192.0
+Earnings Growth,0.01
 
 DEBT
-Total Debt,82355003392.0
-Debt to Equity,162.635
+Total Debt,85023997952.0
+Debt to Equity,169.205
 
 MARGINS
-Profit Margins,0.10949001
-Gross Profit Margins,0.49288
-Operating Margins,0.25445998
+Profit Margins,0.14534001
+Gross Profit Margins,0.49901
+Operating Margins,0.26147
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.1
-Dividend Yield,0.0399
-Dividend Payout Ratio,0.7299
-Five Year Avg Dividend Yield,4.11
-Trailing Annual Dividend Rate,4.08
-Trailing Annual Dividend Yield,0.03960396
+Dividend Rate,4.18
+Dividend Yield,0.0383
+Dividend Payout Ratio,0.7397
+Five Year Avg Dividend Yield,4.06
+Trailing Annual Dividend Rate,4.12
+Trailing Annual Dividend Yield,0.037708215
 
 FINANCIAL RATIO
-Debt to Equity,162.635
-Price to Cash Flow,-3.214338768832475e-08
-Enterprise to EBITDA,11.93
-Price to Book,1.665531
-Price to Earnings,"PriceToEarnings(trailing_pe=18.366726, forward_pe=16.21959)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.59, forward_eps=6.33)"
-Enterprise to Revenue,5.659
+Debt to Equity,169.205
+Price to Cash Flow,-4.629417314321142e-08
+Enterprise to EBITDA,12.132
+Price to Book,1.7797318
+Price to Earnings,"PriceToEarnings(trailing_pe=19.932674, forward_pe=17.51183)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.57, forward_eps=6.34)"
+Enterprise to Revenue,5.752
 
 CASH FLOW
-Free to Cash Flow,-3194125056.0
-Operating to Cash Flow,10869000192.0
+Free to Cash Flow,-2398249984.0
+Operating to Cash Flow,11520000000.0
 
 PROFITABILITY
-Return on Equity,0.08798
-Return on Assets,0.02616
-Return on Invested Capital,0.052346547061060796
-Return on Investment,-0.006689944233395407
+Return on Equity,0.088369995
+Return on Assets,0.026619999
+Return on Invested Capital,0.050867993660664676
+Return on Investment,-0.007364209419376809
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.041100000000000005
-SUM DIVIDEND SCORE,8.0411
+5 Year Average,0.0406
+SUM DIVIDEND SCORE,8.0406
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,17.33
-Recommendation Key,1
-SUM ANALYST RATING SCORE,18.33
+Target High Price Diff Current Price,23.974999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,123.975
 
 
 

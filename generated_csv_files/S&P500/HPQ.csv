@@ -5,68 +5,68 @@ Country,United States
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.hp.com
-Price,29.65
+Price,32.51
 Currency,USD
 
 REVENUE
-Total Revenue,53105000448.0
-Revenue Per Share,53.452
-Revenue Growth,-0.044
+Total Revenue,53320998912.0
+Revenue Per Share,53.955
+Revenue Growth,0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=3.63)"
-Net Earnings,3416000000.0
-Earnings Growth,0.319
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.81, forward_eps=3.6)"
+Net Earnings,2843000064.0
+Earnings Growth,-0.145
 
 DEBT
-Total Debt,10933999616.0
+Total Debt,10808999936.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.064330004
-Gross Profit Margins,0.2186
-Operating Margins,0.07433
+Profit Margins,0.053319998
+Gross Profit Margins,0.22134
+Operating Margins,0.07486
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.1
-Dividend Yield,0.037100002
-Dividend Payout Ratio,0.3118
-Five Year Avg Dividend Yield,3.22
-Trailing Annual Dividend Rate,1.063
-Trailing Annual Dividend Yield,0.0358516
+Dividend Yield,0.028199999
+Dividend Payout Ratio,0.3822
+Five Year Avg Dividend Yield,3.19
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,9.746658861083996e-09
-Enterprise to EBITDA,7.242
+Price to Cash Flow,9.976554012626172e-09
+Enterprise to EBITDA,9.041
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=8.715542, forward_pe=8.187327)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.41, forward_eps=3.63)"
-Enterprise to Revenue,0.709
+Price to Earnings,"PriceToEarnings(trailing_pe=11.546264, forward_pe=9.0125)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.81, forward_eps=3.6)"
+Enterprise to Revenue,0.855
 
 CASH FLOW
-Free to Cash Flow,3049250048.0
-Operating to Cash Flow,3708000000.0
+Free to Cash Flow,3252124928.0
+Operating to Cash Flow,4100999936.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.07561
-Return on Invested Capital,0.31241998541171034
-Return on Investment,0.07314775160599572
+Return on Assets,0.07047
+Return on Invested Capital,0.2630215636241265
+Return on Investment,0.024487511317829457
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0322
-SUM DIVIDEND SCORE,8.0322
+5 Year Average,0.0319
+SUM DIVIDEND SCORE,4.0319
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.280000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,11.280000000000001
+Target High Price Diff Current Price,7.555
+Recommendation Key,0
+SUM ANALYST RATING SCORE,7.555
 
 
 

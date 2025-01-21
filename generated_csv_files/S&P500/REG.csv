@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,REG
 Company,Regency Centers Corporation
 Country,United States
-Industry,REIT—Retail
+Industry,REIT - Retail
 Sector,Real Estate
 Website,https://www.regencycenters.com
-Price,59.32
+Price,71.22
 Currency,USD
 
 REVENUE
-Total Revenue,1415766016.0
-Revenue Per Share,7.889
-Revenue Growth,0.139
+Total Revenue,1489812992.0
+Revenue Per Share,8.113
+Revenue Growth,0.089
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=2.12)"
-Net Earnings,368580000.0
-Earnings Growth,0.014
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.12, forward_eps=2.1)"
+Net Earnings,390032992.0
+Earnings Growth,0.08
 
 DEBT
-Total Debt,4662415872.0
-Debt to Equity,64.954
+Total Debt,4640114176.0
+Debt to Equity,66.82
 
 MARGINS
-Profit Margins,0.26632
-Gross Profit Margins,0.70839
-Operating Margins,0.37750998
+Profit Margins,0.27096
+Gross Profit Margins,0.71022004
+Operating Margins,0.36887002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.68
-Dividend Yield,0.045
-Dividend Payout Ratio,1.2878
-Five Year Avg Dividend Yield,4.19
-Trailing Annual Dividend Rate,2.64
-Trailing Annual Dividend Yield,0.044504385
+Dividend Rate,2.82
+Dividend Yield,0.0396
+Dividend Payout Ratio,1.2642
+Five Year Avg Dividend Yield,4.24
+Trailing Annual Dividend Rate,2.68
+Trailing Annual Dividend Yield,0.03762988
 
 FINANCIAL RATIO
-Debt to Equity,64.954
-Price to Cash Flow,1.1045132283193972e-07
-Enterprise to EBITDA,18.277
-Price to Book,1.6159835
-Price to Earnings,"PriceToEarnings(trailing_pe=29.058537, forward_pe=28.099058)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.05, forward_eps=2.12)"
-Enterprise to Revenue,11.149
+Debt to Equity,66.82
+Price to Cash Flow,1.1488706601410813e-07
+Enterprise to EBITDA,19.408
+Price to Book,1.9922523
+Price to Earnings,"PriceToEarnings(trailing_pe=33.962265, forward_pe=34.285717)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.12, forward_eps=2.1)"
+Enterprise to Revenue,11.958
 
 CASH FLOW
-Free to Cash Flow,539332608.0
-Operating to Cash Flow,725249984.0
+Free to Cash Flow,626702400.0
+Operating to Cash Flow,770718976.0
 
 PROFITABILITY
-Return on Equity,0.05782
-Return on Assets,0.027999999
-Return on Invested Capital,0.07905343650259716
-Return on Investment,0.011202086144644225
+Return on Equity,0.0583
+Return on Assets,0.02743
+Return on Invested Capital,0.0840567654519259
+Return on Investment,0.01062111931682025
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.04190000000000001
-SUM DIVIDEND SCORE,8.0419
+5 Year Average,0.0424
+SUM DIVIDEND SCORE,8.0424
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,15.43
-Recommendation Key,1
-SUM ANALYST RATING SCORE,16.43
+Target High Price Diff Current Price,12.0
+Recommendation Key,100
+SUM ANALYST RATING SCORE,112.0
 
 
 

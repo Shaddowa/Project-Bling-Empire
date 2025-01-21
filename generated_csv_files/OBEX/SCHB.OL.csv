@@ -5,55 +5,55 @@ Country,Norway
 Industry,Publishing
 Sector,Communication Services
 Website,https://www.schibsted.com
-Price,321.8
+Price,316.0
 Currency,NOK
 
 REVENUE
-Total Revenue,15774000128.0
-Revenue Per Share,69.621
-Revenue Growth,0.005
+Total Revenue,16071999488.0
+Revenue Per Share,70.341
+Revenue Growth,0.105
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=71.99, forward_eps=7.66)"
-Net Earnings,16458000384.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=88.57, forward_eps=7.1)"
+Net Earnings,20278999040.0
+Earnings Growth,-0.657
 
 DEBT
-Total Debt,7424999936.0
-Debt to Equity,16.51
+Total Debt,3940999936.0
+Debt to Equity,11.748
 
 MARGINS
-Profit Margins,0.85019994
-Gross Profit Margins,0.56847
-Operating Margins,0.029779999
+Profit Margins,0.79436
+Gross Profit Margins,0.57193
+Operating Margins,0.16686001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.0062
-Dividend Payout Ratio,0.0278
+Dividend Yield,0.0063
+Dividend Payout Ratio,0.0226
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,2.0
-Trailing Annual Dividend Yield,0.0062150406
+Trailing Annual Dividend Yield,0.006329114
 
 FINANCIAL RATIO
-Debt to Equity,16.51
-Price to Cash Flow,-8.386501253392701e-09
-Enterprise to EBITDA,52.914
-Price to Book,1.6335107
-Price to Earnings,"PriceToEarnings(trailing_pe=4.514516, forward_pe=42.4282)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=71.99, forward_eps=7.66)"
-Enterprise to Revenue,5.106
+Debt to Equity,11.748
+Price to Cash Flow,2.3692077727952169e-07
+Enterprise to EBITDA,45.895
+Price to Book,2.207183
+Price to Earnings,"PriceToEarnings(trailing_pe=3.5790899, forward_pe=44.64789)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=88.57, forward_eps=7.1)"
+Enterprise to Revenue,4.438
 
 CASH FLOW
-Free to Cash Flow,-38752751616.0
-Operating to Cash Flow,1600999936.0
+Free to Cash Flow,1338000000.0
+Operating to Cash Flow,1587000064.0
 
 PROFITABILITY
-Return on Equity,0.43067002
-Return on Assets,0.0150999995
-Return on Invested Capital,2.2165656679941725
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.53455
+Return on Assets,0.01556
+Return on Invested Capital,5.145647965057909
+Return on Investment,-1.748189572413793
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,65.0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,66.0
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

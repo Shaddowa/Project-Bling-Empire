@@ -5,68 +5,68 @@ Country,Norway
 Industry,Financial Conglomerates
 Sector,Financial Services
 Website,https://www.storebrand.no
-Price,110.0
+Price,123.9
 Currency,NOK
 
 REVENUE
-Total Revenue,77898997760.0
-Revenue Per Share,171.782
-Revenue Growth,1.051
+Total Revenue,88562999296.0
+Revenue Per Share,199.477
+Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=9.45)"
-Net Earnings,3203000064.0
-Earnings Growth,-0.106
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.46, forward_eps=9.71)"
+Net Earnings,5086000128.0
+Earnings Growth,1.024
 
 DEBT
-Total Debt,53803999232.0
-Debt to Equity,179.61
+Total Debt,52851998720.0
+Debt to Equity,172.314
 
 MARGINS
-Profit Margins,0.041490003
-Gross Profit Margins,0.91089994
-Operating Margins,0.91560996
+Profit Margins,0.057779998
+Gross Profit Margins,0.91740996
+Operating Margins,0.79293
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.1
-Dividend Yield,0.0369
-Dividend Payout Ratio,1.1033
+Dividend Yield,0.033099998
+Dividend Payout Ratio,0.35779998
 Five Year Avg Dividend Yield,5.36
 Trailing Annual Dividend Rate,4.1
-Trailing Annual Dividend Yield,0.037272725
+Trailing Annual Dividend Yield,0.033091202
 
 FINANCIAL RATIO
-Debt to Equity,179.61
-Price to Cash Flow,2.5153104169408105e-09
-Enterprise to EBITDA,1.366
-Price to Book,1.6638958
-Price to Earnings,"PriceToEarnings(trailing_pe=15.714285, forward_pe=11.756614)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=9.45)"
-Enterprise to Revenue,1.137
+Debt to Equity,172.314
+Price to Cash Flow,1.2504250534316035e-09
+Enterprise to EBITDA,1.267
+Price to Book,1.7856629
+Price to Earnings,"PriceToEarnings(trailing_pe=10.82897, forward_pe=12.780639)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.46, forward_eps=9.71)"
+Enterprise to Revenue,1.074
 
 CASH FLOW
-Free to Cash Flow,44169498624.0
-Operating to Cash Flow,247000000.0
+Free to Cash Flow,99246252032.0
+Operating to Cash Flow,-551000000.0
 
 PROFITABILITY
-Return on Equity,0.10734
-Return on Assets,0.04473
-Return on Invested Capital,0.05953089186203233
-Return on Investment,0.004961276431226766
+Return on Equity,0.17167999
+Return on Assets,0.050180003
+Return on Invested Capital,0.09623098926223804
+Return on Investment,0.006512997986938148
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0536
-SUM DIVIDEND SCORE,4.0536
+SUM DIVIDEND SCORE,7.0536
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.900000000000006
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.900000000000006
+Target High Price Diff Current Price,15.900000000000006
+Recommendation Key,0
+SUM ANALYST RATING SCORE,15.900000000000006
 
 
 

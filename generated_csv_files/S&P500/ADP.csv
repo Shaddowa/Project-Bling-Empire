@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,ADP
 Company,"Automatic Data Processing, Inc."
 Country,United States
-Industry,Staffing & Employment Services
-Sector,Industrials
+Industry,Software - Application
+Sector,Technology
 Website,https://www.adp.com
-Price,245.145
+Price,296.18
 Currency,USD
 
 REVENUE
-Total Revenue,18911899648.0
-Revenue Per Share,45.972
-Revenue Growth,0.066
+Total Revenue,19522899968.0
+Revenue Per Share,47.658
+Revenue Growth,0.071
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.96, forward_eps=9.98)"
-Net Earnings,3699399936.0
-Earnings Growth,0.147
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.36, forward_eps=10.87)"
+Net Earnings,3848900096.0
+Earnings Growth,0.125
 
 DEBT
-Total Debt,3395099904.0
-Debt to Equity,73.381
+Total Debt,9448299520.0
+Debt to Equity,176.65
 
 MARGINS
-Profit Margins,0.19561
-Gross Profit Margins,0.47884
-Operating Margins,0.29561
+Profit Margins,0.19715
+Gross Profit Margins,0.48112
+Operating Margins,0.26488
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.6
-Dividend Yield,0.0227
-Dividend Payout Ratio,0.59220004
-Five Year Avg Dividend Yield,2.0
-Trailing Annual Dividend Rate,5.3
-Trailing Annual Dividend Yield,0.021619858
+Dividend Rate,6.16
+Dividend Yield,0.0208
+Dividend Payout Ratio,0.59830004
+Five Year Avg Dividend Yield,2.02
+Trailing Annual Dividend Rate,5.6
+Trailing Annual Dividend Yield,0.018907422
 
 FINANCIAL RATIO
-Debt to Equity,73.381
-Price to Cash Flow,5.1234236110100145e-08
-Enterprise to EBITDA,18.432
-Price to Book,21.865368
-Price to Earnings,"PriceToEarnings(trailing_pe=27.55134, forward_pe=24.735472)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.96, forward_eps=9.98)"
-Enterprise to Revenue,5.348
+Debt to Equity,176.65
+Price to Cash Flow,1.1380557808230144e-07
+Enterprise to EBITDA,21.517
+Price to Book,22.63587
+Price to Earnings,"PriceToEarnings(trailing_pe=31.726496, forward_pe=27.319227)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.36, forward_eps=10.87)"
+Enterprise to Revenue,6.319
 
 CASH FLOW
-Free to Cash Flow,4818262528.0
-Operating to Cash Flow,4042700032.0
+Free to Cash Flow,2609362432.0
+Operating to Cash Flow,4655499776.0
 
 PROFITABILITY
-Return on Equity,0.88922995
-Return on Assets,0.04958
-Return on Invested Capital,1.0896291797892514
-Return on Investment,0.21212155596330276
+Return on Equity,0.87263
+Return on Assets,0.06544
+Return on Invested Capital,0.4073643180456442
+Return on Investment,0.16144715167785234
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.02
-SUM DIVIDEND SCORE,9.02
+5 Year Average,0.0202
+SUM DIVIDEND SCORE,9.0202
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,35.139999999999986
+Target High Price Diff Current Price,28.04000000000002
 Recommendation Key,0
-SUM ANALYST RATING SCORE,35.139999999999986
+SUM ANALYST RATING SCORE,28.04000000000002
 
 
 

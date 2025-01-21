@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,VICI
 Company,VICI Properties Inc.
 Country,United States
-Industry,REIT—Diversified
+Industry,REIT - Diversified
 Sector,Real Estate
 Website,https://www.viciproperties.com
-Price,29.3
+Price,29.35
 Currency,USD
 
 REVENUE
-Total Revenue,3685821952.0
-Revenue Per Share,3.597
-Revenue Growth,0.083
+Total Revenue,3805018112.0
+Revenue Per Share,3.651
+Revenue Growth,0.067
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=2.72)"
-Net Earnings,2584816128.0
-Earnings Growth,0.093
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.7, forward_eps=2.73)"
+Net Earnings,2811984896.0
+Earnings Growth,0.275
 
 DEBT
-Total Debt,17614292992.0
-Debt to Equity,68.223
+Total Debt,17651093504.0
+Debt to Equity,66.55
 
 MARGINS
-Profit Margins,0.70128995
-Gross Profit Margins,0.98998
-Operating Margins,0.84196
+Profit Margins,0.73902
+Gross Profit Margins,0.99087
+Operating Margins,0.98638
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.66
-Dividend Yield,0.0563
-Dividend Payout Ratio,0.64879996
-Five Year Avg Dividend Yield,4.95
-Trailing Annual Dividend Rate,1.635
-Trailing Annual Dividend Yield,0.055802047
+Dividend Rate,1.73
+Dividend Yield,0.0589
+Dividend Payout Ratio,0.6213
+Five Year Avg Dividend Yield,5.0
+Trailing Annual Dividend Rate,1.678
+Trailing Annual Dividend Yield,0.05717206
 
 FINANCIAL RATIO
-Debt to Equity,68.223
-Price to Cash Flow,-2.4018156097660263e-06
-Enterprise to EBITDA,14.143
-Price to Book,1.2108028
-Price to Earnings,"PriceToEarnings(trailing_pe=11.706349, forward_pe=10.845588)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.52, forward_eps=2.72)"
-Enterprise to Revenue,13.106
+Debt to Equity,66.55
+Price to Cash Flow,1.7700537742395606e-07
+Enterprise to EBITDA,13.286
+Price to Book,1.2033286
+Price to Earnings,"PriceToEarnings(trailing_pe=11.112963, forward_pe=10.990842)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.7, forward_eps=2.73)"
+Enterprise to Revenue,12.785
 
 CASH FLOW
-Free to Cash Flow,-12282375.0
-Operating to Cash Flow,2202714880.0
+Free to Cash Flow,169514624.0
+Operating to Cash Flow,2313893120.0
 
 PROFITABILITY
-Return on Equity,0.10614
-Return on Assets,0.049569998
-Return on Invested Capital,0.14674538033395146
-Return on Investment,0.01584125581985403
+Return on Equity,0.111899994
+Return on Assets,0.05209
+Return on Invested Capital,0.15930938734137817
+Return on Investment,0.017170130504683648
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0495
-SUM DIVIDEND SCORE,8.0495
+5 Year Average,0.05
+SUM DIVIDEND SCORE,8.05
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.5
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.5
+Target High Price Diff Current Price,12.995000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,112.995
 
 
 

@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,ZTS
 Company,Zoetis Inc.
 Country,United States
-Industry,Drug Manufacturers—Specialty & Generic
+Industry,Drug Manufacturers - Specialty & Generic
 Sector,Healthcare
 Website,https://www.zoetis.com
-Price,168.13
+Price,165.39
 Currency,USD
 
 REVENUE
-Total Revenue,8734000128.0
-Revenue Per Share,18.995
-Revenue Growth,0.095
+Total Revenue,9152000000.0
+Revenue Per Share,20.057
+Revenue Growth,0.11
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.19, forward_eps=6.39)"
-Net Earnings,2391000064.0
-Earnings Growth,0.099
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.33, forward_eps=6.34)"
+Net Earnings,2430000128.0
+Earnings Growth,0.163
 
 DEBT
-Total Debt,6800000000.0
-Debt to Equity,134.6
+Total Debt,6775000064.0
+Debt to Equity,129.442
 
 MARGINS
-Profit Margins,0.27376
-Gross Profit Margins,0.70082
-Operating Margins,0.36575
+Profit Margins,0.26552
+Gross Profit Margins,0.70094
+Operating Margins,0.38526002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.73
-Dividend Yield,0.010199999
-Dividend Payout Ratio,0.3
-Five Year Avg Dividend Yield,0.64
-Trailing Annual Dividend Rate,1.557
-Trailing Annual Dividend Yield,0.009260691
+Dividend Rate,2.0
+Dividend Yield,0.0121
+Dividend Payout Ratio,0.3141
+Five Year Avg Dividend Yield,0.69
+Trailing Annual Dividend Rate,1.671
+Trailing Annual Dividend Yield,0.010103392
 
 FINANCIAL RATIO
-Debt to Equity,134.6
-Price to Cash Flow,1.1380291356140364e-07
-Enterprise to EBITDA,22.975
-Price to Book,15.271478
-Price to Earnings,"PriceToEarnings(trailing_pe=32.570328, forward_pe=26.453835)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.19, forward_eps=6.39)"
-Enterprise to Revenue,9.383
+Debt to Equity,129.442
+Price to Cash Flow,8.885565571995754e-08
+Enterprise to EBITDA,21.227
+Price to Book,14.352515
+Price to Earnings,"PriceToEarnings(trailing_pe=31.212008, forward_pe=26.239748)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.33, forward_eps=6.34)"
+Enterprise to Revenue,8.73
 
 CASH FLOW
-Free to Cash Flow,1485374976.0
-Operating to Cash Flow,2399000064.0
+Free to Cash Flow,1872249984.0
+Operating to Cash Flow,2944999936.0
 
 PROFITABILITY
-Return on Equity,0.50047
-Return on Assets,0.13989
-Return on Invested Capital,0.3516176558982271
-Return on Investment,-0.13209945104972376
+Return on Equity,0.47303
+Return on Assets,0.14664
+Return on Invested Capital,0.358671601607034
+Return on Investment,-0.14210527064327486
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0064
-SUM DIVIDEND SCORE,8.0064
+5 Year Average,0.0069
+SUM DIVIDEND SCORE,8.0069
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,78.96000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,79.96000000000001
+Target High Price Diff Current Price,81.63999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,181.64
 
 
 

@@ -1,59 +1,59 @@
 GENERAL STOCK INFO
 Ticker,STE
 Company,STERIS plc
-Country,Ireland
+Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.steris.com
-Price,225.99
+Price,209.62
 Currency,USD
 
 REVENUE
-Total Revenue,5407384064.0
-Revenue Per Share,54.709
-Revenue Growth,0.148
+Total Revenue,5325524992.0
+Revenue Per Share,53.903
+Revenue Growth,0.073
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=10.11)"
-Net Earnings,566841024.0
-Earnings Growth,0.145
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.95, forward_eps=9.97)"
+Net Earnings,591380992.0
+Earnings Growth,0.305
 
 DEBT
-Total Debt,3509050880.0
-Debt to Equity,54.589
+Total Debt,2399814912.0
+Debt to Equity,36.303
 
 MARGINS
-Profit Margins,0.10483
-Gross Profit Margins,0.43642
-Operating Margins,0.15898
+Profit Margins,0.08164
+Gross Profit Margins,0.43422002
+Operating Margins,0.16981001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.08
-Dividend Yield,0.0099
-Dividend Payout Ratio,0.348
+Dividend Rate,2.28
+Dividend Yield,0.0109
+Dividend Payout Ratio,0.35799998
 Five Year Avg Dividend Yield,0.87
-Trailing Annual Dividend Rate,1.98
-Trailing Annual Dividend Yield,0.00876145
+Trailing Annual Dividend Rate,2.13
+Trailing Annual Dividend Yield,0.010161245
 
 FINANCIAL RATIO
-Debt to Equity,54.589
-Price to Cash Flow,4.4130270039022815e-07
-Enterprise to EBITDA,16.937
-Price to Book,3.5628695
-Price to Earnings,"PriceToEarnings(trailing_pe=40.655537, forward_pe=22.881306)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=10.11)"
-Enterprise to Revenue,4.454
+Debt to Equity,36.303
+Price to Cash Flow,3.293317103251143e-07
+Enterprise to EBITDA,17.301
+Price to Book,3.2211294
+Price to Earnings,"PriceToEarnings(trailing_pe=36.162186, forward_pe=21.581242)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.95, forward_eps=9.97)"
+Enterprise to Revenue,4.307
 
 CASH FLOW
-Free to Cash Flow,524198016.0
-Operating to Cash Flow,934265984.0
+Free to Cash Flow,653338240.0
+Operating to Cash Flow,1100518016.0
 
 PROFITABILITY
-Return on Equity,0.09106
-Return on Assets,0.04773
-Return on Invested Capital,0.16153684654231507
-Return on Investment,-0.08966166149952547
+Return on Equity,0.092700005
+Return on Assets,0.05447
+Return on Invested Capital,0.2464277443156081
+Return on Investment,-0.0347478725204475
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.0087
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,33.66999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,34.66999999999999
+Target High Price Diff Current Price,49.83500000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,149.835
 
 
 

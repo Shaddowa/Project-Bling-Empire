@@ -5,68 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.microchip.com
-Price,91.48
+Price,57.97
 Currency,USD
 
 REVENUE
-Total Revenue,7634400256.0
-Revenue Per Share,14.086
-Revenue Growth,-0.406
+Total Revenue,5496600064.0
+Revenue Per Share,10.211
+Revenue Growth,-0.484
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.48, forward_eps=4.21)"
-Net Earnings,1906899968.0
-Earnings Growth,-0.743
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=2.6)"
+Net Earnings,781600000.0
+Earnings Growth,-0.884
 
 DEBT
-Total Debt,5999799808.0
-Debt to Equity,90.117
+Total Debt,6457600000.0
+Debt to Equity,102.895
 
 MARGINS
-Profit Margins,0.24978
-Gross Profit Margins,0.65436995
-Operating Margins,0.17868
+Profit Margins,0.14220001
+Gross Profit Margins,0.60315
+Operating Margins,0.12726
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.81
-Dividend Yield,0.0198
-Dividend Payout Ratio,0.48330003
-Five Year Avg Dividend Yield,1.47
-Trailing Annual Dividend Rate,1.682
-Trailing Annual Dividend Yield,0.018386532
+Dividend Rate,1.82
+Dividend Yield,0.031400003
+Dividend Payout Ratio,1.2465
+Five Year Avg Dividend Yield,1.57
+Trailing Annual Dividend Rate,1.795
+Trailing Annual Dividend Yield,0.03096429
 
 FINANCIAL RATIO
-Debt to Equity,90.117
-Price to Cash Flow,None
-Enterprise to EBITDA,15.976
-Price to Book,7.406508
-Price to Earnings,"PriceToEarnings(trailing_pe=26.293104, forward_pe=21.733967)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.48, forward_eps=4.21)"
-Enterprise to Revenue,7.203
+Debt to Equity,102.895
+Price to Cash Flow,3.470618609757115e-08
+Enterprise to EBITDA,19.121
+Price to Book,4.967057
+Price to Earnings,"PriceToEarnings(trailing_pe=40.312496, forward_pe=22.326923)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=2.6)"
+Enterprise to Revenue,6.786
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,1672612480.0
+Operating to Cash Flow,1704000000.0
 
 PROFITABILITY
-Return on Equity,0.28955
-Return on Assets,0.09925
-Return on Invested Capital,0.31782726509156917
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.118030004
+Return on Assets,0.044099998
+Return on Invested Capital,0.12103567867093905
+Return on Investment,0.031326653306613224
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0147
-SUM DIVIDEND SCORE,9.0147
+5 Year Average,0.015700000000000002
+SUM DIVIDEND SCORE,8.0157
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,18.5
-Recommendation Key,1
-SUM ANALYST RATING SCORE,19.5
+Target High Price Diff Current Price,36.95
+Recommendation Key,100
+SUM ANALYST RATING SCORE,136.95
 
 
 

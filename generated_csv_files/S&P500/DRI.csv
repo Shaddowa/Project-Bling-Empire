@@ -5,68 +5,68 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.darden.com
-Price,146.92
+Price,181.75
 Currency,USD
 
 REVENUE
-Total Revenue,11201699840.0
-Revenue Per Share,93.095
-Revenue Growth,0.068
+Total Revenue,11416399872.0
+Revenue Per Share,95.695
+Revenue Growth,0.01
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.52, forward_eps=9.62)"
-Net Earnings,1036099968.0
-Earnings Growth,0.11
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.74, forward_eps=10.56)"
+Net Earnings,1043299968.0
+Earnings Growth,0.087
 
 DEBT
-Total Debt,6855699968.0
-Debt to Equity,314.352
+Total Debt,6994500096.0
+Debt to Equity,326.282
 
 MARGINS
-Profit Margins,0.09236
-Gross Profit Margins,0.21033001
-Operating Margins,0.13036
+Profit Margins,0.091120005
+Gross Profit Margins,0.21156
+Operating Margins,0.098009996
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.24
-Dividend Yield,0.0353
-Dividend Payout Ratio,0.6026
-Five Year Avg Dividend Yield,2.77
-Trailing Annual Dividend Rate,5.14
-Trailing Annual Dividend Yield,0.034985024
+Dividend Rate,5.6
+Dividend Yield,0.035
+Dividend Payout Ratio,0.6148
+Five Year Avg Dividend Yield,2.86
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,314.352
-Price to Cash Flow,1.9865663146361275e-07
-Enterprise to EBITDA,14.093
-Price to Book,8.231995
-Price to Earnings,"PriceToEarnings(trailing_pe=17.400234, forward_pe=15.410604)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.52, forward_eps=9.62)"
-Enterprise to Revenue,2.17
+Debt to Equity,326.282
+Price to Cash Flow,2.6103892452347724e-07
+Enterprise to EBITDA,14.298
+Price to Book,9.928708
+Price to Earnings,"PriceToEarnings(trailing_pe=21.431923, forward_pe=17.738163)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.74, forward_eps=10.56)"
+Enterprise to Revenue,2.241
 
 CASH FLOW
-Free to Cash Flow,746262528.0
-Operating to Cash Flow,1596999936.0
+Free to Cash Flow,717574976.0
+Operating to Cash Flow,1616000000.0
 
 PROFITABILITY
-Return on Equity,0.49048
-Return on Assets,0.07617
-Return on Invested Capital,0.1511297125187006
+Return on Equity,0.48619
+Return on Assets,0.07408
+Return on Invested Capital,0.14916004730382185
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0277
-SUM DIVIDEND SCORE,8.0277
+5 Year Average,0.0286
+SUM DIVIDEND SCORE,4.0286
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,45.75
-Recommendation Key,1
-SUM ANALYST RATING SCORE,46.75
+Target High Price Diff Current Price,42.685
+Recommendation Key,100
+SUM ANALYST RATING SCORE,142.685
 
 
 

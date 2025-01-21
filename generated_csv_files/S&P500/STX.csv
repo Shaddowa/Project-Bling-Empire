@@ -1,72 +1,72 @@
 GENERAL STOCK INFO
 Ticker,STX
 Company,Seagate Technology Holdings plc
-Country,Ireland
+Country,Singapore
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.seagate.com
-Price,91.67
+Price,97.67
 Currency,USD
 
 REVENUE
-Total Revenue,6265999872.0
-Revenue Per Share,30.053
-Revenue Growth,-0.11
+Total Revenue,7264999936.0
+Revenue Per Share,34.636
+Revenue Growth,0.491
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.3, forward_eps=5.67)"
-Net Earnings,-270000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.87, forward_eps=9.7)"
+Net Earnings,824000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,5671000064.0
+Total Debt,5676000256.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,-0.04309
-Gross Profit Margins,0.20954001
-Operating Margins,0.08761
+Profit Margins,0.11342
+Gross Profit Margins,0.28919
+Operating Margins,0.18635
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.8
-Dividend Yield,0.0298
-Dividend Payout Ratio,0.9859
-Five Year Avg Dividend Yield,4.13
+Dividend Rate,2.88
+Dividend Yield,0.0295
+Dividend Payout Ratio,0.7235
+Five Year Avg Dividend Yield,3.85
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.030544344
+Trailing Annual Dividend Yield,0.028667964
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,8.724825726965733e-08
-Enterprise to EBITDA,58.329
+Price to Cash Flow,4.782958579881657e-07
+Enterprise to EBITDA,20.723
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=16.580248)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.3, forward_eps=5.67)"
-Enterprise to Revenue,3.928
+Price to Earnings,"PriceToEarnings(trailing_pe=26.108528, forward_pe=10.416495)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.87, forward_eps=9.7)"
+Enterprise to Revenue,3.454
 
 CASH FLOW
-Free to Cash Flow,1077500032.0
-Operating to Cash Flow,702000000.0
+Free to Cash Flow,211250000.0
+Operating to Cash Flow,886000000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.01676
-Return on Invested Capital,-0.047610650217108766
-Return on Investment,-0.00645933014354067
+Return on Assets,0.07903
+Return on Invested Capital,0.14517265041020488
+Return on Investment,0.019903381642512076
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.041299999999999996
-SUM DIVIDEND SCORE,4.0413
+5 Year Average,0.0385
+SUM DIVIDEND SCORE,8.0385
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.989999999999995
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.989999999999995
+Target High Price Diff Current Price,48.959999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,148.95999999999998
 
 
 

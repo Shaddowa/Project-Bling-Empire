@@ -5,68 +5,68 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.danaher.com
-Price,251.43
+Price,238.36
 Currency,USD
 
 REVENUE
-Total Revenue,23736999936.0
-Revenue Per Share,32.107
-Revenue Growth,-0.026
+Total Revenue,23741999104.0
+Revenue Per Share,32.289
+Revenue Growth,0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=8.67)"
-Net Earnings,4068999936.0
-Earnings Growth,-0.251
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.29, forward_eps=8.38)"
+Net Earnings,3934000128.0
+Earnings Growth,-0.26
 
 DEBT
-Total Debt,19263000576.0
-Debt to Equity,36.041
+Total Debt,18823999488.0
+Debt to Equity,36.69
 
 MARGINS
-Profit Margins,0.18545
-Gross Profit Margins,0.58891
-Operating Margins,0.23085
+Profit Margins,0.16393
+Gross Profit Margins,0.59873
+Operating Margins,0.20335
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.08
-Dividend Yield,0.0043
-Dividend Payout Ratio,0.1927
-Five Year Avg Dividend Yield,0.38
+Dividend Yield,0.0045
+Dividend Payout Ratio,0.2491
+Five Year Avg Dividend Yield,0.37
 Trailing Annual Dividend Rate,1.05
-Trailing Annual Dividend Yield,0.0041761124
+Trailing Annual Dividend Yield,0.0044051013
 
 FINANCIAL RATIO
-Debt to Equity,36.041
-Price to Cash Flow,5.211569396104614e-08
-Enterprise to EBITDA,26.953
-Price to Book,3.5113635
-Price to Earnings,"PriceToEarnings(trailing_pe=46.491745, forward_pe=29.224915)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=8.67)"
-Enterprise to Revenue,8.422
+Debt to Equity,36.69
+Price to Cash Flow,4.683640393648001e-08
+Enterprise to EBITDA,25.078
+Price to Book,3.4087808
+Price to Earnings,"PriceToEarnings(trailing_pe=45.77174, forward_pe=28.894094)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.29, forward_eps=8.38)"
+Enterprise to Revenue,7.934
 
 CASH FLOW
-Free to Cash Flow,4861875200.0
-Operating to Cash Flow,6956000256.0
+Free to Cash Flow,5169750016.0
+Operating to Cash Flow,6288000000.0
 
 PROFITABILITY
-Return on Equity,0.07755
-Return on Assets,0.03859
-Return on Invested Capital,0.21123396143314102
-Return on Investment,-0.04855608515513127
+Return on Equity,0.07586
+Return on Assets,0.03858
+Return on Invested Capital,0.20898853698242972
+Return on Investment,-0.05572238141643059
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0038
-SUM DIVIDEND SCORE,8.0038
+5 Year Average,0.0037
+SUM DIVIDEND SCORE,8.0037
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,43.620000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,44.620000000000005
+Target High Price Diff Current Price,72.8675
+Recommendation Key,100
+SUM ANALYST RATING SCORE,172.8675
 
 
 

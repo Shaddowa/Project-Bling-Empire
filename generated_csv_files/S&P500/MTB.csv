@@ -2,77 +2,77 @@ GENERAL STOCK INFO
 Ticker,MTB
 Company,M&T Bank Corporation
 Country,United States
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www3.mtb.com
-Price,152.66
+Price,196.76
 Currency,USD
 
 REVENUE
-Total Revenue,8773000192.0
-Revenue Per Share,52.836
-Revenue Growth,-0.098
+Total Revenue,8498999808.0
+Revenue Per Share,51.04
+Revenue Growth,0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.8, forward_eps=16.19)"
-Net Earnings,2464999936.0
-Earnings Growth,-0.247
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.64, forward_eps=16.28)"
+Net Earnings,2260999936.0
+Earnings Growth,0.01
 
 DEBT
-Total Debt,17316999168.0
+Total Debt,14867000320.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.29294002
+Profit Margins,0.28109
 Gross Profit Margins,0.0
-Operating Margins,0.35874
+Operating Margins,0.42766997
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.2
-Dividend Yield,0.033800002
-Dividend Payout Ratio,0.3514
-Five Year Avg Dividend Yield,3.27
-Trailing Annual Dividend Rate,5.2
-Trailing Annual Dividend Yield,0.03406262
+Dividend Rate,5.4
+Dividend Yield,0.0269
+Dividend Payout Ratio,0.39200002
+Five Year Avg Dividend Yield,3.34
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.0182498
-Price to Earnings,"PriceToEarnings(trailing_pe=10.382433, forward_pe=9.491044)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.8, forward_eps=16.19)"
-Enterprise to Revenue,1.223
+Price to Book,1.2483845
+Price to Earnings,"PriceToEarnings(trailing_pe=13.59153, forward_pe=12.222358)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.64, forward_eps=16.28)"
+Enterprise to Revenue,2.776
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,4084999936.0
+Operating to Cash Flow,2734000128.0
 
 PROFITABILITY
-Return on Equity,0.09782
-Return on Assets,0.01229
-Return on Invested Capital,0.14234567378592045
-Return on Investment,0.007188684561096529
+Return on Equity,0.08676
+Return on Assets,0.01135
+Return on Invested Capital,0.1520817826793243
+Return on Investment,0.005660991326990486
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0327
-SUM DIVIDEND SCORE,4.0327
+5 Year Average,0.0334
+SUM DIVIDEND SCORE,4.0334
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,1
+Target High Price Diff Current Price,70.02000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,170.02
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,True
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

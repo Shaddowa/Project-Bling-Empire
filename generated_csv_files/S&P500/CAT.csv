@@ -5,68 +5,68 @@ Country,United States
 Industry,Farm & Heavy Construction Machinery
 Sector,Industrials
 Website,https://www.caterpillar.com
-Price,351.78
+Price,384.61
 Currency,USD
 
 REVENUE
-Total Revenue,66996998144.0
-Revenue Per Share,132.661
-Revenue Growth,-0.004
+Total Revenue,65664000000.0
+Revenue Per Share,133.301
+Revenue Growth,-0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.14, forward_eps=22.83)"
-Net Earnings,11248000000.0
-Earnings Growth,0.537
+Earnings Per Share,"EarningsPerShare(trailing_eps=21.54, forward_eps=22.15)"
+Net Earnings,10677000192.0
+Earnings Growth,-0.072
 
 DEBT
-Total Debt,37852999680.0
-Debt to Equity,214.525
+Total Debt,37901000704.0
+Debt to Equity,195.336
 
 MARGINS
-Profit Margins,0.16789
-Gross Profit Margins,0.32257998
-Operating Margins,0.2216
+Profit Margins,0.1626
+Gross Profit Margins,0.32529
+Operating Margins,0.19496
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.2
-Dividend Yield,0.0147
-Dividend Payout Ratio,0.2305
-Five Year Avg Dividend Yield,2.3
-Trailing Annual Dividend Rate,5.2
-Trailing Annual Dividend Yield,0.014781966
+Dividend Rate,5.64
+Dividend Yield,0.0146
+Dividend Payout Ratio,0.2465
+Five Year Avg Dividend Yield,2.13
+Trailing Annual Dividend Rate,5.42
+Trailing Annual Dividend Yield,0.014092198
 
 FINANCIAL RATIO
-Debt to Equity,214.525
-Price to Cash Flow,4.9653967366855636e-08
-Enterprise to EBITDA,12.998
-Price to Book,9.841336
-Price to Earnings,"PriceToEarnings(trailing_pe=16.024843, forward_pe=15.540517)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.14, forward_eps=22.83)"
-Enterprise to Revenue,3.091
+Debt to Equity,195.336
+Price to Cash Flow,5.6721779532533865e-08
+Enterprise to EBITDA,13.877
+Price to Book,9.862356
+Price to Earnings,"PriceToEarnings(trailing_pe=18.395079, forward_pe=17.888489)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=21.54, forward_eps=22.15)"
+Enterprise to Revenue,3.343
 
 CASH FLOW
-Free to Cash Flow,7145249792.0
-Operating to Cash Flow,13363999744.0
+Free to Cash Flow,6985500160.0
+Operating to Cash Flow,12645000192.0
 
 PROFITABILITY
-Return on Equity,0.62789
-Return on Assets,0.10358
-Return on Invested Capital,0.29714950160820286
-Return on Investment,-0.05546351084812623
+Return on Equity,0.53475
+Return on Assets,0.09932
+Return on Invested Capital,0.28170760619403074
+Return on Investment,-0.054197970517766494
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.023
-SUM DIVIDEND SCORE,4.023
+5 Year Average,0.0213
+SUM DIVIDEND SCORE,8.0213
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,85.20999999999998
+Target High Price Diff Current Price,118.76999999999998
 Recommendation Key,0
-SUM ANALYST RATING SCORE,85.20999999999998
+SUM ANALYST RATING SCORE,118.76999999999998
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Home Improvement Retail
 Sector,Consumer Cyclical
 Website,https://www.homedepot.com
-Price,347.44
+Price,409.38
 Currency,USD
 
 REVENUE
-Total Revenue,152668995584.0
-Revenue Per Share,152.822
-Revenue Growth,-0.029
+Total Revenue,154595999744.0
+Revenue Per Share,156.158
+Revenue Growth,0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.1, forward_eps=16.43)"
-Net Earnings,15143000064.0
-Earnings Growth,-0.148
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.74, forward_eps=15.6)"
+Net Earnings,14609999872.0
+Earnings Growth,-0.037
 
 DEBT
-Total Debt,53100998656.0
-Debt to Equity,5086.303
+Total Debt,63378001920.0
+Debt to Equity,1095.368
 
 MARGINS
-Profit Margins,0.09919
-Gross Profit Margins,0.33379
-Operating Margins,0.1191
+Profit Margins,0.0945
+Gross Profit Margins,0.33495
+Operating Margins,0.13472
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,9.0
-Dividend Yield,0.025999999
-Dividend Payout Ratio,0.5533
-Five Year Avg Dividend Yield,2.29
-Trailing Annual Dividend Rate,8.52
-Trailing Annual Dividend Yield,0.02452222
+Dividend Yield,0.022
+Dividend Payout Ratio,0.6001
+Five Year Avg Dividend Yield,2.3
+Trailing Annual Dividend Rate,2.25
+Trailing Annual Dividend Yield,0.005496116
 
 FINANCIAL RATIO
-Debt to Equity,5086.303
-Price to Cash Flow,2.293592884802448e-08
-Enterprise to EBITDA,15.747
-Price to Book,329.30606
-Price to Earnings,"PriceToEarnings(trailing_pe=22.942383, forward_pe=21.085209)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.1, forward_eps=16.43)"
-Enterprise to Revenue,2.572
+Debt to Equity,1095.368
+Price to Cash Flow,3.515039899625579e-08
+Enterprise to EBITDA,18.885
+Price to Book,71.89758
+Price to Earnings,"PriceToEarnings(trailing_pe=28.481005, forward_pe=26.910896)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=14.74, forward_eps=15.6)"
+Enterprise to Revenue,3.024
 
 CASH FLOW
-Free to Cash Flow,15104249856.0
-Operating to Cash Flow,21172000768.0
+Free to Cash Flow,11943249920.0
+Operating to Cash Flow,19872000000.0
 
 PROFITABILITY
-Return on Equity,11.621639
-Return on Assets,0.17723
-Return on Invested Capital,0.28517354563893793
-Return on Investment,0.2294393949090909
+Return on Equity,4.04933
+Return on Assets,0.15313
+Return on Invested Capital,0.23052162308770344
+Return on Investment,0.1270434771478261
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0229
-SUM DIVIDEND SCORE,9.0229
+5 Year Average,0.023
+SUM DIVIDEND SCORE,8.023
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,93.57
-Recommendation Key,1
-SUM ANALYST RATING SCORE,94.57
+Target High Price Diff Current Price,80.19
+Recommendation Key,100
+SUM ANALYST RATING SCORE,180.19
 
 
 

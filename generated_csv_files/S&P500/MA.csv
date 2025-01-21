@@ -5,68 +5,68 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.mastercard.com
-Price,455.49
+Price,524.7
 Currency,USD
 
 REVENUE
-Total Revenue,25698000896.0
-Revenue Per Share,27.367
-Revenue Growth,0.104
+Total Revenue,27225999360.0
+Revenue Per Share,29.283
+Revenue Growth,0.128
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.57, forward_eps=16.63)"
-Net Earnings,11845000192.0
-Earnings Growth,0.304
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.22, forward_eps=16.38)"
+Net Earnings,12323000320.0
+Earnings Growth,0.041
 
 DEBT
-Total Debt,15628999680.0
-Debt to Equity,213.862
+Total Debt,18357999616.0
+Debt to Equity,244.839
 
 MARGINS
-Profit Margins,0.46093
+Profit Margins,0.45262
 Gross Profit Margins,1.0
-Operating Margins,0.58759
+Operating Margins,0.59301996
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.64
+Dividend Rate,3.04
 Dividend Yield,0.0058
-Dividend Payout Ratio,0.1884
-Five Year Avg Dividend Yield,0.51
-Trailing Annual Dividend Rate,2.46
-Trailing Annual Dividend Yield,0.0054007773
+Dividend Payout Ratio,0.1927
+Five Year Avg Dividend Yield,0.52
+Trailing Annual Dividend Rate,2.64
+Trailing Annual Dividend Yield,0.0050314465
 
 FINANCIAL RATIO
-Debt to Equity,213.862
-Price to Cash Flow,4.133695328077387e-08
-Enterprise to EBITDA,27.477
-Price to Book,58.73779
-Price to Earnings,"PriceToEarnings(trailing_pe=36.354816, forward_pe=27.479256)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.57, forward_eps=16.63)"
-Enterprise to Revenue,16.844
+Debt to Equity,244.839
+Price to Cash Flow,3.8916052478494324e-08
+Enterprise to EBITDA,29.111
+Price to Book,65.327065
+Price to Earnings,"PriceToEarnings(trailing_pe=39.962177, forward_pe=32.252747)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.22, forward_eps=16.38)"
+Enterprise to Revenue,17.946
 
 CASH FLOW
-Free to Cash Flow,11054999552.0
-Operating to Cash Flow,11733000192.0
+Free to Cash Flow,13575374848.0
+Operating to Cash Flow,14076000256.0
 
 PROFITABILITY
-Return on Equity,1.86315
+Return on Equity,1.7757801
 Return on Assets,0.22886999
-Return on Invested Capital,0.7578860086139336
-Return on Investment,1.6451389155555556
+Return on Invested Capital,0.6712605170680659
+Return on Investment,17.604286171428573
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0051
-SUM DIVIDEND SCORE,8.0051
+5 Year Average,0.0052
+SUM DIVIDEND SCORE,8.0052
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,158.01999999999998
-Recommendation Key,1
-SUM ANALYST RATING SCORE,159.01999999999998
+Target High Price Diff Current Price,125.70000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,225.70000000000005
 
 
 

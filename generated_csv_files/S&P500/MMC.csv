@@ -5,68 +5,68 @@ Country,United States
 Industry,Insurance Brokers
 Sector,Financial Services
 Website,https://www.mmc.com
-Price,204.84
+Price,215.23
 Currency,USD
 
 REVENUE
-Total Revenue,23285000192.0
-Revenue Per Share,47.207
-Revenue Growth,0.093
+Total Revenue,23945000960.0
+Revenue Per Share,48.619
+Revenue Growth,0.059
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.87, forward_eps=9.48)"
-Net Earnings,3920999936.0
-Earnings Growth,0.142
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.11, forward_eps=9.43)"
+Net Earnings,4028000000.0
+Earnings Growth,0.027
 
 DEBT
-Total Debt,15379000320.0
-Debt to Equity,121.843
+Total Debt,14778999808.0
+Debt to Equity,106.462
 
 MARGINS
-Profit Margins,0.16839
-Gross Profit Margins,0.44625
-Operating Margins,0.31145
+Profit Margins,0.16822
+Gross Profit Margins,0.45241
+Operating Margins,0.20994
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.84
-Dividend Yield,0.0138
-Dividend Payout Ratio,0.4353
-Five Year Avg Dividend Yield,1.46
-Trailing Annual Dividend Rate,2.84
-Trailing Annual Dividend Yield,0.013864479
+Dividend Rate,3.26
+Dividend Yield,0.0150999995
+Dividend Payout Ratio,0.3761
+Five Year Avg Dividend Yield,1.42
+Trailing Annual Dividend Rate,3.05
+Trailing Annual Dividend Yield,0.014170887
 
 FINANCIAL RATIO
-Debt to Equity,121.843
-Price to Cash Flow,5.0349049642741275e-08
-Enterprise to EBITDA,16.808
-Price to Book,8.154805
-Price to Earnings,"PriceToEarnings(trailing_pe=26.118172, forward_pe=21.682491)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.87, forward_eps=9.48)"
-Enterprise to Revenue,4.956
+Debt to Equity,106.462
+Price to Cash Flow,5.9004067511835026e-08
+Enterprise to EBITDA,16.406
+Price to Book,7.7414265
+Price to Earnings,"PriceToEarnings(trailing_pe=26.609125, forward_pe=22.88441)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.11, forward_eps=9.43)"
+Enterprise to Revenue,4.965
 
 CASH FLOW
-Free to Cash Flow,4082500096.0
-Operating to Cash Flow,4296000000.0
+Free to Cash Flow,3657374976.0
+Operating to Cash Flow,4128999936.0
 
 PROFITABILITY
-Return on Equity,0.3337
-Return on Assets,0.09357
-Return on Invested Capital,0.25495804980733155
-Return on Investment,0.05007662753512133
+Return on Equity,0.32048
+Return on Assets,0.08321
+Return on Invested Capital,0.2725488899608779
+Return on Investment,0.04577272727272727
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0146
-SUM DIVIDEND SCORE,5.0146
+5 Year Average,0.014199999999999999
+SUM DIVIDEND SCORE,8.0142
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.44999999999999
+Target High Price Diff Current Price,43.19999999999999
 Recommendation Key,0
-SUM ANALYST RATING SCORE,32.44999999999999
+SUM ANALYST RATING SCORE,43.19999999999999
 
 
 

@@ -5,68 +5,68 @@ Country,Ireland
 Industry,Security & Protection Services
 Sector,Industrials
 Website,https://www.allegion.com
-Price,125.67
+Price,133.59
 Currency,USD
 
 REVENUE
-Total Revenue,3621700096.0
-Revenue Per Share,41.249
-Revenue Growth,-0.032
+Total Revenue,3724000000.0
+Revenue Per Share,42.584
+Revenue Growth,0.054
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.14, forward_eps=7.56)"
-Net Earnings,540700032.0
-Earnings Growth,0.007
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.51, forward_eps=7.79)"
+Net Earnings,572000000.0
+Earnings Growth,0.124
 
 DEBT
-Total Debt,2164699904.0
-Debt to Equity,160.241
+Total Debt,2558599936.0
+Debt to Equity,162.864
 
 MARGINS
-Profit Margins,0.14929
-Gross Profit Margins,0.43678
-Operating Margins,0.19253
+Profit Margins,0.15359999
+Gross Profit Margins,0.43960997
+Operating Margins,0.22242
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.92
-Dividend Yield,0.0152
-Dividend Payout Ratio,0.2985
-Five Year Avg Dividend Yield,1.25
-Trailing Annual Dividend Rate,1.83
-Trailing Annual Dividend Yield,0.014561948
+Dividend Yield,0.014400001
+Dividend Payout Ratio,0.2908
+Five Year Avg Dividend Yield,1.31
+Trailing Annual Dividend Rate,1.89
+Trailing Annual Dividend Yield,0.014147766
 
 FINANCIAL RATIO
-Debt to Equity,160.241
-Price to Cash Flow,2.99379211221631e-07
-Enterprise to EBITDA,15.293
-Price to Book,8.15522
-Price to Earnings,"PriceToEarnings(trailing_pe=20.519545, forward_pe=16.665344)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.14, forward_eps=7.56)"
-Enterprise to Revenue,3.531
+Debt to Equity,162.864
+Price to Cash Flow,2.78764088994989e-07
+Enterprise to EBITDA,14.962
+Price to Book,7.4630666
+Price to Earnings,"PriceToEarnings(trailing_pe=20.718895, forward_pe=17.314507)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.51, forward_eps=7.79)"
+Enterprise to Revenue,3.569
 
 CASH FLOW
-Free to Cash Flow,420837504.0
-Operating to Cash Flow,582700032.0
+Free to Cash Flow,483849984.0
+Operating to Cash Flow,675500032.0
 
 PROFITABILITY
-Return on Equity,0.45151
-Return on Assets,0.10954001
-Return on Invested Capital,0.24978059413317164
-Return on Investment,0.056499480877742946
+Return on Equity,0.40822
+Return on Assets,0.10704
+Return on Invested Capital,0.22355976325624533
+Return on Investment,0.05301204819277108
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0125
-SUM DIVIDEND SCORE,8.0125
+5 Year Average,0.0131
+SUM DIVIDEND SCORE,8.0131
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,26.010000000000005
+Target High Price Diff Current Price,30.120000000000005
 Recommendation Key,0
-SUM ANALYST RATING SCORE,26.010000000000005
+SUM ANALYST RATING SCORE,30.120000000000005
 
 
 

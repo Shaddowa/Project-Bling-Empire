@@ -5,54 +5,54 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.resmed.com
-Price,216.84
+Price,239.78
 Currency,USD
 
 REVENUE
-Total Revenue,4584159232.0
-Revenue Per Share,31.175
-Revenue Growth,0.072
+Total Revenue,4807484928.0
+Revenue Per Share,32.711
+Revenue Growth,0.111
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.5, forward_eps=8.63)"
-Net Earnings,958379008.0
-Earnings Growth,0.291
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.53, forward_eps=10.29)"
+Net Earnings,1112883968.0
+Earnings Growth,0.416
 
 DEBT
-Total Debt,1167444992.0
-Debt to Equity,25.215
+Total Debt,850241984.0
+Debt to Equity,16.366
 
 MARGINS
-Profit Margins,0.20906
-Gross Profit Margins,0.56511
-Operating Margins,0.31294
+Profit Margins,0.23149
+Gross Profit Margins,0.5833
+Operating Margins,0.3163
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.92
-Dividend Yield,0.009
-Dividend Payout Ratio,0.2892
-Five Year Avg Dividend Yield,0.87
-Trailing Annual Dividend Rate,1.88
-Trailing Annual Dividend Yield,0.008669987
+Dividend Rate,2.12
+Dividend Yield,0.0088
+Dividend Payout Ratio,0.2613
+Five Year Avg Dividend Yield,0.83
+Trailing Annual Dividend Rate,1.97
+Trailing Annual Dividend Yield,0.008215865
 
 FINANCIAL RATIO
-Debt to Equity,25.215
-Price to Cash Flow,2.23695216830069e-07
-Enterprise to EBITDA,22.422
-Price to Book,6.7836294
-Price to Earnings,"PriceToEarnings(trailing_pe=32.895386, forward_pe=24.776361)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.5, forward_eps=8.63)"
-Enterprise to Revenue,7.05
+Debt to Equity,16.366
+Price to Cash Flow,2.1965274216007576e-07
+Enterprise to EBITDA,21.815
+Price to Book,6.9540033
+Price to Earnings,"PriceToEarnings(trailing_pe=32.68659, forward_pe=23.91934)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.53, forward_eps=10.29)"
+Enterprise to Revenue,7.406
 
 CASH FLOW
-Free to Cash Flow,955854144.0
-Operating to Cash Flow,1198582016.0
+Free to Cash Flow,1120541440.0
+Operating to Cash Flow,1440514944.0
 
 PROFITABILITY
-Return on Equity,0.22386
-Return on Assets,0.11911
-Return on Invested Capital,0.82092003365637
+Return on Equity,0.23565
+Return on Assets,0.13271
+Return on Invested Capital,1.3089025743437086
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0087
-SUM DIVIDEND SCORE,8.0087
+5 Year Average,0.0083
+SUM DIVIDEND SCORE,8.0083
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.180000000000007
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.180000000000007
+Target High Price Diff Current Price,48.870000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,148.87
 
 
 

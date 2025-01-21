@@ -5,27 +5,27 @@ Country,Norway
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.pcibiotech.com
-Price,1.648
+Price,1.26
 Currency,NOK
 
 REVENUE
-Total Revenue,2990000.0
-Revenue Per Share,0.08
-Revenue Growth,0.084
+Total Revenue,5999000.0
+Revenue Per Share,0.161
+Revenue Growth,8.259
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=-2.92)"
-Net Earnings,-20315000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.42, forward_eps=-2.92)"
+Net Earnings,-15912000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,319000.0
-Debt to Equity,0.817
+Total Debt,475000.0
+Debt to Equity,1.489
 
 MARGINS
-Profit Margins,0.0
+Profit Margins,-2.6524398
 Gross Profit Margins,1.0
-Operating Margins,-3.70618
+Operating Margins,-2.4106798
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,0.817
-Price to Cash Flow,-1.8313708096662043e-07
-Enterprise to EBITDA,-0.862
-Price to Book,1.5296367
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.5479452)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.54, forward_eps=-2.92)"
-Enterprise to Revenue,6.307
+Debt to Equity,1.489
+Price to Cash Flow,-1.377633508378348e-07
+Enterprise to EBITDA,-0.953
+Price to Book,1.6070174
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-0.4705479)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.42, forward_eps=-2.92)"
+Enterprise to Revenue,2.829
 
 CASH FLOW
-Free to Cash Flow,-8736625.0
-Operating to Cash Flow,-15072000.0
+Free to Cash Flow,-9973625.0
+Operating to Cash Flow,-14592000.0
 
 PROFITABILITY
-Return on Equity,-0.42126998
-Return on Assets,-0.25854
-Return on Invested Capital,-63.68317676300034
+Return on Equity,-0.4038
+Return on Assets,-0.24735
+Return on Invested Capital,-33.498887070424324
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE

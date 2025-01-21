@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,EG
 Company,"Everest Group, Ltd."
 Country,Bermuda
-Industry,Insurance—Reinsurance
+Industry,Insurance - Reinsurance
 Sector,Financial Services
 Website,https://www.everestglobal.com
-Price,380.53
+Price,362.17
 Currency,USD
 
 REVENUE
-Total Revenue,15346499584.0
-Revenue Per Share,362.373
-Revenue Growth,0.219
+Total Revenue,16436500480.0
+Revenue Per Share,384.03
+Revenue Growth,0.128
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=67.74, forward_eps=69.09)"
-Net Earnings,2852999936.0
-Earnings Growth,0.814
+Earnings Per Share,"EarningsPerShare(trailing_eps=64.1, forward_eps=66.47)"
+Net Earnings,2737999872.0
+Earnings Growth,-0.245
 
 DEBT
-Total Debt,3385999872.0
-Debt to Equity,24.846
+Total Debt,3387000064.0
+Debt to Equity,22.087
 
 MARGINS
-Profit Margins,0.18799
-Gross Profit Margins,0.17628999
-Operating Margins,0.20405
+Profit Margins,0.16853
+Gross Profit Margins,0.17518999
+Operating Margins,0.16320999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,7.0
-Dividend Yield,0.0183
-Dividend Payout Ratio,0.1018
-Five Year Avg Dividend Yield,2.27
-Trailing Annual Dividend Rate,6.9
-Trailing Annual Dividend Yield,0.018132605
+Dividend Rate,8.0
+Dividend Yield,0.0221
+Dividend Payout Ratio,0.117
+Five Year Avg Dividend Yield,2.24
+Trailing Annual Dividend Rate,7.5
+Trailing Annual Dividend Yield,0.020708507
 
 FINANCIAL RATIO
-Debt to Equity,24.846
-Price to Cash Flow,-7.3025983313468415e-06
+Debt to Equity,22.087
+Price to Cash Flow,1.0484520412821958e-07
 Enterprise to EBITDA,None
-Price to Book,1.2194873
-Price to Earnings,"PriceToEarnings(trailing_pe=5.652938, forward_pe=5.542481)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=67.74, forward_eps=69.09)"
-Enterprise to Revenue,1.048
+Price to Book,1.027331
+Price to Earnings,"PriceToEarnings(trailing_pe=5.7156787, forward_pe=5.511885)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=64.1, forward_eps=66.47)"
+Enterprise to Revenue,0.817
 
 CASH FLOW
-Free to Cash Flow,-52437500.0
-Operating to Cash Flow,4591000064.0
+Free to Cash Flow,3494437376.0
+Operating to Cash Flow,5193999872.0
 
 PROFITABILITY
-Return on Equity,0.25484
-Return on Assets,0.03543
-Return on Invested Capital,0.8425870582608458
-Return on Investment,0.10262589697841727
+Return on Equity,0.20858
+Return on Assets,0.03416
+Return on Invested Capital,0.808384863292203
+Return on Investment,0.09312924734693878
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0227
-SUM DIVIDEND SCORE,8.0227
+5 Year Average,0.022400000000000003
+SUM DIVIDEND SCORE,8.0224
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,87.07
-Recommendation Key,1
-SUM ANALYST RATING SCORE,88.07
+Target High Price Diff Current Price,132.625
+Recommendation Key,100
+SUM ANALYST RATING SCORE,232.625
 
 
 

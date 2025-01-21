@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,GL
 Company,Globe Life Inc.
 Country,United States
-Industry,Insurance—Life
+Industry,Insurance - Life
 Sector,Financial Services
 Website,https://www.home.globelifeinsurance.com
-Price,86.88
+Price,118.3
 Currency,USD
 
 REVENUE
-Total Revenue,5542353920.0
-Revenue Per Share,58.678
-Revenue Growth,0.072
+Total Revenue,5727482880.0
+Revenue Per Share,62.39
+Revenue Growth,0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.46, forward_eps=12.86)"
-Net Earnings,1001361984.0
-Earnings Growth,0.171
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.79, forward_eps=13.55)"
+Net Earnings,1090368000.0
+Earnings Growth,0.284
 
 DEBT
-Total Debt,2253671936.0
-Debt to Equity,50.229
+Total Debt,3133093888.0
+Debt to Equity,67.544
 
 MARGINS
-Profit Margins,0.18067
-Gross Profit Margins,0.30981
-Operating Margins,0.24259001
+Profit Margins,0.19037001
+Gross Profit Margins,0.32757
+Operating Margins,0.28285998
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.96
-Dividend Yield,0.0111
-Dividend Payout Ratio,0.0875
-Five Year Avg Dividend Yield,0.79
-Trailing Annual Dividend Rate,0.675
-Trailing Annual Dividend Yield,0.0077693374
+Dividend Yield,0.0081
+Dividend Payout Ratio,0.0801
+Five Year Avg Dividend Yield,0.82
+Trailing Annual Dividend Rate,0.945
+Trailing Annual Dividend Yield,0.007988165
 
 FINANCIAL RATIO
-Debt to Equity,50.229
-Price to Cash Flow,None
-Enterprise to EBITDA,7.465
-Price to Book,1.7637583
-Price to Earnings,"PriceToEarnings(trailing_pe=8.269598, forward_pe=6.726283)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.46, forward_eps=12.86)"
-Enterprise to Revenue,1.836
+Debt to Equity,67.544
+Price to Cash Flow,9.536022944034405e-08
+Enterprise to EBITDA,8.577
+Price to Book,2.184735
+Price to Earnings,"PriceToEarnings(trailing_pe=10.199322, forward_pe=8.874538)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.79, forward_eps=13.55)"
+Enterprise to Revenue,2.24
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,1261007872.0
+Operating to Cash Flow,1456909952.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,None
-Return on Invested Capital,0.44432463581468973
-Return on Investment,0.061930595023841774
+Return on Equity,0.23546
+Return on Assets,0.03308
+Return on Invested Capital,0.34801637608787506
+Return on Investment,0.0660720972931702
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0079
-SUM DIVIDEND SCORE,8.0079
+5 Year Average,0.008199999999999999
+SUM DIVIDEND SCORE,8.0082
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,73.5
-Recommendation Key,1
-SUM ANALYST RATING SCORE,74.5
+Target High Price Diff Current Price,67.75
+Recommendation Key,100
+SUM ANALYST RATING SCORE,167.75
 
 
 

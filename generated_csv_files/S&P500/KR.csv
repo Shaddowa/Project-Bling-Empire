@@ -5,17 +5,17 @@ Country,United States
 Industry,Grocery Stores
 Sector,Consumer Defensive
 Website,https://www.thekrogerco.com
-Price,55.0
+Price,58.36
 Currency,USD
 
 REVENUE
-Total Revenue,150039003136.0
-Revenue Per Share,208.968
+Total Revenue,150202007552.0
+Revenue Per Share,208.614
 Revenue Growth,-0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.96, forward_eps=4.55)"
-Net Earnings,2146000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.78, forward_eps=4.58)"
+Net Earnings,2774000128.0
 Earnings Growth,-0.882
 
 DEBT
@@ -23,50 +23,50 @@ Total Debt,21152999424.0
 Debt to Equity,229.201
 
 MARGINS
-Profit Margins,0.01442
-Gross Profit Margins,0.22963
+Profit Margins,0.018609999
+Gross Profit Margins,0.23159
 Operating Margins,0.01993
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.16
-Dividend Yield,0.0208
-Dividend Payout Ratio,0.3716
-Five Year Avg Dividend Yield,2.05
-Trailing Annual Dividend Rate,1.13
-Trailing Annual Dividend Yield,0.020545455
+Dividend Rate,1.28
+Dividend Yield,0.0214
+Dividend Payout Ratio,0.3037
+Five Year Avg Dividend Yield,2.02
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,229.201
-Price to Cash Flow,1.6370758020895943e-08
-Enterprise to EBITDA,7.44
-Price to Book,4.5307183
-Price to Earnings,"PriceToEarnings(trailing_pe=18.885136, forward_pe=12.285714)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.96, forward_eps=4.55)"
-Enterprise to Revenue,0.404
+Price to Cash Flow,2.9205405430449712e-08
+Enterprise to EBITDA,7.89
+Price to Book,4.7738695
+Price to Earnings,"PriceToEarnings(trailing_pe=15.582011, forward_pe=12.860263)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.78, forward_eps=4.58)"
+Enterprise to Revenue,0.424
 
 CASH FLOW
-Free to Cash Flow,3414625024.0
-Operating to Cash Flow,6787999744.0
+Free to Cash Flow,2016749952.0
+Operating to Cash Flow,5888000000.0
 
 PROFITABILITY
-Return on Equity,0.20069
-Return on Assets,0.06225
-Return on Invested Capital,0.10145133348386808
-Return on Investment,-0.007101257445400397
+Return on Equity,0.24285999
+Return on Assets,0.059609998
+Return on Invested Capital,0.13113980059180835
+Return on Investment,-0.008300419293836027
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.020499999999999997
-SUM DIVIDEND SCORE,8.0205
+5 Year Average,0.0202
+SUM DIVIDEND SCORE,4.0202
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,14.100000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,15.100000000000001
+Target High Price Diff Current Price,16.1
+Recommendation Key,100
+SUM ANALYST RATING SCORE,116.1
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.monolithicpower.com
-Price,708.02
+Price,625.82
 Currency,USD
 
 REVENUE
-Total Revenue,1827891968.0
-Revenue Per Share,38.113
-Revenue Growth,0.015
+Total Revenue,2039447040.0
+Revenue Per Share,42.048
+Revenue Growth,0.306
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.36, forward_eps=16.73)"
-Net Earnings,410112992.0
-Earnings Growth,-0.164
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.89, forward_eps=17.18)"
+Net Earnings,434241984.0
+Earnings Growth,0.19
 
 DEBT
-Total Debt,8555000.0
-Debt to Equity,0.405
+Total Debt,16296000.0
+Debt to Equity,0.693
 
 MARGINS
-Profit Margins,0.22436
-Gross Profit Margins,0.55516
-Operating Margins,0.20941
+Profit Margins,0.21292
+Gross Profit Margins,0.55289
+Operating Margins,0.26451
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.0
-Dividend Yield,0.0070999996
-Dividend Payout Ratio,0.5066
-Five Year Avg Dividend Yield,0.7
-Trailing Annual Dividend Rate,4.25
-Trailing Annual Dividend Yield,0.0060026553
+Dividend Yield,0.008
+Dividend Payout Ratio,0.5355
+Five Year Avg Dividend Yield,0.65
+Trailing Annual Dividend Rate,4.75
+Trailing Annual Dividend Yield,0.007590042
 
 FINANCIAL RATIO
-Debt to Equity,0.405
-Price to Cash Flow,1.6489115409443788e-06
-Enterprise to EBITDA,66.933
-Price to Book,16.176748
-Price to Earnings,"PriceToEarnings(trailing_pe=84.03589, forward_pe=41.99283)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.36, forward_eps=16.73)"
-Enterprise to Revenue,18.008
+Debt to Equity,0.693
+Price to Cash Flow,1.2362892064642418e-06
+Enterprise to EBITDA,55.687
+Price to Book,13.249881
+Price to Earnings,"PriceToEarnings(trailing_pe=71.85489, forward_pe=37.182186)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.89, forward_eps=17.18)"
+Enterprise to Revenue,14.259
 
 CASH FLOW
-Free to Cash Flow,426062880.0
-Operating to Cash Flow,667457024.0
+Free to Cash Flow,516699488.0
+Operating to Cash Flow,774041984.0
 
 PROFITABILITY
-Return on Equity,0.21086
-Return on Assets,0.11793
-Return on Invested Capital,47.93815430670913
-Return on Investment,-0.06337216904890675
+Return on Equity,0.20214
+Return on Assets,0.11712
+Return on Invested Capital,26.6470728594729
+Return on Investment,-0.04565105695843233
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.006999999999999999
-SUM DIVIDEND SCORE,9.007
+5 Year Average,0.006500000000000001
+SUM DIVIDEND SCORE,9.0065
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,147.46000000000004
-Recommendation Key,1
-SUM ANALYST RATING SCORE,148.46000000000004
+Target High Price Diff Current Price,461.21000000000004
+Recommendation Key,100
+SUM ANALYST RATING SCORE,561.21
 
 
 

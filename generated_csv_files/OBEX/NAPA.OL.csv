@@ -5,27 +5,27 @@ Country,Denmark
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.napatech.com
-Price,29.4
+Price,24.1
 Currency,NOK
 
 REVENUE
-Total Revenue,182674000.0
+Total Revenue,136811008.0
 Revenue Per Share,2.073
-Revenue Growth,0.712
+Revenue Growth,-0.315
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.56, forward_eps=-0.09)"
-Net Earnings,-32016000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.41, forward_eps=-0.13)"
+Net Earnings,-89494000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,52241000.0
-Debt to Equity,46.765
+Total Debt,53399000.0
+Debt to Equity,31.836
 
 MARGINS
-Profit Margins,-0.17525999
-Gross Profit Margins,0.73107004
-Operating Margins,-0.00296
+Profit Margins,-0.65414
+Gross Profit Margins,0.69439006
+Operating Margins,-0.72036004
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,46.765
-Price to Cash Flow,-3.963512371404424e-06
-Enterprise to EBITDA,-107.232
-Price to Book,27.375202
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-377.77777)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.56, forward_eps=-0.09)"
-Enterprise to Revenue,16.797
+Debt to Equity,31.836
+Price to Cash Flow,-4.971651011254972e-07
+Enterprise to EBITDA,-23.686
+Price to Book,18.921095
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-180.76924)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.41, forward_eps=-0.13)"
+Enterprise to Revenue,15.485
 
 CASH FLOW
-Free to Cash Flow,-8578250.0
-Operating to Cash Flow,-6785000.0
+Free to Cash Flow,-47268000.0
+Operating to Cash Flow,-68018000.0
 
 PROFITABILITY
-Return on Equity,-0.32022
-Return on Assets,-0.10592
-Return on Invested Capital,-0.6128519599325791
-Return on Investment,0.04162787673904564
+Return on Equity,-0.64856005
+Return on Assets,-0.25296
+Return on Invested Capital,-1.6759489488280943
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
+Target High Price Diff Current Price,13.180916000000003
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+SUM ANALYST RATING SCORE,13.180916000000003
 
 
 

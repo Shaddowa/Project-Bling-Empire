@@ -5,27 +5,27 @@ Country,Norway
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.nextbiometrics.com
-Price,8.62
+Price,6.56
 Currency,NOK
 
 REVENUE
-Total Revenue,40380000.0
-Revenue Per Share,0.41
-Revenue Growth,0.881
+Total Revenue,72989000.0
+Revenue Per Share,0.702
+Revenue Growth,3.612
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.69, forward_eps=-0.25)"
-Net Earnings,-66824000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.33, forward_eps=-0.25)"
+Net Earnings,-35056000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1461000.0
-Debt to Equity,1.731
+Total Debt,1338000.0
+Debt to Equity,1.372
 
 MARGINS
-Profit Margins,-1.65488
-Gross Profit Margins,0.32422
-Operating Margins,-1.2278199
+Profit Margins,-0.48029
+Gross Profit Margins,0.52426
+Operating Margins,-0.05233
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,1.731
-Price to Cash Flow,-2.637840153618997e-07
-Enterprise to EBITDA,-13.442
-Price to Book,10.550796
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-34.48)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.69, forward_eps=-0.25)"
-Enterprise to Revenue,20.725
+Debt to Equity,1.372
+Price to Cash Flow,-1.3346088857759137e-07
+Enterprise to EBITDA,-20.782
+Price to Book,7.1991
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-25.6)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.33, forward_eps=-0.25)"
+Enterprise to Revenue,9.25
 
 CASH FLOW
-Free to Cash Flow,-32678250.0
-Operating to Cash Flow,-55888000.0
+Free to Cash Flow,-47954124.0
+Operating to Cash Flow,-60571000.0
 
 PROFITABILITY
-Return on Equity,-0.78689003
-Return on Assets,-0.37175
-Return on Invested Capital,-45.73850967257878
-Return on Investment,-1.898409090909091
+Return on Equity,-0.34209
+Return on Assets,-0.17198999
+Return on Invested Capital,-26.200281545552844
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -65,8 +65,8 @@ SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
 Target High Price Diff Current Price,0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,1
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

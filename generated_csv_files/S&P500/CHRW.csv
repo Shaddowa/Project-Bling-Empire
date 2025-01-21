@@ -5,68 +5,68 @@ Country,United States
 Industry,Integrated Freight & Logistics
 Sector,Industrials
 Website,https://www.chrobinson.com
-Price,81.26
+Price,103.58
 Currency,USD
 
 REVENUE
-Total Revenue,17397084160.0
-Revenue Per Share,146.529
-Revenue Growth,-0.043
+Total Revenue,17762187264.0
+Revenue Per Share,148.876
+Revenue Growth,0.07
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=4.1)"
-Net Earnings,303142016.0
-Earnings Growth,-0.189
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=4.76)"
+Net Earnings,347356992.0
+Earnings Growth,0.176
 
 DEBT
-Total Debt,2085879040.0
-Debt to Equity,145.866
+Total Debt,1916909056.0
+Debt to Equity,116.88
 
 MARGINS
-Profit Margins,0.01742
-Gross Profit Margins,0.06548
-Operating Margins,0.03174
+Profit Margins,0.01956
+Gross Profit Margins,0.07067
+Operating Margins,0.03973
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.44
-Dividend Yield,0.0295
-Dividend Payout Ratio,0.96059996
-Five Year Avg Dividend Yield,2.4
-Trailing Annual Dividend Rate,2.44
-Trailing Annual Dividend Yield,0.030027073
+Dividend Rate,2.48
+Dividend Yield,0.0239
+Dividend Payout Ratio,0.8478
+Five Year Avg Dividend Yield,2.41
+Trailing Annual Dividend Rate,2.45
+Trailing Annual Dividend Yield,0.023653215
 
 FINANCIAL RATIO
-Debt to Equity,145.866
-Price to Cash Flow,2.4659053998558613e-07
-Enterprise to EBITDA,20.516
-Price to Book,6.768123
-Price to Earnings,"PriceToEarnings(trailing_pe=32.56693, forward_pe=20.17561)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=4.1)"
-Enterprise to Revenue,0.67
+Debt to Equity,116.88
+Price to Cash Flow,8.871794455207823e-07
+Enterprise to EBITDA,20.814
+Price to Book,7.4857802
+Price to Earnings,"PriceToEarnings(trailing_pe=35.975777, forward_pe=21.842436)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=4.76)"
+Enterprise to Revenue,0.79
 
 CASH FLOW
-Free to Cash Flow,335454880.0
-Operating to Cash Flow,444079008.0
+Free to Cash Flow,117191624.0
+Operating to Cash Flow,288484992.0
 
 PROFITABILITY
-Return on Equity,0.21565
-Return on Assets,0.057719998
-Return on Invested Capital,0.14533058169268034
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.22818
+Return on Assets,0.07148
+Return on Invested Capital,0.18120681750444947
+Return on Investment,0.023120602248447454
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.024
-SUM DIVIDEND SCORE,4.024
+5 Year Average,0.0241
+SUM DIVIDEND SCORE,8.0241
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.280000000000001
-Recommendation Key,0
-SUM ANALYST RATING SCORE,10.280000000000001
+Target High Price Diff Current Price,36.03
+Recommendation Key,100
+SUM ANALYST RATING SCORE,136.03
 
 
 

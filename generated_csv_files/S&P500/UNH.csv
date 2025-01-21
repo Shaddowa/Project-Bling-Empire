@@ -5,74 +5,74 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.unitedhealthgroup.com
-Price,507.03
+Price,509.76
 Currency,USD
 
 REVENUE
-Total Revenue,379486994432.0
-Revenue Per Share,411.257
-Revenue Growth,0.086
+Total Revenue,393898000384.0
+Revenue Per Share,427.221
+Revenue Growth,0.092
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.36, forward_eps=31.06)"
-Net Earnings,15361000448.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.5, forward_eps=29.9)"
+Net Earnings,14316999680.0
+Earnings Growth,0.043
 
 DEBT
-Total Debt,73637003264.0
-Debt to Equity,75.979
+Total Debt,78009999360.0
+Debt to Equity,74.683
 
 MARGINS
-Profit Margins,0.04048
-Gross Profit Margins,0.24054001
-Operating Margins,0.07947
+Profit Margins,0.03635
+Gross Profit Margins,0.22872
+Operating Margins,0.08637
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,7.52
-Dividend Yield,0.0147
-Dividend Payout Ratio,0.4591
-Five Year Avg Dividend Yield,1.37
-Trailing Annual Dividend Rate,7.52
-Trailing Annual Dividend Yield,0.014831469
+Dividend Rate,8.4
+Dividend Yield,0.0155
+Dividend Payout Ratio,0.5176
+Five Year Avg Dividend Yield,1.35
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,75.979
-Price to Cash Flow,-1.1272716983436146e-07
-Enterprise to EBITDA,14.807
-Price to Book,5.118682
-Price to Earnings,"PriceToEarnings(trailing_pe=31.345354, forward_pe=16.510303)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.36, forward_eps=31.06)"
-Enterprise to Revenue,1.366
+Debt to Equity,74.683
+Price to Cash Flow,-2.1710413988269204e-07
+Enterprise to EBITDA,15.724
+Price to Book,5.0836253
+Price to Earnings,"PriceToEarnings(trailing_pe=33.59161, forward_pe=17.413712)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.5, forward_eps=29.9)"
+Enterprise to Revenue,1.399
 
 CASH FLOW
-Free to Cash Flow,-4549125120.0
-Operating to Cash Flow,13884999680.0
+Free to Cash Flow,-2398249984.0
+Operating to Cash Flow,16641999872.0
 
 PROFITABILITY
-Return on Equity,0.17222
-Return on Assets,0.070879996
-Return on Invested Capital,0.20860436663927817
-Return on Investment,0.04650620783530124
+Return on Equity,0.15252
+Return on Assets,0.06924
+Return on Invested Capital,0.1835277500148784
+Return on Investment,0.03652295836734694
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0137
-SUM DIVIDEND SCORE,5.0137
+5 Year Average,0.013500000000000002
+SUM DIVIDEND SCORE,5.0135
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,162.19000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,163.19000000000005
+Target High Price Diff Current Price,179.33000000000004
+Recommendation Key,0
+SUM ANALYST RATING SCORE,179.33000000000004
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
-Revenue,True
+Earnings,False
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,0.0
 

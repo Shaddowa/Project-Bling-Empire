@@ -5,68 +5,68 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.cognizant.com
-Price,66.8
+Price,77.81
 Currency,USD
 
 REVENUE
-Total Revenue,19300999168.0
-Revenue Per Share,38.448
-Revenue Growth,-0.011
+Total Revenue,19412000768.0
+Revenue Per Share,38.96
+Revenue Growth,0.03
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.17, forward_eps=4.96)"
-Net Earnings,2092000000.0
-Earnings Growth,-0.036
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.52, forward_eps=4.99)"
+Net Earnings,2252000000.0
+Earnings Growth,0.125
 
 DEBT
-Total Debt,1276999936.0
-Debt to Equity,9.466
+Total Debt,1863000064.0
+Debt to Equity,12.891
 
 MARGINS
-Profit Margins,0.108389996
-Gross Profit Margins,0.34370998
-Operating Margins,0.15084
+Profit Margins,0.116009995
+Gross Profit Margins,0.3436
+Operating Margins,0.15285
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.2
-Dividend Yield,0.0179
-Dividend Payout Ratio,0.28059998
-Five Year Avg Dividend Yield,1.42
-Trailing Annual Dividend Rate,1.18
-Trailing Annual Dividend Yield,0.01766467
+Dividend Yield,0.0154
+Dividend Payout Ratio,0.2633
+Five Year Avg Dividend Yield,1.47
+Trailing Annual Dividend Rate,1.2
+Trailing Annual Dividend Yield,0.015422183
 
 FINANCIAL RATIO
-Debt to Equity,9.466
-Price to Cash Flow,3.69239250275634e-08
-Enterprise to EBITDA,9.45
-Price to Book,2.4676714
-Price to Earnings,"PriceToEarnings(trailing_pe=16.062351, forward_pe=13.504033)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.17, forward_eps=4.96)"
-Enterprise to Revenue,1.675
+Debt to Equity,12.891
+Price to Cash Flow,4.72164013700607e-08
+Enterprise to EBITDA,11.071
+Price to Book,2.6677423
+Price to Earnings,"PriceToEarnings(trailing_pe=17.196903, forward_pe=15.577156)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.52, forward_eps=4.99)"
+Enterprise to Revenue,1.979
 
 CASH FLOW
-Free to Cash Flow,1814000000.0
-Operating to Cash Flow,1696000000.0
+Free to Cash Flow,1646249984.0
+Operating to Cash Flow,1940999936.0
 
 PROFITABILITY
-Return on Equity,0.15999
-Return on Assets,0.1005
-Return on Invested Capital,1.6382146126700674
-Return on Investment,-0.09867924528301887
+Return on Equity,0.16478
+Return on Assets,0.097799994
+Return on Invested Capital,1.208802945472743
+Return on Investment,-0.1126
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.014199999999999999
-SUM DIVIDEND SCORE,8.0142
+5 Year Average,0.0147
+SUM DIVIDEND SCORE,4.0147
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,25.019999999999996
+Target High Price Diff Current Price,22.269999999999996
 Recommendation Key,0
-SUM ANALYST RATING SCORE,25.019999999999996
+SUM ANALYST RATING SCORE,22.269999999999996
 
 
 

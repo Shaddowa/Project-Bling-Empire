@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,SNPS
 Company,"Synopsys, Inc."
 Country,United States
-Industry,Software—Infrastructure
+Industry,Software - Infrastructure
 Sector,Technology
 Website,https://www.synopsys.com
-Price,549.88
+Price,526.7
 Currency,USD
 
 REVENUE
-Total Revenue,6130508800.0
-Revenue Per Share,40.3
-Revenue Growth,0.211
+Total Revenue,6483438080.0
+Revenue Per Share,42.471
+Revenue Growth,0.127
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.07, forward_eps=15.53)"
-Net Earnings,1407463936.0
-Earnings Growth,0.651
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.27, forward_eps=14.87)"
+Net Earnings,1511323008.0
+Earnings Growth,0.204
 
 DEBT
-Total Debt,669960000.0
-Debt to Equity,9.99
+Total Debt,673875008.0
+Debt to Equity,8.7
 
 MARGINS
-Profit Margins,0.22958
-Gross Profit Margins,0.80583
-Operating Margins,0.21805
+Profit Margins,0.23111999
+Gross Profit Margins,0.80497
+Operating Margins,0.23608999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,9.99
-Price to Cash Flow,4.947150066200156e-07
-Enterprise to EBITDA,53.248
-Price to Book,12.729456
-Price to Earnings,"PriceToEarnings(trailing_pe=61.379276, forward_pe=35.847393)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.07, forward_eps=15.53)"
-Enterprise to Revenue,13.76
+Debt to Equity,8.7
+Price to Cash Flow,-3.676187534765003e-06
+Enterprise to EBITDA,53.886
+Price to Book,10.564489
+Price to Earnings,"PriceToEarnings(trailing_pe=57.19525, forward_pe=35.655685)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.27, forward_eps=14.87)"
+Enterprise to Revenue,13.734
 
 CASH FLOW
-Free to Cash Flow,1125314560.0
-Operating to Cash Flow,1500733056.0
+Free to Cash Flow,-144225504.0
+Operating to Cash Flow,1170272000.0
 
 PROFITABILITY
-Return on Equity,0.22538
-Return on Assets,0.08753
-Return on Invested Capital,2.1008177266147796
-Return on Investment,-0.07665382821477781
+Return on Equity,0.21819
+Return on Assets,0.0862
+Return on Invested Capital,2.2427347468031806
+Return on Investment,-0.07163143564027945
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,15 +64,15 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,144.99
-Recommendation Key,1
-SUM ANALYST RATING SCORE,145.99
+Target High Price Diff Current Price,168.79999999999995
+Recommendation Key,0
+SUM ANALYST RATING SCORE,168.79999999999995
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
-Revenue,True
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

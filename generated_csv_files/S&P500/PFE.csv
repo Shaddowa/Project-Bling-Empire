@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,PFE
 Company,Pfizer Inc.
 Country,United States
-Industry,Drug Manufacturers—General
+Industry,Drug Manufacturers - General
 Sector,Healthcare
 Website,https://www.pfizer.com
-Price,28.18
+Price,26.3
 Currency,USD
 
 REVENUE
-Total Revenue,54889000960.0
-Revenue Per Share,9.717
-Revenue Growth,-0.195
+Total Revenue,59375001600.0
+Revenue Per Share,10.493
+Revenue Growth,0.312
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.05, forward_eps=2.76)"
-Net Earnings,-288000000.0
-Earnings Growth,-0.434
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.75, forward_eps=2.93)"
+Net Earnings,4273999872.0
+Earnings Growth,None
 
 DEBT
-Total Debt,69902000128.0
-Debt to Equity,75.522
+Total Debt,67945000960.0
+Debt to Equity,73.408
 
 MARGINS
-Profit Margins,-0.00563
-Gross Profit Margins,0.59413
-Operating Margins,0.31631002
+Profit Margins,0.071609996
+Gross Profit Margins,0.69778997
+Operating Margins,0.32987
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.68
-Dividend Yield,0.06
-Dividend Payout Ratio,4.4323997
-Five Year Avg Dividend Yield,4.02
-Trailing Annual Dividend Rate,1.65
-Trailing Annual Dividend Yield,0.058552165
+Dividend Rate,1.72
+Dividend Yield,0.0654
+Dividend Payout Ratio,2.2267
+Five Year Avg Dividend Yield,4.32
+Trailing Annual Dividend Rate,1.67
+Trailing Annual Dividend Yield,0.0634981
 
 FINANCIAL RATIO
-Debt to Equity,75.522
-Price to Cash Flow,8.083985695105341e-09
-Enterprise to EBITDA,22.552
-Price to Book,1.7200934
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.148551)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.05, forward_eps=2.76)"
-Enterprise to Revenue,3.953
+Debt to Equity,73.408
+Price to Cash Flow,2.312895423423995e-09
+Enterprise to EBITDA,11.287
+Price to Book,1.6214391
+Price to Earnings,"PriceToEarnings(trailing_pe=35.22, forward_pe=9.015359)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.75, forward_eps=2.93)"
+Enterprise to Revenue,3.491
 
 CASH FLOW
-Free to Cash Flow,3464875008.0
-Operating to Cash Flow,8577999872.0
+Free to Cash Flow,11420749824.0
+Operating to Cash Flow,11262999552.0
 
 PROFITABILITY
-Return on Equity,-0.00262
-Return on Assets,0.0093
-Return on Invested Capital,-0.004120053781086982
-Return on Investment,-0.0015238095238095239
+Return on Equity,0.04538
+Return on Assets,0.033069998
+Return on Invested Capital,0.06290381647785354
+Return on Investment,0.014040735453350854
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.04019999999999999
-SUM DIVIDEND SCORE,8.0402
+5 Year Average,0.0432
+SUM DIVIDEND SCORE,8.0432
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,16.99
-Recommendation Key,1
-SUM ANALYST RATING SCORE,17.99
+Target High Price Diff Current Price,15.585
+Recommendation Key,100
+SUM ANALYST RATING SCORE,115.58500000000001
 
 
 

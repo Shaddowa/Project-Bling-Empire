@@ -5,68 +5,68 @@ Country,United States
 Industry,Agricultural Inputs
 Sector,Basic Materials
 Website,https://www.cfindustries.com
-Price,74.29
+Price,97.01
 Currency,USD
 
 REVENUE
-Total Revenue,6088999936.0
-Revenue Per Share,31.855
-Revenue Growth,-0.269
+Total Revenue,5983000064.0
+Revenue Per Share,32.397
+Revenue Growth,0.076
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.05, forward_eps=5.89)"
-Net Earnings,1159000064.0
-Earnings Growth,-0.639
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=6.18)"
+Net Earnings,1164000000.0
+Earnings Growth,0.82
 
 DEBT
-Total Debt,3216999936.0
-Debt to Equity,40.233
+Total Debt,3249999872.0
+Debt to Equity,42.006
 
 MARGINS
-Profit Margins,0.19034
-Gross Profit Margins,0.34341
-Operating Margins,0.21088
+Profit Margins,0.19455
+Gross Profit Margins,0.3398
+Operating Margins,0.26496
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.027
-Dividend Payout Ratio,0.28100002
-Five Year Avg Dividend Yield,2.42
-Trailing Annual Dividend Rate,1.7
-Trailing Annual Dividend Yield,0.022883296
+Dividend Yield,0.020599999
+Dividend Payout Ratio,0.30110002
+Five Year Avg Dividend Yield,2.38
+Trailing Annual Dividend Rate,1.9
+Trailing Annual Dividend Yield,0.01958561
 
 FINANCIAL RATIO
-Debt to Equity,40.233
-Price to Cash Flow,5.4380000400978046e-08
-Enterprise to EBITDA,6.57
-Price to Book,2.5059302
-Price to Earnings,"PriceToEarnings(trailing_pe=12.22314, forward_pe=12.555178)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.05, forward_eps=5.89)"
-Enterprise to Revenue,2.877
+Debt to Equity,42.006
+Price to Cash Flow,6.177119863765882e-08
+Enterprise to EBITDA,7.845
+Price to Book,3.169156
+Price to Earnings,"PriceToEarnings(trailing_pe=14.964343, forward_pe=15.279127)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.31, forward_eps=6.18)"
+Enterprise to Revenue,3.476
 
 CASH FLOW
-Free to Cash Flow,1359874944.0
-Operating to Cash Flow,2255000064.0
+Free to Cash Flow,1528625024.0
+Operating to Cash Flow,2331000064.0
 
 PROFITABILITY
-Return on Equity,0.17729999
-Return on Assets,0.080249995
-Return on Invested Capital,0.36027357053958203
-Return on Investment,-0.047892564628099175
+Return on Equity,0.1792
+Return on Assets,0.07842
+Return on Invested Capital,0.3581538569761537
+Return on Investment,-0.05150442477876106
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0242
-SUM DIVIDEND SCORE,8.0242
+5 Year Average,0.023799999999999998
+SUM DIVIDEND SCORE,8.0238
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,22.049999999999997
+Target High Price Diff Current Price,19.575000000000003
 Recommendation Key,0
-SUM ANALYST RATING SCORE,22.049999999999997
+SUM ANALYST RATING SCORE,19.575000000000003
 
 
 

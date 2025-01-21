@@ -5,74 +5,74 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.starbucks.com
-Price,75.68
+Price,95.13
 Currency,USD
 
 REVENUE
-Total Revenue,36530098176.0
-Revenue Per Share,32.048
-Revenue Growth,-0.018
+Total Revenue,36176199680.0
+Revenue Per Share,31.809
+Revenue Growth,-0.032
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.63, forward_eps=4.08)"
-Net Earnings,4157700096.0
-Earnings Growth,-0.139
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=3.72)"
+Net Earnings,3760900096.0
+Earnings Growth,-0.246
 
 DEBT
-Total Debt,25209399296.0
+Total Debt,25803100160.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.11382
-Gross Profit Margins,0.27737
-Operating Margins,0.12039
+Profit Margins,0.10396
+Gross Profit Margins,0.26838
+Operating Margins,0.13262999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.28
-Dividend Yield,0.03
-Dividend Payout Ratio,0.6061
-Five Year Avg Dividend Yield,1.95
-Trailing Annual Dividend Rate,2.24
-Trailing Annual Dividend Yield,0.029598309
+Dividend Rate,2.44
+Dividend Yield,0.0256
+Dividend Payout Ratio,0.6888
+Five Year Avg Dividend Yield,2.07
+Trailing Annual Dividend Rate,2.32
+Trailing Annual Dividend Yield,0.02438768
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.6872983767093634e-08
-Enterprise to EBITDA,15.219
+Price to Cash Flow,4.5686247831245026e-08
+Enterprise to EBITDA,19.417
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=20.966942, forward_pe=18.654411)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.63, forward_eps=4.08)"
-Enterprise to Revenue,2.965
+Price to Earnings,"PriceToEarnings(trailing_pe=29.676739, forward_pe=26.405914)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.31, forward_eps=3.72)"
+Enterprise to Revenue,3.596
 
 CASH FLOW
-Free to Cash Flow,2832212480.0
-Operating to Cash Flow,6537800192.0
+Free to Cash Flow,2150099968.0
+Operating to Cash Flow,6095600128.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.120570004
-Return on Invested Capital,0.16492658347039862
-Return on Investment,-0.02853603360329444
+Return on Assets,0.10503
+Return on Invested Capital,0.1457538076292106
+Return on Investment,-0.02274508676141518
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0195
-SUM DIVIDEND SCORE,8.0195
+5 Year Average,0.0207
+SUM DIVIDEND SCORE,8.0207
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,43.89
-Recommendation Key,0
-SUM ANALYST RATING SCORE,43.89
+Target High Price Diff Current Price,21.769999999999996
+Recommendation Key,100
+SUM ANALYST RATING SCORE,121.77
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,True
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

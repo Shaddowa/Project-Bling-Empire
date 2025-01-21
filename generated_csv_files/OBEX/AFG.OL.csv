@@ -5,68 +5,68 @@ Country,Norway
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://afgruppen.com
-Price,148.8
+Price,146.0
 Currency,NOK
 
 REVENUE
-Total Revenue,30443999232.0
-Revenue Per Share,282.477
-Revenue Growth,-0.024
+Total Revenue,30036000768.0
+Revenue Per Share,278.127
+Revenue Growth,-0.026
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.73, forward_eps=9.05)"
-Net Earnings,402000000.0
-Earnings Growth,-0.526
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=8.4)"
+Net Earnings,353000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,1336999936.0
-Debt to Equity,41.742
+Total Debt,1808999936.0
+Debt to Equity,63.608
 
 MARGINS
-Profit Margins,0.013200001
-Gross Profit Margins,0.31333
-Operating Margins,0.040999997
+Profit Margins,0.01175
+Gross Profit Margins,0.32025
+Operating Margins,-0.00065
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.5
-Dividend Yield,0.0234
-Dividend Payout Ratio,1.7426
-Five Year Avg Dividend Yield,5.97
-Trailing Annual Dividend Rate,3.5
-Trailing Annual Dividend Yield,0.023521505
+Dividend Yield,0.0254
+Dividend Payout Ratio,1.0703
+Five Year Avg Dividend Yield,5.74
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,41.742
-Price to Cash Flow,1.2461474717840225e-07
-Enterprise to EBITDA,18.552
-Price to Book,6.9893484
-Price to Earnings,"PriceToEarnings(trailing_pe=40.10724, forward_pe=16.530388)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.73, forward_eps=9.05)"
-Enterprise to Revenue,0.595
+Debt to Equity,63.608
+Price to Cash Flow,8.751020200346831e-08
+Enterprise to EBITDA,18.544
+Price to Book,6.8865633
+Price to Earnings,"PriceToEarnings(trailing_pe=31.42857, forward_pe=17.547619)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=8.4)"
+Enterprise to Revenue,0.57
 
 CASH FLOW
-Free to Cash Flow,1200499968.0
-Operating to Cash Flow,1552000000.0
+Free to Cash Flow,1684375040.0
+Operating to Cash Flow,2138000000.0
 
 PROFITABILITY
-Return on Equity,0.15352
-Return on Assets,0.031570002
-Return on Invested Capital,0.3006731584199505
+Return on Equity,0.15119
+Return on Assets,0.027420001
+Return on Invested Capital,0.19513543853620186
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.059699999999999996
-SUM DIVIDEND SCORE,4.0597
+5 Year Average,0.0574
+SUM DIVIDEND SCORE,4.0574
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
+Target High Price Diff Current Price,11.599999999999994
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+SUM ANALYST RATING SCORE,11.599999999999994
 
 
 

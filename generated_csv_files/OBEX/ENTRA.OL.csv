@@ -5,68 +5,68 @@ Country,Norway
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.entra.no
-Price,107.8
+Price,113.4
 Currency,NOK
 
 REVENUE
-Total Revenue,3345999872.0
-Revenue Per Share,18.372
-Revenue Growth,-0.036
+Total Revenue,3428999936.0
+Revenue Per Share,18.827
+Revenue Growth,0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-34.31, forward_eps=8.41)"
-Net Earnings,-6248999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-19.33, forward_eps=7.9)"
+Net Earnings,-3520999936.0
 Earnings Growth,None
 
 DEBT
-Total Debt,38135001088.0
-Debt to Equity,155.216
+Total Debt,31776999424.0
+Debt to Equity,127.169
 
 MARGINS
-Profit Margins,-1.9022701
-Gross Profit Margins,0.91482
-Operating Margins,0.85248
+Profit Margins,-0.91543
+Gross Profit Margins,0.91572
+Operating Margins,0.86346
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.0
-Dividend Yield,0.0502
-Dividend Payout Ratio,0.24190001
-Five Year Avg Dividend Yield,3.53
+Dividend Rate,None
+Dividend Yield,None
+Dividend Payout Ratio,0.0
+Five Year Avg Dividend Yield,3.51
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,155.216
-Price to Cash Flow,-5.4788335121132235e-08
-Enterprise to EBITDA,20.504
-Price to Book,0.87182146
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.984542)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-34.31, forward_eps=8.41)"
-Enterprise to Revenue,17.802
+Debt to Equity,127.169
+Price to Cash Flow,3.7428062865705957e-08
+Enterprise to EBITDA,18.093
+Price to Book,0.8866153
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.303798)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-19.33, forward_eps=7.9)"
+Enterprise to Revenue,15.745
 
 CASH FLOW
-Free to Cash Flow,-1993124992.0
-Operating to Cash Flow,1454000000.0
+Free to Cash Flow,3019124992.0
+Operating to Cash Flow,1260999936.0
 
 PROFITABILITY
-Return on Equity,-0.22759001
-Return on Assets,0.023740001
-Return on Invested Capital,-0.16386520878955596
+Return on Equity,-0.13274
+Return on Assets,0.02654
+Return on Invested Capital,-0.11080341082231675
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,0.0
+Dividend Yield,0.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0353
-SUM DIVIDEND SCORE,4.0353
+5 Year Average,0.0351
+SUM DIVIDEND SCORE,0.0351
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,25.799999999999997
-Recommendation Key,0
-SUM ANALYST RATING SCORE,25.799999999999997
+Target High Price Diff Current Price,34.0
+Recommendation Key,100
+SUM ANALYST RATING SCORE,134.0
 
 
 

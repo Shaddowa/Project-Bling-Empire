@@ -5,74 +5,74 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.lambweston.com
-Price,83.83
+Price,60.08
 Currency,USD
 
 REVENUE
-Total Revenue,6550600192.0
-Revenue Per Share,45.099
-Revenue Growth,0.163
+Total Revenue,6456399872.0
+Revenue Per Share,44.72
+Revenue Growth,-0.007
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.51, forward_eps=6.25)"
-Net Earnings,1094599936.0
-Earnings Growth,-0.165
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=4.98)"
+Net Earnings,618099968.0
+Earnings Growth,-0.45
 
 DEBT
-Total Debt,3880800000.0
-Debt to Equity,220.726
+Total Debt,4062000128.0
+Debt to Equity,221.158
 
 MARGINS
-Profit Margins,0.1671
-Gross Profit Margins,0.27568
-Operating Margins,0.15517999
+Profit Margins,0.09573
+Gross Profit Margins,0.25113
+Operating Margins,0.12823
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.44
-Dividend Yield,0.016900001
-Dividend Payout Ratio,0.1598
-Five Year Avg Dividend Yield,1.23
-Trailing Annual Dividend Rate,1.2
-Trailing Annual Dividend Yield,0.014314685
+Dividend Yield,0.0184
+Dividend Payout Ratio,0.3192
+Five Year Avg Dividend Yield,1.31
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,220.726
-Price to Cash Flow,-2.558221713637972e-07
-Enterprise to EBITDA,11.744
-Price to Book,6.9935126
-Price to Earnings,"PriceToEarnings(trailing_pe=11.339547, forward_pe=13.625601)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.51, forward_eps=6.25)"
-Enterprise to Revenue,2.46
+Debt to Equity,221.158
+Price to Cash Flow,-1.9556857344163515e-07
+Enterprise to EBITDA,11.662
+Price to Book,4.965043
+Price to Earnings,"PriceToEarnings(trailing_pe=24.324804, forward_pe=12.406627)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.54, forward_eps=4.98)"
+Enterprise to Revenue,2.338
 
 CASH FLOW
-Free to Cash Flow,-332887488.0
-Operating to Cash Flow,908099968.0
+Free to Cash Flow,-315924992.0
+Operating to Cash Flow,793800000.0
 
 PROFITABILITY
-Return on Equity,0.88524
-Return on Assets,0.11027
-Return on Invested Capital,0.2820552289644953
-Return on Investment,-0.01496581810226962
+Return on Equity,0.37015
+Return on Assets,0.08644
+Return on Invested Capital,0.15216640734346162
+Return on Investment,-0.010891629392070485
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0123
-SUM DIVIDEND SCORE,8.0123
+5 Year Average,0.0131
+SUM DIVIDEND SCORE,4.0131
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,46.84
-Recommendation Key,1
-SUM ANALYST RATING SCORE,47.84
+Target High Price Diff Current Price,20.215000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,120.215
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

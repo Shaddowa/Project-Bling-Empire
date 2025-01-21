@@ -5,68 +5,68 @@ Country,United States
 Industry,Railroads
 Sector,Industrials
 Website,https://www.wabteccorp.com
-Price,167.33
+Price,201.69
 Currency,USD
 
 REVENUE
-Total Revenue,9980000256.0
-Revenue Per Share,56.083
-Revenue Growth,0.138
+Total Revenue,10330000384.0
+Revenue Per Share,58.76
+Revenue Growth,0.044
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.13, forward_eps=8.17)"
-Net Earnings,918000000.0
-Earnings Growth,0.645
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.99, forward_eps=8.49)"
+Net Earnings,1059000000.0
+Earnings Growth,0.226
 
 DEBT
-Total Debt,4291000064.0
-Debt to Equity,40.851
+Total Debt,4020000000.0
+Debt to Equity,39.063
 
 MARGINS
-Profit Margins,0.09198
-Gross Profit Margins,0.31403
-Operating Margins,0.1698
+Profit Margins,0.10252
+Gross Profit Margins,0.32575
+Operating Margins,0.16523
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.71
-Dividend Yield,0.0042
-Dividend Payout Ratio,0.1384
-Five Year Avg Dividend Yield,0.63
-Trailing Annual Dividend Rate,0.71
-Trailing Annual Dividend Yield,0.004243112
+Dividend Rate,0.8
+Dividend Yield,0.004
+Dividend Payout Ratio,0.1283
+Five Year Avg Dividend Yield,0.6
+Trailing Annual Dividend Rate,0.77
+Trailing Annual Dividend Yield,0.00381774
 
 FINANCIAL RATIO
-Debt to Equity,40.851
-Price to Cash Flow,1.6485738897672577e-07
-Enterprise to EBITDA,17.275
-Price to Book,2.8448305
-Price to Earnings,"PriceToEarnings(trailing_pe=32.81481, forward_pe=20.60465)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.13, forward_eps=8.17)"
-Enterprise to Revenue,3.346
+Debt to Equity,39.063
+Price to Cash Flow,1.7373952399921958e-07
+Enterprise to EBITDA,18.305
+Price to Book,3.4612262
+Price to Earnings,"PriceToEarnings(trailing_pe=34.15693, forward_pe=24.098942)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.99, forward_eps=8.49)"
+Enterprise to Revenue,3.739
 
 CASH FLOW
-Free to Cash Flow,1021124992.0
-Operating to Cash Flow,1560000000.0
+Free to Cash Flow,1177624960.0
+Operating to Cash Flow,1796999936.0
 
 PROFITABILITY
-Return on Equity,0.09003
-Return on Assets,0.04868
-Return on Invested Capital,0.21393613927956887
-Return on Investment,0.03686746987951807
+Return on Equity,0.103690006
+Return on Assets,0.05445
+Return on Invested Capital,0.26343283194725337
+Return on Investment,0.05140776699029126
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0063
-SUM DIVIDEND SCORE,4.0063
+5 Year Average,0.006
+SUM DIVIDEND SCORE,8.006
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,21.659999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,22.659999999999997
+Target High Price Diff Current Price,35.400000000000006
+Recommendation Key,100
+SUM ANALYST RATING SCORE,135.4
 
 
 

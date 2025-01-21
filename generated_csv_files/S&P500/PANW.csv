@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,PANW
 Company,"Palo Alto Networks, Inc."
 Country,United States
-Industry,Software—Infrastructure
+Industry,Software - Infrastructure
 Sector,Technology
 Website,https://www.paloaltonetworks.com
-Price,295.67
+Price,177.11
 Currency,USD
 
 REVENUE
-Total Revenue,7527399936.0
-Revenue Per Share,24.27
-Revenue Growth,0.193
+Total Revenue,8027500032.0
+Revenue Per Share,25.149
+Revenue Growth,0.121
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.46, forward_eps=6.16)"
-Net Earnings,2276600064.0
-Earnings Growth,18.56
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.86, forward_eps=7.2)"
+Net Earnings,2577600000.0
+Earnings Growth,0.591
 
 DEBT
-Total Debt,2184499968.0
-Debt to Equity,50.135
+Total Debt,1410300032.0
+Debt to Equity,27.28
 
 MARGINS
-Profit Margins,0.30244
-Gross Profit Margins,0.74047995
-Operating Margins,0.11665
+Profit Margins,0.3211
+Gross Profit Margins,0.74347997
+Operating Margins,0.119799994
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,50.135
-Price to Cash Flow,1.3190843126446094e-07
-Enterprise to EBITDA,97.58
-Price to Book,22.031551
-Price to Earnings,"PriceToEarnings(trailing_pe=46.04799, forward_pe=48.290585)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.46, forward_eps=6.16)"
-Enterprise to Revenue,12.611
+Debt to Equity,27.28
+Price to Cash Flow,7.385840542543364e-08
+Enterprise to EBITDA,115.823
+Price to Book,11.605458
+Price to Earnings,"PriceToEarnings(trailing_pe=47.810883, forward_pe=25.631945)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.86, forward_eps=7.2)"
+Enterprise to Revenue,15.79
 
 CASH FLOW
-Free to Cash Flow,2255124992.0
-Operating to Cash Flow,3062200064.0
+Free to Cash Flow,2498700032.0
+Operating to Cash Flow,3257600000.0
 
 PROFITABILITY
-Return on Equity,0.89521
-Return on Assets,0.03091
-Return on Invested Capital,1.0421607156227461
-Return on Investment,-0.2121714877912395
+Return on Equity,0.74517995
+Return on Assets,0.032190003
+Return on Invested Capital,1.8276961727644458
+Return on Investment,-0.16748538011695907
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,14 +64,14 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,109.52999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,110.52999999999997
+Target High Price Diff Current Price,55.44999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,155.45
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
+Earnings,True
 Revenue,True
 Net Income,False
 Total Revenue,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,2.0
 

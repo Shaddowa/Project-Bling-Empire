@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.bostonscientific.com
-Price,74.1
+Price,98.66
 Currency,USD
 
 REVENUE
-Total Revenue,14707000320.0
-Revenue Per Share,10.065
-Revenue Growth,0.138
+Total Revenue,15911000064.0
+Revenue Per Share,10.829
+Revenue Growth,0.193
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.19, forward_eps=2.64)"
-Net Earnings,1764000000.0
-Earnings Growth,0.579
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.21, forward_eps=2.79)"
+Net Earnings,1792999936.0
+Earnings Growth,-0.063
 
 DEBT
-Total Debt,11000999936.0
-Debt to Equity,54.547
+Total Debt,11258000384.0
+Debt to Equity,53.722
 
 MARGINS
-Profit Margins,0.12049
-Gross Profit Margins,0.69001
-Operating Margins,0.17972
+Profit Margins,0.112629995
+Gross Profit Margins,0.68745005
+Operating Margins,0.17059
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,54.547
-Price to Cash Flow,4.459978859954402e-08
-Enterprise to EBITDA,31.334
-Price to Book,5.4363704
-Price to Earnings,"PriceToEarnings(trailing_pe=61.92437, forward_pe=27.912878)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.19, forward_eps=2.64)"
-Enterprise to Revenue,7.972
+Debt to Equity,53.722
+Price to Cash Flow,5.5699147893569816e-08
+Enterprise to EBITDA,38.004
+Price to Book,7.153124
+Price to Earnings,"PriceToEarnings(trailing_pe=83.08264, forward_pe=36.032257)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.21, forward_eps=2.79)"
+Enterprise to Revenue,9.705
 
 CASH FLOW
-Free to Cash Flow,1652249984.0
-Operating to Cash Flow,2476999936.0
+Free to Cash Flow,1804875008.0
+Operating to Cash Flow,2936000000.0
 
 PROFITABILITY
-Return on Equity,0.092480004
-Return on Assets,0.04541
-Return on Invested Capital,0.16034905991171786
-Return on Investment,-0.045699481865284976
+Return on Equity,0.08916
+Return on Assets,0.04903
+Return on Invested Capital,0.15926451168983158
+Return on Investment,-0.03864224
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,16.310000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,17.310000000000002
+Target High Price Diff Current Price,15.469999999999999
+Recommendation Key,0
+SUM ANALYST RATING SCORE,15.469999999999999
 
 
 

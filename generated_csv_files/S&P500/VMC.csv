@@ -5,54 +5,54 @@ Country,United States
 Industry,Building Materials
 Sector,Basic Materials
 Website,https://www.vulcanmaterials.com
-Price,270.69
+Price,270.1
 Currency,USD
 
 REVENUE
-Total Revenue,7678600192.0
-Revenue Per Share,57.821
-Revenue Growth,-0.063
+Total Revenue,7398300160.0
+Revenue Per Share,55.878
+Revenue Growth,-0.083
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.91, forward_eps=10.04)"
-Net Earnings,925600000.0
-Earnings Growth,-0.152
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.4, forward_eps=9.08)"
+Net Earnings,852800000.0
+Earnings Growth,-0.246
 
 DEBT
-Total Debt,3912999936.0
-Debt to Equity,52.058
+Total Debt,3905100032.0
+Debt to Equity,49.475
 
 MARGINS
-Profit Margins,0.11919
-Gross Profit Margins,0.25413
-Operating Margins,0.110369995
+Profit Margins,0.114300005
+Gross Profit Margins,0.26149
+Operating Margins,0.21044001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.84
 Dividend Yield,0.0068
-Dividend Payout Ratio,0.2529
-Five Year Avg Dividend Yield,0.88
-Trailing Annual Dividend Rate,1.75
-Trailing Annual Dividend Yield,0.00646496
+Dividend Payout Ratio,0.28280002
+Five Year Avg Dividend Yield,0.86
+Trailing Annual Dividend Rate,1.81
+Trailing Annual Dividend Yield,0.006701221
 
 FINANCIAL RATIO
-Debt to Equity,52.058
-Price to Cash Flow,4.700922691929376e-07
-Enterprise to EBITDA,19.931
-Price to Book,4.804514
-Price to Earnings,"PriceToEarnings(trailing_pe=39.373375, forward_pe=27.098606)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.91, forward_eps=10.04)"
-Enterprise to Revenue,5.161
+Debt to Equity,49.475
+Price to Cash Flow,2.1779521584685323e-07
+Enterprise to EBITDA,19.724
+Price to Book,4.6685357
+Price to Earnings,"PriceToEarnings(trailing_pe=43.453125, forward_pe=30.627754)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.4, forward_eps=9.08)"
+Enterprise to Revenue,5.294
 
 CASH FLOW
-Free to Cash Flow,578758720.0
-Operating to Cash Flow,1488899968.0
+Free to Cash Flow,1276887552.0
+Operating to Cash Flow,1451100032.0
 
 PROFITABILITY
-Return on Equity,0.12765999
-Return on Assets,0.06113
-Return on Invested Capital,0.2365448509439838
+Return on Equity,0.11133
+Return on Assets,0.05888
+Return on Invested Capital,0.21838108627258263
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0088
-SUM DIVIDEND SCORE,8.0088
+5 Year Average,0.0086
+SUM DIVIDEND SCORE,8.0086
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,49.93000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,50.93000000000001
+Target High Price Diff Current Price,70.89999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,170.89999999999998
 
 
 

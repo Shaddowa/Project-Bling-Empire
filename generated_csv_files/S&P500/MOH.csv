@@ -5,27 +5,27 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.molinahealthcare.com
-Price,350.03
+Price,286.21
 Currency,USD
 
 REVENUE
-Total Revenue,34659999744.0
-Revenue Per Share,599.654
-Revenue Growth,0.208
+Total Revenue,37544001536.0
+Revenue Per Share,649.831
+Revenue Growth,0.174
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.4, forward_eps=26.84)"
-Net Earnings,1071000000.0
-Earnings Growth,-0.063
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.66, forward_eps=25.71)"
+Net Earnings,1144000000.0
+Earnings Growth,0.342
 
 DEBT
-Total Debt,2382000128.0
-Debt to Equity,53.016
+Total Debt,2528999936.0
+Debt to Equity,53.019
 
 MARGINS
-Profit Margins,0.0309
-Gross Profit Margins,0.12833
-Operating Margins,0.044320002
+Profit Margins,0.030469999
+Gross Profit Margins,0.12425
+Operating Margins,0.0475
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,53.016
-Price to Cash Flow,7.160020423140489e-07
-Enterprise to EBITDA,8.348
-Price to Book,4.6564155
-Price to Earnings,"PriceToEarnings(trailing_pe=19.27174, forward_pe=13.211624)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.4, forward_eps=26.84)"
-Enterprise to Revenue,0.41
+Debt to Equity,53.019
+Price to Cash Flow,-1.5265796344647519e-06
+Enterprise to EBITDA,5.34
+Price to Book,3.4933798
+Price to Earnings,"PriceToEarnings(trailing_pe=14.869786, forward_pe=11.370673)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.66, forward_eps=25.71)"
+Enterprise to Revenue,0.258
 
 CASH FLOW
-Free to Cash Flow,495249984.0
-Operating to Cash Flow,960000000.0
+Free to Cash Flow,-191500000.0
+Operating to Cash Flow,178000000.0
 
 PROFITABILITY
-Return on Equity,0.27528998
-Return on Assets,0.06881
-Return on Invested Capital,0.44962212771129045
-Return on Investment,0.07817518248175183
+Return on Equity,0.26454002
+Return on Assets,0.06901
+Return on Invested Capital,0.45235270505966363
+Return on Investment,0.08289855072463768
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,87.39999999999998
-Recommendation Key,0
-SUM ANALYST RATING SCORE,87.39999999999998
+Target High Price Diff Current Price,113.66000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,213.66000000000003
 
 
 

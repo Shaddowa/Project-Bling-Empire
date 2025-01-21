@@ -5,68 +5,68 @@ Country,United States
 Industry,Trucking
 Sector,Industrials
 Website,https://www.odfl.com
-Price,183.16
+Price,189.55
 Currency,USD
 
 REVENUE
-Total Revenue,5884088832.0
-Revenue Per Share,26.959
-Revenue Growth,0.012
+Total Revenue,5924531200.0
+Revenue Per Share,27.363
+Revenue Growth,-0.03
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.68, forward_eps=7.19)"
-Net Earnings,1246768000.0
-Earnings Growth,0.039
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.72, forward_eps=5.9)"
+Net Earnings,1245744000.0
+Earnings Growth,-0.071
 
 DEBT
-Total Debt,79980000.0
-Debt to Equity,1.817
+Total Debt,59985000.0
+Debt to Equity,1.437
 
 MARGINS
-Profit Margins,0.21189
-Gross Profit Margins,0.4036
-Operating Margins,0.26466
+Profit Margins,0.21027
+Gross Profit Margins,0.40243
+Operating Margins,0.27334
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.04
-Dividend Yield,0.0056
-Dividend Payout Ratio,0.1514
-Five Year Avg Dividend Yield,0.34
-Trailing Annual Dividend Rate,0.86
-Trailing Annual Dividend Yield,0.0046953484
+Dividend Yield,0.0055
+Dividend Payout Ratio,0.1713
+Five Year Avg Dividend Yield,0.35
+Trailing Annual Dividend Rate,0.98
+Trailing Annual Dividend Yield,0.00517014
 
 FINANCIAL RATIO
-Debt to Equity,1.817
-Price to Cash Flow,2.672605234784383e-07
-Enterprise to EBITDA,20.083
-Price to Book,9.147716
-Price to Earnings,"PriceToEarnings(trailing_pe=32.577465, forward_pe=25.735743)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.68, forward_eps=7.19)"
-Enterprise to Revenue,6.748
+Debt to Equity,1.437
+Price to Cash Flow,2.522523716215808e-07
+Enterprise to EBITDA,20.52
+Price to Book,9.715852
+Price to Earnings,"PriceToEarnings(trailing_pe=33.176575, forward_pe=32.164406)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.72, forward_eps=5.9)"
+Enterprise to Revenue,6.828
 
 CASH FLOW
-Free to Cash Flow,692358144.0
-Operating to Cash Flow,1577661056.0
+Free to Cash Flow,752302144.0
+Operating to Cash Flow,1694916992.0
 
 PROFITABILITY
-Return on Equity,0.30603
-Return on Assets,0.19372
-Return on Invested Capital,15.588493181744935
-Return on Investment,-0.01943574410505673
+Return on Equity,0.30241
+Return on Assets,0.1901
+Return on Invested Capital,20.76758513574272
+Return on Investment,-0.017650074171048212
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0034000000000000002
-SUM DIVIDEND SCORE,8.0034
+5 Year Average,0.0034999999999999996
+SUM DIVIDEND SCORE,8.0035
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,59.96000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,60.96000000000001
+Target High Price Diff Current Price,50.22999999999999
+Recommendation Key,0
+SUM ANALYST RATING SCORE,50.22999999999999
 
 
 

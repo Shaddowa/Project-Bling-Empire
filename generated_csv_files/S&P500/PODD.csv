@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.insulet.com
-Price,177.53
+Price,275.81
 Currency,USD
 
 REVENUE
-Total Revenue,1780700032.0
-Revenue Per Share,25.495
-Revenue Growth,0.233
+Total Revenue,1983900032.0
+Revenue Per Share,28.341
+Revenue Growth,0.257
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.33, forward_eps=3.82)"
-Net Earnings,234000000.0
-Earnings Growth,1.147
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.87, forward_eps=3.87)"
+Net Earnings,420900000.0
+Earnings Growth,0.46
 
 DEBT
-Total Debt,1401500032.0
-Debt to Equity,177.248
+Total Debt,1441200000.0
+Debt to Equity,128.909
 
 MARGINS
-Profit Margins,0.13141
-Gross Profit Margins,0.68214995
-Operating Margins,0.12882
+Profit Margins,0.21215999
+Gross Profit Margins,0.69318
+Operating Margins,0.16198
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,177.248
-Price to Cash Flow,None
-Enterprise to EBITDA,36.175
-Price to Book,14.677518
-Price to Earnings,"PriceToEarnings(trailing_pe=49.81982, forward_pe=43.429317)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.33, forward_eps=3.82)"
-Enterprise to Revenue,6.883
+Debt to Equity,128.909
+Price to Cash Flow,2.634362479377799e-06
+Enterprise to EBITDA,48.43
+Price to Book,17.53184
+Price to Earnings,"PriceToEarnings(trailing_pe=47.60477, forward_pe=72.20672)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.87, forward_eps=3.87)"
+Enterprise to Revenue,10.023
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,106075000.0
+Operating to Cash Flow,327800000.0
 
 PROFITABILITY
-Return on Equity,0.36181
-Return on Assets,0.06742
-Return on Invested Capital,0.16696396201923622
+Return on Equity,0.48786
+Return on Assets,0.07566
+Return on Invested Capital,0.2920482898591745
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,104.1
-Recommendation Key,1
-SUM ANALYST RATING SCORE,105.1
+Target High Price Diff Current Price,60.56
+Recommendation Key,100
+SUM ANALYST RATING SCORE,160.56
 
 
 

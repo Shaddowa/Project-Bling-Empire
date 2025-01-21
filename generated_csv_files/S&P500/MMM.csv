@@ -5,68 +5,68 @@ Country,United States
 Industry,Conglomerates
 Sector,Industrials
 Website,https://www.3m.com
-Price,97.33
+Price,141.03
 Currency,USD
 
 REVENUE
-Total Revenue,32653000704.0
-Revenue Per Share,58.89
-Revenue Growth,-0.003
+Total Revenue,32637999104.0
+Revenue Per Share,58.972
+Revenue Growth,0.004
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-12.73, forward_eps=7.68)"
-Net Earnings,-7042999808.0
-Earnings Growth,-0.051
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.6, forward_eps=7.9)"
+Net Earnings,5321999872.0
+Earnings Growth,None
 
 DEBT
-Total Debt,22256001024.0
-Debt to Equity,451.166
+Total Debt,13868000256.0
+Debt to Equity,295.441
 
 MARGINS
-Profit Margins,-0.21569
-Gross Profit Margins,0.4455
-Operating Margins,0.21704
+Profit Margins,0.13451
+Gross Profit Margins,0.45067
+Operating Margins,0.21433
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.04
-Dividend Yield,0.061100002
-Dividend Payout Ratio,0.6167
-Five Year Avg Dividend Yield,4.29
-Trailing Annual Dividend Rate,6.01
-Trailing Annual Dividend Yield,0.06174869
+Dividend Rate,2.8
+Dividend Yield,0.0199
+Dividend Payout Ratio,0.4589
+Five Year Avg Dividend Yield,4.34
+Trailing Annual Dividend Rate,4.41
+Trailing Annual Dividend Yield,0.03126994
 
 FINANCIAL RATIO
-Debt to Equity,451.166
-Price to Cash Flow,1.1111516889825551e-08
-Enterprise to EBITDA,8.114
-Price to Book,11.249716
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.881511)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-12.73, forward_eps=7.68)"
-Enterprise to Revenue,2.024
+Debt to Equity,295.441
+Price to Cash Flow,4.675795452882387e-08
+Enterprise to EBITDA,10.278
+Price to Book,17.175621
+Price to Earnings,"PriceToEarnings(trailing_pe=15.25052, forward_pe=18.532278)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.6, forward_eps=7.9)"
+Enterprise to Revenue,2.556
 
 CASH FLOW
-Free to Cash Flow,8903374848.0
-Operating to Cash Flow,6172000256.0
+Free to Cash Flow,3131124992.0
+Operating to Cash Flow,1987000064.0
 
 PROFITABILITY
-Return on Equity,-0.69286
-Return on Assets,0.07582
-Return on Invested Capital,-0.3164539666233035
-Return on Investment,-0.07886897881298992
+Return on Equity,1.1329399
+Return on Assets,0.09032
+Return on Invested Capital,0.3837611602600204
+Return on Investment,0.03879008653061224
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,1.0
 Dividend Yield,1.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0429
-SUM DIVIDEND SCORE,5.0429
+5 Year Average,0.0434
+SUM DIVIDEND SCORE,3.0434
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.069999999999993
-Recommendation Key,0
-SUM ANALYST RATING SCORE,13.069999999999993
+Target High Price Diff Current Price,40.595
+Recommendation Key,100
+SUM ANALYST RATING SCORE,140.595
 
 
 

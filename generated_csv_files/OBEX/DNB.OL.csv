@@ -2,58 +2,58 @@ GENERAL STOCK INFO
 Ticker,DNB.OL
 Company,DNB Bank ASA
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.dnb.no
-Price,202.6
+Price,237.7
 Currency,NOK
 
 REVENUE
-Total Revenue,78518001664.0
-Revenue Per Share,51.39
-Revenue Growth,-0.026
+Total Revenue,82830999552.0
+Revenue Per Share,55.042
+Revenue Growth,0.132
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=24.81, forward_eps=23.21)"
-Net Earnings,37909000192.0
-Earnings Growth,-0.017
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.24, forward_eps=24.77)"
+Net Earnings,40954998784.0
+Earnings Growth,0.227
 
 DEBT
-Total Debt,1592905039872.0
+Total Debt,1555658047488.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.49935
+Profit Margins,0.5136
 Gross Profit Margins,0.0
-Operating Margins,0.63593
+Operating Margins,0.6724
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,16.0
-Dividend Yield,0.0785
-Dividend Payout Ratio,0.5036
+Dividend Yield,0.0673
+Dividend Payout Ratio,0.5876
 Five Year Avg Dividend Yield,4.3
 Trailing Annual Dividend Rate,16.0
-Trailing Annual Dividend Yield,0.078973345
+Trailing Annual Dividend Yield,0.06731174
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.196518
-Price to Earnings,"PriceToEarnings(trailing_pe=8.210399, forward_pe=8.77639)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=24.81, forward_eps=23.21)"
-Enterprise to Revenue,10.635
+Price to Book,1.4172266
+Price to Earnings,"PriceToEarnings(trailing_pe=8.759178, forward_pe=9.63262)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.24, forward_eps=24.77)"
+Enterprise to Revenue,12.717
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,251868004352.0
+Operating to Cash Flow,-27011999744.0
 
 PROFITABILITY
-Return on Equity,0.14406
-Return on Assets,0.01059
-Return on Invested Capital,0.02379865669267683
-Return on Investment,0.003484667444203405
+Return on Equity,0.15720001
+Return on Assets,0.011410001
+Return on Invested Capital,0.026326478910773398
+Return on Investment,0.003306128611191837
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,5.043
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,58.30000000000001
+Target High Price Diff Current Price,41.400000000000006
 Recommendation Key,0
-SUM ANALYST RATING SCORE,58.30000000000001
+SUM ANALYST RATING SCORE,41.400000000000006
 
 
 

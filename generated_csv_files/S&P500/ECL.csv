@@ -5,17 +5,17 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.ecolab.com
-Price,233.58
+Price,237.42
 Currency,USD
 
 REVENUE
-Total Revenue,15500499968.0
-Revenue Per Share,54.335
+Total Revenue,15674600448.0
+Revenue Per Share,55.042
 Revenue Growth,0.178
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.39, forward_eps=7.45)"
-Net Earnings,1551000064.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.12, forward_eps=7.5)"
+Net Earnings,2044700032.0
 Earnings Growth,None
 
 DEBT
@@ -23,50 +23,50 @@ Total Debt,7000000000.0
 Debt to Equity,103.915
 
 MARGINS
-Profit Margins,0.10005999
-Gross Profit Margins,0.4157
+Profit Margins,0.13045
+Gross Profit Margins,0.43179
 Operating Margins,0.14715
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.28
-Dividend Yield,0.0098
-Dividend Payout Ratio,0.4074
+Dividend Rate,2.6
+Dividend Yield,0.011
+Dividend Payout Ratio,0.3198
 Five Year Avg Dividend Yield,1.05
-Trailing Annual Dividend Rate,2.2
-Trailing Annual Dividend Yield,0.009418615
+Trailing Annual Dividend Rate,2.28
+Trailing Annual Dividend Yield,0.009603235
 
 FINANCIAL RATIO
 Debt to Equity,103.915
-Price to Cash Flow,1.2369463387507092e-07
-Enterprise to EBITDA,22.109
-Price to Book,9.954813
-Price to Earnings,"PriceToEarnings(trailing_pe=43.324677, forward_pe=31.344967)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.39, forward_eps=7.45)"
-Enterprise to Revenue,4.672
+Price to Cash Flow,1.1539326111855527e-07
+Enterprise to EBITDA,20.779
+Price to Book,10.231264
+Price to Earnings,"PriceToEarnings(trailing_pe=33.70857, forward_pe=32.000668)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.12, forward_eps=7.5)"
+Enterprise to Revenue,4.691
 
 CASH FLOW
-Free to Cash Flow,1887874944.0
-Operating to Cash Flow,2863000064.0
+Free to Cash Flow,2079887488.0
+Operating to Cash Flow,2899699968.0
 
 PROFITABILITY
-Return on Equity,0.2016
-Return on Assets,0.069070004
-Return on Invested Capital,0.22157143697176818
-Return on Investment,-0.2040789557894737
+Return on Equity,0.25164
+Return on Assets,0.07416
+Return on Invested Capital,0.2921000035925597
+Return on Investment,-0.1101670275862069
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0105
-SUM DIVIDEND SCORE,9.0105
+SUM DIVIDEND SCORE,8.0105
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,35.47999999999999
-Recommendation Key,0
-SUM ANALYST RATING SCORE,35.47999999999999
+Target High Price Diff Current Price,59.995000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,159.995
 
 
 

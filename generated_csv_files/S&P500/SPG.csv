@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,SPG
 Company,"Simon Property Group, Inc."
 Country,United States
-Industry,REIT—Retail
+Industry,REIT - Retail
 Sector,Real Estate
 Website,https://www.simon.com
-Price,149.13
+Price,174.14
 Currency,USD
 
 REVENUE
-Total Revenue,5750577152.0
-Revenue Per Share,17.61
-Revenue Growth,0.068
+Total Revenue,5909003776.0
+Revenue Per Share,18.125
+Revenue Growth,0.049
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.85, forward_eps=6.47)"
-Net Earnings,2559664128.0
-Earnings Growth,0.627
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.52, forward_eps=6.78)"
+Net Earnings,2447808000.0
+Earnings Growth,-0.198
 
 DEBT
-Total Debt,26045020160.0
-Debt to Equity,692.296
+Total Debt,25939648512.0
+Debt to Equity,780.789
 
 MARGINS
-Profit Margins,0.44569
-Gross Profit Margins,0.81838995
-Operating Margins,0.50963
+Profit Margins,0.41482
+Gross Profit Margins,0.82616997
+Operating Margins,0.51851004
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,8.0
-Dividend Yield,0.0542
-Dividend Payout Ratio,0.96819997
-Five Year Avg Dividend Yield,6.29
-Trailing Annual Dividend Rate,7.6
-Trailing Annual Dividend Yield,0.050962247
+Dividend Rate,8.4
+Dividend Yield,0.0482
+Dividend Payout Ratio,1.0505
+Five Year Avg Dividend Yield,6.22
+Trailing Annual Dividend Rate,7.9
+Trailing Annual Dividend Yield,0.0453658
 
 FINANCIAL RATIO
-Debt to Equity,692.296
-Price to Cash Flow,7.759356392882675e-08
-Enterprise to EBITDA,17.612
-Price to Book,15.708209
-Price to Earnings,"PriceToEarnings(trailing_pe=18.817835, forward_pe=22.831532)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.85, forward_eps=6.47)"
-Enterprise to Revenue,12.806
+Debt to Equity,780.789
+Price to Cash Flow,8.885099390227454e-08
+Enterprise to EBITDA,18.662
+Price to Book,21.413921
+Price to Earnings,"PriceToEarnings(trailing_pe=23.32181, forward_pe=25.867256)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.52, forward_eps=6.78)"
+Enterprise to Revenue,13.748
 
 CASH FLOW
-Free to Cash Flow,1903766144.0
-Operating to Cash Flow,3875215104.0
+Free to Cash Flow,1973866496.0
+Operating to Cash Flow,3765860096.0
 
 PROFITABILITY
-Return on Equity,0.79009
-Return on Assets,0.05373
-Return on Invested Capital,0.09827844675685556
-Return on Investment,0.02607918442949902
+Return on Equity,0.81232
+Return on Assets,0.057540003
+Return on Invested Capital,0.09436550376134667
+Return on Investment,0.022444455243731242
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0629
-SUM DIVIDEND SCORE,8.0629
+5 Year Average,0.0622
+SUM DIVIDEND SCORE,8.0622
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.28
-Recommendation Key,1
-SUM ANALYST RATING SCORE,33.28
+Target High Price Diff Current Price,44.620000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,144.62
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.adm.com
-Price,62.44
+Price,51.29
 Currency,USD
 
 REVENUE
-Total Revenue,91709997056.0
-Revenue Per Share,172.468
-Revenue Growth,-0.092
+Total Revenue,88768004096.0
+Revenue Per Share,171.202
+Revenue Growth,-0.117
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.73, forward_eps=5.52)"
-Net Earnings,3041999872.0
-Earnings Growth,-0.33
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.56, forward_eps=5.07)"
+Net Earnings,2600999936.0
+Earnings Growth,-0.424
 
 DEBT
-Total Debt,11288000512.0
-Debt to Equity,47.954
+Total Debt,11875999744.0
+Debt to Equity,52.874
 
 MARGINS
-Profit Margins,0.03317
-Gross Profit Margins,0.07733
-Operating Margins,0.03264
+Profit Margins,0.0293
+Gross Profit Margins,0.07441
+Operating Margins,0.0222
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.0318
-Dividend Payout Ratio,0.3229
-Five Year Avg Dividend Yield,2.62
-Trailing Annual Dividend Rate,1.85
-Trailing Annual Dividend Yield,0.029628444
+Dividend Yield,0.0379
+Dividend Payout Ratio,0.5478
+Five Year Avg Dividend Yield,2.6
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,47.954
-Price to Cash Flow,1.3285518494913318e-08
-Enterprise to EBITDA,9.278
-Price to Book,1.3616414
-Price to Earnings,"PriceToEarnings(trailing_pe=10.991274, forward_pe=11.40942)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.73, forward_eps=5.52)"
-Enterprise to Revenue,0.457
+Debt to Equity,52.874
+Price to Cash Flow,2.3978087211690798e-08
+Enterprise to EBITDA,9.185
+Price to Book,1.0933015
+Price to Earnings,"PriceToEarnings(trailing_pe=14.44663, forward_pe=10.143984)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.56, forward_eps=5.07)"
+Enterprise to Revenue,0.413
 
 CASH FLOW
-Free to Cash Flow,4740499968.0
-Operating to Cash Flow,6769999872.0
+Free to Cash Flow,2144875008.0
+Operating to Cash Flow,4728999936.0
 
 PROFITABILITY
-Return on Equity,0.12365
-Return on Assets,0.03861
-Return on Invested Capital,0.26948969893307645
-Return on Investment,-0.18662575901840492
+Return on Equity,0.1075
+Return on Assets,0.03415
+Return on Invested Capital,0.21901313420046864
+Return on Investment,-0.20642856634920634
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
-Payout Ratio,0.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0262
-SUM DIVIDEND SCORE,8.0262
+5 Year Average,0.026000000000000002
+SUM DIVIDEND SCORE,5.026
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.020000000000003
+Target High Price Diff Current Price,12.57
 Recommendation Key,0
-SUM ANALYST RATING SCORE,11.020000000000003
+SUM ANALYST RATING SCORE,12.57
 
 
 

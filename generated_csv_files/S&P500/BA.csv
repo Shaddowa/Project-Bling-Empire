@@ -5,27 +5,27 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.boeing.com
-Price,181.25
+Price,171.09
 Currency,USD
 
 REVENUE
-Total Revenue,76442001408.0
-Revenue Per Share,125.629
-Revenue Growth,-0.075
+Total Revenue,73292996608.0
+Revenue Per Share,119.345
+Revenue Growth,-0.015
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-3.53, forward_eps=5.89)"
-Net Earnings,-2151000064.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-12.93, forward_eps=0.47)"
+Net Earnings,-7975000064.0
 Earnings Growth,None
 
 DEBT
-Total Debt,47940001792.0
+Total Debt,57649999872.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,-0.02814
-Gross Profit Margins,0.11485
-Operating Margins,0.0041
+Profit Margins,-0.10880999
+Gross Profit Margins,0.03618
+Operating Margins,-0.31418
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,5.8236684513380355e-08
-Enterprise to EBITDA,56.07
+Price to Cash Flow,-4.188696121451358e-08
+Enterprise to EBITDA,-38.326
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=30.3073)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-3.53, forward_eps=5.89)"
-Enterprise to Revenue,1.962
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=373.11703)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-12.93, forward_eps=0.47)"
+Enterprise to Revenue,2.087
 
 CASH FLOW
-Free to Cash Flow,3065250048.0
-Operating to Cash Flow,2916000000.0
+Free to Cash Flow,-4186625024.0
+Operating to Cash Flow,-5248999936.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.0038299998
-Return on Invested Capital,-0.04486858541593035
-Return on Investment,-0.006867816296296296
+Return on Assets,-0.02665
+Return on Invested Capital,-0.13833478034658436
+Return on Investment,-0.026242185139848634
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0248
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,121.49000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,122.49000000000001
+Target High Price Diff Current Price,74.63499999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,174.635
 
 
 

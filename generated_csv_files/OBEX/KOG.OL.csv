@@ -5,68 +5,68 @@ Country,Norway
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.kongsberg.com
-Price,818.5
+Price,1276.0
 Currency,NOK
 
 REVENUE
-Total Revenue,42977001472.0
-Revenue Per Share,244.264
-Revenue Growth,0.26
+Total Revenue,46898999296.0
+Revenue Per Share,266.642
+Revenue Growth,0.195
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.2, forward_eps=29.84)"
-Net Earnings,4088000000.0
-Earnings Growth,0.511
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.43, forward_eps=34.42)"
+Net Earnings,4824999936.0
+Earnings Growth,0.302
 
 DEBT
-Total Debt,5240000000.0
-Debt to Equity,29.451
+Total Debt,4723999744.0
+Debt to Equity,26.556
 
 MARGINS
-Profit Margins,0.09512
-Gross Profit Margins,0.59906
-Operating Margins,0.12769
+Profit Margins,0.10288
+Gross Profit Margins,0.57144
+Operating Margins,0.15666
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,7.0
-Dividend Yield,0.0084
-Dividend Payout Ratio,0.5166
-Five Year Avg Dividend Yield,1.59
+Dividend Yield,0.0055
+Dividend Payout Ratio,0.2552
+Five Year Avg Dividend Yield,1.39
 Trailing Annual Dividend Rate,7.0
-Trailing Annual Dividend Yield,0.00855223
+Trailing Annual Dividend Yield,0.005485893
 
 FINANCIAL RATIO
-Debt to Equity,29.451
-Price to Cash Flow,2.8285921208125813e-07
-Enterprise to EBITDA,25.232
-Price to Book,8.462329
-Price to Earnings,"PriceToEarnings(trailing_pe=35.840515, forward_pe=27.865282)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.2, forward_eps=29.84)"
-Enterprise to Revenue,3.384
+Debt to Equity,26.556
+Price to Cash Flow,1.5404395659035946e-07
+Enterprise to EBITDA,32.634
+Price to Book,13.169195
+Price to Earnings,"PriceToEarnings(trailing_pe=46.955887, forward_pe=37.420105)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.43, forward_eps=34.42)"
+Enterprise to Revenue,4.75
 
 CASH FLOW
-Free to Cash Flow,2939624960.0
-Operating to Cash Flow,6880999936.0
+Free to Cash Flow,8361249792.0
+Operating to Cash Flow,10648000512.0
 
 PROFITABILITY
-Return on Equity,0.25085
-Return on Assets,0.06353
-Return on Invested Capital,0.7801526571265229
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.28889
+Return on Assets,0.07303
+Return on Invested Capital,1.021380206938667
+Return on Investment,-0.033506944
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,1.0
+Dividend Yield,4.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0159
-SUM DIVIDEND SCORE,5.0159
+5 Year Average,0.0139
+SUM DIVIDEND SCORE,7.0139
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,43.5
-Recommendation Key,0
-SUM ANALYST RATING SCORE,43.5
+Target High Price Diff Current Price,212.0
+Recommendation Key,100
+SUM ANALYST RATING SCORE,312.0
 
 
 

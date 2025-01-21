@@ -5,27 +5,27 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.amd.com
-Price,152.39
+Price,121.46
 Currency,USD
 
 REVENUE
-Total Revenue,22799998976.0
-Revenue Per Share,14.113
-Revenue Growth,0.022
+Total Revenue,24295000064.0
+Revenue Per Share,15.011
+Revenue Growth,0.176
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.68, forward_eps=5.6)"
-Net Earnings,1116000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.13, forward_eps=5.1)"
+Net Earnings,1826000000.0
+Earnings Growth,1.611
 
 DEBT
-Total Debt,2998000128.0
-Debt to Equity,5.335
+Total Debt,2238000128.0
+Debt to Equity,3.927
 
 MARGINS
-Profit Margins,0.04895
-Gross Profit Margins,0.50561
-Operating Margins,0.00658
+Profit Margins,0.07516
+Gross Profit Margins,0.52122
+Operating Margins,0.10617
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,5.335
-Price to Cash Flow,6.368476466725526e-08
-Enterprise to EBITDA,63.204
-Price to Book,4.373938
-Price to Earnings,"PriceToEarnings(trailing_pe=223.41176, forward_pe=27.128572)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.68, forward_eps=5.6)"
-Enterprise to Revenue,10.637
+Debt to Equity,3.927
+Price to Cash Flow,5.4803084267750395e-08
+Enterprise to EBITDA,43.492
+Price to Book,3.46615
+Price to Earnings,"PriceToEarnings(trailing_pe=107.74336, forward_pe=23.87255)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.13, forward_eps=5.1)"
+Enterprise to Revenue,8.018
 
 CASH FLOW
-Free to Cash Flow,2385499904.0
-Operating to Cash Flow,1702000000.0
+Free to Cash Flow,2221374976.0
+Operating to Cash Flow,2123000064.0
 
 PROFITABILITY
-Return on Equity,0.020130001
-Return on Assets,0.00537
-Return on Invested Capital,0.3722481452378061
-Return on Investment,-0.03509433962264151
+Return on Equity,0.03262
+Return on Assets,0.01249
+Return on Invested Capital,0.8159070004095591
+Return on Investment,-0.04975476839237057
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,98.08000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,99.08000000000001
+Target High Price Diff Current Price,128.2618
+Recommendation Key,100
+SUM ANALYST RATING SCORE,228.2618
 
 
 

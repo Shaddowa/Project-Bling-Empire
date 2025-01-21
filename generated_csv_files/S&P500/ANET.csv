@@ -1,31 +1,31 @@
 GENERAL STOCK INFO
 Ticker,ANET
-Company,"Arista Networks, Inc."
+Company,Arista Networks Inc
 Country,United States
 Industry,Computer Hardware
 Sector,Technology
 Website,https://www.arista.com
-Price,296.07
+Price,119.95
 Currency,USD
 
 REVENUE
-Total Revenue,6080190976.0
-Revenue Per Share,19.559
-Revenue Growth,0.163
+Total Revenue,6613147136.0
+Revenue Per Share,21.114
+Revenue Growth,0.2
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.19, forward_eps=8.89)"
-Net Earnings,2288539904.0
-Earnings Growth,0.442
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.09, forward_eps=9.73)"
+Net Earnings,2664694016.0
+Earnings Growth,0.355
 
 DEBT
-Total Debt,0.0
-Debt to Equity,None
+Total Debt,69800000.0
+Debt to Equity,0.755
 
 MARGINS
-Profit Margins,0.37639
-Gross Profit Margins,0.62945
-Operating Margins,0.42009997
+Profit Margins,0.40293998
+Gross Profit Margins,0.6441
+Operating Margins,0.43362
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,None
-Price to Cash Flow,2.0663790626027036e-07
-Enterprise to EBITDA,37.21
-Price to Book,12.525627
-Price to Earnings,"PriceToEarnings(trailing_pe=43.675938, forward_pe=35.32396)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.19, forward_eps=8.89)"
-Enterprise to Revenue,15.288
+Debt to Equity,0.755
+Price to Cash Flow,4.969922870759137e-08
+Enterprise to EBITDA,10.736
+Price to Book,4.10474
+Price to Earnings,"PriceToEarnings(trailing_pe=57.67455, forward_pe=12.38847)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.09, forward_eps=9.73)"
+Enterprise to Revenue,4.6
 
 CASH FLOW
-Free to Cash Flow,1519711488.0
-Operating to Cash Flow,2173336064.0
+Free to Cash Flow,2425385728.0
+Operating to Cash Flow,3203736064.0
 
 PROFITABILITY
-Return on Equity,0.34697
-Return on Assets,0.16806999
-Return on Invested Capital,91282354.27386223
+Return on Equity,0.33833998
+Return on Assets,0.15884
+Return on Invested Capital,38.17611597306846
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,74.97000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,75.97000000000003
+Target High Price Diff Current Price,19.4602
+Recommendation Key,100
+SUM ANALYST RATING SCORE,119.4602
 
 
 

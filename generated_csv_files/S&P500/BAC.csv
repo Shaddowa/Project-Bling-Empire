@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,BAC
 Company,Bank of America Corporation
 Country,United States
-Industry,Banks—Diversified
+Industry,Banks - Diversified
 Sector,Financial Services
 Website,https://www.bankofamerica.com
-Price,38.28
+Price,46.53
 Currency,USD
 
 REVENUE
-Total Revenue,93358997504.0
-Revenue Per Share,11.664
-Revenue Growth,-0.033
+Total Revenue,94625996800.0
+Revenue Per Share,11.95
+Revenue Growth,-0.005
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.9, forward_eps=3.57)"
-Net Earnings,23352000512.0
-Earnings Growth,-0.194
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=3.66)"
+Net Earnings,21941999616.0
+Earnings Growth,-0.1
 
 DEBT
-Total Debt,727036002304.0
+Total Debt,799686000640.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.26808
+Profit Margins,0.24952
 Gross Profit Margins,0.0
-Operating Margins,0.29642
+Operating Margins,0.30769
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.96
-Dividend Yield,0.025
-Dividend Payout Ratio,0.3241
-Five Year Avg Dividend Yield,2.41
-Trailing Annual Dividend Rate,0.94
-Trailing Annual Dividend Yield,0.024555905
+Dividend Rate,1.04
+Dividend Yield,0.0221
+Dividend Payout Ratio,0.35509998
+Five Year Avg Dividend Yield,2.45
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.1407802
-Price to Earnings,"PriceToEarnings(trailing_pe=13.25862, forward_pe=10.7703085)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.9, forward_eps=3.57)"
-Enterprise to Revenue,2.414
+Price to Book,1.3260864
+Price to Earnings,"PriceToEarnings(trailing_pe=14.612149, forward_pe=12.815573)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=3.66)"
+Enterprise to Revenue,3.782
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,40742998016.0
+Operating to Cash Flow,-1995000064.0
 
 PROFITABILITY
-Return on Equity,0.08724
-Return on Assets,0.00774
-Return on Invested Capital,0.0321194554835169
-Return on Investment,0.002869606954299126
+Return on Equity,0.08092
+Return on Assets,0.0072899996
+Return on Invested Capital,0.027438269017425576
+Return on Investment,0.0024215335293338632
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0241
-SUM DIVIDEND SCORE,8.0241
+5 Year Average,0.0245
+SUM DIVIDEND SCORE,4.0245
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.549999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.549999999999997
+Target High Price Diff Current Price,12.094999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,112.095
 
 
 

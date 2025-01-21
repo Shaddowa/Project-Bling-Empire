@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,PEP
 Company,"PepsiCo, Inc."
 Country,United States
-Industry,Beverages—Non-Alcoholic
+Industry,Beverages - Non-Alcoholic
 Sector,Consumer Defensive
 Website,https://www.pepsico.com
-Price,178.06
+Price,148.25
 Currency,USD
 
 REVENUE
-Total Revenue,91875000320.0
-Revenue Per Share,66.806
-Revenue Growth,0.023
+Total Revenue,91919998976.0
+Revenue Per Share,66.912
+Revenue Growth,-0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.63, forward_eps=8.83)"
-Net Earnings,9184000000.0
-Earnings Growth,0.057
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.78, forward_eps=8.63)"
+Net Earnings,9356999680.0
+Earnings Growth,-0.049
 
 DEBT
-Total Debt,45867999232.0
-Debt to Equity,239.02
+Total Debt,45013999616.0
+Debt to Equity,229.605
 
 MARGINS
-Profit Margins,0.09996
-Gross Profit Margins,0.54150003
-Operating Margins,0.15973
+Profit Margins,0.1018
+Gross Profit Margins,0.54883
+Operating Margins,0.18011
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.42
-Dividend Yield,0.0301
-Dividend Payout Ratio,0.76199996
-Five Year Avg Dividend Yield,2.74
-Trailing Annual Dividend Rate,5.06
-Trailing Annual Dividend Yield,0.028417388
+Dividend Yield,0.0366
+Dividend Payout Ratio,0.7729
+Five Year Avg Dividend Yield,2.78
+Trailing Annual Dividend Rate,5.24
+Trailing Annual Dividend Yield,0.0353457
 
 FINANCIAL RATIO
-Debt to Equity,239.02
-Price to Cash Flow,2.7992681355731155e-08
-Enterprise to EBITDA,17.385
-Price to Book,12.979352
-Price to Earnings,"PriceToEarnings(trailing_pe=27.117645, forward_pe=20.361267)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.63, forward_eps=8.83)"
-Enterprise to Revenue,3.1
+Debt to Equity,229.605
+Price to Cash Flow,2.4571134719033466e-08
+Enterprise to EBITDA,14.221
+Price to Book,10.521598
+Price to Earnings,"PriceToEarnings(trailing_pe=21.986727, forward_pe=17.273466)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.78, forward_eps=8.63)"
+Enterprise to Revenue,2.617
 
 CASH FLOW
-Free to Cash Flow,6422750208.0
-Operating to Cash Flow,12792999936.0
+Free to Cash Flow,6066874880.0
+Operating to Cash Flow,12032000000.0
 
 PROFITABILITY
-Return on Equity,0.5095
-Return on Assets,0.08768
-Return on Invested Capital,0.20022674088690584
-Return on Investment,-0.023494499872090048
+Return on Equity,0.48819
+Return on Assets,0.08717
+Return on Invested Capital,0.207868657681532
+Return on Investment,-0.022894542892096893
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0274
-SUM DIVIDEND SCORE,8.0274
+5 Year Average,0.0278
+SUM DIVIDEND SCORE,8.0278
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,30.210000000000008
-Recommendation Key,1
-SUM ANALYST RATING SCORE,31.210000000000008
+Target High Price Diff Current Price,45.93000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,145.93
 
 
 

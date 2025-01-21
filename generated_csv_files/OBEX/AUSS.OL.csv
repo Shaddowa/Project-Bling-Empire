@@ -5,68 +5,68 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.auss.no
-Price,90.7
+Price,103.7
 Currency,NOK
 
 REVENUE
-Total Revenue,33731000320.0
-Revenue Per Share,167.131
-Revenue Growth,0.138
+Total Revenue,35527000064.0
+Revenue Per Share,181.609
+Revenue Growth,0.169
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.45, forward_eps=12.04)"
-Net Earnings,292000000.0
-Earnings Growth,0.454
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.95, forward_eps=11.34)"
+Net Earnings,1735000064.0
+Earnings Growth,None
 
 DEBT
-Total Debt,13923999744.0
-Debt to Equity,51.49
+Total Debt,14737000448.0
+Debt to Equity,51.774
 
 MARGINS
-Profit Margins,0.00866
-Gross Profit Margins,0.44674
-Operating Margins,0.09941
+Profit Margins,0.048839998
+Gross Profit Margins,0.47282
+Operating Margins,0.27448
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.5
-Dividend Yield,0.048800003
-Dividend Payout Ratio,3.7930999
-Five Year Avg Dividend Yield,4.37
-Trailing Annual Dividend Rate,4.5
-Trailing Annual Dividend Yield,0.049614113
+Dividend Yield,0.0476
+Dividend Payout Ratio,0.5202
+Five Year Avg Dividend Yield,4.48
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,51.49
-Price to Cash Flow,-1.0370786516853932e-06
-Enterprise to EBITDA,8.701
-Price to Book,1.2563807
-Price to Earnings,"PriceToEarnings(trailing_pe=63.655174, forward_pe=7.6661134)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.45, forward_eps=12.04)"
-Enterprise to Revenue,1.165
+Debt to Equity,51.774
+Price to Cash Flow,9.979510743484234e-08
+Enterprise to EBITDA,7.195
+Price to Book,1.4088342
+Price to Earnings,"PriceToEarnings(trailing_pe=9.452055, forward_pe=9.126984)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.95, forward_eps=11.34)"
+Enterprise to Revenue,1.119
 
 CASH FLOW
-Free to Cash Flow,-89000000.0
-Operating to Cash Flow,3201999872.0
+Free to Cash Flow,1037124992.0
+Operating to Cash Flow,3520000000.0
 
 PROFITABILITY
-Return on Equity,0.012460001
-Return on Assets,0.04023
-Return on Invested Capital,0.02097098562395424
-Return on Investment,-0.006096033402922756
+Return on Equity,0.114250004
+Return on Assets,0.053439997
+Return on Invested Capital,0.11773088163177484
+Return on Investment,-0.023195188021390374
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,0.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0437
-SUM DIVIDEND SCORE,4.0437
+5 Year Average,0.044800000000000006
+SUM DIVIDEND SCORE,5.0448
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,22.700000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,23.700000000000003
+Target High Price Diff Current Price,22.5
+Recommendation Key,0
+SUM ANALYST RATING SCORE,22.5
 
 
 

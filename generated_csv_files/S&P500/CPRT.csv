@@ -5,27 +5,27 @@ Country,United States
 Industry,Specialty Business Services
 Sector,Industrials
 Website,https://www.copart.com
-Price,55.26
+Price,56.9
 Currency,USD
 
 REVENUE
-Total Revenue,4059986944.0
-Revenue Per Share,4.242
-Revenue Growth,0.066
+Total Revenue,4236823040.0
+Revenue Per Share,4.41
+Revenue Growth,0.072
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.4, forward_eps=1.62)"
-Net Earnings,1356377984.0
-Earnings Growth,0.1
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.43, forward_eps=1.74)"
+Net Earnings,1363020032.0
+Earnings Growth,-0.083
 
 DEBT
-Total Debt,115552000.0
-Debt to Equity,1.696
+Total Debt,118733000.0
+Debt to Equity,1.573
 
 MARGINS
-Profit Margins,0.33408
-Gross Profit Margins,0.46827
-Operating Margins,0.37240002
+Profit Margins,0.32171002
+Gross Profit Margins,0.4577
+Operating Margins,0.33633998
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,1.696
-Price to Cash Flow,9.301905106293894e-08
-Enterprise to EBITDA,28.643
-Price to Book,7.7524433
-Price to Earnings,"PriceToEarnings(trailing_pe=39.100002, forward_pe=33.790123)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.4, forward_eps=1.62)"
-Enterprise to Revenue,12.341
+Debt to Equity,1.573
+Price to Cash Flow,7.799593933284346e-08
+Enterprise to EBITDA,29.374
+Price to Book,7.3505692
+Price to Earnings,"PriceToEarnings(trailing_pe=40.16084, forward_pe=33.00575)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.43, forward_eps=1.74)"
+Enterprise to Revenue,12.163
 
 CASH FLOW
-Free to Cash Flow,588481600.0
-Operating to Cash Flow,1401415936.0
+Free to Cash Flow,736320384.0
+Operating to Cash Flow,1472563968.0
 
 PROFITABILITY
-Return on Equity,0.22555
-Return on Assets,0.14652
-Return on Invested Capital,11.73824685956313
+Return on Equity,0.20129
+Return on Assets,0.12967
+Return on Invested Capital,11.479706082631251
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,15 +64,15 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,4.239999999999995
-Recommendation Key,1
-SUM ANALYST RATING SCORE,5.239999999999995
+Target High Price Diff Current Price,8.57
+Recommendation Key,100
+SUM ANALYST RATING SCORE,108.57
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,True
-Revenue,True
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

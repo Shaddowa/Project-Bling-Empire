@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,AFL
 Company,Aflac Incorporated
 Country,United States
-Industry,Insurance—Life
+Industry,Insurance - Life
 Sector,Financial Services
 Website,https://www.aflac.com
-Price,85.38
+Price,106.49
 Currency,USD
 
 REVENUE
-Total Revenue,19337000960.0
-Revenue Per Share,32.937
-Revenue Growth,0.133
+Total Revenue,17301999616.0
+Revenue Per Share,30.368
+Revenue Growth,-0.404
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=6.9)"
-Net Earnings,5350000128.0
-Earnings Growth,0.675
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=7.17)"
+Net Earnings,3808999936.0
+Earnings Growth,None
 
 DEBT
-Total Debt,11761000448.0
-Debt to Equity,49.968
+Total Debt,12449999872.0
+Debt to Equity,50.141
 
 MARGINS
-Profit Margins,0.27667
-Gross Profit Margins,0.48679
-Operating Margins,0.40784
+Profit Margins,0.22015
+Gross Profit Margins,0.45196998
+Operating Margins,0.04815
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.0
-Dividend Yield,0.0232
-Dividend Payout Ratio,0.1936
-Five Year Avg Dividend Yield,2.37
-Trailing Annual Dividend Rate,1.76
-Trailing Annual Dividend Yield,0.020613728
+Dividend Rate,2.32
+Dividend Yield,0.0218
+Dividend Payout Ratio,0.28530002
+Five Year Avg Dividend Yield,2.35
+Trailing Annual Dividend Rate,1.92
+Trailing Annual Dividend Yield,0.018029861
 
 FINANCIAL RATIO
-Debt to Equity,49.968
-Price to Cash Flow,1.791746849003352e-08
-Enterprise to EBITDA,8.263
-Price to Book,2.0856252
-Price to Earnings,"PriceToEarnings(trailing_pe=9.469747, forward_pe=12.475363)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.09, forward_eps=6.9)"
-Enterprise to Revenue,2.701
+Debt to Equity,50.141
+Price to Cash Flow,3.686430464292402e-08
+Enterprise to EBITDA,13.066
+Price to Book,2.3907535
+Price to Earnings,"PriceToEarnings(trailing_pe=15.843982, forward_pe=14.871687)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=7.17)"
+Enterprise to Revenue,3.609
 
 CASH FLOW
-Free to Cash Flow,4804250112.0
-Operating to Cash Flow,3148999936.0
+Free to Cash Flow,2892499968.0
+Operating to Cash Flow,2956000000.0
 
 PROFITABILITY
-Return on Equity,0.24699
-Return on Assets,0.030250002
-Return on Invested Capital,0.4548932833460589
-Return on Investment,0.1378866012371134
+Return on Equity,0.16038
+Return on Assets,0.0235
+Return on Invested Capital,0.3059437720092695
+Return on Investment,0.09817010144329896
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.023700000000000002
-SUM DIVIDEND SCORE,8.0237
+5 Year Average,0.0235
+SUM DIVIDEND SCORE,8.0235
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,8.920000000000002
+Target High Price Diff Current Price,15.370000000000005
 Recommendation Key,0
-SUM ANALYST RATING SCORE,8.920000000000002
+SUM ANALYST RATING SCORE,15.370000000000005
 
 
 

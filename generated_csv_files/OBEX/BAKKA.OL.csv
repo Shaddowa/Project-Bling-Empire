@@ -5,55 +5,55 @@ Country,Denmark
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.bakkafrost.com
-Price,625.5
+Price,615.0
 Currency,NOK
 
 REVENUE
-Total Revenue,7140849152.0
-Revenue Per Share,120.675
-Revenue Growth,-0.195
+Total Revenue,7571853824.0
+Revenue Per Share,127.793
+Revenue Growth,-0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.61, forward_eps=42.45)"
-Net Earnings,955574016.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.13, forward_eps=39.91)"
+Net Earnings,569174016.0
 Earnings Growth,None
 
 DEBT
-Total Debt,4341460992.0
-Debt to Equity,39.955
+Total Debt,3873728000.0
+Debt to Equity,36.364
 
 MARGINS
-Profit Margins,0.13382
-Gross Profit Margins,0.62711
-Operating Margins,0.32706
+Profit Margins,0.07517
+Gross Profit Margins,0.57507
+Operating Margins,-0.058520004
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,13.69
-Dividend Yield,0.022
-Dividend Payout Ratio,0.6621
+Dividend Yield,0.0223
+Dividend Payout Ratio,0.90129995
 Five Year Avg Dividend Yield,1.9
 Trailing Annual Dividend Rate,8.7
-Trailing Annual Dividend Yield,0.013908872
+Trailing Annual Dividend Yield,0.014146341
 
 FINANCIAL RATIO
-Debt to Equity,39.955
-Price to Cash Flow,-1.8436262166275837e-06
-Enterprise to EBITDA,23.299
-Price to Book,3.3958912
-Price to Earnings,"PriceToEarnings(trailing_pe=26.387123, forward_pe=14.676089)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=23.61, forward_eps=42.45)"
-Enterprise to Revenue,5.717
+Debt to Equity,36.364
+Price to Cash Flow,6.317013275429819e-07
+Enterprise to EBITDA,27.969
+Price to Book,3.397729
+Price to Earnings,"PriceToEarnings(trailing_pe=40.383343, forward_pe=15.309446)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.13, forward_eps=39.91)"
+Enterprise to Revenue,5.214
 
 CASH FLOW
-Free to Cash Flow,-337920992.0
-Operating to Cash Flow,1022721984.0
+Free to Cash Flow,967229248.0
+Operating to Cash Flow,2174684928.0
 
 PROFITABILITY
-Return on Equity,0.08984999
-Return on Assets,0.04499
-Return on Invested Capital,0.22010424080307764
-Return on Investment,-0.014202014374803075
+Return on Equity,0.053000003
+Return on Assets,0.0307
+Return on Invested Capital,0.1469318417756318
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.019
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,220.64999999999998
-Recommendation Key,1
-SUM ANALYST RATING SCORE,221.64999999999998
+Target High Price Diff Current Price,177.06780000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,277.06780000000003
 
 
 

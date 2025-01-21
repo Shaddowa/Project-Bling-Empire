@@ -5,27 +5,27 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.epam.com
-Price,181.93
+Price,229.08
 Currency,USD
 
 REVENUE
-Total Revenue,4690540032.0
-Revenue Per Share,81.111
-Revenue Growth,-0.06
+Total Revenue,4636846080.0
+Revenue Per Share,80.605
+Revenue Growth,0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.05, forward_eps=11.65)"
-Net Earnings,417083008.0
-Earnings Growth,-0.366
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.7, forward_eps=11.19)"
+Net Earnings,448788000.0
+Earnings Growth,0.436
 
 DEBT
-Total Debt,171944992.0
-Debt to Equity,4.953
+Total Debt,165443008.0
+Debt to Equity,4.654
 
 MARGINS
-Profit Margins,0.088920005
-Gross Profit Margins,0.31014
-Operating Margins,0.13652
+Profit Margins,0.09679
+Gross Profit Margins,0.30944002
+Operating Margins,0.15467
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,4.953
-Price to Cash Flow,3.3642218549713235e-07
-Enterprise to EBITDA,18.486
-Price to Book,3.0534096
-Price to Earnings,"PriceToEarnings(trailing_pe=26.014183, forward_pe=15.742489)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.05, forward_eps=11.65)"
-Enterprise to Revenue,2.662
+Debt to Equity,4.654
+Price to Cash Flow,3.677075115991591e-07
+Enterprise to EBITDA,16.835
+Price to Book,3.6936958
+Price to Earnings,"PriceToEarnings(trailing_pe=30.064285, forward_pe=20.687668)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.7, forward_eps=11.19)"
+Enterprise to Revenue,2.394
 
 CASH FLOW
-Free to Cash Flow,545148352.0
-Operating to Cash Flow,562633984.0
+Free to Cash Flow,629562880.0
+Operating to Cash Flow,600278016.0
 
 PROFITABILITY
-Return on Equity,0.12884
-Return on Assets,0.087419994
-Return on Invested Capital,2.425676127305813
+Return on Equity,0.13094
+Return on Assets,0.08329
+Return on Invested Capital,2.7126430751943325
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,176.6
-Recommendation Key,1
-SUM ANALYST RATING SCORE,177.6
+Target High Price Diff Current Price,88.505
+Recommendation Key,100
+SUM ANALYST RATING SCORE,188.505
 
 
 

@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,VTRS
 Company,Viatris Inc.
 Country,United States
-Industry,Drug Manufacturers—Specialty & Generic
+Industry,Drug Manufacturers - Specialty & Generic
 Sector,Healthcare
 Website,https://www.viatris.com
-Price,11.22
+Price,11.3
 Currency,USD
 
 REVENUE
-Total Revenue,15426899968.0
-Revenue Per Share,12.853
-Revenue Growth,-0.01
+Total Revenue,15048500224.0
+Revenue Per Share,12.593
+Revenue Growth,-0.048
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.05, forward_eps=2.76)"
-Net Earnings,54700000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=2.67)"
+Net Earnings,-883299968.0
+Earnings Growth,-0.706
 
 DEBT
-Total Debt,18371198976.0
-Debt to Equity,89.758
+Total Debt,16014399488.0
+Debt to Equity,80.912
 
 MARGINS
-Profit Margins,0.0035499998
-Gross Profit Margins,0.4364
-Operating Margins,0.13678999
+Profit Margins,-0.0587
+Gross Profit Margins,0.42025003
+Operating Margins,0.13884
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.48
-Dividend Yield,0.040599998
+Dividend Yield,0.0425
 Dividend Payout Ratio,9.6
 Five Year Avg Dividend Yield,0.89
 Trailing Annual Dividend Rate,0.48
-Trailing Annual Dividend Yield,0.042780746
+Trailing Annual Dividend Yield,0.042477876
 
 FINANCIAL RATIO
-Debt to Equity,89.758
-Price to Cash Flow,1.0108008893540682e-08
-Enterprise to EBITDA,6.426
-Price to Book,0.6547375
-Price to Earnings,"PriceToEarnings(trailing_pe=223.2, forward_pe=4.043478)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.05, forward_eps=2.76)"
-Enterprise to Revenue,2.023
+Debt to Equity,80.912
+Price to Cash Flow,2.7447075683527056e-09
+Enterprise to EBITDA,5.986
+Price to Book,0.68620795
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=4.2616854)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=2.67)"
+Enterprise to Revenue,1.824
 
 CASH FLOW
-Free to Cash Flow,1104075008.0
-Operating to Cash Flow,2799600128.0
+Free to Cash Flow,4145687552.0
+Operating to Cash Flow,2288300032.0
 
 PROFITABILITY
-Return on Equity,0.00263
-Return on Assets,0.02786
-Return on Invested Capital,0.0029774866638104798
-Return on Investment,0.0007971436898863305
+Return on Equity,-0.043449998
+Return on Assets,0.024820002
+Return on Invested Capital,-0.05515660875996458
+Return on Investment,-0.011838895161506501
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0089
-SUM DIVIDEND SCORE,4.0089
+SUM DIVIDEND SCORE,7.0089
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,23.84
+Target High Price Diff Current Price,3.6212999999999997
 Recommendation Key,0
-SUM ANALYST RATING SCORE,23.84
+SUM ANALYST RATING SCORE,3.6212999999999997
 
 
 

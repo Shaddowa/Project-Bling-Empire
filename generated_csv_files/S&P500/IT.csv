@@ -5,27 +5,27 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.gartner.com
-Price,436.75
+Price,515.7
 Currency,USD
 
 REVENUE
-Total Revenue,5971013120.0
-Revenue Per Share,75.846
-Revenue Growth,0.045
+Total Revenue,6138409984.0
+Revenue Per Share,78.699
+Revenue Growth,0.054
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=12.92)"
-Net Earnings,797228032.0
-Earnings Growth,-0.274
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.56, forward_eps=13.19)"
+Net Earnings,1063772992.0
+Earnings Growth,1.354
 
 DEBT
-Total Debt,2948058880.0
-Debt to Equity,410.494
+Total Debt,3003962880.0
+Debt to Equity,282.147
 
 MARGINS
-Profit Margins,0.13352
-Gross Profit Margins,0.67718005
-Operating Margins,0.18658
+Profit Margins,0.1733
+Gross Profit Margins,0.67778
+Operating Margins,0.16731001
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,410.494
-Price to Cash Flow,4.0798170666756697e-07
-Enterprise to EBITDA,28.128
-Price to Book,47.84034
-Price to Earnings,"PriceToEarnings(trailing_pe=43.66501, forward_pe=33.999226)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.06, forward_eps=12.92)"
-Enterprise to Revenue,5.997
+Debt to Equity,282.147
+Price to Cash Flow,6.005443486400781e-07
+Enterprise to EBITDA,31.573
+Price to Book,37.893642
+Price to Earnings,"PriceToEarnings(trailing_pe=38.38827, forward_pe=39.465126)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.56, forward_eps=13.19)"
+Enterprise to Revenue,6.681
 
 CASH FLOW
-Free to Cash Flow,1076690432.0
-Operating to Cash Flow,1179894016.0
+Free to Cash Flow,866788608.0
+Operating to Cash Flow,1373896960.0
 
 PROFITABILITY
-Return on Equity,1.33872
-Return on Assets,0.09336001
-Return on Invested Capital,0.27042473097313446
-Return on Investment,0.05515698515269341
+Return on Equity,1.30419
+Return on Assets,0.094960004
+Return on Invested Capital,0.35412321311221046
+Return on Investment,0.08404555482693508
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,89.73000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,90.73000000000002
+Target High Price Diff Current Price,79.45500000000004
+Recommendation Key,100
+SUM ANALYST RATING SCORE,179.45500000000004
 
 
 

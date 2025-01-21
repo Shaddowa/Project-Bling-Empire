@@ -2,58 +2,58 @@ GENERAL STOCK INFO
 Ticker,PARB.OL
 Company,Pareto Bank ASA
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.paretobank.no
-Price,59.0
+Price,70.0
 Currency,NOK
 
 REVENUE
-Total Revenue,1061393984.0
-Revenue Per Share,12.599
-Revenue Growth,0.285
+Total Revenue,1127921024.0
+Revenue Per Share,13.683
+Revenue Growth,0.119
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.74, forward_eps=8.59)"
-Net Earnings,650718976.0
-Earnings Growth,0.201
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.4, forward_eps=8.57)"
+Net Earnings,692476992.0
+Earnings Growth,0.101
 
 DEBT
-Total Debt,8327755776.0
+Total Debt,8018996224.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.61307997
+Profit Margins,0.61394
 Gross Profit Margins,0.0
-Operating Margins,0.80622
+Operating Margins,0.79686
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.9
-Dividend Yield,0.0654
-Dividend Payout Ratio,0.5039
+Dividend Yield,0.0557
+Dividend Payout Ratio,0.4643
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,3.9
-Trailing Annual Dividend Yield,0.0661017
+Trailing Annual Dividend Yield,0.055714287
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.97008365
-Price to Earnings,"PriceToEarnings(trailing_pe=7.7002583, forward_pe=6.9383)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.74, forward_eps=8.59)"
-Enterprise to Revenue,10.99
+Price to Book,1.1419039
+Price to Earnings,"PriceToEarnings(trailing_pe=8.392858, forward_pe=8.226372)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.4, forward_eps=8.57)"
+Enterprise to Revenue,10.061
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-406486016.0
+Operating to Cash Flow,640966976.0
 
 PROFITABILITY
-Return on Equity,0.13709
-Return on Assets,0.025880001
-Return on Invested Capital,0.07813857522991345
-Return on Investment,0.007332945409633408
+Return on Equity,0.13652
+Return on Assets,0.02715
+Return on Invested Capital,0.08635457198446425
+Return on Investment,0.007019256126721802
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,15 +64,15 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,5.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,8.399999999999999
+Target High Price Diff Current Price,2.5
 Recommendation Key,0
-SUM ANALYST RATING SCORE,8.399999999999999
+SUM ANALYST RATING SCORE,2.5
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

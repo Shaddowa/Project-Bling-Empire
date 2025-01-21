@@ -5,68 +5,68 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.salmar.no
-Price,668.0
+Price,565.5
 Currency,NOK
 
 REVENUE
-Total Revenue,27890800640.0
-Revenue Per Share,212.174
-Revenue Growth,0.245
+Total Revenue,27555799040.0
+Revenue Per Share,208.515
+Revenue Growth,-0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.38, forward_eps=47.27)"
-Net Earnings,2546161920.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.88, forward_eps=39.99)"
+Net Earnings,3605161984.0
 Earnings Growth,None
 
 DEBT
-Total Debt,15737461760.0
-Debt to Equity,68.19
+Total Debt,19274000384.0
+Debt to Equity,95.962
 
 MARGINS
-Profit Margins,0.114829995
-Gross Profit Margins,0.60051
-Operating Margins,0.20606
+Profit Margins,0.1449
+Gross Profit Margins,0.52529
+Operating Margins,0.27787
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,35.0
-Dividend Yield,0.0517
-Dividend Payout Ratio,1.034
+Dividend Yield,0.0627
+Dividend Payout Ratio,1.281
 Five Year Avg Dividend Yield,5.08
-Trailing Annual Dividend Rate,35.0
-Trailing Annual Dividend Yield,0.05239521
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,68.19
-Price to Cash Flow,8.393620515785238e-08
-Enterprise to EBITDA,10.173
-Price to Book,4.485567
-Price to Earnings,"PriceToEarnings(trailing_pe=34.95872, forward_pe=14.332558)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.38, forward_eps=47.27)"
-Enterprise to Revenue,3.851
+Debt to Equity,95.962
+Price to Cash Flow,5.060482028917917e-08
+Enterprise to EBITDA,11.567
+Price to Book,3.773835
+Price to Earnings,"PriceToEarnings(trailing_pe=22.90997, forward_pe=14.253563)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.88, forward_eps=39.99)"
+Enterprise to Revenue,3.508
 
 CASH FLOW
-Free to Cash Flow,8071606272.0
-Operating to Cash Flow,9294182400.0
+Free to Cash Flow,11263749120.0
+Operating to Cash Flow,7968181760.0
 
 PROFITABILITY
-Return on Equity,0.11626001
-Return on Assets,0.10213
-Return on Invested Capital,0.1617898702086033
-Return on Investment,0.1899539633395752
+Return on Equity,0.17679001
+Return on Assets,0.07637
+Return on Invested Capital,0.1870479342078382
+Return on Investment,-0.0901382887745994
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0508
 SUM DIVIDEND SCORE,4.0508
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,142.5
-Recommendation Key,0
-SUM ANALYST RATING SCORE,142.5
+Target High Price Diff Current Price,211.0
+Recommendation Key,100
+SUM ANALYST RATING SCORE,311.0
 
 
 

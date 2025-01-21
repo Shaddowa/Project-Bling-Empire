@@ -5,68 +5,68 @@ Country,Ireland
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.johnsoncontrols.com
-Price,65.74
+Price,81.14
 Currency,USD
 
 REVENUE
-Total Revenue,26831998976.0
-Revenue Per Share,39.412
-Revenue Growth,0.002
+Total Revenue,22951999488.0
+Revenue Per Share,34.064
+Revenue Growth,-0.095
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=4.09)"
-Net Earnings,1695000064.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.08, forward_eps=4.19)"
+Net Earnings,1407000064.0
+Earnings Growth,0.18
 
 DEBT
-Total Debt,12078999552.0
-Debt to Equity,71.724
+Total Debt,9493000192.0
+Debt to Equity,54.68
 
 MARGINS
-Profit Margins,0.06317
-Gross Profit Margins,0.32841
-Operating Margins,-0.01045
+Profit Margins,0.07429
+Gross Profit Margins,0.35191002
+Operating Margins,0.14405
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.48
-Dividend Yield,0.0226
-Dividend Payout Ratio,0.53900003
-Five Year Avg Dividend Yield,2.31
+Dividend Yield,0.0182
+Dividend Payout Ratio,0.7115
+Five Year Avg Dividend Yield,2.24
 Trailing Annual Dividend Rate,1.48
-Trailing Annual Dividend Yield,0.022512931
+Trailing Annual Dividend Yield,0.01824008
 
 FINANCIAL RATIO
-Debt to Equity,71.724
-Price to Cash Flow,3.6970336323348787e-08
-Enterprise to EBITDA,19.104
-Price to Book,2.8219247
-Price to Earnings,"PriceToEarnings(trailing_pe=24.382898, forward_pe=16.036673)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.69, forward_eps=4.09)"
-Enterprise to Revenue,2.11
+Debt to Equity,54.68
+Price to Cash Flow,4.64860268087822e-08
+Enterprise to EBITDA,19.843
+Price to Book,3.3855436
+Price to Earnings,"PriceToEarnings(trailing_pe=39.384617, forward_pe=19.551311)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.08, forward_eps=4.19)"
+Enterprise to Revenue,2.794
 
 CASH FLOW
-Free to Cash Flow,1774125056.0
-Operating to Cash Flow,1754000000.0
+Free to Cash Flow,1762249984.0
+Operating to Cash Flow,2098000000.0
 
 PROFITABILITY
-Return on Equity,0.11043999
-Return on Assets,0.0296
-Return on Invested Capital,0.14032619617555545
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.0805
+Return on Assets,0.03556
+Return on Invested Capital,0.1482144771891367
+Return on Investment,0.045980394248366016
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
-Payout Ratio,1.0
+Dividend Yield,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0231
-SUM DIVIDEND SCORE,8.0231
+5 Year Average,0.022400000000000003
+SUM DIVIDEND SCORE,4.0224
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.409999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.409999999999997
+Target High Price Diff Current Price,27.08
+Recommendation Key,100
+SUM ANALYST RATING SCORE,127.08
 
 
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Conglomerates
 Sector,Industrials
 Website,https://endur.no
-Price,47.95
+Price,68.7
 Currency,NOK
 
 REVENUE
-Total Revenue,1978099968.0
-Revenue Per Share,61.249
-Revenue Growth,-0.21
+Total Revenue,2217200128.0
+Revenue Per Share,63.384
+Revenue Growth,0.272
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=4.67)"
-Net Earnings,-27000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=4.16)"
+Net Earnings,12900000.0
+Earnings Growth,-0.258
 
 DEBT
-Total Debt,1011900032.0
-Debt to Equity,84.912
+Total Debt,980600000.0
+Debt to Equity,82.286
 
 MARGINS
-Profit Margins,-0.01365
-Gross Profit Margins,0.4745
-Operating Margins,0.00738
+Profit Margins,0.00582
+Gross Profit Margins,0.52521
+Operating Margins,0.06057
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,84.912
-Price to Cash Flow,-2.8133828996282527e-06
-Enterprise to EBITDA,13.922
-Price to Book,1.459426
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.128479)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.84, forward_eps=4.67)"
-Enterprise to Revenue,1.339
+Debt to Equity,82.286
+Price to Cash Flow,9.921033740129217e-07
+Enterprise to EBITDA,14.085
+Price to Book,2.132058
+Price to Earnings,"PriceToEarnings(trailing_pe=2303.3333, forward_pe=16.610577)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.03, forward_eps=4.16)"
+Enterprise to Revenue,1.419
 
 CASH FLOW
-Free to Cash Flow,-16812500.0
-Operating to Cash Flow,133000000.0
+Free to Cash Flow,69650000.0
+Operating to Cash Flow,190100000.0
 
 PROFITABILITY
-Return on Equity,-0.02587
-Return on Assets,0.01946
-Return on Invested Capital,-0.02668247680737392
-Return on Investment,-0.0019121813031161474
+Return on Equity,0.01166
+Return on Assets,0.022160001
+Return on Invested Capital,0.0131552106604524
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,1
+Target High Price Diff Current Price,30.900000000000006
+Recommendation Key,0
+SUM ANALYST RATING SCORE,30.900000000000006
 
 
 

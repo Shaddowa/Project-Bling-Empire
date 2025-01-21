@@ -5,27 +5,27 @@ Country,United States
 Industry,Internet Retail
 Sector,Consumer Cyclical
 Website,https://www.etsy.com
-Price,63.45
+Price,53.12
 Currency,USD
 
 REVENUE
-Total Revenue,2753454080.0
-Revenue Per Share,22.75
-Revenue Growth,0.008
+Total Revenue,2798491904.0
+Revenue Per Share,23.862
+Revenue Growth,0.041
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.19, forward_eps=2.81)"
-Net Earnings,296035008.0
-Earnings Growth,-0.104
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.96, forward_eps=2.6)"
+Net Earnings,256640992.0
+Earnings Growth,-0.3
 
 DEBT
-Total Debt,2389040128.0
+Total Debt,2388141056.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.10751
-Gross Profit Margins,0.70412004
-Operating Margins,0.10541
+Profit Margins,0.091709994
+Gross Profit Margins,0.71164
+Operating Margins,0.13106
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,21 +38,21 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.087619528543071e-07
-Enterprise to EBITDA,20.14
+Price to Cash Flow,7.768548111637094e-08
+Enterprise to EBITDA,16.682
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=28.273972, forward_pe=22.035587)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.19, forward_eps=2.81)"
-Enterprise to Revenue,3.118
+Price to Earnings,"PriceToEarnings(trailing_pe=26.094387, forward_pe=19.671154)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.96, forward_eps=2.6)"
+Enterprise to Revenue,2.615
 
 CASH FLOW
-Free to Cash Flow,569316736.0
-Operating to Cash Flow,718915008.0
+Free to Cash Flow,658231104.0
+Operating to Cash Flow,732614976.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.09142999
-Return on Invested Capital,0.12391378660758856
+Return on Assets,0.094119996
+Return on Invested Capital,0.10746475462565601
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,43.08
+Target High Price Diff Current Price,53.865
 Recommendation Key,0
-SUM ANALYST RATING SCORE,43.08
+SUM ANALYST RATING SCORE,53.865
 
 
 

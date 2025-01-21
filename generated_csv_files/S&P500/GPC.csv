@@ -5,55 +5,55 @@ Country,United States
 Industry,Auto Parts
 Sector,Consumer Cyclical
 Website,https://www.genpt.com
-Price,155.34
+Price,118.52
 Currency,USD
 
 REVENUE
-Total Revenue,23109122048.0
-Revenue Per Share,165.038
-Revenue Growth,0.003
+Total Revenue,23302279168.0
+Revenue Per Share,167.12
+Revenue Growth,0.025
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.97, forward_eps=10.74)"
-Net Earnings,1261460992.0
-Earnings Growth,-0.168
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.76, forward_eps=8.47)"
+Net Earnings,1087895040.0
+Earnings Growth,-0.349
 
 DEBT
-Total Debt,4945126912.0
-Debt to Equity,111.952
+Total Debt,5990215168.0
+Debt to Equity,127.177
 
 MARGINS
-Profit Margins,0.05459
-Gross Profit Margins,0.36141
-Operating Margins,0.07229
+Profit Margins,0.046690002
+Gross Profit Margins,0.3642
+Operating Margins,0.063319996
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.0
-Dividend Yield,0.025799999
-Dividend Payout Ratio,0.4292
+Dividend Yield,0.0337
+Dividend Payout Ratio,0.509
 Five Year Avg Dividend Yield,2.75
-Trailing Annual Dividend Rate,3.85
-Trailing Annual Dividend Yield,0.024784343
+Trailing Annual Dividend Rate,3.95
+Trailing Annual Dividend Yield,0.03332771
 
 FINANCIAL RATIO
-Debt to Equity,111.952
-Price to Cash Flow,1.7352333308705323e-07
-Enterprise to EBITDA,11.892
-Price to Book,4.91423
-Price to Earnings,"PriceToEarnings(trailing_pe=17.309921, forward_pe=14.4571705)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.97, forward_eps=10.74)"
-Enterprise to Revenue,1.105
+Debt to Equity,127.177
+Price to Cash Flow,2.4581954766599825e-07
+Enterprise to EBITDA,10.416
+Price to Book,3.5343065
+Price to Earnings,"PriceToEarnings(trailing_pe=15.380154, forward_pe=14.090908)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.76, forward_eps=8.47)"
+Enterprise to Revenue,0.919
 
 CASH FLOW
-Free to Cash Flow,894807616.0
-Operating to Cash Flow,1556408960.0
+Free to Cash Flow,485518752.0
+Operating to Cash Flow,1449389056.0
 
 PROFITABILITY
-Return on Equity,0.3019
-Return on Assets,0.06362
-Return on Invested Capital,0.2550917309885457
-Return on Investment,-0.030791749362299385
+Return on Equity,0.24416
+Return on Assets,0.056009997
+Return on Invested Capital,0.1816120128169566
+Return on Investment,-0.028411765904158493
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,9.0275
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,27.72999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,28.72999999999999
+Target High Price Diff Current Price,35.650000000000006
+Recommendation Key,100
+SUM ANALYST RATING SCORE,135.65
 
 
 

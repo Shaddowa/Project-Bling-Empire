@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.intuitive.com
-Price,385.45
+Price,592.64
 Currency,USD
 
 REVENUE
-Total Revenue,7318499840.0
-Revenue Per Share,20.79
-Revenue Growth,0.115
+Total Revenue,7866899968.0
+Revenue Per Share,22.22
+Revenue Growth,0.169
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=7.36)"
-Net Earnings,1987600000.0
-Earnings Growth,0.51
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.22, forward_eps=7.86)"
+Net Earnings,2243099904.0
+Earnings Growth,0.345
 
 DEBT
 Total Debt,0.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.27159
-Gross Profit Margins,0.66433
-Operating Margins,0.24827999
+Profit Margins,0.28513
+Gross Profit Margins,0.66982
+Operating Margins,0.28325
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,7.3048405035396e-07
-Enterprise to EBITDA,58.414
-Price to Book,9.823447
-Price to Earnings,"PriceToEarnings(trailing_pe=69.927666, forward_pe=52.54076)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.53, forward_eps=7.36)"
-Enterprise to Revenue,18.098
+Price to Cash Flow,9.356339084507608e-07
+Enterprise to EBITDA,82.611
+Price to Book,13.634368
+Price to Earnings,"PriceToEarnings(trailing_pe=95.89871, forward_pe=75.88931)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.22, forward_eps=7.86)"
+Enterprise to Revenue,26.306
 
 CASH FLOW
-Free to Cash Flow,529375008.0
-Operating to Cash Flow,1707800064.0
+Free to Cash Flow,637524992.0
+Operating to Cash Flow,1820700032.0
 
 PROFITABILITY
-Return on Equity,0.15816
-Return on Assets,0.080010004
-Return on Invested Capital,50491553.41038994
-Return on Investment,-0.01787410071942446
+Return on Equity,0.15973
+Return on Assets,0.0795
+Return on Invested Capital,51272026.880614415
+Return on Investment,-0.018167165335709078
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,88.30000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,89.30000000000001
+Target High Price Diff Current Price,103.50999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,203.51
 
 
 

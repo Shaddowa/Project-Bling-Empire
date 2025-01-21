@@ -5,27 +5,27 @@ Country,Norway
 Industry,Airlines
 Sector,Industrials
 Website,https://www.norwegian.com
-Price,14.65
+Price,10.62
 Currency,NOK
 
 REVENUE
-Total Revenue,25539299328.0
-Revenue Per Share,26.945
-Revenue Growth,0.255
+Total Revenue,32871800832.0
+Revenue Per Share,33.931
+Revenue Growth,0.329
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.67, forward_eps=2.18)"
-Net Earnings,1610599936.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=1.62)"
+Net Earnings,1597100032.0
+Earnings Growth,-0.018
 
 DEBT
-Total Debt,14025400320.0
-Debt to Equity,242.965
+Total Debt,15340499968.0
+Debt to Equity,215.732
 
 MARGINS
-Profit Margins,0.06801
-Gross Profit Margins,0.20135
-Operating Margins,0.054840002
+Profit Margins,0.052649997
+Gross Profit Margins,0.17969
+Operating Margins,0.18857001
 
 DIVIDEND
 Dividend Ex Date,None
@@ -33,40 +33,40 @@ Dividend Rate,None
 Dividend Yield,None
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.6
-Trailing Annual Dividend Yield,0.040955633
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,242.965
-Price to Cash Flow,7.521283719402697e-09
-Enterprise to EBITDA,7.703
-Price to Book,3.2920232
-Price to Earnings,"PriceToEarnings(trailing_pe=8.748503, forward_pe=6.7018347)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.67, forward_eps=2.18)"
-Enterprise to Revenue,0.728
+Debt to Equity,215.732
+Price to Cash Flow,2.2842107736004135e-09
+Enterprise to EBITDA,3.996
+Price to Book,1.441643
+Price to Earnings,"PriceToEarnings(trailing_pe=6.9509807, forward_pe=6.564815)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=1.62)"
+Enterprise to Revenue,0.43
 
 CASH FLOW
-Free to Cash Flow,1942487552.0
-Operating to Cash Flow,5257500160.0
+Free to Cash Flow,4655875072.0
+Operating to Cash Flow,7463900160.0
 
 PROFITABILITY
-Return on Equity,0.34822
-Return on Assets,0.053260002
-Return on Invested Capital,0.11483450730412838
-Return on Investment,0.013297555614266843
+Return on Equity,0.26045
+Return on Assets,0.04217
+Return on Invested Capital,0.10411003777996163
+Return on Investment,0.017079457084803764
 
 DIVIDEND SCORE
-Dividend  Rate,0.5
-Dividend Yield,0.5
+Dividend  Rate,0.0
+Dividend Yield,0.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,1.0
+SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.390000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.39
+Target High Price Diff Current Price,7.465000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,107.465
 
 
 
@@ -76,10 +76,10 @@ Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,True
-Free Cash Flow,True
+Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,1.0
 

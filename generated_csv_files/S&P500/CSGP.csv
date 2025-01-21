@@ -5,27 +5,27 @@ Country,United States
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.costargroup.com
-Price,91.34
+Price,73.85
 Currency,USD
 
 REVENUE
-Total Revenue,2527000064.0
-Revenue Per Share,6.231
-Revenue Growth,0.123
+Total Revenue,2666899968.0
+Revenue Per Share,6.568
+Revenue Growth,0.109
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=1.28)"
-Net Earnings,294300000.0
-Earnings Growth,-0.921
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.42, forward_eps=1.12)"
+Net Earnings,175400000.0
+Earnings Growth,-0.409
 
 DEBT
-Total Debt,1105299968.0
-Debt to Equity,15.053
+Total Debt,1105900032.0
+Debt to Equity,14.763
 
 MARGINS
-Profit Margins,0.116459996
-Gross Profit Margins,0.79679
-Operating Margins,-0.0652
+Profit Margins,0.06577
+Gross Profit Margins,0.79231
+Operating Margins,0.03422
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,15.053
-Price to Cash Flow,2.9595969574236883e-06
-Enterprise to EBITDA,116.303
-Price to Book,5.0089164
-Price to Earnings,"PriceToEarnings(trailing_pe=124.83333, forward_pe=70.21875)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=1.28)"
-Enterprise to Revenue,13.002
+Debt to Equity,14.763
+Price to Cash Flow,-5.148152012672749e-07
+Enterprise to EBITDA,155.278
+Price to Book,4.0608435
+Price to Earnings,"PriceToEarnings(trailing_pe=176.86906, forward_pe=66.3259)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.42, forward_eps=1.12)"
+Enterprise to Revenue,9.916
 
 CASH FLOW
-Free to Cash Flow,30369000.0
-Operating to Cash Flow,505900000.0
+Free to Cash Flow,-144294496.0
+Operating to Cash Flow,446500000.0
 
 PROFITABILITY
-Return on Equity,0.041139998
-Return on Assets,0.01191
-Return on Invested Capital,0.266262556539027
-Return on Investment,-0.004806467417932386
+Return on Equity,0.02386
+Return on Assets,0.0023700001
+Return on Invested Capital,0.15860384485336543
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,21.120000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,22.120000000000005
+Target High Price Diff Current Price,28.715000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,128.715
 
 
 

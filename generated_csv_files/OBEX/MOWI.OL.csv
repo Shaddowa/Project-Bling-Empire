@@ -5,68 +5,68 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://www.mowi.com
-Price,195.3
+Price,210.6
 Currency,NOK
 
 REVENUE
-Total Revenue,5470499840.0
-Revenue Per Share,10.537
-Revenue Growth,-0.026
+Total Revenue,5529999872.0
+Revenue Per Share,10.674
+Revenue Growth,0.063
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.51, forward_eps=17.91)"
-Net Earnings,333600000.0
-Earnings Growth,-0.407
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.75, forward_eps=16.9)"
+Net Earnings,429600000.0
+Earnings Growth,-0.571
 
 DEBT
-Total Debt,2514299904.0
-Debt to Equity,65.176
+Total Debt,2484199936.0
+Debt to Equity,65.398
 
 MARGINS
-Profit Margins,0.06098
-Gross Profit Margins,0.44188
-Operating Margins,0.1903
+Profit Margins,0.07769
+Gross Profit Margins,0.41005
+Operating Margins,0.048210002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.9
-Dividend Yield,0.035
-Dividend Payout Ratio,0.989
-Five Year Avg Dividend Yield,3.26
-Trailing Annual Dividend Rate,1.984
-Trailing Annual Dividend Yield,0.01015873
+Dividend Rate,6.0
+Dividend Yield,0.028499998
+Dividend Payout Ratio,0.6727
+Five Year Avg Dividend Yield,3.09
+Trailing Annual Dividend Rate,0.573
+Trailing Annual Dividend Yield,0.0027207977
 
 FINANCIAL RATIO
-Debt to Equity,65.176
-Price to Cash Flow,8.03505031184554e-07
-Enterprise to EBITDA,96.802
-Price to Book,27.600447
-Price to Earnings,"PriceToEarnings(trailing_pe=26.251663, forward_pe=11.007816)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.51, forward_eps=17.91)"
-Enterprise to Revenue,19.095
+Debt to Equity,65.398
+Price to Cash Flow,1.0466778752524658e-06
+Enterprise to EBITDA,125.845
+Price to Book,29.977215
+Price to Earnings,"PriceToEarnings(trailing_pe=21.589743, forward_pe=12.455622)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.75, forward_eps=16.9)"
+Enterprise to Revenue,20.142
 
 CASH FLOW
-Free to Cash Flow,245362496.0
-Operating to Cash Flow,813699968.0
+Free to Cash Flow,201112496.0
+Operating to Cash Flow,926700032.0
 
 PROFITABILITY
-Return on Equity,0.08559
-Return on Assets,0.069409996
-Return on Invested Capital,0.13268106900117
-Return on Investment,-0.029109947643979058
+Return on Equity,0.11502
+Return on Assets,0.05175
+Return on Invested Capital,0.17293294012292612
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0326
-SUM DIVIDEND SCORE,8.0326
+5 Year Average,0.030899999999999997
+SUM DIVIDEND SCORE,8.0309
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,89.33000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,90.33000000000001
+Target High Price Diff Current Price,44.205029999999994
+Recommendation Key,0
+SUM ANALYST RATING SCORE,44.205029999999994
 
 
 

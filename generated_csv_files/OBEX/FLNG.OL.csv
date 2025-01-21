@@ -5,68 +5,68 @@ Country,Bermuda
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.flexlng.com
-Price,299.4
+Price,286.4
 Currency,NOK
 
 REVENUE
-Total Revenue,371022016.0
-Revenue Per Share,6.909
-Revenue Growth,-0.007
+Total Revenue,362648992.0
+Revenue Per Share,6.741
+Revenue Growth,-0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=24.22, forward_eps=26.14)"
-Net Earnings,120039000.0
-Earnings Growth,-0.545
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.36, forward_eps=25.65)"
+Net Earnings,91858000.0
+Earnings Growth,-0.619
 
 DEBT
-Total Debt,1812142976.0
-Debt to Equity,213.784
+Total Debt,1673427968.0
+Debt to Equity,208.676
 
 MARGINS
-Profit Margins,0.32354
-Gross Profit Margins,0.81124
-Operating Margins,0.59366
+Profit Margins,0.2533
+Gross Profit Margins,0.79997003
+Operating Margins,0.56901
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,31.21
-Dividend Yield,0.0991
-Dividend Payout Ratio,1.3514
-Five Year Avg Dividend Yield,None
+Dividend Rate,33.44
+Dividend Yield,0.1168
+Dividend Payout Ratio,1.7751
+Five Year Avg Dividend Yield,7.44
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.01002004
+Trailing Annual Dividend Yield,0.010474861
 
 FINANCIAL RATIO
-Debt to Equity,213.784
-Price to Cash Flow,2.2894896406335658e-06
-Enterprise to EBITDA,64.792
-Price to Book,19.96957
-Price to Earnings,"PriceToEarnings(trailing_pe=13.005781, forward_pe=12.050498)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=24.22, forward_eps=26.14)"
-Enterprise to Revenue,49.4
+Debt to Equity,208.676
+Price to Cash Flow,2.2687102211289037e-06
+Enterprise to EBITDA,63.415
+Price to Book,19.317415
+Price to Earnings,"PriceToEarnings(trailing_pe=14.793387, forward_pe=11.165692)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.36, forward_eps=25.65)"
+Enterprise to Revenue,46.532
 
 CASH FLOW
-Free to Cash Flow,137585248.0
-Operating to Cash Flow,175034000.0
+Free to Cash Flow,126239128.0
+Operating to Cash Flow,184776000.0
 
 PROFITABILITY
-Return on Equity,0.13682
-Return on Assets,0.05037
-Return on Invested Capital,0.06624146137744222
-Return on Investment,0.005489429422013692
+Return on Equity,0.109560005
+Return on Assets,0.04851
+Return on Invested Capital,0.054892114236595284
+Return on Investment,0.00424594278529927
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0
-SUM DIVIDEND SCORE,8.0
+5 Year Average,0.07440000000000001
+SUM DIVIDEND SCORE,8.0744
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,22.829999999999984
+Target High Price Diff Current Price,55.07058000000001
 Recommendation Key,0
-SUM ANALYST RATING SCORE,22.829999999999984
+SUM ANALYST RATING SCORE,55.07058000000001
 
 
 

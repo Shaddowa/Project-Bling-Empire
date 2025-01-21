@@ -5,68 +5,68 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.cmegroup.com
-Price,213.61
+Price,232.71
 Currency,USD
 
 REVENUE
-Total Revenue,5615499776.0
-Revenue Per Share,15.638
-Revenue Growth,0.032
+Total Revenue,6034400256.0
+Revenue Per Share,16.795
+Revenue Growth,0.185
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=9.97)"
-Net Earnings,3157299968.0
-Earnings Growth,-0.033
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.52, forward_eps=10.37)"
+Net Earnings,3422099968.0
+Earnings Growth,0.214
 
 DEBT
-Total Debt,3872300032.0
-Debt to Equity,14.26
+Total Debt,3843200000.0
+Debt to Equity,13.621
 
 MARGINS
-Profit Margins,0.56942004
+Profit Margins,0.57434
 Gross Profit Margins,1.0
-Operating Margins,0.64593005
+Operating Margins,0.64745003
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,8.65
-Dividend Yield,0.041500002
-Dividend Payout Ratio,1.1048
-Five Year Avg Dividend Yield,3.02
-Trailing Annual Dividend Rate,4.45
-Trailing Annual Dividend Yield,0.020832358
+Dividend Rate,10.4
+Dividend Yield,0.044699997
+Dividend Payout Ratio,1.0305
+Five Year Avg Dividend Yield,3.31
+Trailing Annual Dividend Rate,4.55
+Trailing Annual Dividend Yield,0.019552233
 
 FINANCIAL RATIO
-Debt to Equity,14.26
-Price to Cash Flow,8.747796659731856e-08
-Enterprise to EBITDA,20.079
-Price to Book,2.7585022
-Price to Earnings,"PriceToEarnings(trailing_pe=23.742598, forward_pe=20.908726)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=9.97)"
-Enterprise to Revenue,13.779
+Debt to Equity,13.621
+Price to Cash Flow,9.249364313522272e-08
+Enterprise to EBITDA,20.254
+Price to Book,2.9620001
+Price to Earnings,"PriceToEarnings(trailing_pe=24.415966, forward_pe=22.414658)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.52, forward_eps=10.37)"
+Enterprise to Revenue,14.13
 
 CASH FLOW
-Free to Cash Flow,2383000064.0
-Operating to Cash Flow,3444100096.0
+Free to Cash Flow,2513037568.0
+Operating to Cash Flow,3716900096.0
 
 PROFITABILITY
-Return on Equity,0.11726
-Return on Assets,0.01469
-Return on Invested Capital,0.8153551843328881
-Return on Investment,0.13277123498738436
+Return on Equity,0.12297
+Return on Assets,0.01837
+Return on Invested Capital,0.8904298236168844
+Return on Investment,0.1480147044982699
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0302
-SUM DIVIDEND SCORE,8.0302
+5 Year Average,0.0331
+SUM DIVIDEND SCORE,8.0331
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,41.53999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,42.53999999999999
+Target High Price Diff Current Price,42.56
+Recommendation Key,0
+SUM ANALYST RATING SCORE,42.56
 
 
 

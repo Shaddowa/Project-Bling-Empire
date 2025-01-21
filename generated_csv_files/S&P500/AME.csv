@@ -5,55 +5,55 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.ametek.com
-Price,169.9
+Price,180.73
 Currency,USD
 
 REVENUE
-Total Revenue,6736012800.0
-Revenue Per Share,29.19
-Revenue Growth,0.087
+Total Revenue,6910462976.0
+Revenue Per Share,29.894
+Revenue Growth,0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=7.48)"
-Net Earnings,1318418944.0
-Earnings Growth,0.015
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.75, forward_eps=7.3)"
+Net Earnings,1331730944.0
+Earnings Growth,0.0
 
 DEBT
-Total Debt,3167046912.0
-Debt to Equity,35.314
+Total Debt,2557328896.0
+Debt to Equity,26.778
 
 MARGINS
-Profit Margins,0.19573
-Gross Profit Margins,0.35650003
-Operating Margins,0.23341
+Profit Margins,0.19271
+Gross Profit Margins,0.35406
+Operating Margins,0.25642002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.12
-Dividend Yield,0.0066000004
-Dividend Payout Ratio,0.18100001
+Dividend Yield,0.0062
+Dividend Payout Ratio,0.1899
 Five Year Avg Dividend Yield,0.63
-Trailing Annual Dividend Rate,1.03
-Trailing Annual Dividend Yield,0.00606239
+Trailing Annual Dividend Rate,1.09
+Trailing Annual Dividend Yield,0.0060310964
 
 FINANCIAL RATIO
-Debt to Equity,35.314
-Price to Cash Flow,1.4419991860505578e-07
-Enterprise to EBITDA,20.411
-Price to Book,4.408311
-Price to Earnings,"PriceToEarnings(trailing_pe=30.017574, forward_pe=22.834225)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.69, forward_eps=7.48)"
-Enterprise to Revenue,6.284
+Debt to Equity,26.778
+Price to Cash Flow,1.429181352608955e-07
+Enterprise to EBITDA,20.56
+Price to Book,4.408303
+Price to Earnings,"PriceToEarnings(trailing_pe=31.653912, forward_pe=24.932875)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.75, forward_eps=7.3)"
+Enterprise to Revenue,6.362
 
 CASH FLOW
-Free to Cash Flow,1184466688.0
-Operating to Cash Flow,1758987008.0
+Free to Cash Flow,1273526272.0
+Operating to Cash Flow,1819489024.0
 
 PROFITABILITY
-Return on Equity,0.15766
-Return on Assets,0.078260005
-Return on Invested Capital,0.41629283193602856
-Return on Investment,0.26870864037501274
+Return on Equity,0.14886
+Return on Assets,0.078940004
+Return on Invested Capital,0.5207507429264363
+Return on Investment,0.14008635607216116
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.0063
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,45.19999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,46.19999999999999
+Target High Price Diff Current Price,42.99000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,142.99
 
 
 

@@ -12,19 +12,29 @@ def get_upcoming_expenses():
 
         UpcomingExpense(
             expense="Credit Card",
-            amount=545,
-            date=datetime(year=2024, month=9, day=12)
+            amount=11202,
+            date=datetime(year=2024, month=11, day=15)
         ),
         UpcomingExpense(
             expense="Insurance",
-            amount=5414,
-            date=datetime(year=2024, month=8, day=11)
+            amount=442,
+            date=datetime(year=2024, month=11, day=17)
         ),
         UpcomingExpense(
-            expense="Insurance",
-            amount=4000,
-            date=datetime(year=2024, month=8, day=16)
-        )
+            expense="Electricity",
+            amount=345.94,
+            date=datetime(year=2024, month=11, day=18)
+        ),
+        UpcomingExpense(
+            expense="Carpenter",
+            amount=5000,
+            date=datetime(year=2024, month=11, day=18)
+        ),
+        UpcomingExpense(
+            expense="SALE",
+            amount=20000,
+            date=datetime(year=2024, month=11, day=29)
+        ),
     ]
 
     if sum_used_credit < 0:

@@ -5,68 +5,68 @@ Country,United States
 Industry,Entertainment
 Sector,Communication Services
 Website,https://www.newscorp.com
-Price,24.78
+Price,27.43
 Currency,USD
 
 REVENUE
-Total Revenue,9941000192.0
-Revenue Per Share,17.382
-Revenue Growth,-0.01
+Total Revenue,10163000320.0
+Revenue Per Share,17.817
+Revenue Growth,0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.37, forward_eps=0.84)"
-Net Earnings,208000000.0
-Earnings Growth,-0.425
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.62, forward_eps=1.06)"
+Net Earnings,355000000.0
+Earnings Growth,3.181
 
 DEBT
-Total Debt,3952999936.0
-Debt to Equity,44.376
+Total Debt,4057999872.0
+Debt to Equity,44.272
 
 MARGINS
-Profit Margins,0.020920001
-Gross Profit Margins,0.49552
-Operating Margins,0.05365
+Profit Margins,0.034930002
+Gross Profit Margins,0.5089
+Operating Margins,0.088470004
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.2
-Dividend Yield,0.008
-Dividend Payout Ratio,0.5405
-Five Year Avg Dividend Yield,1.16
+Dividend Yield,0.0073
+Dividend Payout Ratio,0.32259998
+Five Year Avg Dividend Yield,1.05
 Trailing Annual Dividend Rate,0.2
-Trailing Annual Dividend Yield,0.008071025
+Trailing Annual Dividend Yield,0.0072912867
 
 FINANCIAL RATIO
-Debt to Equity,44.376
-Price to Cash Flow,2.9802053593193715e-08
-Enterprise to EBITDA,13.597
-Price to Book,1.7751774
-Price to Earnings,"PriceToEarnings(trailing_pe=67.64865, forward_pe=29.79762)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.37, forward_eps=0.84)"
-Enterprise to Revenue,1.726
+Debt to Equity,44.272
+Price to Cash Flow,4.3546182930473677e-08
+Enterprise to EBITDA,14.791
+Price to Book,1.922679
+Price to Earnings,"PriceToEarnings(trailing_pe=44.95968, forward_pe=26.29717)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.62, forward_eps=1.06)"
+Enterprise to Revenue,1.848
 
 CASH FLOW
-Free to Cash Flow,839875008.0
-Operating to Cash Flow,1266000000.0
+Free to Cash Flow,640124992.0
+Operating to Cash Flow,1216999936.0
 
 PROFITABILITY
-Return on Equity,0.02806
-Return on Assets,0.029189998
-Return on Invested Capital,0.052618265273375014
+Return on Equity,0.04916
+Return on Assets,0.03061
+Return on Invested Capital,0.08748152043600974
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,1.0
+Dividend Yield,4.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0116
-SUM DIVIDEND SCORE,5.0116
+5 Year Average,0.0105
+SUM DIVIDEND SCORE,7.0105
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.969999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,12.969999999999999
+Target High Price Diff Current Price,13.125
+Recommendation Key,100
+SUM ANALYST RATING SCORE,113.125
 
 
 

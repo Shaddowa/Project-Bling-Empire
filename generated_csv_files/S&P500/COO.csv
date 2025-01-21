@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.coopercos.com
-Price,94.69
+Price,93.27
 Currency,USD
 
 REVENUE
-Total Revenue,3666299904.0
-Revenue Per Share,18.496
-Revenue Growth,0.085
+Total Revenue,3804100096.0
+Revenue Per Share,19.14
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.46, forward_eps=3.95)"
-Net Earnings,290800000.0
-Earnings Growth,-0.045
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.96, forward_eps=4.08)"
+Net Earnings,359300000.0
+Earnings Growth,0.209
 
 DEBT
-Total Debt,3053700096.0
-Debt to Equity,39.683
+Total Debt,2909400064.0
+Debt to Equity,36.711
 
 MARGINS
-Profit Margins,0.07932
-Gross Profit Margins,0.66094
-Operating Margins,0.16434
+Profit Margins,0.09445
+Gross Profit Margins,0.66363
+Operating Margins,0.19195999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.02
 Dividend Yield,0.0002
-Dividend Payout Ratio,0.0050999997
+Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,0.02
-Trailing Annual Dividend Rate,0.008
-Trailing Annual Dividend Yield,8.448622e-05
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,39.683
-Price to Cash Flow,6.867910455203598e-07
-Enterprise to EBITDA,24.638
-Price to Book,2.4468718
-Price to Earnings,"PriceToEarnings(trailing_pe=64.904106, forward_pe=23.989874)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.46, forward_eps=3.95)"
-Enterprise to Revenue,5.933
+Debt to Equity,36.711
+Price to Cash Flow,6.381448152904821e-07
+Enterprise to EBITDA,22.834
+Price to Book,2.3851874
+Price to Earnings,"PriceToEarnings(trailing_pe=48.438774, forward_pe=23.26961)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.96, forward_eps=4.08)"
+Enterprise to Revenue,6.14
 
 CASH FLOW
-Free to Cash Flow,137975008.0
-Operating to Cash Flow,563600000.0
+Free to Cash Flow,148775008.0
+Operating to Cash Flow,615400000.0
 
 PROFITABILITY
-Return on Equity,0.03869
-Return on Assets,0.026919998
-Return on Invested Capital,0.09522873470547802
-Return on Investment,-0.013887297039159504
+Return on Equity,0.0465
+Return on Assets,0.03393
+Return on Invested Capital,0.123496249116861
+Return on Investment,-0.018655244029075806
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0002
-SUM DIVIDEND SCORE,8.0002
+SUM DIVIDEND SCORE,4.0002
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,30.239999999999995
-Recommendation Key,1
-SUM ANALYST RATING SCORE,31.239999999999995
+Target High Price Diff Current Price,30.060000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,130.06
 
 
 

@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,FRT
 Company,Federal Realty Investment Trust
 Country,United States
-Industry,REIT—Retail
+Industry,REIT - Retail
 Sector,Real Estate
 Website,https://www.federalrealty.com
-Price,102.55
+Price,105.39
 Currency,USD
 
 REVENUE
-Total Revenue,1153803008.0
-Revenue Per Share,14.126
-Revenue Growth,0.065
+Total Revenue,1185020032.0
+Revenue Per Share,14.313
+Revenue Growth,0.058
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.81, forward_eps=3.16)"
-Net Earnings,229068000.0
-Earnings Growth,0.015
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=3.07)"
+Net Earnings,284441984.0
+Earnings Growth,0.037
 
 DEBT
-Total Debt,4571369984.0
-Debt to Equity,143.801
+Total Debt,4560779776.0
+Debt to Equity,135.474
 
 MARGINS
-Profit Margins,0.20661
-Gross Profit Margins,0.68533
-Operating Margins,0.344
+Profit Margins,0.24791001
+Gross Profit Margins,0.68139
+Operating Margins,0.35044998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.36
-Dividend Yield,0.0429
-Dividend Payout Ratio,1.548
-Five Year Avg Dividend Yield,4.13
-Trailing Annual Dividend Rate,4.35
-Trailing Annual Dividend Yield,0.04241833
+Dividend Rate,4.4
+Dividend Yield,0.0417
+Dividend Payout Ratio,1.2703
+Five Year Avg Dividend Yield,4.24
+Trailing Annual Dividend Rate,4.37
+Trailing Annual Dividend Yield,0.041465033
 
 FINANCIAL RATIO
-Debt to Equity,143.801
-Price to Cash Flow,None
-Enterprise to EBITDA,18.672
-Price to Book,3.0589724
-Price to Earnings,"PriceToEarnings(trailing_pe=36.19929, forward_pe=32.189873)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.81, forward_eps=3.16)"
-Enterprise to Revenue,11.556
+Debt to Equity,135.474
+Price to Cash Flow,2.914228812733303e-07
+Enterprise to EBITDA,18.714
+Price to Book,3.0565548
+Price to Earnings,"PriceToEarnings(trailing_pe=30.872091, forward_pe=34.592834)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.44, forward_eps=3.07)"
+Enterprise to Revenue,11.671
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,364418880.0
+Operating to Cash Flow,567582976.0
 
 PROFITABILITY
-Return on Equity,0.077810004
-Return on Assets,0.03069
-Return on Invested Capital,0.05010926683586426
-Return on Investment,0.04957752575534586
+Return on Equity,0.09324
+Return on Assets,0.03082
+Return on Invested Capital,0.06236696262552886
+Return on Investment,0.030651736459837497
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.041299999999999996
-SUM DIVIDEND SCORE,8.0413
+5 Year Average,0.0424
+SUM DIVIDEND SCORE,8.0424
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,23.28
-Recommendation Key,1
-SUM ANALYST RATING SCORE,24.28
+Target High Price Diff Current Price,35.8
+Recommendation Key,100
+SUM ANALYST RATING SCORE,135.8
 
 
 
@@ -76,10 +76,10 @@ Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
-Free Cash Flow,False
+Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

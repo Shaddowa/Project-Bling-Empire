@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,GJF.OL
 Company,Gjensidige Forsikring ASA
 Country,Norway
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.gjensidige.no
-Price,184.1
+Price,209.4
 Currency,NOK
 
 REVENUE
-Total Revenue,38295601152.0
-Revenue Per Share,76.256
-Revenue Growth,0.073
+Total Revenue,43412099072.0
+Revenue Per Share,86.347
+Revenue Growth,0.176
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.43, forward_eps=12.59)"
-Net Earnings,3730400000.0
-Earnings Growth,-0.297
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.74, forward_eps=12.4)"
+Net Earnings,4906200064.0
+Earnings Growth,1.037
 
 DEBT
-Total Debt,4889299968.0
-Debt to Equity,22.45
+Total Debt,4979899904.0
+Debt to Equity,19.989
 
 MARGINS
-Profit Margins,0.099379994
-Gross Profit Margins,0.28814
-Operating Margins,0.081709996
+Profit Margins,0.11576
+Gross Profit Margins,0.33671
+Operating Margins,0.20815
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,8.75
-Dividend Yield,0.0468
-Dividend Payout Ratio,1.1761
+Dividend Yield,0.0418
+Dividend Payout Ratio,0.8993
 Five Year Avg Dividend Yield,4.89
 Trailing Annual Dividend Rate,8.75
-Trailing Annual Dividend Yield,0.047528517
+Trailing Annual Dividend Yield,0.041786056
 
 FINANCIAL RATIO
-Debt to Equity,22.45
-Price to Cash Flow,3.324940960212374e-09
-Enterprise to EBITDA,23.968
-Price to Book,4.433264
-Price to Earnings,"PriceToEarnings(trailing_pe=25.14132, forward_pe=14.8371725)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.43, forward_eps=12.59)"
-Enterprise to Revenue,2.427
+Debt to Equity,19.989
+Price to Cash Flow,-1.107506417064506e-07
+Enterprise to EBITDA,5.242
+Price to Book,4.7064075
+Price to Earnings,"PriceToEarnings(trailing_pe=21.642712, forward_pe=17.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.74, forward_eps=12.4)"
+Enterprise to Revenue,0.917
 
 CASH FLOW
-Free to Cash Flow,56181448704.0
-Operating to Cash Flow,4269600000.0
+Free to Cash Flow,-1903374976.0
+Operating to Cash Flow,4119399936.0
 
 PROFITABILITY
-Return on Equity,0.17559999
-Return on Assets,0.01502
-Return on Invested Capital,0.7629722030283504
+Return on Equity,0.20693001
+Return on Assets,0.02954
+Return on Invested Capital,0.9852005290170724
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0489
-SUM DIVIDEND SCORE,4.0489
+SUM DIVIDEND SCORE,7.0489
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,33.19999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,34.19999999999999
+Target High Price Diff Current Price,26.19999999999999
+Recommendation Key,0
+SUM ANALYST RATING SCORE,26.19999999999999
 
 
 

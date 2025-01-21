@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,PHO.OL
 Company,Photocure ASA
 Country,Norway
-Industry,Drug Manufacturers—Specialty & Generic
+Industry,Drug Manufacturers - Specialty & Generic
 Sector,Healthcare
 Website,https://www.photocure.com
-Price,59.0
+Price,52.3
 Currency,NOK
 
 REVENUE
-Total Revenue,500656992.0
-Revenue Per Share,18.471
-Revenue Growth,0.368
+Total Revenue,513577984.0
+Revenue Per Share,18.947
+Revenue Growth,0.008
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=1.84)"
-Net Earnings,267000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=1.5)"
+Net Earnings,12843000.0
+Earnings Growth,1.813
 
 DEBT
-Total Debt,19600000.0
-Debt to Equity,4.065
+Total Debt,19400000.0
+Debt to Equity,3.883
 
 MARGINS
-Profit Margins,0.00053
-Gross Profit Margins,0.94778997
-Operating Margins,0.15767999
+Profit Margins,0.025009999
+Gross Profit Margins,0.94519997
+Operating Margins,0.14202
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,4.065
-Price to Cash Flow,-0.00014114774114774113
-Enterprise to EBITDA,27.191
-Price to Book,3.2495642
-Price to Earnings,"PriceToEarnings(trailing_pe=1445.0, forward_pe=31.413042)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.04, forward_eps=1.84)"
-Enterprise to Revenue,2.65
+Debt to Equity,3.883
+Price to Cash Flow,4.412253876280916e-06
+Enterprise to EBITDA,20.359
+Price to Book,2.8853712
+Price to Earnings,"PriceToEarnings(trailing_pe=96.98114, forward_pe=34.266666)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=1.5)"
+Enterprise to Revenue,2.305
 
 CASH FLOW
-Free to Cash Flow,-409500.0
-Operating to Cash Flow,48308000.0
+Free to Cash Flow,11649375.0
+Operating to Cash Flow,56213000.0
 
 PROFITABILITY
-Return on Equity,0.00057
-Return on Assets,0.024300002
-Return on Invested Capital,0.013622436617230607
+Return on Equity,0.02656
+Return on Assets,0.03523
+Return on Invested Capital,0.6620097013896484
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,67.2
-Recommendation Key,1
-SUM ANALYST RATING SCORE,68.2
+Target High Price Diff Current Price,33.6
+Recommendation Key,0
+SUM ANALYST RATING SCORE,33.6
 
 
 

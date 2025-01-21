@@ -5,55 +5,55 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.thermofisher.com
-Price,577.93
+Price,559.65
 Currency,USD
 
 REVENUE
-Total Revenue,42491998208.0
-Revenue Per Share,110.369
-Revenue Growth,-0.034
+Total Revenue,42369998848.0
+Revenue Per Share,110.627
+Revenue Growth,0.002
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.6, forward_eps=24.41)"
-Net Earnings,6033999872.0
-Earnings Growth,0.042
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.95, forward_eps=23.49)"
+Net Earnings,6135000064.0
+Earnings Growth,-0.038
 
 DEBT
-Total Debt,35663998976.0
-Debt to Equity,78.171
+Total Debt,35512999936.0
+Debt to Equity,72.329
 
 MARGINS
-Profit Margins,0.142
-Gross Profit Margins,0.40365002
-Operating Margins,0.16675
+Profit Margins,0.14479999
+Gross Profit Margins,0.40683997
+Operating Margins,0.18059999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.56
-Dividend Yield,0.0026
-Dividend Payout Ratio,0.0924
+Dividend Yield,0.0028
+Dividend Payout Ratio,0.0953
 Five Year Avg Dividend Yield,0.22
-Trailing Annual Dividend Rate,1.44
-Trailing Annual Dividend Yield,0.0024916513
+Trailing Annual Dividend Rate,1.52
+Trailing Annual Dividend Yield,0.002715983
 
 FINANCIAL RATIO
-Debt to Equity,78.171
-Price to Cash Flow,9.764020521643367e-08
-Enterprise to EBITDA,23.649
-Price to Book,4.9734154
-Price to Earnings,"PriceToEarnings(trailing_pe=38.014744, forward_pe=24.294552)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.6, forward_eps=24.41)"
-Enterprise to Revenue,5.999
+Debt to Equity,72.329
+Price to Cash Flow,8.389096848558289e-08
+Enterprise to EBITDA,22.967
+Price to Book,4.4422407
+Price to Earnings,"PriceToEarnings(trailing_pe=35.672726, forward_pe=24.222221)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.95, forward_eps=23.49)"
+Enterprise to Revenue,5.736
 
 CASH FLOW
-Free to Cash Flow,6073625088.0
-Operating to Cash Flow,8928000000.0
+Free to Cash Flow,6782374912.0
+Operating to Cash Flow,9100000256.0
 
 PROFITABILITY
-Return on Equity,0.13616
-Return on Assets,0.048210002
-Return on Invested Capital,0.16919022053265323
-Return on Investment,0.04001326175066313
+Return on Equity,0.12944001
+Return on Assets,0.04674
+Return on Invested Capital,0.17275364100271043
+Return on Investment,0.03831980052467208
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.0022
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,76.97000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,77.97000000000003
+Target High Price Diff Current Price,198.01999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,298.02
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.centene.com
-Price,77.65
+Price,62.25
 Currency,USD
 
 REVENUE
-Total Revenue,142799994880.0
-Revenue Per Share,264.738
-Revenue Growth,0.044
+Total Revenue,146204000256.0
+Revenue Per Share,275.741
+Revenue Growth,0.061
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.07, forward_eps=7.62)"
-Net Earnings,2735000064.0
-Earnings Growth,0.059
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.79, forward_eps=7.04)"
+Net Earnings,3067000064.0
+Earnings Growth,0.565
 
 DEBT
-Total Debt,17999998976.0
-Debt to Equity,66.509
+Total Debt,17604999168.0
+Debt to Equity,64.231
 
 MARGINS
-Profit Margins,0.01915
-Gross Profit Margins,0.15692
-Operating Margins,0.04385
+Profit Margins,0.02098
+Gross Profit Margins,0.14823
+Operating Margins,0.0296
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,66.509
-Price to Cash Flow,4.468763587247251e-08
-Enterprise to EBITDA,6.514
-Price to Book,1.5477825
-Price to Earnings,"PriceToEarnings(trailing_pe=15.343195, forward_pe=10.208662)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.07, forward_eps=7.62)"
-Enterprise to Revenue,0.28
+Debt to Equity,64.231
+Price to Cash Flow,6.241637344251228e-08
+Enterprise to EBITDA,5.333
+Price to Book,1.1676474
+Price to Earnings,"PriceToEarnings(trailing_pe=10.7962, forward_pe=8.879261)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.79, forward_eps=7.04)"
+Enterprise to Revenue,0.216
 
 CASH FLOW
-Free to Cash Flow,1740749952.0
-Operating to Cash Flow,3328000000.0
+Free to Cash Flow,1001500032.0
+Operating to Cash Flow,958000000.0
 
 PROFITABILITY
-Return on Equity,0.10438
-Return on Assets,0.03666
-Return on Invested Capital,0.15194445621969704
-Return on Investment,0.0379334266851595
+Return on Equity,0.11559
+Return on Assets,0.03506
+Return on Invested Capital,0.17421188296608087
+Return on Investment,0.043015428667601684
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.209999999999994
-Recommendation Key,1
-SUM ANALYST RATING SCORE,33.209999999999994
+Target High Price Diff Current Price,30.490000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,130.49
 
 
 

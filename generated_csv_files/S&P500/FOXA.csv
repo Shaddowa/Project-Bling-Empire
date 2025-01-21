@@ -5,68 +5,68 @@ Country,United States
 Industry,Entertainment
 Sector,Communication Services
 Website,https://www.foxcorporation.com
-Price,33.32
+Price,48.0
 Currency,USD
 
 REVENUE
-Total Revenue,13920000000.0
-Revenue Per Share,28.539
-Revenue Growth,-0.156
+Total Revenue,14337000448.0
+Revenue Per Share,30.488
+Revenue Growth,0.111
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.17, forward_eps=3.8)"
-Net Earnings,1556999936.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.09, forward_eps=3.73)"
+Net Earnings,1920999936.0
+Earnings Growth,1.171
 
 DEBT
-Total Debt,7196000256.0
-Debt to Equity,65.867
+Total Debt,8136000000.0
+Debt to Equity,70.271
 
 MARGINS
-Profit Margins,0.11185
-Gross Profit Margins,0.34749
-Operating Margins,0.22889
+Profit Margins,0.13399
+Gross Profit Margins,0.35516
+Operating Margins,0.2674
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.52
-Dividend Yield,0.0156
-Dividend Payout Ratio,0.16399999
-Five Year Avg Dividend Yield,1.42
-Trailing Annual Dividend Rate,0.52
-Trailing Annual Dividend Yield,0.015606242
+Dividend Rate,0.54
+Dividend Yield,0.0113
+Dividend Payout Ratio,0.1296
+Five Year Avg Dividend Yield,1.46
+Trailing Annual Dividend Rate,0.53
+Trailing Annual Dividend Yield,0.011041666
 
 FINANCIAL RATIO
-Debt to Equity,65.867
-Price to Cash Flow,4.3509685367960297e-08
-Enterprise to EBITDA,6.986
-Price to Book,1.5036681
-Price to Earnings,"PriceToEarnings(trailing_pe=10.539432, forward_pe=8.792106)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.17, forward_eps=3.8)"
-Enterprise to Revenue,1.411
+Debt to Equity,70.271
+Price to Cash Flow,3.7571232541670046e-08
+Enterprise to EBITDA,8.694
+Price to Book,1.9408015
+Price to Earnings,"PriceToEarnings(trailing_pe=11.687041, forward_pe=12.815013)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.09, forward_eps=3.73)"
+Enterprise to Revenue,1.835
 
 CASH FLOW
-Free to Cash Flow,767875008.0
-Operating to Cash Flow,1434000000.0
+Free to Cash Flow,1272249984.0
+Operating to Cash Flow,1996999936.0
 
 PROFITABILITY
-Return on Equity,0.14995
-Return on Assets,0.06806
-Return on Invested Capital,0.21637018841046451
-Return on Investment,0.035466968929384966
+Return on Equity,0.17711
+Return on Assets,0.07429
+Return on Invested Capital,0.23611110253009093
+Return on Investment,0.0388866383805668
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.014199999999999999
-SUM DIVIDEND SCORE,4.0142
+5 Year Average,0.0146
+SUM DIVIDEND SCORE,8.0146
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,28.590000000000003
-Recommendation Key,0
-SUM ANALYST RATING SCORE,28.590000000000003
+Target High Price Diff Current Price,14.200000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,114.2
 
 
 

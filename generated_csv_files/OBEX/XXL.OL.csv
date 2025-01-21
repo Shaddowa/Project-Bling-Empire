@@ -5,27 +5,27 @@ Country,Norway
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.xxlasa.com
-Price,0.765
+Price,17.78
 Currency,NOK
 
 REVENUE
-Total Revenue,7535000064.0
-Revenue Per Share,6.488
-Revenue Growth,-0.215
+Total Revenue,7221000192.0
+Revenue Per Share,348.803
+Revenue Growth,-0.073
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.33, forward_eps=0.02)"
-Net Earnings,-1508999936.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-96.15, forward_eps=-2.15)"
+Net Earnings,-1666000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,3300000000.0
-Debt to Equity,156.546
+Total Debt,3128999936.0
+Debt to Equity,144.861
 
 MARGINS
-Profit Margins,-0.22202998
-Gross Profit Margins,0.33071998
-Operating Margins,-0.120670006
+Profit Margins,-0.24221
+Gross Profit Margins,0.353
+Operating Margins,-0.10343
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,156.546
-Price to Cash Flow,1.519645144168182e-10
-Enterprise to EBITDA,-26.453
-Price to Book,0.5956956
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=38.75)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.33, forward_eps=0.02)"
-Enterprise to Revenue,0.583
+Debt to Equity,144.861
+Price to Cash Flow,3.3836619100920676e-09
+Enterprise to EBITDA,-8.756
+Price to Book,0.19095835
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-8.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-96.15, forward_eps=-2.15)"
+Enterprise to Revenue,0.467
 
 CASH FLOW
-Free to Cash Flow,5099874816.0
-Operating to Cash Flow,279000000.0
+Free to Cash Flow,5083250176.0
+Operating to Cash Flow,189000000.0
 
 PROFITABILITY
-Return on Equity,-0.58709
-Return on Assets,-0.060500003
-Return on Invested Capital,-0.4572727076985116
+Return on Equity,-0.63036996
+Return on Assets,-0.05763
+Return on Invested Capital,-0.5324384743107268
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE

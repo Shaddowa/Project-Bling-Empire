@@ -2,58 +2,58 @@ GENERAL STOCK INFO
 Ticker,PAYC
 Company,"Paycom Software, Inc."
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.paycom.com
-Price,173.58
+Price,209.18
 Currency,USD
 
 REVENUE
-Total Revenue,1741917952.0
-Revenue Per Share,30.359
-Revenue Growth,0.107
+Total Revenue,1823922048.0
+Revenue Per Share,32.262
+Revenue Growth,0.112
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.18, forward_eps=8.84)"
-Net Earnings,468679008.0
-Earnings Growth,1.121
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.3, forward_eps=8.72)"
+Net Earnings,470192000.0
+Earnings Growth,0.008
 
 DEBT
-Total Debt,0.0
-Debt to Equity,None
+Total Debt,80784000.0
+Debt to Equity,5.516
 
 MARGINS
-Profit Margins,0.26906002
-Gross Profit Margins,0.86550003
-Operating Margins,0.57176
+Profit Margins,0.25779
+Gross Profit Margins,0.85616994
+Operating Margins,0.23206
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.5
-Dividend Yield,0.0087
-Dividend Payout Ratio,0.1832
+Dividend Yield,0.0072000003
+Dividend Payout Ratio,0.18049999
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,1.5
-Trailing Annual Dividend Yield,0.008641548
+Trailing Annual Dividend Yield,0.007170858
 
 FINANCIAL RATIO
-Debt to Equity,None
-Price to Cash Flow,5.985632438492043e-07
-Enterprise to EBITDA,14.86
-Price to Book,6.6270447
-Price to Earnings,"PriceToEarnings(trailing_pe=21.196821, forward_pe=19.614252)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.18, forward_eps=8.84)"
-Enterprise to Revenue,5.417
+Debt to Equity,5.516
+Price to Cash Flow,7.245222066782322e-07
+Enterprise to EBITDA,17.139
+Price to Book,7.7861576
+Price to Earnings,"PriceToEarnings(trailing_pe=25.250603, forward_pe=24.034403)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.3, forward_eps=8.72)"
+Enterprise to Revenue,6.275
 
 CASH FLOW
-Free to Cash Flow,289676992.0
-Operating to Cash Flow,487569984.0
+Free to Cash Flow,289266496.0
+Operating to Cash Flow,507980992.0
 
 PROFITABILITY
-Return on Equity,0.33808997
-Return on Assets,0.08031999
-Return on Invested Capital,17913125.210212506
-Return on Investment,-0.023410890672687402
+Return on Equity,0.32584998
+Return on Assets,0.10079
+Return on Invested Capital,5.8203585280923145
+Return on Investment,-0.02381526897732395
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,7.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,76.61000000000001
+Target High Price Diff Current Price,68.41999999999999
 Recommendation Key,0
-SUM ANALYST RATING SCORE,76.61000000000001
+SUM ANALYST RATING SCORE,68.41999999999999
 
 
 

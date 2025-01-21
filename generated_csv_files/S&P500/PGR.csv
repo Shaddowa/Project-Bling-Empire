@@ -2,77 +2,77 @@ GENERAL STOCK INFO
 Ticker,PGR
 Company,The Progressive Corporation
 Country,United States
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.progressive.com
-Price,213.72
+Price,243.68
 Currency,USD
 
 REVENUE
-Total Revenue,65021399040.0
-Revenue Per Share,111.143
-Revenue Growth,0.206
+Total Revenue,71959396352.0
+Revenue Per Share,122.934
+Revenue Growth,0.267
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.78, forward_eps=11.82)"
-Net Earnings,5738599936.0
-Earnings Growth,4.253
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.77, forward_eps=13.8)"
+Net Earnings,8083899904.0
+Earnings Growth,1.101
 
 DEBT
-Total Debt,6889699840.0
-Debt to Equity,31.588
+Total Debt,6891800064.0
+Debt to Equity,25.375
 
 MARGINS
-Profit Margins,0.08898
-Gross Profit Margins,0.12185001
-Operating Margins,0.17459999
+Profit Margins,0.112720005
+Gross Profit Margins,0.1521
+Operating Margins,0.15293999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.15
-Dividend Yield,0.0053
-Dividend Payout Ratio,0.1177
-Five Year Avg Dividend Yield,1.96
+Dividend Rate,4.9
+Dividend Yield,0.0201
+Dividend Payout Ratio,0.0836
+Five Year Avg Dividend Yield,1.55
 Trailing Annual Dividend Rate,1.15
-Trailing Annual Dividend Yield,0.005380872
+Trailing Annual Dividend Yield,0.004719304
 
 FINANCIAL RATIO
-Debt to Equity,31.588
-Price to Cash Flow,1.6819261081030597e-08
-Enterprise to EBITDA,16.754
-Price to Book,5.79377
-Price to Earnings,"PriceToEarnings(trailing_pe=22.06135, forward_pe=18.253807)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.78, forward_eps=11.82)"
-Enterprise to Revenue,2.027
+Debt to Equity,25.375
+Price to Cash Flow,1.6707845225516937e-08
+Enterprise to EBITDA,13.744
+Price to Book,5.2490134
+Price to Earnings,"PriceToEarnings(trailing_pe=17.673203, forward_pe=17.634783)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.77, forward_eps=13.8)"
+Enterprise to Revenue,2.067
 
 CASH FLOW
-Free to Cash Flow,12828149760.0
-Operating to Cash Flow,12429200384.0
+Free to Cash Flow,14565612544.0
+Operating to Cash Flow,14549000192.0
 
 PROFITABILITY
-Return on Equity,0.29917
-Return on Assets,0.054169998
-Return on Invested Capital,0.8329245160529216
-Return on Investment,0.19761019063360882
+Return on Equity,0.36411
+Return on Assets,0.06895
+Return on Invested Capital,1.1729736461515292
+Return on Investment,0.26883604602593947
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0196
-SUM DIVIDEND SCORE,4.0196
+5 Year Average,0.0155
+SUM DIVIDEND SCORE,8.0155
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,63.24000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,64.24000000000001
+Target High Price Diff Current Price,78.63999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,178.64
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

@@ -5,54 +5,54 @@ Country,United States
 Industry,Insurance Brokers
 Sector,Financial Services
 Website,https://www.ajg.com
-Price,247.56
+Price,294.82
 Currency,USD
 
 REVENUE
-Total Revenue,10077400064.0
-Revenue Per Share,46.638
-Revenue Growth,0.199
+Total Revenue,10667700224.0
+Revenue Per Share,48.957
+Revenue Growth,0.119
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.92, forward_eps=11.27)"
-Net Earnings,1091399936.0
-Earnings Growth,0.223
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.25, forward_eps=11.28)"
+Net Earnings,1172199936.0
+Earnings Growth,0.086
 
 DEBT
-Total Debt,8620099584.0
-Debt to Equity,75.987
+Total Debt,8580100096.0
+Debt to Equity,70.273
 
 MARGINS
-Profit Margins,0.1083
-Gross Profit Margins,0.43537
-Operating Margins,0.3087
+Profit Margins,0.10988
+Gross Profit Margins,0.43515
+Operating Margins,0.18721001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.4
-Dividend Yield,0.0095999995
-Dividend Payout Ratio,0.4573
-Five Year Avg Dividend Yield,1.35
-Trailing Annual Dividend Rate,2.25
-Trailing Annual Dividend Yield,0.009088706
+Dividend Yield,0.0081
+Dividend Payout Ratio,0.44849998
+Five Year Avg Dividend Yield,1.21
+Trailing Annual Dividend Rate,2.35
+Trailing Annual Dividend Yield,0.007970965
 
 FINANCIAL RATIO
-Debt to Equity,75.987
-Price to Cash Flow,9.492083307336888e-08
-Enterprise to EBITDA,19.402
-Price to Book,4.8495746
-Price to Earnings,"PriceToEarnings(trailing_pe=50.979675, forward_pe=22.255545)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.92, forward_eps=11.27)"
-Enterprise to Revenue,6.123
+Debt to Equity,70.273
+Price to Cash Flow,1.0690074431065678e-07
+Enterprise to EBITDA,21.071
+Price to Book,5.3015323
+Price to Earnings,"PriceToEarnings(trailing_pe=56.078094, forward_pe=26.100178)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.25, forward_eps=11.28)"
+Enterprise to Revenue,6.681
 
 CASH FLOW
-Free to Cash Flow,2642412544.0
-Operating to Cash Flow,2392499968.0
+Free to Cash Flow,2754050048.0
+Operating to Cash Flow,2537200128.0
 
 PROFITABILITY
-Return on Equity,0.10302
-Return on Assets,0.02874
-Return on Invested Capital,0.12661105812251325
+Return on Equity,0.10321999
+Return on Assets,0.02923
+Return on Invested Capital,0.13661844445843258
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.013500000000000002
-SUM DIVIDEND SCORE,9.0135
+5 Year Average,0.0121
+SUM DIVIDEND SCORE,9.0121
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,31.180000000000007
-Recommendation Key,1
-SUM ANALYST RATING SCORE,32.18000000000001
+Target High Price Diff Current Price,82.58999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,182.58999999999997
 
 
 

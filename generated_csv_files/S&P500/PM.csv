@@ -5,68 +5,68 @@ Country,United States
 Industry,Tobacco
 Sector,Consumer Defensive
 Website,https://www.pmi.com
-Price,99.46
+Price,121.59
 Currency,USD
 
 REVENUE
-Total Revenue,35947999232.0
-Revenue Per Share,23.159
-Revenue Growth,0.097
+Total Revenue,37219000320.0
+Revenue Per Share,23.958
+Revenue Growth,0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.12, forward_eps=6.89)"
-Net Earnings,7944000000.0
-Earnings Growth,0.078
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.3, forward_eps=7.2)"
+Net Earnings,9804999680.0
+Earnings Growth,0.493
 
 DEBT
-Total Debt,50458001408.0
+Total Debt,49271001088.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.2216
-Gross Profit Margins,0.63689
-Operating Margins,0.30854
+Profit Margins,0.26417
+Gross Profit Margins,0.64075
+Operating Margins,0.43425998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.2
-Dividend Yield,0.052199997
-Dividend Payout Ratio,1.0098001
-Five Year Avg Dividend Yield,5.5
-Trailing Annual Dividend Rate,5.17
-Trailing Annual Dividend Yield,0.051980697
+Dividend Rate,5.4
+Dividend Yield,0.0444
+Dividend Payout Ratio,0.8333
+Five Year Avg Dividend Yield,5.32
+Trailing Annual Dividend Rate,5.25
+Trailing Annual Dividend Yield,0.043177895
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.327384168861261e-08
-Enterprise to EBITDA,14.487
+Price to Cash Flow,1.3400874802836265e-08
+Enterprise to EBITDA,15.427
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=19.464846, forward_pe=14.464442)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.12, forward_eps=6.89)"
-Enterprise to Revenue,5.652
+Price to Earnings,"PriceToEarnings(trailing_pe=19.58176, forward_pe=17.13404)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.3, forward_eps=7.2)"
+Enterprise to Revenue,6.342
 
 CASH FLOW
-Free to Cash Flow,7507999744.0
-Operating to Cash Flow,10400000000.0
+Free to Cash Flow,9205749760.0
+Operating to Cash Flow,11516999680.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.12324
-Return on Invested Capital,0.15743786474635255
-Return on Investment,0.04589254766031196
+Return on Assets,0.13116
+Return on Invested Capital,0.19900143014607413
+Return on Investment,0.06004286393141457
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.055
-SUM DIVIDEND SCORE,8.055
+5 Year Average,0.053200000000000004
+SUM DIVIDEND SCORE,8.0532
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,34.34
-Recommendation Key,1
-SUM ANALYST RATING SCORE,35.34
+Target High Price Diff Current Price,26.634900000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,126.6349
 
 
 

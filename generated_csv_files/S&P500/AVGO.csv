@@ -5,17 +5,17 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.broadcom.com
-Price,1305.67
+Price,237.44
 Currency,USD
 
 REVENUE
-Total Revenue,38864998400.0
-Revenue Per Share,91.771
+Total Revenue,46814998528.0
+Revenue Per Share,10.429
 Revenue Growth,0.164
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.92, forward_eps=57.0)"
-Net Earnings,11582000128.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.28, forward_eps=6.17)"
+Net Earnings,5487000064.0
 Earnings Growth,1.881
 
 DEBT
@@ -23,55 +23,55 @@ Total Debt,40456998912.0
 Debt to Equity,166.032
 
 MARGINS
-Profit Margins,0.29931998
-Gross Profit Margins,0.74239
+Profit Margins,0.108830005
+Gross Profit Margins,0.74713
 Operating Margins,0.31765
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,21.0
-Dividend Yield,0.015800001
-Dividend Payout Ratio,0.7079
-Five Year Avg Dividend Yield,2.95
-Trailing Annual Dividend Rate,19.7
-Trailing Annual Dividend Yield,0.015088039
+Dividend Rate,2.12
+Dividend Yield,0.0117
+Dividend Payout Ratio,1.6317999
+Five Year Avg Dividend Yield,2.69
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,166.032
-Price to Cash Flow,7.074497430420237e-08
-Enterprise to EBITDA,28.287
-Price to Book,22.505531
-Price to Earnings,"PriceToEarnings(trailing_pe=49.50966, forward_pe=23.382458)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.92, forward_eps=57.0)"
-Enterprise to Revenue,14.85
+Price to Cash Flow,9.23640879440895e-09
+Enterprise to EBITDA,4.514
+Price to Book,4.0526166
+Price to Earnings,"PriceToEarnings(trailing_pe=187.5, forward_pe=38.897892)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.28, forward_eps=6.17)"
+Enterprise to Revenue,2.214
 
 CASH FLOW
-Free to Cash Flow,18839500800.0
-Operating to Cash Flow,18864001024.0
+Free to Cash Flow,25984124928.0
+Operating to Cash Flow,19185999872.0
 
 PROFITABILITY
-Return on Equity,0.24749
-Return on Assets,0.07651
-Return on Invested Capital,0.2862792699042959
-Return on Investment,0.03037503311827957
+Return on Equity,0.12509
+Return on Assets,0.077010006
+Return on Invested Capital,0.13562548393426724
+Return on Investment,0.007457189540636042
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.029500000000000002
-SUM DIVIDEND SCORE,8.0295
+5 Year Average,0.0269
+SUM DIVIDEND SCORE,4.0269
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,387.20000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,388.20000000000005
+Target High Price Diff Current Price,60.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,60.0
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
+Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,1.0
+CRITERIA PASS COUNT,0.0
 

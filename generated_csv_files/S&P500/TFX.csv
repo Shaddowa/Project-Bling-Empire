@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.teleflex.com
-Price,204.7
+Price,181.27
 Currency,USD
 
 REVENUE
-Total Revenue,3001405952.0
-Revenue Per Share,63.845
-Revenue Growth,0.038
+Total Revenue,3025824000.0
+Revenue Per Share,64.384
+Revenue Growth,0.024
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.26, forward_eps=15.18)"
-Net Earnings,296016992.0
-Earnings Growth,-0.802
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.04, forward_eps=15.27)"
+Net Earnings,238007008.0
+Earnings Growth,-0.185
 
 DEBT
-Total Debt,1895428992.0
-Debt to Equity,42.091
+Total Debt,1912322944.0
+Debt to Equity,42.669
 
 MARGINS
-Profit Margins,0.09824
-Gross Profit Margins,0.557
-Operating Margins,-0.0017200001
+Profit Margins,0.07847
+Gross Profit Margins,0.55994
+Operating Margins,0.19570999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.36
-Dividend Yield,0.0067000003
-Dividend Payout Ratio,0.2173
-Five Year Avg Dividend Yield,0.47
+Dividend Yield,0.0075
+Dividend Payout Ratio,0.2698
+Five Year Avg Dividend Yield,0.5
 Trailing Annual Dividend Rate,1.36
-Trailing Annual Dividend Yield,0.0066438694
+Trailing Annual Dividend Yield,0.00750262
 
 FINANCIAL RATIO
-Debt to Equity,42.091
-Price to Cash Flow,7.190980712529465e-07
-Enterprise to EBITDA,17.876
-Price to Book,2.1329803
-Price to Earnings,"PriceToEarnings(trailing_pe=32.576675, forward_pe=13.434123)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.26, forward_eps=15.18)"
-Enterprise to Revenue,3.746
+Debt to Equity,42.669
+Price to Cash Flow,6.177730711695344e-07
+Enterprise to EBITDA,15.617
+Price to Book,1.8744106
+Price to Earnings,"PriceToEarnings(trailing_pe=35.887897, forward_pe=11.84512)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.04, forward_eps=15.27)"
+Enterprise to Revenue,3.329
 
 CASH FLOW
-Free to Cash Flow,283591360.0
-Operating to Cash Flow,537555008.0
+Free to Cash Flow,292785504.0
+Operating to Cash Flow,572124992.0
 
 PROFITABILITY
-Return on Equity,0.068730004
-Return on Assets,0.03306
-Return on Invested Capital,0.15617413172315958
-Return on Investment,0.041800272815849304
+Return on Equity,0.05412
+Return on Assets,0.03154
+Return on Invested Capital,0.12445962473899994
+Return on Investment,0.04012661563880365
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.004699999999999999
-SUM DIVIDEND SCORE,7.0047
+5 Year Average,0.005
+SUM DIVIDEND SCORE,4.005
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,81.07
-Recommendation Key,1
-SUM ANALYST RATING SCORE,82.07
+Target High Price Diff Current Price,104.125
+Recommendation Key,0
+SUM ANALYST RATING SCORE,104.125
 
 
 

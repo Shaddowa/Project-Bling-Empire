@@ -5,68 +5,68 @@ Country,United States
 Industry,Railroads
 Sector,Industrials
 Website,https://www.norfolksouthern.com
-Price,226.33
+Price,245.34
 Currency,USD
 
 REVENUE
-Total Revenue,12028000256.0
-Revenue Per Share,53.121
-Revenue Growth,-0.041
+Total Revenue,12172000256.0
+Revenue Per Share,53.858
+Revenue Growth,0.027
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.22, forward_eps=13.87)"
-Net Earnings,1411000064.0
-Earnings Growth,-0.887
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.65, forward_eps=13.58)"
+Net Earnings,2412999936.0
+Earnings Growth,1.31
 
 DEBT
-Total Debt,18116999168.0
-Debt to Equity,144.52
+Total Debt,17732999168.0
+Debt to Equity,128.64
 
 MARGINS
-Profit Margins,0.11756
-Gross Profit Margins,0.43241
-Operating Margins,0.07656
+Profit Margins,0.19849001
+Gross Profit Margins,0.48373002
+Operating Margins,0.49885
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.4
-Dividend Yield,0.0234
-Dividend Payout Ratio,0.8696
-Five Year Avg Dividend Yield,1.94
+Dividend Yield,0.022
+Dividend Payout Ratio,0.5066
+Five Year Avg Dividend Yield,1.99
 Trailing Annual Dividend Rate,5.4
-Trailing Annual Dividend Yield,0.023858966
+Trailing Annual Dividend Yield,0.022010272
 
 FINANCIAL RATIO
-Debt to Equity,144.52
-Price to Cash Flow,-4.5715135024432434e-07
-Enterprise to EBITDA,14.217
-Price to Book,4.150117
-Price to Earnings,"PriceToEarnings(trailing_pe=37.024117, forward_pe=16.60346)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.22, forward_eps=13.87)"
-Enterprise to Revenue,5.777
+Debt to Equity,128.64
+Price to Cash Flow,5.188958333333333e-06
+Enterprise to EBITDA,12.273
+Price to Book,4.0877385
+Price to Earnings,"PriceToEarnings(trailing_pe=23.386856, forward_pe=18.340942)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.65, forward_eps=13.58)"
+Enterprise to Revenue,5.937
 
 CASH FLOW
-Free to Cash Flow,-503750016.0
-Operating to Cash Flow,2844999936.0
+Free to Cash Flow,48000000.0
+Operating to Cash Flow,3774000128.0
 
 PROFITABILITY
-Return on Equity,0.111940004
-Return on Assets,0.05495
-Return on Invested Capital,0.07788265852385401
-Return on Investment,-0.014368636089613035
+Return on Equity,0.18303
+Return on Assets,0.06767
+Return on Invested Capital,0.1360739886608264
+Return on Investment,-0.02518789077244259
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0194
-SUM DIVIDEND SCORE,4.0194
+5 Year Average,0.0199
+SUM DIVIDEND SCORE,5.0199
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,74.71000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,75.71000000000001
+Target High Price Diff Current Price,59.93000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,159.93
 
 
 

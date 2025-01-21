@@ -5,27 +5,27 @@ Country,Norway
 Industry,Farm & Heavy Construction Machinery
 Sector,Industrials
 Website,https://www.akvagroup.com
-Price,65.6
+Price,67.8
 Currency,NOK
 
 REVENUE
-Total Revenue,3425252096.0
-Revenue Per Share,94.059
-Revenue Growth,0.086
+Total Revenue,3603692032.0
+Revenue Per Share,99.016
+Revenue Growth,0.237
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.49, forward_eps=3.28)"
-Net Earnings,-17835000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.31, forward_eps=3.41)"
+Net Earnings,84237000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1422465024.0
-Debt to Equity,123.405
+Total Debt,1505792000.0
+Debt to Equity,115.769
 
 MARGINS
-Profit Margins,-0.00521
-Gross Profit Margins,0.4172
-Operating Margins,-0.01407
+Profit Margins,0.02338
+Gross Profit Margins,0.45213002
+Operating Margins,0.14819
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,123.405
-Price to Cash Flow,-1.4259436181893367e-06
-Enterprise to EBITDA,30.63
-Price to Book,2.092237
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=20.0)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.49, forward_eps=3.28)"
-Enterprise to Revenue,1.052
+Debt to Equity,115.769
+Price to Cash Flow,7.892768797100615e-07
+Enterprise to EBITDA,14.328
+Price to Book,1.9277786
+Price to Earnings,"PriceToEarnings(trailing_pe=29.69697, forward_pe=20.117302)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.31, forward_eps=3.41)"
+Enterprise to Revenue,1.057
 
 CASH FLOW
-Free to Cash Flow,-46004624.0
-Operating to Cash Flow,258223008.0
+Free to Cash Flow,86915000.0
+Operating to Cash Flow,335233984.0
 
 PROFITABILITY
-Return on Equity,-0.01613
-Return on Assets,0.0114
-Return on Invested Capital,-0.01253809359524935
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.06592
+Return on Assets,0.03578
+Return on Invested Capital,0.05594198800983426
+Return on Investment,0.024586848019614138
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0194
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,4.400000000000006
-Recommendation Key,0
-SUM ANALYST RATING SCORE,4.400000000000006
+Target High Price Diff Current Price,21.400000000000006
+Recommendation Key,100
+SUM ANALYST RATING SCORE,121.4
 
 
 

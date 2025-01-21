@@ -5,27 +5,27 @@ Country,Norway
 Industry,Staffing & Employment Services
 Sector,Industrials
 Website,https://www.zalaris.com
-Price,72.6
+Price,70.2
 Currency,NOK
 
 REVENUE
-Total Revenue,1188718976.0
-Revenue Per Share,52.268
+Total Revenue,1291853952.0
+Revenue Per Share,56.983
 Revenue Growth,0.221
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=4.84)"
-Net Earnings,35591000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.15, forward_eps=4.9)"
+Net Earnings,49434000.0
+Earnings Growth,-0.37
 
 DEBT
-Total Debt,522129984.0
-Debt to Equity,227.58
+Total Debt,533536992.0
+Debt to Equity,218.642
 
 MARGINS
-Profit Margins,0.02544
-Gross Profit Margins,0.43925
-Operating Margins,0.070549995
+Profit Margins,0.03175
+Gross Profit Margins,0.45789
+Operating Margins,0.091409996
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,227.58
-Price to Cash Flow,8.519586697810115e-07
-Enterprise to EBITDA,19.094
-Price to Book,7.482348
-Price to Earnings,"PriceToEarnings(trailing_pe=46.40523, forward_pe=14.669421)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.53, forward_eps=4.84)"
-Enterprise to Revenue,1.595
+Debt to Equity,218.642
+Price to Cash Flow,6.398429476401248e-07
+Enterprise to EBITDA,15.468
+Price to Book,6.2333984
+Price to Earnings,"PriceToEarnings(trailing_pe=32.744186, forward_pe=14.367347)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.15, forward_eps=4.9)"
+Enterprise to Revenue,1.466
 
 CASH FLOW
-Free to Cash Flow,83337376.0
-Operating to Cash Flow,69919000.0
+Free to Cash Flow,110027000.0
+Operating to Cash Flow,118234000.0
 
 PROFITABILITY
-Return on Equity,0.1745
-Return on Assets,0.04467
-Return on Invested Capital,0.06816501722525506
-Return on Investment,0.006097690515350877
+Return on Equity,0.23405
+Return on Assets,0.05515
+Return on Invested Capital,0.09265336742306494
+Return on Investment,0.008891167107322073
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,9.0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,10.0
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Instruments & Supplies
 Sector,Healthcare
 Website,https://www.dentsplysirona.com
-Price,28.2
+Price,18.77
 Currency,USD
 
 REVENUE
-Total Revenue,3940000000.0
-Revenue Per Share,18.742
-Revenue Growth,-0.026
+Total Revenue,3900000000.0
+Revenue Per Share,18.932
+Revenue Growth,0.004
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.44, forward_eps=2.37)"
-Net Earnings,-95000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.03, forward_eps=2.0)"
+Net Earnings,-413000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,2232999936.0
-Debt to Equity,68.539
+Total Debt,2336000000.0
+Debt to Equity,93.815
 
 MARGINS
-Profit Margins,-0.02411
-Gross Profit Margins,0.52614
-Operating Margins,0.052470002
+Profit Margins,-0.105900005
+Gross Profit Margins,0.52179
+Operating Margins,0.0694
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.64
-Dividend Yield,0.0229
+Dividend Yield,0.0341
 Dividend Payout Ratio,0.2883
-Five Year Avg Dividend Yield,1.06
-Trailing Annual Dividend Rate,0.58
-Trailing Annual Dividend Yield,0.020567374
+Five Year Avg Dividend Yield,1.31
+Trailing Annual Dividend Rate,0.62
+Trailing Annual Dividend Yield,0.033031434
 
 FINANCIAL RATIO
-Debt to Equity,68.539
-Price to Cash Flow,8.885702680730796e-08
-Enterprise to EBITDA,12.333
-Price to Book,1.7771122
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=11.767933)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.44, forward_eps=2.37)"
-Enterprise to Revenue,1.963
+Debt to Equity,93.815
+Price to Cash Flow,4.646913580246914e-08
+Enterprise to EBITDA,9.569
+Price to Book,1.5019952
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.41)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.03, forward_eps=2.0)"
+Enterprise to Revenue,1.48
 
 CASH FLOW
-Free to Cash Flow,313875008.0
-Operating to Cash Flow,423000000.0
+Free to Cash Flow,405000000.0
+Operating to Cash Flow,534000000.0
 
 PROFITABILITY
-Return on Equity,-0.02668
-Return on Assets,0.02382
-Return on Invested Capital,-0.04254366415365618
-Return on Investment,-0.06785714285714285
+Return on Equity,-0.13991
+Return on Assets,0.02323
+Return on Invested Capital,-0.17679794425715828
+Return on Investment,0.17956521739130435
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0106
-SUM DIVIDEND SCORE,8.0106
+5 Year Average,0.0131
+SUM DIVIDEND SCORE,8.0131
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.11
-Recommendation Key,1
-SUM ANALYST RATING SCORE,11.11
+Target High Price Diff Current Price,11.18
+Recommendation Key,100
+SUM ANALYST RATING SCORE,111.18
 
 
 

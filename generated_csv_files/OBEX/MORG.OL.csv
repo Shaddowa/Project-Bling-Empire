@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,MORG.OL
 Company,Sparebanken Møre
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sbm.no
-Price,83.89
+Price,95.31
 Currency,NOK
 
 REVENUE
-Total Revenue,2342000128.0
-Revenue Per Share,47.465
-Revenue Growth,0.201
+Total Revenue,2508000000.0
+Revenue Per Share,50.846
+Revenue Growth,0.126
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.89, forward_eps=9.47)"
-Net Earnings,523000000.0
-Earnings Growth,0.23
+Earnings Per Share,"EarningsPerShare(trailing_eps=21.52, forward_eps=9.39)"
+Net Earnings,554000000.0
+Earnings Growth,0.099
 
 DEBT
-Total Debt,40776998912.0
+Total Debt,47032999936.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.47054002
+Profit Margins,0.4685
 Gross Profit Margins,0.0
-Operating Margins,0.59358
+Operating Margins,0.60099
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,7.5
-Dividend Yield,0.0887
-Dividend Payout Ratio,0.35900003
-Five Year Avg Dividend Yield,4.08
+Dividend Yield,0.0787
+Dividend Payout Ratio,0.34849998
+Five Year Avg Dividend Yield,4.57
 Trailing Annual Dividend Rate,7.5
-Trailing Annual Dividend Yield,0.08940279
+Trailing Annual Dividend Yield,0.07869059
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.45441347
-Price to Earnings,"PriceToEarnings(trailing_pe=4.045955, forward_pe=8.925026)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.89, forward_eps=9.47)"
-Enterprise to Revenue,18.254
+Price to Book,0.58348405
+Price to Earnings,"PriceToEarnings(trailing_pe=4.437732, forward_pe=10.170394)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=21.52, forward_eps=9.39)"
+Enterprise to Revenue,19.731
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-1638000000.0
+Operating to Cash Flow,-7256999936.0
 
 PROFITABILITY
-Return on Equity,0.12907
-Return on Assets,0.01145
-Return on Invested Capital,0.01282585799761997
-Return on Investment,0.0015686862627474504
+Return on Equity,0.13676
+Return on Assets,0.01166
+Return on Invested Capital,0.011778963681371955
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0408
-SUM DIVIDEND SCORE,4.0408
+5 Year Average,0.045700000000000005
+SUM DIVIDEND SCORE,7.0457
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.480000000000004
+Target High Price Diff Current Price,2.5
 Recommendation Key,0
-SUM ANALYST RATING SCORE,10.480000000000004
+SUM ANALYST RATING SCORE,2.5
 
 
 

@@ -5,17 +5,17 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.standard-etc.com
-Price,1.72
+Price,1.704
 Currency,NOK
 
 REVENUE
-Total Revenue,4059000.0
-Revenue Per Share,0.008
+Total Revenue,5869000.0
+Revenue Per Share,0.011
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.05, forward_eps=0.02)"
-Net Earnings,2591000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.29, forward_eps=0.02)"
+Net Earnings,3991000.0
 Earnings Growth,None
 
 DEBT
@@ -23,14 +23,14 @@ Total Debt,0.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.63833
+Profit Margins,0.68001
 Gross Profit Margins,1.0
-Operating Margins,1.2835499
+Operating Margins,1.03853
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,None
-Dividend Yield,None
+Dividend Rate,0.2
+Dividend Yield,0.1174
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
@@ -38,30 +38,30 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-1.3517034463700604e-07
-Enterprise to EBITDA,378.921
-Price to Book,6.317343
-Price to Earnings,"PriceToEarnings(trailing_pe=34.239998, forward_pe=85.600006)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.05, forward_eps=0.02)"
-Enterprise to Revenue,209.578
+Price to Cash Flow,-7.574090742407574e-08
+Enterprise to EBITDA,None
+Price to Book,6.8433733
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=85.200005)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.29, forward_eps=0.02)"
+Enterprise to Revenue,141.824
 
 CASH FLOW
-Free to Cash Flow,-12665500.0
-Operating to Cash Flow,-21290000.0
+Free to Cash Flow,-22497750.0
+Operating to Cash Flow,-41132000.0
 
 PROFITABILITY
-Return on Equity,0.018380001
-Return on Assets,0.00985
-Return on Invested Capital,9560885.608856088
-Return on Investment,0.6025581395348837
+Return on Equity,0.03105
+Return on Assets,0.020480001
+Return on Invested Capital,16028112.449799197
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,0.0
-Dividend Yield,0.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,0.0
+SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
 Target High Price Diff Current Price,0

@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,HIG
 Company,"The Hartford Financial Services Group, Inc."
 Country,United States
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.thehartford.com
-Price,101.33
+Price,111.93
 Currency,USD
 
 REVENUE
-Total Revenue,25060999168.0
-Revenue Per Share,82.675
-Revenue Growth,0.086
+Total Revenue,26083999744.0
+Revenue Per Share,87.921
+Revenue Growth,0.095
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=11.38)"
-Net Earnings,2700999936.0
-Earnings Growth,0.488
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.96, forward_eps=11.61)"
+Net Earnings,3008000000.0
+Earnings Growth,0.225
 
 DEBT
-Total Debt,4360000000.0
-Debt to Equity,28.187
+Total Debt,4359000064.0
+Debt to Equity,25.629
 
 MARGINS
-Profit Margins,0.108610004
-Gross Profit Margins,0.343
-Operating Margins,0.1511
+Profit Margins,0.11612
+Gross Profit Margins,0.35006002
+Operating Margins,0.14918
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.88
-Dividend Yield,0.0185
-Dividend Payout Ratio,0.2039
-Five Year Avg Dividend Yield,2.32
-Trailing Annual Dividend Rate,1.79
-Trailing Annual Dividend Yield,0.017665055
+Dividend Rate,2.08
+Dividend Yield,0.0186
+Dividend Payout Ratio,0.18879999
+Five Year Avg Dividend Yield,2.27
+Trailing Annual Dividend Rate,1.88
+Trailing Annual Dividend Yield,0.016796213
 
 FINANCIAL RATIO
-Debt to Equity,28.187
-Price to Cash Flow,1.9776306169569653e-08
-Enterprise to EBITDA,7.918
-Price to Book,1.9982742
-Price to Earnings,"PriceToEarnings(trailing_pe=11.604784, forward_pe=8.953427)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=11.38)"
-Enterprise to Revenue,1.26
+Debt to Equity,25.629
+Price to Cash Flow,2.667061952257014e-08
+Enterprise to EBITDA,7.746
+Price to Book,1.9611058
+Price to Earnings,"PriceToEarnings(trailing_pe=11.289157, forward_pe=9.684755)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.96, forward_eps=11.61)"
+Enterprise to Revenue,1.263
 
 CASH FLOW
-Free to Cash Flow,5152124928.0
-Operating to Cash Flow,4446000128.0
+Free to Cash Flow,4215875072.0
+Operating to Cash Flow,5662000128.0
 
 PROFITABILITY
-Return on Equity,0.18264
-Return on Assets,0.02933
-Return on Invested Capital,0.6194953909203095
-Return on Investment,0.14840658989010988
+Return on Equity,0.19740999
+Return on Assets,0.03165
+Return on Invested Capital,0.6900665098120624
+Return on Investment,0.18683229813664595
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0232
-SUM DIVIDEND SCORE,8.0232
+5 Year Average,0.0227
+SUM DIVIDEND SCORE,8.0227
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,42.11
-Recommendation Key,1
-SUM ANALYST RATING SCORE,43.11
+Target High Price Diff Current Price,31.560000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,131.56
 
 
 

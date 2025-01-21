@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,ES
 Company,Eversource Energy
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.eversource.com
-Price,61.76
+Price,57.87
 Currency,USD
 
 REVENUE
-Total Revenue,11447636992.0
-Revenue Per Share,32.712
-Revenue Growth,-0.122
+Total Revenue,11623559168.0
+Revenue Per Share,32.896
+Revenue Growth,0.097
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.19, forward_eps=4.81)"
-Net Earnings,-411551008.0
-Earnings Growth,0.058
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.61, forward_eps=4.78)"
+Net Earnings,-549352000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,28286945280.0
-Debt to Equity,192.439
+Total Debt,28540672000.0
+Debt to Equity,187.768
 
 MARGINS
-Profit Margins,-0.03595
-Gross Profit Margins,0.44049
-Operating Margins,0.26218998
+Profit Margins,-0.047259998
+Gross Profit Margins,0.49400002
+Operating Margins,0.21024
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.86
-Dividend Yield,0.0462
+Dividend Yield,0.0494
 Dividend Payout Ratio,0.7972
-Five Year Avg Dividend Yield,3.04
-Trailing Annual Dividend Rate,2.74
-Trailing Annual Dividend Yield,0.044365287
+Five Year Avg Dividend Yield,3.28
+Trailing Annual Dividend Rate,2.82
+Trailing Annual Dividend Yield,0.04872991
 
 FINANCIAL RATIO
-Debt to Equity,192.439
-Price to Cash Flow,-1.9276991095006416e-08
-Enterprise to EBITDA,12.643
-Price to Book,1.4960135
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.87318)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.19, forward_eps=4.81)"
-Enterprise to Revenue,4.367
+Debt to Equity,187.768
+Price to Cash Flow,-2.051123842547158e-08
+Enterprise to EBITDA,12.003
+Price to Book,1.4106379
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.200836)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.61, forward_eps=4.78)"
+Enterprise to Revenue,4.285
 
 CASH FLOW
-Free to Cash Flow,-3212119552.0
-Operating to Cash Flow,1868316032.0
+Free to Cash Flow,-2843319296.0
+Operating to Cash Flow,1994614016.0
 
 PROFITABILITY
-Return on Equity,-0.026400002
-Return on Assets,0.029409999
-Return on Invested Capital,-0.01454914991081747
-Return on Investment,0.0015322910627308857
+Return on Equity,-0.03491
+Return on Assets,0.02987
+Return on Invested Capital,-0.019248040102357377
+Return on Investment,0.002293553774215097
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0304
-SUM DIVIDEND SCORE,8.0304
+5 Year Average,0.032799999999999996
+SUM DIVIDEND SCORE,8.0328
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.08
-Recommendation Key,1
-SUM ANALYST RATING SCORE,33.08
+Target High Price Diff Current Price,28.68
+Recommendation Key,100
+SUM ANALYST RATING SCORE,128.68
 
 
 

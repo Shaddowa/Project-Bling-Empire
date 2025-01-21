@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Care Facilities
 Sector,Healthcare
 Website,https://www.hcahealthcare.com
-Price,321.89
+Price,310.45
 Currency,USD
 
 REVENUE
-Total Revenue,66716000256.0
-Revenue Per Share,247.752
-Revenue Growth,0.112
+Total Revenue,69620998144.0
+Revenue Per Share,265.371
+Revenue Growth,0.079
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.06, forward_eps=23.19)"
-Net Earnings,5470000128.0
-Earnings Growth,0.223
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.26, forward_eps=24.55)"
+Net Earnings,5928999936.0
+Earnings Growth,0.248
 
 DEBT
-Total Debt,42103001088.0
-Debt to Equity,3315.197
+Total Debt,44889001984.0
+Debt to Equity,5711.069
 
 MARGINS
-Profit Margins,0.08199
-Gross Profit Margins,0.39655
-Operating Margins,0.14764
+Profit Margins,0.085159995
+Gross Profit Margins,0.4058
+Operating Margins,0.13781999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.64
-Dividend Yield,0.0081
-Dividend Payout Ratio,0.122700006
-Five Year Avg Dividend Yield,0.89
-Trailing Annual Dividend Rate,2.46
-Trailing Annual Dividend Yield,0.0076423623
+Dividend Yield,0.0085
+Dividend Payout Ratio,0.1159
+Five Year Avg Dividend Yield,0.83
+Trailing Annual Dividend Rate,2.58
+Trailing Annual Dividend Yield,0.008310516
 
 FINANCIAL RATIO
-Debt to Equity,3315.197
-Price to Cash Flow,8.630688766641099e-08
-Enterprise to EBITDA,10.037
+Debt to Equity,5711.069
+Price to Cash Flow,7.611985377795936e-08
+Enterprise to EBITDA,8.985
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=16.28365, forward_pe=14.085813)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=20.06, forward_eps=23.19)"
-Enterprise to Revenue,1.936
+Price to Earnings,"PriceToEarnings(trailing_pe=14.180143, forward_pe=12.857434)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=22.26, forward_eps=24.55)"
+Enterprise to Revenue,1.774
 
 CASH FLOW
-Free to Cash Flow,3784750080.0
-Operating to Cash Flow,10097000448.0
+Free to Cash Flow,4146749952.0
+Operating to Cash Flow,10629000192.0
 
 PROFITABILITY
-Return on Equity,8.45539
-Return on Assets,0.11116
-Return on Invested Capital,0.12991948287401822
-Return on Investment,-0.0756569865560166
+Return on Equity,11.954511
+Return on Assets,0.115109995
+Return on Invested Capital,0.13208134899603324
+Return on Investment,-0.0845791716975749
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0089
-SUM DIVIDEND SCORE,8.0089
+5 Year Average,0.0083
+SUM DIVIDEND SCORE,8.0083
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,51.35000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,52.35000000000002
+Target High Price Diff Current Price,144.35000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,244.35000000000002
 
 
 

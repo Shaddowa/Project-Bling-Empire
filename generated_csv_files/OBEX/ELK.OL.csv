@@ -5,68 +5,68 @@ Country,Norway
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.elkem.com
-Price,19.5
+Price,16.87
 Currency,NOK
 
 REVENUE
-Total Revenue,32458999808.0
-Revenue Per Share,51.142
-Revenue Growth,-0.197
+Total Revenue,31758999552.0
+Revenue Per Share,50.095
+Revenue Growth,-0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.08, forward_eps=2.7)"
-Net Earnings,-1319000064.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.07, forward_eps=2.13)"
+Net Earnings,46000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,16423999488.0
-Debt to Equity,66.381
+Total Debt,18030000128.0
+Debt to Equity,70.186
 
 MARGINS
-Profit Margins,-0.04064
-Gross Profit Margins,0.39915
-Operating Margins,-0.01613
+Profit Margins,0.00145
+Gross Profit Margins,0.42567003
+Operating Margins,0.06588
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.0
-Dividend Yield,0.3074
-Dividend Payout Ratio,54.545498
-Five Year Avg Dividend Yield,10.5
+Dividend Rate,None
+Dividend Yield,None
+Dividend Payout Ratio,0.0
+Five Year Avg Dividend Yield,10.8
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,66.381
-Price to Cash Flow,-1.1088152136196805e-08
-Enterprise to EBITDA,10.427
-Price to Book,0.53288627
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=7.6518517)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-2.08, forward_eps=2.7)"
-Enterprise to Revenue,0.734
+Debt to Equity,70.186
+Price to Cash Flow,-7.696283816965664e-09
+Enterprise to EBITDA,7.171
+Price to Book,0.41608703
+Price to Earnings,"PriceToEarnings(trailing_pe=239.28572, forward_pe=7.863849)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.07, forward_eps=2.13)"
+Enterprise to Revenue,0.704
 
 CASH FLOW
-Free to Cash Flow,-1863250048.0
-Operating to Cash Flow,2956999936.0
+Free to Cash Flow,-2176375040.0
+Operating to Cash Flow,1202000000.0
 
 PROFITABILITY
-Return on Equity,-0.044910002
-Return on Assets,0.0020299999
-Return on Invested Capital,-0.0803093096690681
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,0.00561
+Return on Assets,0.00992
+Return on Invested Capital,0.00255130335944137
+Return on Investment,-0.00022851465474416294
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,0.0
+Dividend Yield,0.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.105
-SUM DIVIDEND SCORE,4.105
+5 Year Average,0.10800000000000001
+SUM DIVIDEND SCORE,0.10800000000000001
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.34
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.34
+Target High Price Diff Current Price,9.25
+Recommendation Key,100
+SUM ANALYST RATING SCORE,109.25
 
 
 

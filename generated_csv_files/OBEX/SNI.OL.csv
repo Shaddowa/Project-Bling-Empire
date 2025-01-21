@@ -5,68 +5,68 @@ Country,United Kingdom
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.stolt-nielsen.com
-Price,503.0
+Price,288.0
 Currency,NOK
 
 REVENUE
-Total Revenue,2818882048.0
-Revenue Per Share,52.666
-Revenue Growth,-0.002
+Total Revenue,2876450048.0
+Revenue Per Share,53.741
+Revenue Growth,0.055
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=61.3, forward_eps=86.15)"
-Net Earnings,300732992.0
-Earnings Growth,0.043
+Earnings Per Share,"EarningsPerShare(trailing_eps=86.0, forward_eps=6.58)"
+Net Earnings,401699008.0
+Earnings Growth,0.101
 
 DEBT
-Total Debt,2032833024.0
-Debt to Equity,100.935
+Total Debt,2252762112.0
+Debt to Equity,103.646
 
 MARGINS
-Profit Margins,0.106709994
-Gross Profit Margins,0.37717998
-Operating Margins,0.16153999
+Profit Margins,0.13967
+Gross Profit Margins,0.36815
+Operating Margins,0.15358
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,32.78
-Dividend Yield,0.0647
-Dividend Payout Ratio,0.4004
-Five Year Avg Dividend Yield,4.78
-Trailing Annual Dividend Rate,2.5
-Trailing Annual Dividend Yield,0.004970179
+Dividend Rate,27.68
+Dividend Yield,0.096099995
+Dividend Payout Ratio,0.33290002
+Five Year Avg Dividend Yield,5.25
+Trailing Annual Dividend Rate,1.5
+Trailing Annual Dividend Yield,0.0052083335
 
 FINANCIAL RATIO
-Debt to Equity,100.935
-Price to Cash Flow,9.474680931616709e-07
-Enterprise to EBITDA,39.523
-Price to Book,13.4740095
-Price to Earnings,"PriceToEarnings(trailing_pe=8.2708, forward_pe=5.885084)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=61.3, forward_eps=86.15)"
-Enterprise to Revenue,10.22
+Debt to Equity,103.646
+Price to Cash Flow,1.765573974912125e-06
+Enterprise to EBITDA,24.643
+Price to Book,6.956757
+Price to Earnings,"PriceToEarnings(trailing_pe=3.2848837, forward_pe=42.933132)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=86.0, forward_eps=6.58)"
+Enterprise to Revenue,6.025
 
 CASH FLOW
-Free to Cash Flow,535110368.0
-Operating to Cash Flow,853036032.0
+Free to Cash Flow,160004624.0
+Operating to Cash Flow,553099008.0
 
 PROFITABILITY
-Return on Equity,0.15668
-Return on Assets,0.06397
-Return on Invested Capital,0.14793786940830111
+Return on Equity,0.19966999
+Return on Assets,0.05889
+Return on Invested Capital,0.17831399002107576
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0478
-SUM DIVIDEND SCORE,9.0478
+5 Year Average,0.0525
+SUM DIVIDEND SCORE,8.0525
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,44.49000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,45.49000000000001
+Target High Price Diff Current Price,285.05334000000005
+Recommendation Key,0
+SUM ANALYST RATING SCORE,285.05334000000005
 
 
 

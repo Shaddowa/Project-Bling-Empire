@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,CTLT
 Company,"Catalent, Inc."
 Country,United States
-Industry,Drug Manufacturers—Specialty & Generic
+Industry,Drug Manufacturers - Specialty & Generic
 Sector,Healthcare
 Website,https://www.catalent.com
-Price,55.98
+Price,63.48
 Currency,USD
 
 REVENUE
-Total Revenue,4135000064.0
-Revenue Per Share,22.751
-Revenue Growth,0.036
+Total Revenue,4422000128.0
+Revenue Per Share,24.397
+Revenue Growth,0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.48, forward_eps=1.25)"
-Net Earnings,-1176000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.28, forward_eps=1.76)"
+Net Earnings,-413000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,4979999744.0
-Debt to Equity,137.912
+Total Debt,4946999808.0
+Debt to Equity,139.667
 
 MARGINS
-Profit Margins,-0.28440002
-Gross Profit Margins,0.18959999
-Operating Margins,-0.015829999
+Profit Margins,-0.0934
+Gross Profit Margins,0.21823
+Operating Margins,-0.0694
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,137.912
-Price to Cash Flow,3.5977439405766415e-07
-Enterprise to EBITDA,44.175
-Price to Book,2.8128624
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=44.648003)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-6.48, forward_eps=1.25)"
-Enterprise to Revenue,3.622
+Debt to Equity,139.667
+Price to Cash Flow,1.7415637860082303e-07
+Enterprise to EBITDA,34.923
+Price to Book,3.2527156
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=36.06818)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.28, forward_eps=1.76)"
+Enterprise to Revenue,3.649
 
 CASH FLOW
-Free to Cash Flow,155124992.0
-Operating to Cash Flow,250000000.0
+Free to Cash Flow,364500000.0
+Operating to Cash Flow,399000000.0
 
 PROFITABILITY
-Return on Equity,-0.2829
-Return on Assets,-0.008090001
-Return on Invested Capital,-0.23614458951158035
+Return on Equity,-0.11188
+Return on Assets,-0.00177
+Return on Invested Capital,-0.0834849432787178
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.689999999999998
+Target High Price Diff Current Price,0.020000000000003126
 Recommendation Key,0
-SUM ANALYST RATING SCORE,7.689999999999998
+SUM ANALYST RATING SCORE,0.020000000000003126
 
 
 

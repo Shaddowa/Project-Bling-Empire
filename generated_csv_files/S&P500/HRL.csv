@@ -5,68 +5,68 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.hormelfoods.com
-Price,35.39
+Price,29.93
 Currency,USD
 
 REVENUE
-Total Revenue,12135928832.0
-Revenue Per Share,22.203
-Revenue Growth,0.009
+Total Revenue,11980785664.0
+Revenue Per Share,21.882
+Revenue Growth,-0.022
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.45, forward_eps=1.68)"
-Net Earnings,794716032.0
-Earnings Growth,0.004
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.47, forward_eps=1.69)"
+Net Earnings,780777024.0
+Earnings Growth,0.075
 
 DEBT
-Total Debt,3311206912.0
-Debt to Equity,42.189
+Total Debt,2859853056.0
+Debt to Equity,36.305
 
 MARGINS
-Profit Margins,0.06548
-Gross Profit Margins,0.16584
-Operating Margins,0.089540005
+Profit Margins,0.065170005
+Gross Profit Margins,0.16860001
+Operating Margins,0.08943
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.13
-Dividend Yield,0.0317
-Dividend Payout Ratio,0.76379997
-Five Year Avg Dividend Yield,2.27
-Trailing Annual Dividend Rate,1.108
-Trailing Annual Dividend Yield,0.031308282
+Dividend Rate,1.16
+Dividend Yield,0.0365
+Dividend Payout Ratio,0.785
+Five Year Avg Dividend Yield,2.46
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,42.189
-Price to Cash Flow,4.780504356707212e-08
-Enterprise to EBITDA,16.703
-Price to Book,2.48726
-Price to Earnings,"PriceToEarnings(trailing_pe=24.572414, forward_pe=21.208334)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.45, forward_eps=1.68)"
-Enterprise to Revenue,1.8
+Debt to Equity,36.305
+Price to Cash Flow,4.331131272178696e-08
+Enterprise to EBITDA,14.593
+Price to Book,2.1199555
+Price to Earnings,"PriceToEarnings(trailing_pe=20.690475, forward_pe=17.997042)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.47, forward_eps=1.69)"
+Enterprise to Revenue,1.649
 
 CASH FLOW
-Free to Cash Flow,745318848.0
-Operating to Cash Flow,1248198016.0
+Free to Cash Flow,702241472.0
+Operating to Cash Flow,1177208064.0
 
 PROFITABILITY
-Return on Equity,0.10267
-Return on Assets,0.04908
-Return on Invested Capital,0.2400079637674681
-Return on Investment,-0.059481616382375174
+Return on Equity,0.10005
+Return on Assets,0.05164
+Return on Invested Capital,0.2730129852109026
+Return on Investment,-0.08248835472726697
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0227
-SUM DIVIDEND SCORE,8.0227
+5 Year Average,0.0246
+SUM DIVIDEND SCORE,4.0246
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
+Target High Price Diff Current Price,6.585000000000001
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+SUM ANALYST RATING SCORE,6.585000000000001
 
 
 

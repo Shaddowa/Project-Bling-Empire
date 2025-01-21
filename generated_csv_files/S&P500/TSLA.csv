@@ -5,27 +5,27 @@ Country,United States
 Industry,Auto Manufacturers
 Sector,Consumer Cyclical
 Website,https://www.tesla.com
-Price,171.97
+Price,426.5
 Currency,USD
 
 REVENUE
-Total Revenue,94745001984.0
-Revenue Per Share,29.803
-Revenue Growth,-0.087
+Total Revenue,97150001152.0
+Revenue Per Share,30.457
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.91, forward_eps=3.34)"
-Net Earnings,13651999744.0
-Earnings Growth,-0.534
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.67, forward_eps=3.24)"
+Net Earnings,12743000064.0
+Earnings Growth,0.17
 
 DEBT
-Total Debt,9911000064.0
-Debt to Equity,15.206
+Total Debt,12782999552.0
+Debt to Equity,18.078
 
 MARGINS
-Profit Margins,0.14368
-Gross Profit Margins,0.17778999
-Operating Margins,0.054970004
+Profit Margins,0.13075
+Gross Profit Margins,0.18229
+Operating Margins,0.107889995
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,15.206
-Price to Cash Flow,-2.6609279704441047e-07
-Enterprise to EBITDA,42.49
-Price to Book,8.345057
-Price to Earnings,"PriceToEarnings(trailing_pe=43.086956, forward_pe=50.44012)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.91, forward_eps=3.34)"
-Enterprise to Revenue,5.5
+Debt to Equity,18.078
+Price to Cash Flow,6.131904456433465e-07
+Enterprise to EBITDA,101.858
+Price to Book,19.02275
+Price to Earnings,"PriceToEarnings(trailing_pe=113.05722, forward_pe=128.06174)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.67, forward_eps=3.24)"
+Enterprise to Revenue,13.886
 
 CASH FLOW
-Free to Cash Flow,-633124992.0
-Operating to Cash Flow,10984999936.0
+Free to Cash Flow,676625024.0
+Operating to Cash Flow,14478999552.0
 
 PROFITABILITY
-Return on Equity,0.23736
-Return on Assets,0.04717
-Return on Invested Capital,1.3774593510275908
-Return on Investment,-0.014843970581711427
+Return on Equity,0.20389
+Return on Assets,0.04759
+Return on Invested Capital,0.9968708823328162
+Return on Investment,-0.012445551385877527
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,151.53
+Target High Price Diff Current Price,113.10000000000002
 Recommendation Key,0
-SUM ANALYST RATING SCORE,151.53
+SUM ANALYST RATING SCORE,113.10000000000002
 
 
 

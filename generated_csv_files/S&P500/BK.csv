@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,BK
 Company,The Bank of New York Mellon Corporation
 Country,United States
-Industry,Asset Management
+Industry,Banks - Diversified
 Sector,Financial Services
-Website,https://www.bnymellon.com
-Price,58.35
+Website,https://www.bny.com
+Price,83.29
 Currency,USD
 
 REVENUE
-Total Revenue,17494999040.0
-Revenue Per Share,22.648
-Revenue Growth,0.026
+Total Revenue,17801000960.0
+Revenue Per Share,23.65
+Revenue Growth,0.047
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.99, forward_eps=6.07)"
-Net Earnings,3092999936.0
-Earnings Growth,0.106
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.8, forward_eps=6.53)"
+Net Earnings,3352000000.0
+Earnings Growth,0.22
 
 DEBT
-Total Debt,68941996032.0
+Total Debt,71076003840.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.19028
+Profit Margins,0.20038
 Gross Profit Margins,0.0
-Operating Margins,0.30556
+Operating Margins,0.33231997
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.68
-Dividend Yield,0.0287
-Dividend Payout Ratio,0.4085
+Dividend Rate,1.88
+Dividend Yield,0.0248
+Dividend Payout Ratio,0.387
 Five Year Avg Dividend Yield,2.96
-Trailing Annual Dividend Rate,1.63
-Trailing Annual Dividend Yield,0.027934877
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.2063911
-Price to Earnings,"PriceToEarnings(trailing_pe=14.646616, forward_pe=9.627677)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.99, forward_eps=6.07)"
-Enterprise to Revenue,-3.242
+Price to Book,1.6292655
+Price to Earnings,"PriceToEarnings(trailing_pe=14.545689, forward_pe=12.919601)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.8, forward_eps=6.53)"
+Enterprise to Revenue,-1.957
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,1440000000.0
+Operating to Cash Flow,-2931000064.0
 
 PROFITABILITY
-Return on Equity,0.08173
-Return on Assets,0.00775
-Return on Invested Capital,0.04486380017763144
-Return on Investment,0.001789205724532886
+Return on Equity,0.08563
+Return on Assets,0.008590001
+Return on Invested Capital,0.047160783055610334
+Return on Investment,0.0017137890485198629
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
-Payout Ratio,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0296
-SUM DIVIDEND SCORE,9.0296
+SUM DIVIDEND SCORE,4.0296
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.560000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,12.560000000000002
+Target High Price Diff Current Price,19.635000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,119.635
 
 
 

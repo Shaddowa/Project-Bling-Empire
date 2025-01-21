@@ -5,68 +5,68 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.leidos.com
-Price,146.83
+Price,155.18
 Currency,USD
 
 REVENUE
-Total Revenue,15713999872.0
-Revenue Per Share,114.91
-Revenue Growth,0.075
+Total Revenue,16277000192.0
+Revenue Per Share,120.125
+Revenue Growth,0.069
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.34, forward_eps=9.24)"
-Net Earnings,321000000.0
-Earnings Growth,0.769
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=10.45)"
+Net Earnings,1199000064.0
+Earnings Growth,None
 
 DEBT
-Total Debt,5174000128.0
-Debt to Equity,119.963
+Total Debt,5139999744.0
+Debt to Equity,110.135
 
 MARGINS
-Profit Margins,0.02043
-Gross Profit Margins,0.1519
-Operating Margins,0.103649996
+Profit Margins,0.07366
+Gross Profit Margins,0.16588
+Operating Margins,0.12291
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.52
+Dividend Rate,1.6
 Dividend Yield,0.010299999
-Dividend Payout Ratio,0.6325
-Five Year Avg Dividend Yield,1.43
-Trailing Annual Dividend Rate,1.48
-Trailing Annual Dividend Yield,0.010079684
+Dividend Payout Ratio,0.1729
+Five Year Avg Dividend Yield,1.36
+Trailing Annual Dividend Rate,1.52
+Trailing Annual Dividend Yield,0.009795077
 
 FINANCIAL RATIO
-Debt to Equity,119.963
-Price to Cash Flow,1.507782759935859e-07
-Enterprise to EBITDA,13.863
-Price to Book,4.6792307
-Price to Earnings,"PriceToEarnings(trailing_pe=63.025642, forward_pe=15.961039)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.34, forward_eps=9.24)"
-Enterprise to Revenue,1.561
+Debt to Equity,110.135
+Price to Cash Flow,1.3877293352093253e-07
+Enterprise to EBITDA,12.013
+Price to Book,4.59181
+Price to Earnings,"PriceToEarnings(trailing_pe=18.097382, forward_pe=15.205264)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=10.45)"
+Enterprise to Revenue,1.518
 
 CASH FLOW
-Free to Cash Flow,978124992.0
-Operating to Cash Flow,1326000000.0
+Free to Cash Flow,1144999936.0
+Operating to Cash Flow,1396999936.0
 
 PROFITABILITY
-Return on Equity,0.07451
-Return on Assets,0.06994
-Return on Invested Capital,0.06204097218850951
-Return on Investment,0.014017467248908297
+Return on Equity,0.27035
+Return on Assets,0.08445
+Return on Invested Capital,0.23326850498924395
+Return on Investment,0.04815261301204819
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0143
-SUM DIVIDEND SCORE,8.0143
+5 Year Average,0.013600000000000001
+SUM DIVIDEND SCORE,8.0136
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.52000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,33.52000000000001
+Target High Price Diff Current Price,61.10499999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,161.105
 
 
 

@@ -5,55 +5,55 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://akersolutions.com
-Price,43.74
+Price,31.4
 Currency,NOK
 
 REVENUE
-Total Revenue,39942000640.0
-Revenue Per Share,81.704
-Revenue Growth,-0.019
+Total Revenue,42384998400.0
+Revenue Per Share,87.237
+Revenue Growth,-0.093
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.2, forward_eps=4.98)"
-Net Earnings,967000000.0
-Earnings Growth,1.299
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.06, forward_eps=5.75)"
+Net Earnings,1203000064.0
+Earnings Growth,-0.324
 
 DEBT
-Total Debt,3484999936.0
-Debt to Equity,17.388
+Total Debt,3361999872.0
+Debt to Equity,16.87
 
 MARGINS
-Profit Margins,0.30394
-Gross Profit Margins,0.39194
-Operating Margins,0.045679998
+Profit Margins,0.27989
+Gross Profit Margins,0.3757
+Operating Margins,0.051
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.0
-Dividend Yield,0.045
-Dividend Payout Ratio,5.0
+Dividend Yield,0.0637
+Dividend Payout Ratio,0.6536
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,17.388
-Price to Cash Flow,-7.288524590163934e-07
-Enterprise to EBITDA,8.533
-Price to Book,1.0764873
-Price to Earnings,"PriceToEarnings(trailing_pe=222.29999, forward_pe=8.927711)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.2, forward_eps=4.98)"
-Enterprise to Revenue,0.317
+Debt to Equity,16.87
+Price to Cash Flow,1.495201535508637e-08
+Enterprise to EBITDA,3.684
+Price to Book,0.7498857
+Price to Earnings,"PriceToEarnings(trailing_pe=10.183006, forward_pe=5.4191303)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.06, forward_eps=5.75)"
+Enterprise to Revenue,0.104
 
 CASH FLOW
-Free to Cash Flow,-61000000.0
-Operating to Cash Flow,5534000128.0
+Free to Cash Flow,2084000000.0
+Operating to Cash Flow,2791000064.0
 
 PROFITABILITY
-Return on Equity,0.05717
-Return on Assets,0.01071
-Return on Invested Capital,0.2774748942032719
-Return on Investment,-0.005227027027027027
+Return on Equity,0.07182
+Return on Assets,0.01285
+Return on Invested Capital,0.3578227528056822
+Return on Investment,-0.006502703048648649
 
 DIVIDEND SCORE
 Dividend  Rate,2.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,19.54
-Recommendation Key,1
-SUM ANALYST RATING SCORE,20.54
+Target High Price Diff Current Price,28.84
+Recommendation Key,0
+SUM ANALYST RATING SCORE,28.84
 
 
 

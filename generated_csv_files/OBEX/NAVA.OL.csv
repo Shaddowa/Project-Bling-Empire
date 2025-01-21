@@ -4,28 +4,28 @@ Company,Navamedic ASA
 Country,Norway
 Industry,Medical Distribution
 Sector,Healthcare
-Website,https://www.navamedic.com
-Price,33.4
+Website,https://navamedic.com
+Price,23.9
 Currency,NOK
 
 REVENUE
-Total Revenue,511151008.0
+Total Revenue,525551008.0
 Revenue Per Share,29.639
-Revenue Growth,-0.007
+Revenue Growth,-0.127
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.19, forward_eps=3.31)"
-Net Earnings,-11445000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.4, forward_eps=1.69)"
+Net Earnings,19621000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,150295008.0
-Debt to Equity,66.456
+Total Debt,126922000.0
+Debt to Equity,48.052
 
 MARGINS
-Profit Margins,-0.02239
-Gross Profit Margins,0.3827
-Operating Margins,0.040510003
+Profit Margins,0.03733
+Gross Profit Margins,0.40016997
+Operating Margins,0.0387
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,66.456
-Price to Cash Flow,3.6938357024286133e-06
-Enterprise to EBITDA,26.992
-Price to Book,2.582709
-Price to Earnings,"PriceToEarnings(trailing_pe=174.21053, forward_pe=10.0)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.19, forward_eps=3.31)"
-Enterprise to Revenue,1.361
+Debt to Equity,48.052
+Price to Cash Flow,1.0409974410627755e-06
+Enterprise to EBITDA,8.962
+Price to Book,1.8648564
+Price to Earnings,"PriceToEarnings(trailing_pe=17.071428, forward_pe=14.142011)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.4, forward_eps=1.69)"
+Enterprise to Revenue,0.942
 
 CASH FLOW
-Free to Cash Flow,8960875.0
-Operating to Cash Flow,-6483000.0
+Free to Cash Flow,22958750.0
+Operating to Cash Flow,9273000.0
 
 PROFITABILITY
-Return on Equity,-0.05069
-Return on Assets,0.01956
-Return on Invested Capital,-0.07615022731865242
-Return on Investment,-0.005788196024882415
+Return on Equity,0.08135
+Return on Assets,0.05198
+Return on Invested Capital,0.1545909930410948
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.899999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.899999999999999
+Target High Price Diff Current Price,14.100000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,14.100000000000001
 
 
 

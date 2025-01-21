@@ -5,68 +5,68 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.pginvestor.com
-Price,166.04
+Price,161.13
 Currency,USD
 
 REVENUE
-Total Revenue,84059996160.0
-Revenue Per Share,35.616
-Revenue Growth,0.006
+Total Revenue,83905003520.0
+Revenue Per Share,35.566
+Revenue Growth,-0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.12, forward_eps=6.97)"
-Net Earnings,14844999680.0
-Earnings Growth,0.106
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.8, forward_eps=7.42)"
+Net Earnings,14030999552.0
+Earnings Growth,-0.121
 
 DEBT
-Total Debt,31982000128.0
-Debt to Equity,63.541
+Total Debt,36152999936.0
+Debt to Equity,69.338
 
 MARGINS
-Profit Margins,0.17994
-Gross Profit Margins,0.51464003
-Operating Margins,0.22941
+Profit Margins,0.17063
+Gross Profit Margins,0.51756
+Operating Margins,0.27763999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.03
-Dividend Yield,0.0241
-Dividend Payout Ratio,0.6148
-Five Year Avg Dividend Yield,2.43
-Trailing Annual Dividend Rate,3.763
-Trailing Annual Dividend Yield,0.022663215
+Dividend Yield,0.025
+Dividend Payout Ratio,0.6714
+Five Year Avg Dividend Yield,2.41
+Trailing Annual Dividend Rate,3.894
+Trailing Annual Dividend Yield,0.02416682
 
 FINANCIAL RATIO
-Debt to Equity,63.541
-Price to Cash Flow,1.3579393349358527e-08
-Enterprise to EBITDA,17.343
-Price to Book,7.994729
-Price to Earnings,"PriceToEarnings(trailing_pe=27.263073, forward_pe=23.938309)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.12, forward_eps=6.97)"
-Enterprise to Revenue,4.997
+Debt to Equity,69.338
+Price to Cash Flow,1.2187417807680375e-08
+Enterprise to EBITDA,16.828
+Price to Book,7.458018
+Price to Earnings,"PriceToEarnings(trailing_pe=27.872414, forward_pe=21.787062)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.8, forward_eps=7.42)"
+Enterprise to Revenue,4.822
 
 CASH FLOW
-Free to Cash Flow,12286999552.0
-Operating to Cash Flow,19433000960.0
+Free to Cash Flow,13264499712.0
+Operating to Cash Flow,19243999232.0
 
 PROFITABILITY
-Return on Equity,0.31794
-Return on Assets,0.111590005
-Return on Invested Capital,0.4641673319648368
-Return on Investment,-0.10733911554591467
+Return on Equity,0.28766
+Return on Assets,0.10601
+Return on Invested Capital,0.3881005606291585
+Return on Investment,-0.0926750300660502
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.024300000000000002
-SUM DIVIDEND SCORE,8.0243
+5 Year Average,0.0241
+SUM DIVIDEND SCORE,8.0241
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,16.150000000000006
-Recommendation Key,1
-SUM ANALYST RATING SCORE,17.150000000000006
+Target High Price Diff Current Price,47.34
+Recommendation Key,100
+SUM ANALYST RATING SCORE,147.34
 
 
 

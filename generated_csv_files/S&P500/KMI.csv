@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.kindermorgan.com
-Price,19.01
+Price,30.31
 Currency,USD
 
 REVENUE
-Total Revenue,15288000512.0
-Revenue Per Share,6.864
-Revenue Growth,-0.012
+Total Revenue,15150999552.0
+Revenue Per Share,6.823
+Revenue Growth,-0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.25)"
-Net Earnings,2444000000.0
-Earnings Growth,0.113
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.13, forward_eps=1.26)"
+Net Earnings,2526000128.0
+Earnings Growth,0.181
 
 DEBT
-Total Debt,32145999872.0
-Debt to Equity,101.27
+Total Debt,32201000960.0
+Debt to Equity,101.433
 
 MARGINS
-Profit Margins,0.16078
-Gross Profit Margins,0.49778
-Operating Margins,0.30999002
+Profit Margins,0.16765
+Gross Profit Margins,0.51152
+Operating Margins,0.27467
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.15
-Dividend Yield,0.060300004
-Dividend Payout Ratio,1.0367
-Five Year Avg Dividend Yield,6.22
-Trailing Annual Dividend Rate,1.135
-Trailing Annual Dividend Yield,0.059705418
+Dividend Yield,0.0379
+Dividend Payout Ratio,1.0088
+Five Year Avg Dividend Yield,6.3
+Trailing Annual Dividend Rate,1.145
+Trailing Annual Dividend Yield,0.03777631
 
 FINANCIAL RATIO
-Debt to Equity,101.27
-Price to Cash Flow,-7.823679907372878e-08
-Enterprise to EBITDA,11.727
-Price to Book,1.3942273
-Price to Earnings,"PriceToEarnings(trailing_pe=17.504587, forward_pe=15.264)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.09, forward_eps=1.25)"
-Enterprise to Revenue,4.954
+Debt to Equity,101.433
+Price to Cash Flow,-6.324543610547667e-08
+Enterprise to EBITDA,15.34
+Price to Book,2.2782407
+Price to Earnings,"PriceToEarnings(trailing_pe=27.59292, forward_pe=24.746033)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.13, forward_eps=1.26)"
+Enterprise to Revenue,6.651
 
 CASH FLOW
-Free to Cash Flow,-243875008.0
-Operating to Cash Flow,6346999808.0
+Free to Cash Flow,-493000000.0
+Operating to Cash Flow,6447000064.0
 
 PROFITABILITY
-Return on Equity,0.08005
-Return on Assets,0.03799
-Return on Invested Capital,0.07602812196513266
-Return on Investment,-0.03860979462875198
+Return on Equity,0.083500005
+Return on Assets,0.03848
+Return on Invested Capital,0.07844477039903808
+Return on Investment,-0.03833080619119879
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0622
-SUM DIVIDEND SCORE,8.0622
+5 Year Average,0.063
+SUM DIVIDEND SCORE,8.063
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,2.9200000000000017
-Recommendation Key,0
-SUM ANALYST RATING SCORE,2.9200000000000017
+Target High Price Diff Current Price,6.950000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,106.95
 
 
 

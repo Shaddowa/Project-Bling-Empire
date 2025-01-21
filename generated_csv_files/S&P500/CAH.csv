@@ -5,74 +5,74 @@ Country,United States
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.cardinalhealth.com
-Price,98.06
+Price,126.27
 Currency,USD
 
 REVENUE
-Total Revenue,220571992064.0
-Revenue Per Share,891.2
-Revenue Growth,0.088
+Total Revenue,224454000640.0
+Revenue Per Share,921.782
+Revenue Growth,-0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.26, forward_eps=7.53)"
-Net Earnings,552000000.0
-Earnings Growth,-0.216
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=8.64)"
+Net Earnings,1280000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,5854000128.0
+Total Debt,5164000256.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.0025
-Gross Profit Margins,0.03349
-Operating Margins,0.010650001
+Profit Margins,0.0057
+Gross Profit Margins,0.03374
+Operating Margins,0.01054
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.02
-Dividend Yield,0.020299999
-Dividend Payout Ratio,0.886
-Five Year Avg Dividend Yield,3.24
-Trailing Annual Dividend Rate,2.002
-Trailing Annual Dividend Yield,0.020416074
+Dividend Yield,0.016
+Dividend Payout Ratio,0.387
+Five Year Avg Dividend Yield,2.95
+Trailing Annual Dividend Rate,2.012
+Trailing Annual Dividend Yield,0.01593411
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,5.955868081470234e-08
-Enterprise to EBITDA,9.479
+Price to Cash Flow,6.671737760916882e-08
+Enterprise to EBITDA,11.237
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=44.03982, forward_pe=13.217795)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.26, forward_eps=7.53)"
-Enterprise to Revenue,0.12
+Price to Earnings,"PriceToEarnings(trailing_pe=24.457693, forward_pe=14.719907)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=8.64)"
+Enterprise to Revenue,0.146
 
 CASH FLOW
-Free to Cash Flow,1671124992.0
-Operating to Cash Flow,2543000064.0
+Free to Cash Flow,1906249984.0
+Operating to Cash Flow,1587000064.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.02917
-Return on Invested Capital,0.09429449764128099
-Return on Investment,-0.013974683544303798
+Return on Assets,0.03175
+Return on Invested Capital,0.2478698566812011
+Return on Investment,-0.03506849315068493
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.032400000000000005
-SUM DIVIDEND SCORE,5.0324
+5 Year Average,0.029500000000000002
+SUM DIVIDEND SCORE,8.0295
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,28.47
-Recommendation Key,1
-SUM ANALYST RATING SCORE,29.47
+Target High Price Diff Current Price,21.819999999999993
+Recommendation Key,100
+SUM ANALYST RATING SCORE,121.82
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

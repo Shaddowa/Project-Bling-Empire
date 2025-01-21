@@ -1,72 +1,72 @@
 GENERAL STOCK INFO
 Ticker,BXP
-Company,"Boston Properties, Inc."
+Company,"BXP, Inc."
 Country,United States
-Industry,REIT—Office
+Industry,REIT - Office
 Sector,Real Estate
 Website,https://www.bxp.com
-Price,61.43
+Price,73.19
 Currency,USD
 
 REVENUE
-Total Revenue,3300134912.0
-Revenue Per Share,21.032
-Revenue Growth,0.08
+Total Revenue,3344005120.0
+Revenue Per Share,21.276
+Revenue Growth,0.037
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.22, forward_eps=2.05)"
-Net Earnings,192208000.0
-Earnings Growth,0.024
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.3, forward_eps=1.87)"
+Net Earnings,363051008.0
+Earnings Growth,None
 
 DEBT
-Total Debt,16155879424.0
-Debt to Equity,195.177
+Total Debt,16990550016.0
+Debt to Equity,205.408
 
 MARGINS
-Profit Margins,0.05824
-Gross Profit Margins,0.62356997
-Operating Margins,0.31008
+Profit Margins,0.10857
+Gross Profit Margins,0.61059
+Operating Margins,0.29790002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.92
-Dividend Yield,0.0637
-Dividend Payout Ratio,3.2131
-Five Year Avg Dividend Yield,4.52
+Dividend Yield,0.053600002
+Dividend Payout Ratio,1.7042999
+Five Year Avg Dividend Yield,4.86
 Trailing Annual Dividend Rate,3.92
-Trailing Annual Dividend Yield,0.06381247
+Trailing Annual Dividend Yield,0.05355923
 
 FINANCIAL RATIO
-Debt to Equity,195.177
-Price to Cash Flow,None
-Enterprise to EBITDA,14.621
-Price to Book,1.6488378
-Price to Earnings,"PriceToEarnings(trailing_pe=50.409836, forward_pe=30.0)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.22, forward_eps=2.05)"
-Enterprise to Revenue,8.343
+Debt to Equity,205.408
+Price to Cash Flow,7.218403747920012e-08
+Enterprise to EBITDA,15.851
+Price to Book,2.0374434
+Price to Earnings,"PriceToEarnings(trailing_pe=32.29348, forward_pe=39.719254)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.3, forward_eps=1.87)"
+Enterprise to Revenue,8.867
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,1028967104.0
+Operating to Cash Flow,1237902976.0
 
 PROFITABILITY
-Return on Equity,0.03526
-Return on Assets,0.02626
-Return on Invested Capital,0.011897092972278568
-Return on Investment,0.0015825944906266878
+Return on Equity,0.058280002
+Return on Assets,0.02448
+Return on Invested Capital,0.021367819574949078
+Return on Investment,0.002882240178340349
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0452
-SUM DIVIDEND SCORE,4.0452
+5 Year Average,0.048600000000000004
+SUM DIVIDEND SCORE,7.0486
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,16.5
-Recommendation Key,0
-SUM ANALYST RATING SCORE,16.5
+Target High Price Diff Current Price,30.724999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,130.725
 
 
 

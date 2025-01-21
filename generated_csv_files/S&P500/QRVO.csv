@@ -5,27 +5,27 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.qorvo.com
-Price,97.02
+Price,84.21
 Currency,USD
 
 REVENUE
-Total Revenue,3769506048.0
-Revenue Per Share,38.639
-Revenue Growth,0.487
+Total Revenue,3948028928.0
+Revenue Per Share,41.112
+Revenue Growth,-0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=7.97)"
-Net Earnings,-70322000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.45, forward_eps=5.96)"
+Net Earnings,-141224000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1988012032.0
-Debt to Equity,55.9
+Total Debt,1961422976.0
+Debt to Equity,57.517
 
 MARGINS
-Profit Margins,-0.018660001
-Gross Profit Margins,0.39488
-Operating Margins,0.033150002
+Profit Margins,-0.03577
+Gross Profit Margins,0.39294997
+Operating Margins,0.10182
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,55.9
-Price to Cash Flow,None
-Enterprise to EBITDA,25.495
-Price to Book,2.6737282
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.2572155)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.73, forward_eps=7.97)"
-Enterprise to Revenue,2.777
+Debt to Equity,57.517
+Price to Cash Flow,1.018168220878264e-07
+Enterprise to EBITDA,13.11
+Price to Book,2.4156117
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=14.600671)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.45, forward_eps=5.96)"
+Enterprise to Revenue,2.235
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,854672128.0
+Operating to Cash Flow,904222016.0
 
 PROFITABILITY
-Return on Equity,-0.018860001
-Return on Assets,0.00865
-Return on Invested Capital,-0.03537302469785847
-Return on Investment,Expenses fields is `None` or has invalid values for calculations
+Return on Equity,-0.03908
+Return on Assets,0.034059998
+Return on Invested Capital,-0.07200078674220836
+Return on Investment,-0.07550470487596236
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,30.310000000000002
+Target High Price Diff Current Price,47.980000000000004
 Recommendation Key,0
-SUM ANALYST RATING SCORE,30.310000000000002
+SUM ANALYST RATING SCORE,47.980000000000004
 
 
 

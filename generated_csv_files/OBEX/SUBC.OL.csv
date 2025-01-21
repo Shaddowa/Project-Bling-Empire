@@ -5,68 +5,68 @@ Country,Luxembourg
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.subsea7.com
-Price,183.6
+Price,197.2
 Currency,NOK
 
 REVENUE
-Total Revenue,6122800128.0
-Revenue Per Share,20.393
-Revenue Growth,0.12
+Total Revenue,6343900160.0
+Revenue Per Share,21.149
+Revenue Growth,0.146
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=16.17)"
-Net Earnings,62300000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.19, forward_eps=16.99)"
+Net Earnings,103200000.0
+Earnings Growth,2.295
 
 DEBT
-Total Debt,1385900032.0
-Debt to Equity,31.804
+Total Debt,1316700032.0
+Debt to Equity,30.98
 
 MARGINS
-Profit Margins,0.01018
-Gross Profit Margins,0.07546
-Operating Margins,0.0075199995
+Profit Margins,0.01627
+Gross Profit Margins,0.09285
+Operating Margins,0.07395
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.0
-Dividend Yield,0.0321
-Dividend Payout Ratio,0.44779998
+Dividend Yield,0.0328
+Dividend Payout Ratio,0.77940005
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.592
-Trailing Annual Dividend Yield,0.0032244008
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,31.804
-Price to Cash Flow,4.441013986752688e-07
-Enterprise to EBITDA,99.523
-Price to Book,12.946552
-Price to Earnings,"PriceToEarnings(trailing_pe=82.01755, forward_pe=11.564626)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=16.17)"
-Enterprise to Revenue,9.28
+Debt to Equity,30.98
+Price to Cash Flow,3.2051948065787316e-07
+Enterprise to EBITDA,78.581
+Price to Book,13.379206
+Price to Earnings,"PriceToEarnings(trailing_pe=31.098545, forward_pe=11.330194)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.19, forward_eps=16.99)"
+Enterprise to Revenue,8.885
 
 CASH FLOW
-Free to Cash Flow,421075008.0
-Operating to Cash Flow,773500032.0
+Free to Cash Flow,600587520.0
+Operating to Cash Flow,991800000.0
 
 PROFITABILITY
-Return on Equity,0.0155299995
-Return on Assets,0.015240001
-Return on Invested Capital,0.04495273678635911
-Return on Investment,-0.001515815085158151
+Return on Equity,0.0273
+Return on Assets,0.02567
+Return on Invested Capital,0.0783777598270012
+Return on Investment,-0.0035330366312906537
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
-Payout Ratio,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,9.0
+SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,41.5
-Recommendation Key,1
-SUM ANALYST RATING SCORE,42.5
+Target High Price Diff Current Price,84.25513000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,184.25513
 
 
 

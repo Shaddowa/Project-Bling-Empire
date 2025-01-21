@@ -5,27 +5,27 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.oreillyauto.com
-Price,1030.72
+Price,1216.79
 Currency,USD
 
 REVENUE
-Total Revenue,16080625664.0
-Revenue Per Share,269.045
-Revenue Growth,0.072
+Total Revenue,16444893184.0
+Revenue Per Share,280.063
+Revenue Growth,0.038
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=39.35, forward_eps=46.89)"
-Net Earnings,2376933888.0
-Earnings Growth,0.111
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.4, forward_eps=44.94)"
+Net Earnings,2388054016.0
+Earnings Growth,0.064
 
 DEBT
-Total Debt,7588077056.0
+Total Debt,7706543104.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.14781
-Gross Profit Margins,0.51296
-Operating Margins,0.18924
+Profit Margins,0.14522
+Gross Profit Margins,0.51207
+Operating Margins,0.20546
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,7.110321168742185e-07
-Enterprise to EBITDA,18.529
+Price to Cash Flow,8.733442022150476e-07
+Enterprise to EBITDA,21.121
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=25.904194, forward_pe=21.73875)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=39.35, forward_eps=46.89)"
-Enterprise to Revenue,4.205
+Price to Earnings,"PriceToEarnings(trailing_pe=30.831682, forward_pe=27.716957)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.4, forward_eps=44.94)"
+Enterprise to Revenue,4.733
 
 CASH FLOW
-Free to Cash Flow,1433592064.0
-Operating to Cash Flow,3024535040.0
+Free to Cash Flow,1426241792.0
+Operating to Cash Flow,2941518080.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.14826
-Return on Invested Capital,0.3132458826981805
-Return on Investment,-0.03936963580831738
+Return on Assets,0.14369
+Return on Invested Capital,0.3098735699629669
+Return on Investment,-0.0443352099748253
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,255.66999999999996
-Recommendation Key,1
-SUM ANALYST RATING SCORE,256.66999999999996
+Target High Price Diff Current Price,204.4000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,304.4000000000001
 
 
 

@@ -5,27 +5,27 @@ Country,Norway
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.emgs.com
-Price,2.2
+Price,2.23
 Currency,NOK
 
 REVENUE
-Total Revenue,7988000.0
-Revenue Per Share,0.061
-Revenue Growth,-0.924
+Total Revenue,16193000.0
+Revenue Per Share,0.124
+Revenue Growth,-0.352
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.65, forward_eps=-0.08)"
-Net Earnings,-8178000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.92, forward_eps=-0.08)"
+Net Earnings,-8908000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,21917000.0
-Debt to Equity,3646.755
+Total Debt,22701000.0
+Debt to Equity,None
 
 MARGINS
-Profit Margins,-1.02379
-Gross Profit Margins,0.84626997
-Operating Margins,-2.59617
+Profit Margins,-0.55011004
+Gross Profit Margins,0.46415
+Operating Margins,-4.66509
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,3646.755
-Price to Cash Flow,5.656003708854891e-07
-Enterprise to EBITDA,-154.933
-Price to Book,427.0
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-26.6875)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.65, forward_eps=-0.08)"
-Enterprise to Revenue,37.531
+Debt to Equity,None
+Price to Cash Flow,2.967339569998358e-07
+Enterprise to EBITDA,-740.905
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=-28.25)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.92, forward_eps=-0.08)"
+Enterprise to Revenue,18.622
 
 CASH FLOW
-Free to Cash Flow,3774750.0
-Operating to Cash Flow,4952000.0
+Free to Cash Flow,7616250.0
+Operating to Cash Flow,10774000.0
 
 PROFITABILITY
-Return on Equity,-1.76212
-Return on Assets,-0.10827
-Return on Invested Capital,-0.37313500926834536
-Return on Investment,-0.014139004149377594
+Return on Equity,None
+Return on Assets,-0.12026
+Return on Invested Capital,-0.39240562150276187
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0

@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,AURG.OL
 Company,Aurskog Sparebank
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://aurskog-sparebank.no
-Price,215.0
+Price,234.0
 Currency,NOK
 
 REVENUE
-Total Revenue,432548992.0
-Revenue Per Share,93.573
-Revenue Growth,0.011
+Total Revenue,447151008.0
+Revenue Per Share,96.731
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=46.5, forward_eps=19.89)"
-Net Earnings,88275000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=51.08, forward_eps=18.32)"
+Net Earnings,91465000.0
+Earnings Growth,0.142
 
 DEBT
-Total Debt,4679861248.0
+Total Debt,5255927808.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.49703
+Profit Margins,0.5123
 Gross Profit Margins,0.0
-Operating Margins,0.74358004
+Operating Margins,0.72299004
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,15.0
-Dividend Yield,0.0698
-Dividend Payout Ratio,0.215
-Five Year Avg Dividend Yield,4.57
-Trailing Annual Dividend Rate,15.0
-Trailing Annual Dividend Yield,0.069767445
+Dividend Yield,0.0641
+Dividend Payout Ratio,0.3027
+Five Year Avg Dividend Yield,4.68
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.49746522
-Price to Earnings,"PriceToEarnings(trailing_pe=4.623656, forward_pe=10.809452)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=46.5, forward_eps=19.89)"
-Enterprise to Revenue,11.175
+Price to Book,0.54142725
+Price to Earnings,"PriceToEarnings(trailing_pe=4.581049, forward_pe=12.772926)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=51.08, forward_eps=18.32)"
+Enterprise to Revenue,12.33
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-176762000.0
+Operating to Cash Flow,-563180032.0
 
 PROFITABILITY
-Return on Equity,0.10538
-Return on Assets,0.013040001
-Return on Invested Capital,0.018862736985080553
-Return on Investment,0.0017969282755391802
+Return on Equity,0.10828
+Return on Assets,0.01311
+Return on Invested Capital,0.017402254334559972
+Return on Investment,0.0013898576028470314
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.045700000000000005
-SUM DIVIDEND SCORE,7.0457
+5 Year Average,0.046799999999999994
+SUM DIVIDEND SCORE,4.0468
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.0
+Target High Price Diff Current Price,0
 Recommendation Key,0
-SUM ANALYST RATING SCORE,10.0
+SUM ANALYST RATING SCORE,0
 
 
 

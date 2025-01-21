@@ -5,74 +5,74 @@ Country,United States
 Industry,Farm & Heavy Construction Machinery
 Sector,Industrials
 Website,https://www.deere.com
-Price,409.0
+Price,455.44
 Currency,USD
 
 REVENUE
-Total Revenue,60755001344.0
-Revenue Per Share,211.12
-Revenue Growth,-0.037
+Total Revenue,55955001344.0
+Revenue Per Share,200.394
+Revenue Growth,-0.168
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=34.3, forward_eps=27.4)"
-Net Earnings,9957999616.0
-Earnings Growth,-0.049
+Earnings Per Share,"EarningsPerShare(trailing_eps=25.64, forward_eps=22.17)"
+Net Earnings,8224000000.0
+Earnings Growth,-0.383
 
 DEBT
-Total Debt,64149999616.0
-Debt to Equity,289.238
+Total Debt,66679001088.0
+Debt to Equity,288.043
 
 MARGINS
-Profit Margins,0.16389999
-Gross Profit Margins,0.34724998
-Operating Margins,0.18506001
+Profit Margins,0.14698
+Gross Profit Margins,0.34387
+Operating Margins,0.19016
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.88
-Dividend Yield,0.014400001
-Dividend Payout Ratio,0.1551
-Five Year Avg Dividend Yield,1.34
-Trailing Annual Dividend Rate,5.32
-Trailing Annual Dividend Yield,0.013007335
+Dividend Yield,0.0145000005
+Dividend Payout Ratio,0.1965
+Five Year Avg Dividend Yield,1.31
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,289.238
-Price to Cash Flow,1.6770068094049695e-07
-Enterprise to EBITDA,10.658
-Price to Book,5.1433725
-Price to Earnings,"PriceToEarnings(trailing_pe=11.891837, forward_pe=14.8864975)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=34.3, forward_eps=27.4)"
-Enterprise to Revenue,2.863
+Debt to Equity,288.043
+Price to Cash Flow,1.53325e-07
+Enterprise to EBITDA,11.958
+Price to Book,5.4569883
+Price to Earnings,"PriceToEarnings(trailing_pe=17.939743, forward_pe=20.747633)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=25.64, forward_eps=22.17)"
+Enterprise to Revenue,3.07
 
 CASH FLOW
-Free to Cash Flow,2432250112.0
-Operating to Cash Flow,8926999552.0
+Free to Cash Flow,3000000000.0
+Operating to Cash Flow,9831999488.0
 
 PROFITABILITY
-Return on Equity,0.45608002
-Return on Assets,0.099029996
-Return on Invested Capital,0.15522992460324142
-Return on Investment,0.09220370014814815
+Return on Equity,0.35481
+Return on Assets,0.07862
+Return on Invested Capital,0.12333718045281022
+Return on Investment,0.043421330517423445
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0134
-SUM DIVIDEND SCORE,8.0134
+5 Year Average,0.0131
+SUM DIVIDEND SCORE,4.0131
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,87.11000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,88.11000000000001
+Target High Price Diff Current Price,90.02499999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,190.02499999999998
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,True
-Revenue,True
+Earnings,False
+Revenue,False
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,0.0
 

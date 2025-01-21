@@ -5,27 +5,27 @@ Country,United States
 Industry,Travel Services
 Sector,Consumer Cyclical
 Website,https://www.carnivalcorp.com
-Price,14.56
+Price,25.85
 Currency,USD
 
 REVENUE
-Total Revenue,22567000064.0
-Revenue Per Share,17.868
-Revenue Growth,0.22
+Total Revenue,24479000576.0
+Revenue Per Share,19.351
+Revenue Growth,0.152
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.32, forward_eps=1.42)"
-Net Earnings,405000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=1.72)"
+Net Earnings,1564999936.0
+Earnings Growth,0.599
 
 DEBT
-Total Debt,32024999936.0
-Debt to Equity,479.273
+Total Debt,30292000768.0
+Debt to Equity,352.355
 
 MARGINS
-Profit Margins,0.01795
-Gross Profit Margins,0.50516
-Operating Margins,0.05104
+Profit Margins,0.063930005
+Gross Profit Margins,0.51963
+Operating Margins,0.27609
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,479.273
-Price to Cash Flow,-3.211126507507066e-08
-Enterprise to EBITDA,10.038
-Price to Book,2.7360637
-Price to Earnings,"PriceToEarnings(trailing_pe=45.093754, forward_pe=10.161972)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.32, forward_eps=1.42)"
-Enterprise to Revenue,2.131
+Debt to Equity,352.355
+Price to Cash Flow,-5.213965596885826e-08
+Enterprise to EBITDA,10.468
+Price to Book,3.8903022
+Price to Earnings,"PriceToEarnings(trailing_pe=18.32986, forward_pe=15.34593)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=1.72)"
+Enterprise to Revenue,2.514
 
 CASH FLOW
-Free to Cash Flow,-449375008.0
-Operating to Cash Flow,5661000192.0
+Free to Cash Flow,-506249984.0
+Operating to Cash Flow,5934000128.0
 
 PROFITABILITY
-Return on Equity,0.06303
-Return on Assets,0.02937
-Return on Invested Capital,0.012646370046609547
-Return on Investment,-0.011538461538461539
+Return on Equity,0.20120001
+Return on Assets,0.04249
+Return on Invested Capital,0.05166380219106236
+Return on Investment,-0.01458527433364399
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,15 +64,15 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0421
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.57
-Recommendation Key,1
-SUM ANALYST RATING SCORE,11.57
+Target High Price Diff Current Price,8.604299999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,108.6043
 
 
 
 PASSES GROWTH CRITERIA
-Earnings,False
-Revenue,False
+Earnings,True
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,True
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,4.0
 

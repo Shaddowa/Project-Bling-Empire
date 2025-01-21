@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,O
 Company,Realty Income Corporation
 Country,United States
-Industry,REIT—Retail
+Industry,REIT - Retail
 Sector,Real Estate
 Website,https://www.realtyincome.com
-Price,54.63
+Price,54.62
 Currency,USD
 
 REVENUE
-Total Revenue,4395949056.0
-Revenue Per Share,5.973
-Revenue Growth,0.333
+Total Revenue,5014703104.0
+Revenue Per Share,6.077
+Revenue Growth,0.286
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.08, forward_eps=1.63)"
-Net Earnings,776988992.0
-Earnings Growth,-0.543
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=1.59)"
+Net Earnings,866686016.0
+Earnings Growth,-0.089
 
 DEBT
-Total Debt,25982752768.0
-Debt to Equity,66.083
+Total Debt,26659371008.0
+Debt to Equity,68.941
 
 MARGINS
-Profit Margins,0.17733999
-Gross Profit Margins,0.92335
-Operating Margins,0.43497002
+Profit Margins,0.1754
+Gross Profit Margins,0.92756
+Operating Margins,0.44883
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.08
-Dividend Yield,0.0561
-Dividend Payout Ratio,2.8435001
-Five Year Avg Dividend Yield,4.55
-Trailing Annual Dividend Rate,3.071
-Trailing Annual Dividend Yield,0.056214534
+Dividend Rate,3.17
+Dividend Yield,0.058000002
+Dividend Payout Ratio,2.9624
+Five Year Avg Dividend Yield,4.78
+Trailing Annual Dividend Rate,3.111
+Trailing Annual Dividend Yield,0.05695716
 
 FINANCIAL RATIO
-Debt to Equity,66.083
-Price to Cash Flow,2.7071502514235405e-08
-Enterprise to EBITDA,18.861
-Price to Book,1.2286422
-Price to Earnings,"PriceToEarnings(trailing_pe=50.93518, forward_pe=33.748466)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.08, forward_eps=1.63)"
-Enterprise to Revenue,16.766
+Debt to Equity,68.941
+Price to Cash Flow,2.060174895459566e-08
+Enterprise to EBITDA,16.556
+Price to Book,1.2587775
+Price to Earnings,"PriceToEarnings(trailing_pe=52.67924, forward_pe=34.788177)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.05, forward_eps=1.59)"
+Enterprise to Revenue,14.809
 
 CASH FLOW
-Free to Cash Flow,2032026112.0
-Operating to Cash Flow,3006208000.0
+Free to Cash Flow,2684878848.0
+Operating to Cash Flow,3361970944.0
 
 PROFITABILITY
-Return on Equity,0.022839999
-Return on Assets,0.019709999
-Return on Invested Capital,0.02990402893792054
-Return on Investment,0.004479882287551401
+Return on Equity,0.02513
+Return on Assets,0.02242
+Return on Invested Capital,0.03250961976227366
+Return on Investment,0.004465296998305458
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0455
-SUM DIVIDEND SCORE,5.0455
+5 Year Average,0.0478
+SUM DIVIDEND SCORE,8.0478
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,14.990000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,15.990000000000002
+Target High Price Diff Current Price,19.686799999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,119.6868
 
 
 

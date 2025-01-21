@@ -5,68 +5,68 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.eastman.com
-Price,101.09
+Price,93.21
 Currency,USD
 
 REVENUE
-Total Revenue,9107999744.0
-Revenue Per Share,77.04
-Revenue Growth,-0.042
+Total Revenue,9344000000.0
+Revenue Per Share,79.642
+Revenue Growth,0.087
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.76, forward_eps=9.01)"
-Net Earnings,925000000.0
-Earnings Growth,0.241
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.46, forward_eps=8.7)"
+Net Earnings,885000000.0
+Earnings Growth,0.027
 
 DEBT
-Total Debt,5208999936.0
-Debt to Equity,92.885
+Total Debt,5201999872.0
+Debt to Equity,90.817
 
 MARGINS
-Profit Margins,0.101560004
-Gross Profit Margins,0.22660999
-Operating Margins,0.124239996
+Profit Margins,0.09471
+Gross Profit Margins,0.23618999
+Operating Margins,0.14976
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.24
-Dividend Yield,0.0321
-Dividend Payout Ratio,0.4124
-Five Year Avg Dividend Yield,3.29
-Trailing Annual Dividend Rate,3.2
-Trailing Annual Dividend Yield,0.03165496
+Dividend Rate,3.32
+Dividend Yield,0.0356
+Dividend Payout Ratio,0.4343
+Five Year Avg Dividend Yield,3.27
+Trailing Annual Dividend Rate,3.24
+Trailing Annual Dividend Yield,0.034760218
 
 FINANCIAL RATIO
-Debt to Equity,92.885
-Price to Cash Flow,2.5488488921077485e-07
-Enterprise to EBITDA,10.77
-Price to Book,2.145375
-Price to Earnings,"PriceToEarnings(trailing_pe=13.019329, forward_pe=11.213096)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.76, forward_eps=9.01)"
-Enterprise to Revenue,1.828
+Debt to Equity,90.817
+Price to Cash Flow,1.8507345739471108e-07
+Enterprise to EBITDA,9.174
+Price to Book,1.9360657
+Price to Earnings,"PriceToEarnings(trailing_pe=12.66488, forward_pe=10.859771)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.46, forward_eps=8.7)"
+Enterprise to Revenue,1.653
 
 CASH FLOW
-Free to Cash Flow,396375008.0
-Operating to Cash Flow,1360000000.0
+Free to Cash Flow,510500000.0
+Operating to Cash Flow,1199000064.0
 
 PROFITABILITY
-Return on Equity,0.17056
-Return on Assets,0.044650003
-Return on Invested Capital,0.1775772706858277
-Return on Investment,-0.023299748110831235
+Return on Equity,0.15925
+Return on Assets,0.049990002
+Return on Invested Capital,0.1701268768692904
+Return on Investment,-0.05028409090909091
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0329
-SUM DIVIDEND SCORE,9.0329
+5 Year Average,0.0327
+SUM DIVIDEND SCORE,9.0327
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,23.97
-Recommendation Key,1
-SUM ANALYST RATING SCORE,24.97
+Target High Price Diff Current Price,30.519999999999996
+Recommendation Key,100
+SUM ANALYST RATING SCORE,130.51999999999998
 
 
 

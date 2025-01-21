@@ -5,54 +5,54 @@ Country,Norway
 Industry,Telecom Services
 Sector,Communication Services
 Website,https://www.telenor.com
-Price,125.1
+Price,134.1
 Currency,NOK
 
 REVENUE
-Total Revenue,80722001920.0
-Revenue Per Share,58.284
-Revenue Growth,0.014
+Total Revenue,80364003328.0
+Revenue Per Share,58.209
+Revenue Growth,-0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.38, forward_eps=8.47)"
-Net Earnings,7438000128.0
-Earnings Growth,-0.358
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=8.35)"
+Net Earnings,9701999616.0
+Earnings Growth,0.35
 
 DEBT
-Total Debt,105202999296.0
-Debt to Equity,123.366
+Total Debt,104760999936.0
+Debt to Equity,130.946
 
 MARGINS
-Profit Margins,0.088549994
-Gross Profit Margins,0.64959
-Operating Margins,0.22357
+Profit Margins,0.12056
+Gross Profit Margins,0.65480006
+Operating Margins,0.24923
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,9.0
-Dividend Yield,0.0713
-Dividend Payout Ratio,1.7472
-Five Year Avg Dividend Yield,6.75
+Dividend Yield,0.0671
+Dividend Payout Ratio,1.3296001
+Five Year Avg Dividend Yield,7.09
 Trailing Annual Dividend Rate,9.5
-Trailing Annual Dividend Yield,0.07593925
+Trailing Annual Dividend Yield,0.07084265
 
 FINANCIAL RATIO
-Debt to Equity,123.366
-Price to Cash Flow,1.2600232324101188e-08
-Enterprise to EBITDA,10.241
-Price to Book,2.2239048
-Price to Earnings,"PriceToEarnings(trailing_pe=23.475836, forward_pe=14.911452)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.38, forward_eps=8.47)"
-Enterprise to Revenue,3.293
+Debt to Equity,130.946
+Price to Cash Flow,1.002777166744218e-08
+Enterprise to EBITDA,10.631
+Price to Book,2.4527264
+Price to Earnings,"PriceToEarnings(trailing_pe=18.896748, forward_pe=16.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.07, forward_eps=8.35)"
+Enterprise to Revenue,3.43
 
 CASH FLOW
-Free to Cash Flow,10023624704.0
-Operating to Cash Flow,31630999552.0
+Free to Cash Flow,13322999808.0
+Operating to Cash Flow,32305000448.0
 
 PROFITABILITY
-Return on Equity,0.10583
-Return on Assets,0.047989998
-Return on Invested Capital,0.07070140750509507
+Return on Equity,0.14273
+Return on Assets,0.04893
+Return on Invested Capital,0.0926107961634824
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,1.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0675
-SUM DIVIDEND SCORE,2.0675
+5 Year Average,0.0709
+SUM DIVIDEND SCORE,2.0709
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,38.7
-Recommendation Key,1
-SUM ANALYST RATING SCORE,39.7
+Target High Price Diff Current Price,52.400000000000006
+Recommendation Key,100
+SUM ANALYST RATING SCORE,152.4
 
 
 

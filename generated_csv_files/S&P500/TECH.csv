@@ -5,68 +5,68 @@ Country,United States
 Industry,Biotechnology
 Sector,Healthcare
 Website,https://www.bio-techne.com
-Price,79.55
+Price,75.83
 Currency,USD
 
 REVENUE
-Total Revenue,1154280960.0
-Revenue Per Share,7.323
-Revenue Growth,0.032
+Total Revenue,1171582976.0
+Revenue Per Share,7.424
+Revenue Growth,0.045
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.25, forward_eps=2.04)"
-Net Earnings,202959008.0
-Earnings Growth,-0.279
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.95, forward_eps=2.19)"
+Net Earnings,150680992.0
+Earnings Growth,-0.323
 
 DEBT
-Total Debt,494729984.0
-Debt to Equity,24.56
+Total Debt,398918016.0
+Debt to Equity,18.653
 
 MARGINS
-Profit Margins,0.17587
-Gross Profit Margins,0.67007005
-Operating Margins,0.23735
+Profit Margins,0.12864
+Gross Profit Margins,0.66059
+Operating Margins,0.18145001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.32
-Dividend Yield,0.004
-Dividend Payout Ratio,0.256
-Five Year Avg Dividend Yield,0.44
+Dividend Yield,0.0042
+Dividend Payout Ratio,0.3368
+Five Year Avg Dividend Yield,0.41
 Trailing Annual Dividend Rate,0.32
-Trailing Annual Dividend Yield,0.004022627
+Trailing Annual Dividend Yield,0.0042199655
 
 FINANCIAL RATIO
-Debt to Equity,24.56
-Price to Cash Flow,4.2014116992558986e-07
-Enterprise to EBITDA,40.146
-Price to Book,6.3285103
-Price to Earnings,"PriceToEarnings(trailing_pe=64.728004, forward_pe=39.661766)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.25, forward_eps=2.04)"
-Enterprise to Revenue,11.349
+Debt to Equity,18.653
+Price to Cash Flow,3.323214800075122e-07
+Enterprise to EBITDA,39.739
+Price to Book,5.7376866
+Price to Earnings,"PriceToEarnings(trailing_pe=81.3, forward_pe=35.267124)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.95, forward_eps=2.19)"
+Enterprise to Revenue,10.465
 
 CASH FLOW
-Free to Cash Flow,192578128.0
-Operating to Cash Flow,306878016.0
+Free to Cash Flow,232410496.0
+Operating to Cash Flow,303487008.0
 
 PROFITABILITY
-Return on Equity,0.10399
-Return on Assets,0.061090004
-Return on Invested Capital,0.4102419689910212
-Return on Investment,-0.09280247279378144
+Return on Equity,0.07287
+Return on Assets,0.0555
+Return on Invested Capital,0.3777241961302008
+Return on Investment,-0.046479222678059165
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0044
-SUM DIVIDEND SCORE,4.0044
+5 Year Average,0.0040999999999999995
+SUM DIVIDEND SCORE,4.0041
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,14.090000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,15.090000000000003
+Target High Price Diff Current Price,17.765
+Recommendation Key,0
+SUM ANALYST RATING SCORE,17.765
 
 
 

@@ -2,58 +2,58 @@ GENERAL STOCK INFO
 Ticker,CRM
 Company,"Salesforce, Inc."
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.salesforce.com
-Price,275.17
+Price,324.56
 Currency,USD
 
 REVENUE
-Total Revenue,34857000960.0
-Revenue Per Share,35.787
-Revenue Growth,0.108
+Total Revenue,36465000448.0
+Revenue Per Share,37.632
+Revenue Growth,0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.21, forward_eps=11.0)"
-Net Earnings,4136000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.07, forward_eps=11.13)"
+Net Earnings,5632000000.0
+Earnings Growth,0.148
 
 DEBT
-Total Debt,13562000384.0
-Debt to Equity,22.737
+Total Debt,12188000256.0
+Debt to Equity,21.148
 
 MARGINS
-Profit Margins,0.11866
-Gross Profit Margins,0.75497
-Operating Margins,0.19328
+Profit Margins,0.15445
+Gross Profit Margins,0.7635
+Operating Margins,0.20181999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0058
-Dividend Payout Ratio,0.0
+Dividend Yield,0.0047999998
+Dividend Payout Ratio,0.13939999
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,22.737
-Price to Cash Flow,2.394737348538277e-08
-Enterprise to EBITDA,29.036
-Price to Book,4.504046
-Price to Earnings,"PriceToEarnings(trailing_pe=65.71734, forward_pe=25.15182)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.21, forward_eps=11.0)"
-Enterprise to Revenue,7.681
+Debt to Equity,21.148
+Price to Cash Flow,2.5244768126322375e-08
+Enterprise to EBITDA,33.858
+Price to Book,5.3162293
+Price to Earnings,"PriceToEarnings(trailing_pe=53.79901, forward_pe=29.34052)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.07, forward_eps=11.13)"
+Enterprise to Revenue,8.677
 
 CASH FLOW
-Free to Cash Flow,11553250304.0
-Operating to Cash Flow,10234000384.0
+Free to Cash Flow,12935749632.0
+Operating to Cash Flow,12074000384.0
 
 PROFITABILITY
-Return on Equity,0.0701
-Return on Assets,0.03774
-Return on Invested Capital,0.30496975845437513
-Return on Investment,-0.05619565217391304
+Return on Equity,0.09734
+Return on Assets,0.04705
+Return on Invested Capital,0.4620938507810088
+Return on Investment,-0.08651305683563748
 
 DIVIDEND SCORE
 Dividend  Rate,2.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,113.32999999999998
-Recommendation Key,1
-SUM ANALYST RATING SCORE,114.32999999999998
+Target High Price Diff Current Price,115.44
+Recommendation Key,100
+SUM ANALYST RATING SCORE,215.44
 
 
 

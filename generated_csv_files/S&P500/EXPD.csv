@@ -5,54 +5,54 @@ Country,United States
 Industry,Integrated Freight & Logistics
 Sector,Industrials
 Website,https://www.expeditors.com
-Price,117.03
+Price,110.35
 Currency,USD
 
 REVENUE
-Total Revenue,8914198528.0
-Revenue Per Share,60.89
-Revenue Growth,-0.149
+Total Revenue,9923577856.0
+Revenue Per Share,69.694
+Revenue Growth,0.37
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.73, forward_eps=5.11)"
-Net Earnings,696024000.0
-Earnings Growth,-0.193
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.13, forward_eps=5.38)"
+Net Earnings,732913984.0
+Earnings Growth,0.405
 
 DEBT
-Total Debt,564934976.0
-Debt to Equity,25.706
+Total Debt,542833024.0
+Debt to Equity,23.009
 
 MARGINS
-Profit Margins,0.07808
-Gross Profit Margins,0.1398
-Operating Margins,0.09733
+Profit Margins,0.073860005
+Gross Profit Margins,0.13137999
+Operating Margins,0.1005
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.46
-Dividend Yield,0.0123000005
-Dividend Payout Ratio,0.2918
-Five Year Avg Dividend Yield,1.17
-Trailing Annual Dividend Rate,1.38
-Trailing Annual Dividend Yield,0.011791849
+Dividend Yield,0.013200001
+Dividend Payout Ratio,0.2768
+Five Year Avg Dividend Yield,1.15
+Trailing Annual Dividend Rate,1.42
+Trailing Annual Dividend Yield,0.012868146
 
 FINANCIAL RATIO
-Debt to Equity,25.706
-Price to Cash Flow,1.9726712496700488e-07
-Enterprise to EBITDA,16.796
-Price to Book,7.605734
-Price to Earnings,"PriceToEarnings(trailing_pe=25.016914, forward_pe=23.156555)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.73, forward_eps=5.11)"
-Enterprise to Revenue,1.783
+Debt to Equity,23.009
+Price to Cash Flow,2.43929494315923e-07
+Enterprise to EBITDA,14.597
+Price to Book,6.578369
+Price to Earnings,"PriceToEarnings(trailing_pe=21.590643, forward_pe=20.58736)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.13, forward_eps=5.38)"
+Enterprise to Revenue,1.481
 
 CASH FLOW
-Free to Cash Flow,599846528.0
-Operating to Cash Flow,763683008.0
+Free to Cash Flow,454065632.0
+Operating to Cash Flow,631998016.0
 
 PROFITABILITY
-Return on Equity,0.26035
-Return on Assets,0.11185
-Return on Invested Capital,1.2320426427835132
+Return on Equity,0.30290002
+Return on Assets,0.12048
+Return on Invested Capital,1.3501646525972557
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.011699999999999999
-SUM DIVIDEND SCORE,8.0117
+5 Year Average,0.0115
+SUM DIVIDEND SCORE,8.0115
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.670000000000002
+Target High Price Diff Current Price,20.239999999999995
 Recommendation Key,0
-SUM ANALYST RATING SCORE,7.670000000000002
+SUM ANALYST RATING SCORE,20.239999999999995
 
 
 

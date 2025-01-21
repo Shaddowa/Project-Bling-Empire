@@ -5,27 +5,27 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.iqvia.com
-Price,229.2
+Price,197.36
 Currency,USD
 
 REVENUE
-Total Revenue,15068999680.0
-Revenue Per Share,82.423
-Revenue Growth,0.023
+Total Revenue,15315000320.0
+Revenue Per Share,84.114
+Revenue Growth,0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.33, forward_eps=12.47)"
-Net Earnings,1356999936.0
-Earnings Growth,0.02
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.62, forward_eps=12.07)"
+Net Earnings,1404999936.0
+Earnings Growth,-0.049
 
 DEBT
-Total Debt,13893999616.0
-Debt to Equity,219.01
+Total Debt,13952000000.0
+Debt to Equity,200.258
 
 MARGINS
-Profit Margins,0.090050004
-Gross Profit Margins,0.35026002
-Operating Margins,0.13942
+Profit Margins,0.09174
+Gross Profit Margins,0.35175
+Operating Margins,0.14836
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,219.01
-Price to Cash Flow,1.3963462495838642e-07
-Enterprise to EBITDA,19.88
-Price to Book,6.7227664
-Price to Earnings,"PriceToEarnings(trailing_pe=31.934517, forward_pe=18.771452)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.33, forward_eps=12.47)"
-Enterprise to Revenue,3.648
+Debt to Equity,200.258
+Price to Cash Flow,1.0100956825401501e-07
+Enterprise to EBITDA,17.001
+Price to Book,5.261436
+Price to Earnings,"PriceToEarnings(trailing_pe=26.490158, forward_pe=16.723696)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.62, forward_eps=12.07)"
+Enterprise to Revenue,3.138
 
 CASH FLOW
-Free to Cash Flow,1676375040.0
-Operating to Cash Flow,2254000128.0
+Free to Cash Flow,1998375040.0
+Operating to Cash Flow,2577999872.0
 
 PROFITABILITY
-Return on Equity,0.22108
-Return on Assets,0.05027
-Return on Invested Capital,0.09766805600286667
-Return on Investment,0.017761779267015707
+Return on Equity,0.22001
+Return on Assets,0.051149998
+Return on Invested Capital,0.10070240339281482
+Return on Investment,0.01890982417227456
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,60.91999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,61.91999999999999
+Target High Price Diff Current Price,71.14500000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,171.145
 
 
 

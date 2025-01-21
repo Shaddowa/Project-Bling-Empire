@@ -5,68 +5,68 @@ Country,United States
 Industry,Advertising Agencies
 Sector,Communication Services
 Website,https://www.omnicomgroup.com
-Price,95.69
+Price,85.38
 Currency,USD
 
 REVENUE
-Total Revenue,14879399936.0
-Revenue Per Share,75.025
-Revenue Growth,0.054
+Total Revenue,15427800064.0
+Revenue Per Share,78.314
+Revenue Growth,0.085
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.39, forward_eps=8.57)"
-Net Earnings,1482499968.0
-Earnings Growth,0.432
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.32, forward_eps=8.64)"
+Net Earnings,1458300032.0
+Earnings Growth,0.048
 
 DEBT
-Total Debt,7089699840.0
-Debt to Equity,155.387
+Total Debt,7763800064.0
+Debt to Equity,155.236
 
 MARGINS
-Profit Margins,0.099630006
-Gross Profit Margins,0.18729
-Operating Margins,0.13191
+Profit Margins,0.094519995
+Gross Profit Margins,0.18731001
+Operating Margins,0.15456
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.0292
-Dividend Payout Ratio,0.3789
-Five Year Avg Dividend Yield,3.7
+Dividend Yield,0.0328
+Dividend Payout Ratio,0.3825
+Five Year Avg Dividend Yield,3.66
 Trailing Annual Dividend Rate,2.8
-Trailing Annual Dividend Yield,0.029261155
+Trailing Annual Dividend Yield,0.032794565
 
 FINANCIAL RATIO
-Debt to Equity,155.387
-Price to Cash Flow,8.557457876516429e-08
-Enterprise to EBITDA,9.63
-Price to Book,5.2570367
-Price to Earnings,"PriceToEarnings(trailing_pe=12.96617, forward_pe=11.180863)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.39, forward_eps=8.57)"
-Enterprise to Revenue,1.591
+Debt to Equity,155.236
+Price to Cash Flow,6.75931608600853e-08
+Enterprise to EBITDA,9.063
+Price to Book,4.277638
+Price to Earnings,"PriceToEarnings(trailing_pe=11.835382, forward_pe=10.027199)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.32, forward_eps=8.64)"
+Enterprise to Revenue,1.422
 
 CASH FLOW
-Free to Cash Flow,1119725056.0
-Operating to Cash Flow,1325500032.0
+Free to Cash Flow,1281712512.0
+Operating to Cash Flow,1609500032.0
 
 PROFITABILITY
-Return on Equity,0.36615002
-Return on Assets,0.05336
-Return on Invested Capital,0.20910616777093652
+Return on Equity,0.33923998
+Return on Assets,0.05077
+Return on Invested Capital,0.1878332796020612
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.037000000000000005
-SUM DIVIDEND SCORE,4.037
+5 Year Average,0.0366
+SUM DIVIDEND SCORE,7.0366
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,21.180000000000007
-Recommendation Key,1
-SUM ANALYST RATING SCORE,22.180000000000007
+Target High Price Diff Current Price,34.57499999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,134.575
 
 
 

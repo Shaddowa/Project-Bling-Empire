@@ -5,68 +5,68 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.msci.com
-Price,482.5
+Price,612.02
 Currency,USD
 
 REVENUE
-Total Revenue,2616666880.0
-Revenue Per Share,33.018
-Revenue Growth,0.148
+Total Revenue,2802725120.0
+Revenue Per Share,35.491
+Revenue Growth,0.159
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.65, forward_eps=16.7)"
-Net Earnings,1165817984.0
-Earnings Growth,0.084
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.24, forward_eps=17.04)"
+Net Earnings,1206993024.0
+Earnings Growth,0.092
 
 DEBT
-Total Debt,4666475008.0
+Total Debt,4634177024.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.44554
-Gross Profit Margins,0.82174003
-Operating Margins,0.50133
+Profit Margins,0.43065
+Gross Profit Margins,0.81969
+Operating Margins,0.55868
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.4
-Dividend Yield,0.013200001
-Dividend Payout Ratio,0.39209998
-Five Year Avg Dividend Yield,0.87
-Trailing Annual Dividend Rate,5.74
-Trailing Annual Dividend Yield,0.011896373
+Dividend Yield,0.0105
+Dividend Payout Ratio,0.406
+Five Year Avg Dividend Yield,0.88
+Trailing Annual Dividend Rate,6.18
+Trailing Annual Dividend Yield,0.010097709
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,4.909756020788188e-07
-Enterprise to EBITDA,28.128
+Price to Cash Flow,5.453358840454601e-07
+Enterprise to EBITDA,32.11
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=33.116726, forward_pe=29.051497)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.65, forward_eps=16.7)"
-Enterprise to Revenue,16.275
+Price to Earnings,"PriceToEarnings(trailing_pe=40.175526, forward_pe=35.93163)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.24, forward_eps=17.04)"
+Enterprise to Revenue,18.59
 
 CASH FLOW
-Free to Cash Flow,988155008.0
-Operating to Cash Flow,1272024960.0
+Free to Cash Flow,1122748416.0
+Operating to Cash Flow,1459947008.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.16758
-Return on Invested Capital,0.24982840024916322
-Return on Investment,0.04152039603678299
+Return on Assets,0.18283
+Return on Invested Capital,0.26045466546595547
+Return on Investment,0.04422742717272614
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0087
-SUM DIVIDEND SCORE,8.0087
+5 Year Average,0.0088
+SUM DIVIDEND SCORE,9.0088
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,152.83999999999997
-Recommendation Key,0
-SUM ANALYST RATING SCORE,152.83999999999997
+Target High Price Diff Current Price,110.72500000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,210.72500000000002
 
 
 
@@ -75,11 +75,11 @@ Earnings,True
 Revenue,True
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,False
-Free Cash Flow,False
+Operating Cash Flow,True
+Free Cash Flow,True
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,2.0
+CRITERIA PASS COUNT,4.0
 

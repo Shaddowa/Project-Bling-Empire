@@ -5,68 +5,68 @@ Country,United States
 Industry,Real Estate Services
 Sector,Real Estate
 Website,https://www.cbre.com
-Price,87.44
+Price,136.91
 Currency,USD
 
 REVENUE
-Total Revenue,32472999936.0
-Revenue Per Share,105.684
-Revenue Growth,0.071
+Total Revenue,34313000960.0
+Revenue Per Share,112.191
+Revenue Growth,0.148
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.19, forward_eps=5.55)"
-Net Earnings,995000000.0
-Earnings Growth,0.108
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.09, forward_eps=6.0)"
+Net Earnings,958000000.0
+Earnings Growth,0.197
 
 DEBT
-Total Debt,6380000256.0
-Debt to Equity,70.118
+Total Debt,6986999808.0
+Debt to Equity,73.116
 
 MARGINS
-Profit Margins,0.030639999
-Gross Profit Margins,0.19564
-Operating Margins,0.02858
+Profit Margins,0.02792
+Gross Profit Margins,0.19660999
+Operating Margins,0.043270003
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.5
-Dividend Yield,0.0172
+Dividend Rate,None
+Dividend Yield,None
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,70.118
-Price to Cash Flow,1.0962812894379357e-07
-Enterprise to EBITDA,17.232
-Price to Book,3.2952263
-Price to Earnings,"PriceToEarnings(trailing_pe=28.282131, forward_pe=16.255856)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.19, forward_eps=5.55)"
-Enterprise to Revenue,1.028
+Debt to Equity,73.116
+Price to Cash Flow,1.5241356556301826e-07
+Enterprise to EBITDA,21.688
+Price to Book,4.8326817
+Price to Earnings,"PriceToEarnings(trailing_pe=45.194176, forward_pe=23.275)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.09, forward_eps=6.0)"
+Enterprise to Revenue,1.399
 
 CASH FLOW
-Free to Cash Flow,822963968.0
-Operating to Cash Flow,733000000.0
+Free to Cash Flow,916257024.0
+Operating to Cash Flow,1220999936.0
 
 PROFITABILITY
-Return on Equity,0.11837
-Return on Assets,0.03703
-Return on Invested Capital,0.15595610592559792
+Return on Equity,0.11434
+Return on Assets,0.04146
+Return on Invested Capital,0.13711178221888407
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,2.0
-Dividend Yield,2.0
+Dividend  Rate,0.0
+Dividend Yield,0.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,4.0
+SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,31.78
-Recommendation Key,1
-SUM ANALYST RATING SCORE,32.78
+Target High Price Diff Current Price,36.349999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,136.35
 
 
 

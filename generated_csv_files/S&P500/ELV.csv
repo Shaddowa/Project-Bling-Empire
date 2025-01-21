@@ -5,68 +5,68 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.elevancehealth.com
-Price,538.58
+Price,385.29
 Currency,USD
 
 REVENUE
-Total Revenue,171745001472.0
-Revenue Per Share,731.764
-Revenue Growth,0.01
+Total Revenue,174015004672.0
+Revenue Per Share,747.407
+Revenue Growth,0.054
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.53, forward_eps=41.62)"
-Net Earnings,6243999744.0
-Earnings Growth,0.155
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.47, forward_eps=34.95)"
+Net Earnings,6417999872.0
+Earnings Growth,-0.2
 
 DEBT
-Total Debt,26450999296.0
-Debt to Equity,64.974
+Total Debt,27147999232.0
+Debt to Equity,61.87
 
 MARGINS
-Profit Margins,0.03636
-Gross Profit Margins,0.27748
-Operating Margins,0.07525
+Profit Margins,0.03688
+Gross Profit Margins,0.27937
+Operating Margins,0.043860003
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.52
-Dividend Yield,0.0121
-Dividend Payout Ratio,0.229
-Five Year Avg Dividend Yield,1.14
-Trailing Annual Dividend Rate,6.07
-Trailing Annual Dividend Yield,0.011270378
+Dividend Yield,0.016900001
+Dividend Payout Ratio,0.2319
+Five Year Avg Dividend Yield,1.16
+Trailing Annual Dividend Rate,6.37
+Trailing Annual Dividend Yield,0.016533
 
 FINANCIAL RATIO
-Debt to Equity,64.974
-Price to Cash Flow,-2.0648349124698103e-06
-Enterprise to EBITDA,10.366
-Price to Book,3.0876627
-Price to Earnings,"PriceToEarnings(trailing_pe=20.323406, forward_pe=12.954829)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.53, forward_eps=41.62)"
-Enterprise to Revenue,0.673
+Debt to Equity,61.87
+Price to Cash Flow,-3.496695937016979e-07
+Enterprise to EBITDA,6.933
+Price to Book,2.0605798
+Price to Earnings,"PriceToEarnings(trailing_pe=14.157991, forward_pe=11.127897)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=27.47, forward_eps=34.95)"
+Enterprise to Revenue,0.452
 
 CASH FLOW
-Free to Cash Flow,-261124992.0
-Operating to Cash Flow,3569999872.0
+Free to Cash Flow,-1112249984.0
+Operating to Cash Flow,2131000064.0
 
 PROFITABILITY
-Return on Equity,0.15955
-Return on Assets,0.05784
-Return on Invested Capital,0.23605912324539843
-Return on Investment,0.07670761356265356
+Return on Equity,0.15504
+Return on Assets,0.05844
+Return on Invested Capital,0.23640783884414673
+Return on Investment,0.0677004205907173
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.011399999999999999
-SUM DIVIDEND SCORE,8.0114
+5 Year Average,0.0116
+SUM DIVIDEND SCORE,8.0116
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,125.82000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,126.82000000000005
+Target High Price Diff Current Price,236.07999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,336.08
 
 
 

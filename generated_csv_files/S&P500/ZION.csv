@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,ZION
 Company,"Zions Bancorporation, National Association"
 Country,United States
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.zionsbancorporation.com
-Price,44.29
+Price,58.04
 Currency,USD
 
 REVENUE
-Total Revenue,2918000128.0
-Revenue Per Share,19.772
-Revenue Growth,-0.082
+Total Revenue,3009999872.0
+Revenue Per Share,20.433
+Revenue Growth,0.076
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.98, forward_eps=4.64)"
-Net Earnings,587000000.0
-Earnings Growth,-0.278
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.39, forward_eps=4.89)"
+Net Earnings,646000000.0
+Earnings Growth,0.212
 
 DEBT
-Total Debt,6019999744.0
+Total Debt,3948999936.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.21556
+Profit Margins,0.23056
 Gross Profit Margins,0.0
-Operating Margins,0.32509997
+Operating Margins,0.37997
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.64
-Dividend Yield,0.037
-Dividend Payout Ratio,0.4121
-Five Year Avg Dividend Yield,3.39
+Dividend Rate,1.72
+Dividend Yield,0.0296
+Dividend Payout Ratio,0.3736
+Five Year Avg Dividend Yield,3.48
 Trailing Annual Dividend Rate,1.64
-Trailing Annual Dividend Yield,0.037028674
+Trailing Annual Dividend Yield,0.028256373
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.214313
-Price to Earnings,"PriceToEarnings(trailing_pe=11.135678, forward_pe=9.551724)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.98, forward_eps=4.64)"
-Enterprise to Revenue,3.144
+Price to Book,1.4599637
+Price to Earnings,"PriceToEarnings(trailing_pe=13.386105, forward_pe=12.017383)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.39, forward_eps=4.89)"
+Enterprise to Revenue,3.043
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,925000000.0
+Operating to Cash Flow,386000000.0
 
 PROFITABILITY
-Return on Equity,0.11423001
-Return on Assets,0.00716
-Return on Invested Capital,0.0975083092032008
-Return on Investment,0.0036145320197044336
+Return on Equity,0.11863
+Return on Assets,0.00796
+Return on Invested Capital,0.1635857188870593
+Return on Investment,0.0036149972020145496
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0339
-SUM DIVIDEND SCORE,5.0339
+5 Year Average,0.0348
+SUM DIVIDEND SCORE,8.0348
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,5.68
+Target High Price Diff Current Price,12.235
 Recommendation Key,0
-SUM ANALYST RATING SCORE,5.68
+SUM ANALYST RATING SCORE,12.235
 
 
 

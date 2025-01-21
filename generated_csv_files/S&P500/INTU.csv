@@ -2,20 +2,20 @@ GENERAL STOCK INFO
 Ticker,INTU
 Company,Intuit Inc.
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.intuit.com
-Price,626.86
+Price,604.13
 Currency,USD
 
 REVENUE
-Total Revenue,15093999616.0
-Revenue Per Share,53.811
+Total Revenue,16284999680.0
+Revenue Per Share,58.161
 Revenue Growth,0.41
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.8, forward_eps=18.85)"
-Net Earnings,2769999872.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.27, forward_eps=22.23)"
+Net Earnings,2963000064.0
 Earnings Growth,-0.185
 
 DEBT
@@ -23,50 +23,50 @@ Total Debt,None
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.18351999
-Gross Profit Margins,0.79103994
+Profit Margins,0.18195
+Gross Profit Margins,0.79619
 Operating Margins,0.15697
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.6
-Dividend Yield,0.0057
-Dividend Payout Ratio,0.3432
-Five Year Avg Dividend Yield,0.62
-Trailing Annual Dividend Rate,3.36
-Trailing Annual Dividend Yield,0.0053600483
+Dividend Rate,4.16
+Dividend Yield,0.0061000003
+Dividend Payout Ratio,0.3452
+Five Year Avg Dividend Yield,0.61
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.5511575696430523e-07
+Price to Cash Flow,1.4291920933634853e-07
 Enterprise to EBITDA,None
-Price to Book,10.472176
-Price to Earnings,"PriceToEarnings(trailing_pe=64.52142, forward_pe=33.544296)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.8, forward_eps=18.85)"
+Price to Book,9.227121
+Price to Earnings,"PriceToEarnings(trailing_pe=59.100292, forward_pe=27.303646)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.27, forward_eps=22.23)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,4076375040.0
-Operating to Cash Flow,4950000128.0
+Free to Cash Flow,4246874880.0
+Operating to Cash Flow,4883999744.0
 
 PROFITABILITY
-Return on Equity,0.16916001
-Return on Assets,0.07627
+Return on Equity,0.16597
+Return on Assets,0.08039
 Return on Invested Capital,None
-Return on Investment,0.1188841146781116
+Return on Investment,0.09976431191919193
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0062
-SUM DIVIDEND SCORE,8.0062
+5 Year Average,0.0060999999999999995
+SUM DIVIDEND SCORE,4.0061
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,142.69000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,143.69000000000005
+Target High Price Diff Current Price,193.03999999999996
+Recommendation Key,100
+SUM ANALYST RATING SCORE,293.03999999999996
 
 
 

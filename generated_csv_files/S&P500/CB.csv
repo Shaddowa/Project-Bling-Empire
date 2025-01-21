@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,CB
 Company,Chubb Limited
 Country,Switzerland
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.chubb.com/us-en
-Price,254.04
+Price,269.48
 Currency,USD
 
 REVENUE
-Total Revenue,51790999552.0
-Revenue Per Share,126.725
-Revenue Growth,0.192
+Total Revenue,54697000960.0
+Revenue Per Share,134.95
+Revenue Growth,0.078
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.5, forward_eps=23.64)"
-Net Earnings,9278999552.0
-Earnings Growth,0.155
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.39, forward_eps=23.61)"
+Net Earnings,9996999680.0
+Earnings Growth,0.152
 
 DEBT
-Total Debt,21369999360.0
-Debt to Equity,33.167
+Total Debt,22232000512.0
+Debt to Equity,31.706
 
 MARGINS
-Profit Margins,0.17916
-Gross Profit Margins,0.28157
-Operating Margins,0.21301001
+Profit Margins,0.18277
+Gross Profit Margins,0.28444
+Operating Margins,0.19610001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.44
+Dividend Rate,3.64
 Dividend Yield,0.0135
-Dividend Payout Ratio,0.1529
-Five Year Avg Dividend Yield,1.83
-Trailing Annual Dividend Rate,3.44
-Trailing Annual Dividend Yield,0.013541175
+Dividend Payout Ratio,0.1451
+Five Year Avg Dividend Yield,1.74
+Trailing Annual Dividend Rate,3.54
+Trailing Annual Dividend Yield,0.01313641
 
 FINANCIAL RATIO
-Debt to Equity,33.167
-Price to Cash Flow,2.3016878202001447e-08
-Enterprise to EBITDA,11.485
-Price to Book,1.7093145
-Price to Earnings,"PriceToEarnings(trailing_pe=11.326222, forward_pe=10.780034)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.5, forward_eps=23.64)"
-Enterprise to Revenue,2.339
+Debt to Equity,31.706
+Price to Cash Flow,2.093680626133044e-08
+Enterprise to EBITDA,11.293
+Price to Book,1.6694554
+Price to Earnings,"PriceToEarnings(trailing_pe=11.167692, forward_pe=11.536637)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.39, forward_eps=23.61)"
+Enterprise to Revenue,2.346
 
 CASH FLOW
-Free to Cash Flow,11071875072.0
-Operating to Cash Flow,13601000448.0
+Free to Cash Flow,13009625088.0
+Operating to Cash Flow,14803000320.0
 
 PROFITABILITY
-Return on Equity,0.1604
-Return on Assets,0.02931
-Return on Invested Capital,0.43420682101810504
-Return on Investment,0.0672391271884058
+Return on Equity,0.16125
+Return on Assets,0.02915
+Return on Invested Capital,0.44966711840612617
+Return on Investment,0.06894482537931035
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0183
-SUM DIVIDEND SCORE,4.0183
+5 Year Average,0.0174
+SUM DIVIDEND SCORE,8.0174
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,39.16
-Recommendation Key,1
-SUM ANALYST RATING SCORE,40.16
+Target High Price Diff Current Price,57.620000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,157.62
 
 
 

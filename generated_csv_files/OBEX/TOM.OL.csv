@@ -5,68 +5,68 @@ Country,Norway
 Industry,Waste Management
 Sector,Industrials
 Website,https://www.tomra.com
-Price,139.7
+Price,154.0
 Currency,NOK
 
 REVENUE
-Total Revenue,14839100416.0
-Revenue Per Share,50.028
-Revenue Growth,0.026
+Total Revenue,1272422912.0
+Revenue Per Share,4.259
+Revenue Growth,0.058
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.99, forward_eps=5.4)"
-Net Earnings,588099968.0
-Earnings Growth,-0.881
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.11, forward_eps=5.17)"
+Net Earnings,51355276.0
+Earnings Growth,0.4
 
 DEBT
-Total Debt,5290999808.0
-Debt to Equity,73.732
+Total Debt,477000000.0
+Debt to Equity,79.5
 
 MARGINS
-Profit Margins,0.03963
-Gross Profit Margins,0.59264
-Operating Margins,0.03853
+Profit Margins,0.040359996
+Gross Profit Margins,0.5944
+Operating Margins,0.122700006
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.95
-Dividend Yield,0.0138
-Dividend Payout Ratio,0.90449995
+Dividend Yield,0.0127
+Dividend Payout Ratio,0.9197
 Five Year Avg Dividend Yield,1.4
-Trailing Annual Dividend Rate,1.95
-Trailing Annual Dividend Yield,0.013958483
+Trailing Annual Dividend Rate,0.166
+Trailing Annual Dividend Yield,0.0010779221
 
 FINANCIAL RATIO
-Debt to Equity,73.732
-Price to Cash Flow,-4.509108475654488e-07
-Enterprise to EBITDA,27.913
-Price to Book,6.0746655
-Price to Earnings,"PriceToEarnings(trailing_pe=71.055275, forward_pe=26.185184)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.99, forward_eps=5.4)"
-Enterprise to Revenue,3.117
+Debt to Equity,79.5
+Price to Cash Flow,1.125511056229048e-06
+Enterprise to EBITDA,314.758
+Price to Book,80.15544
+Price to Earnings,"PriceToEarnings(trailing_pe=73.317535, forward_pe=29.92263)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.11, forward_eps=5.17)"
+Enterprise to Revenue,36.124
 
 CASH FLOW
-Free to Cash Flow,-313587488.0
-Operating to Cash Flow,1304899968.0
+Free to Cash Flow,137448672.0
+Operating to Cash Flow,264033040.0
 
 PROFITABILITY
-Return on Equity,0.09078
-Return on Assets,0.044660002
-Return on Invested Capital,0.11115100864746391
+Return on Equity,0.09478
+Return on Assets,0.04329
+Return on Invested Capital,0.10766305197528367
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.013999999999999999
-SUM DIVIDEND SCORE,4.014
+SUM DIVIDEND SCORE,8.014
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,108.6
+Target High Price Diff Current Price,25.30000000000001
 Recommendation Key,0
-SUM ANALYST RATING SCORE,108.6
+SUM ANALYST RATING SCORE,25.30000000000001
 
 
 

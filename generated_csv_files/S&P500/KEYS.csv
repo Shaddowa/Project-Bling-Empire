@@ -5,27 +5,27 @@ Country,United States
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.keysight.com
-Price,151.01
+Price,165.69
 Currency,USD
 
 REVENUE
-Total Revenue,5342000128.0
-Revenue Per Share,30.138
-Revenue Growth,-0.088
+Total Revenue,5002999808.0
+Revenue Per Share,28.589
+Revenue Growth,-0.119
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.44, forward_eps=7.35)"
-Net Earnings,969000000.0
-Earnings Growth,-0.324
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.51, forward_eps=6.97)"
+Net Earnings,913000000.0
+Earnings Growth,0.379
 
 DEBT
-Total Debt,2058000000.0
-Debt to Equity,42.724
+Total Debt,2036000000.0
+Debt to Equity,38.929
 
 MARGINS
-Profit Margins,0.18139
-Gross Profit Margins,0.64807
-Operating Margins,0.17792
+Profit Margins,0.18249
+Gross Profit Margins,0.63462
+Operating Margins,0.17091
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,42.724
-Price to Cash Flow,1.6632249282278749e-07
-Enterprise to EBITDA,17.653
-Price to Book,5.442983
-Price to Earnings,"PriceToEarnings(trailing_pe=27.612133, forward_pe=20.436735)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.44, forward_eps=7.35)"
-Enterprise to Revenue,4.967
+Debt to Equity,38.929
+Price to Cash Flow,2.2660006177076127e-07
+Enterprise to EBITDA,22.582
+Price to Book,5.644139
+Price to Earnings,"PriceToEarnings(trailing_pe=48.467236, forward_pe=24.407461)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.51, forward_eps=6.97)"
+Enterprise to Revenue,5.358
 
 CASH FLOW
-Free to Cash Flow,903124992.0
-Operating to Cash Flow,1370000000.0
+Free to Cash Flow,750750016.0
+Operating to Cash Flow,1071000000.0
 
 PROFITABILITY
-Return on Equity,0.21017
-Return on Assets,0.0911
-Return on Invested Capital,0.4708454747357034
-Return on Investment,-0.3876
+Return on Equity,0.18031
+Return on Assets,0.0644
+Return on Invested Capital,0.4484282841276636
+Return on Investment,0.6521428571428571
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,57.78999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,58.78999999999999
+Target High Price Diff Current Price,29.879999999999995
+Recommendation Key,100
+SUM ANALYST RATING SCORE,129.88
 
 
 

@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.dexcom.com
-Price,128.14
+Price,84.38
 Currency,USD
 
 REVENUE
-Total Revenue,3801799936.0
-Revenue Per Share,9.827
-Revenue Growth,0.242
+Total Revenue,3953999872.0
+Revenue Per Share,10.089
+Revenue Growth,0.02
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.54, forward_eps=2.26)"
-Net Earnings,639299968.0
-Earnings Growth,1.987
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.65, forward_eps=2.03)"
+Net Earnings,680800000.0
+Earnings Growth,0.157
 
 DEBT
-Total Debt,2590099968.0
-Debt to Equity,115.28
+Total Debt,2591200000.0
+Debt to Equity,130.935
 
 MARGINS
-Profit Margins,0.16816
-Gross Profit Margins,0.62818
-Operating Margins,0.10977
+Profit Margins,0.17218
+Gross Profit Margins,0.61684
+Operating Margins,0.15289
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,115.28
-Price to Cash Flow,2.422942162514994e-07
-Enterprise to EBITDA,59.185
-Price to Book,22.399508
-Price to Earnings,"PriceToEarnings(trailing_pe=82.50001, forward_pe=56.216816)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.54, forward_eps=2.26)"
-Enterprise to Revenue,13.209
+Debt to Equity,130.935
+Price to Cash Flow,2.414042095866195e-07
+Enterprise to EBITDA,39.335
+Price to Book,16.828497
+Price to Earnings,"PriceToEarnings(trailing_pe=51.678787, forward_pe=42.004925)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.65, forward_eps=2.03)"
+Enterprise to Revenue,8.36
 
 CASH FLOW
-Free to Cash Flow,524362496.0
-Operating to Cash Flow,802300032.0
+Free to Cash Flow,353224992.0
+Operating to Cash Flow,821699968.0
 
 PROFITABILITY
-Return on Equity,0.28541002
-Return on Assets,0.06789
-Return on Invested Capital,0.246824437086751
-Return on Investment,-0.03587541907968575
+Return on Equity,0.32061002
+Return on Assets,0.06062
+Return on Invested Capital,0.2627354116504784
+Return on Investment,-0.027374346602332126
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,42.95
-Recommendation Key,1
-SUM ANALYST RATING SCORE,43.95
+Target High Price Diff Current Price,34.730000000000004
+Recommendation Key,100
+SUM ANALYST RATING SCORE,134.73000000000002
 
 
 

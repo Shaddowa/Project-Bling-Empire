@@ -5,27 +5,27 @@ Country,United States
 Industry,Solar
 Sector,Technology
 Website,https://www.firstsolar.com
-Price,193.61
+Price,192.88
 Currency,USD
 
 REVENUE
-Total Revenue,3564423936.0
-Revenue Per Share,33.358
-Revenue Growth,0.448
+Total Revenue,3850810880.0
+Revenue Per Share,36.002
+Revenue Growth,0.108
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.53, forward_eps=21.41)"
-Net Earnings,1024832000.0
-Earnings Growth,4.514
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.61, forward_eps=20.86)"
+Net Earnings,1248167040.0
+Earnings Growth,0.164
 
 DEBT
-Total Debt,681524992.0
-Debt to Equity,9.874
+Total Debt,694142976.0
+Debt to Equity,9.141
 
 MARGINS
-Profit Margins,0.28752002
-Gross Profit Margins,0.43054
-Operating Margins,0.30478
+Profit Margins,0.32412997
+Gross Profit Margins,0.46542
+Operating Margins,0.36275002
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,9.874
-Price to Cash Flow,-2.1110791342383696e-07
-Enterprise to EBITDA,13.296
-Price to Book,2.9627044
-Price to Earnings,"PriceToEarnings(trailing_pe=20.04722, forward_pe=8.923401)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.53, forward_eps=21.41)"
-Enterprise to Revenue,5.37
+Debt to Equity,9.141
+Price to Cash Flow,-3.9452530204669765e-07
+Enterprise to EBITDA,11.691
+Price to Book,2.6124349
+Price to Earnings,"PriceToEarnings(trailing_pe=15.96038, forward_pe=8.88303)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.61, forward_eps=20.86)"
+Enterprise to Revenue,5.213
 
 CASH FLOW
-Free to Cash Flow,-904987392.0
-Operating to Cash Flow,904580992.0
+Free to Cash Flow,-469678368.0
+Operating to Cash Flow,968112000.0
 
 PROFITABILITY
-Return on Equity,0.16048999
-Return on Assets,0.0718
-Return on Invested Capital,1.5037334141251137
-Return on Investment,-0.007391951622023981
+Return on Equity,0.17964001
+Return on Assets,0.078990005
+Return on Invested Capital,1.7981409531079982
+Return on Investment,-0.008380632854532893
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,164.95
-Recommendation Key,1
-SUM ANALYST RATING SCORE,165.95
+Target High Price Diff Current Price,174.7
+Recommendation Key,100
+SUM ANALYST RATING SCORE,274.7
 
 
 

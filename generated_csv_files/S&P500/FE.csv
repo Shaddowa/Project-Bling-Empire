@@ -2,57 +2,57 @@ GENERAL STOCK INFO
 Ticker,FE
 Company,FirstEnergy Corp.
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.firstenergycorp.com
-Price,39.84
+Price,39.89
 Currency,USD
 
 REVENUE
-Total Revenue,12741000192.0
-Revenue Per Share,22.216
-Revenue Growth,0.017
+Total Revenue,13256999936.0
+Revenue Per Share,23.076
+Revenue Growth,0.069
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.89, forward_eps=2.89)"
-Net Earnings,1084000000.0
-Earnings Growth,-0.137
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.55, forward_eps=2.89)"
+Net Earnings,892000000.0
+Earnings Growth,0.049
 
 DEBT
-Total Debt,24515000320.0
-Debt to Equity,180.085
+Total Debt,23704999936.0
+Debt to Equity,173.13
 
 MARGINS
-Profit Margins,0.08343001
-Gross Profit Margins,0.68605006
-Operating Margins,0.19744
+Profit Margins,0.06729
+Gross Profit Margins,0.69774
+Operating Margins,0.22151
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.7
 Dividend Yield,0.042600002
-Dividend Payout Ratio,0.84660006
-Five Year Avg Dividend Yield,4.06
-Trailing Annual Dividend Rate,1.6
-Trailing Annual Dividend Yield,0.040160645
+Dividend Payout Ratio,1.0774
+Five Year Avg Dividend Yield,4.15
+Trailing Annual Dividend Rate,1.67
+Trailing Annual Dividend Yield,0.04186513
 
 FINANCIAL RATIO
-Debt to Equity,180.085
-Price to Cash Flow,2.6913746630727762e-08
-Enterprise to EBITDA,12.633
-Price to Book,1.8541385
-Price to Earnings,"PriceToEarnings(trailing_pe=21.132275, forward_pe=13.820068)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.89, forward_eps=2.89)"
-Enterprise to Revenue,3.754
+Debt to Equity,173.13
+Price to Cash Flow,-2.524947217919351e-08
+Enterprise to EBITDA,12.11
+Price to Book,1.8687103
+Price to Earnings,"PriceToEarnings(trailing_pe=25.996775, forward_pe=13.942905)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.55, forward_eps=2.89)"
+Enterprise to Revenue,3.585
 
 CASH FLOW
-Free to Cash Flow,1484000000.0
-Operating to Cash Flow,1459000064.0
+Free to Cash Flow,-1595874944.0
+Operating to Cash Flow,2804999936.0
 
 PROFITABILITY
-Return on Equity,0.09481
-Return on Assets,0.02777
-Return on Invested Capital,0.04421782520488679
+Return on Equity,0.083050005
+Return on Assets,0.02707
+Return on Invested Capital,0.03762919222091837
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0406
-SUM DIVIDEND SCORE,8.0406
+5 Year Average,0.0415
+SUM DIVIDEND SCORE,8.0415
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.060000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.060000000000002
+Target High Price Diff Current Price,9.704999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,109.705
 
 
 

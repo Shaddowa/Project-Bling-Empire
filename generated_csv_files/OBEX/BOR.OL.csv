@@ -5,27 +5,27 @@ Country,Norway
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://borgestad.no
-Price,0.439
+Price,18.298
 Currency,NOK
 
 REVENUE
-Total Revenue,1141366016.0
-Revenue Per Share,3.357
+Total Revenue,1130343040.0
+Revenue Per Share,46.682
 Revenue Growth,0.063
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=0.47)"
-Net Earnings,-35996000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=1.14)"
+Net Earnings,-58570000.0
+Earnings Growth,-0.663
 
 DEBT
-Total Debt,405576000.0
-Debt to Equity,50.852
+Total Debt,481169984.0
+Debt to Equity,63.104
 
 MARGINS
-Profit Margins,-0.03154
-Gross Profit Margins,0.48520002
-Operating Margins,0.013200001
+Profit Margins,-0.051820002
+Gross Profit Margins,0.52037996
+Operating Margins,0.10875
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,50.852
-Price to Cash Flow,5.053579427337567e-09
-Enterprise to EBITDA,7.988
-Price to Book,0.8527132
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=0.9361702)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.06, forward_eps=0.47)"
-Enterprise to Revenue,0.816
+Debt to Equity,63.104
+Price to Cash Flow,5.491090157111072e-07
+Enterprise to EBITDA,8.688
+Price to Book,0.92459416
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=15.789474)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.83, forward_eps=1.14)"
+Enterprise to Revenue,0.919
 
 CASH FLOW
-Free to Cash Flow,87067000.0
-Operating to Cash Flow,158654000.0
+Free to Cash Flow,32780376.0
+Operating to Cash Flow,147752000.0
 
 PROFITABILITY
-Return on Equity,-0.03184
-Return on Assets,0.040149998
-Return on Invested Capital,-0.0887527860479998
-Return on Investment,-0.005650774713112824
+Return on Equity,-0.05184
+Return on Assets,0.038540002
+Return on Invested Capital,-0.12172412988727627
+Return on Investment,-0.015688532933329762
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
+Target High Price Diff Current Price,6.0
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+SUM ANALYST RATING SCORE,6.0
 
 
 

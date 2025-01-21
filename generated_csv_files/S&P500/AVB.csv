@@ -2,57 +2,57 @@ GENERAL STOCK INFO
 Ticker,AVB
 Company,"AvalonBay Communities, Inc."
 Country,United States
-Industry,REIT—Residential
+Industry,REIT - Residential
 Sector,Real Estate
 Website,https://www.avalonbay.com
-Price,197.14
+Price,218.14
 Currency,USD
 
 REVENUE
-Total Revenue,2825516032.0
-Revenue Per Share,19.92
-Revenue Growth,0.065
+Total Revenue,2926010880.0
+Revenue Per Share,20.613
+Revenue Growth,0.094
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=5.4)"
-Net Earnings,953638016.0
-Earnings Growth,0.162
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.33, forward_eps=5.54)"
+Net Earnings,1039900032.0
+Earnings Growth,1.161
 
 DEBT
-Total Debt,8134197248.0
-Debt to Equity,69.43
+Total Debt,8550663168.0
+Debt to Equity,71.946
 
 MARGINS
-Profit Margins,0.33812
-Gross Profit Margins,0.64449
-Operating Margins,0.32528
+Profit Margins,0.35606998
+Gross Profit Margins,0.64382005
+Operating Margins,0.33742002
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,6.8
-Dividend Yield,0.0345
-Dividend Payout Ratio,0.9881
-Five Year Avg Dividend Yield,3.36
-Trailing Annual Dividend Rate,6.65
-Trailing Annual Dividend Yield,0.033732373
+Dividend Yield,0.0312
+Dividend Payout Ratio,0.9221
+Five Year Avg Dividend Yield,3.4
+Trailing Annual Dividend Rate,6.75
+Trailing Annual Dividend Yield,0.030943431
 
 FINANCIAL RATIO
-Debt to Equity,69.43
-Price to Cash Flow,1.6379814182875536e-07
-Enterprise to EBITDA,20.517
-Price to Book,2.3865743
-Price to Earnings,"PriceToEarnings(trailing_pe=29.255571, forward_pe=36.46111)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.73, forward_eps=5.4)"
-Enterprise to Revenue,12.668
+Debt to Equity,71.946
+Price to Cash Flow,2.1366710862855464e-07
+Enterprise to EBITDA,21.555
+Price to Book,2.6235554
+Price to Earnings,"PriceToEarnings(trailing_pe=29.946114, forward_pe=39.62184)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.33, forward_eps=5.54)"
+Enterprise to Revenue,13.319
 
 CASH FLOW
-Free to Cash Flow,1202028288.0
-Operating to Cash Flow,1576816000.0
+Free to Cash Flow,1027322368.0
+Operating to Cash Flow,1625251968.0
 
 PROFITABILITY
-Return on Equity,0.08347
-Return on Assets,0.028180001
-Return on Invested Capital,0.11723812163055776
+Return on Equity,0.08808
+Return on Assets,0.02874
+Return on Invested Capital,0.12161630055975665
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -60,13 +60,13 @@ Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0336
-SUM DIVIDEND SCORE,8.0336
+5 Year Average,0.034
+SUM DIVIDEND SCORE,8.034
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,33.110000000000014
-Recommendation Key,1
-SUM ANALYST RATING SCORE,34.110000000000014
+Target High Price Diff Current Price,50.495000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,150.495
 
 
 

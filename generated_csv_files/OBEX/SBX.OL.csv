@@ -5,68 +5,68 @@ Country,Cyprus
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.sbexp.com
-Price,4.7
+Price,5.91
 Currency,NOK
 
 REVENUE
-Total Revenue,34635000.0
-Revenue Per Share,0.561
-Revenue Growth,-0.046
+Total Revenue,30304000.0
+Revenue Per Share,0.407
+Revenue Growth,-0.492
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.44, forward_eps=1.95)"
-Net Earnings,6787000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.34, forward_eps=0.11)"
+Net Earnings,-3806000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,16062000.0
-Debt to Equity,55.761
+Total Debt,14866000.0
+Debt to Equity,55.139
 
 MARGINS
-Profit Margins,0.19596
-Gross Profit Margins,0.45134
-Operating Margins,-0.24091
+Profit Margins,-0.12559
+Gross Profit Margins,0.43311
+Operating Margins,-0.00244
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.25
-Dividend Yield,0.052399997
+Dividend Rate,0.5
+Dividend Yield,0.090900004
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.025
-Trailing Annual Dividend Yield,0.0053191492
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,55.761
-Price to Cash Flow,8.199398366996132e-07
-Enterprise to EBITDA,36.877
-Price to Book,13.324022
-Price to Earnings,"PriceToEarnings(trailing_pe=10.840909, forward_pe=2.4461539)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.44, forward_eps=1.95)"
-Enterprise to Revenue,11.484
+Debt to Equity,55.139
+Price to Cash Flow,9.143032464668546e-07
+Enterprise to EBITDA,62.397
+Price to Book,17.897898
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=54.18182)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.34, forward_eps=0.11)"
+Enterprise to Revenue,15.033
 
 CASH FLOW
-Free to Cash Flow,5817500.0
-Operating to Cash Flow,7898000.0
+Free to Cash Flow,6518625.0
+Operating to Cash Flow,8821000.0
 
 PROFITABILITY
-Return on Equity,0.23156
-Return on Assets,0.04591
-Return on Invested Capital,0.4225501088735563
-Return on Investment,-0.05064925373134328
+Return on Equity,-0.13066
+Return on Assets,0.00977
+Return on Invested Capital,-0.2560204436126189
+Return on Investment,-0.01844886088221037
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
-SUM DIVIDEND SCORE,8.0
+SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,3.1400000000000006
-Recommendation Key,2
-SUM ANALYST RATING SCORE,5.140000000000001
+Target High Price Diff Current Price,1.7014594
+Recommendation Key,0
+SUM ANALYST RATING SCORE,1.7014594
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Semiconductor Equipment & Materials
 Sector,Technology
 Website,https://www.appliedmaterials.com
-Price,206.33
+Price,192.05
 Currency,USD
 
 REVENUE
-Total Revenue,26485000192.0
-Revenue Per Share,31.662
-Revenue Growth,-0.005
+Total Revenue,26854000640.0
+Revenue Per Share,32.344
+Revenue Growth,0.055
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.49, forward_eps=9.56)"
-Net Earnings,7158000128.0
-Earnings Growth,0.193
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.6, forward_eps=9.69)"
+Net Earnings,7449999872.0
+Earnings Growth,0.108
 
 DEBT
-Total Debt,5989000192.0
-Debt to Equity,34.362
+Total Debt,6671000064.0
+Debt to Equity,35.409
 
 MARGINS
-Profit Margins,0.27027
-Gross Profit Margins,0.46980998
-Operating Margins,0.29328
+Profit Margins,0.27743
+Gross Profit Margins,0.47408
+Operating Margins,0.28652
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0076
-Dividend Payout Ratio,0.1435
-Five Year Avg Dividend Yield,1.04
-Trailing Annual Dividend Rate,1.28
-Trailing Annual Dividend Yield,0.006203654
+Dividend Yield,0.0086
+Dividend Payout Ratio,0.1528
+Five Year Avg Dividend Yield,0.93
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,34.362
-Price to Cash Flow,3.892448538923924e-08
-Enterprise to EBITDA,21.232
-Price to Book,9.9985695
-Price to Earnings,"PriceToEarnings(trailing_pe=24.70318, forward_pe=21.938284)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.49, forward_eps=9.56)"
-Enterprise to Revenue,6.523
+Debt to Equity,35.409
+Price to Cash Flow,4.36661457123039e-08
+Enterprise to EBITDA,18.394
+Price to Book,8.393865
+Price to Earnings,"PriceToEarnings(trailing_pe=22.318604, forward_pe=19.80805)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.6, forward_eps=9.69)"
+Enterprise to Revenue,5.62
 
 CASH FLOW
-Free to Cash Flow,5388125184.0
-Operating to Cash Flow,8755000320.0
+Free to Cash Flow,4395624960.0
+Operating to Cash Flow,7656999936.0
 
 PROFITABILITY
-Return on Equity,0.46407002
-Return on Assets,0.16073999
-Return on Invested Capital,1.1951911627071243
-Return on Investment,-0.12513986237762237
+Return on Equity,0.4391
+Return on Assets,0.15205
+Return on Invested Capital,1.116774063109702
+Return on Investment,-0.10704022804597702
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0104
-SUM DIVIDEND SCORE,8.0104
+5 Year Average,0.009300000000000001
+SUM DIVIDEND SCORE,4.0093
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,50.27000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,51.27000000000001
+Target High Price Diff Current Price,58.06
+Recommendation Key,100
+SUM ANALYST RATING SCORE,158.06
 
 
 

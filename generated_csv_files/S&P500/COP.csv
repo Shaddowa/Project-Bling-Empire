@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.conocophillips.com
-Price,122.61
+Price,105.85
 Currency,USD
 
 REVENUE
-Total Revenue,56819998720.0
-Revenue Per Share,47.661
-Revenue Growth,-0.068
+Total Revenue,56924000256.0
+Revenue Per Share,48.497
+Revenue Growth,-0.079
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.83, forward_eps=9.48)"
-Net Earnings,10554999808.0
-Earnings Growth,-0.097
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.43, forward_eps=8.03)"
+Net Earnings,9916000256.0
+Earnings Growth,-0.241
 
 DEBT
-Total Debt,18417000448.0
-Debt to Equity,37.338
+Total Debt,18304000000.0
+Debt to Equity,36.695
 
 MARGINS
-Profit Margins,0.18634
-Gross Profit Margins,0.48786
-Operating Margins,0.26525998
+Profit Margins,0.17472
+Gross Profit Margins,0.48896998
+Operating Margins,0.24277
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.25
-Dividend Yield,0.026700001
-Dividend Payout Ratio,0.4054
-Five Year Avg Dividend Yield,2.59
-Trailing Annual Dividend Rate,4.18
-Trailing Annual Dividend Yield,0.034091834
+Dividend Rate,3.12
+Dividend Yield,0.0295
+Dividend Payout Ratio,0.3464
+Five Year Avg Dividend Yield,2.68
+Trailing Annual Dividend Rate,3.52
+Trailing Annual Dividend Yield,0.033254605
 
 FINANCIAL RATIO
-Debt to Equity,37.338
-Price to Cash Flow,2.167626102917179e-08
-Enterprise to EBITDA,6.379
-Price to Book,2.8905752
-Price to Earnings,"PriceToEarnings(trailing_pe=13.806342, forward_pe=12.859706)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.83, forward_eps=9.48)"
-Enterprise to Revenue,2.727
+Debt to Equity,36.695
+Price to Cash Flow,1.4197627578563065e-08
+Enterprise to EBITDA,5.454
+Price to Book,2.4237356
+Price to Earnings,"PriceToEarnings(trailing_pe=12.460818, forward_pe=13.0815325)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.43, forward_eps=8.03)"
+Enterprise to Revenue,2.342
 
 CASH FLOW
-Free to Cash Flow,5624124928.0
-Operating to Cash Flow,19547000832.0
+Free to Cash Flow,7398750208.0
+Operating to Cash Flow,20930000896.0
 
 PROFITABILITY
-Return on Equity,0.21806999
-Return on Assets,0.10516
-Return on Invested Capital,0.5731117732027441
-Return on Investment,-0.011620609719255753
+Return on Equity,0.20376
+Return on Assets,0.1003
+Return on Invested Capital,0.5417395231927998
+Return on Investment,-0.010522071578947368
 
 DIVIDEND SCORE
 Dividend  Rate,1.0
 Dividend Yield,1.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0259
-SUM DIVIDEND SCORE,3.0259
+5 Year Average,0.0268
+SUM DIVIDEND SCORE,2.0268
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,44.09
-Recommendation Key,1
-SUM ANALYST RATING SCORE,45.09
+Target High Price Diff Current Price,59.955299999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,159.9553
 
 
 

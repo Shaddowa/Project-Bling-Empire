@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Distribution
 Sector,Healthcare
 Website,https://www.mckesson.com
-Price,555.12
+Price,592.57
 Currency,USD
 
 REVENUE
-Total Revenue,308950990848.0
-Revenue Per Share,2319.452
-Revenue Growth,0.108
+Total Revenue,330187014144.0
+Revenue Per Share,2531.138
+Revenue Growth,0.213
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.4, forward_eps=35.71)"
-Net Earnings,3001999872.0
-Earnings Growth,0.056
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.32, forward_eps=36.81)"
+Net Earnings,2536000000.0
+Earnings Growth,-0.62
 
 DEBT
-Total Debt,7424999936.0
+Total Debt,7255000064.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.00972
-Gross Profit Margins,0.04073
-Operating Margins,0.01509
+Profit Margins,0.0076800003
+Gross Profit Margins,0.039049998
+Operating Margins,0.00796
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.48
-Dividend Yield,0.0044
-Dividend Payout Ratio,0.107200004
-Five Year Avg Dividend Yield,0.8
-Trailing Annual Dividend Rate,2.4
-Trailing Annual Dividend Yield,0.00432339
+Dividend Rate,2.84
+Dividend Yield,0.0047999998
+Dividend Payout Ratio,0.133
+Five Year Avg Dividend Yield,0.7
+Trailing Annual Dividend Rate,2.57
+Trailing Annual Dividend Yield,0.0043370402
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.4079145029040853e-07
-Enterprise to EBITDA,17.039
+Price to Cash Flow,1.3417169730533084e-07
+Enterprise to EBITDA,16.43
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=24.995981, forward_pe=15.679361)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=22.4, forward_eps=35.71)"
-Enterprise to Revenue,0.246
+Price to Earnings,"PriceToEarnings(trailing_pe=30.456003, forward_pe=15.985057)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.32, forward_eps=36.81)"
+Enterprise to Revenue,0.243
 
 CASH FLOW
-Free to Cash Flow,3976875008.0
-Operating to Cash Flow,4313999872.0
+Free to Cash Flow,4385500160.0
+Operating to Cash Flow,5120999936.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.03783
-Return on Invested Capital,0.40430975138127523
-Return on Investment,-0.164043708852459
+Return on Assets,0.03917
+Return on Invested Capital,0.3495520311421741
+Return on Investment,-0.11850467289719627
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.008
-SUM DIVIDEND SCORE,8.008
+5 Year Average,0.006999999999999999
+SUM DIVIDEND SCORE,8.007
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,111.09000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,112.09000000000003
+Target High Price Diff Current Price,126.59000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,226.59000000000003
 
 
 

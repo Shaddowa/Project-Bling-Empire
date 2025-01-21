@@ -5,27 +5,27 @@ Country,United States
 Industry,Entertainment
 Sector,Communication Services
 Website,https://www.netflix.com
-Price,612.09
+Price,858.1
 Currency,USD
 
 REVENUE
-Total Revenue,34932232192.0
-Revenue Per Share,79.703
-Revenue Growth,0.148
+Total Revenue,37587279872.0
+Revenue Per Share,87.106
+Revenue Growth,0.15
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.42, forward_eps=22.35)"
-Net Earnings,6435079168.0
-Earnings Growth,0.833
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.68, forward_eps=23.78)"
+Net Earnings,7780861952.0
+Earnings Growth,0.448
 
 DEBT
-Total Debt,16511605760.0
-Debt to Equity,77.282
+Total Debt,18508648448.0
+Debt to Equity,81.461
 
 MARGINS
-Profit Margins,0.18422002
-Gross Profit Margins,0.43065
-Operating Margins,0.28094
+Profit Margins,0.20701
+Gross Profit Margins,0.45251
+Operating Margins,0.29614002
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,77.282
-Price to Cash Flow,3.129715060961355e-08
-Enterprise to EBITDA,33.154
-Price to Book,12.32189
-Price to Earnings,"PriceToEarnings(trailing_pe=42.36269, forward_pe=27.331991)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=14.42, forward_eps=22.35)"
-Enterprise to Revenue,7.807
+Debt to Equity,81.461
+Price to Cash Flow,4.006688943375531e-08
+Enterprise to EBITDA,37.696
+Price to Book,16.3178
+Price to Earnings,"PriceToEarnings(trailing_pe=49.057693, forward_pe=36.473507)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=17.68, forward_eps=23.78)"
+Enterprise to Revenue,10.006
 
 CASH FLOW
-Free to Cash Flow,19518390272.0
-Operating to Cash Flow,7308083200.0
+Free to Cash Flow,21647300608.0
+Operating to Cash Flow,7487483904.0
 
 PROFITABILITY
-Return on Equity,0.29795998
-Return on Assets,0.10009
-Return on Invested Capital,0.38973066836830245
-Return on Investment,0.06495546207646986
+Return on Equity,0.34714
+Return on Assets,0.1184
+Return on Invested Capital,0.4203906055871821
+Return on Investment,0.06838923359807055
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,189.13
-Recommendation Key,1
-SUM ANALYST RATING SCORE,190.13
+Target High Price Diff Current Price,232.65999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,332.65999999999997
 
 
 

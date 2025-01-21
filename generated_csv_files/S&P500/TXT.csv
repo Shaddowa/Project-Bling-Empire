@@ -5,68 +5,68 @@ Country,United States
 Industry,Aerospace & Defense
 Sector,Industrials
 Website,https://www.textron.com
-Price,88.49
+Price,79.16
 Currency,USD
 
 REVENUE
-Total Revenue,13793999872.0
-Revenue Per Share,70.123
-Revenue Growth,0.037
+Total Revenue,13980999680.0
+Revenue Per Share,73.113
+Revenue Growth,0.025
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.68, forward_eps=6.9)"
-Net Earnings,932000000.0
-Earnings Growth,0.12
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.57, forward_eps=6.7)"
+Net Earnings,883000000.0
+Earnings Growth,-0.126
 
 DEBT
-Total Debt,3908000000.0
-Debt to Equity,56.384
+Total Debt,3958000128.0
+Debt to Equity,56.941
 
 MARGINS
-Profit Margins,0.067490004
-Gross Profit Margins,0.16594
-Operating Margins,0.08485
+Profit Margins,0.06301
+Gross Profit Margins,0.15907
+Operating Margins,0.07937
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.08
-Dividend Yield,0.00090000004
-Dividend Payout Ratio,0.0171
-Five Year Avg Dividend Yield,0.14
+Dividend Yield,0.001
+Dividend Payout Ratio,0.0175
+Five Year Avg Dividend Yield,0.13
 Trailing Annual Dividend Rate,0.08
-Trailing Annual Dividend Yield,0.00090405694
+Trailing Annual Dividend Yield,0.0010106113
 
 FINANCIAL RATIO
-Debt to Equity,56.384
-Price to Cash Flow,1.0319009564518079e-07
-Enterprise to EBITDA,11.497
-Price to Book,2.441479
-Price to Earnings,"PriceToEarnings(trailing_pe=18.920942, forward_pe=12.833334)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.68, forward_eps=6.9)"
-Enterprise to Revenue,1.407
+Debt to Equity,56.941
+Price to Cash Flow,1.2287835073431499e-07
+Enterprise to EBITDA,10.55
+Price to Book,2.153265
+Price to Earnings,"PriceToEarnings(trailing_pe=17.65536, forward_pe=12.042538)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.57, forward_eps=6.7)"
+Enterprise to Revenue,1.241
 
 CASH FLOW
-Free to Cash Flow,858124992.0
-Operating to Cash Flow,1096000000.0
+Free to Cash Flow,656625024.0
+Operating to Cash Flow,1116999936.0
 
 PROFITABILITY
-Return on Equity,0.13373
-Return on Assets,0.04942
-Return on Invested Capital,0.2384851564356146
-Return on Investment,-0.03698412698412699
+Return on Equity,0.12597999
+Return on Assets,0.04792
+Return on Invested Capital,0.22309246161815746
+Return on Investment,-0.042248803827751195
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0014000000000000002
-SUM DIVIDEND SCORE,4.0014
+5 Year Average,0.0013
+SUM DIVIDEND SCORE,4.0013
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.45
-Recommendation Key,1
-SUM ANALYST RATING SCORE,33.45
+Target High Price Diff Current Price,30.314999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,130.315
 
 
 

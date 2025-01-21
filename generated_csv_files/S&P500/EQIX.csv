@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,EQIX
 Company,"Equinix, Inc."
 Country,United States
-Industry,REIT—Specialty
+Industry,REIT - Specialty
 Sector,Real Estate
 Website,https://www.equinix.com
-Price,772.43
+Price,915.59
 Currency,USD
 
 REVENUE
-Total Revenue,7883490816.0
-Revenue Per Share,83.833
-Revenue Growth,0.064
+Total Revenue,8401490944.0
+Revenue Per Share,88.612
+Revenue Growth,0.189
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.0, forward_eps=13.44)"
-Net Earnings,941177984.0
-Earnings Growth,-0.123
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.08, forward_eps=13.38)"
+Net Earnings,1056177984.0
+Earnings Growth,0.058
 
 DEBT
-Total Debt,17276999680.0
-Debt to Equity,140.19
+Total Debt,19188000768.0
+Debt to Equity,140.964
 
 MARGINS
-Profit Margins,0.11939
-Gross Profit Margins,0.45294997
-Operating Margins,0.34932
+Profit Margins,0.12571
+Gross Profit Margins,0.48073003
+Operating Margins,0.15682
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,17.04
-Dividend Yield,0.0225
-Dividend Payout Ratio,1.5386
-Five Year Avg Dividend Yield,1.66
-Trailing Annual Dividend Rate,15.34
-Trailing Annual Dividend Yield,0.019859405
+Dividend Yield,0.0186
+Dividend Payout Ratio,1.5365
+Five Year Avg Dividend Yield,1.68
+Trailing Annual Dividend Rate,17.04
+Trailing Annual Dividend Yield,0.01861095
 
 FINANCIAL RATIO
-Debt to Equity,140.19
-Price to Cash Flow,2.917357805189818e-07
-Enterprise to EBITDA,29.542
-Price to Book,5.8318515
-Price to Earnings,"PriceToEarnings(trailing_pe=75.768, forward_pe=56.375)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.0, forward_eps=13.44)"
-Enterprise to Revenue,11.099
+Debt to Equity,140.964
+Price to Cash Flow,3.1595719055231027e-07
+Enterprise to EBITDA,31.25
+Price to Book,6.6102138
+Price to Earnings,"PriceToEarnings(trailing_pe=84.01534, forward_pe=69.57324)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.08, forward_eps=13.38)"
+Enterprise to Revenue,12.472
 
 CASH FLOW
-Free to Cash Flow,2597144576.0
-Operating to Cash Flow,3122595072.0
+Free to Cash Flow,2946253568.0
+Operating to Cash Flow,3266595072.0
 
 PROFITABILITY
-Return on Equity,0.07728
-Return on Assets,0.02063
-Return on Invested Capital,0.054475776717873535
-Return on Investment,-0.004760699857458924
+Return on Equity,0.08267
+Return on Assets,0.025559999
+Return on Invested Capital,0.055043669688080145
+Return on Investment,-0.004785638543997346
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0166
-SUM DIVIDEND SCORE,8.0166
+5 Year Average,0.0168
+SUM DIVIDEND SCORE,4.0168
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,262.32000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,263.32000000000005
+Target High Price Diff Current Price,269.11
+Recommendation Key,100
+SUM ANALYST RATING SCORE,369.11
 
 
 

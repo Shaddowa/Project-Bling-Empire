@@ -2,58 +2,58 @@ GENERAL STOCK INFO
 Ticker,ROP
 Company,"Roper Technologies, Inc."
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.ropertech.com
-Price,523.33
+Price,522.32
 Currency,USD
 
 REVENUE
-Total Revenue,6388800000.0
-Revenue Per Share,59.834
-Revenue Growth,0.144
+Total Revenue,6775600128.0
+Revenue Per Share,63.294
+Revenue Growth,0.129
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.6, forward_eps=19.84)"
-Net Earnings,1466099968.0
-Earnings Growth,0.336
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.58, forward_eps=20.02)"
+Net Earnings,1464499968.0
+Earnings Growth,0.054
 
 DEBT
-Total Debt,7721999872.0
-Debt to Equity,43.388
+Total Debt,8376600064.0
+Debt to Equity,45.241
 
 MARGINS
-Profit Margins,0.23214
-Gross Profit Margins,0.6996
-Operating Margins,0.28636998
+Profit Margins,0.21784
+Gross Profit Margins,0.69679
+Operating Margins,0.28142
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.0
-Dividend Yield,0.0057
-Dividend Payout Ratio,0.21040002
+Dividend Rate,3.3
+Dividend Yield,0.0063
+Dividend Payout Ratio,0.2161
 Five Year Avg Dividend Yield,0.53
-Trailing Annual Dividend Rate,2.865
-Trailing Annual Dividend Yield,0.005474557
+Trailing Annual Dividend Rate,3.0
+Trailing Annual Dividend Yield,0.0057436056
 
 FINANCIAL RATIO
-Debt to Equity,43.388
-Price to Cash Flow,2.6436389483784244e-07
-Enterprise to EBITDA,24.53
-Price to Book,3.1486068
-Price to Earnings,"PriceToEarnings(trailing_pe=38.492645, forward_pe=26.38609)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.6, forward_eps=19.84)"
-Enterprise to Revenue,9.949
+Debt to Equity,45.241
+Price to Cash Flow,2.577038524694675e-07
+Enterprise to EBITDA,23.462
+Price to Book,3.0594425
+Price to Earnings,"PriceToEarnings(trailing_pe=38.90133, forward_pe=26.387613)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.58, forward_eps=20.02)"
+Enterprise to Revenue,9.463
 
 CASH FLOW
-Free to Cash Flow,1980225024.0
-Operating to Cash Flow,2102899968.0
+Free to Cash Flow,2049949952.0
+Operating to Cash Flow,2292800000.0
 
 PROFITABILITY
-Return on Equity,0.08590999
-Return on Assets,0.03995
-Return on Invested Capital,0.1898601347753421
-Return on Investment,0.05776595618597321
+Return on Equity,0.08238
+Return on Assets,0.040489998
+Return on Invested Capital,0.1748322620898812
+Return on Investment,0.04035546894461284
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.0053
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,156.5
-Recommendation Key,1
-SUM ANALYST RATING SCORE,157.5
+Target High Price Diff Current Price,249.72000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,349.72
 
 
 

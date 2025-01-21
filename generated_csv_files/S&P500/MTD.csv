@@ -5,27 +5,27 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.mt.com
-Price,1290.42
+Price,1295.43
 Currency,USD
 
 REVENUE
-Total Revenue,3788308992.0
-Revenue Per Share,173.393
-Revenue Growth,-0.116
+Total Revenue,3762225920.0
+Revenue Per Share,176.102
+Revenue Growth,0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=35.62, forward_eps=44.44)"
-Net Earnings,788777984.0
-Earnings Growth,-0.282
+Earnings Per Share,"EarningsPerShare(trailing_eps=37.05, forward_eps=42.6)"
+Net Earnings,795633024.0
+Earnings Growth,0.081
 
 DEBT
-Total Debt,2196284928.0
+Total Debt,2077485056.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.20820999
-Gross Profit Margins,0.59163
-Operating Margins,0.28430998
+Profit Margins,0.21148
+Gross Profit Margins,0.59484
+Operating Margins,0.29361
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.0642119626141083e-06
-Enterprise to EBITDA,25.637
+Price to Cash Flow,1.6890856522906599e-06
+Enterprise to EBITDA,25.684
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=42.398933, forward_pe=33.984024)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=35.62, forward_eps=44.44)"
-Enterprise to Revenue,7.878
+Price to Earnings,"PriceToEarnings(trailing_pe=35.249393, forward_pe=30.657043)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=37.05, forward_eps=42.6)"
+Enterprise to Revenue,7.799
 
 CASH FLOW
-Free to Cash Flow,731635136.0
-Operating to Cash Flow,965873984.0
+Free to Cash Flow,773193472.0
+Operating to Cash Flow,983664000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.19847
-Return on Invested Capital,0.35914192026974723
-Return on Investment,0.15964257200105245
+Return on Assets,0.20142001
+Return on Invested Capital,0.3829789410533829
+Return on Investment,0.13757184770204378
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
+Target High Price Diff Current Price,194.01
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+SUM ANALYST RATING SCORE,194.01
 
 
 

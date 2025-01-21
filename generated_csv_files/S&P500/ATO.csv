@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,ATO
 Company,Atmos Energy Corporation
 Country,United States
-Industry,Utilities—Regulated Gas
+Industry,Utilities - Regulated Gas
 Sector,Utilities
 Website,https://www.atmosenergy.com
-Price,119.69
+Price,145.37
 Currency,USD
 
 REVENUE
-Total Revenue,4056069120.0
-Revenue Per Share,27.232
-Revenue Growth,0.069
+Total Revenue,4094885120.0
+Revenue Per Share,27.161
+Revenue Growth,0.059
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.63, forward_eps=7.05)"
-Net Earnings,999043008.0
-Earnings Growth,0.149
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.83, forward_eps=7.14)"
+Net Earnings,1026852992.0
+Earnings Growth,0.148
 
 DEBT
-Total Debt,7535708160.0
-Debt to Equity,64.859
+Total Debt,7876078080.0
+Debt to Equity,64.648
 
 MARGINS
-Profit Margins,0.24646
-Gross Profit Margins,0.56552
-Operating Margins,0.3377
+Profit Margins,0.2509
+Gross Profit Margins,0.57717997
+Operating Margins,0.32149
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.22
-Dividend Yield,0.0275
-Dividend Payout Ratio,0.4661
-Five Year Avg Dividend Yield,2.39
-Trailing Annual Dividend Rate,3.09
-Trailing Annual Dividend Yield,0.025816692
+Dividend Rate,3.48
+Dividend Yield,0.023699999
+Dividend Payout Ratio,0.4714
+Five Year Avg Dividend Yield,2.45
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,64.859
-Price to Cash Flow,-7.553768910645806e-08
-Enterprise to EBITDA,12.835
-Price to Book,1.5216403
-Price to Earnings,"PriceToEarnings(trailing_pe=17.674208, forward_pe=16.621277)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.63, forward_eps=7.05)"
-Enterprise to Revenue,6.088
+Debt to Equity,64.648
+Price to Cash Flow,-9.390648649100312e-08
+Enterprise to EBITDA,14.931
+Price to Book,1.8695291
+Price to Earnings,"PriceToEarnings(trailing_pe=21.483162, forward_pe=20.55042)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.83, forward_eps=7.14)"
+Enterprise to Revenue,7.263
 
 CASH FLOW
-Free to Cash Flow,-1551278592.0
-Operating to Cash Flow,1558899968.0
+Free to Cash Flow,-1562511872.0
+Operating to Cash Flow,1641298944.0
 
 PROFITABILITY
-Return on Equity,0.09161
-Return on Assets,0.03542
-Return on Invested Capital,0.13257453401573446
-Return on Investment,-0.004052560986591834
+Return on Equity,0.090179995
+Return on Assets,0.03579
+Return on Invested Capital,0.13037618105576546
+Return on Investment,-0.004017641780066201
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0239
-SUM DIVIDEND SCORE,9.0239
+5 Year Average,0.0245
+SUM DIVIDEND SCORE,5.0245
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,15.819999999999993
-Recommendation Key,0
-SUM ANALYST RATING SCORE,15.819999999999993
+Target High Price Diff Current Price,18.27000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,118.27000000000001
 
 
 

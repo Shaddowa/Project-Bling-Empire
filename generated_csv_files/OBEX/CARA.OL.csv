@@ -1,58 +1,58 @@
 GENERAL STOCK INFO
 Ticker,CARA.OL
-Company,Carasent ASA
-Country,Norway
+Company,Carasent AB (publ)
+Country,Sweden
 Industry,Health Information Services
 Sector,Healthcare
 Website,https://carasent.com
-Price,18.6
+Price,21.1
 Currency,NOK
 
 REVENUE
-Total Revenue,250948000.0
-Revenue Per Share,3.615
-Revenue Growth,0.116
+Total Revenue,264795008.0
+Revenue Per Share,3.645
+Revenue Growth,0.194
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.74, forward_eps=0.27)"
-Net Earnings,-55960000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.14, forward_eps=0.51)"
+Net Earnings,-7938000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,48761000.0
-Debt to Equity,5.16
+Total Debt,44031000.0
+Debt to Equity,4.656
 
 MARGINS
-Profit Margins,-0.22298999
-Gross Profit Margins,0.82037
-Operating Margins,-0.13885
+Profit Margins,-0.029979998
+Gross Profit Margins,0.83942
+Operating Margins,-0.13223
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.84
-Dividend Yield,0.098400004
+Dividend Yield,0.0963
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,None
 Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,5.16
-Price to Cash Flow,-4.135978590228474e-07
-Enterprise to EBITDA,-45.752
-Price to Book,1.3919905
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=69.25926)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.74, forward_eps=0.27)"
-Enterprise to Revenue,3.946
+Debt to Equity,4.656
+Price to Cash Flow,-1.626411015615519e-07
+Enterprise to EBITDA,-90.377
+Price to Book,1.5098389
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=41.37255)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.14, forward_eps=0.51)"
+Enterprise to Revenue,4.19
 
 CASH FLOW
-Free to Cash Flow,-45213000.0
-Operating to Cash Flow,-4022000.0
+Free to Cash Flow,-129733504.0
+Operating to Cash Flow,25002000.0
 
 PROFITABILITY
-Return on Equity,-0.05099
-Return on Assets,-0.01578
-Return on Invested Capital,-1.1476381653909657
+Return on Equity,-0.007900001
+Return on Assets,-0.01434
+Return on Invested Capital,-0.18028201677360986
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.800000000000001
+Target High Price Diff Current Price,5.899999999999999
 Recommendation Key,0
-SUM ANALYST RATING SCORE,7.800000000000001
+SUM ANALYST RATING SCORE,5.899999999999999
 
 
 

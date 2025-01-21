@@ -5,68 +5,68 @@ Country,United States
 Industry,"Furnishings, Fixtures & Appliances"
 Sector,Consumer Cyclical
 Website,https://www.whirlpoolcorp.com
-Price,95.15
+Price,130.01
 Currency,USD
 
 REVENUE
-Total Revenue,19296000000.0
-Revenue Per Share,350.677
-Revenue Growth,-0.034
+Total Revenue,17558999040.0
+Revenue Per Share,318.82
+Revenue Growth,-0.189
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=13.97)"
-Net Earnings,401000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.15, forward_eps=11.55)"
+Net Earnings,560000000.0
+Earnings Growth,0.309
 
 DEBT
-Total Debt,8432999936.0
-Debt to Equity,323.103
+Total Debt,8078000128.0
+Debt to Equity,245.308
 
 MARGINS
-Profit Margins,0.02078
-Gross Profit Margins,0.15800999
-Operating Margins,0.036530003
+Profit Margins,0.031889997
+Gross Profit Margins,0.15388
+Operating Margins,0.06061
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,7.0
-Dividend Yield,0.073699996
-Dividend Payout Ratio,0.9629
-Five Year Avg Dividend Yield,3.88
+Dividend Yield,0.0538
+Dividend Payout Ratio,0.689
+Five Year Avg Dividend Yield,4.34
 Trailing Annual Dividend Rate,7.0
-Trailing Annual Dividend Yield,0.073568046
+Trailing Annual Dividend Yield,0.053842016
 
 FINANCIAL RATIO
-Debt to Equity,323.103
-Price to Cash Flow,-9.673282442748093e-07
-Enterprise to EBITDA,9.227
-Price to Book,2.2205608
-Price to Earnings,"PriceToEarnings(trailing_pe=13.072903, forward_pe=6.8031497)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.27, forward_eps=13.97)"
-Enterprise to Revenue,0.656
+Debt to Equity,245.308
+Price to Cash Flow,-3.2496894409937893e-06
+Enterprise to EBITDA,12.351
+Price to Book,2.3648956
+Price to Earnings,"PriceToEarnings(trailing_pe=12.886701, forward_pe=11.324676)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.15, forward_eps=11.55)"
+Enterprise to Revenue,0.821
 
 CASH FLOW
-Free to Cash Flow,-98250000.0
-Operating to Cash Flow,519000000.0
+Free to Cash Flow,-40250000.0
+Operating to Cash Flow,966000000.0
 
 PROFITABILITY
-Return on Equity,0.16969
-Return on Assets,0.03812
-Return on Invested Capital,0.04755128673165982
-Return on Investment,0.026381578947368423
+Return on Equity,0.20857
+Return on Assets,0.03132
+Return on Invested Capital,0.06932408854818899
+Return on Investment,0.02857142857142857
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0388
-SUM DIVIDEND SCORE,7.0388
+5 Year Average,0.0434
+SUM DIVIDEND SCORE,4.0434
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,124.96
+Target High Price Diff Current Price,7.199999999999989
 Recommendation Key,0
-SUM ANALYST RATING SCORE,124.96
+SUM ANALYST RATING SCORE,7.199999999999989
 
 
 

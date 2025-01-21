@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.williams.com
-Price,39.58
+Price,59.14
 Currency,USD
 
 REVENUE
-Total Revenue,10156000256.0
-Revenue Per Share,8.342
-Revenue Growth,0.08
+Total Revenue,10366000128.0
+Revenue Per Share,8.507
+Revenue Growth,0.045
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.44, forward_eps=2.04)"
-Net Earnings,2977999872.0
-Earnings Growth,-0.318
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.36, forward_eps=2.09)"
+Net Earnings,2883000064.0
+Earnings Growth,0.077
 
 DEBT
-Total Debt,26887000064.0
-Debt to Equity,180.087
+Total Debt,27108999168.0
+Debt to Equity,182.368
 
 MARGINS
-Profit Margins,0.28397
-Gross Profit Margins,0.60703
-Operating Margins,0.36799
+Profit Margins,0.27754
+Gross Profit Margins,0.60688996
+Operating Margins,0.32817
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.9
-Dividend Yield,0.0479
-Dividend Payout Ratio,0.7449
-Five Year Avg Dividend Yield,6.13
-Trailing Annual Dividend Rate,1.818
-Trailing Annual Dividend Yield,0.045932285
+Dividend Yield,0.0321
+Dividend Payout Ratio,0.7934
+Five Year Avg Dividend Yield,5.86
+Trailing Annual Dividend Rate,1.873
+Trailing Annual Dividend Yield,0.03167061
 
 FINANCIAL RATIO
-Debt to Equity,180.087
-Price to Cash Flow,2.8587396963059567e-08
-Enterprise to EBITDA,12.882
-Price to Book,3.8923802
-Price to Earnings,"PriceToEarnings(trailing_pe=16.245901, forward_pe=19.431372)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.44, forward_eps=2.04)"
-Enterprise to Revenue,7.586
+Debt to Equity,182.368
+Price to Cash Flow,5.0538646923383895e-08
+Enterprise to EBITDA,17.209
+Price to Book,5.940789
+Price to Earnings,"PriceToEarnings(trailing_pe=25.593222, forward_pe=28.899523)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.36, forward_eps=2.09)"
+Enterprise to Revenue,9.735
 
 CASH FLOW
-Free to Cash Flow,1386625024.0
-Operating to Cash Flow,5657999872.0
+Free to Cash Flow,1195124992.0
+Operating to Cash Flow,5568999936.0
 
 PROFITABILITY
-Return on Equity,0.21229
-Return on Assets,0.04755
-Return on Invested Capital,0.11075984169983234
-Return on Investment,1.2947825530434782
+Return on Equity,0.20583001
+Return on Assets,0.04398
+Return on Invested Capital,0.10634845075069779
+Return on Investment,0.22348837705426355
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0613
-SUM DIVIDEND SCORE,8.0613
+5 Year Average,0.058600000000000006
+SUM DIVIDEND SCORE,8.0586
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.359999999999999
-Recommendation Key,0
-SUM ANALYST RATING SCORE,7.359999999999999
+Target High Price Diff Current Price,13.600000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,113.6
 
 
 

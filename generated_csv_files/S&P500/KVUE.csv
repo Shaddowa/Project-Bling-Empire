@@ -5,55 +5,55 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.kenvue.com
-Price,20.54
+Price,21.1
 Currency,USD
 
 REVENUE
-Total Revenue,15486000128.0
-Revenue Per Share,8.168
-Revenue Growth,0.011
+Total Revenue,15459000320.0
+Revenue Per Share,8.072
+Revenue Growth,-0.004
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=1.24)"
-Net Earnings,1491000064.0
-Earnings Growth,-0.22
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.55, forward_eps=1.22)"
+Net Earnings,1064000000.0
+Earnings Growth,-0.125
 
 DEBT
-Total Debt,8426999808.0
-Debt to Equity,75.167
+Total Debt,8826999808.0
+Debt to Equity,82.929
 
 MARGINS
-Profit Margins,0.09628
-Gross Profit Margins,0.56754
-Operating Margins,0.19646
+Profit Margins,0.06883
+Gross Profit Margins,0.57902
+Operating Margins,0.19850999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.8
+Dividend Rate,0.82
 Dividend Yield,0.038900003
-Dividend Payout Ratio,0.7705
+Dividend Payout Ratio,1.4636
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,0.6
-Trailing Annual Dividend Yield,0.029211296
+Trailing Annual Dividend Rate,0.805
+Trailing Annual Dividend Yield,0.03815166
 
 FINANCIAL RATIO
-Debt to Equity,75.167
-Price to Cash Flow,None
-Enterprise to EBITDA,12.874
-Price to Book,3.508712
-Price to Earnings,"PriceToEarnings(trailing_pe=26.333336, forward_pe=16.564516)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.78, forward_eps=1.24)"
-Enterprise to Revenue,2.994
+Debt to Equity,82.929
+Price to Cash Flow,1.3629410815525622e-08
+Enterprise to EBITDA,13.962
+Price to Book,3.729073
+Price to Earnings,"PriceToEarnings(trailing_pe=37.663635, forward_pe=16.979507)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.55, forward_eps=1.22)"
+Enterprise to Revenue,3.119
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,1519874944.0
+Operating to Cash Flow,1926000000.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,None
-Return on Invested Capital,0.1769313037777447
-Return on Investment,0.04424332534124629
+Return on Equity,0.098809995
+Return on Assets,0.065
+Return on Invested Capital,0.12053925710591841
+Return on Investment,0.023697104677060134
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,4.5
-Recommendation Key,0
-SUM ANALYST RATING SCORE,4.5
+Target High Price Diff Current Price,6.285
+Recommendation Key,100
+SUM ANALYST RATING SCORE,106.285
 
 
 

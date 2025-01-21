@@ -5,68 +5,68 @@ Country,Norway
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.leroyseafood.com
-Price,49.3
+Price,52.45
 Currency,NOK
 
 REVENUE
-Total Revenue,30869712896.0
-Revenue Per Share,52.11
-Revenue Growth,0.157
+Total Revenue,30988247040.0
+Revenue Per Share,51.868
+Revenue Growth,-0.003
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.46, forward_eps=5.12)"
-Net Earnings,272502016.0
-Earnings Growth,2.593
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.55, forward_eps=4.99)"
+Net Earnings,1615789952.0
+Earnings Growth,None
 
 DEBT
-Total Debt,10964849664.0
-Debt to Equity,55.109
+Total Debt,11415782400.0
+Debt to Equity,58.145
 
 MARGINS
-Profit Margins,0.00883
-Gross Profit Margins,0.43682
-Operating Margins,0.11959
+Profit Margins,0.05214
+Gross Profit Margins,0.43118998
+Operating Margins,0.14187
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.5
-Dividend Yield,0.050300002
-Dividend Payout Ratio,5.4347997
-Five Year Avg Dividend Yield,3.75
-Trailing Annual Dividend Rate,2.5
-Trailing Annual Dividend Yield,0.05070994
+Dividend Yield,0.049000002
+Dividend Payout Ratio,0.70419997
+Five Year Avg Dividend Yield,3.93
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,55.109
-Price to Cash Flow,6.47301974547024e-08
-Enterprise to EBITDA,8.9
-Price to Book,1.5843477
-Price to Earnings,"PriceToEarnings(trailing_pe=108.08696, forward_pe=9.7109375)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.46, forward_eps=5.12)"
-Enterprise to Revenue,1.213
+Debt to Equity,58.145
+Price to Cash Flow,9.522526838405947e-08
+Enterprise to EBITDA,10.683
+Price to Book,1.669747
+Price to Earnings,"PriceToEarnings(trailing_pe=14.760564, forward_pe=10.501003)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.55, forward_eps=4.99)"
+Enterprise to Revenue,1.285
 
 CASH FLOW
-Free to Cash Flow,768111360.0
-Operating to Cash Flow,3337244928.0
+Free to Cash Flow,550274112.0
+Operating to Cash Flow,3310312960.0
 
 PROFITABILITY
-Return on Equity,0.010290001
-Return on Assets,0.052800003
-Return on Invested Capital,0.024852325710836513
-Return on Investment,-0.01353731133598613
+Return on Equity,0.07674
+Return on Assets,0.043509997
+Return on Invested Capital,0.1415400093433974
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0375
-SUM DIVIDEND SCORE,4.0375
+5 Year Average,0.0393
+SUM DIVIDEND SCORE,4.0393
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.280000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.280000000000001
+Target High Price Diff Current Price,17.6
+Recommendation Key,100
+SUM ANALYST RATING SCORE,117.6
 
 
 

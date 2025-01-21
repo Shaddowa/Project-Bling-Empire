@@ -5,55 +5,55 @@ Country,United States
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.corning.com
-Price,34.2
+Price,49.84
 Currency,USD
 
 REVENUE
-Total Revenue,12385000448.0
-Revenue Per Share,14.571
-Revenue Growth,-0.064
+Total Revenue,12611000320.0
+Revenue Per Share,14.806
+Revenue Growth,0.069
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=2.18)"
-Net Earnings,614000000.0
-Earnings Growth,0.2
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.19, forward_eps=2.31)"
+Net Earnings,156000000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,8290999808.0
-Debt to Equity,71.728
+Total Debt,8341000192.0
+Debt to Equity,72.739
 
 MARGINS
-Profit Margins,0.04958
-Gross Profit Margins,0.33944
-Operating Margins,0.086389996
+Profit Margins,0.01237
+Gross Profit Margins,0.33661
+Operating Margins,0.11236
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.12
-Dividend Yield,0.0328
-Dividend Payout Ratio,1.5555999
+Dividend Yield,0.0225
+Dividend Payout Ratio,5.8946996
 Five Year Avg Dividend Yield,2.94
 Trailing Annual Dividend Rate,1.12
-Trailing Annual Dividend Yield,0.03274854
+Trailing Annual Dividend Yield,0.02247191
 
 FINANCIAL RATIO
-Debt to Equity,71.728
-Price to Cash Flow,1.0445548593242304e-07
-Enterprise to EBITDA,13.785
-Price to Book,2.4928868
-Price to Earnings,"PriceToEarnings(trailing_pe=47.45833, forward_pe=15.674311)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.72, forward_eps=2.18)"
-Enterprise to Revenue,2.95
+Debt to Equity,72.739
+Price to Cash Flow,4.621703744868508e-08
+Enterprise to EBITDA,19.089
+Price to Book,3.7741935
+Price to Earnings,"PriceToEarnings(trailing_pe=270.94736, forward_pe=22.285715)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.19, forward_eps=2.31)"
+Enterprise to Revenue,3.946
 
 CASH FLOW
-Free to Cash Flow,327124992.0
-Operating to Cash Flow,2150000128.0
+Free to Cash Flow,1113874944.0
+Operating to Cash Flow,2028999936.0
 
 PROFITABILITY
-Return on Equity,0.057389997
-Return on Assets,0.02846
-Return on Invested Capital,0.07405620711659672
-Return on Investment,-0.010442176870748299
+Return on Equity,0.019299999
+Return on Assets,0.02754
+Return on Invested Capital,0.01870279296894349
+Return on Investment,-0.005032258064516129
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,7.0294
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,5.829999999999998
-Recommendation Key,1
-SUM ANALYST RATING SCORE,6.829999999999998
+Target High Price Diff Current Price,8.520000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,108.52000000000001
 
 
 

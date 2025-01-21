@@ -5,55 +5,55 @@ Country,United States
 Industry,Lodging
 Sector,Consumer Cyclical
 Website,https://www.hilton.com
-Price,203.48
+Price,246.61
 Currency,USD
 
 REVENUE
-Total Revenue,4524000256.0
-Revenue Per Share,17.501
-Revenue Growth,0.124
+Total Revenue,4695000064.0
+Revenue Per Share,18.724
+Revenue Growth,0.063
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.6, forward_eps=8.25)"
-Net Earnings,1200000000.0
-Earnings Growth,0.351
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=7.99)"
+Net Earnings,1176999936.0
+Earnings Growth,-0.042
 
 DEBT
-Total Debt,10947999744.0
+Total Debt,11962000384.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.26525
-Gross Profit Margins,0.74867
-Operating Margins,0.5
+Profit Margins,0.25069
+Gross Profit Margins,0.76038
+Operating Margins,0.50161
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.6
-Dividend Yield,0.0029
-Dividend Payout Ratio,0.1304
+Dividend Yield,0.0023999999
+Dividend Payout Ratio,0.1282
 Five Year Avg Dividend Yield,0.8
 Trailing Annual Dividend Rate,0.6
-Trailing Annual Dividend Yield,0.002948693
+Trailing Annual Dividend Yield,0.0024329915
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,1.3831657297371804e-07
-Enterprise to EBITDA,25.265
+Price to Cash Flow,1.6271602318807614e-07
+Enterprise to EBITDA,28.71
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=45.234783, forward_pe=25.221819)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.6, forward_eps=8.25)"
-Enterprise to Revenue,13.627
+Price to Earnings,"PriceToEarnings(trailing_pe=52.94776, forward_pe=31.079475)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.69, forward_eps=7.99)"
+Enterprise to Revenue,15.025
 
 CASH FLOW
-Free to Cash Flow,1504375040.0
-Operating to Cash Flow,1962000000.0
+Free to Cash Flow,1526125056.0
+Operating to Cash Flow,1896000000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.092080005
-Return on Invested Capital,0.1096090636917116
-Return on Investment,0.016216216216216217
+Return on Assets,0.09082
+Return on Invested Capital,0.09839490884569346
+Return on Investment,0.013329557599093997
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.008
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,45.91999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,46.91999999999999
+Target High Price Diff Current Price,47.67500000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,147.675
 
 
 

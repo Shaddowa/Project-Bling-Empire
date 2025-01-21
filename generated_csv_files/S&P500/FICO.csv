@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,FICO
 Company,Fair Isaac Corporation
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.fico.com
-Price,1286.78
+Price,1900.54
 Currency,USD
 
 REVENUE
-Total Revenue,1604289024.0
-Revenue Per Share,64.581
-Revenue Growth,0.141
+Total Revenue,1717526016.0
+Revenue Per Share,69.603
+Revenue Growth,0.164
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.0, forward_eps=29.14)"
-Net Earnings,481046016.0
-Earnings Growth,0.29
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.53, forward_eps=37.17)"
+Net Earnings,512811008.0
+Earnings Growth,0.353
 
 DEBT
-Total Debt,2078796032.0
+Total Debt,2252945920.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.29985002
-Gross Profit Margins,0.79737
-Operating Margins,0.44914
+Profit Margins,0.29858
+Gross Profit Margins,0.79726
+Operating Margins,0.4345
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,3.181443985207177e-06
-Enterprise to EBITDA,49.61
+Price to Cash Flow,3.5479072195560597e-06
+Enterprise to EBITDA,64.721
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=69.92684, forward_pe=45.59403)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=19.0, forward_eps=29.14)"
-Enterprise to Revenue,21.676
+Price to Earnings,"PriceToEarnings(trailing_pe=92.00146, forward_pe=50.814907)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=20.53, forward_eps=37.17)"
+Enterprise to Revenue,28.166
 
 CASH FLOW
-Free to Cash Flow,417612256.0
-Operating to Cash Flow,479825984.0
+Free to Cash Flow,532367360.0
+Operating to Cash Flow,632963968.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.26865
-Return on Invested Capital,0.23140607133763685
-Return on Investment,0.025923316142591545
+Return on Assets,0.27847
+Return on Invested Capital,0.2276179878225391
+Return on Investment,0.027611307470722844
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0009
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,171.3900000000001
-Recommendation Key,0
-SUM ANALYST RATING SCORE,171.3900000000001
+Target High Price Diff Current Price,772.21
+Recommendation Key,100
+SUM ANALYST RATING SCORE,872.21
 
 
 

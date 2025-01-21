@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,AEE
 Company,Ameren Corporation
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.amereninvestors.com
-Price,74.77
+Price,94.17
 Currency,USD
 
 REVENUE
-Total Revenue,7017999872.0
-Revenue Per Share,26.598
-Revenue Growth,-0.124
+Total Revenue,7057999872.0
+Revenue Per Share,26.546
+Revenue Growth,0.056
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.36, forward_eps=4.9)"
-Net Earnings,1148999936.0
-Earnings Growth,-0.02
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.25, forward_eps=4.92)"
+Net Earnings,1132999936.0
+Earnings Growth,-0.091
 
 DEBT
-Total Debt,17184000000.0
-Debt to Equity,148.496
+Total Debt,18299000832.0
+Debt to Equity,152.976
 
 MARGINS
-Profit Margins,0.16372
-Gross Profit Margins,0.50385
-Operating Margins,0.25631002
+Profit Margins,0.16053
+Gross Profit Margins,0.51148
+Operating Margins,0.31766
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.68
-Dividend Yield,0.036
-Dividend Payout Ratio,0.5872
-Five Year Avg Dividend Yield,2.7
-Trailing Annual Dividend Rate,2.56
-Trailing Annual Dividend Yield,0.03423833
+Dividend Yield,0.028499998
+Dividend Payout Ratio,0.62119997
+Five Year Avg Dividend Yield,2.8
+Trailing Annual Dividend Rate,2.64
+Trailing Annual Dividend Yield,0.028034408
 
 FINANCIAL RATIO
-Debt to Equity,148.496
-Price to Cash Flow,-6.146220732489933e-08
-Enterprise to EBITDA,11.58
-Price to Book,1.7333769
-Price to Earnings,"PriceToEarnings(trailing_pe=17.06422, forward_pe=15.183674)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.36, forward_eps=4.9)"
-Enterprise to Revenue,5.282
+Debt to Equity,152.976
+Price to Cash Flow,-4.633699028332447e-08
+Enterprise to EBITDA,13.342
+Price to Book,2.179542
+Price to Earnings,"PriceToEarnings(trailing_pe=22.73647, forward_pe=19.640244)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.25, forward_eps=4.92)"
+Enterprise to Revenue,6.17
 
 CASH FLOW
-Free to Cash Flow,-1210499968.0
-Operating to Cash Flow,2560000000.0
+Free to Cash Flow,-2085374976.0
+Operating to Cash Flow,2479000064.0
 
 PROFITABILITY
-Return on Equity,0.10346
-Return on Assets,0.029690001
-Return on Invested Capital,0.06686452124825658
-Return on Investment,-0.004530756845425868
+Return on Equity,0.09838
+Return on Assets,0.02856
+Return on Invested Capital,0.06191594522874967
+Return on Investment,-0.0048294967433930094
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.027000000000000003
-SUM DIVIDEND SCORE,9.027
+5 Year Average,0.027999999999999997
+SUM DIVIDEND SCORE,8.028
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,8.599999999999994
-Recommendation Key,0
-SUM ANALYST RATING SCORE,8.599999999999994
+Target High Price Diff Current Price,9.370000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,109.37
 
 
 

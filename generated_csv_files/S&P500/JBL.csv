@@ -5,68 +5,68 @@ Country,United States
 Industry,Electronic Components
 Sector,Technology
 Website,https://www.jabil.com
-Price,117.93
+Price,162.9
 Currency,USD
 
 REVENUE
-Total Revenue,32086999040.0
-Revenue Per Share,247.585
-Revenue Growth,-0.168
+Total Revenue,28882999296.0
+Revenue Per Share,235.972
+Revenue Growth,-0.177
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.54, forward_eps=10.5)"
-Net Earnings,1508999936.0
-Earnings Growth,3.809
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.57, forward_eps=10.01)"
+Net Earnings,1388000000.0
+Earnings Growth,0.016
 
 DEBT
-Total Debt,3252000000.0
-Debt to Equity,122.348
+Total Debt,3611000064.0
+Debt to Equity,207.887
 
 MARGINS
-Profit Margins,0.047030002
-Gross Profit Margins,0.089379996
-Operating Margins,0.04522
+Profit Margins,0.048060004
+Gross Profit Margins,0.092650004
+Operating Margins,0.05327
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.32
-Dividend Yield,0.0027
-Dividend Payout Ratio,0.0277
-Five Year Avg Dividend Yield,0.63
-Trailing Annual Dividend Rate,0.32
-Trailing Annual Dividend Yield,0.002713474
+Dividend Yield,0.0022
+Dividend Payout Ratio,0.030199999
+Five Year Avg Dividend Yield,0.54
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,122.348
-Price to Cash Flow,9.246448109638745e-08
-Enterprise to EBITDA,6.318
-Price to Book,5.4334807
-Price to Earnings,"PriceToEarnings(trailing_pe=10.22097, forward_pe=11.233333)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.54, forward_eps=10.5)"
-Enterprise to Revenue,0.464
+Debt to Equity,207.887
+Price to Cash Flow,7.632125737553714e-08
+Enterprise to EBITDA,8.212
+Price to Book,10.936415
+Price to Earnings,"PriceToEarnings(trailing_pe=15.800379, forward_pe=16.684315)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.57, forward_eps=10.01)"
+Enterprise to Revenue,0.609
 
 CASH FLOW
-Free to Cash Flow,1275624960.0
-Operating to Cash Flow,1820000000.0
+Free to Cash Flow,2188250112.0
+Operating to Cash Flow,1716000000.0
 
 PROFITABILITY
-Return on Equity,0.56602
-Return on Assets,0.054169998
-Return on Invested Capital,0.46402211744372934
-Return on Investment,-0.02728752144665461
+Return on Equity,0.60295
+Return on Assets,0.04918
+Return on Invested Capital,0.38438104944052337
+Return on Investment,-0.05237735849056604
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0063
-SUM DIVIDEND SCORE,4.0063
+5 Year Average,0.0054
+SUM DIVIDEND SCORE,4.0054
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,42.05
-Recommendation Key,1
-SUM ANALYST RATING SCORE,43.05
+Target High Price Diff Current Price,12.990000000000009
+Recommendation Key,100
+SUM ANALYST RATING SCORE,112.99000000000001
 
 
 

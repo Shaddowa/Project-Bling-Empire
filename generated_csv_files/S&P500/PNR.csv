@@ -5,68 +5,68 @@ Country,United Kingdom
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.pentair.com
-Price,83.85
+Price,103.02
 Currency,USD
 
 REVENUE
-Total Revenue,4093100032.0
-Revenue Per Share,24.758
-Revenue Growth,-0.011
+Total Revenue,4094500096.0
+Revenue Per Share,24.722
+Revenue Growth,-0.015
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.77, forward_eps=4.78)"
-Net Earnings,627900032.0
-Earnings Growth,0.015
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.0, forward_eps=4.85)"
+Net Earnings,667299968.0
+Earnings Growth,0.063
 
 DEBT
-Total Debt,2206400000.0
-Debt to Equity,66.314
+Total Debt,1741500032.0
+Debt to Equity,49.774
 
 MARGINS
-Profit Margins,0.15301
-Gross Profit Margins,0.37319002
-Operating Margins,0.19937
+Profit Margins,0.16290002
+Gross Profit Margins,0.38723
+Operating Margins,0.21039
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.92
-Dividend Yield,0.011
-Dividend Payout Ratio,0.2361
-Five Year Avg Dividend Yield,1.53
-Trailing Annual Dividend Rate,0.89
-Trailing Annual Dividend Yield,0.010614192
+Dividend Rate,1.0
+Dividend Yield,0.0097
+Dividend Payout Ratio,0.2275
+Five Year Avg Dividend Yield,1.42
+Trailing Annual Dividend Rate,0.91
+Trailing Annual Dividend Yield,0.008833237
 
 FINANCIAL RATIO
-Debt to Equity,66.314
-Price to Cash Flow,1.996286275003797e-07
-Enterprise to EBITDA,17.612
-Price to Book,4.1576843
-Price to Earnings,"PriceToEarnings(trailing_pe=22.100796, forward_pe=17.430962)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.77, forward_eps=4.78)"
-Enterprise to Revenue,3.892
+Debt to Equity,49.774
+Price to Cash Flow,1.8384615384615385e-07
+Enterprise to EBITDA,18.949
+Price to Book,4.966234
+Price to Earnings,"PriceToEarnings(trailing_pe=26.29, forward_pe=21.682476)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.0, forward_eps=4.85)"
+Enterprise to Revenue,4.529
 
 CASH FLOW
-Free to Cash Flow,417375008.0
-Operating to Cash Flow,618200000.0
+Free to Cash Flow,572000000.0
+Operating to Cash Flow,798700032.0
 
 PROFITABILITY
-Return on Equity,0.20464
-Return on Assets,0.07362
-Return on Invested Capital,0.2845812301926179
-Return on Investment,0.04251185050778605
+Return on Equity,0.20408002
+Return on Assets,0.08383001
+Return on Invested Capital,0.3831753934106509
+Return on Investment,0.052501964437450824
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.015300000000000001
-SUM DIVIDEND SCORE,8.0153
+5 Year Average,0.014199999999999999
+SUM DIVIDEND SCORE,8.0142
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,19.680000000000007
-Recommendation Key,1
-SUM ANALYST RATING SCORE,20.680000000000007
+Target High Price Diff Current Price,20.840000000000003
+Recommendation Key,100
+SUM ANALYST RATING SCORE,120.84
 
 
 

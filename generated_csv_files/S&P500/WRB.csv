@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,WRB
 Company,W. R. Berkley Corporation
 Country,United States
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.berkley.com
-Price,78.79
+Price,59.5
 Currency,USD
 
 REVENUE
-Total Revenue,12504707072.0
-Revenue Per Share,46.433
-Revenue Growth,0.125
+Total Revenue,13192565760.0
+Revenue Per Share,32.89
+Revenue Growth,0.122
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.63, forward_eps=6.46)"
-Net Earnings,1529703936.0
-Earnings Growth,0.547
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.9, forward_eps=4.35)"
+Net Earnings,1577352960.0
+Earnings Growth,0.11
 
 DEBT
-Total Debt,3070380032.0
-Debt to Equity,39.371
+Total Debt,3062192896.0
+Debt to Equity,36.284
 
 MARGINS
-Profit Margins,0.122329995
-Gross Profit Margins,0.43877
-Operating Margins,0.18197
+Profit Margins,0.11956
+Gross Profit Margins,0.43777
+Operating Margins,0.15609999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.44
-Dividend Yield,0.0055
-Dividend Payout Ratio,0.078200005
-Five Year Avg Dividend Yield,0.63
-Trailing Annual Dividend Rate,0.44
-Trailing Annual Dividend Yield,0.005584465
+Dividend Rate,0.32
+Dividend Yield,0.0054
+Dividend Payout Ratio,0.0787
+Five Year Avg Dividend Yield,0.62
+Trailing Annual Dividend Rate,0.307
+Trailing Annual Dividend Yield,0.005159664
 
 FINANCIAL RATIO
-Debt to Equity,39.371
-Price to Cash Flow,2.800700138225756e-08
+Debt to Equity,36.284
+Price to Cash Flow,1.7830606325910832e-08
 Enterprise to EBITDA,None
-Price to Book,2.627867
-Price to Earnings,"PriceToEarnings(trailing_pe=14.163409, forward_pe=12.343653)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.63, forward_eps=6.46)"
-Enterprise to Revenue,1.692
+Price to Book,2.7039132
+Price to Earnings,"PriceToEarnings(trailing_pe=15.325641, forward_pe=13.740231)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.9, forward_eps=4.35)"
+Enterprise to Revenue,1.77
 
 CASH FLOW
-Free to Cash Flow,2847145216.0
-Operating to Cash Flow,3230149888.0
+Free to Cash Flow,3352101376.0
+Operating to Cash Flow,3566411008.0
 
 PROFITABILITY
-Return on Equity,0.20728001
-Return on Assets,0.03619
-Return on Invested Capital,0.49821321951660547
-Return on Investment,0.09631743909733723
+Return on Equity,0.20537001
+Return on Assets,0.03595
+Return on Invested Capital,0.5151056782458125
+Return on Investment,0.10415214299391866
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,4.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0063
-SUM DIVIDEND SCORE,4.0063
+5 Year Average,0.0062
+SUM DIVIDEND SCORE,8.0062
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,18.260000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,19.260000000000005
+Target High Price Diff Current Price,15.229999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,115.22999999999999
 
 
 

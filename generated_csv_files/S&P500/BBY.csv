@@ -5,68 +5,68 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://corporate.bestbuy.com
-Price,74.16
+Price,81.9
 Currency,USD
 
 REVENUE
-Total Revenue,43451998208.0
-Revenue Per Share,199.596
-Revenue Growth,-0.006
+Total Revenue,42537000960.0
+Revenue Per Share,196.567
+Revenue Growth,-0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.68, forward_eps=6.69)"
-Net Earnings,1240999936.0
-Earnings Growth,-0.054
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.84, forward_eps=6.84)"
+Net Earnings,1260000000.0
+Earnings Growth,0.072
 
 DEBT
-Total Debt,3982000128.0
-Debt to Equity,130.429
+Total Debt,4097999872.0
+Debt to Equity,131.896
 
 MARGINS
-Profit Margins,0.02856
-Gross Profit Margins,0.221
-Operating Margins,0.049840003
+Profit Margins,0.02962
+Gross Profit Margins,0.22294001
+Operating Margins,0.04048
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.76
-Dividend Yield,0.0507
-Dividend Payout Ratio,0.6479
-Five Year Avg Dividend Yield,3.33
-Trailing Annual Dividend Rate,3.68
-Trailing Annual Dividend Yield,0.049622435
+Dividend Yield,0.0404
+Dividend Payout Ratio,0.6425
+Five Year Avg Dividend Yield,3.46
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,130.429
-Price to Cash Flow,1.2946977781233564e-07
-Enterprise to EBITDA,6.985
-Price to Book,5.2328205
-Price to Earnings,"PriceToEarnings(trailing_pe=13.058099, forward_pe=11.086697)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.68, forward_eps=6.69)"
-Enterprise to Revenue,0.426
+Debt to Equity,131.896
+Price to Cash Flow,5.92349913598301e-08
+Enterprise to EBITDA,8.41
+Price to Book,5.899887
+Price to Earnings,"PriceToEarnings(trailing_pe=14.319349, forward_pe=12.225877)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.84, forward_eps=6.84)"
+Enterprise to Revenue,0.529
 
 CASH FLOW
-Free to Cash Flow,572875008.0
-Operating to Cash Flow,1470000000.0
+Free to Cash Flow,1411750016.0
+Operating to Cash Flow,2106000000.0
 
 PROFITABILITY
-Return on Equity,0.42442
-Return on Assets,0.07016
-Return on Invested Capital,0.31165240876221256
-Return on Investment,-0.017959478089725037
+Return on Equity,0.4241
+Return on Assets,0.07219
+Return on Invested Capital,0.3074670656412265
+Return on Investment,-0.020757825370675453
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0333
-SUM DIVIDEND SCORE,8.0333
+5 Year Average,0.0346
+SUM DIVIDEND SCORE,4.0346
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,21.83
-Recommendation Key,0
-SUM ANALYST RATING SCORE,21.83
+Target High Price Diff Current Price,33.375
+Recommendation Key,100
+SUM ANALYST RATING SCORE,133.375
 
 
 

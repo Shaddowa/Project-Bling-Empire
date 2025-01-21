@@ -5,68 +5,68 @@ Country,United States
 Industry,Tools & Accessories
 Sector,Industrials
 Website,https://www.stanleyblackanddecker.com
-Price,88.16
+Price,84.27
 Currency,USD
 
 REVENUE
-Total Revenue,15718800384.0
-Revenue Per Share,104.851
-Revenue Growth,-0.016
+Total Revenue,15381699584.0
+Revenue Per Share,102.347
+Revenue Growth,-0.051
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.49, forward_eps=5.49)"
-Net Earnings,-74400000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=5.49)"
+Net Earnings,-184700000.0
+Earnings Growth,19.0
 
 DEBT
-Total Debt,8337399808.0
-Debt to Equity,93.928
+Total Debt,7005899776.0
+Debt to Equity,79.081
 
 MARGINS
-Profit Margins,-0.00657
-Gross Profit Margins,0.27441
-Operating Margins,0.05347
+Profit Margins,-0.0133299995
+Gross Profit Margins,0.30334
+Operating Margins,0.074990004
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.24
-Dividend Yield,0.0361
+Dividend Rate,3.28
+Dividend Yield,0.038900003
 Dividend Payout Ratio,3.0
-Five Year Avg Dividend Yield,2.5
-Trailing Annual Dividend Rate,3.23
-Trailing Annual Dividend Yield,0.03663793
+Five Year Avg Dividend Yield,2.73
+Trailing Annual Dividend Rate,3.25
+Trailing Annual Dividend Yield,0.038566515
 
 FINANCIAL RATIO
-Debt to Equity,93.928
-Price to Cash Flow,5.91953198018982e-08
-Enterprise to EBITDA,16.028
-Price to Book,1.5571809
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=16.364298)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-0.49, forward_eps=5.49)"
-Enterprise to Revenue,1.38
+Debt to Equity,79.081
+Price to Cash Flow,5.853327522419262e-08
+Enterprise to EBITDA,11.84
+Price to Book,1.5016009
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=15.719491)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.24, forward_eps=5.49)"
+Enterprise to Revenue,1.281
 
 CASH FLOW
-Free to Cash Flow,1517687552.0
-Operating to Cash Flow,1046600000.0
+Free to Cash Flow,1474375040.0
+Operating to Cash Flow,1197100032.0
 
 PROFITABILITY
-Return on Equity,-0.0081
-Return on Assets,0.020079998
-Return on Invested Capital,-0.008923645404862322
-Return on Investment,-0.0009492217402398571
+Return on Equity,-0.02031
+Return on Assets,0.02991
+Return on Invested Capital,-0.026363494253452087
+Return on Investment,-0.002695169998540785
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.025
-SUM DIVIDEND SCORE,5.025
+5 Year Average,0.0273
+SUM DIVIDEND SCORE,8.0273
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,20.159999999999997
+Target High Price Diff Current Price,48.7
 Recommendation Key,0
-SUM ANALYST RATING SCORE,20.159999999999997
+SUM ANALYST RATING SCORE,48.7
 
 
 

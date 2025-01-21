@@ -5,27 +5,27 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.solstad.com
-Price,48.22
+Price,40.0
 Currency,NOK
 
 REVENUE
-Total Revenue,6730333184.0
+Total Revenue,4108969984.0
 Revenue Per Share,85.953
-Revenue Growth,0.406
+Revenue Growth,-0.528
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.64, forward_eps=14.82)"
-Net Earnings,285152000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.11, forward_eps=10.87)"
+Net Earnings,-31834000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,15773256704.0
-Debt to Equity,864.501
+Total Debt,5781000192.0
+Debt to Equity,293.601
 
 MARGINS
-Profit Margins,0.059499998
-Gross Profit Margins,0.73581004
-Operating Margins,0.34338
+Profit Margins,-0.03452
+Gross Profit Margins,0.89399004
+Operating Margins,0.18277
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,864.501
-Price to Cash Flow,-4.419760036495085e-09
-Enterprise to EBITDA,6.877
-Price to Book,2.2064989
-Price to Earnings,"PriceToEarnings(trailing_pe=13.450549, forward_pe=3.3036437)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.64, forward_eps=14.82)"
-Enterprise to Revenue,2.868
+Debt to Equity,293.601
+Price to Cash Flow,None
+Enterprise to EBITDA,3.161
+Price to Book,1.7864708
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=3.646734)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.11, forward_eps=10.87)"
+Enterprise to Revenue,2.068
 
 CASH FLOW
-Free to Cash Flow,-11077524480.0
-Operating to Cash Flow,2675578112.0
+Free to Cash Flow,None
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.16118999
-Return on Assets,0.046630003
-Return on Invested Capital,0.018078194310154744
-Return on Investment,0.0008710066921801772
+Return on Equity,-0.01731
+Return on Assets,0.036530003
+Return on Invested Capital,-0.005506659543423992
+Return on Investment,-0.0001397361894519676
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0658
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,1
+Target High Price Diff Current Price,23.36
+Recommendation Key,0
+SUM ANALYST RATING SCORE,23.36
 
 
 

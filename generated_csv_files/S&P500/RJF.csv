@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,RJF
 Company,"Raymond James Financial, Inc."
 Country,United States
-Industry,Capital Markets
+Industry,Asset Management
 Sector,Financial Services
 Website,https://www.raymondjames.com
-Price,125.16
+Price,167.01
 Currency,USD
 
 REVENUE
-Total Revenue,11962999808.0
-Revenue Per Share,57.308
-Revenue Growth,0.078
+Total Revenue,12775999488.0
+Revenue Per Share,61.69
+Revenue Growth,0.132
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.28, forward_eps=10.19)"
-Net Earnings,1768000000.0
-Earnings Growth,0.15
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.7, forward_eps=11.14)"
+Net Earnings,2059000064.0
+Earnings Growth,0.417
 
 DEBT
-Total Debt,5185999872.0
-Debt to Equity,47.236
+Total Debt,5137999872.0
+Debt to Equity,45.916
 
 MARGINS
-Profit Margins,0.14854
-Gross Profit Margins,0.93421
-Operating Margins,0.19303
+Profit Margins,0.16187
+Gross Profit Margins,0.93394
+Operating Margins,0.225
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.8
-Dividend Yield,0.0143
-Dividend Payout Ratio,0.2101
-Five Year Avg Dividend Yield,1.48
-Trailing Annual Dividend Rate,1.74
-Trailing Annual Dividend Yield,0.013902205
+Dividend Rate,2.0
+Dividend Yield,0.012
+Dividend Payout Ratio,0.1856
+Five Year Avg Dividend Yield,1.44
+Trailing Annual Dividend Rate,1.8
+Trailing Annual Dividend Yield,0.010777798
 
 FINANCIAL RATIO
-Debt to Equity,47.236
+Debt to Equity,45.916
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,2.3897338
-Price to Earnings,"PriceToEarnings(trailing_pe=15.18116, forward_pe=12.335624)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.28, forward_eps=10.19)"
-Enterprise to Revenue,1.275
+Price to Book,3.129634
+Price to Earnings,"PriceToEarnings(trailing_pe=17.449484, forward_pe=15.193895)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.7, forward_eps=11.14)"
+Enterprise to Revenue,1.903
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,1180000000.0
+Operating to Cash Flow,None
 
 PROFITABILITY
-Return on Equity,0.16966
-Return on Assets,0.022160001
-Return on Invested Capital,0.34091786072217634
-Return on Investment,0.010574162679425837
+Return on Equity,0.19348
+Return on Assets,None
+Return on Invested Capital,0.4007396056094724
+Return on Investment,0.010853980305745914
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0148
-SUM DIVIDEND SCORE,8.0148
+5 Year Average,0.0144
+SUM DIVIDEND SCORE,8.0144
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,15.299999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,16.299999999999997
+Target High Price Diff Current Price,28.74000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,128.74
 
 
 

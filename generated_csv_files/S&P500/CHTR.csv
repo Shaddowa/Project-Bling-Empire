@@ -5,27 +5,27 @@ Country,United States
 Industry,Telecom Services
 Sector,Communication Services
 Website,https://www.corporate.charter.com
-Price,263.93
+Price,351.37
 Currency,USD
 
 REVENUE
-Total Revenue,54633000960.0
-Revenue Per Share,370.453
-Revenue Growth,0.002
+Total Revenue,54869999616.0
+Revenue Per Share,380.736
+Revenue Growth,0.016
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.89, forward_eps=34.0)"
-Net Earnings,4641999872.0
-Earnings Growth,0.135
+Earnings Per Share,"EarningsPerShare(trailing_eps=31.9, forward_eps=35.78)"
+Net Earnings,4674999808.0
+Earnings Growth,0.069
 
 DEBT
-Total Debt,97964998656.0
-Debt to Equity,627.739
+Total Debt,96312999936.0
+Debt to Equity,533.472
 
 MARGINS
-Profit Margins,0.08497
-Gross Profit Margins,0.39066002
-Operating Margins,0.22619
+Profit Margins,0.085200004
+Gross Profit Margins,0.39578998
+Operating Margins,0.24341999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,627.739
-Price to Cash Flow,8.575096341324095e-08
-Enterprise to EBITDA,6.661
-Price to Book,3.34239
-Price to Earnings,"PriceToEarnings(trailing_pe=8.920362, forward_pe=8.104411)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.89, forward_eps=34.0)"
-Enterprise to Revenue,2.576
+Debt to Equity,533.472
+Price to Cash Flow,9.260736875568772e-08
+Enterprise to EBITDA,6.954
+Price to Book,3.5530298
+Price to Earnings,"PriceToEarnings(trailing_pe=11.043574, forward_pe=9.846004)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=31.9, forward_eps=35.78)"
+Enterprise to Revenue,2.725
 
 CASH FLOW
-Free to Cash Flow,3213374976.0
-Operating to Cash Flow,14321999872.0
+Free to Cash Flow,3804124928.0
+Operating to Cash Flow,14824999936.0
 
 PROFITABILITY
-Return on Equity,0.37589002
-Return on Assets,0.05311
-Return on Invested Capital,0.047384269195917435
-Return on Investment,-0.0703333313939394
+Return on Equity,0.32965
+Return on Assets,0.05407
+Return on Invested Capital,0.048539655148253445
+Return on Investment,0.8201754049122807
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,384.45
+Target High Price Diff Current Price,172.70999999999998
 Recommendation Key,0
-SUM ANALYST RATING SCORE,384.45
+SUM ANALYST RATING SCORE,172.70999999999998
 
 
 

@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,ETR
 Company,Entergy Corporation
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.entergy.com
-Price,111.48
+Price,81.99
 Currency,USD
 
 REVENUE
-Total Revenue,11960981504.0
-Revenue Per Share,56.415
-Revenue Growth,-0.063
+Total Revenue,11862153216.0
+Revenue Per Share,55.639
+Revenue Growth,-0.057
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.98, forward_eps=7.72)"
-Net Earnings,2120882048.0
-Earnings Growth,-0.762
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.12, forward_eps=7.74)"
+Net Earnings,1756744960.0
+Earnings Growth,-0.048
 
 DEBT
-Total Debt,28400015360.0
-Debt to Equity,191.973
+Total Debt,29002848256.0
+Debt to Equity,188.807
 
 MARGINS
-Profit Margins,0.17732
-Gross Profit Margins,0.44966
-Operating Margins,0.13926
+Profit Margins,0.1481
+Gross Profit Margins,0.4627
+Operating Margins,0.33657002
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.52
-Dividend Yield,0.0404
-Dividend Payout Ratio,0.4409
-Five Year Avg Dividend Yield,3.74
-Trailing Annual Dividend Rate,4.4
-Trailing Annual Dividend Yield,0.039468963
+Dividend Rate,2.4
+Dividend Yield,0.0293
+Dividend Payout Ratio,0.5492
+Five Year Avg Dividend Yield,3.77
+Trailing Annual Dividend Rate,4.52
+Trailing Annual Dividend Yield,0.055128675
 
 FINANCIAL RATIO
-Debt to Equity,191.973
-Price to Cash Flow,-6.808833339585048e-08
-Enterprise to EBITDA,10.983
-Price to Book,1.6519405
-Price to Earnings,"PriceToEarnings(trailing_pe=11.221443, forward_pe=14.506476)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.98, forward_eps=7.72)"
-Enterprise to Revenue,4.294
+Debt to Equity,188.807
+Price to Cash Flow,-5.3064975867473647e-08
+Enterprise to EBITDA,9.898
+Price to Book,1.1974242
+Price to Earnings,"PriceToEarnings(trailing_pe=20.377428, forward_pe=10.8469)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.12, forward_eps=7.74)"
+Enterprise to Revenue,3.836
 
 CASH FLOW
-Free to Cash Flow,-1644775168.0
-Operating to Cash Flow,3855877120.0
+Free to Cash Flow,-1582116992.0
+Operating to Cash Flow,4172163072.0
 
 PROFITABILITY
-Return on Equity,0.15052
-Return on Assets,0.02683
-Return on Invested Capital,0.07467890478413083
-Return on Investment,-0.007983733689089119
+Return on Equity,0.11951
+Return on Assets,0.024149999
+Return on Invested Capital,0.06057146319723009
+Return on Investment,-0.006037077781359389
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,1.0
+Dividend Yield,1.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0374
-SUM DIVIDEND SCORE,9.0374
+5 Year Average,0.0377
+SUM DIVIDEND SCORE,3.0377
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.010000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,11.010000000000005
+Target High Price Diff Current Price,5.045000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,105.045
 
 
 

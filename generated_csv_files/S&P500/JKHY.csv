@@ -5,68 +5,68 @@ Country,United States
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.jackhenry.com
-Price,169.04
+Price,173.16
 Currency,USD
 
 REVENUE
-Total Revenue,2190264064.0
-Revenue Per Share,30.071
-Revenue Growth,0.059
+Total Revenue,2245157120.0
+Revenue Per Share,30.808
+Revenue Growth,0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=5.71)"
-Net Earnings,378516000.0
-Earnings Growth,0.064
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.47, forward_eps=6.32)"
+Net Earnings,399328000.0
+Earnings Growth,0.173
 
 DEBT
-Total Debt,318796992.0
-Debt to Equity,18.488
+Total Debt,197902000.0
+Debt to Equity,10.28
 
 MARGINS
-Profit Margins,0.17282
-Gross Profit Margins,0.41511002
-Operating Margins,0.20815
+Profit Margins,0.17785999
+Gross Profit Margins,0.41210997
+Operating Margins,0.25171
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.2
-Dividend Yield,0.012999999
-Dividend Payout Ratio,0.4066
-Five Year Avg Dividend Yield,1.11
-Trailing Annual Dividend Rate,2.11
-Trailing Annual Dividend Yield,0.012482253
+Dividend Yield,0.0127
+Dividend Payout Ratio,0.3967
+Five Year Avg Dividend Yield,1.13
+Trailing Annual Dividend Rate,2.17
+Trailing Annual Dividend Yield,0.012531763
 
 FINANCIAL RATIO
-Debt to Equity,18.488
-Price to Cash Flow,None
-Enterprise to EBITDA,22.43
-Price to Book,7.1505837
-Price to Earnings,"PriceToEarnings(trailing_pe=32.546158, forward_pe=29.63923)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.2, forward_eps=5.71)"
-Enterprise to Revenue,5.764
+Debt to Equity,10.28
+Price to Cash Flow,6.976989259941947e-07
+Enterprise to EBITDA,22.39
+Price to Book,6.620428
+Price to Earnings,"PriceToEarnings(trailing_pe=31.934187, forward_pe=27.639238)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.47, forward_eps=6.32)"
+Enterprise to Revenue,5.696
 
 CASH FLOW
-Free to Cash Flow,None
-Operating to Cash Flow,None
+Free to Cash Flow,250365872.0
+Operating to Cash Flow,527798016.0
 
 PROFITABILITY
-Return on Equity,None
-Return on Assets,None
-Return on Invested Capital,1.1873260457186723
-Return on Investment,-0.020730720149846376
+Return on Equity,0.22278
+Return on Assets,0.11213
+Return on Invested Capital,2.0178065242401537
+Return on Investment,-0.019128843583688212
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0111
-SUM DIVIDEND SCORE,9.0111
+5 Year Average,0.0113
+SUM DIVIDEND SCORE,8.0113
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,30.75999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,31.75999999999999
+Target High Price Diff Current Price,37.31999999999999
+Recommendation Key,0
+SUM ANALYST RATING SCORE,37.31999999999999
 
 
 

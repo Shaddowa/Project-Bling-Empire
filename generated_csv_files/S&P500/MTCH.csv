@@ -5,32 +5,32 @@ Country,United States
 Industry,Internet Content & Information
 Sector,Communication Services
 Website,https://www.mtch.com
-Price,30.58
+Price,32.74
 Currency,USD
 
 REVENUE
-Total Revenue,3437027072.0
-Revenue Per Share,12.59
-Revenue Growth,0.092
+Total Revenue,3485424896.0
+Revenue Per Share,13.152
+Revenue Growth,0.016
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=2.58)"
-Net Earnings,653928000.0
-Earnings Growth,0.057
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.48)"
+Net Earnings,622638016.0
+Earnings Growth,-0.11
 
 DEBT
-Total Debt,3843900928.0
+Total Debt,3847271936.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.19026
-Gross Profit Margins,0.71827006
-Operating Margins,0.2149
+Profit Margins,0.17864001
+Gross Profit Margins,0.72442
+Operating Margins,0.27456
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,None
-Dividend Yield,None
+Dividend Rate,0.76
+Dividend Yield,0.0232
 Dividend Payout Ratio,0.0
 Five Year Avg Dividend Yield,1.52
 Trailing Annual Dividend Rate,0.0
@@ -38,35 +38,35 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,3.927249395369948e-08
-Enterprise to EBITDA,10.848
+Price to Cash Flow,4.781965446771292e-08
+Enterprise to EBITDA,11.285
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=13.460526, forward_pe=11.8953495)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.28, forward_eps=2.58)"
-Enterprise to Revenue,3.223
+Price to Earnings,"PriceToEarnings(trailing_pe=14.573991, forward_pe=13.104838)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.48)"
+Enterprise to Revenue,3.215
 
 CASH FLOW
-Free to Cash Flow,781462976.0
-Operating to Cash Flow,1060507008.0
+Free to Cash Flow,679636864.0
+Operating to Cash Flow,954128000.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.13119
-Return on Invested Capital,0.17012092983606394
-Return on Investment,0.02544714466387781
+Return on Assets,0.123950005
+Return on Invested Capital,0.16183883708096733
+Return on Investment,0.02381507594273409
 
 DIVIDEND SCORE
-Dividend  Rate,0.0
-Dividend Yield,0.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0152
-SUM DIVIDEND SCORE,0.0152
+SUM DIVIDEND SCORE,4.0152
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.31
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.31
+Target High Price Diff Current Price,20.5
+Recommendation Key,100
+SUM ANALYST RATING SCORE,120.5
 
 
 

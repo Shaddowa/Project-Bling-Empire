@@ -5,68 +5,68 @@ Country,United States
 Industry,Waste Management
 Sector,Industrials
 Website,https://www.wm.com
-Price,210.5
+Price,211.71
 Currency,USD
 
 REVENUE
-Total Revenue,20693000192.0
-Revenue Per Share,51.287
-Revenue Growth,0.055
+Total Revenue,21386999808.0
+Revenue Per Share,53.245
+Revenue Growth,0.079
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.11, forward_eps=8.03)"
-Net Earnings,2479000064.0
-Earnings Growth,0.346
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.54, forward_eps=8.07)"
+Net Earnings,2640999936.0
+Earnings Growth,0.153
 
 DEBT
-Total Debt,16097999872.0
-Debt to Equity,227.437
+Total Debt,16652999680.0
+Debt to Equity,208.894
 
 MARGINS
-Profit Margins,0.119799994
-Gross Profit Margins,0.38819999
-Operating Margins,0.19655001
+Profit Margins,0.12349
+Gross Profit Margins,0.39328
+Operating Margins,0.20093
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.0
 Dividend Yield,0.014199999
-Dividend Payout Ratio,0.4664
-Five Year Avg Dividend Yield,1.67
-Trailing Annual Dividend Rate,2.85
-Trailing Annual Dividend Yield,0.013539192
+Dividend Payout Ratio,0.4504
+Five Year Avg Dividend Yield,1.62
+Trailing Annual Dividend Rate,2.95
+Trailing Annual Dividend Yield,0.013934155
 
 FINANCIAL RATIO
-Debt to Equity,227.437
-Price to Cash Flow,1.4458383656812454e-07
-Enterprise to EBITDA,16.513
-Price to Book,11.983794
-Price to Earnings,"PriceToEarnings(trailing_pe=34.613747, forward_pe=26.337486)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.11, forward_eps=8.03)"
-Enterprise to Revenue,4.861
+Debt to Equity,208.894
+Price to Cash Flow,1.5619083279469557e-07
+Enterprise to EBITDA,15.829
+Price to Book,10.684105
+Price to Earnings,"PriceToEarnings(trailing_pe=32.477062, forward_pe=26.319702)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.54, forward_eps=8.07)"
+Enterprise to Revenue,4.723
 
 CASH FLOW
-Free to Cash Flow,1462749952.0
-Operating to Cash Flow,5041999872.0
+Free to Cash Flow,1359874944.0
+Operating to Cash Flow,5261000192.0
 
 PROFITABILITY
-Return on Equity,0.35301998
-Return on Assets,0.07841
-Return on Invested Capital,0.15399429003563037
-Return on Investment,-0.013165162315454063
+Return on Equity,0.35025
+Return on Assets,0.0795
+Return on Invested Capital,0.15859004285090036
+Return on Investment,-0.012528462694497153
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0167
-SUM DIVIDEND SCORE,9.0167
+5 Year Average,0.016200000000000003
+SUM DIVIDEND SCORE,9.0162
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,47.50999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,48.50999999999999
+Target High Price Diff Current Price,42.599999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,142.6
 
 
 

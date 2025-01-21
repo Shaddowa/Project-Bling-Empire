@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,TFC
 Company,Truist Financial Corporation
 Country,United States
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.truist.com
-Price,39.1
+Price,47.65
 Currency,USD
 
 REVENUE
-Total Revenue,20813000704.0
-Revenue Per Share,15.607
-Revenue Growth,-0.229
+Total Revenue,14497000448.0
+Revenue Per Share,10.857
+Revenue Growth,0.061
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.31, forward_eps=3.92)"
-Net Earnings,-1732000000.0
-Earnings Growth,-0.231
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.86, forward_eps=3.95)"
+Net Earnings,-6479000064.0
+Earnings Growth,0.239
 
 DEBT
-Total Debt,65400000512.0
+Total Debt,60761001984.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,-0.067600004
+Profit Margins,-0.10678001
 Gross Profit Margins,0.0
-Operating Margins,0.38351002
+Operating Margins,0.40328
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.08
-Dividend Yield,0.052699998
+Dividend Yield,0.0462
 Dividend Payout Ratio,0.5226
-Five Year Avg Dividend Yield,4.34
-Trailing Annual Dividend Rate,2.08
-Trailing Annual Dividend Yield,0.05319693
+Five Year Avg Dividend Yield,4.56
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.0127784
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=10.068877)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.31, forward_eps=3.92)"
-Enterprise to Revenue,3.998
+Price to Book,1.0867952
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=12.232911)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.86, forward_eps=3.95)"
+Enterprise to Revenue,5.379
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,3764999936.0
 
 PROFITABILITY
-Return on Equity,-0.0218
-Return on Assets,-0.00239
-Return on Invested Capital,-0.026483180205023077
+Return on Equity,-0.09505
+Return on Assets,-0.01138
+Return on Invested Capital,-0.1066308956024981
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0434
-SUM DIVIDEND SCORE,5.0434
+5 Year Average,0.045599999999999995
+SUM DIVIDEND SCORE,5.0456
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.530000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.530000000000001
+Target High Price Diff Current Price,11.68
+Recommendation Key,100
+SUM ANALYST RATING SCORE,111.68
 
 
 

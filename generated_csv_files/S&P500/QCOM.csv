@@ -5,68 +5,68 @@ Country,United States
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.qualcomm.com
-Price,180.54
+Price,164.56
 Currency,USD
 
 REVENUE
-Total Revenue,36407001088.0
-Revenue Per Share,32.637
-Revenue Growth,0.012
+Total Revenue,38961999872.0
+Revenue Per Share,34.912
+Revenue Growth,0.187
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.5, forward_eps=11.18)"
-Net Earnings,8450999808.0
-Earnings Growth,0.357
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.94, forward_eps=12.23)"
+Net Earnings,10110000128.0
+Earnings Growth,0.941
 
 DEBT
-Total Debt,15457000448.0
-Debt to Equity,63.17
+Total Debt,15440000000.0
+Debt to Equity,58.765
 
 MARGINS
-Profit Margins,0.23034
-Gross Profit Margins,0.55805
-Operating Margins,0.24923
+Profit Margins,0.2603
+Gross Profit Margins,0.56214
+Operating Margins,0.2625
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.4
-Dividend Yield,0.0187
-Dividend Payout Ratio,0.4267
-Five Year Avg Dividend Yield,2.35
-Trailing Annual Dividend Rate,3.2
-Trailing Annual Dividend Yield,0.017724605
+Dividend Yield,0.0207
+Dividend Payout Ratio,0.3691
+Five Year Avg Dividend Yield,2.18
+Trailing Annual Dividend Rate,3.3
+Trailing Annual Dividend Yield,0.020053476
 
 FINANCIAL RATIO
-Debt to Equity,63.17
-Price to Cash Flow,1.5945354502277616e-08
-Enterprise to EBITDA,18.899
-Price to Book,8.319474
-Price to Earnings,"PriceToEarnings(trailing_pe=24.277334, forward_pe=16.286224)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.5, forward_eps=11.18)"
-Enterprise to Revenue,5.625
+Debt to Equity,58.765
+Price to Cash Flow,1.865974954545329e-08
+Enterprise to EBITDA,15.467
+Price to Book,7.0513554
+Price to Earnings,"PriceToEarnings(trailing_pe=18.619051, forward_pe=13.610328)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.94, forward_eps=12.23)"
+Enterprise to Revenue,4.747
 
 CASH FLOW
-Free to Cash Flow,11418999808.0
-Operating to Cash Flow,13249999872.0
+Free to Cash Flow,8920500224.0
+Operating to Cash Flow,12202000384.0
 
 PROFITABILITY
-Return on Equity,0.38268003
-Return on Assets,0.1114
-Return on Invested Capital,0.5467425471367879
-Return on Investment,0.2139493622278481
+Return on Equity,0.42253
+Return on Assets,0.12069
+Return on Invested Capital,0.6547927534030415
+Return on Investment,0.28640226991501416
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0235
-SUM DIVIDEND SCORE,9.0235
+5 Year Average,0.0218
+SUM DIVIDEND SCORE,8.0218
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,37.91999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,38.91999999999999
+Target High Price Diff Current Price,103.54570000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,203.5457
 
 
 

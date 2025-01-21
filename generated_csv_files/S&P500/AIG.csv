@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,AIG
 Company,"American International Group, Inc."
 Country,United States
-Industry,Insurance—Diversified
+Industry,Insurance - Diversified
 Sector,Financial Services
 Website,https://www.aig.com
-Price,79.88
+Price,75.09
 Currency,USD
 
 REVENUE
-Total Revenue,48367001600.0
-Revenue Per Share,68.558
-Revenue Growth,0.154
+Total Revenue,45298999296.0
+Revenue Per Share,67.45
+Revenue Growth,-0.086
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.69, forward_eps=7.91)"
-Net Earnings,4784999936.0
-Earnings Growth,57.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.03, forward_eps=6.71)"
+Net Earnings,3814000128.0
+Earnings Growth,-0.747
 
 DEBT
-Total Debt,21934999552.0
-Debt to Equity,44.665
+Total Debt,10053999616.0
+Debt to Equity,22.306
 
 MARGINS
-Profit Margins,0.09984
-Gross Profit Margins,0.31106
-Operating Margins,0.18294
+Profit Margins,-0.04876
+Gross Profit Margins,0.27963
+Operating Margins,0.105100006
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.02
-Dividend Payout Ratio,0.2152
-Five Year Avg Dividend Yield,2.67
-Trailing Annual Dividend Rate,1.44
-Trailing Annual Dividend Yield,0.018027041
+Dividend Yield,0.021300001
+Dividend Payout Ratio,0.3022
+Five Year Avg Dividend Yield,2.61
+Trailing Annual Dividend Rate,1.52
+Trailing Annual Dividend Yield,0.020242376
 
 FINANCIAL RATIO
-Debt to Equity,44.665
-Price to Cash Flow,1.4743380101236753e-08
-Enterprise to EBITDA,5.788
-Price to Book,1.239038
-Price to Earnings,"PriceToEarnings(trailing_pe=11.974589, forward_pe=10.1276865)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.69, forward_eps=7.91)"
-Enterprise to Revenue,1.322
+Debt to Equity,22.306
+Price to Cash Flow,3.1681463990526976e-09
+Enterprise to EBITDA,5.138
+Price to Book,1.0555851
+Price to Earnings,"PriceToEarnings(trailing_pe=14.996023, forward_pe=11.24143)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.03, forward_eps=6.71)"
+Enterprise to Revenue,0.964
 
 CASH FLOW
-Free to Cash Flow,5433625088.0
-Operating to Cash Flow,6264999936.0
+Free to Cash Flow,23808874496.0
+Operating to Cash Flow,4767000064.0
 
 PROFITABILITY
-Return on Equity,0.11665
-Return on Assets,0.00822
-Return on Invested Capital,0.21814451878844818
-Return on Investment,0.021969696675849405
+Return on Equity,0.085
+Return on Assets,0.00827
+Return on Invested Capital,0.3793515264136945
+Return on Investment,0.017367942295081967
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.026699999999999998
-SUM DIVIDEND SCORE,8.0267
+5 Year Average,0.026099999999999998
+SUM DIVIDEND SCORE,8.0261
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.89
-Recommendation Key,1
-SUM ANALYST RATING SCORE,12.89
+Target High Price Diff Current Price,20.569999999999993
+Recommendation Key,100
+SUM ANALYST RATING SCORE,120.57
 
 
 

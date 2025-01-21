@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,IRM
 Company,Iron Mountain Incorporated
 Country,United States
-Industry,REIT—Specialty
+Industry,REIT - Specialty
 Sector,Real Estate
 Website,https://www.ironmountain.com
-Price,79.59
+Price,109.22
 Currency,USD
 
 REVENUE
-Total Revenue,5642803200.0
-Revenue Per Share,19.307
-Revenue Growth,0.124
+Total Revenue,5988459008.0
+Revenue Per Share,20.438
+Revenue Growth,0.122
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=2.09)"
-Net Earnings,193700000.0
-Earnings Growth,0.136
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.96)"
+Net Earnings,104706000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,15534235648.0
-Debt to Equity,7850.252
+Total Debt,16136006656.0
+Debt to Equity,None
 
 MARGINS
-Profit Margins,0.03433
-Gross Profit Margins,0.56769
-Operating Margins,0.19947
+Profit Margins,0.01748
+Gross Profit Margins,0.56434
+Operating Margins,0.19572
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.6
-Dividend Yield,0.0326
-Dividend Payout Ratio,3.8917
-Five Year Avg Dividend Yield,6.08
-Trailing Annual Dividend Rate,2.537
-Trailing Annual Dividend Yield,0.031875864
+Dividend Rate,2.86
+Dividend Yield,0.026199998
+Dividend Payout Ratio,7.4028
+Five Year Avg Dividend Yield,5.39
+Trailing Annual Dividend Rate,2.634
+Trailing Annual Dividend Yield,0.024116462
 
 FINANCIAL RATIO
-Debt to Equity,7850.252
-Price to Cash Flow,-1.87784692611077e-07
-Enterprise to EBITDA,20.624
-Price to Book,1266.1904
-Price to Earnings,"PriceToEarnings(trailing_pe=120.863625, forward_pe=38.167465)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.66, forward_eps=2.09)"
-Enterprise to Revenue,6.895
+Debt to Equity,None
+Price to Cash Flow,-4.874118787987913e-07
+Enterprise to EBITDA,24.099
+Price to Book,None
+Price to Earnings,"PriceToEarnings(trailing_pe=306.06943, forward_pe=56.216835)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.36, forward_eps=1.96)"
+Enterprise to Revenue,8.057
 
 CASH FLOW
-Free to Cash Flow,-424795008.0
-Operating to Cash Flow,1114797056.0
+Free to Cash Flow,-226061376.0
+Operating to Cash Flow,1212321024.0
 
 PROFITABILITY
-Return on Equity,0.47373
-Return on Assets,0.041500002
-Return on Invested Capital,0.012469232757142635
-Return on Investment,-0.009301186537528872
+Return on Equity,0.54398996
+Return on Assets,0.04216
+Return on Invested Capital,0.0064889660891901
+Return on Investment,-0.005695743940119239
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0608
-SUM DIVIDEND SCORE,8.0608
+5 Year Average,0.053899999999999997
+SUM DIVIDEND SCORE,8.0539
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.230000000000004
-Recommendation Key,1
-SUM ANALYST RATING SCORE,12.230000000000004
+Target High Price Diff Current Price,29.814999999999998
+Recommendation Key,0
+SUM ANALYST RATING SCORE,29.814999999999998
 
 
 

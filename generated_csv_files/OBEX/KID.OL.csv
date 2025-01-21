@@ -5,68 +5,68 @@ Country,Norway
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.kid.no
-Price,153.2
+Price,152.2
 Currency,NOK
 
 REVENUE
-Total Revenue,3413594880.0
-Revenue Per Share,83.985
-Revenue Growth,0.13
+Total Revenue,3637901056.0
+Revenue Per Share,89.407
+Revenue Growth,0.069
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.73, forward_eps=11.28)"
-Net Earnings,313827008.0
-Earnings Growth,0.467
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.43, forward_eps=11.39)"
+Net Earnings,342871008.0
+Earnings Growth,-0.224
 
 DEBT
-Total Debt,1606588032.0
-Debt to Equity,122.148
+Total Debt,2012632064.0
+Debt to Equity,151.896
 
 MARGINS
-Profit Margins,0.09193
-Gross Profit Margins,0.61499
-Operating Margins,0.25129998
+Profit Margins,0.09425
+Gross Profit Margins,0.62698
+Operating Margins,0.13307999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,9.25
-Dividend Yield,0.0591
-Dividend Payout Ratio,0.74480003
-Five Year Avg Dividend Yield,7.16
-Trailing Annual Dividend Rate,6.25
-Trailing Annual Dividend Yield,0.040796347
+Dividend Rate,12.0
+Dividend Yield,0.0788
+Dividend Payout Ratio,0.7414
+Five Year Avg Dividend Yield,6.91
+Trailing Annual Dividend Rate,3.5
+Trailing Annual Dividend Yield,0.022996059
 
 FINANCIAL RATIO
-Debt to Equity,122.148
-Price to Cash Flow,2.1108570740510689e-07
-Enterprise to EBITDA,13.685
-Price to Book,4.833127
-Price to Earnings,"PriceToEarnings(trailing_pe=20.232859, forward_pe=13.865248)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.73, forward_eps=11.28)"
-Enterprise to Revenue,2.267
+Debt to Equity,151.896
+Price to Cash Flow,2.7979941627819834e-07
+Enterprise to EBITDA,None
+Price to Book,4.668832
+Price to Earnings,"PriceToEarnings(trailing_pe=18.07829, forward_pe=13.380157)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.43, forward_eps=11.39)"
+Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,740931264.0
-Operating to Cash Flow,961443968.0
+Free to Cash Flow,544675904.0
+Operating to Cash Flow,779932992.0
 
 PROFITABILITY
-Return on Equity,0.24246
-Return on Assets,0.08089
-Return on Invested Capital,0.19533756969930938
-Return on Investment,-0.6174050914814087
+Return on Equity,0.26664
+Return on Assets,0.081470005
+Return on Invested Capital,0.17035950513363432
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0716
-SUM DIVIDEND SCORE,8.0716
+5 Year Average,0.0691
+SUM DIVIDEND SCORE,8.0691
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,6.599999999999994
-Recommendation Key,1
-SUM ANALYST RATING SCORE,7.599999999999994
+Target High Price Diff Current Price,22.599999999999994
+Recommendation Key,0
+SUM ANALYST RATING SCORE,22.599999999999994
 
 
 

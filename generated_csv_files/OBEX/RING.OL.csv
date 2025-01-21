@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,RING.OL
 Company,SpareBank 1 Ringerike Hadeland
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.sparebank1.no/ringerike-hadeland
-Price,300.0
+Price,343.5
 Currency,NOK
 
 REVENUE
-Total Revenue,1067000000.0
-Revenue Per Share,68.04
-Revenue Growth,-0.052
+Total Revenue,1316880000.0
+Revenue Per Share,81.96
+Revenue Growth,0.505
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.24, forward_eps=34.31)"
-Net Earnings,449600000.0
-Earnings Growth,-0.359
+Earnings Per Share,"EarningsPerShare(trailing_eps=39.43, forward_eps=34.9)"
+Net Earnings,634600000.0
+Earnings Growth,0.825
 
 DEBT
-Total Debt,5847000064.0
+Total Debt,5091999744.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.43261
+Profit Margins,0.48341998
 Gross Profit Margins,0.0
-Operating Margins,0.52344
+Operating Margins,0.71081
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,20.0
-Dividend Yield,0.066700004
-Dividend Payout Ratio,0.6614
-Five Year Avg Dividend Yield,4.34
+Dividend Yield,0.0582
+Dividend Payout Ratio,0.5071
+Five Year Avg Dividend Yield,4.54
 Trailing Annual Dividend Rate,20.0
-Trailing Annual Dividend Yield,0.06666667
+Trailing Annual Dividend Yield,0.058224164
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.0312148
-Price to Earnings,"PriceToEarnings(trailing_pe=9.920635, forward_pe=8.743806)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=30.24, forward_eps=34.31)"
-Enterprise to Revenue,6.689
+Price to Book,1.1278111
+Price to Earnings,"PriceToEarnings(trailing_pe=8.851129, forward_pe=10.0)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=39.43, forward_eps=34.9)"
+Enterprise to Revenue,7.92
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,310000000.0
+Operating to Cash Flow,960000000.0
 
 PROFITABILITY
-Return on Equity,0.10177
-Return on Assets,0.015420001
-Return on Invested Capital,0.07689412907624639
+Return on Equity,0.13512999
+Return on Assets,0.020510001
+Return on Invested Capital,0.12462686436347578
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
-Payout Ratio,0.0
+Dividend Yield,1.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0434
-SUM DIVIDEND SCORE,7.0434
+5 Year Average,0.0454
+SUM DIVIDEND SCORE,5.0454
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,37.0
+Target High Price Diff Current Price,0
 Recommendation Key,0
-SUM ANALYST RATING SCORE,37.0
+SUM ANALYST RATING SCORE,0
 
 
 

@@ -5,68 +5,68 @@ Country,Norway
 Industry,Farm Products
 Sector,Consumer Defensive
 Website,https://griegseafood.com
-Price,73.75
+Price,62.3
 Currency,NOK
 
 REVENUE
-Total Revenue,7059329024.0
-Revenue Per Share,63.011
-Revenue Growth,0.174
+Total Revenue,6923696128.0
+Revenue Per Share,62.035
+Revenue Growth,-0.36
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.0, forward_eps=7.93)"
-Net Earnings,559750016.0
-Earnings Growth,7.994
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.6, forward_eps=5.48)"
+Net Earnings,-336176992.0
+Earnings Growth,None
 
 DEBT
-Total Debt,5110989824.0
-Debt to Equity,76.636
+Total Debt,5722062848.0
+Debt to Equity,104.808
 
 MARGINS
-Profit Margins,0.07929
-Gross Profit Margins,0.5875
-Operating Margins,0.25627002
+Profit Margins,-0.04855
+Gross Profit Margins,0.43368998
+Operating Margins,-0.39693
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.75
-Dividend Yield,0.023599999
-Dividend Payout Ratio,0.9
+Dividend Yield,0.028900001
+Dividend Payout Ratio,2.1875
 Five Year Avg Dividend Yield,2.68
-Trailing Annual Dividend Rate,1.75
-Trailing Annual Dividend Yield,0.023728814
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,76.636
-Price to Cash Flow,-5.54965849358576e-08
-Enterprise to EBITDA,10.303
-Price to Book,1.2492645
-Price to Earnings,"PriceToEarnings(trailing_pe=14.860001, forward_pe=9.369484)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.0, forward_eps=7.93)"
-Enterprise to Revenue,1.87
+Debt to Equity,104.808
+Price to Cash Flow,-3.273573567219728e-08
+Enterprise to EBITDA,-777.532
+Price to Book,1.0189155
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=11.0583935)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-4.6, forward_eps=5.48)"
+Enterprise to Revenue,1.753
 
 CASH FLOW
-Free to Cash Flow,-1338821120.0
-Operating to Cash Flow,-302020992.0
+Free to Cash Flow,-1851187968.0
+Operating to Cash Flow,-497084992.0
 
 PROFITABILITY
-Return on Equity,0.0851
-Return on Assets,0.045939997
-Return on Invested Capital,0.10951890509699498
-Return on Investment,-0.020363728226545787
+Return on Equity,-0.058369998
+Return on Assets,-0.01759
+Return on Invested Capital,-0.05875101295388349
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0268
 SUM DIVIDEND SCORE,4.0268
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.700000000000003
+Target High Price Diff Current Price,15.399999999999999
 Recommendation Key,0
-SUM ANALYST RATING SCORE,11.700000000000003
+SUM ANALYST RATING SCORE,15.399999999999999
 
 
 

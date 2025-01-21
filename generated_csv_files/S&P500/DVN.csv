@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.devonenergy.com
-Price,50.85
+Price,37.95
 Currency,USD
 
 REVENUE
-Total Revenue,14408999936.0
-Revenue Per Share,22.691
-Revenue Growth,-0.005
+Total Revenue,14529000448.0
+Revenue Per Share,23.117
+Revenue Growth,-0.102
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.25, forward_eps=5.75)"
-Net Earnings,3356000000.0
-Earnings Growth,-0.386
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.4, forward_eps=4.46)"
+Net Earnings,3404000000.0
+Earnings Growth,-0.085
 
 DEBT
-Total Debt,6486000128.0
-Debt to Equity,52.557
+Total Debt,9269000192.0
+Debt to Equity,64.021
 
 MARGINS
-Profit Margins,0.23235
-Gross Profit Margins,0.53959
-Operating Margins,0.23696
+Profit Margins,0.23429
+Gross Profit Margins,0.53534
+Operating Margins,0.32062
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.05
-Dividend Yield,0.040900003
-Dividend Payout Ratio,0.461
-Five Year Avg Dividend Yield,4.65
-Trailing Annual Dividend Rate,2.42
-Trailing Annual Dividend Yield,0.047590956
+Dividend Rate,1.45
+Dividend Yield,0.0382
+Dividend Payout Ratio,0.3704
+Five Year Avg Dividend Yield,5.1
+Trailing Annual Dividend Rate,2.0
+Trailing Annual Dividend Yield,0.052700922
 
 FINANCIAL RATIO
-Debt to Equity,52.557
-Price to Cash Flow,2.8552304029199056e-08
-Enterprise to EBITDA,5.211
-Price to Book,2.6063442
-Price to Earnings,"PriceToEarnings(trailing_pe=9.546666, forward_pe=8.716521)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.25, forward_eps=5.75)"
-Enterprise to Revenue,2.582
+Debt to Equity,64.021
+Price to Cash Flow,-2.326822319980408e-08
+Enterprise to EBITDA,4.429
+Price to Book,1.6877131
+Price to Earnings,"PriceToEarnings(trailing_pe=6.7833333, forward_pe=8.213005)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.4, forward_eps=4.46)"
+Enterprise to Revenue,2.323
 
 CASH FLOW
-Free to Cash Flow,1755374976.0
-Operating to Cash Flow,6605000192.0
+Free to Cash Flow,-1574249984.0
+Operating to Cash Flow,6672999936.0
 
 PROFITABILITY
-Return on Equity,0.28903
-Return on Assets,0.114930004
-Return on Invested Capital,0.5174221282485261
-Return on Investment,-0.010832795351839897
+Return on Equity,0.26279
+Return on Assets,0.10674
+Return on Invested Capital,0.36724564910134205
+Return on Investment,-0.005160703456640388
 
 DIVIDEND SCORE
 Dividend  Rate,1.0
 Dividend Yield,1.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.04650000000000001
-SUM DIVIDEND SCORE,3.0465
+5 Year Average,0.051
+SUM DIVIDEND SCORE,2.051
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,17.880000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,18.880000000000003
+Target High Price Diff Current Price,30.369999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,130.37
 
 
 

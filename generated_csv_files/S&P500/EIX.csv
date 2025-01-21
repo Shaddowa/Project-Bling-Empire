@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,EIX
 Company,Edison International
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.edison.com
-Price,74.76
+Price,62.7
 Currency,USD
 
 REVENUE
-Total Revenue,16449999872.0
-Revenue Per Share,42.894
-Revenue Growth,0.028
+Total Revenue,17321000960.0
+Revenue Per Share,44.96
+Revenue Growth,0.106
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.27, forward_eps=5.63)"
-Net Earnings,876000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.42, forward_eps=5.7)"
+Net Earnings,1322000000.0
+Earnings Growth,2.3
 
 DEBT
-Total Debt,36652998656.0
-Debt to Equity,208.078
+Total Debt,36599001088.0
+Debt to Equity,202.126
 
 MARGINS
-Profit Margins,0.05325
-Gross Profit Margins,0.59204
-Operating Margins,0.22511
+Profit Margins,0.07632
+Gross Profit Margins,0.5834
+Operating Margins,0.21169001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.12
-Dividend Yield,0.0417
-Dividend Payout Ratio,1.337
-Five Year Avg Dividend Yield,4.22
-Trailing Annual Dividend Rate,3.035
-Trailing Annual Dividend Yield,0.040596575
+Dividend Rate,3.31
+Dividend Yield,0.052800003
+Dividend Payout Ratio,0.91230005
+Five Year Avg Dividend Yield,4.25
+Trailing Annual Dividend Rate,3.12
+Trailing Annual Dividend Yield,0.049760763
 
 FINANCIAL RATIO
-Debt to Equity,208.078
-Price to Cash Flow,-6.500868055555556e-08
-Enterprise to EBITDA,11.199
-Price to Book,2.131432
-Price to Earnings,"PriceToEarnings(trailing_pe=32.991188, forward_pe=13.301953)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.27, forward_eps=5.63)"
-Enterprise to Revenue,4.169
+Debt to Equity,202.126
+Price to Cash Flow,-3.6817775829507204e-08
+Enterprise to EBITDA,10.05
+Price to Book,1.7047337
+Price to Earnings,"PriceToEarnings(trailing_pe=18.048244, forward_pe=10.828947)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.42, forward_eps=5.7)"
+Enterprise to Revenue,3.739
 
 CASH FLOW
-Free to Cash Flow,-1152000000.0
-Operating to Cash Flow,4534000128.0
+Free to Cash Flow,-1676499968.0
+Operating to Cash Flow,4698999808.0
 
 PROFITABILITY
-Return on Equity,0.04982
-Return on Assets,0.02869
-Return on Invested Capital,0.023899818058047403
-Return on Investment,-0.004351713859910581
+Return on Equity,0.07411
+Return on Assets,0.0298
+Return on Invested Capital,0.036121204387886366
+Return on Investment,-0.006564051638530288
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.042199999999999994
-SUM DIVIDEND SCORE,8.0422
+5 Year Average,0.0425
+SUM DIVIDEND SCORE,8.0425
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,11.11
-Recommendation Key,1
-SUM ANALYST RATING SCORE,12.11
+Target High Price Diff Current Price,38.275
+Recommendation Key,100
+SUM ANALYST RATING SCORE,138.275
 
 
 

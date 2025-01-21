@@ -5,27 +5,27 @@ Country,United States
 Industry,Diagnostics & Research
 Sector,Healthcare
 Website,https://www.idexx.com
-Price,500.82
+Price,419.26
 Currency,USD
 
 REVENUE
-Total Revenue,3724852992.0
-Revenue Per Share,44.828
-Revenue Growth,0.071
+Total Revenue,3844816896.0
+Revenue Per Share,46.447
+Revenue Growth,0.066
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.3, forward_eps=12.57)"
-Net Earnings,866566976.0
-Earnings Growth,0.102
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.36, forward_eps=11.96)"
+Net Earnings,866238976.0
+Earnings Growth,0.107
 
 DEBT
-Total Debt,1068942016.0
-Debt to Equity,68.133
+Total Debt,998280000.0
+Debt to Equity,61.696
 
 MARGINS
-Profit Margins,0.23264
-Gross Profit Margins,0.60138
-Operating Margins,0.31009
+Profit Margins,0.22530001
+Gross Profit Margins,0.60716
+Operating Margins,0.37455
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,68.133
-Price to Cash Flow,6.95439622821878e-07
-Enterprise to EBITDA,34.716
-Price to Book,26.930431
-Price to Earnings,"PriceToEarnings(trailing_pe=49.497086, forward_pe=40.558475)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.3, forward_eps=12.57)"
-Enterprise to Revenue,11.484
+Debt to Equity,61.696
+Price to Cash Flow,5.336462125221706e-07
+Enterprise to EBITDA,26.951
+Price to Book,21.430311
+Price to Earnings,"PriceToEarnings(trailing_pe=40.798264, forward_pe=35.3403)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.36, forward_eps=11.96)"
+Enterprise to Revenue,9.109
 
 CASH FLOW
-Free to Cash Flow,733090240.0
-Operating to Cash Flow,921182976.0
+Free to Cash Flow,792041600.0
+Operating to Cash Flow,916827008.0
 
 PROFITABILITY
-Return on Equity,0.71914
-Return on Assets,0.22633
-Return on Invested Capital,0.810677237569703
-Return on Investment,-0.1677345442579796
+Return on Equity,0.59424
+Return on Assets,0.22787
+Return on Invested Capital,0.8677314569917582
+Return on Investment,-0.14863655450505328
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,131.18
-Recommendation Key,1
-SUM ANALYST RATING SCORE,132.18
+Target High Price Diff Current Price,143.32999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,243.32999999999998
 
 
 

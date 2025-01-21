@@ -5,68 +5,68 @@ Country,Norway
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.atea.com
-Price,144.0
+Price,134.6
 Currency,NOK
 
 REVENUE
-Total Revenue,33617999872.0
-Revenue Per Share,302.483
-Revenue Growth,-0.125
+Total Revenue,33366999040.0
+Revenue Per Share,299.241
+Revenue Growth,0.031
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.59, forward_eps=9.62)"
-Net Earnings,817000000.0
-Earnings Growth,0.089
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.86, forward_eps=9.67)"
+Net Earnings,771000000.0
+Earnings Growth,0.056
 
 DEBT
-Total Debt,2528999936.0
-Debt to Equity,56.063
+Total Debt,2740999936.0
+Debt to Equity,65.985
 
 MARGINS
-Profit Margins,0.024300002
-Gross Profit Margins,0.30629
-Operating Margins,0.03366
+Profit Margins,0.02311
+Gross Profit Margins,0.31037
+Operating Margins,0.03846
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,7.0
-Dividend Yield,0.0476
-Dividend Payout Ratio,0.7751
-Five Year Avg Dividend Yield,4.59
+Dividend Yield,0.051999997
+Dividend Payout Ratio,0.9643
+Five Year Avg Dividend Yield,4.49
 Trailing Annual Dividend Rate,7.0
-Trailing Annual Dividend Yield,0.048611112
+Trailing Annual Dividend Yield,0.052005943
 
 FINANCIAL RATIO
-Debt to Equity,56.063
-Price to Cash Flow,5.547169811320755e-07
-Enterprise to EBITDA,12.075
-Price to Book,3.632769
-Price to Earnings,"PriceToEarnings(trailing_pe=19.367588, forward_pe=15.280665)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.59, forward_eps=9.62)"
-Enterprise to Revenue,0.538
+Debt to Equity,65.985
+Price to Cash Flow,9.428124561689548e-08
+Enterprise to EBITDA,11.282
+Price to Book,3.6492815
+Price to Earnings,"PriceToEarnings(trailing_pe=19.766764, forward_pe=14.022751)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.86, forward_eps=9.67)"
+Enterprise to Revenue,0.502
 
 CASH FLOW
-Free to Cash Flow,265000000.0
-Operating to Cash Flow,770000000.0
+Free to Cash Flow,1438249984.0
+Operating to Cash Flow,1508000000.0
 
 PROFITABILITY
-Return on Equity,0.18728
-Return on Assets,0.047420003
-Return on Invested Capital,0.32305259296284805
-Return on Investment,0.10893333333333333
+Return on Equity,0.1843
+Return on Assets,0.04775
+Return on Invested Capital,0.2812842056002301
+Return on Investment,0.11681818181818182
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.045899999999999996
-SUM DIVIDEND SCORE,4.0459
+5 Year Average,0.0449
+SUM DIVIDEND SCORE,4.0449
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,51.0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,52.0
+Target High Price Diff Current Price,34.400000000000006
+Recommendation Key,0
+SUM ANALYST RATING SCORE,34.400000000000006
 
 
 

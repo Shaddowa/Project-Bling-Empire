@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,CINF
 Company,Cincinnati Financial Corporation
 Country,United States
-Industry,Insurance—Property & Casualty
+Industry,Insurance - Property & Casualty
 Sector,Financial Services
 Website,https://www.cinfin.com
-Price,118.31
+Price,140.66
 Currency,USD
 
 REVENUE
-Total Revenue,10707000320.0
-Revenue Per Share,68.241
-Revenue Growth,0.31
+Total Revenue,12154999808.0
+Revenue Per Share,77.606
+Revenue Growth,0.833
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.03, forward_eps=7.04)"
-Net Earnings,2372999936.0
-Earnings Growth,2.366
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.45, forward_eps=7.33)"
+Net Earnings,3070000128.0
+Earnings Growth,None
 
 DEBT
-Total Debt,873000000.0
-Debt to Equity,6.899
+Total Debt,874000000.0
+Debt to Equity,6.331
 
 MARGINS
-Profit Margins,0.22163
-Gross Profit Margins,0.29205
-Operating Margins,0.32913
+Profit Margins,0.25257
+Gross Profit Margins,0.33262002
+Operating Margins,0.31717
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.24
-Dividend Yield,0.0273
-Dividend Payout Ratio,0.2037
-Five Year Avg Dividend Yield,2.52
-Trailing Annual Dividend Rate,3.06
-Trailing Annual Dividend Yield,0.025864255
+Dividend Yield,0.023
+Dividend Payout Ratio,0.1634
+Five Year Avg Dividend Yield,2.56
+Trailing Annual Dividend Rate,3.18
+Trailing Annual Dividend Yield,0.022607706
 
 FINANCIAL RATIO
-Debt to Equity,6.899
-Price to Cash Flow,5.3147043213454423e-08
-Enterprise to EBITDA,6.046
-Price to Book,1.4701444
-Price to Earnings,"PriceToEarnings(trailing_pe=7.9088492, forward_pe=16.884943)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=15.03, forward_eps=7.04)"
-Enterprise to Revenue,1.762
+Debt to Equity,6.331
+Price to Cash Flow,4.628099283162089e-08
+Enterprise to EBITDA,5.197
+Price to Book,1.5931247
+Price to Earnings,"PriceToEarnings(trailing_pe=7.2339325, forward_pe=19.19509)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.45, forward_eps=7.33)"
+Enterprise to Revenue,1.737
 
 CASH FLOW
-Free to Cash Flow,2236624896.0
-Operating to Cash Flow,2155000064.0
+Free to Cash Flow,3040124928.0
+Operating to Cash Flow,2584000000.0
 
 PROFITABILITY
-Return on Equity,0.20286
-Return on Assets,0.05868
-Return on Invested Capital,2.71821273335188
-Return on Investment,0.27917646305882354
+Return on Equity,0.25135002
+Return on Assets,0.07219
+Return on Invested Capital,3.5125856038661065
+Return on Investment,0.3743902595121951
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0252
-SUM DIVIDEND SCORE,8.0252
+5 Year Average,0.0256
+SUM DIVIDEND SCORE,8.0256
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.129999999999995
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.129999999999995
+Target High Price Diff Current Price,39.30000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,139.3
 
 
 

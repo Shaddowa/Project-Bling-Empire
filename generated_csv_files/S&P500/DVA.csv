@@ -5,27 +5,27 @@ Country,United States
 Industry,Medical Care Facilities
 Sector,Healthcare
 Website,https://www.davita.com
-Price,137.94
+Price,166.24
 Currency,USD
 
 REVENUE
-Total Revenue,12338002944.0
-Revenue Per Share,136.922
-Revenue Growth,0.069
+Total Revenue,12666613760.0
+Revenue Per Share,145.293
+Revenue Growth,0.046
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.82, forward_eps=10.16)"
-Net Earnings,815636992.0
-Earnings Growth,1.12
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.28, forward_eps=11.27)"
+Net Earnings,827678016.0
+Earnings Growth,-0.046
 
 DEBT
-Total Debt,11841482752.0
-Debt to Equity,449.224
+Total Debt,12198260736.0
+Debt to Equity,549.552
 
 MARGINS
-Profit Margins,0.06611
-Gross Profit Margins,0.324
-Operating Margins,0.14395
+Profit Margins,0.06534
+Gross Profit Margins,0.32804
+Operating Margins,0.16275999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,449.224
-Price to Cash Flow,2.439815610686841e-07
-Enterprise to EBITDA,10.132
-Price to Book,13.025195
-Price to Earnings,"PriceToEarnings(trailing_pe=15.591838, forward_pe=13.535434)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=8.82, forward_eps=10.16)"
-Enterprise to Revenue,2.047
+Debt to Equity,549.552
+Price to Cash Flow,1.5065008647305992e-07
+Enterprise to EBITDA,9.998
+Price to Book,35.886753
+Price to Earnings,"PriceToEarnings(trailing_pe=18.09806, forward_pe=14.902395)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.28, forward_eps=11.27)"
+Enterprise to Revenue,2.098
 
 CASH FLOW
-Free to Cash Flow,563649152.0
-Operating to Cash Flow,1461638016.0
+Free to Cash Flow,1114835072.0
+Operating to Cash Flow,1959616000.0
 
 PROFITABILITY
-Return on Equity,0.43219003
-Return on Assets,0.06361
-Return on Invested Capital,0.06887963343399792
-Return on Investment,0.0322265154191114
+Return on Equity,0.44884
+Return on Assets,0.06944
+Return on Invested Capital,0.06785213347996204
+Return on Investment,0.02651828217713927
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,31.47999999999999
+Target High Price Diff Current Price,18.05000000000001
 Recommendation Key,0
-SUM ANALYST RATING SCORE,31.47999999999999
+SUM ANALYST RATING SCORE,18.05000000000001
 
 
 

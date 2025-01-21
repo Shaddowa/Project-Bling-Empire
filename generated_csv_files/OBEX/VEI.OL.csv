@@ -5,55 +5,55 @@ Country,Norway
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.veidekke.com
-Price,111.8
+Price,139.8
 Currency,NOK
 
 REVENUE
-Total Revenue,43163000832.0
-Revenue Per Share,340.283
-Revenue Growth,0.002
+Total Revenue,42048000000.0
+Revenue Per Share,313.782
+Revenue Growth,-0.07
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.9, forward_eps=9.07)"
-Net Earnings,1188000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.7, forward_eps=9.85)"
+Net Earnings,1304999936.0
+Earnings Growth,0.03
 
 DEBT
-Total Debt,479000000.0
-Debt to Equity,15.387
+Total Debt,1152000000.0
+Debt to Equity,39.903
 
 MARGINS
-Profit Margins,0.027520001
-Gross Profit Margins,0.35197
-Operating Margins,-0.00158
+Profit Margins,0.031040002
+Gross Profit Margins,0.36286998
+Operating Margins,0.06079
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,7.9
-Dividend Yield,0.0686
-Dividend Payout Ratio,0.981
+Dividend Yield,0.056500003
+Dividend Payout Ratio,0.8144
 Five Year Avg Dividend Yield,4.5
 Trailing Annual Dividend Rate,7.9
-Trailing Annual Dividend Yield,0.070661895
+Trailing Annual Dividend Yield,0.056509297
 
 FINANCIAL RATIO
-Debt to Equity,15.387
-Price to Cash Flow,1.7281079445346474e-07
-Enterprise to EBITDA,3.999
-Price to Book,3.3542974
-Price to Earnings,"PriceToEarnings(trailing_pe=14.582278, forward_pe=12.701213)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.9, forward_eps=9.07)"
-Enterprise to Revenue,0.198
+Debt to Equity,39.903
+Price to Cash Flow,8.559670865389261e-08
+Enterprise to EBITDA,8.059
+Price to Book,6.6157756
+Price to Earnings,"PriceToEarnings(trailing_pe=14.474226, forward_pe=14.253806)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=9.7, forward_eps=9.85)"
+Enterprise to Revenue,0.418
 
 CASH FLOW
-Free to Cash Flow,666625024.0
-Operating to Cash Flow,2280000000.0
+Free to Cash Flow,1640249984.0
+Operating to Cash Flow,2894000128.0
 
 PROFITABILITY
-Return on Equity,0.42388
-Return on Assets,0.054530002
-Return on Invested Capital,2.48016683678737
-Return on Investment,-0.017267441860465117
+Return on Equity,0.50055003
+Return on Assets,0.05605
+Return on Invested Capital,1.1328124235759156
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,4.045
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,29.799999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,30.799999999999997
+Target High Price Diff Current Price,14.599999999999994
+Recommendation Key,0
+SUM ANALYST RATING SCORE,14.599999999999994
 
 
 

@@ -5,74 +5,74 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.americanexpress.com
-Price,239.14
+Price,312.56
 Currency,USD
 
 REVENUE
-Total Revenue,56897998848.0
-Revenue Per Share,77.996
-Revenue Growth,0.099
+Total Revenue,59238998016.0
+Revenue Per Share,82.534
+Revenue Growth,0.08
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.14, forward_eps=14.92)"
-Net Earnings,8869000192.0
-Earnings Growth,0.388
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.6, forward_eps=15.12)"
+Net Earnings,9760000000.0
+Earnings Growth,0.058
 
 DEBT
-Total Debt,50746998784.0
-Debt to Equity,176.425
+Total Debt,55496998912.0
+Debt to Equity,186.815
 
 MARGINS
-Profit Margins,0.15809
-Gross Profit Margins,0.55731
-Operating Margins,0.21673
+Profit Margins,0.16698
+Gross Profit Margins,0.55698
+Operating Margins,0.20936
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.8
-Dividend Yield,0.0116
-Dividend Payout Ratio,0.2059
-Five Year Avg Dividend Yield,1.31
-Trailing Annual Dividend Rate,2.5
-Trailing Annual Dividend Yield,0.010454128
+Dividend Yield,0.009
+Dividend Payout Ratio,0.19870001
+Five Year Avg Dividend Yield,1.27
+Trailing Annual Dividend Rate,2.7
+Trailing Annual Dividend Yield,0.008638342
 
 FINANCIAL RATIO
-Debt to Equity,176.425
+Debt to Equity,186.815
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,6.0565915
-Price to Earnings,"PriceToEarnings(trailing_pe=19.958813, forward_pe=16.239946)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.14, forward_eps=14.92)"
-Enterprise to Revenue,3.01
+Price to Book,7.517715
+Price to Earnings,"PriceToEarnings(trailing_pe=23.325367, forward_pe=20.98049)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.6, forward_eps=15.12)"
+Enterprise to Revenue,3.85
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,24487999488.0
+Operating to Cash Flow,15041000448.0
 
 PROFITABILITY
-Return on Equity,0.32854998
-Return on Assets,0.03562
-Return on Invested Capital,0.1747689596927355
-Return on Investment,0.015230980923922376
+Return on Equity,0.3469
+Return on Assets,0.03793
+Return on Invested Capital,0.1758653654057071
+Return on Investment,0.01544548188004431
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0131
-SUM DIVIDEND SCORE,8.0131
+5 Year Average,0.0127
+SUM DIVIDEND SCORE,8.0127
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.75999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.75999999999999
+Target High Price Diff Current Price,53.77499999999998
+Recommendation Key,0
+SUM ANALYST RATING SCORE,53.77499999999998
 
 
 
 PASSES GROWTH CRITERIA
 Earnings,False
-Revenue,False
+Revenue,True
 Net Income,False
 Total Revenue,False
 Operating Cash Flow,False
@@ -81,5 +81,5 @@ Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

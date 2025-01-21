@@ -5,68 +5,68 @@ Country,United States
 Industry,Capital Markets
 Sector,Financial Services
 Website,https://www.schwab.com
-Price,75.44
+Price,76.41
 Currency,USD
 
 REVENUE
-Total Revenue,18460999680.0
-Revenue Per Share,10.134
-Revenue Growth,-0.074
+Total Revenue,18736001024.0
+Revenue Per Share,10.263
+Revenue Growth,0.052
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.39, forward_eps=4.49)"
-Net Earnings,4367000064.0
-Earnings Growth,-0.181
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.56, forward_eps=3.8)"
+Net Earnings,4687000064.0
+Earnings Growth,0.271
 
 DEBT
-Total Debt,55300001792.0
-Debt to Equity,130.425
+Total Debt,68103999488.0
+Debt to Equity,144.242
 
 MARGINS
-Profit Margins,0.26142
-Gross Profit Margins,0.96620005
-Operating Margins,0.38059
+Profit Margins,0.27471
+Gross Profit Margins,0.96776
+Operating Margins,0.38416
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.0
 Dividend Yield,0.013099999
-Dividend Payout Ratio,0.4184
-Five Year Avg Dividend Yield,1.38
+Dividend Payout Ratio,0.39060003
+Five Year Avg Dividend Yield,1.37
 Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.013255567
+Trailing Annual Dividend Yield,0.013087291
 
 FINANCIAL RATIO
-Debt to Equity,130.425
+Debt to Equity,144.242
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,3.2759438
-Price to Earnings,"PriceToEarnings(trailing_pe=31.845186, forward_pe=16.951004)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.39, forward_eps=4.49)"
-Enterprise to Revenue,7.394
+Price to Book,3.8047922
+Price to Earnings,"PriceToEarnings(trailing_pe=30.890627, forward_pe=20.810528)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.56, forward_eps=3.8)"
+Enterprise to Revenue,7.734
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,None
+Operating to Cash Flow,33533999104.0
 
 PROFITABILITY
-Return on Equity,0.12257
-Return on Assets,0.00961
-Return on Invested Capital,0.07896925715465458
-Return on Investment,0.006764250408921933
+Return on Equity,0.12111
+Return on Assets,0.0109399995
+Return on Invested Capital,0.06882121604907424
+Return on Investment,0.007236374963717771
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,1.0
+Dividend Yield,4.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0138
-SUM DIVIDEND SCORE,5.0138
+5 Year Average,0.0137
+SUM DIVIDEND SCORE,7.0137
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,15.89
-Recommendation Key,1
-SUM ANALYST RATING SCORE,16.89
+Target High Price Diff Current Price,18.92
+Recommendation Key,100
+SUM ANALYST RATING SCORE,118.92
 
 
 

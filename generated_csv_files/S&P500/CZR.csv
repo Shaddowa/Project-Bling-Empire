@@ -5,27 +5,27 @@ Country,United States
 Industry,Resorts & Casinos
 Sector,Consumer Cyclical
 Website,https://www.caesars.com
-Price,37.3
+Price,34.05
 Currency,USD
 
 REVENUE
-Total Revenue,11440000000.0
-Revenue Per Share,53.148
-Revenue Growth,-0.031
+Total Revenue,11271000064.0
+Revenue Per Share,52.241
+Revenue Growth,-0.04
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=1.91)"
-Net Earnings,764000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.68, forward_eps=1.34)"
+Net Earnings,-361000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,25917999104.0
-Debt to Equity,564.908
+Total Debt,26279000064.0
+Debt to Equity,599.43
 
 MARGINS
-Profit Margins,0.06678
-Gross Profit Margins,0.52639997
-Operating Margins,0.17907
+Profit Margins,-0.03203
+Gross Profit Margins,0.52045
+Operating Margins,0.22408001
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,564.908
-Price to Cash Flow,6.545454355988658e-08
-Enterprise to EBITDA,8.941
-Price to Book,1.7744863
-Price to Earnings,"PriceToEarnings(trailing_pe=10.220339, forward_pe=18.94241)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.54, forward_eps=1.91)"
-Enterprise to Revenue,2.903
+Debt to Equity,599.43
+Price to Cash Flow,-1.5733639494833523e-07
+Enterprise to EBITDA,8.974
+Price to Book,1.7383802
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=25.567162)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-1.68, forward_eps=1.34)"
+Enterprise to Revenue,2.921
 
 CASH FLOW
-Free to Cash Flow,552750016.0
-Operating to Cash Flow,1715000064.0
+Free to Cash Flow,-217750000.0
+Operating to Cash Flow,1274000000.0
 
 PROFITABILITY
-Return on Equity,0.19993
-Return on Assets,0.04566
-Return on Invested Capital,0.02947758414271537
-Return on Investment,0.0022404692082111438
+Return on Equity,-0.063769996
+Return on Assets,0.044770002
+Return on Invested Capital,-0.01373720456828974
+Return on Investment,-0.0010818100089901108
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,33.82
-Recommendation Key,1
-SUM ANALYST RATING SCORE,34.82
+Target High Price Diff Current Price,31.740000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,131.74
 
 
 

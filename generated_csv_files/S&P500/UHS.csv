@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Care Facilities
 Sector,Healthcare
 Website,https://www.uhs.com
-Price,177.05
+Price,184.8
 Currency,USD
 
 REVENUE
-Total Revenue,14658039808.0
-Revenue Per Share,214.023
-Revenue Growth,0.108
+Total Revenue,15417758720.0
+Revenue Per Share,229.749
+Revenue Growth,0.112
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.77, forward_eps=15.14)"
-Net Earnings,816206016.0
-Earnings Growth,0.675
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.02, forward_eps=18.16)"
+Net Earnings,1025961984.0
+Earnings Growth,0.583
 
 DEBT
-Total Debt,5307198976.0
-Debt to Equity,84.097
+Total Debt,5106855936.0
+Debt to Equity,76.373
 
 MARGINS
-Profit Margins,0.0557
-Gross Profit Margins,0.40284002
-Operating Margins,0.10115
+Profit Margins,0.06655
+Gross Profit Margins,0.41716
+Operating Margins,0.09694
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0045
-Dividend Payout Ratio,0.068
-Five Year Avg Dividend Yield,0.5
+Dividend Yield,0.0043
+Dividend Payout Ratio,0.0533
+Five Year Avg Dividend Yield,0.51
 Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.0045184977
+Trailing Annual Dividend Yield,0.0043290043
 
 FINANCIAL RATIO
-Debt to Equity,84.097
-Price to Cash Flow,4.272778600423814e-07
-Enterprise to EBITDA,9.292
-Price to Book,1.9128894
-Price to Earnings,"PriceToEarnings(trailing_pe=15.13084, forward_pe=11.762879)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.77, forward_eps=15.14)"
-Enterprise to Revenue,1.175
+Debt to Equity,76.373
+Price to Cash Flow,2.675594778391477e-07
+Enterprise to EBITDA,8.132
+Price to Book,1.8621303
+Price to Earnings,"PriceToEarnings(trailing_pe=12.41478, forward_pe=10.268172)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.02, forward_eps=18.16)"
+Enterprise to Revenue,1.12
 
 CASH FLOW
-Free to Cash Flow,416801376.0
-Operating to Cash Flow,1373449984.0
+Free to Cash Flow,696929152.0
+Operating to Cash Flow,1861095040.0
 
 PROFITABILITY
-Return on Equity,0.13305001
-Return on Assets,0.05821
-Return on Invested Capital,0.1537922368038124
-Return on Investment,-0.0221126326084424
+Return on Equity,0.16341
+Return on Assets,0.06822
+Return on Invested Capital,0.20089894383940218
+Return on Investment,-0.020234579613990382
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.005
-SUM DIVIDEND SCORE,4.005
+5 Year Average,0.0051
+SUM DIVIDEND SCORE,4.0051
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,29.909999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,30.909999999999997
+Target High Price Diff Current Price,87.53
+Recommendation Key,100
+SUM ANALYST RATING SCORE,187.53
 
 
 

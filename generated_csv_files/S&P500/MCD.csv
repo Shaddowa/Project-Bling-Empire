@@ -5,68 +5,68 @@ Country,United States
 Industry,Restaurants
 Sector,Consumer Cyclical
 Website,https://www.mcdonalds.com
-Price,267.95
+Price,280.95
 Currency,USD
 
 REVENUE
-Total Revenue,25764700160.0
-Revenue Per Share,35.507
-Revenue Growth,0.046
+Total Revenue,25938700288.0
+Revenue Per Share,36.01
+Revenue Growth,0.027
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.77, forward_eps=13.28)"
-Net Earnings,8595800064.0
-Earnings Growth,0.086
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.38, forward_eps=12.61)"
+Net Earnings,8245799936.0
+Earnings Growth,-0.013
 
 DEBT
-Total Debt,50944999424.0
+Total Debt,53449998336.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.33363
-Gross Profit Margins,0.57006
-Operating Margins,0.44205
+Profit Margins,0.3179
+Gross Profit Margins,0.56616
+Operating Margins,0.46974
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,6.68
-Dividend Yield,0.024300002
-Dividend Payout Ratio,0.5421
-Five Year Avg Dividend Yield,2.24
-Trailing Annual Dividend Rate,6.38
-Trailing Annual Dividend Yield,0.02381041
+Dividend Rate,7.08
+Dividend Yield,0.0252
+Dividend Payout Ratio,0.5865
+Five Year Avg Dividend Yield,2.25
+Trailing Annual Dividend Rate,6.68
+Trailing Annual Dividend Yield,0.023776472
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,4.3556681572398765e-08
-Enterprise to EBITDA,17.98
+Price to Cash Flow,3.8354772014770324e-08
+Enterprise to EBITDA,18.313
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=23.364485, forward_pe=20.707832)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.77, forward_eps=13.28)"
-Enterprise to Revenue,9.637
+Price to Earnings,"PriceToEarnings(trailing_pe=24.60456, forward_pe=22.204594)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.38, forward_eps=12.61)"
+Enterprise to Revenue,9.775
 
 CASH FLOW
-Free to Cash Flow,6313612288.0
-Operating to Cash Flow,9581899776.0
+Free to Cash Flow,7300262400.0
+Operating to Cash Flow,9304899584.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.13991
-Return on Invested Capital,0.1687270617787471
-Return on Investment,0.21266205007422068
+Return on Assets,0.13629
+Return on Invested Capital,0.15427128519779
+Return on Investment,0.3349228243704305
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.022400000000000003
-SUM DIVIDEND SCORE,9.0224
+5 Year Average,0.0225
+SUM DIVIDEND SCORE,9.0225
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,82.0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,83.0
+Target High Price Diff Current Price,80.00009999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,180.00009999999997
 
 
 

@@ -5,68 +5,68 @@ Country,Switzerland
 Industry,Scientific & Technical Instruments
 Sector,Technology
 Website,https://www.garmin.com
-Price,169.3
+Price,215.7
 Currency,USD
 
 REVENUE
-Total Revenue,5462476800.0
-Revenue Per Share,28.525
-Revenue Growth,0.204
+Total Revenue,5956843008.0
+Revenue Per Share,31.044
+Revenue Growth,0.241
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.1, forward_eps=6.13)"
-Net Earnings,1363270016.0
-Earnings Growth,0.362
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.87, forward_eps=7.46)"
+Net Earnings,1517830016.0
+Earnings Growth,0.545
 
 DEBT
-Total Debt,261559008.0
-Debt to Equity,3.61
+Total Debt,143232000.0
+Debt to Equity,1.908
 
 MARGINS
-Profit Margins,0.24957001
-Gross Profit Margins,0.57745
-Operating Margins,0.21598
+Profit Margins,0.2548
+Gross Profit Margins,0.58432996
+Operating Margins,0.27583
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.0
-Dividend Yield,0.0178
-Dividend Payout Ratio,0.4118
-Five Year Avg Dividend Yield,2.43
-Trailing Annual Dividend Rate,2.92
-Trailing Annual Dividend Yield,0.01724749
+Dividend Yield,0.0139
+Dividend Payout Ratio,0.3761
+Five Year Avg Dividend Yield,2.3
+Trailing Annual Dividend Rate,3.0
+Trailing Annual Dividend Yield,0.0139082065
 
 FINANCIAL RATIO
-Debt to Equity,3.61
-Price to Cash Flow,1.8117926018646795e-07
-Enterprise to EBITDA,22.23
-Price to Book,4.4779325
-Price to Earnings,"PriceToEarnings(trailing_pe=23.792957, forward_pe=27.55791)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.1, forward_eps=6.13)"
-Enterprise to Revenue,5.586
+Debt to Equity,1.908
+Price to Cash Flow,2.242801490962304e-07
+Enterprise to EBITDA,24.509
+Price to Book,5.563618
+Price to Earnings,"PriceToEarnings(trailing_pe=27.619442, forward_pe=29.1374)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.87, forward_eps=7.46)"
+Enterprise to Revenue,6.57
 
 CASH FLOW
-Free to Cash Flow,932391488.0
-Operating to Cash Flow,1532359936.0
+Free to Cash Flow,969167360.0
+Operating to Cash Flow,1414521984.0
 
 PROFITABILITY
-Return on Equity,0.19973
-Return on Assets,0.0912
-Return on Invested Capital,5.212092788537413
-Return on Investment,-0.07516016010408971
+Return on Equity,0.21909
+Return on Assets,0.10241
+Return on Invested Capital,10.59700068410537
+Return on Investment,-0.0954484009030254
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
-Payout Ratio,1.0
+Dividend  Rate,3.0
+Dividend Yield,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.024300000000000002
-SUM DIVIDEND SCORE,9.0243
+5 Year Average,0.023
+SUM DIVIDEND SCORE,4.023
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
+Target High Price Diff Current Price,47.63499999999999
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+SUM ANALYST RATING SCORE,47.63499999999999
 
 
 

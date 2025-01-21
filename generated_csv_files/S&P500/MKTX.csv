@@ -5,68 +5,68 @@ Country,United States
 Industry,Capital Markets
 Sector,Financial Services
 Website,https://www.marketaxess.com
-Price,204.82
+Price,220.5
 Currency,USD
 
 REVENUE
-Total Revenue,759696000.0
-Revenue Per Share,20.199
-Revenue Growth,0.035
+Total Revenue,811940992.0
+Revenue Per Share,21.558
+Revenue Growth,0.2
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.8, forward_eps=8.04)"
-Net Earnings,257042000.0
-Earnings Growth,-0.02
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.39, forward_eps=8.23)"
+Net Earnings,278668992.0
+Earnings Growth,0.301
 
 DEBT
-Total Debt,78236000.0
-Debt to Equity,5.935
+Total Debt,75190000.0
+Debt to Equity,5.424
 
 MARGINS
-Profit Margins,0.33835
-Gross Profit Margins,0.63073003
-Operating Margins,0.43980998
+Profit Margins,0.34320998
+Gross Profit Margins,0.62552
+Operating Margins,0.42646
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.96
-Dividend Yield,0.014400001
-Dividend Payout Ratio,0.42580003
-Five Year Avg Dividend Yield,0.78
-Trailing Annual Dividend Rate,2.9
-Trailing Annual Dividend Yield,0.014158773
+Dividend Yield,0.0134000005
+Dividend Payout Ratio,0.3978
+Five Year Avg Dividend Yield,0.87
+Trailing Annual Dividend Rate,2.94
+Trailing Annual Dividend Yield,0.013333334
 
 FINANCIAL RATIO
-Debt to Equity,5.935
-Price to Cash Flow,2.3507004679092605e-06
-Enterprise to EBITDA,19.282
-Price to Book,5.931735
-Price to Earnings,"PriceToEarnings(trailing_pe=30.310293, forward_pe=25.635572)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.8, forward_eps=8.04)"
-Enterprise to Revenue,9.758
+Debt to Equity,5.424
+Price to Cash Flow,6.857787854416696e-07
+Enterprise to EBITDA,18.999
+Price to Book,6.0004897
+Price to Earnings,"PriceToEarnings(trailing_pe=29.83762, forward_pe=26.792225)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.39, forward_eps=8.23)"
+Enterprise to Revenue,9.658
 
 CASH FLOW
-Free to Cash Flow,87680248.0
-Operating to Cash Flow,321291008.0
+Free to Cash Flow,321532256.0
+Operating to Cash Flow,350673984.0
 
 PROFITABILITY
-Return on Equity,0.21070999
-Return on Assets,0.10975
-Return on Invested Capital,3.2854681456086503
-Return on Investment,-0.04908847850581517
+Return on Equity,0.21625
+Return on Assets,0.1183
+Return on Invested Capital,3.706195714967763
+Return on Investment,-0.05250970265686829
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0078000000000000005
-SUM DIVIDEND SCORE,9.0078
+5 Year Average,0.0087
+SUM DIVIDEND SCORE,8.0087
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,103.88999999999999
-Recommendation Key,0
-SUM ANALYST RATING SCORE,103.88999999999999
+Target High Price Diff Current Price,109.5
+Recommendation Key,100
+SUM ANALYST RATING SCORE,209.5
 
 
 

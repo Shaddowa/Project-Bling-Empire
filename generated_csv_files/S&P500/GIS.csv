@@ -5,68 +5,68 @@ Country,United States
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.generalmills.com
-Price,70.26
+Price,59.63
 Currency,USD
 
 REVENUE
-Total Revenue,20173299712.0
-Revenue Per Share,34.686
-Revenue Growth,-0.005
+Total Revenue,19800600576.0
+Revenue Per Share,34.796
+Revenue Growth,-0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.36, forward_eps=4.69)"
-Net Earnings,2553999872.0
-Earnings Growth,0.272
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.6, forward_eps=4.7)"
+Net Earnings,2403000064.0
+Earnings Growth,-0.096
 
 DEBT
-Total Debt,12513999872.0
-Debt to Equity,129.126
+Total Debt,13320399872.0
+Debt to Equity,139.823
 
 MARGINS
-Profit Margins,0.1266
-Gross Profit Margins,0.34679002
-Operating Margins,0.1835
+Profit Margins,0.12136
+Gross Profit Margins,0.34652
+Operating Margins,0.175
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.36
-Dividend Yield,0.0334
-Dividend Payout Ratio,0.5298
-Five Year Avg Dividend Yield,3.22
-Trailing Annual Dividend Rate,2.31
-Trailing Annual Dividend Yield,0.03287788
+Dividend Rate,2.4
+Dividend Yield,0.0364
+Dividend Payout Ratio,0.5643
+Five Year Avg Dividend Yield,3.19
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,129.126
-Price to Cash Flow,3.7322493166700217e-08
-Enterprise to EBITDA,12.127
-Price to Book,4.229228
-Price to Earnings,"PriceToEarnings(trailing_pe=16.215595, forward_pe=15.074626)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.36, forward_eps=4.69)"
-Enterprise to Revenue,2.582
+Debt to Equity,139.823
+Price to Cash Flow,2.7703006319137234e-08
+Enterprise to EBITDA,11.794
+Price to Book,3.6205153
+Price to Earnings,"PriceToEarnings(trailing_pe=13.228261, forward_pe=12.946809)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.6, forward_eps=4.7)"
+Enterprise to Revenue,2.51
 
 CASH FLOW
-Free to Cash Flow,1894300032.0
-Operating to Cash Flow,3190500096.0
+Free to Cash Flow,2196512512.0
+Operating to Cash Flow,3548699904.0
 
 PROFITABILITY
-Return on Equity,0.25566
-Return on Assets,0.07549
-Return on Invested Capital,0.20409140919864988
+Return on Equity,0.24168
+Return on Assets,0.07251
+Return on Invested Capital,0.1803999942989112
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0322
-SUM DIVIDEND SCORE,9.0322
+5 Year Average,0.0319
+SUM DIVIDEND SCORE,5.0319
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,6.299999999999997
+Target High Price Diff Current Price,23.15
 Recommendation Key,0
-SUM ANALYST RATING SCORE,6.299999999999997
+SUM ANALYST RATING SCORE,23.15
 
 
 

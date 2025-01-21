@@ -5,68 +5,68 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.churchdwight.com
-Price,107.05
+Price,106.47
 Currency,USD
 
 REVENUE
-Total Revenue,5941400064.0
-Revenue Per Share,24.27
-Revenue Growth,0.051
+Total Revenue,6053100032.0
+Revenue Per Share,24.777
+Revenue Growth,0.038
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.15, forward_eps=3.76)"
-Net Earnings,780099968.0
-Earnings Growth,0.134
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=3.73)"
+Net Earnings,549800000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,2417200128.0
-Debt to Equity,58.946
+Total Debt,2412900096.0
+Debt to Equity,57.536
 
 MARGINS
-Profit Margins,0.1313
-Gross Profit Margins,0.44661
-Operating Margins,0.20289
+Profit Margins,0.09083
+Gross Profit Margins,0.45654
+Operating Margins,0.17582001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.14
-Dividend Yield,0.0106
-Dividend Payout Ratio,0.34849998
-Five Year Avg Dividend Yield,1.17
-Trailing Annual Dividend Rate,1.101
-Trailing Annual Dividend Yield,0.010284913
+Dividend Yield,0.0107
+Dividend Payout Ratio,0.5039
+Five Year Avg Dividend Yield,1.15
+Trailing Annual Dividend Rate,1.121
+Trailing Annual Dividend Yield,0.010528788
 
 FINANCIAL RATIO
-Debt to Equity,58.946
-Price to Cash Flow,1.6906534538977157e-07
-Enterprise to EBITDA,22.245
-Price to Book,6.3974004
-Price to Earnings,"PriceToEarnings(trailing_pe=34.066666, forward_pe=28.539892)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.15, forward_eps=3.76)"
-Enterprise to Revenue,4.764
+Debt to Equity,57.536
+Price to Cash Flow,1.5901730308369214e-07
+Enterprise to EBITDA,20.86
+Price to Book,6.2375894
+Price to Earnings,"PriceToEarnings(trailing_pe=47.892376, forward_pe=28.632708)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=3.73)"
+Enterprise to Revenue,4.584
 
 CASH FLOW
-Free to Cash Flow,634724992.0
-Operating to Cash Flow,1020499968.0
+Free to Cash Flow,671625024.0
+Operating to Cash Flow,1099399936.0
 
 PROFITABILITY
-Return on Equity,0.20084
-Return on Assets,0.07952
-Return on Invested Capital,0.3227287445297322
-Return on Investment,-0.2549346300653595
+Return on Equity,0.13338
+Return on Assets,0.08087
+Return on Invested Capital,0.22785858271133547
+Return on Investment,-0.18326666666666666
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.011699999999999999
-SUM DIVIDEND SCORE,8.0117
+5 Year Average,0.0115
+SUM DIVIDEND SCORE,9.0115
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,12.689999999999998
+Target High Price Diff Current Price,21.200000000000003
 Recommendation Key,0
-SUM ANALYST RATING SCORE,12.689999999999998
+SUM ANALYST RATING SCORE,21.200000000000003
 
 
 

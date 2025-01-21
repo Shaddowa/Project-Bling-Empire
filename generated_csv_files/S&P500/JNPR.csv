@@ -5,68 +5,68 @@ Country,United States
 Industry,Communication Equipment
 Sector,Technology
 Website,https://www.juniper.net
-Price,34.45
+Price,38.43
 Currency,USD
 
 REVENUE
-Total Revenue,5341599744.0
-Revenue Per Share,16.689
-Revenue Growth,-0.162
+Total Revenue,5034299904.0
+Revenue Per Share,15.536
+Revenue Growth,-0.048
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.69, forward_eps=2.22)"
-Net Earnings,224000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.76, forward_eps=1.98)"
+Net Earnings,250200000.0
+Earnings Growth,0.175
 
 DEBT
-Total Debt,1821400064.0
-Debt to Equity,40.645
+Total Debt,1815699968.0
+Debt to Equity,39.109
 
 MARGINS
-Profit Margins,0.041939996
-Gross Profit Margins,0.58252
-Operating Margins,0.01584
+Profit Margins,0.0497
+Gross Profit Margins,0.58598
+Operating Margins,0.08452
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.88
-Dividend Yield,0.0254
-Dividend Payout Ratio,1.28
-Five Year Avg Dividend Yield,2.96
+Dividend Yield,0.0229
+Dividend Payout Ratio,1.1579
+Five Year Avg Dividend Yield,2.87
 Trailing Annual Dividend Rate,0.88
-Trailing Annual Dividend Yield,0.025544267
+Trailing Annual Dividend Yield,0.022898776
 
 FINANCIAL RATIO
-Debt to Equity,40.645
-Price to Cash Flow,4.2674551530871185e-08
-Enterprise to EBITDA,17.895
-Price to Book,2.5114188
-Price to Earnings,"PriceToEarnings(trailing_pe=50.202896, forward_pe=15.603603)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.69, forward_eps=2.22)"
-Enterprise to Revenue,2.213
+Debt to Equity,39.109
+Price to Cash Flow,7.657125727948795e-08
+Enterprise to EBITDA,26.696
+Price to Book,2.7503386
+Price to Earnings,"PriceToEarnings(trailing_pe=50.776318, forward_pe=19.489899)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.76, forward_eps=1.98)"
+Enterprise to Revenue,2.643
 
 CASH FLOW
-Free to Cash Flow,811724992.0
-Operating to Cash Flow,1006300032.0
+Free to Cash Flow,503975008.0
+Operating to Cash Flow,517400000.0
 
 PROFITABILITY
-Return on Equity,0.050240003
-Return on Assets,0.03133
-Return on Invested Capital,0.12298231603867173
-Return on Investment,0.21333333333333335
+Return on Equity,0.055760004
+Return on Assets,0.02182
+Return on Invested Capital,0.1377980957625676
+Return on Investment,0.061474201474201476
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0296
-SUM DIVIDEND SCORE,4.0296
+5 Year Average,0.0287
+SUM DIVIDEND SCORE,7.0287
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,6.359999999999999
+Target High Price Diff Current Price,1.4099999999999966
 Recommendation Key,0
-SUM ANALYST RATING SCORE,6.359999999999999
+SUM ANALYST RATING SCORE,1.4099999999999966
 
 
 

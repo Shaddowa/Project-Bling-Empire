@@ -5,68 +5,68 @@ Country,United States
 Industry,Asset Management
 Sector,Financial Services
 Website,https://www.principal.com
-Price,83.49
+Price,81.66
 Currency,USD
 
 REVENUE
-Total Revenue,14900100096.0
-Revenue Per Share,62.226
-Revenue Growth,0.438
+Total Revenue,14066499584.0
+Revenue Per Share,59.953
+Revenue Growth,-0.345
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.35, forward_eps=8.46)"
-Net Earnings,1295800064.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.74, forward_eps=8.44)"
+Net Earnings,-206100000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,4350600192.0
-Debt to Equity,37.501
+Total Debt,4203500032.0
+Debt to Equity,36.258
 
 MARGINS
-Profit Margins,0.086969994
-Gross Profit Margins,0.45426
-Operating Margins,0.15114
+Profit Margins,-0.01465
+Gross Profit Margins,0.35688
+Operating Margins,-0.079629995
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.84
-Dividend Yield,0.033800002
-Dividend Payout Ratio,0.4953
-Five Year Avg Dividend Yield,3.9
-Trailing Annual Dividend Rate,2.65
-Trailing Annual Dividend Yield,0.03174033
+Dividend Rate,2.92
+Dividend Yield,0.0358
+Dividend Payout Ratio,0.5171
+Five Year Avg Dividend Yield,3.82
+Trailing Annual Dividend Rate,2.79
+Trailing Annual Dividend Yield,0.034166053
 
 FINANCIAL RATIO
-Debt to Equity,37.501
-Price to Cash Flow,7.648458956860679e-08
-Enterprise to EBITDA,10.382
-Price to Book,1.7641991
-Price to Earnings,"PriceToEarnings(trailing_pe=15.693458, forward_pe=9.92435)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.35, forward_eps=8.46)"
-Enterprise to Revenue,1.298
+Debt to Equity,36.258
+Price to Cash Flow,7.972790428406021e-08
+Enterprise to EBITDA,-1069.408
+Price to Book,1.6860168
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=9.790284)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-0.74, forward_eps=8.44)"
+Enterprise to Revenue,1.148
 
 CASH FLOW
-Free to Cash Flow,1097737472.0
-Operating to Cash Flow,3681299968.0
+Free to Cash Flow,1036400000.0
+Operating to Cash Flow,4087899904.0
 
 PROFITABILITY
-Return on Equity,0.12077
-Return on Assets,0.00328
-Return on Invested Capital,0.29784397385171346
-Return on Investment,-0.14826087688787185
+Return on Equity,-0.01274
+Return on Assets,-0.00055
+Return on Invested Capital,-0.049030568818385314
+Return on Investment,0.02582706766917293
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.039
-SUM DIVIDEND SCORE,9.039
+5 Year Average,0.0382
+SUM DIVIDEND SCORE,9.0382
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,5.040000000000006
+Target High Price Diff Current Price,16.370000000000005
 Recommendation Key,0
-SUM ANALYST RATING SCORE,5.040000000000006
+SUM ANALYST RATING SCORE,16.370000000000005
 
 
 

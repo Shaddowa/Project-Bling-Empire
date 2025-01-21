@@ -5,55 +5,55 @@ Country,United States
 Industry,Telecom Services
 Sector,Communication Services
 Website,https://www.t-mobile.com
-Price,164.68
+Price,218.97
 Currency,USD
 
 REVENUE
-Total Revenue,78520000512.0
-Revenue Per Share,66.738
-Revenue Growth,-0.002
+Total Revenue,80005996544.0
+Revenue Per Share,68.393
+Revenue Growth,0.047
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.36, forward_eps=11.13)"
-Net Earnings,8750999552.0
-Earnings Growth,0.266
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=10.67)"
+Net Earnings,10371999744.0
+Earnings Growth,0.434
 
 DEBT
-Total Debt,116215996416.0
-Debt to Equity,187.222
+Total Debt,117109997568.0
+Debt to Equity,182.272
 
 MARGINS
-Profit Margins,0.11145
-Gross Profit Margins,0.63146996
-Operating Margins,0.21068001
+Profit Margins,0.12964
+Gross Profit Margins,0.63826
+Operating Margins,0.23792
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.6
-Dividend Yield,0.015800001
-Dividend Payout Ratio,0.1769
+Dividend Rate,3.52
+Dividend Yield,0.0161
+Dividend Payout Ratio,0.2965
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,1.95
-Trailing Annual Dividend Yield,0.011841147
+Trailing Annual Dividend Rate,2.83
+Trailing Annual Dividend Yield,0.012924144
 
 FINANCIAL RATIO
-Debt to Equity,187.222
-Price to Cash Flow,1.731679287049692e-08
-Enterprise to EBITDA,10.322
-Price to Book,3.114095
-Price to Earnings,"PriceToEarnings(trailing_pe=22.309782, forward_pe=14.752919)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.36, forward_eps=11.13)"
-Enterprise to Revenue,3.845
+Debt to Equity,182.272
+Price to Cash Flow,2.383779479841389e-08
+Enterprise to EBITDA,11.788
+Price to Book,3.9718678
+Price to Earnings,"PriceToEarnings(trailing_pe=24.95672, forward_pe=20.536081)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=8.78, forward_eps=10.67)"
+Enterprise to Revenue,4.518
 
 CASH FLOW
-Free to Cash Flow,9482125312.0
-Operating to Cash Flow,19591999488.0
+Free to Cash Flow,9192125440.0
+Operating to Cash Flow,21603000320.0
 
 PROFITABILITY
-Return on Equity,0.13568
-Return on Assets,0.04882
-Return on Invested Capital,0.07529944085068155
-Return on Investment,-0.02387721569440655
+Return on Equity,0.16087
+Return on Assets,0.052389998
+Return on Invested Capital,0.08856630479469924
+Return on Investment,-0.02161734002501042
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,8.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,70.80000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,71.80000000000001
+Target High Price Diff Current Price,60.879999999999995
+Recommendation Key,100
+SUM ANALYST RATING SCORE,160.88
 
 
 
@@ -75,11 +75,11 @@ Earnings,False
 Revenue,False
 Net Income,False
 Total Revenue,False
-Operating Cash Flow,False
+Operating Cash Flow,True
 Free Cash Flow,False
 Book Value + Dividends,False
 Return On Income Capital,False
 Return On Equity,False
 Owner Earnings,False
-CRITERIA PASS COUNT,0.0
+CRITERIA PASS COUNT,1.0
 

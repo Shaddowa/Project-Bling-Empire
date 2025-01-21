@@ -5,27 +5,27 @@ Country,Norway
 Industry,Semiconductors
 Sector,Technology
 Website,https://www.nordicsemi.com
-Price,132.0
+Price,117.8
 Currency,NOK
 
 REVENUE
-Total Revenue,471939008.0
-Revenue Per Share,2.455
-Revenue Growth,-0.488
+Total Revenue,469412992.0
+Revenue Per Share,2.442
+Revenue Growth,0.176
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.2, forward_eps=1.96)"
-Net Earnings,-21121000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.8, forward_eps=0.99)"
+Net Earnings,-47032000.0
+Earnings Growth,4.333
 
 DEBT
-Total Debt,150498000.0
-Debt to Equity,26.228
+Total Debt,152674000.0
+Debt to Equity,26.608
 
 MARGINS
-Profit Margins,-0.044749998
-Gross Profit Margins,0.51258
-Operating Margins,-0.44949
+Profit Margins,-0.10019
+Gross Profit Margins,0.47812
+Operating Margins,0.03895
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,26.228
-Price to Cash Flow,-1.751980944706725e-06
-Enterprise to EBITDA,-2060.165
-Price to Book,44.9933
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=68.54592)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.2, forward_eps=1.96)"
-Enterprise to Revenue,54.527
+Debt to Equity,26.608
+Price to Cash Flow,-2.7604795606763576e-06
+Enterprise to EBITDA,-486.584
+Price to Book,39.125336
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=117.92929)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-2.8, forward_eps=0.99)"
+Enterprise to Revenue,48.018
 
 CASH FLOW
-Free to Cash Flow,-76684624.0
-Operating to Cash Flow,-25737000.0
+Free to Cash Flow,-42293376.0
+Operating to Cash Flow,1497000.0
 
 PROFITABILITY
-Return on Equity,-0.036229998
-Return on Assets,-0.025109999
-Return on Invested Capital,-0.14034073264058375
+Return on Equity,-0.07933
+Return on Assets,-0.047870003
+Return on Invested Capital,-0.30805506556953827
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.599999999999994
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.599999999999994
+Target High Price Diff Current Price,40.25
+Recommendation Key,100
+SUM ANALYST RATING SCORE,140.25
 
 
 

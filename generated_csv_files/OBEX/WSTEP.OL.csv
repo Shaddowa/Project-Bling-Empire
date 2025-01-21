@@ -5,68 +5,68 @@ Country,Norway
 Industry,Information Technology Services
 Sector,Technology
 Website,https://www.webstep.com
-Price,22.0
+Price,22.1
 Currency,NOK
 
 REVENUE
-Total Revenue,1000006016.0
-Revenue Per Share,36.188
-Revenue Growth,0.064
+Total Revenue,1008076992.0
+Revenue Per Share,36.4
+Revenue Growth,0.08
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.16, forward_eps=2.23)"
-Net Earnings,4444000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.35, forward_eps=2.2)"
+Net Earnings,5518000.0
+Earnings Growth,0.085
 
 DEBT
-Total Debt,98015000.0
-Debt to Equity,27.289
+Total Debt,77671000.0
+Debt to Equity,21.232
 
 MARGINS
-Profit Margins,0.0044400003
-Gross Profit Margins,0.12259
-Operating Margins,-0.101940006
+Profit Margins,0.00274
+Gross Profit Margins,0.12123
+Operating Margins,0.08259
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.0
-Dividend Yield,0.0442
-Dividend Payout Ratio,10.625
+Dividend Yield,0.0405
+Dividend Payout Ratio,5.1498
 Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,1.0
-Trailing Annual Dividend Yield,0.045454547
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,27.289
-Price to Cash Flow,4.475757317942432e-07
-Enterprise to EBITDA,24.85
-Price to Book,1.7392642
-Price to Earnings,"PriceToEarnings(trailing_pe=141.25, forward_pe=10.134529)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.16, forward_eps=2.23)"
-Enterprise to Revenue,0.649
+Debt to Equity,21.232
+Price to Cash Flow,-5.47581961920065e-07
+Enterprise to EBITDA,26.385
+Price to Book,1.7084808
+Price to Earnings,"PriceToEarnings(trailing_pe=63.428574, forward_pe=10.090909)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.35, forward_eps=2.2)"
+Enterprise to Revenue,0.745
 
 CASH FLOW
-Free to Cash Flow,50494248.0
-Operating to Cash Flow,76485000.0
+Free to Cash Flow,-40541876.0
+Operating to Cash Flow,52105000.0
 
 PROFITABILITY
-Return on Equity,0.01181
-Return on Assets,0.01664
-Return on Invested Capital,0.04533999296895507
-Return on Investment,0.005571016672934687
+Return on Equity,0.01472
+Return on Assets,0.0179
+Return on Invested Capital,0.07104323462893755
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.0
 SUM DIVIDEND SCORE,4.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,2.3999999999999986
-Recommendation Key,1
-SUM ANALYST RATING SCORE,3.3999999999999986
+Target High Price Diff Current Price,5.800000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,5.800000000000001
 
 
 

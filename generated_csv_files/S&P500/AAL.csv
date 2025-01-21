@@ -5,27 +5,27 @@ Country,United States
 Industry,Airlines
 Sector,Industrials
 Website,https://www.americanairlines.in/intl/in/index.jsp
-Price,14.48
+Price,18.27
 Currency,USD
 
 REVENUE
-Total Revenue,53169000448.0
-Revenue Per Share,81.227
-Revenue Growth,0.031
+Total Revenue,53612998656.0
+Revenue Per Share,81.697
+Revenue Growth,0.012
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.71, forward_eps=3.19)"
-Net Earnings,500000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.42, forward_eps=2.02)"
+Net Earnings,275000000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,40059998208.0
+Total Debt,39173001216.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.0094
-Gross Profit Margins,0.25312
-Operating Margins,0.00804
+Profit Margins,0.00513
+Gross Profit Margins,0.24033001
+Operating Margins,0.049099997
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,4.095272044826666e-08
-Enterprise to EBITDA,6.821
+Price to Cash Flow,4.14369905551593e-08
+Enterprise to EBITDA,8.334
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=20.28169, forward_pe=4.5141063)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.71, forward_eps=3.19)"
-Enterprise to Revenue,0.76
+Price to Earnings,"PriceToEarnings(trailing_pe=43.94048, forward_pe=9.136139)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.42, forward_eps=2.02)"
+Enterprise to Revenue,0.788
 
 CASH FLOW
-Free to Cash Flow,351624992.0
-Operating to Cash Flow,2649999872.0
+Free to Cash Flow,445375008.0
+Operating to Cash Flow,2233999872.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.03514
-Return on Invested Capital,0.012481278643811643
-Return on Investment,0.003878975950349108
+Return on Assets,0.02753
+Return on Invested Capital,0.0070201412073460315
+Return on Investment,0.0023305084745762713
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0127
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,8.6
-Recommendation Key,1
-SUM ANALYST RATING SCORE,9.6
+Target High Price Diff Current Price,11.545000000000002
+Recommendation Key,100
+SUM ANALYST RATING SCORE,111.545
 
 
 

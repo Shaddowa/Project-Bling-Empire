@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,D
 Company,"Dominion Energy, Inc."
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.dominionenergy.com
-Price,52.84
+Price,55.28
 Currency,USD
 
 REVENUE
-Total Revenue,14142000128.0
-Revenue Per Share,16.896
-Revenue Growth,-0.065
+Total Revenue,14593000448.0
+Revenue Per Share,17.411
+Revenue Growth,0.034
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.31, forward_eps=3.36)"
-Net Earnings,1936000000.0
-Earnings Growth,-0.323
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.71, forward_eps=3.38)"
+Net Earnings,2278000128.0
+Earnings Growth,5.846
 
 DEBT
-Total Debt,41849999360.0
-Debt to Equity,152.62
+Total Debt,43044999168.0
+Debt to Equity,156.351
 
 MARGINS
-Profit Margins,0.11929
-Gross Profit Margins,0.47057998
-Operating Margins,0.26652
+Profit Margins,0.16946
+Gross Profit Margins,0.48743
+Operating Margins,0.35981
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.67
-Dividend Yield,0.050300002
-Dividend Payout Ratio,1.1558
-Five Year Avg Dividend Yield,4.42
+Dividend Yield,0.048299998
+Dividend Payout Ratio,0.9852
+Five Year Avg Dividend Yield,4.47
 Trailing Annual Dividend Rate,2.67
-Trailing Annual Dividend Yield,0.050529905
+Trailing Annual Dividend Yield,0.04829957
 
 FINANCIAL RATIO
-Debt to Equity,152.62
-Price to Cash Flow,-4.9777236296826405e-09
-Enterprise to EBITDA,12.98
-Price to Book,1.7346538
-Price to Earnings,"PriceToEarnings(trailing_pe=22.974026, forward_pe=15.794643)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.31, forward_eps=3.36)"
-Enterprise to Revenue,6.212
+Debt to Equity,156.351
+Price to Cash Flow,2.1101167084596478e-08
+Enterprise to EBITDA,12.664
+Price to Book,1.8059032
+Price to Earnings,"PriceToEarnings(trailing_pe=20.771217, forward_pe=16.653847)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.71, forward_eps=3.38)"
+Enterprise to Revenue,6.102
 
 CASH FLOW
-Free to Cash Flow,-10661499904.0
-Operating to Cash Flow,6456999936.0
+Free to Cash Flow,2667624960.0
+Operating to Cash Flow,5762999808.0
 
 PROFITABILITY
-Return on Equity,0.07232
-Return on Assets,0.0226
-Return on Invested Capital,0.04626045467601908
+Return on Equity,0.085030004
+Return on Assets,0.02589
+Return on Invested Capital,0.05292136532421924
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.044199999999999996
-SUM DIVIDEND SCORE,4.0442
+5 Year Average,0.0447
+SUM DIVIDEND SCORE,7.0447
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,2.9299999999999997
+Target High Price Diff Current Price,8.71
 Recommendation Key,0
-SUM ANALYST RATING SCORE,2.9299999999999997
+SUM ANALYST RATING SCORE,8.71
 
 
 

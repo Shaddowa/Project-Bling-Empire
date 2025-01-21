@@ -5,68 +5,68 @@ Country,Cyprus
 Industry,Oil & Gas Midstream
 Sector,Energy
 Website,https://www.frontlineplc.cy
-Price,275.0
+Price,197.0
 Currency,NOK
 
 REVENUE
-Total Revenue,1802183936.0
-Revenue Per Share,8.095
-Revenue Growth,-0.217
+Total Revenue,1926512000.0
+Revenue Per Share,8.654
+Revenue Growth,0.084
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=32.16, forward_eps=44.25)"
-Net Earnings,656414016.0
-Earnings Growth,-0.505
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.17, forward_eps=39.57)"
+Net Earnings,594507008.0
+Earnings Growth,-0.187
 
 DEBT
-Total Debt,3458996992.0
-Debt to Equity,151.887
+Total Debt,3859525120.0
+Debt to Equity,159.104
 
 MARGINS
-Profit Margins,0.36423
-Gross Profit Margins,0.5588
-Operating Margins,0.32763
+Profit Margins,0.30859
+Gross Profit Margins,0.52529
+Operating Margins,0.36766997
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,16.05
-Dividend Yield,0.0558
-Dividend Payout Ratio,0.97290003
+Dividend Rate,26.35
+Dividend Yield,0.12640001
+Dividend Payout Ratio,0.78279996
 Five Year Avg Dividend Yield,10.92
-Trailing Annual Dividend Rate,2.17
-Trailing Annual Dividend Yield,0.007890909
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,151.887
-Price to Cash Flow,-2.7854883727731894e-07
-Enterprise to EBITDA,71.884
-Price to Book,28.11767
-Price to Earnings,"PriceToEarnings(trailing_pe=8.945896, forward_pe=6.501695)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=32.16, forward_eps=44.25)"
-Enterprise to Revenue,37.283
+Debt to Equity,159.104
+Price to Cash Flow,-1.013435134465239e-07
+Enterprise to EBITDA,47.55
+Price to Book,18.505669
+Price to Earnings,"PriceToEarnings(trailing_pe=6.7216897, forward_pe=4.785191)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=28.17, forward_eps=39.57)"
+Enterprise to Revenue,23.115
 
 CASH FLOW
-Free to Cash Flow,-1032852992.0
-Operating to Cash Flow,856180992.0
+Free to Cash Flow,-1868397824.0
+Operating to Cash Flow,707036992.0
 
 PROFITABILITY
-Return on Equity,0.28934
-Return on Assets,0.084809996
-Return on Invested Capital,0.1897700447778455
-Return on Investment,-0.005152851442634146
+Return on Equity,0.2518
+Return on Assets,0.07457
+Return on Invested Capital,0.1540363096338392
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.1092
-SUM DIVIDEND SCORE,8.1092
+SUM DIVIDEND SCORE,4.1092
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,83.93
-Recommendation Key,1
-SUM ANALYST RATING SCORE,84.93
+Target High Price Diff Current Price,137.42910000000003
+Recommendation Key,0
+SUM ANALYST RATING SCORE,137.42910000000003
 
 
 

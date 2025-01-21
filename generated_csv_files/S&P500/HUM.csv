@@ -5,68 +5,68 @@ Country,United States
 Industry,Healthcare Plans
 Sector,Healthcare
 Website,https://www.humana.com
-Price,334.68
+Price,282.63
 Currency,USD
 
 REVENUE
-Total Revenue,109242998784.0
-Revenue Per Share,889.172
-Revenue Growth,0.107
+Total Revenue,115010002944.0
+Revenue Per Share,949.935
+Revenue Growth,0.113
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.24, forward_eps=20.27)"
-Net Earnings,1991000064.0
-Earnings Growth,-0.381
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.45, forward_eps=16.84)"
+Net Earnings,1359000064.0
+Earnings Growth,-0.407
 
 DEBT
-Total Debt,13544999936.0
-Debt to Equity,83.683
+Total Debt,13377999872.0
+Debt to Equity,75.908
 
 MARGINS
-Profit Margins,0.018229999
-Gross Profit Margins,0.16094999
-Operating Margins,0.042719997
+Profit Margins,0.011820001
+Gross Profit Margins,0.14734
+Operating Margins,0.02664
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.54
-Dividend Yield,0.0105
-Dividend Payout Ratio,0.218
-Five Year Avg Dividend Yield,0.68
+Dividend Yield,0.0125
+Dividend Payout Ratio,0.3089
+Five Year Avg Dividend Yield,0.73
 Trailing Annual Dividend Rate,3.54
-Trailing Annual Dividend Yield,0.010577268
+Trailing Annual Dividend Yield,0.012525209
 
 FINANCIAL RATIO
-Debt to Equity,83.683
-Price to Cash Flow,-4.9200434284708e-08
-Enterprise to EBITDA,7.029
-Price to Book,2.5070596
-Price to Earnings,"PriceToEarnings(trailing_pe=20.66441, forward_pe=16.555994)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.24, forward_eps=20.27)"
-Enterprise to Revenue,0.288
+Debt to Equity,75.908
+Price to Cash Flow,-2.6560353269396196e-08
+Enterprise to EBITDA,6.171
+Price to Book,1.935287
+Price to Earnings,"PriceToEarnings(trailing_pe=24.655895, forward_pe=16.764252)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.45, forward_eps=16.84)"
+Enterprise to Revenue,0.203
 
 CASH FLOW
-Free to Cash Flow,-6820874752.0
-Operating to Cash Flow,-2283000064.0
+Free to Cash Flow,-10629000192.0
+Operating to Cash Flow,-3640000000.0
 
 PROFITABILITY
-Return on Equity,0.12096
-Return on Assets,0.04911
-Return on Invested Capital,0.14699151374909317
-Return on Investment,0.165916672
+Return on Equity,0.078379996
+Return on Assets,0.040149998
+Return on Invested Capital,0.10158469593243935
+Return on Investment,0.023431035586206895
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0068000000000000005
-SUM DIVIDEND SCORE,4.0068
+5 Year Average,0.0073
+SUM DIVIDEND SCORE,4.0073
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,64.41000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,65.41000000000003
+Target High Price Diff Current Price,142.69
+Recommendation Key,100
+SUM ANALYST RATING SCORE,242.69
 
 
 

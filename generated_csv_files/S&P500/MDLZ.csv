@@ -5,68 +5,68 @@ Country,United States
 Industry,Confectioners
 Sector,Consumer Defensive
 Website,https://www.mondelezinternational.com
-Price,70.2
+Price,57.86
 Currency,USD
 
 REVENUE
-Total Revenue,36139999232.0
-Revenue Per Share,26.603
-Revenue Growth,0.014
+Total Revenue,36151001088.0
+Revenue Per Share,26.833
+Revenue Growth,0.019
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=3.76)"
-Net Earnings,4289999872.0
-Earnings Growth,-0.316
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.82, forward_eps=3.43)"
+Net Earnings,3816000000.0
+Earnings Growth,-0.125
 
 DEBT
-Total Debt,19568001024.0
-Debt to Equity,68.626
+Total Debt,20425000960.0
+Debt to Equity,73.232
 
 MARGINS
-Profit Margins,0.118710004
-Gross Profit Margins,0.41693002
-Operating Margins,0.30549
+Profit Margins,0.10556
+Gross Profit Margins,0.38771
+Operating Margins,0.11147001
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,1.7
-Dividend Yield,0.0239
-Dividend Payout Ratio,0.5287
-Five Year Avg Dividend Yield,2.12
-Trailing Annual Dividend Rate,1.66
-Trailing Annual Dividend Yield,0.023646723
+Dividend Rate,1.88
+Dividend Yield,0.0325
+Dividend Payout Ratio,0.6188
+Five Year Avg Dividend Yield,2.2
+Trailing Annual Dividend Rate,1.745
+Trailing Annual Dividend Yield,0.030159004
 
 FINANCIAL RATIO
-Debt to Equity,68.626
-Price to Cash Flow,1.9882714680953293e-08
-Enterprise to EBITDA,13.505
-Price to Book,3.3597584
-Price to Earnings,"PriceToEarnings(trailing_pe=22.675158, forward_pe=18.936169)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.14, forward_eps=3.76)"
-Enterprise to Revenue,3.147
+Debt to Equity,73.232
+Price to Cash Flow,1.3504213483146068e-08
+Enterprise to EBITDA,12.991
+Price to Book,2.769563
+Price to Earnings,"PriceToEarnings(trailing_pe=20.457447, forward_pe=16.81924)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.82, forward_eps=3.43)"
+Enterprise to Revenue,2.664
 
 CASH FLOW
-Free to Cash Flow,3580999936.0
-Operating to Cash Flow,4914999808.0
+Free to Cash Flow,4272000000.0
+Operating to Cash Flow,5015000064.0
 
 PROFITABILITY
-Return on Equity,0.15126
-Return on Assets,0.05975
-Return on Invested Capital,0.21923546825719759
-Return on Investment,-0.28599999146666666
+Return on Equity,0.13552
+Return on Assets,0.05356
+Return on Invested Capital,0.18682985638931074
+Return on Investment,-0.12075949367088608
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0212
-SUM DIVIDEND SCORE,9.0212
+5 Year Average,0.022000000000000002
+SUM DIVIDEND SCORE,8.022
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,18.799999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,19.799999999999997
+Target High Price Diff Current Price,34.31
+Recommendation Key,100
+SUM ANALYST RATING SCORE,134.31
 
 
 

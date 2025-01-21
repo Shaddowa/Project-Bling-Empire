@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,MET
 Company,"MetLife, Inc."
 Country,United States
-Industry,Insurance—Life
+Industry,Insurance - Life
 Sector,Financial Services
 Website,https://www.metlife.com
-Price,72.54
+Price,86.78
 Currency,USD
 
 REVENUE
-Total Revenue,67569999872.0
-Revenue Per Share,90.741
-Revenue Growth,0.043
+Total Revenue,71343996928.0
+Revenue Per Share,99.393
+Revenue Growth,0.162
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=9.87)"
-Net Earnings,2166000128.0
-Earnings Growth,59.925
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.93, forward_eps=9.69)"
+Net Earnings,3560999936.0
+Earnings Growth,2.232
 
 DEBT
-Total Debt,40484999168.0
-Debt to Equity,140.592
+Total Debt,47202000896.0
+Debt to Equity,151.463
 
 MARGINS
-Profit Margins,0.035
-Gross Profit Margins,0.23407
-Operating Margins,0.081520006
+Profit Margins,0.052729998
+Gross Profit Margins,0.25566
+Operating Margins,0.15087
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.18
-Dividend Yield,0.03
-Dividend Payout Ratio,0.71970004
-Five Year Avg Dividend Yield,3.44
-Trailing Annual Dividend Rate,2.08
-Trailing Annual Dividend Yield,0.028673833
+Dividend Yield,0.0251
+Dividend Payout Ratio,0.432
+Five Year Avg Dividend Yield,3.33
+Trailing Annual Dividend Rate,2.13
+Trailing Annual Dividend Yield,0.024544828
 
 FINANCIAL RATIO
-Debt to Equity,140.592
-Price to Cash Flow,-1.1399686062959306e-08
-Enterprise to EBITDA,13.67
-Price to Book,1.8240871
-Price to Earnings,"PriceToEarnings(trailing_pe=25.16609, forward_pe=7.368795)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.89, forward_eps=9.87)"
-Enterprise to Revenue,0.954
+Debt to Equity,151.463
+Price to Cash Flow,-2.2684946431369154e-08
+Enterprise to EBITDA,19.593
+Price to Book,1.9696798
+Price to Earnings,"PriceToEarnings(trailing_pe=17.789047, forward_pe=9.050568)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.93, forward_eps=9.69)"
+Enterprise to Revenue,1.932
 
 CASH FLOW
-Free to Cash Flow,-6380000256.0
-Operating to Cash Flow,14023000064.0
+Free to Cash Flow,-3865999872.0
+Operating to Cash Flow,15169000448.0
 
 PROFITABILITY
-Return on Equity,0.078150004
-Return on Assets,0.0037
-Return on Invested Capital,0.05350130098505319
-Return on Investment,0.01027514292220114
+Return on Equity,0.13260001
+Return on Assets,0.0058099995
+Return on Invested Capital,0.07544171571215584
+Return on Investment,0.01700573035339064
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0344
-SUM DIVIDEND SCORE,8.0344
+5 Year Average,0.0333
+SUM DIVIDEND SCORE,9.0333
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
-Recommendation Key,0
-SUM ANALYST RATING SCORE,0
+Target High Price Diff Current Price,22.299999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,122.3
 
 
 

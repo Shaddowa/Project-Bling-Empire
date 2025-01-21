@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,MSFT
 Company,Microsoft Corporation
 Country,United States
-Industry,Software—Infrastructure
+Industry,Software - Infrastructure
 Sector,Technology
 Website,https://www.microsoft.com
-Price,412.32
+Price,429.03
 Currency,USD
 
 REVENUE
-Total Revenue,236583993344.0
-Revenue Per Share,31.834
-Revenue Growth,0.17
+Total Revenue,254189993984.0
+Revenue Per Share,34.202
+Revenue Growth,0.16
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.53, forward_eps=13.26)"
-Net Earnings,86181003264.0
-Earnings Growth,0.2
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.1, forward_eps=14.95)"
+Net Earnings,90511998976.0
+Earnings Growth,0.104
 
 DEBT
-Total Debt,106228998144.0
-Debt to Equity,41.963
+Total Debt,96838000640.0
+Debt to Equity,33.657
 
 MARGINS
-Profit Margins,0.36426997
-Gross Profit Margins,0.69894
-Operating Margins,0.44588003
+Profit Margins,0.35608003
+Gross Profit Margins,0.69348997
+Operating Margins,0.46583998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.0
-Dividend Yield,0.0072000003
-Dividend Payout Ratio,0.24780001
-Five Year Avg Dividend Yield,0.94
-Trailing Annual Dividend Rate,2.93
-Trailing Annual Dividend Yield,0.0071061314
+Dividend Rate,3.32
+Dividend Yield,0.0077
+Dividend Payout Ratio,0.2477
+Five Year Avg Dividend Yield,0.86
+Trailing Annual Dividend Rate,3.08
+Trailing Annual Dividend Yield,0.007178985
 
 FINANCIAL RATIO
-Debt to Equity,41.963
-Price to Cash Flow,6.743959223326513e-09
-Enterprise to EBITDA,24.833
-Price to Book,12.177463
-Price to Earnings,"PriceToEarnings(trailing_pe=35.970512, forward_pe=31.277525)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.53, forward_eps=13.26)"
-Enterprise to Revenue,13.14
+Debt to Equity,33.657
+Price to Cash Flow,6.99165936393363e-09
+Enterprise to EBITDA,23.494
+Price to Book,11.073191
+Price to Earnings,"PriceToEarnings(trailing_pe=35.409092, forward_pe=28.658865)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=12.1, forward_eps=14.95)"
+Enterprise to Revenue,12.621
 
 CASH FLOW
-Free to Cash Flow,61497999360.0
-Operating to Cash Flow,110122999808.0
+Free to Cash Flow,61280874496.0
+Operating to Cash Flow,122144997376.0
 
 PROFITABILITY
-Return on Equity,0.38487998
-Return on Assets,0.15295
-Return on Invested Capital,0.8112756850021863
-Return on Investment,-0.025261909208266157
+Return on Equity,0.35604
+Return on Assets,0.14592
+Return on Invested Capital,0.9346743875507862
+Return on Investment,-0.0208078344274581
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.009399999999999999
-SUM DIVIDEND SCORE,8.0094
+5 Year Average,0.0086
+SUM DIVIDEND SCORE,8.0086
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,135.26
-Recommendation Key,1
-SUM ANALYST RATING SCORE,136.26
+Target High Price Diff Current Price,221.54500000000002
+Recommendation Key,0
+SUM ANALYST RATING SCORE,221.54500000000002
 
 
 

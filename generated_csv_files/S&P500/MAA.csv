@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,MAA
 Company,"Mid-America Apartment Communities, Inc."
 Country,United States
-Industry,REIT—Residential
+Industry,REIT - Residential
 Sector,Real Estate
 Website,https://www.maac.com
-Price,136.34
+Price,150.52
 Currency,USD
 
 REVENUE
-Total Revenue,2163056896.0
-Revenue Per Share,18.544
-Revenue Growth,0.028
+Total Revenue,2183429888.0
+Revenue Per Share,18.705
+Revenue Growth,0.017
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.77, forward_eps=4.27)"
-Net Earnings,556731008.0
-Earnings Growth,0.055
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.44, forward_eps=4.15)"
+Net Earnings,517459008.0
+Earnings Growth,0.039
 
 DEBT
-Total Debt,4651398144.0
-Debt to Equity,74.334
+Total Debt,4902422016.0
+Debt to Equity,79.953
 
 MARGINS
-Profit Margins,0.25919
-Gross Profit Margins,0.60565
-Operating Margins,0.30492002
+Profit Margins,0.23878999
+Gross Profit Margins,0.59748
+Operating Margins,0.29549
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,5.88
-Dividend Yield,0.0434
-Dividend Payout Ratio,1.1887001
-Five Year Avg Dividend Yield,3.08
-Trailing Annual Dividend Rate,5.67
-Trailing Annual Dividend Yield,0.04158721
+Dividend Rate,6.06
+Dividend Yield,0.0403
+Dividend Payout Ratio,1.3086
+Five Year Avg Dividend Yield,3.19
+Trailing Annual Dividend Rate,5.81
+Trailing Annual Dividend Yield,0.03859952
 
 FINANCIAL RATIO
-Debt to Equity,74.334
-Price to Cash Flow,1.5042649481229686e-07
-Enterprise to EBITDA,16.471
-Price to Book,2.6040907
-Price to Earnings,"PriceToEarnings(trailing_pe=28.40042, forward_pe=31.725996)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.77, forward_eps=4.27)"
-Enterprise to Revenue,9.527
+Debt to Equity,79.953
+Price to Cash Flow,1.5846701989366465e-07
+Enterprise to EBITDA,18.137
+Price to Book,2.9733765
+Price to Earnings,"PriceToEarnings(trailing_pe=34.083332, forward_pe=36.46506)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.44, forward_eps=4.15)"
+Enterprise to Revenue,10.363
 
 CASH FLOW
-Free to Cash Flow,900572736.0
-Operating to Cash Flow,1119133952.0
+Free to Cash Flow,954962112.0
+Operating to Cash Flow,1124096000.0
 
 PROFITABILITY
-Return on Equity,0.0912
-Return on Assets,0.03729
-Return on Invested Capital,0.11969110889627364
-Return on Investment,-0.026357000194103974
+Return on Equity,0.08611
+Return on Assets,0.036259998
+Return on Invested Capital,0.10555170504275614
+Return on Investment,-0.02748041741679545
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0308
-SUM DIVIDEND SCORE,8.0308
+5 Year Average,0.0319
+SUM DIVIDEND SCORE,8.0319
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,18.53
-Recommendation Key,0
-SUM ANALYST RATING SCORE,18.53
+Target High Price Diff Current Price,35.66999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,135.67
 
 
 

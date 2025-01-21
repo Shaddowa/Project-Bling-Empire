@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas E&P
 Sector,Energy
 Website,https://www.oxy.com
-Price,64.24
+Price,51.97
 Currency,USD
 
 REVENUE
-Total Revenue,27007000576.0
-Revenue Per Share,30.519
-Revenue Growth,-0.173
+Total Revenue,27136999424.0
+Revenue Per Share,30.258
+Revenue Growth,0.002
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.46, forward_eps=4.79)"
-Net Earnings,3304999936.0
-Earnings Growth,-0.248
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.65, forward_eps=3.16)"
+Net Earnings,3529999872.0
+Earnings Growth,-0.18
 
 DEBT
-Total Debt,20835999744.0
-Debt to Equity,67.285
+Total Debt,27648999424.0
+Debt to Equity,79.146
 
 MARGINS
-Profit Margins,0.16
-Gross Profit Margins,0.59577
-Operating Margins,0.17071
+Profit Margins,0.16254999
+Gross Profit Margins,0.61772
+Operating Margins,0.25206
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.88
-Dividend Yield,0.0138
-Dividend Payout Ratio,0.2197
-Five Year Avg Dividend Yield,4.49
-Trailing Annual Dividend Rate,0.76
-Trailing Annual Dividend Yield,0.011830635
+Dividend Yield,0.016900001
+Dividend Payout Ratio,0.2301
+Five Year Avg Dividend Yield,3.76
+Trailing Annual Dividend Rate,0.84
+Trailing Annual Dividend Yield,0.01616317
 
 FINANCIAL RATIO
-Debt to Equity,67.285
-Price to Cash Flow,1.570502174268728e-08
-Enterprise to EBITDA,6.917
-Price to Book,2.5026574
-Price to Earnings,"PriceToEarnings(trailing_pe=18.372831, forward_pe=13.271399)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.46, forward_eps=4.79)"
-Enterprise to Revenue,3.124
+Debt to Equity,79.146
+Price to Cash Flow,-1.0395108633546372e-08
+Enterprise to EBITDA,6.434
+Price to Book,1.7983361
+Price to Earnings,"PriceToEarnings(trailing_pe=13.857534, forward_pe=16.006329)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.65, forward_eps=3.16)"
+Enterprise to Revenue,3.066
 
 CASH FLOW
-Free to Cash Flow,4047749888.0
-Operating to Cash Flow,11445000192.0
+Free to Cash Flow,-4865750016.0
+Operating to Cash Flow,11322000384.0
 
 PROFITABILITY
-Return on Equity,0.13518
-Return on Assets,0.0444
-Return on Invested Capital,0.15861969536271564
-Return on Investment,-0.00732166578644218
+Return on Equity,0.13118
+Return on Assets,0.045939997
+Return on Invested Capital,0.12767188476791588
+Return on Investment,-0.007731055348226018
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0449
-SUM DIVIDEND SCORE,8.0449
+5 Year Average,0.037599999999999995
+SUM DIVIDEND SCORE,8.0376
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,26.43
+Target High Price Diff Current Price,38.42
 Recommendation Key,0
-SUM ANALYST RATING SCORE,26.43
+SUM ANALYST RATING SCORE,38.42
 
 
 

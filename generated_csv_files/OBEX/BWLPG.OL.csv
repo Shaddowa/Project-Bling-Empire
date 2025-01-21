@@ -5,68 +5,68 @@ Country,Singapore
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.bwlpg.com
-Price,171.7
+Price,141.4
 Currency,NOK
 
 REVENUE
-Total Revenue,2947340032.0
-Revenue Per Share,22.155
-Revenue Growth,0.631
+Total Revenue,3510244096.0
+Revenue Per Share,26.46
+Revenue Growth,0.91
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=38.5, forward_eps=7.57)"
-Net Earnings,469956992.0
-Earnings Growth,0.689
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.99, forward_eps=20.06)"
+Net Earnings,483203008.0
+Earnings Growth,-0.019
 
 DEBT
-Total Debt,570188032.0
-Debt to Equity,35.948
+Total Debt,450124992.0
+Debt to Equity,28.117
 
 MARGINS
-Profit Margins,0.15945
-Gross Profit Margins,0.25707
-Operating Margins,0.20221001
+Profit Margins,0.13766
+Gross Profit Margins,0.22868
+Operating Margins,0.1018
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,36.69
-Dividend Yield,0.21270001
-Dividend Payout Ratio,0.8725
-Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,3.46
-Trailing Annual Dividend Yield,0.020151427
+Dividend Rate,34.76
+Dividend Yield,0.25959998
+Dividend Payout Ratio,0.9643
+Five Year Avg Dividend Yield,16.81
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,35.948
-Price to Cash Flow,4.820674270644558e-07
-Enterprise to EBITDA,40.299
-Price to Book,15.383929
-Price to Earnings,"PriceToEarnings(trailing_pe=4.4805193, forward_pe=22.787317)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=38.5, forward_eps=7.57)"
-Enterprise to Revenue,7.806
+Debt to Equity,28.117
+Price to Cash Flow,3.752693468932373e-07
+Enterprise to EBITDA,29.483
+Price to Book,12.485508
+Price to Earnings,"PriceToEarnings(trailing_pe=3.415467, forward_pe=6.979063)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=40.99, forward_eps=20.06)"
+Enterprise to Revenue,5.11
 
 CASH FLOW
-Free to Cash Flow,357833760.0
-Operating to Cash Flow,513363008.0
+Free to Cash Flow,373065376.0
+Operating to Cash Flow,698051008.0
 
 PROFITABILITY
-Return on Equity,0.30979002
-Return on Assets,0.118599996
-Return on Invested Capital,0.8242140423566237
-Return on Investment,-0.0785434689307083
+Return on Equity,0.33126
+Return on Assets,0.14722
+Return on Invested Capital,1.0734862639286613
+Return on Investment,-0.05893007073515781
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0
-SUM DIVIDEND SCORE,8.0
+5 Year Average,0.1681
+SUM DIVIDEND SCORE,4.1681
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,1
+Target High Price Diff Current Price,59.162920000000014
+Recommendation Key,100
+SUM ANALYST RATING SCORE,159.16292
 
 
 

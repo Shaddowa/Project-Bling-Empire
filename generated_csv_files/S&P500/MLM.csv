@@ -5,68 +5,68 @@ Country,United States
 Industry,Building Materials
 Sector,Basic Materials
 Website,https://www.martinmarietta.com
-Price,603.2
+Price,542.56
 Currency,USD
 
 REVENUE
-Total Revenue,6674200064.0
-Revenue Per Share,107.953
-Revenue Growth,-0.076
+Total Revenue,6513200128.0
+Revenue Per Share,105.734
+Revenue Growth,-0.053
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=34.0, forward_eps=24.63)"
-Net Earnings,2110800000.0
-Earnings Growth,7.658
+Earnings Per Share,"EarningsPerShare(trailing_eps=32.23, forward_eps=20.84)"
+Net Earnings,1988800000.0
+Earnings Growth,-0.122
 
 DEBT
-Total Debt,4743000064.0
-Debt to Equity,53.43
+Total Debt,4433999872.0
+Debt to Equity,48.348
 
 MARGINS
-Profit Margins,0.31358
-Gross Profit Margins,0.2984
-Operating Margins,0.08953
+Profit Margins,0.3046
+Gross Profit Margins,0.28735
+Operating Margins,0.2631
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.96
-Dividend Yield,0.0047999998
-Dividend Payout Ratio,0.0846
-Five Year Avg Dividend Yield,0.73
-Trailing Annual Dividend Rate,2.88
-Trailing Annual Dividend Yield,0.004774536
+Dividend Rate,3.16
+Dividend Yield,0.0058
+Dividend Payout Ratio,0.0934
+Five Year Avg Dividend Yield,0.7
+Trailing Annual Dividend Rate,3.01
+Trailing Annual Dividend Yield,0.0055477736
 
 FINANCIAL RATIO
-Debt to Equity,53.43
-Price to Cash Flow,3.2934354034623513e-07
-Enterprise to EBITDA,19.535
-Price to Book,4.2396564
-Price to Earnings,"PriceToEarnings(trailing_pe=17.953823, forward_pe=24.784004)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=34.0, forward_eps=24.63)"
-Enterprise to Revenue,5.952
+Debt to Equity,48.348
+Price to Cash Flow,7.290227589491566e-07
+Enterprise to EBITDA,19.23
+Price to Book,3.707048
+Price to Earnings,"PriceToEarnings(trailing_pe=17.255198, forward_pe=26.685942)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=32.23, forward_eps=20.84)"
+Enterprise to Revenue,5.744
 
 CASH FLOW
-Free to Cash Flow,1853474944.0
-Operating to Cash Flow,1539399936.0
+Free to Cash Flow,762849984.0
+Operating to Cash Flow,1328400000.0
 
 PROFITABILITY
-Return on Equity,0.26302
-Return on Assets,0.0608
-Return on Invested Capital,0.44503476859397506
-Return on Investment,-0.060360308836145266
+Return on Equity,0.23437001
+Return on Assets,0.05549
+Return on Invested Capital,0.44853405280172115
+Return on Investment,-0.040612619971411065
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0073
-SUM DIVIDEND SCORE,8.0073
+5 Year Average,0.006999999999999999
+SUM DIVIDEND SCORE,8.007
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,126.57000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,127.57000000000005
+Target High Price Diff Current Price,173.865
+Recommendation Key,100
+SUM ANALYST RATING SCORE,273.865
 
 
 

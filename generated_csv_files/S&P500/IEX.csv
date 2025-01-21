@@ -5,68 +5,68 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.idexcorp.com
-Price,222.74
+Price,215.69
 Currency,USD
 
 REVENUE
-Total Revenue,3228999936.0
-Revenue Per Share,42.698
-Revenue Growth,-0.053
+Total Revenue,3194800128.0
+Revenue Per Share,42.217
+Revenue Growth,0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.6, forward_eps=9.1)"
-Net Earnings,577699968.0
-Earnings Growth,-0.13
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.45, forward_eps=8.52)"
+Net Earnings,490400000.0
+Earnings Growth,-0.429
 
 DEBT
-Total Debt,1345299968.0
-Debt to Equity,37.18
+Total Debt,2102300032.0
+Debt to Equity,55.059
 
 MARGINS
-Profit Margins,0.17891
-Gross Profit Margins,0.44159
-Operating Margins,0.20712
+Profit Margins,0.1535
+Gross Profit Margins,0.44444
+Operating Margins,0.22375
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,2.76
-Dividend Yield,0.012200001
-Dividend Payout Ratio,0.3364
-Five Year Avg Dividend Yield,1.11
-Trailing Annual Dividend Rate,1.92
-Trailing Annual Dividend Yield,0.008619915
+Dividend Yield,0.0128
+Dividend Payout Ratio,0.4124
+Five Year Avg Dividend Yield,1.12
+Trailing Annual Dividend Rate,2.71
+Trailing Annual Dividend Yield,0.0125643285
 
 FINANCIAL RATIO
-Debt to Equity,37.18
-Price to Cash Flow,3.9866911360470547e-07
-Enterprise to EBITDA,20.222
-Price to Book,4.7436867
-Price to Earnings,"PriceToEarnings(trailing_pe=29.757896, forward_pe=24.852747)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.6, forward_eps=9.1)"
-Enterprise to Revenue,5.526
+Debt to Equity,55.059
+Price to Cash Flow,4.5000512974568975e-07
+Enterprise to EBITDA,20.634
+Price to Book,4.3462186
+Price to Earnings,"PriceToEarnings(trailing_pe=33.903877, forward_pe=25.666664)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.45, forward_eps=8.52)"
+Enterprise to Revenue,5.572
 
 CASH FLOW
-Free to Cash Flow,567287488.0
-Operating to Cash Flow,725400000.0
+Free to Cash Flow,485950016.0
+Operating to Cash Flow,696499968.0
 
 PROFITABILITY
-Return on Equity,0.16855
-Return on Assets,0.07858
-Return on Invested Capital,0.42942091821036027
-Return on Investment,0.45488186456692914
+Return on Equity,0.13592
+Return on Assets,0.06906
+Return on Invested Capital,0.23326831603411433
+Return on Investment,0.6452631578947369
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0111
-SUM DIVIDEND SCORE,8.0111
+5 Year Average,0.011200000000000002
+SUM DIVIDEND SCORE,9.0112
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,58.84
-Recommendation Key,1
-SUM ANALYST RATING SCORE,59.84
+Target High Price Diff Current Price,48.31999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,148.32
 
 
 

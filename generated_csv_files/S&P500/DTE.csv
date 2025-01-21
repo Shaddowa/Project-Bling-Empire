@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,DTE
 Company,DTE Energy Company
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.dteenergy.com
-Price,116.33
+Price,123.66
 Currency,USD
 
 REVENUE
-Total Revenue,12206000128.0
-Revenue Per Share,59.252
-Revenue Growth,-0.143
+Total Revenue,12414999552.0
+Revenue Per Share,60.048
+Revenue Growth,0.006
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.11, forward_eps=7.17)"
-Net Earnings,1262000000.0
-Earnings Growth,-0.299
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.38, forward_eps=7.21)"
+Net Earnings,1527000064.0
+Earnings Growth,0.425
 
 DEBT
-Total Debt,22093000704.0
-Debt to Equity,197.647
+Total Debt,24802000896.0
+Debt to Equity,213.847
 
 MARGINS
-Profit Margins,0.103640005
-Gross Profit Margins,0.34655
-Operating Margins,0.15925999
+Profit Margins,0.12332
+Gross Profit Margins,0.35465
+Operating Margins,0.17791
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.08
+Dividend Rate,4.36
 Dividend Yield,0.0353
-Dividend Payout Ratio,0.6457
-Five Year Avg Dividend Yield,3.29
-Trailing Annual Dividend Rate,3.948
-Trailing Annual Dividend Yield,0.033937935
+Dividend Payout Ratio,0.5528
+Five Year Avg Dividend Yield,3.34
+Trailing Annual Dividend Rate,4.08
+Trailing Annual Dividend Yield,0.03299369
 
 FINANCIAL RATIO
-Debt to Equity,197.647
-Price to Cash Flow,-9.317466479904052e-08
-Enterprise to EBITDA,13.857
-Price to Book,2.1390204
-Price to Earnings,"PriceToEarnings(trailing_pe=18.9018, forward_pe=16.107391)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=6.11, forward_eps=7.17)"
-Enterprise to Revenue,3.728
+Debt to Equity,213.847
+Price to Cash Flow,-8.216944738752935e-08
+Enterprise to EBITDA,14.031
+Price to Book,2.2330408
+Price to Earnings,"PriceToEarnings(trailing_pe=16.936314, forward_pe=17.335644)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.38, forward_eps=7.21)"
+Enterprise to Revenue,3.897
 
 CASH FLOW
-Free to Cash Flow,-1239500032.0
-Operating to Cash Flow,3337999872.0
+Free to Cash Flow,-1521124992.0
+Operating to Cash Flow,3404000000.0
 
 PROFITABILITY
-Return on Equity,0.115930006
-Return on Assets,0.02994
-Return on Invested Capital,0.0571221634319403
-Return on Investment,-0.005232172470978441
+Return on Equity,0.13638
+Return on Assets,0.02964
+Return on Invested Capital,0.061567615732170476
+Return on Investment,-0.006061929591107583
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0329
-SUM DIVIDEND SCORE,8.0329
+5 Year Average,0.0334
+SUM DIVIDEND SCORE,9.0334
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,9.510000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,10.510000000000005
+Target High Price Diff Current Price,22.010000000000005
+Recommendation Key,100
+SUM ANALYST RATING SCORE,122.01
 
 
 

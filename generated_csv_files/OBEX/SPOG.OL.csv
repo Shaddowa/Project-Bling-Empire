@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,SPOG.OL
 Company,Sparebanken Øst
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.oest.no
-Price,53.38
+Price,71.35
 Currency,NOK
 
 REVENUE
-Total Revenue,910099968.0
-Revenue Per Share,43.966
-Revenue Growth,0.138
+Total Revenue,1025000000.0
+Revenue Per Share,49.517
+Revenue Growth,0.065
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.09, forward_eps=6.14)"
-Net Earnings,117600000.0
-Earnings Growth,0.583
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.1, forward_eps=6.53)"
+Net Earnings,141000000.0
+Earnings Growth,0.094
 
 DEBT
-Total Debt,23977598976.0
+Total Debt,24079998976.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.48411998
+Profit Margins,0.51102
 Gross Profit Margins,0.0
-Operating Margins,0.60632
+Operating Margins,0.64327
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,5.4
-Dividend Yield,0.1007
-Dividend Payout Ratio,0.0
+Dividend Yield,0.0757
+Dividend Payout Ratio,0.48630002
 Five Year Avg Dividend Yield,8.11
 Trailing Annual Dividend Rate,5.4
-Trailing Annual Dividend Yield,0.10116148
+Trailing Annual Dividend Yield,0.07568325
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.24368732
-Price to Earnings,"PriceToEarnings(trailing_pe=7.559943, forward_pe=8.729642)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=7.09, forward_eps=6.14)"
-Enterprise to Revenue,19.628
+Price to Book,0.3243243
+Price to Earnings,"PriceToEarnings(trailing_pe=6.4216213, forward_pe=10.915772)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.1, forward_eps=6.53)"
+Enterprise to Revenue,18.255
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-765100032.0
+Operating to Cash Flow,-661800000.0
 
 PROFITABILITY
-Return on Equity,0.09079
-Return on Assets,0.00985
-Return on Invested Capital,0.004904577770231639
-Return on Investment,0.0008439787569972728
+Return on Equity,0.107659996
+Return on Assets,0.01145
+Return on Invested Capital,0.005855481923135203
+Return on Investment,0.0008009998295745043
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
-Payout Ratio,0.0
+Dividend Yield,4.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.08109999999999999
-SUM DIVIDEND SCORE,4.0811
+SUM DIVIDEND SCORE,8.0811
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0.3999999999999986
+Target High Price Diff Current Price,0.7199999999999989
 Recommendation Key,0
-SUM ANALYST RATING SCORE,0.3999999999999986
+SUM ANALYST RATING SCORE,0.7199999999999989
 
 
 

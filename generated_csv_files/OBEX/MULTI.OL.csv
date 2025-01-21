@@ -5,68 +5,68 @@ Country,Norway
 Industry,Engineering & Construction
 Sector,Industrials
 Website,https://www.multiconsultgroup.com
-Price,149.5
+Price,195.5
 Currency,NOK
 
 REVENUE
-Total Revenue,4802479104.0
-Revenue Per Share,174.577
-Revenue Growth,0.208
+Total Revenue,5301735936.0
+Revenue Per Share,192.195
+Revenue Growth,0.175
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.32, forward_eps=11.83)"
-Net Earnings,318118016.0
-Earnings Growth,0.482
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.93, forward_eps=14.23)"
+Net Earnings,439529984.0
+Earnings Growth,6.389
 
 DEBT
-Total Debt,1249707008.0
-Debt to Equity,115.684
+Total Debt,1303389952.0
+Debt to Equity,112.408
 
 MARGINS
-Profit Margins,0.06624
-Gross Profit Margins,0.35584
-Operating Margins,0.08561
+Profit Margins,0.0829
+Gross Profit Margins,0.35536
+Operating Margins,0.087749995
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,8.0
-Dividend Yield,0.0523
-Dividend Payout Ratio,0.9657
+Dividend Yield,0.040900003
+Dividend Payout Ratio,0.5022
 Five Year Avg Dividend Yield,3.01
 Trailing Annual Dividend Rate,8.0
-Trailing Annual Dividend Yield,0.053511705
+Trailing Annual Dividend Yield,0.040920716
 
 FINANCIAL RATIO
-Debt to Equity,115.684
-Price to Cash Flow,8.417086090616698e-07
-Enterprise to EBITDA,10.884
-Price to Book,4.086429
-Price to Earnings,"PriceToEarnings(trailing_pe=16.41631, forward_pe=12.933221)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=9.32, forward_eps=11.83)"
-Enterprise to Revenue,1.092
+Debt to Equity,112.408
+Price to Cash Flow,4.842497928702219e-07
+Enterprise to EBITDA,10.906
+Price to Book,4.804849
+Price to Earnings,"PriceToEarnings(trailing_pe=12.241055, forward_pe=13.703444)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=15.93, forward_eps=14.23)"
+Enterprise to Revenue,1.257
 
 CASH FLOW
-Free to Cash Flow,181773120.0
-Operating to Cash Flow,423328992.0
+Free to Cash Flow,402684736.0
+Operating to Cash Flow,678806016.0
 
 PROFITABILITY
-Return on Equity,0.30549
-Return on Assets,0.07445
-Return on Invested Capital,0.254554071020494
+Return on Equity,0.41104
+Return on Assets,0.08975001
+Return on Invested Capital,0.3372206219940525
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
 Dividend Yield,1.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.0301
-SUM DIVIDEND SCORE,4.0301
+SUM DIVIDEND SCORE,5.0301
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,12.0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,13.0
+Target High Price Diff Current Price,25.0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,25.0
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Medical Devices
 Sector,Healthcare
 Website,https://www.abbott.com
-Price,104.67
+Price,113.48
 Currency,USD
 
 REVENUE
-Total Revenue,40326000640.0
-Revenue Per Share,23.181
-Revenue Growth,0.022
+Total Revenue,41216999424.0
+Revenue Per Share,23.682
+Revenue Growth,0.049
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=5.14)"
-Net Earnings,5608000000.0
-Earnings Growth,-0.067
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.29, forward_eps=5.16)"
+Net Earnings,5744000000.0
+Earnings Growth,0.146
 
 DEBT
-Total Debt,14705000448.0
-Debt to Equity,37.664
+Total Debt,15045999616.0
+Debt to Equity,37.589
 
 MARGINS
-Profit Margins,0.13961
-Gross Profit Margins,0.55265
-Operating Margins,0.15405
+Profit Margins,0.13992
+Gross Profit Margins,0.55907
+Operating Margins,0.18749
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.2
-Dividend Yield,0.021
-Dividend Payout Ratio,0.648
-Five Year Avg Dividend Yield,1.6
-Trailing Annual Dividend Rate,2.12
-Trailing Annual Dividend Yield,0.020254131
+Dividend Rate,2.36
+Dividend Yield,0.0208
+Dividend Payout Ratio,0.65650004
+Five Year Avg Dividend Yield,1.66
+Trailing Annual Dividend Rate,2.2
+Trailing Annual Dividend Yield,0.019386675
 
 FINANCIAL RATIO
-Debt to Equity,37.664
-Price to Cash Flow,2.2734351723010512e-08
-Enterprise to EBITDA,18.373
-Price to Book,4.694966
-Price to Earnings,"PriceToEarnings(trailing_pe=32.629284, forward_pe=20.377432)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.21, forward_eps=5.14)"
-Enterprise to Revenue,4.724
+Debt to Equity,37.589
+Price to Cash Flow,1.8050313936880558e-08
+Enterprise to EBITDA,18.874
+Price to Book,5.03879
+Price to Earnings,"PriceToEarnings(trailing_pe=35.13982, forward_pe=22.405039)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=3.29, forward_eps=5.16)"
+Enterprise to Revenue,4.957
 
 CASH FLOW
-Free to Cash Flow,4607124992.0
-Operating to Cash Flow,7143000064.0
+Free to Cash Flow,6404874752.0
+Operating to Cash Flow,8728000512.0
 
 PROFITABILITY
-Return on Equity,0.14762
-Return on Assets,0.060900003
-Return on Invested Capital,0.3813668698156905
-Return on Investment,-0.057814432989690724
+Return on Equity,0.14840001
+Return on Assets,0.06488
+Return on Invested Capital,0.3817626038706419
+Return on Investment,-0.05328385899814471
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.016
-SUM DIVIDEND SCORE,8.016
+5 Year Average,0.0166
+SUM DIVIDEND SCORE,8.0166
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,38.260000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,39.260000000000005
+Target High Price Diff Current Price,33.39
+Recommendation Key,100
+SUM ANALYST RATING SCORE,133.39
 
 
 

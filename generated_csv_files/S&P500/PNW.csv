@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,PNW
 Company,Pinnacle West Capital Corporation
 Country,United States
-Industry,Utilities—Regulated Electric
+Industry,Utilities - Regulated Electric
 Sector,Utilities
 Website,https://www.pinnaclewest.com
-Price,77.4
+Price,86.64
 Currency,USD
 
 REVENUE
-Total Revenue,4702748160.0
-Revenue Per Share,41.431
-Revenue Growth,0.007
+Total Revenue,5021081088.0
+Revenue Per Share,44.182
+Revenue Growth,0.08
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.59, forward_eps=4.91)"
-Net Earnings,521716000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.32, forward_eps=4.68)"
+Net Earnings,615609984.0
+Earnings Growth,-0.037
 
 DEBT
-Total Debt,10504940544.0
-Debt to Equity,166.467
+Total Debt,11315955712.0
+Debt to Equity,168.24
 
 MARGINS
-Profit Margins,0.11094
-Gross Profit Margins,0.39987
-Operating Margins,0.08234
+Profit Margins,0.122609995
+Gross Profit Margins,0.41814
+Operating Margins,0.31613
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.52
-Dividend Yield,0.0456
-Dividend Payout Ratio,0.7603
-Five Year Avg Dividend Yield,4.24
-Trailing Annual Dividend Rate,3.49
-Trailing Annual Dividend Yield,0.045090437
+Dividend Rate,3.58
+Dividend Yield,0.041300002
+Dividend Payout Ratio,0.6617
+Five Year Avg Dividend Yield,4.37
+Trailing Annual Dividend Rate,3.52
+Trailing Annual Dividend Yield,0.040627886
 
 FINANCIAL RATIO
-Debt to Equity,166.467
-Price to Cash Flow,0.0003440534521158129
-Enterprise to EBITDA,11.043
-Price to Book,1.414937
-Price to Earnings,"PriceToEarnings(trailing_pe=16.827887, forward_pe=15.731161)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.59, forward_eps=4.91)"
-Enterprise to Revenue,4.121
+Debt to Equity,168.24
+Price to Cash Flow,-2.948150914372491e-07
+Enterprise to EBITDA,10.731
+Price to Book,1.5074621
+Price to Earnings,"PriceToEarnings(trailing_pe=16.49906, forward_pe=18.755342)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.32, forward_eps=4.68)"
+Enterprise to Revenue,4.228
 
 CASH FLOW
-Free to Cash Flow,224500.0
-Operating to Cash Flow,1343444992.0
+Free to Cash Flow,-297728992.0
+Operating to Cash Flow,1544129024.0
 
 PROFITABILITY
-Return on Equity,0.0864
-Return on Assets,0.02279
-Return on Invested Capital,0.04966386959580482
-Return on Investment,-0.004228402941393393
+Return on Equity,0.09578
+Return on Assets,0.025829999
+Return on Invested Capital,0.05440194328257354
+Return on Investment,-0.004073649973530969
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0424
-SUM DIVIDEND SCORE,8.0424
+5 Year Average,0.0437
+SUM DIVIDEND SCORE,8.0437
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,17.760000000000005
-Recommendation Key,1
-SUM ANALYST RATING SCORE,18.760000000000005
+Target High Price Diff Current Price,18.224999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,118.225
 
 
 

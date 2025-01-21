@@ -5,68 +5,68 @@ Country,United States
 Industry,Financial Data & Stock Exchanges
 Sector,Financial Services
 Website,https://www.ice.com
-Price,134.95
+Price,149.11
 Currency,USD
 
 REVENUE
-Total Revenue,8382000128.0
-Revenue Per Share,14.77
-Revenue Growth,0.208
+Total Revenue,9157000192.0
+Revenue Per Share,15.981
+Revenue Growth,0.173
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.35, forward_eps=6.57)"
-Net Earnings,2480000000.0
-Earnings Growth,0.137
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.2, forward_eps=6.74)"
+Net Earnings,2428999936.0
+Earnings Growth,0.188
 
 DEBT
-Total Debt,22308999168.0
-Debt to Equity,84.861
+Total Debt,21518000128.0
+Debt to Equity,78.899
 
 MARGINS
-Profit Margins,0.29587
+Profit Margins,0.26525998
 Gross Profit Margins,1.0
-Operating Margins,0.47991002
+Operating Margins,0.4768
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.8
-Dividend Yield,0.0134000005
-Dividend Payout Ratio,0.39310002
+Dividend Yield,0.0121
+Dividend Payout Ratio,0.42040002
 Five Year Avg Dividend Yield,1.24
-Trailing Annual Dividend Rate,1.71
-Trailing Annual Dividend Yield,0.012671361
+Trailing Annual Dividend Rate,1.77
+Trailing Annual Dividend Yield,0.011870431
 
 FINANCIAL RATIO
-Debt to Equity,84.861
-Price to Cash Flow,1.7203293493927688e-08
-Enterprise to EBITDA,19.187
-Price to Book,2.926057
-Price to Earnings,"PriceToEarnings(trailing_pe=30.802301, forward_pe=20.394217)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.35, forward_eps=6.57)"
-Enterprise to Revenue,11.734
+Debt to Equity,78.899
+Price to Cash Flow,5.369799585181931e-08
+Enterprise to EBITDA,19.147
+Price to Book,3.1761656
+Price to Earnings,"PriceToEarnings(trailing_pe=35.878574, forward_pe=22.357569)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.2, forward_eps=6.74)"
+Enterprise to Revenue,11.622
 
 CASH FLOW
-Free to Cash Flow,7788624896.0
-Operating to Cash Flow,3897999872.0
+Free to Cash Flow,2806249984.0
+Operating to Cash Flow,4072000000.0
 
 PROFITABILITY
-Return on Equity,0.102910005
-Return on Assets,0.018
-Return on Invested Capital,0.11116590108922501
-Return on Investment,0.020718462823725983
+Return on Equity,0.09408
+Return on Assets,0.01983
+Return on Invested Capital,0.11288223423159631
+Return on Investment,0.019323786284805092
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.0124
-SUM DIVIDEND SCORE,8.0124
+SUM DIVIDEND SCORE,9.0124
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,32.00999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,33.00999999999999
+Target High Price Diff Current Price,65.31
+Recommendation Key,100
+SUM ANALYST RATING SCORE,165.31
 
 
 

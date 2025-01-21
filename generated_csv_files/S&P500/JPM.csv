@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,JPM
 Company,JPMorgan Chase & Co.
 Country,United States
-Industry,Banks—Diversified
+Industry,Banks - Diversified
 Sector,Financial Services
 Website,https://www.jpmorganchase.com
-Price,197.5
+Price,259.16
 Currency,USD
 
 REVENUE
-Total Revenue,150000992256.0
-Revenue Per Share,51.308
-Revenue Growth,0.111
+Total Revenue,162148007936.0
+Revenue Per Share,56.043
+Revenue Growth,0.03
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.58, forward_eps=16.51)"
-Net Earnings,48509001728.0
-Earnings Growth,0.083
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.75, forward_eps=16.74)"
+Net Earnings,52069998592.0
+Earnings Growth,0.009
 
 DEBT
-Total Debt,840650981376.0
+Total Debt,929196998656.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.33566
+Profit Margins,0.33163
 Gross Profit Margins,0.0
-Operating Margins,0.45218
+Operating Margins,0.43787998
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.6
-Dividend Yield,0.0231
-Dividend Payout Ratio,0.2565
-Five Year Avg Dividend Yield,2.83
-Trailing Annual Dividend Rate,4.25
-Trailing Annual Dividend Yield,0.021518987
+Dividend Rate,5.0
+Dividend Yield,0.0202
+Dividend Payout Ratio,0.2557
+Five Year Avg Dividend Yield,2.75
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,1.860881
-Price to Earnings,"PriceToEarnings(trailing_pe=11.988541, forward_pe=12.039371)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=16.58, forward_eps=16.51)"
-Enterprise to Revenue,-1.236
+Price to Book,2.269822
+Price to Earnings,"PriceToEarnings(trailing_pe=13.233924, forward_pe=15.613501)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=19.75, forward_eps=16.74)"
+Enterprise to Revenue,1.378
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-29942999040.0
+Operating to Cash Flow,-129538998272.0
 
 PROFITABILITY
-Return on Equity,0.15741
-Return on Assets,0.01285
-Return on Invested Capital,0.057704092181556144
-Return on Investment,0.0054270341143828876
+Return on Equity,0.16216
+Return on Assets,0.013259999
+Return on Invested Capital,0.05603763105225463
+Return on Investment,0.005182796200941603
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.028300000000000002
-SUM DIVIDEND SCORE,8.0283
+5 Year Average,0.0275
+SUM DIVIDEND SCORE,4.0275
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,31.22999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,32.22999999999999
+Target High Price Diff Current Price,68.63
+Recommendation Key,100
+SUM ANALYST RATING SCORE,168.63
 
 
 

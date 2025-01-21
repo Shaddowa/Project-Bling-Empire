@@ -5,68 +5,68 @@ Country,United States
 Industry,Household & Personal Products
 Sector,Consumer Defensive
 Website,https://www.kimberly-clark.com
-Price,136.66
+Price,127.22
 Currency,USD
 
 REVENUE
-Total Revenue,20384999424.0
-Revenue Per Share,60.373
-Revenue Growth,-0.009
+Total Revenue,20099999744.0
+Revenue Per Share,59.675
+Revenue Growth,-0.035
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=7.53)"
-Net Earnings,1844999936.0
-Earnings Growth,0.144
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.72, forward_eps=7.63)"
+Net Earnings,2607000064.0
+Earnings Growth,0.555
 
 DEBT
-Total Debt,7996000256.0
-Debt to Equity,675.338
+Total Debt,7477000192.0
+Debt to Equity,517.798
 
 MARGINS
-Profit Margins,0.090509996
-Gross Profit Margins,0.35403
-Operating Margins,0.17886999
+Profit Margins,0.1297
+Gross Profit Margins,0.36408
+Operating Margins,0.15246001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.88
-Dividend Yield,0.0357
-Dividend Payout Ratio,0.8734
-Five Year Avg Dividend Yield,3.34
-Trailing Annual Dividend Rate,4.76
-Trailing Annual Dividend Yield,0.03483097
+Dividend Yield,0.038399998
+Dividend Payout Ratio,0.62689996
+Five Year Avg Dividend Yield,3.41
+Trailing Annual Dividend Rate,4.84
+Trailing Annual Dividend Yield,0.038044333
 
 FINANCIAL RATIO
-Debt to Equity,675.338
-Price to Cash Flow,6.974293693421826e-08
-Enterprise to EBITDA,14.183
-Price to Book,44.087097
-Price to Earnings,"PriceToEarnings(trailing_pe=25.077065, forward_pe=18.150066)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.45, forward_eps=7.53)"
-Enterprise to Revenue,2.615
+Debt to Equity,517.798
+Price to Cash Flow,5.0908546020527007e-08
+Enterprise to EBITDA,12.558
+Price to Book,32.957436
+Price to Earnings,"PriceToEarnings(trailing_pe=16.448835, forward_pe=16.642857)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.72, forward_eps=7.63)"
+Enterprise to Revenue,2.435
 
 CASH FLOW
-Free to Cash Flow,1959624960.0
-Operating to Cash Flow,3367000064.0
+Free to Cash Flow,2494374912.0
+Operating to Cash Flow,3632000000.0
 
 PROFITABILITY
-Return on Equity,1.80636
-Return on Assets,0.10661
-Return on Invested Capital,0.23074035470424886
-Return on Investment,-0.09972972627027027
+Return on Equity,2.30998
+Return on Assets,0.114630006
+Return on Invested Capital,0.3486692518004656
+Return on Investment,-0.14728813920903955
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0334
-SUM DIVIDEND SCORE,8.0334
+5 Year Average,0.0341
+SUM DIVIDEND SCORE,8.0341
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,30.330000000000013
+Target High Price Diff Current Price,41.015
 Recommendation Key,0
-SUM ANALYST RATING SCORE,30.330000000000013
+SUM ANALYST RATING SCORE,41.015
 
 
 

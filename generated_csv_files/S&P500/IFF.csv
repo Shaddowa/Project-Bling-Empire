@@ -5,68 +5,68 @@ Country,United States
 Industry,Specialty Chemicals
 Sector,Basic Materials
 Website,https://www.iff.com
-Price,97.06
+Price,84.89
 Currency,USD
 
 REVENUE
-Total Revenue,11351000064.0
-Revenue Per Share,44.514
-Revenue Growth,-0.042
+Total Revenue,11416000512.0
+Revenue Per Share,44.769
+Revenue Growth,0.037
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-9.78, forward_eps=4.4)"
-Net Earnings,-2496000000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=-9.08, forward_eps=4.61)"
+Net Earnings,-2320000000.0
+Earnings Growth,1.346
 
 DEBT
-Total Debt,11040000000.0
-Debt to Equity,77.063
+Total Debt,9792000000.0
+Debt to Equity,66.117
 
 MARGINS
-Profit Margins,-0.22007
-Gross Profit Margins,0.32957
-Operating Margins,0.06933
+Profit Margins,-0.20331
+Gross Profit Margins,0.35074002
+Operating Margins,0.08547
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.6
-Dividend Yield,0.0165
+Dividend Yield,0.0188
 Dividend Payout Ratio,54.0
-Five Year Avg Dividend Yield,2.83
-Trailing Annual Dividend Rate,2.83
-Trailing Annual Dividend Yield,0.029157223
+Five Year Avg Dividend Yield,2.84
+Trailing Annual Dividend Rate,2.01
+Trailing Annual Dividend Yield,0.023677701
 
 FINANCIAL RATIO
-Debt to Equity,77.063
-Price to Cash Flow,4.914285634762509e-08
-Enterprise to EBITDA,19.807
-Price to Book,1.7361943
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=22.086363)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-9.78, forward_eps=4.4)"
-Enterprise to Revenue,3.097
+Debt to Equity,66.117
+Price to Cash Flow,-9.874496621743112e-08
+Enterprise to EBITDA,16.506
+Price to Book,1.4841735
+Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=18.603037)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=-9.08, forward_eps=4.61)"
+Enterprise to Revenue,2.712
 
 CASH FLOW
-Free to Cash Flow,1977500032.0
-Operating to Cash Flow,1411000064.0
+Free to Cash Flow,-868499968.0
+Operating to Cash Flow,1346000000.0
 
 PROFITABILITY
-Return on Equity,-0.15503
-Return on Assets,0.01193
-Return on Invested Capital,-0.22608695537547419
-Return on Investment,-0.08914285714285715
+Return on Equity,-0.1453
+Return on Assets,0.01613
+Return on Invested Capital,-0.23692810317704077
+Return on Investment,-0.10131004366812227
 
 DIVIDEND SCORE
 Dividend  Rate,1.0
 Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.028300000000000002
-SUM DIVIDEND SCORE,2.0283
+5 Year Average,0.028399999999999998
+SUM DIVIDEND SCORE,2.0284
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,12.819999999999993
-Recommendation Key,1
-SUM ANALYST RATING SCORE,13.819999999999993
+Target High Price Diff Current Price,44.239999999999995
+Recommendation Key,100
+SUM ANALYST RATING SCORE,144.24
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Advertising Agencies
 Sector,Communication Services
 Website,https://www.interpublic.com
-Price,31.2
+Price,27.83
 Currency,USD
 
 REVENUE
-Total Revenue,9406600192.0
-Revenue Per Share,24.609
-Revenue Growth,0.003
+Total Revenue,9338900480.0
+Revenue Per Share,24.739
+Revenue Growth,-0.029
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.81, forward_eps=3.01)"
-Net Earnings,1082800000.0
-Earnings Growth,-0.112
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.12, forward_eps=2.75)"
+Net Earnings,808200000.0
+Earnings Growth,-0.921
 
 DEBT
-Total Debt,4619800064.0
-Debt to Equity,117.879
+Total Debt,4282500096.0
+Debt to Equity,111.806
 
 MARGINS
-Profit Margins,0.115109995
-Gross Profit Margins,0.22102
-Operating Margins,0.0836
+Profit Margins,0.086540006
+Gross Profit Margins,0.22399999
+Operating Margins,0.16194999
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,1.32
-Dividend Yield,0.0424
-Dividend Payout Ratio,0.4484
-Five Year Avg Dividend Yield,3.95
-Trailing Annual Dividend Rate,1.26
-Trailing Annual Dividend Yield,0.040384613
+Dividend Yield,0.047399998
+Dividend Payout Ratio,0.6132
+Five Year Avg Dividend Yield,3.96
+Trailing Annual Dividend Rate,1.3
+Trailing Annual Dividend Yield,0.04671218
 
 FINANCIAL RATIO
-Debt to Equity,117.879
-Price to Cash Flow,5.304497718183885e-08
-Enterprise to EBITDA,8.372
-Price to Book,3.0744176
-Price to Earnings,"PriceToEarnings(trailing_pe=11.085409, forward_pe=10.348837)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.81, forward_eps=3.01)"
-Enterprise to Revenue,1.546
+Debt to Equity,111.806
+Price to Cash Flow,4.954292813300227e-08
+Enterprise to EBITDA,7.633
+Price to Book,2.8379326
+Price to Earnings,"PriceToEarnings(trailing_pe=13.389152, forward_pe=10.321818)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.12, forward_eps=2.75)"
+Enterprise to Revenue,1.416
 
 CASH FLOW
-Free to Cash Flow,587237504.0
-Operating to Cash Flow,944899968.0
+Free to Cash Flow,572937472.0
+Operating to Cash Flow,1081900032.0
 
 PROFITABILITY
-Return on Equity,0.29023
-Return on Assets,0.05426
-Return on Invested Capital,0.23438243703726594
-Return on Investment,0.0365934437309902
+Return on Equity,0.21792999
+Return on Assets,0.05392
+Return on Invested Capital,0.1887215364845627
+Return on Investment,0.025689764780673873
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0395
-SUM DIVIDEND SCORE,9.0395
+5 Year Average,0.039599999999999996
+SUM DIVIDEND SCORE,8.0396
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.850000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.850000000000001
+Target High Price Diff Current Price,10.614999999999998
+Recommendation Key,100
+SUM ANALYST RATING SCORE,110.615
 
 
 

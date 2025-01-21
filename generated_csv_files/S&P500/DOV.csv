@@ -5,68 +5,68 @@ Country,United States
 Industry,Specialty Industrial Machinery
 Sector,Industrials
 Website,https://www.dovercorporation.com
-Price,184.95
+Price,195.08
 Currency,USD
 
 REVENUE
-Total Revenue,8453051904.0
-Revenue Per Share,60.521
-Revenue Growth,0.007
+Total Revenue,8474512896.0
+Revenue Per Share,61.228
+Revenue Growth,0.013
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.41, forward_eps=9.93)"
-Net Earnings,1460475008.0
-Earnings Growth,1.773
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.0, forward_eps=9.41)"
+Net Earnings,1532728064.0
+Earnings Growth,0.219
 
 DEBT
-Total Debt,3942457088.0
-Debt to Equity,76.51
+Total Debt,3387115008.0
+Debt to Equity,59.444
 
 MARGINS
-Profit Margins,0.17277001
-Gross Profit Margins,0.36965
-Operating Margins,0.14938
+Profit Margins,0.18378
+Gross Profit Margins,0.37581003
+Operating Margins,0.17549999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,2.04
-Dividend Yield,0.011
-Dividend Payout Ratio,0.19549999
-Five Year Avg Dividend Yield,1.55
-Trailing Annual Dividend Rate,2.035
-Trailing Annual Dividend Yield,0.011002975
+Dividend Rate,2.06
+Dividend Yield,0.0106
+Dividend Payout Ratio,0.1857
+Five Year Avg Dividend Yield,1.44
+Trailing Annual Dividend Rate,2.045
+Trailing Annual Dividend Yield,0.010482879
 
 FINANCIAL RATIO
-Debt to Equity,76.51
-Price to Cash Flow,1.7684723710918126e-07
-Enterprise to EBITDA,16.494
-Price to Book,4.948792
-Price to Earnings,"PriceToEarnings(trailing_pe=17.824207, forward_pe=18.6858)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=10.41, forward_eps=9.93)"
-Enterprise to Revenue,3.373
+Debt to Equity,59.444
+Price to Cash Flow,2.328222032840244e-07
+Enterprise to EBITDA,16.854
+Price to Book,4.7528467
+Price to Earnings,"PriceToEarnings(trailing_pe=17.945454, forward_pe=20.977682)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=11.0, forward_eps=9.41)"
+Enterprise to Revenue,3.512
 
 CASH FLOW
-Free to Cash Flow,1049210624.0
-Operating to Cash Flow,1261654016.0
+Free to Cash Flow,847857280.0
+Operating to Cash Flow,1273246976.0
 
 PROFITABILITY
-Return on Equity,0.30384
-Return on Assets,0.077020004
-Return on Invested Capital,0.3704479114194549
-Return on Investment,0.18671375709537202
+Return on Equity,0.2911
+Return on Assets,0.07851
+Return on Invested Capital,0.45251727254181273
+Return on Investment,0.17528310602335234
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0155
-SUM DIVIDEND SCORE,5.0155
+5 Year Average,0.0144
+SUM DIVIDEND SCORE,8.0144
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,24.44999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,25.44999999999999
+Target High Price Diff Current Price,42.599999999999994
+Recommendation Key,100
+SUM ANALYST RATING SCORE,142.6
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas Refining & Marketing
 Sector,Energy
 Website,https://www.phillips66.com
-Price,147.72
+Price,120.53
 Currency,USD
 
 REVENUE
-Total Revenue,148814004224.0
-Revenue Per Share,337.314
-Revenue Growth,0.041
+Total Revenue,147738001408.0
+Revenue Per Share,346.336
+Revenue Growth,-0.104
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.02, forward_eps=14.24)"
-Net Earnings,5792000000.0
-Earnings Growth,-0.588
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.83, forward_eps=9.49)"
+Net Earnings,3358000128.0
+Earnings Growth,-0.825
 
 DEBT
-Total Debt,20153999360.0
-Debt to Equity,65.45
+Total Debt,19997999104.0
+Debt to Equity,67.143
 
 MARGINS
-Profit Margins,0.03899
-Gross Profit Margins,0.11883
-Operating Margins,0.02167
+Profit Margins,0.0228
+Gross Profit Margins,0.09941
+Operating Margins,0.00183
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,4.6
-Dividend Yield,0.031600002
-Dividend Payout Ratio,0.32279998
+Dividend Yield,0.0382
+Dividend Payout Ratio,0.56189996
 Five Year Avg Dividend Yield,4.28
-Trailing Annual Dividend Rate,4.2
-Trailing Annual Dividend Yield,0.028432168
+Trailing Annual Dividend Rate,4.4
+Trailing Annual Dividend Yield,0.036505435
 
 FINANCIAL RATIO
-Debt to Equity,65.45
-Price to Cash Flow,1.1824180516723445e-07
-Enterprise to EBITDA,9.479
-Price to Book,2.076559
-Price to Earnings,"PriceToEarnings(trailing_pe=11.182796, forward_pe=10.22472)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=13.02, forward_eps=14.24)"
-Enterprise to Revenue,0.547
+Debt to Equity,67.143
+Price to Cash Flow,1.3025919505178293e-07
+Enterprise to EBITDA,12.419
+Price to Book,1.7252363
+Price to Earnings,"PriceToEarnings(trailing_pe=15.323755, forward_pe=12.643309)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.83, forward_eps=9.49)"
+Enterprise to Revenue,0.468
 
 CASH FLOW
-Free to Cash Flow,1231374976.0
-Operating to Cash Flow,5593999872.0
+Free to Cash Flow,921124992.0
+Operating to Cash Flow,5183000064.0
 
 PROFITABILITY
-Return on Equity,0.18028
-Return on Assets,0.05353
-Return on Invested Capital,0.2873871273085901
-Return on Investment,-0.07827027027027027
+Return on Equity,0.11121
+Return on Assets,0.0287
+Return on Invested Capital,0.16791680501926928
+Return on Investment,-0.09174863737704918
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.042800000000000005
-SUM DIVIDEND SCORE,8.0428
+SUM DIVIDEND SCORE,9.0428
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,45.400000000000006
-Recommendation Key,1
-SUM ANALYST RATING SCORE,46.400000000000006
+Target High Price Diff Current Price,41.015
+Recommendation Key,100
+SUM ANALYST RATING SCORE,141.015
 
 
 

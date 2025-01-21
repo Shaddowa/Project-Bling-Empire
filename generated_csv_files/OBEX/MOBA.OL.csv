@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,MOBA.OL
 Company,Morrow Bank ASA
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://www.morrowbank.no
-Price,4.39
+Price,9.04
 Currency,NOK
 
 REVENUE
-Total Revenue,527200000.0
-Revenue Per Share,2.454
-Revenue Growth,0.549
+Total Revenue,571200000.0
+Revenue Per Share,2.508
+Revenue Growth,0.243
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.61, forward_eps=0.9)"
-Net Earnings,133700000.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.7, forward_eps=1.1)"
+Net Earnings,165200000.0
+Earnings Growth,0.615
 
 DEBT
-Total Debt,186200000.0
+Total Debt,265000000.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.28813
+Profit Margins,0.32108003
 Gross Profit Margins,0.0
-Operating Margins,0.38791
+Operating Margins,0.46636
 
 DIVIDEND
 Dividend Ex Date,None
@@ -40,20 +40,20 @@ FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.47766134
-Price to Earnings,"PriceToEarnings(trailing_pe=7.0983605, forward_pe=4.811111)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.61, forward_eps=0.9)"
-Enterprise to Revenue,-0.579
+Price to Book,0.932987
+Price to Earnings,"PriceToEarnings(trailing_pe=12.828571, forward_pe=8.163636)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.7, forward_eps=1.1)"
+Enterprise to Revenue,2.929
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-1271200000.0
+Operating to Cash Flow,-5742199808.0
 
 PROFITABILITY
-Return on Equity,0.071779996
-Return on Assets,0.01206
-Return on Invested Capital,0.7180450778244971
-Return on Investment,0.0036301927776269346
+Return on Equity,0.07868
+Return on Assets,0.01204
+Return on Invested Capital,0.6233962037728737
+Return on Investment,0.003535202225551038
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,0
-Recommendation Key,1
-SUM ANALYST RATING SCORE,1
+Target High Price Diff Current Price,2.0199999999999996
+Recommendation Key,0
+SUM ANALYST RATING SCORE,2.0199999999999996
 
 
 

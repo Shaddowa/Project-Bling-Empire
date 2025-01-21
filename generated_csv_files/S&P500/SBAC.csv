@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,SBAC
 Company,SBA Communications Corporation
 Country,United States
-Industry,REIT—Specialty
+Industry,REIT - Specialty
 Sector,Real Estate
 Website,https://www.sbasite.com
-Price,198.48
+Price,203.61
 Currency,USD
 
 REVENUE
-Total Revenue,2693929984.0
-Revenue Per Share,24.898
-Revenue Growth,-0.026
+Total Revenue,2660957952.0
+Revenue Per Share,24.696
+Revenue Growth,-0.022
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.11, forward_eps=8.46)"
-Net Earnings,555137984.0
-Earnings Growth,0.527
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.33, forward_eps=9.17)"
+Net Earnings,685433984.0
+Earnings Growth,2.0
 
 DEBT
-Total Debt,14432543744.0
+Total Debt,14521344000.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.20607
-Gross Profit Margins,0.77380997
-Operating Margins,0.55029
+Profit Margins,0.25759
+Gross Profit Margins,0.77515
+Operating Margins,0.57702
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.92
-Dividend Yield,0.0198
-Dividend Payout Ratio,0.6922
-Five Year Avg Dividend Yield,None
-Trailing Annual Dividend Rate,3.53
-Trailing Annual Dividend Yield,0.017785167
+Dividend Yield,0.019299999
+Dividend Payout Ratio,0.5978
+Five Year Avg Dividend Yield,1.01
+Trailing Annual Dividend Rate,3.79
+Trailing Annual Dividend Yield,0.018614016
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.061825045896929e-07
-Enterprise to EBITDA,19.701
+Price to Cash Flow,3.290800574873365e-07
+Enterprise to EBITDA,20.314
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=38.65166, forward_pe=23.346334)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.11, forward_eps=8.46)"
-Enterprise to Revenue,13.159
+Price to Earnings,"PriceToEarnings(trailing_pe=32.325436, forward_pe=22.314068)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=6.33, forward_eps=9.17)"
+Enterprise to Revenue,13.633
 
 CASH FLOW
-Free to Cash Flow,957937728.0
-Operating to Cash Flow,1527677952.0
+Free to Cash Flow,621793984.0
+Operating to Cash Flow,1457308032.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.07235
-Return on Invested Capital,0.03846432033805261
-Return on Investment,0.008862950325532682
+Return on Assets,0.08582
+Return on Invested Capital,0.047201828306805485
+Return on Investment,0.011065685064971756
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0
-SUM DIVIDEND SCORE,8.0
+5 Year Average,0.0101
+SUM DIVIDEND SCORE,9.0101
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,100.49000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,101.49000000000001
+Target High Price Diff Current Price,95.38
+Recommendation Key,100
+SUM ANALYST RATING SCORE,195.38
 
 
 

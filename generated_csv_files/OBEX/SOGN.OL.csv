@@ -2,66 +2,66 @@ GENERAL STOCK INFO
 Ticker,SOGN.OL
 Company,Sogn Sparebank
 Country,Norway
-Industry,Banks—Regional
+Industry,Banks - Regional
 Sector,Financial Services
 Website,https://sognbank.no
-Price,181.54
+Price,295.0
 Currency,NOK
 
 REVENUE
-Total Revenue,223531008.0
-Revenue Per Share,353.409
-Revenue Growth,0.077
+Total Revenue,231416992.0
+Revenue Per Share,373.826
+Revenue Growth,0.124
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.08, forward_eps=16.67)"
-Net Earnings,11442000.0
-Earnings Growth,0.818
+Earnings Per Share,"EarningsPerShare(trailing_eps=43.69, forward_eps=16.91)"
+Net Earnings,24583000.0
+Earnings Growth,None
 
 DEBT
-Total Debt,760849984.0
+Total Debt,753593024.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.38105
+Profit Margins,0.40587002
 Gross Profit Margins,0.0
-Operating Margins,0.42238
+Operating Margins,0.61366004
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,15.0
-Dividend Yield,0.0806
-Dividend Payout Ratio,0.5528
-Five Year Avg Dividend Yield,4.12
-Trailing Annual Dividend Rate,15.0
-Trailing Annual Dividend Yield,0.082626425
+Dividend Yield,0.0638
+Dividend Payout Ratio,0.4699
+Five Year Avg Dividend Yield,4.64
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
 Price to Cash Flow,None
 Enterprise to EBITDA,None
-Price to Book,0.10532484
-Price to Earnings,"PriceToEarnings(trailing_pe=10.288717, forward_pe=11.158968)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=18.08, forward_eps=16.67)"
-Enterprise to Revenue,-0.557
+Price to Book,0.17835353
+Price to Earnings,"PriceToEarnings(trailing_pe=7.209888, forward_pe=18.62803)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=43.69, forward_eps=16.91)"
+Enterprise to Revenue,-1.099
 
 CASH FLOW
 Free to Cash Flow,None
-Operating to Cash Flow,-215648000.0
+Operating to Cash Flow,-207164992.0
 
 PROFITABILITY
-Return on Equity,0.07875
-Return on Assets,0.01135
-Return on Invested Capital,0.015038409253404552
-Return on Investment,0.0007235269567856736
+Return on Equity,0.085
+Return on Assets,0.011879999
+Return on Invested Capital,0.0326209792333407
+Return on Investment,0.0011542235765295821
 
 DIVIDEND SCORE
-Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.0412
-SUM DIVIDEND SCORE,5.0412
+5 Year Average,0.0464
+SUM DIVIDEND SCORE,5.0464
 
 ANALYST RATING SCORE
 Target High Price Diff Current Price,0

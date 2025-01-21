@@ -5,27 +5,27 @@ Country,United States
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.bldr.com
-Price,169.26
+Price,164.12
 Currency,USD
 
 REVENUE
-Total Revenue,17105368064.0
-Revenue Per Share,137.945
-Revenue Growth,0.002
+Total Revenue,16731047936.0
+Revenue Per Share,139.453
+Revenue Growth,-0.067
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.64, forward_eps=14.03)"
-Net Earnings,1465549952.0
-Earnings Growth,-0.129
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.22, forward_eps=11.65)"
+Net Earnings,1238347008.0
+Earnings Growth,-0.32
 
 DEBT
-Total Debt,4246135040.0
-Debt to Equity,85.664
+Total Debt,4337335808.0
+Debt to Equity,97.541
 
 MARGINS
-Profit Margins,0.08568
-Gross Profit Margins,0.34730998
-Operating Margins,0.09601
+Profit Margins,0.07401
+Gross Profit Margins,0.33553
+Operating Margins,0.10113
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,85.664
-Price to Cash Flow,1.338908667926631e-07
-Enterprise to EBITDA,9.047
-Price to Book,4.1111
-Price to Earnings,"PriceToEarnings(trailing_pe=14.343643, forward_pe=11.900214)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=11.64, forward_eps=14.03)"
-Enterprise to Revenue,1.399
+Debt to Equity,97.541
+Price to Cash Flow,1.095526816030347e-07
+Enterprise to EBITDA,9.747
+Price to Book,4.3037944
+Price to Earnings,"PriceToEarnings(trailing_pe=16.2045, forward_pe=14.215451)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=10.22, forward_eps=11.65)"
+Enterprise to Revenue,1.369
 
 CASH FLOW
-Free to Cash Flow,1246985728.0
-Operating to Cash Flow,1969677952.0
+Free to Cash Flow,1511692800.0
+Operating to Cash Flow,2110928000.0
 
 PROFITABILITY
-Return on Equity,0.30488002
-Return on Assets,0.12028
-Return on Invested Capital,0.34514915898265974
-Return on Investment,-0.21803587717210188
+Return on Equity,0.27435
+Return on Assets,0.10295
+Return on Invested Capital,0.2855086744101199
+Return on Investment,0.5580653483551149
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,75.03999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,76.03999999999999
+Target High Price Diff Current Price,64.38999999999999
+Recommendation Key,100
+SUM ANALYST RATING SCORE,164.39
 
 
 

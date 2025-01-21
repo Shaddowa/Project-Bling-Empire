@@ -5,27 +5,27 @@ Country,United States
 Industry,Internet Retail
 Sector,Consumer Cyclical
 Website,https://www.aboutamazon.com
-Price,189.5
+Price,225.94
 Currency,USD
 
 REVENUE
-Total Revenue,590739996672.0
-Revenue Per Share,57.133
-Revenue Growth,0.125
+Total Revenue,620127977472.0
+Revenue Per Share,59.486
+Revenue Growth,0.11
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.56, forward_eps=5.76)"
-Net Earnings,37683998720.0
-Earnings Growth,2.167
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.68, forward_eps=6.15)"
+Net Earnings,49868001280.0
+Earnings Growth,0.521
 
 DEBT
-Total Debt,160560005120.0
-Debt to Equity,74.107
+Total Debt,158534991872.0
+Debt to Equity,61.175
 
 MARGINS
-Profit Margins,0.06379
-Gross Profit Margins,0.47594002
-Operating Margins,0.106809996
+Profit Margins,0.080419995
+Gross Profit Margins,0.48406
+Operating Margins,0.109589994
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,74.107
-Price to Cash Flow,3.2736303909354634e-09
-Enterprise to EBITDA,20.977
-Price to Book,9.001777
-Price to Earnings,"PriceToEarnings(trailing_pe=52.66292, forward_pe=32.54861)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.56, forward_eps=5.76)"
-Enterprise to Revenue,3.43
+Debt to Equity,61.175
+Price to Cash Flow,4.203706146489831e-09
+Enterprise to EBITDA,21.923
+Price to Book,9.26303
+Price to Earnings,"PriceToEarnings(trailing_pe=48.80342, forward_pe=37.13821)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.68, forward_eps=6.15)"
+Enterprise to Revenue,3.945
 
 CASH FLOW
-Free to Cash Flow,57269751808.0
-Operating to Cash Flow,99146997760.0
+Free to Cash Flow,54328250368.0
+Operating to Cash Flow,112706002944.0
 
 PROFITABILITY
-Return on Equity,0.20305
-Return on Assets,0.059510004
-Return on Invested Capital,0.23470352213147608
-Return on Investment,-0.007943339879007609
+Return on Equity,0.22558
+Return on Assets,0.07069
+Return on Invested Capital,0.3145551697035296
+Return on Investment,-0.0062930481279103515
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,312.52
-Recommendation Key,1
-SUM ANALYST RATING SCORE,313.52
+Target High Price Diff Current Price,56.620000000000005
+Recommendation Key,0
+SUM ANALYST RATING SCORE,56.620000000000005
 
 
 

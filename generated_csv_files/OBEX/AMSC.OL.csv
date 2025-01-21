@@ -5,7 +5,7 @@ Country,Norway
 Industry,Marine Shipping
 Sector,Industrials
 Website,https://www.amscasa.com
-Price,32.15
+Price,27.85
 Currency,NOK
 
 REVENUE
@@ -14,9 +14,9 @@ Revenue Per Share,None
 Revenue Growth,None
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.74, forward_eps=1.35)"
-Net Earnings,-11144000.0
-Earnings Growth,89.725
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.28, forward_eps=-0.12)"
+Net Earnings,379552672.0
+Earnings Growth,3.942
 
 DEBT
 Total Debt,0.0
@@ -25,48 +25,48 @@ Debt to Equity,None
 MARGINS
 Profit Margins,0.0
 Gross Profit Margins,0.0
-Operating Margins,0.83269
+Operating Margins,0.0
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,4.39
-Dividend Yield,0.134
-Dividend Payout Ratio,1.1687
-Five Year Avg Dividend Yield,11.48
-Trailing Annual Dividend Rate,0.34
-Trailing Annual Dividend Yield,0.010575428
+Dividend Rate,2.4
+Dividend Yield,0.0862
+Dividend Payout Ratio,0.30969998
+Five Year Avg Dividend Yield,11.65
+Trailing Annual Dividend Rate,5.28
+Trailing Annual Dividend Yield,0.18958707
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,-5.472390057014295e-07
-Enterprise to EBITDA,806.375
-Price to Book,20.53851
-Price to Earnings,"PriceToEarnings(trailing_pe=None, forward_pe=24.296295)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=-1.74, forward_eps=1.35)"
+Price to Cash Flow,2.445623663059064e-08
+Enterprise to EBITDA,None
+Price to Book,1.0255061
+Price to Earnings,"PriceToEarnings(trailing_pe=5.170454, forward_pe=-227.5)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.28, forward_eps=-0.12)"
 Enterprise to Revenue,None
 
 CASH FLOW
-Free to Cash Flow,-59937248.0
-Operating to Cash Flow,-6287000.0
+Free to Cash Flow,1116279680.0
+Operating to Cash Flow,-647902656.0
 
 PROFITABILITY
-Return on Equity,-0.07698
-Return on Assets,-0.00661
-Return on Invested Capital,-6978083.907326236
+Return on Equity,0.21017
+Return on Assets,-0.00654
+Return on Invested Capital,14257641.410916194
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,1.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.1148
-SUM DIVIDEND SCORE,8.1148
+5 Year Average,0.1165
+SUM DIVIDEND SCORE,2.1165
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,16.93
-Recommendation Key,1
-SUM ANALYST RATING SCORE,17.93
+Target High Price Diff Current Price,0
+Recommendation Key,0
+SUM ANALYST RATING SCORE,0
 
 
 

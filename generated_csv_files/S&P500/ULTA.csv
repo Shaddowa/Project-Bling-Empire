@@ -5,27 +5,27 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.ulta.com
-Price,396.67
+Price,405.01
 Currency,USD
 
 REVENUE
-Total Revenue,11207303168.0
-Revenue Per Share,227.31
-Revenue Growth,0.102
+Total Revenue,11321165824.0
+Revenue Per Share,234.543
+Revenue Growth,0.009
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.02, forward_eps=29.33)"
-Net Earnings,1291005056.0
-Earnings Growth,0.209
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.99, forward_eps=22.87)"
+Net Earnings,1209521024.0
+Earnings Growth,-0.12
 
 DEBT
-Total Debt,1911091968.0
-Debt to Equity,83.845
+Total Debt,1928999040.0
+Debt to Equity,82.149
 
 MARGINS
-Profit Margins,0.11519
-Gross Profit Margins,0.42955002
-Operating Margins,0.14548
+Profit Margins,0.10684
+Gross Profit Margins,0.42518002
+Operating Margins,0.12899
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,83.845
-Price to Cash Flow,5.129006722476554e-07
-Enterprise to EBITDA,10.687
-Price to Book,8.514035
-Price to Earnings,"PriceToEarnings(trailing_pe=15.433897, forward_pe=13.692124)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=26.02, forward_eps=29.33)"
-Enterprise to Revenue,1.832
+Debt to Equity,82.149
+Price to Cash Flow,5.824389694450557e-07
+Enterprise to EBITDA,10.957
+Price to Book,8.880703
+Price to Earnings,"PriceToEarnings(trailing_pe=16.762106, forward_pe=18.315916)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=24.99, forward_eps=22.87)"
+Enterprise to Revenue,1.769
 
 CASH FLOW
-Free to Cash Flow,782978112.0
-Operating to Cash Flow,1476265984.0
+Free to Cash Flow,719191232.0
+Operating to Cash Flow,1406337024.0
 
 PROFITABILITY
-Return on Equity,0.60909003
-Return on Assets,0.18935
-Return on Invested Capital,0.6755326513603326
-Return on Investment,-0.02850599277085555
+Return on Equity,0.54978
+Return on Assets,0.17914
+Return on Invested Capital,0.6270200084831148
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,288.41
-Recommendation Key,1
-SUM ANALYST RATING SCORE,289.41
+Target High Price Diff Current Price,119.11500000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,219.115
 
 
 

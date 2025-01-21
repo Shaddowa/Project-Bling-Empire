@@ -5,27 +5,27 @@ Country,Canada
 Industry,Apparel Retail
 Sector,Consumer Cyclical
 Website,https://corporate.lululemon.com
-Price,352.95
+Price,373.7
 Currency,USD
 
 REVENUE
-Total Revenue,9619277824.0
-Revenue Per Share,75.906
-Revenue Growth,0.156
+Total Revenue,9989289984.0
+Revenue Per Share,79.374
+Revenue Growth,0.073
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.2, forward_eps=15.84)"
-Net Earnings,1550189952.0
-Earnings Growth,4.639
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.83, forward_eps=14.93)"
+Net Earnings,1632525056.0
+Earnings Growth,0.175
 
 DEBT
-Total Debt,1403282048.0
-Debt to Equity,33.158
+Total Debt,1458889984.0
+Debt to Equity,36.186
 
 MARGINS
-Profit Margins,0.16115
-Gross Profit Margins,0.58314
-Operating Margins,0.28514
+Profit Margins,0.16343
+Gross Profit Margins,0.58536
+Operating Margins,0.22784
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,33.158
-Price to Cash Flow,2.3747407162062985e-07
-Enterprise to EBITDA,16.87
-Price to Book,10.527006
-Price to Earnings,"PriceToEarnings(trailing_pe=28.931147, forward_pe=22.282827)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=12.2, forward_eps=15.84)"
-Enterprise to Revenue,4.536
+Debt to Equity,36.186
+Price to Cash Flow,2.4014293137825275e-07
+Enterprise to EBITDA,15.624
+Price to Book,11.199201
+Price to Earnings,"PriceToEarnings(trailing_pe=27.150976, forward_pe=25.150568)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=13.83, forward_eps=14.93)"
+Enterprise to Revenue,4.223
 
 CASH FLOW
-Free to Cash Flow,1486309632.0
-Operating to Cash Flow,2296164096.0
+Free to Cash Flow,1563643776.0
+Operating to Cash Flow,2344614912.0
 
 PROFITABILITY
-Return on Equity,0.42006
-Return on Assets,0.21726
-Return on Invested Capital,1.1046887667167609
-Return on Investment,-0.023780843456850727
+Return on Equity,0.43159
+Return on Assets,0.22567
+Return on Invested Capital,1.1190185938519854
+Return on Investment,-0.024706703109440314
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,197.04000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,198.04000000000002
+Target High Price Diff Current Price,109.50200000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,209.502
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Packaging & Containers
 Sector,Consumer Cyclical
 Website,https://www.ball.com
-Price,69.61
+Price,54.29
 Currency,USD
 
 REVENUE
-Total Revenue,13921999872.0
-Revenue Per Share,44.203
-Revenue Growth,-0.036
+Total Revenue,13784999936.0
+Revenue Per Share,44.401
+Revenue Growth,-0.009
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.08, forward_eps=3.5)"
-Net Earnings,660000000.0
-Earnings Growth,19.772
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.4, forward_eps=3.53)"
+Net Earnings,752000000.0
+Earnings Growth,0.008
 
 DEBT
-Total Debt,6156000256.0
-Debt to Equity,83.449
+Total Debt,6136000000.0
+Debt to Equity,90.836
 
 MARGINS
-Profit Margins,0.30276
-Gross Profit Margins,0.19479999
-Operating Margins,0.07724
+Profit Margins,0.30424
+Gross Profit Margins,0.20392
+Operating Margins,0.11843
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.0116
-Dividend Payout Ratio,0.38459998
-Five Year Avg Dividend Yield,1.01
+Dividend Yield,0.0147
+Dividend Payout Ratio,0.33330002
+Five Year Avg Dividend Yield,1.09
 Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.011492602
+Trailing Annual Dividend Yield,0.014735679
 
 FINANCIAL RATIO
-Debt to Equity,83.449
-Price to Cash Flow,8.44186772666449e-08
-Enterprise to EBITDA,12.68
-Price to Book,2.962265
-Price to Earnings,"PriceToEarnings(trailing_pe=33.250004, forward_pe=19.76)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=2.08, forward_eps=3.5)"
-Enterprise to Revenue,1.865
+Debt to Equity,90.836
+Price to Cash Flow,7.317315891453961e-08
+Enterprise to EBITDA,10.015
+Price to Book,2.478337
+Price to Earnings,"PriceToEarnings(trailing_pe=23.0, forward_pe=15.637394)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.4, forward_eps=3.53)"
+Enterprise to Revenue,1.521
 
 CASH FLOW
-Free to Cash Flow,819249984.0
-Operating to Cash Flow,891000000.0
+Free to Cash Flow,754374976.0
+Operating to Cash Flow,351000000.0
 
 PROFITABILITY
-Return on Equity,0.119440004
-Return on Assets,0.042519998
-Return on Invested Capital,0.1072124707684402
+Return on Equity,0.14048
+Return on Assets,0.046669997
+Return on Invested Capital,0.12255541024614136
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,4.0
+Dividend Yield,1.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0101
-SUM DIVIDEND SCORE,7.0101
+5 Year Average,0.0109
+SUM DIVIDEND SCORE,4.0109
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.840000000000003
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.840000000000003
+Target High Price Diff Current Price,27.799999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,127.8
 
 
 

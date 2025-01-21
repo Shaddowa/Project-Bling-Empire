@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,KIM
 Company,Kimco Realty Corporation
 Country,United States
-Industry,REIT—Retail
+Industry,REIT - Retail
 Sector,Real Estate
 Website,https://www.kimcorealty.com
-Price,19.04
+Price,22.29
 Currency,USD
 
 REVENUE
-Total Revenue,1844262016.0
-Revenue Per Share,2.926
-Revenue Growth,0.137
+Total Revenue,1963219968.0
+Revenue Per Share,2.986
+Revenue Growth,0.138
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=0.71)"
-Net Earnings,327414016.0
-Earnings Growth,None
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.54, forward_eps=0.7)"
+Net Earnings,354140992.0
+Earnings Growth,0.054
 
 DEBT
-Total Debt,7740654080.0
-Debt to Equity,71.419
+Total Debt,8447832064.0
+Debt to Equity,78.638
 
 MARGINS
-Profit Margins,0.1917
-Gross Profit Margins,0.68911004
-Operating Margins,0.31627
+Profit Margins,0.1958
+Gross Profit Margins,0.68711996
+Operating Margins,0.33708
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.96
-Dividend Yield,0.0506
-Dividend Payout Ratio,1.7736
-Five Year Avg Dividend Yield,4.91
-Trailing Annual Dividend Rate,0.94
-Trailing Annual Dividend Yield,0.049369745
+Dividend Rate,1.0
+Dividend Yield,0.044899996
+Dividend Payout Ratio,1.7778
+Five Year Avg Dividend Yield,4.73
+Trailing Annual Dividend Rate,0.96
+Trailing Annual Dividend Yield,0.043068636
 
 FINANCIAL RATIO
-Debt to Equity,71.419
-Price to Cash Flow,2.2811075185149973e-08
-Enterprise to EBITDA,18.419
-Price to Book,1.2047734
-Price to Earnings,"PriceToEarnings(trailing_pe=35.81132, forward_pe=26.732395)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.53, forward_eps=0.71)"
-Enterprise to Revenue,11.175
+Debt to Equity,78.638
+Price to Cash Flow,2.6747745380839503e-08
+Enterprise to EBITDA,19.152
+Price to Book,1.4332842
+Price to Earnings,"PriceToEarnings(trailing_pe=41.435184, forward_pe=31.964287)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.54, forward_eps=0.7)"
+Enterprise to Revenue,11.666
 
 CASH FLOW
-Free to Cash Flow,832051968.0
-Operating to Cash Flow,902465024.0
+Free to Cash Flow,836519104.0
+Operating to Cash Flow,956278016.0
 
 PROFITABILITY
-Return on Equity,0.03506
-Return on Assets,0.020299999
-Return on Invested Capital,0.042297977916310354
-Return on Investment,0.006213732938586502
+Return on Equity,0.03829
+Return on Assets,0.02132
+Return on Invested Capital,0.04192093174469292
+Return on Investment,0.00606574070204406
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.049100000000000005
-SUM DIVIDEND SCORE,8.0491
+5 Year Average,0.0473
+SUM DIVIDEND SCORE,8.0473
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.02
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.02
+Target High Price Diff Current Price,7.625
+Recommendation Key,100
+SUM ANALYST RATING SCORE,107.625
 
 
 

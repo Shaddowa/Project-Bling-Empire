@@ -5,27 +5,27 @@ Country,United States
 Industry,Specialty Retail
 Sector,Consumer Cyclical
 Website,https://www.autozone.com
-Price,2987.05
+Price,3228.4
 Currency,USD
 
 REVENUE
-Total Revenue,17830563840.0
-Revenue Per Share,999.527
-Revenue Growth,0.046
+Total Revenue,18490267648.0
+Revenue Per Share,1068.246
+Revenue Growth,0.09
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=141.82, forward_eps=166.96)"
-Net Earnings,2621057024.0
-Earnings Growth,0.172
+Earnings Per Share,"EarningsPerShare(trailing_eps=149.47, forward_eps=174.32)"
+Net Earnings,2662426880.0
+Earnings Growth,0.117
 
 DEBT
-Total Debt,12026298368.0
+Total Debt,12650851328.0
 Debt to Equity,None
 
 MARGINS
-Profit Margins,0.147
-Gross Profit Margins,0.5294
-Operating Margins,0.19259001
+Profit Margins,0.14399
+Gross Profit Margins,0.53093
+Operating Margins,0.20896
 
 DIVIDEND
 Dividend Ex Date,None
@@ -38,22 +38,22 @@ Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
 Debt to Equity,None
-Price to Cash Flow,2.0986542825654973e-06
-Enterprise to EBITDA,15.079
+Price to Cash Flow,2.4840280014944624e-06
+Enterprise to EBITDA,15.79
 Price to Book,None
-Price to Earnings,"PriceToEarnings(trailing_pe=21.007755, forward_pe=17.844513)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=141.82, forward_eps=166.96)"
-Enterprise to Revenue,3.546
+Price to Earnings,"PriceToEarnings(trailing_pe=22.11397, forward_pe=18.961536)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=149.47, forward_eps=174.32)"
+Enterprise to Revenue,3.705
 
 CASH FLOW
-Free to Cash Flow,1419633536.0
-Operating to Cash Flow,3057113088.0
+Free to Cash Flow,1330651264.0
+Operating to Cash Flow,3004115968.0
 
 PROFITABILITY
 Return on Equity,None
-Return on Assets,0.1423
-Return on Invested Capital,0.21794379323500374
-Return on Investment,-0.10482802434868858
+Return on Assets,0.14281
+Return on Invested Capital,0.2104543694354457
+Return on Investment,-0.21124839367467252
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,620.6799999999998
-Recommendation Key,1
-SUM ANALYST RATING SCORE,621.6799999999998
+Target High Price Diff Current Price,644.625
+Recommendation Key,100
+SUM ANALYST RATING SCORE,744.625
 
 
 

@@ -5,68 +5,68 @@ Country,United States
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.bakerhughes.com
-Price,32.78
+Price,46.54
 Currency,USD
 
 REVENUE
-Total Revenue,26208000000.0
-Revenue Per Share,26.078
-Revenue Growth,0.123
+Total Revenue,27299999744.0
+Revenue Per Share,27.368
+Revenue Growth,0.04
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.79, forward_eps=2.59)"
-Net Earnings,1822000000.0
-Earnings Growth,-0.211
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.57)"
+Net Earnings,2240000000.0
+Earnings Growth,0.51
 
 DEBT
-Total Debt,6006000128.0
-Debt to Equity,38.624
+Total Debt,6035999744.0
+Debt to Equity,36.933
 
 MARGINS
-Profit Margins,0.069520004
-Gross Profit Margins,0.20593001
-Operating Margins,0.10284001
+Profit Margins,0.082049996
+Gross Profit Margins,0.21094999
+Operating Margins,0.13463001
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.84
-Dividend Yield,0.025999999
-Dividend Payout Ratio,0.44689998
-Five Year Avg Dividend Yield,3.13
-Trailing Annual Dividend Rate,0.8
-Trailing Annual Dividend Yield,0.024405126
+Dividend Yield,0.018
+Dividend Payout Ratio,0.3722
+Five Year Avg Dividend Yield,3.01
+Trailing Annual Dividend Rate,0.83
+Trailing Annual Dividend Yield,0.017834121
 
 FINANCIAL RATIO
-Debt to Equity,38.624
-Price to Cash Flow,1.7290649900888327e-08
-Enterprise to EBITDA,9.172
-Price to Book,2.096053
-Price to Earnings,"PriceToEarnings(trailing_pe=18.06704, forward_pe=12.486487)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.79, forward_eps=2.59)"
-Enterprise to Revenue,1.363
+Debt to Equity,36.933
+Price to Cash Flow,6.605832659094674e-08
+Enterprise to EBITDA,11.432
+Price to Book,2.819526
+Price to Earnings,"PriceToEarnings(trailing_pe=20.695068, forward_pe=17.9572)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=2.23, forward_eps=2.57)"
+Enterprise to Revenue,1.816
 
 CASH FLOW
-Free to Cash Flow,1870375040.0
-Operating to Cash Flow,3384999936.0
+Free to Cash Flow,698625024.0
+Operating to Cash Flow,3073999872.0
 
 PROFITABILITY
-Return on Equity,0.12185001
-Return on Assets,0.04838
-Return on Invested Capital,0.30336329611869894
-Return on Investment,-0.02116144018583043
+Return on Equity,0.14292
+Return on Assets,0.05432
+Return on Invested Capital,0.3711067079073961
+Return on Investment,-0.024751381215469614
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
-Payout Ratio,1.0
+Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0313
-SUM DIVIDEND SCORE,9.0313
+5 Year Average,0.0301
+SUM DIVIDEND SCORE,8.0301
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,13.659999999999997
-Recommendation Key,1
-SUM ANALYST RATING SCORE,14.659999999999997
+Target High Price Diff Current Price,6.850000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,106.85
 
 
 

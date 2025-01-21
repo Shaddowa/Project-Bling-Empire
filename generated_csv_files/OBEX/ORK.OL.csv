@@ -5,68 +5,68 @@ Country,Norway
 Industry,Packaged Foods
 Sector,Consumer Defensive
 Website,https://www.orkla.no
-Price,82.25
+Price,99.8
 Currency,NOK
 
 REVENUE
-Total Revenue,68715999232.0
-Revenue Per Share,68.883
-Revenue Growth,0.057
+Total Revenue,69602000896.0
+Revenue Per Share,69.735
+Revenue Growth,0.043
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.4, forward_eps=6.38)"
-Net Earnings,5389000192.0
-Earnings Growth,0.149
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.7, forward_eps=6.77)"
+Net Earnings,5694000128.0
+Earnings Growth,-0.241
 
 DEBT
-Total Debt,20206000128.0
-Debt to Equity,40.997
+Total Debt,20533000192.0
+Debt to Equity,41.585
 
 MARGINS
-Profit Margins,0.07842
-Gross Profit Margins,0.4706
-Operating Margins,0.10183
+Profit Margins,0.08181
+Gross Profit Margins,0.47269002
+Operating Margins,0.124309994
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,3.0
-Dividend Yield,0.0363
-Dividend Payout Ratio,0.5556
+Dividend Yield,0.0301
+Dividend Payout Ratio,0.5263
 Five Year Avg Dividend Yield,3.46
 Trailing Annual Dividend Rate,3.0
-Trailing Annual Dividend Yield,0.036474165
+Trailing Annual Dividend Yield,0.03006012
 
 FINANCIAL RATIO
-Debt to Equity,40.997
-Price to Cash Flow,2.3425085130533485e-08
-Enterprise to EBITDA,11.753
-Price to Book,1.725255
-Price to Earnings,"PriceToEarnings(trailing_pe=15.287037, forward_pe=12.938871)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.4, forward_eps=6.38)"
-Enterprise to Revenue,1.5
+Debt to Equity,41.585
+Price to Cash Flow,2.498519519962527e-08
+Enterprise to EBITDA,13.093
+Price to Book,2.1633058
+Price to Earnings,"PriceToEarnings(trailing_pe=17.578947, forward_pe=14.8005905)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.7, forward_eps=6.77)"
+Enterprise to Revenue,1.756
 
 CASH FLOW
-Free to Cash Flow,3524000000.0
-Operating to Cash Flow,8077000192.0
+Free to Cash Flow,4010374912.0
+Operating to Cash Flow,8766000128.0
 
 PROFITABILITY
-Return on Equity,0.1171
-Return on Assets,0.04896
-Return on Invested Capital,0.26670296669805094
-Return on Investment,-0.23228449103448276
+Return on Equity,0.1258
+Return on Assets,0.052600004
+Return on Invested Capital,0.2773096996012325
+Return on Investment,0.5931250133333333
 
 DIVIDEND SCORE
 Dividend  Rate,3.0
-Dividend Yield,1.0
+Dividend Yield,4.0
 Payout Ratio,1.0
 Dividend Ex Date,0.0
 5 Year Average,0.0346
-SUM DIVIDEND SCORE,5.0346
+SUM DIVIDEND SCORE,8.0346
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,17.450000000000003
-Recommendation Key,0
-SUM ANALYST RATING SCORE,17.450000000000003
+Target High Price Diff Current Price,19.799999999999997
+Recommendation Key,100
+SUM ANALYST RATING SCORE,119.8
 
 
 

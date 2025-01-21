@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,WY
 Company,Weyerhaeuser Company
 Country,United States
-Industry,REIT—Specialty
+Industry,REIT - Specialty
 Sector,Real Estate
 Website,https://www.weyerhaeuser.com
-Price,31.13
+Price,30.2
 Currency,USD
 
 REVENUE
-Total Revenue,7589000192.0
-Revenue Per Share,10.383
-Revenue Growth,-0.045
+Total Revenue,7190000128.0
+Revenue Per Share,9.859
+Revenue Growth,-0.169
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.1, forward_eps=1.3)"
-Net Earnings,802000000.0
-Earnings Growth,-0.242
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=0.86)"
+Net Earnings,534000000.0
+Earnings Growth,-0.882
 
 DEBT
-Total Debt,5091999744.0
-Debt to Equity,50.647
+Total Debt,5096000000.0
+Debt to Equity,51.335
 
 MARGINS
-Profit Margins,0.10568
-Gross Profit Margins,0.21979
-Operating Margins,0.106350005
+Profit Margins,0.07427
+Gross Profit Margins,0.1879
+Operating Margins,0.053540003
 
 DIVIDEND
 Dividend Ex Date,None
 Dividend Rate,0.8
-Dividend Yield,0.025799999
-Dividend Payout Ratio,0.7
-Five Year Avg Dividend Yield,3.08
-Trailing Annual Dividend Rate,0.77
-Trailing Annual Dividend Yield,0.024734983
+Dividend Yield,0.026500002
+Dividend Payout Ratio,1.0822
+Five Year Avg Dividend Yield,2.75
+Trailing Annual Dividend Rate,0.79
+Trailing Annual Dividend Yield,0.02615894
 
 FINANCIAL RATIO
-Debt to Equity,50.647
-Price to Cash Flow,3.9011178948714304e-08
-Enterprise to EBITDA,17.55
-Price to Book,2.2459931
-Price to Earnings,"PriceToEarnings(trailing_pe=28.154545, forward_pe=23.823078)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.1, forward_eps=1.3)"
-Enterprise to Revenue,3.531
+Debt to Equity,51.335
+Price to Cash Flow,6.154080954452372e-08
+Enterprise to EBITDA,21.201
+Price to Book,2.215023
+Price to Earnings,"PriceToEarnings(trailing_pe=41.4452, forward_pe=35.18023)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=0.86)"
+Enterprise to Revenue,3.639
 
 CASH FLOW
-Free to Cash Flow,793875008.0
-Operating to Cash Flow,1431000064.0
+Free to Cash Flow,491624992.0
+Operating to Cash Flow,1078000000.0
 
 PROFITABILITY
-Return on Equity,0.079679996
-Return on Assets,0.03855
-Return on Invested Capital,0.15750197135677732
-Return on Investment,-0.06365079365079365
+Return on Equity,0.052989997
+Return on Assets,0.02674
+Return on Invested Capital,0.10478806879291595
+Return on Investment,-0.025308056872037913
 
 DIVIDEND SCORE
 Dividend  Rate,4.0
 Dividend Yield,4.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
-5 Year Average,0.0308
-SUM DIVIDEND SCORE,8.0308
+5 Year Average,0.0275
+SUM DIVIDEND SCORE,8.0275
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,10.030000000000001
-Recommendation Key,1
-SUM ANALYST RATING SCORE,11.030000000000001
+Target High Price Diff Current Price,9.745000000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,109.745
 
 
 

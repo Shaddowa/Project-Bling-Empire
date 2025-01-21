@@ -5,27 +5,27 @@ Country,United States
 Industry,Credit Services
 Sector,Financial Services
 Website,https://www.paypal.com
-Price,64.45
+Price,91.81
 Currency,USD
 
 REVENUE
-Total Revenue,30429999104.0
-Revenue Per Share,28.001
-Revenue Growth,0.094
+Total Revenue,31456999424.0
+Revenue Per Share,29.966
+Revenue Growth,0.058
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.97, forward_eps=4.64)"
-Net Earnings,4338999808.0
-Earnings Growth,0.186
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.18, forward_eps=4.89)"
+Net Earnings,4428000256.0
+Earnings Growth,0.065
 
 DEBT
-Total Debt,11642000384.0
-Debt to Equity,56.236
+Total Debt,13258000384.0
+Debt to Equity,65.718
 
 MARGINS
-Profit Margins,0.14259
-Gross Profit Margins,0.3932
-Operating Margins,0.17950001
+Profit Margins,0.14076
+Gross Profit Margins,0.40096
+Operating Margins,0.18185
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,56.236
-Price to Cash Flow,9.662214128417273e-09
-Enterprise to EBITDA,11.16
-Price to Book,3.2009156
-Price to Earnings,"PriceToEarnings(trailing_pe=15.851385, forward_pe=13.5625)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=3.97, forward_eps=4.64)"
-Enterprise to Revenue,2.075
+Debt to Equity,65.718
+Price to Cash Flow,2.3940732713311164e-08
+Enterprise to EBITDA,15.256
+Price to Book,4.491872
+Price to Earnings,"PriceToEarnings(trailing_pe=21.550241, forward_pe=18.421268)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=4.18, forward_eps=4.89)"
+Enterprise to Revenue,2.969
 
 CASH FLOW
-Free to Cash Flow,6512999936.0
-Operating to Cash Flow,5590000128.0
+Free to Cash Flow,3762625024.0
+Operating to Cash Flow,7670000128.0
 
 PROFITABILITY
-Return on Equity,0.21395001
-Return on Assets,0.03951
-Return on Invested Capital,0.37270225541616625
-Return on Investment,0.5104705656470588
+Return on Equity,0.22188
+Return on Assets,0.04343
+Return on Invested Capital,0.3339870358312869
+Return on Investment,0.3721008618487395
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,57.07
-Recommendation Key,1
-SUM ANALYST RATING SCORE,58.07
+Target High Price Diff Current Price,34.92
+Recommendation Key,100
+SUM ANALYST RATING SCORE,134.92000000000002
 
 
 

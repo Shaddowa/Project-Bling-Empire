@@ -5,27 +5,27 @@ Country,Norway
 Industry,Leisure
 Sector,Consumer Cyclical
 Website,https://satsgroup.com
-Price,17.28
+Price,25.2
 Currency,NOK
 
 REVENUE
-Total Revenue,4826999808.0
-Revenue Per Share,23.717
-Revenue Growth,0.077
+Total Revenue,4981000192.0
+Revenue Per Share,24.377
+Revenue Growth,0.08
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.16, forward_eps=1.98)"
-Net Earnings,238000000.0
-Earnings Growth,0.194
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.39, forward_eps=2.0)"
+Net Earnings,285000000.0
+Earnings Growth,1.315
 
 DEBT
-Total Debt,6720000000.0
-Debt to Equity,610.909
+Total Debt,6627999744.0
+Debt to Equity,525.198
 
 MARGINS
-Profit Margins,0.049310002
-Gross Profit Margins,0.61301
-Operating Margins,0.13292
+Profit Margins,0.05722
+Gross Profit Margins,0.6057
+Operating Margins,0.14657
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,610.909
-Price to Cash Flow,1.4353347090005987e-08
-Enterprise to EBITDA,17.632
-Price to Book,3.281308
-Price to Earnings,"PriceToEarnings(trailing_pe=15.224138, forward_pe=8.919191)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=1.16, forward_eps=1.98)"
-Enterprise to Revenue,2.075
+Debt to Equity,525.198
+Price to Cash Flow,2.0377056279234495e-08
+Enterprise to EBITDA,118.138
+Price to Book,4.11536
+Price to Earnings,"PriceToEarnings(trailing_pe=18.27338, forward_pe=12.7)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.39, forward_eps=2.0)"
+Enterprise to Revenue,2.301
 
 CASH FLOW
-Free to Cash Flow,1230375040.0
-Operating to Cash Flow,1835000064.0
+Free to Cash Flow,1246499968.0
+Operating to Cash Flow,1864999936.0
 
 PROFITABILITY
-Return on Equity,0.24174999
-Return on Assets,0.0436
-Return on Invested Capital,0.03541666663830171
+Return on Equity,0.24956
+Return on Assets,0.046240002
+Return on Invested Capital,0.042999398120466756
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,7.34
-Recommendation Key,1
-SUM ANALYST RATING SCORE,8.34
+Target High Price Diff Current Price,4.600000000000001
+Recommendation Key,0
+SUM ANALYST RATING SCORE,4.600000000000001
 
 
 

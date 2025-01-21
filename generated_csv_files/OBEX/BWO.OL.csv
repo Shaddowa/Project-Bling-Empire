@@ -5,68 +5,68 @@ Country,Bermuda
 Industry,Oil & Gas Equipment & Services
 Sector,Energy
 Website,https://www.bwoffshore.com
-Price,27.6
+Price,30.15
 Currency,NOK
 
 REVENUE
-Total Revenue,659200000.0
-Revenue Per Share,3.646
-Revenue Growth,-0.193
+Total Revenue,647299968.0
+Revenue Per Share,3.58
+Revenue Growth,-0.085
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.67, forward_eps=5.25)"
-Net Earnings,100400000.0
-Earnings Growth,-0.104
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.9, forward_eps=0.32)"
+Net Earnings,136100000.0
+Earnings Growth,1.26
 
 DEBT
-Total Debt,1567299968.0
-Debt to Equity,131.122
+Total Debt,1636700032.0
+Debt to Equity,133.011
 
 MARGINS
-Profit Margins,0.15231
-Gross Profit Margins,0.60027003
-Operating Margins,0.25998
+Profit Margins,0.21025999
+Gross Profit Margins,0.64684
+Operating Margins,0.21000999
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,3.68
-Dividend Yield,0.134
-Dividend Payout Ratio,0.2692
+Dividend Rate,2.95
+Dividend Yield,0.109
+Dividend Payout Ratio,0.3196
 Five Year Avg Dividend Yield,11.51
-Trailing Annual Dividend Rate,0.193
-Trailing Annual Dividend Yield,0.0069927536
+Trailing Annual Dividend Rate,0.0
+Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,131.122
-Price to Cash Flow,-4.8608804332637137e-08
-Enterprise to EBITDA,21.426
-Price to Book,4.936163
-Price to Earnings,"PriceToEarnings(trailing_pe=4.84127, forward_pe=5.2285714)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=5.67, forward_eps=5.25)"
-Enterprise to Revenue,9.647
+Debt to Equity,133.011
+Price to Cash Flow,-8.461295101457732e-08
+Enterprise to EBITDA,19.594
+Price to Book,5.412696
+Price to Earnings,"PriceToEarnings(trailing_pe=3.8101265, forward_pe=94.0625)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=7.9, forward_eps=0.32)"
+Enterprise to Revenue,9.674
 
 CASH FLOW
-Free to Cash Flow,-564712512.0
-Operating to Cash Flow,558700032.0
+Free to Cash Flow,-355737504.0
+Operating to Cash Flow,544400000.0
 
 PROFITABILITY
-Return on Equity,0.08319
-Return on Assets,0.01984
-Return on Invested Capital,0.06405921118717633
-Return on Investment,-0.001420486700622524
+Return on Equity,0.11332
+Return on Assets,0.02362
+Return on Invested Capital,0.0831551273150915
+Return on Investment,-0.002711695556883841
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
-Dividend Yield,4.0
+Dividend  Rate,2.0
+Dividend Yield,2.0
 Payout Ratio,0.0
 Dividend Ex Date,0.0
 5 Year Average,0.1151
-SUM DIVIDEND SCORE,8.1151
+SUM DIVIDEND SCORE,4.1151
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,20.220000000000002
-Recommendation Key,1
-SUM ANALYST RATING SCORE,21.220000000000002
+Target High Price Diff Current Price,9.795473000000001
+Recommendation Key,100
+SUM ANALYST RATING SCORE,109.795473
 
 
 

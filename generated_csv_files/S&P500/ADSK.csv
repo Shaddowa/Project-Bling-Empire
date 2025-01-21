@@ -2,30 +2,30 @@ GENERAL STOCK INFO
 Ticker,ADSK
 Company,"Autodesk, Inc."
 Country,United States
-Industry,Software—Application
+Industry,Software - Application
 Sector,Technology
 Website,https://www.autodesk.com
-Price,218.63
+Price,291.45
 Currency,USD
 
 REVENUE
-Total Revenue,5496999936.0
-Revenue Per Share,25.687
-Revenue Growth,0.115
+Total Revenue,5805000192.0
+Revenue Per Share,27.063
+Revenue Growth,0.119
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.18, forward_eps=9.1)"
-Net Earnings,906000000.0
-Earnings Growth,-0.034
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.04, forward_eps=9.18)"
+Net Earnings,1057000000.0
+Earnings Growth,0.262
 
 DEBT
-Total Debt,2625999872.0
-Debt to Equity,141.563
+Total Debt,2603000064.0
+Debt to Equity,105.214
 
 MARGINS
-Profit Margins,0.16482
-Gross Profit Margins,0.91577005
-Operating Margins,0.21443
+Profit Margins,0.18208
+Gross Profit Margins,0.91920996
+Operating Margins,0.23653999
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,22 +37,22 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,141.563
-Price to Cash Flow,1.21591285437274e-07
-Enterprise to EBITDA,38.542
-Price to Book,25.123442
-Price to Earnings,"PriceToEarnings(trailing_pe=52.09809, forward_pe=23.930769)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=4.18, forward_eps=9.1)"
-Enterprise to Revenue,8.547
+Debt to Equity,105.214
+Price to Cash Flow,1.8028772221046397e-07
+Enterprise to EBITDA,49.489
+Price to Book,33.97554
+Price to Earnings,"PriceToEarnings(trailing_pe=58.43254, forward_pe=32.08061)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=5.04, forward_eps=9.18)"
+Enterprise to Revenue,11.901
 
 CASH FLOW
-Free to Cash Flow,1791000064.0
-Operating to Cash Flow,1312999936.0
+Free to Cash Flow,1633500032.0
+Operating to Cash Flow,1160999936.0
 
 PROFITABILITY
-Return on Equity,0.60400003
-Return on Assets,0.07287
-Return on Invested Capital,0.3450114398975267
+Return on Equity,0.57445997
+Return on Assets,0.0889
+Return on Invested Capital,0.4060699079875958
 Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
@@ -64,9 +64,9 @@ Dividend Ex Date,0.0
 SUM DIVIDEND SCORE,0.0048
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,102.22999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,103.22999999999999
+Target High Price Diff Current Price,85.5
+Recommendation Key,100
+SUM ANALYST RATING SCORE,185.5
 
 
 

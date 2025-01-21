@@ -2,71 +2,71 @@ GENERAL STOCK INFO
 Ticker,AES
 Company,The AES Corporation
 Country,United States
-Industry,Utilities—Diversified
+Industry,Utilities - Diversified
 Sector,Utilities
 Website,https://www.aes.com
-Price,19.99
+Price,11.82
 Currency,USD
 
 REVENUE
-Total Revenue,12513999872.0
-Revenue Per Share,18.56
-Revenue Growth,-0.048
+Total Revenue,12284000256.0
+Revenue Per Share,17.668
+Revenue Growth,-0.042
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=2.08)"
-Net Earnings,517000000.0
-Earnings Growth,1.857
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=2.03)"
+Net Earnings,1025000000.0
+Earnings Growth,1.206
 
 DEBT
-Total Debt,30478000128.0
-Debt to Equity,391.647
+Total Debt,30150000640.0
+Debt to Equity,352.879
 
 MARGINS
-Profit Margins,0.04235
-Gross Profit Margins,0.20209
-Operating Margins,0.17634001
+Profit Margins,0.08344
+Gross Profit Margins,0.19440001
+Operating Margins,0.20158
 
 DIVIDEND
 Dividend Ex Date,None
-Dividend Rate,0.68
-Dividend Yield,0.0339
-Dividend Payout Ratio,0.9181
-Five Year Avg Dividend Yield,3.03
-Trailing Annual Dividend Rate,0.677
-Trailing Annual Dividend Yield,0.033866934
+Dividend Rate,0.69
+Dividend Yield,0.0587
+Dividend Payout Ratio,0.4746
+Five Year Avg Dividend Yield,3.16
+Trailing Annual Dividend Rate,0.69
+Trailing Annual Dividend Yield,0.058375634
 
 FINANCIAL RATIO
-Debt to Equity,391.647
-Price to Cash Flow,-3.108824384482457e-09
-Enterprise to EBITDA,13.829
-Price to Book,4.886058
-Price to Earnings,"PriceToEarnings(trailing_pe=27.31507, forward_pe=9.586539)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.73, forward_eps=2.08)"
-Enterprise to Revenue,3.767
+Debt to Equity,352.879
+Price to Cash Flow,-1.4229315087628892e-09
+Enterprise to EBITDA,12.546
+Price to Book,2.5580938
+Price to Earnings,"PriceToEarnings(trailing_pe=8.219652, forward_pe=5.83069)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=1.44, forward_eps=2.03)"
+Enterprise to Revenue,3.405
 
 CASH FLOW
-Free to Cash Flow,-6414000128.0
-Operating to Cash Flow,2696000000.0
+Free to Cash Flow,-8318249984.0
+Operating to Cash Flow,2388999936.0
 
 PROFITABILITY
-Return on Equity,-0.014780001
-Return on Assets,0.03244
-Return on Invested Capital,0.016963055245078504
-Return on Investment,-0.0009184579854325813
+Return on Equity,-0.02549
+Return on Assets,0.028369999
+Return on Invested Capital,0.03399668252354297
+Return on Investment,-0.001994939665239393
 
 DIVIDEND SCORE
-Dividend  Rate,4.0
+Dividend  Rate,3.0
 Dividend Yield,4.0
-Payout Ratio,0.0
+Payout Ratio,1.0
 Dividend Ex Date,0.0
-5 Year Average,0.030299999999999997
-SUM DIVIDEND SCORE,8.0303
+5 Year Average,0.0316
+SUM DIVIDEND SCORE,8.0316
 
 ANALYST RATING SCORE
-Target High Price Diff Current Price,5.059999999999999
-Recommendation Key,1
-SUM ANALYST RATING SCORE,6.059999999999999
+Target High Price Diff Current Price,13.1637
+Recommendation Key,100
+SUM ANALYST RATING SCORE,113.1637
 
 
 

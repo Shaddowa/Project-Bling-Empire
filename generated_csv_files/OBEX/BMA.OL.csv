@@ -5,27 +5,27 @@ Country,Norway
 Industry,Building Products & Equipment
 Sector,Industrials
 Website,https://www.byggma.no
-Price,18.55
+Price,17.15
 Currency,NOK
 
 REVENUE
-Total Revenue,2249100032.0
-Revenue Per Share,32.213
-Revenue Growth,-0.0
+Total Revenue,2164349952.0
+Revenue Per Share,30.93
+Revenue Growth,0.07
 
 EARNINGS
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.87, forward_eps=None)"
-Net Earnings,61000000.0
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.48, forward_eps=None)"
+Net Earnings,33698000.0
 Earnings Growth,None
 
 DEBT
-Total Debt,1440000000.0
-Debt to Equity,127.547
+Total Debt,1429100032.0
+Debt to Equity,129.8
 
 MARGINS
-Profit Margins,0.02712
-Gross Profit Margins,0.51332
-Operating Margins,0.06459
+Profit Margins,0.015570001
+Gross Profit Margins,0.49385
+Operating Margins,0.05307
 
 DIVIDEND
 Dividend Ex Date,None
@@ -37,23 +37,23 @@ Trailing Annual Dividend Rate,0.0
 Trailing Annual Dividend Yield,0.0
 
 FINANCIAL RATIO
-Debt to Equity,127.547
-Price to Cash Flow,-4.819120607910632e-07
-Enterprise to EBITDA,26.338
-Price to Book,1.1470442
-Price to Earnings,"PriceToEarnings(trailing_pe=21.321838, forward_pe=None)"
-Earnings Per Share,"EarningsPerShare(trailing_eps=0.87, forward_eps=None)"
-Enterprise to Revenue,1.187
+Debt to Equity,129.8
+Price to Cash Flow,4.080297397769516e-06
+Enterprise to EBITDA,13.939
+Price to Book,1.0875769
+Price to Earnings,"PriceToEarnings(trailing_pe=35.729168, forward_pe=None)"
+Earnings Per Share,"EarningsPerShare(trailing_eps=0.48, forward_eps=None)"
+Enterprise to Revenue,1.199
 
 CASH FLOW
-Free to Cash Flow,-38492500.0
-Operating to Cash Flow,209100000.0
+Free to Cash Flow,4203125.0
+Operating to Cash Flow,94019000.0
 
 PROFITABILITY
-Return on Equity,0.06219
-Return on Assets,-0.00364
-Return on Invested Capital,0.042361110635372304
-Return on Investment,0.004475586044975971
+Return on Equity,0.03264
+Return on Assets,0.019809999
+Return on Invested Capital,0.02357987465790565
+Return on Investment,Expenses fields is `None` or has invalid values for calculations
 
 DIVIDEND SCORE
 Dividend  Rate,0.0
