@@ -11,6 +11,7 @@ class Currency(Enum):
     SOL = "SOL"
     LINK = "LINK"
     XRP = "XRP"
+    XLM = "XLM"
 
     @classmethod
     def from_str(cls, currency_str):

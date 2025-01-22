@@ -17,22 +17,24 @@ class CryptoCoin:
 
 @dataclass
 class CryptoPortfolio:
-    coins: list[
-        CryptoCoin
-    ]
 
-    def sum_daedalus_coins(self) -> "CryptoPortfolio":
-        self.coins.append(
-            CryptoCoin(
-                currency=Currency.ADA,
-                quantity=float(os.getenv('ADA_DAEDALUS_COINS')),
-                cost_price=CurrencyValue(
-                    value=-1,  # Not sure what the cost price was...
-                    currency=Currency.NOK
-                )
-            )
+    def __init__(self):
+        self.coins: list[
+            CryptoCoin
+        ] = []
+        self.cash: CurrencyValue = CurrencyValue(0.0, Currency.NOK)
+
+    def _set_cash_balance(self, grouped_transaction_history: dict):
+        nok_match_transactions = grouped_transaction_history.get(Currency.NOK, {}).get(TransactionType.MATCH, [])
+        total_amount_2025 = sum(
+            transaction['amount']
+            for transaction in nok_match_transactions
+            if transaction['date'].startswith('2025')
         )
-        return self
+        self.cash = CurrencyValue(
+            value=total_amount_2025,
+            currency=Currency.NOK
+        )
 
     def _parse_summed_transaction_history(self, summed_transaction_history):
         for currency in summed_transaction_history:
@@ -68,12 +70,12 @@ class CryptoPortfolio:
         return crypto_dict
 
     def sum_local_currency(self) -> dict:
-        portfolio_value = {Currency.NOK: 0.0}
+        portfolio_value = {Currency.NOK.value: self.cash.value}
         crypto_dict = self._get_crypto_dict()
 
         for coin in crypto_dict:
             portfolio_value[coin] = crypto_dict[coin]
-            portfolio_value[Currency.NOK] += crypto_dict[coin]["value"]
+            portfolio_value[Currency.NOK.value] += crypto_dict[coin]["value"]
 
         return portfolio_value
 
@@ -89,13 +91,13 @@ class CryptoPortfolio:
             if currency not in [
                 Currency.USD,
                 Currency.LINK,
-                Currency.XRP,
-                Currency.SOL  # Temporarily removed
+                Currency.BTC,
+                Currency.ETH,
+                Currency.SOL
             ]:
                 filtered_transaction_dict[currency] = {}
                 if currency == Currency.NOK and TransactionType.MATCH_FEE in transaction_dict[currency]:
-                    filtered_transaction_dict[currency][TransactionType.MATCH_FEE] = transaction_dict[currency][
-                        TransactionType.MATCH_FEE]
+                    filtered_transaction_dict[currency][TransactionType.MATCH_FEE] = transaction_dict[currency][TransactionType.MATCH_FEE]
                 else:
                     for transaction_type in transaction_dict[currency]:
                         if transaction_type not in [
@@ -176,11 +178,11 @@ class CryptoPortfolio:
 
         return summed_transaction_history
 
-    @classmethod
-    def synchronize_with_firi(cls) -> "CryptoPortfolio":
-        crypto_portfolio = cls(coins=[])
-        grouped_transaction_history = get_grouped_transaction_history_by_year(years=[2023, 2024])
-        filtered_transaction_history = cls._filter_transaction_history(grouped_transaction_history)
-        transformed_transaction_history = cls._add_match_fee_to_cost_price(filtered_transaction_history)
-        summed_transaction_history = cls.sum_transaction_history(transformed_transaction_history)
-        return crypto_portfolio._parse_summed_transaction_history(summed_transaction_history)
+    def synchronize_with_firi(self) -> "CryptoPortfolio":
+        grouped_transaction_history = get_grouped_transaction_history_by_year(years=[2023, 2024, 2025])
+        self._set_cash_balance(grouped_transaction_history)
+        filtered_transaction_history = self._filter_transaction_history(grouped_transaction_history)
+        transformed_transaction_history = self._add_match_fee_to_cost_price(filtered_transaction_history)
+        summed_transaction_history = self.sum_transaction_history(transformed_transaction_history)
+        return self._parse_summed_transaction_history(summed_transaction_history)
+

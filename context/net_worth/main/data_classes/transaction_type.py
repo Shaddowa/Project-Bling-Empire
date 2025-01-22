@@ -17,5 +17,5 @@ class TransactionType(Enum):
         try:
             return cls(transaction_type_str)
         except ValueError:
-            print(f"Could not convert {transaction_type_str} to TransactionType")
+            # print(f"Could not convert {transaction_type_str} to TransactionType")
             return None
