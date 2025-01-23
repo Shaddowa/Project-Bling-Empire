@@ -4,7 +4,6 @@ TODO
 .vscode/
 .idea/
 .DS_Store
-context/net_worth/main/net_worth.py
 context/net_worth/main/data_classes/assets/stock_portfolio.py
 context/net_worth/main/data_classes/liabilities/student_loan_payment_plan.py
 context/net_worth/main/data_classes/liabilities/mortgage_loan_payment_plan.py
@@ -15,7 +14,7 @@ context/net_worth/main/data_classes/assets/upcoming_cash_flow.py
 context/planing/meals/main/dishes_dict.py
 context/planing/meals/main/generated_meal_plans
 context/planing/meals/main/email_recipients.py
-context/net_worth/main/snapshots
+context/net_worth/main/snapshots/
 .env
 sendgrid.env
 
