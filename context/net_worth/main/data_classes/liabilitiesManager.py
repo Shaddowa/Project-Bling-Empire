@@ -29,14 +29,16 @@ class TotalDebts:
         return sum([expense.amount for expense in expenses])
 
     def get_monthly_debt_expenses(self):
-        student_loan = self.student_loan.sum_monthly_student_loan_payment()
+        # I have postponed payment of student loan to pay off mortgage loan
+        # student_loan = self.student_loan.sum_monthly_student_loan_payment()
         mortgage_loan = self.mortgage.sum_monthly_mortgage_loan_payment()
         extra_payments = self.process_extra_expenses(get_extra_monthly_payments())
 
-        # I have postponed payment of student loan to pay off mortgage loan
-        if student_loan == 0:
-            return mortgage_loan + extra_payments
-        return student_loan + mortgage_loan
+        return [{
+            "extra_payments": extra_payments,
+            "mortgage_loan": mortgage_loan,
+            "student_loan": 0,
+        }]
 
 
 @dataclass
@@ -48,8 +50,9 @@ class LiabilitiesManager:
     def sum_total_debts(self):
         return self.total_debts.get_total_debts()
 
-    def sum_monthly_reoccurring_expenses(self):
-        return sum([expense.amount for expense in self.reoccurring_expenses if expense.basis == Basis.monthly])
+    def get_monthly_reoccurring_expenses(self):
+        return [{expense.expense: expense.amount} for expense in self.reoccurring_expenses if
+                expense.basis == Basis.monthly]
 
     def sum_monthly_debt_expenses(self):
         return self.total_debts.get_monthly_debt_expenses()
@@ -57,9 +60,7 @@ class LiabilitiesManager:
     def sum_upcoming_expenses_within_monthly_interval(self, date_threshold=TO_DATE):
         return sum([expense.amount for expense in self.upcoming_expenses if FROM_DATE <= expense.date < date_threshold])
 
-    def get_total_monthly_liabilities(self):
-        return sum([
-            self.sum_monthly_reoccurring_expenses(),
-            self.sum_monthly_debt_expenses(),
-            self.sum_upcoming_expenses_within_monthly_interval()
-        ])
+    def get_monthly_liabilities(self):
+        monthly_debt_expenses = self.total_debts.get_monthly_debt_expenses()
+        monthly_reoccurring_expenses = self.get_monthly_reoccurring_expenses()
+        return monthly_debt_expenses + monthly_reoccurring_expenses

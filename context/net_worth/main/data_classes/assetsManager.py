@@ -39,11 +39,13 @@ class AssetsManager:
     reoccurring_cash_flow = get_monthly_reoccurring_cash_flow()
     upcoming_cash_flow = get_upcoming_cash_flow()
 
-    def sum_monthly_reoccurring_cash_flow(self):
-        return sum([cash_flow.amount for cash_flow in self.reoccurring_cash_flow if cash_flow.basis == Basis.monthly])
+    def get_monthly_reoccurring_cash_flow(self):
+        return [{cash_flow.cash_flow: cash_flow.amount} for cash_flow in self.reoccurring_cash_flow if
+                cash_flow.basis == Basis.monthly]
 
-    def sum_upcoming_cash_flow_within_monthly_interval(self, date_threshold=TO_DATE):
-        return sum([cash_flow.amount for cash_flow in self.upcoming_cash_flow if FROM_DATE <= cash_flow.date < date_threshold])
+    def get_upcoming_cash_flow_within_monthly_interval(self, date_threshold=TO_DATE):
+        return [{cash_flow.cash_flow: cash_flow.amount} for cash_flow in self.upcoming_cash_flow if
+                FROM_DATE <= cash_flow.date < date_threshold]
 
     def sum_investments(self):
         return self.total_investments.sum_all()
@@ -52,7 +54,7 @@ class AssetsManager:
         return self.total_investments.sum_liquid()
 
     def get_total_monthly_cashflow(self):
-        return sum([
-            self.sum_monthly_reoccurring_cash_flow(),
-            self.sum_upcoming_cash_flow_within_monthly_interval(),
-        ])
+        monthly_reoccurring_cash_flow = self.get_monthly_reoccurring_cash_flow()
+        upcoming_cash_flow = self.get_upcoming_cash_flow_within_monthly_interval()
+        return monthly_reoccurring_cash_flow + upcoming_cash_flow
+

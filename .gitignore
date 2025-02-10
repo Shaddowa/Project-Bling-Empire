@@ -14,7 +14,7 @@ context/net_worth/main/data_classes/assets/upcoming_cash_flow.py
 context/planing/meals/main/dishes_dict.py
 context/planing/meals/main/generated_meal_plans
 context/planing/meals/main/email_recipients.py
-context/net_worth/main/snapshots/
+context/net_worth/main/snapshots/*
 .env
 sendgrid.env
 
