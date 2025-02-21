@@ -119,21 +119,33 @@ class SnapshotManager:
         updated_df.to_csv(full_path, index=False)
 
     def snapshot_net_worth(self):
-        pass
-        # calculate_net_worth()
-        # calculate_expenses_after_cash_flow()
-        # calculate_future_net_worth()
-        # calculate_gross_liquid_net_worth()
-        # calculate_future_gross_liquid_net_worth()
-        # print(calculate_future_gross_liquid_net_worth())
-        # print(f"Net Worth: {format_currency(calculate_net_worth(TotalAssets, TotalDebts))}")
-        # print(
-        #     f"Future Net Worth: {format_currency(calculate_future_net_worth(TotalAssets, TotalDebts, UpcomingCashFlowIn, UpcomingExpenses))}")
-        # print(f"Gross Liquid Net Worth: {format_currency(calculate_gross_liquid_net_worth(TotalAssets))}")
-        # print(
-        #     f"Gross Liquid Future Net Worth: {format_currency(calculate_future_gross_liquid_net_worth(TotalAssets, UpcomingCashFlowIn, UpcomingExpenses))}")
-        # print(f"Total Assets: {format_currency(TotalAssets.sum())}")
-        # print(f"Total Debts: {format_currency(TotalDebts.sum())}")
+
+        def get_net_worth_data():
+            return {"total_debts": LiabilitiesManager().sum_total_debts()}
+
+        def _convert_to_df():
+            df = pd.DataFrame.from_dict(net_worth_data, orient='index').reset_index()
+            df.columns = ['Category', 'Amount']
+            df['Snapshot Date'] = datetime.now().strftime('%Y-%m')
+            return df
+
+        net_worth_snapshot_file = "net_worth.csv"
+        net_worth_snapshot_path = f"{self.snapshot_root_path}net_worth/"
+        full_path = net_worth_snapshot_path + net_worth_snapshot_file
+
+        if not os.path.exists(net_worth_snapshot_path):
+            os.makedirs(net_worth_snapshot_path)
+
+        net_worth_data = get_net_worth_data()
+        new_df = _convert_to_df()
+
+        if os.path.exists(full_path):
+            updated_df = pd.concat([pd.read_csv(full_path), new_df], ignore_index=True)
+            updated_df = updated_df.drop_duplicates(subset=['Category', 'Snapshot Date'], keep='last')
+        else:
+            updated_df = new_df
+
+        updated_df.to_csv(full_path, index=False)
 
     def snapshot_data(self):
         self.snapshot_crypto_portfolio()

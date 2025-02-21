@@ -25,7 +25,7 @@ def calculate_net_worth() -> int:
 
 
 def calculate_expenses_after_cash_flow(date_threshold=TO_DATE) -> int:
-    CASH_FLOW = ASSETS_MANAGER.sum_upcoming_cash_flow_within_monthly_interval(date_threshold)
+    CASH_FLOW = ASSETS_MANAGER.get_upcoming_cash_flow_within_monthly_interval(date_threshold)
     EXPENSES = LIABILITIES_MANAGER.sum_upcoming_expenses_within_monthly_interval(date_threshold)
 
     return CASH_FLOW - EXPENSES
