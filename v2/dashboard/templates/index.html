@@ -1,0 +1,64 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="card">
+  <h2>Runway</h2>
+  <div class="kpis">
+    <div><div class="muted">Liquid</div><div class="big">{{ "{:,.0f}".format(report.liquid) }} kr</div></div>
+    <div><div class="muted">Burn / month</div>
+      <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn) }} kr</div></div>
+    <div><div class="muted">Runway</div>
+      <div class="big">{% if report.runway_months is none %}∞{% else %}{{ report.runway_months }} mo{% endif %}</div></div>
+    <div><div class="muted">Break-even needs</div>
+      <div class="big">{{ "{:,.0f}".format(report.breakeven_income) }} kr/mo</div></div>
+  </div>
+  <div class="muted" style="margin-top:.6rem">
+    {% if report.runway_months is none %}Cash-flow positive — sustainable as is.
+    {% elif report.runway_months < 6 %}⚠️ Under 6 months. Income beats optimization now — see <a class="ticker" href="/finances">scenarios</a>.
+    {% else %}Full picture &amp; what-if scenarios under <a class="ticker" href="/finances">Finances</a>.{% endif %}
+  </div>
+</div>
+
+{% if holdings %}
+<div class="card">
+  <h2>Your holdings — sell guidance</h2>
+  <div class="scroll"><table>
+    <tr><th>Ticker</th><th>Value</th><th>+/−</th><th>Signal</th><th>Guidance</th></tr>
+    {% for h in holdings %}
+    <tr>
+      <td><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a></td>
+      <td>{% if h.value %}{{ "{:,.0f}".format(h.value) }} {{ h.currency }}{% else %}–{% endif %}</td>
+      <td class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ h.gain_pct }}%{% else %}–{% endif %}</td>
+      <td class="{{ h.signal }}">{{ h.signal }}</td>
+      <td>{{ h.guidance }}</td>
+    </tr>
+    {% endfor %}
+  </table></div>
+</div>
+{% endif %}
+
+{% for universe, label in labels.items() %}
+<div class="card">
+  <h2>{{ label }} <span class="muted">{{ cards[universe].day }}</span></h2>
+  {% set buys = cards[universe].buy %}{% set watches = cards[universe].watch %}
+  {% if not buys and not watches %}
+    <div class="muted">No BUY or WATCH today — the system says keep your money. That is a feature.</div>
+  {% endif %}
+  {% for r in buys %}
+    <div style="margin:.4rem 0"><span class="pill BUY">BUY</span>
+      <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
+      {{ r["COMPANY"] }} — Q {{ r["QUALITY SCORE"] }}, {{ r["DISCOUNT TO STICKER %"] }}% below sticker</div>
+  {% endfor %}
+  {% for r in watches %}
+    <div style="margin:.4rem 0"><span class="pill WATCH">WATCH</span>
+      <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
+      {{ r["COMPANY"] }} — Q {{ r["QUALITY SCORE"] }}, waiting for timing</div>
+  {% endfor %}
+  <div class="muted" style="margin-top:.5rem">
+    <a class="ticker" href="/signals/{{ universe }}?action=FAIR">fair-priced list</a> ·
+    <a class="ticker" href="/signals/{{ universe }}">full table</a>
+  </div>
+</div>
+{% endfor %}
+
+{% endblock %}

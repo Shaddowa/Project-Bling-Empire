@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Login — Bling Empire{% endblock %}
+{% block content %}
+<div class="card" style="max-width:380px;margin:15vh auto 0">
+  <h2>Project Bling Empire</h2>
+  <form method="post" action="/login">
+    <input type="password" name="password" placeholder="Password" autofocus
+           autocomplete="current-password" style="margin-bottom:.8rem">
+    {% if error %}<div class="AVOID" style="margin-bottom:.8rem">{{ error }}</div>{% endif %}
+    <button type="submit" style="width:100%">Enter</button>
+  </form>
+</div>
+{% endblock %}

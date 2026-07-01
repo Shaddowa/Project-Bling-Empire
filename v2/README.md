@@ -83,6 +83,24 @@ Conclusions baked into the engine:
 - Screens run on statements; they know nothing about news, fraud, or that a cycle peaked
   (Equinor scores badly *because* 2022 was an oil-price peak — that is the screen working).
 
+## Live dashboard (VPS)
+
+`v2/dashboard/` is a phone-first FastAPI app (login-protected, single password in
+`v2/.dashboard-creds`, hash in `v2/data/auth.json`) deployed on the VPS:
+
+- **systemd**: `bling-dashboard.service` (uvicorn on 127.0.0.1:3400) and
+  `bling-refresh.timer` → `bling-refresh.service` (weekdays 05:10 UTC: refresh
+  screen, then push only *changes* to Hanna's phone via the WV push channel —
+  new BUYs, sell-guidance changes on actual holdings, new WATCH names, and a
+  monthly runway status). Unit files in `v2/deploy/`.
+- **traefik**: `/docker/traefik/dynamic/bling.yml` → https://bling.whispervault.app
+  (needs the DNS A record at Porkbun → 187.127.113.131).
+- **Pages**: overview (runway + holdings guidance + BUY/WATCH), full signal tables,
+  per-ticker deep dive, and Finances — editable cash/income/expenses/debts/holdings
+  stored in gitignored `v2/data/finances.json`, with runway scenarios ("cut 10%",
+  "+10 000 kr/mo", …) and the number that matters: extra monthly income needed to
+  break even or to hold an 18-month runway.
+
 ## Notes for Norwegian investors
 
 - **Use an aksjesparekonto (ASK)** for stocks/funds domiciled in the EEA — Oslo Børs

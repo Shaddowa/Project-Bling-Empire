@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{% block title %}Bling Empire{% endblock %}</title>
+<style>
+:root { --bg:#0b0e14; --card:#151a24; --line:#232b3b; --text:#e6e9f0; --dim:#8b94a7;
+        --buy:#34d399; --watch:#fbbf24; --fair:#94a3b8; --avoid:#f87171; --accent:#818cf8; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--bg); color:var(--text);
+       font-family:-apple-system,'Segoe UI',Roboto,sans-serif; font-size:15px; }
+header { position:sticky; top:0; background:rgba(11,14,20,.92); backdrop-filter:blur(8px);
+         border-bottom:1px solid var(--line); padding:.7rem 1rem; display:flex; gap:1rem;
+         align-items:center; z-index:10; }
+header a { color:var(--dim); text-decoration:none; font-weight:600; font-size:.9rem; }
+header a.brand { color:var(--text); font-size:1rem; }
+header a.active, header a:active { color:var(--accent); }
+main { padding:1rem; max-width:1100px; margin:0 auto; }
+.card { background:var(--card); border:1px solid var(--line); border-radius:14px;
+        padding:1rem; margin-bottom:1rem; }
+.card h2 { margin:0 0 .6rem; font-size:.85rem; text-transform:uppercase;
+           letter-spacing:.06em; color:var(--dim); }
+.big { font-size:1.7rem; font-weight:700; }
+.kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.8rem; }
+table { width:100%; border-collapse:collapse; font-size:.85rem; }
+th { text-align:left; color:var(--dim); font-weight:600; padding:.4rem .5rem;
+     border-bottom:1px solid var(--line); white-space:nowrap; }
+td { padding:.45rem .5rem; border-bottom:1px solid var(--line); white-space:nowrap; }
+.scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
+.BUY{color:var(--buy);font-weight:700} .WATCH{color:var(--watch);font-weight:700}
+.FAIR{color:var(--fair)} .AVOID{color:var(--avoid)} .SELL{color:var(--avoid);font-weight:700}
+.HOLD{color:var(--fair)} .UNKNOWN{color:var(--dim)}
+.pos{color:var(--buy)} .neg{color:var(--avoid)}
+a.ticker { color:var(--accent); text-decoration:none; font-weight:600; }
+.pill { display:inline-block; padding:.15rem .55rem; border-radius:999px;
+        font-size:.75rem; font-weight:700; border:1px solid var(--line); }
+input,button { font:inherit; }
+input { background:var(--bg); color:var(--text); border:1px solid var(--line);
+        border-radius:8px; padding:.45rem .6rem; width:100%; }
+button { background:var(--accent); color:#fff; border:0; border-radius:10px;
+         padding:.6rem 1.2rem; font-weight:700; cursor:pointer; }
+.muted { color:var(--dim); font-size:.82rem; }
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+@media (max-width:720px){ .grid2{grid-template-columns:1fr} }
+</style>
+</head>
+<body>
+<header>
+  <a class="brand" href="/">💰 Bling</a>
+  <a href="/signals/oslo">Oslo</a>
+  <a href="/signals/sp500">S&amp;P</a>
+  <a href="/finances">Finances</a>
+  <a href="/logout" style="margin-left:auto">Logout</a>
+</header>
+<main>{% block content %}{% endblock %}</main>
+</body>
+</html>

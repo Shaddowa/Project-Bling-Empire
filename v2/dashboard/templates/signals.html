@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}{{ label }} — Bling Empire{% endblock %}
+{% block content %}
+<div class="card">
+  <h2>{{ label }} — {{ day }} {% if action %}<span class="pill">{{ action }}</span>{% endif %}</h2>
+  <div class="muted" style="margin-bottom:.6rem">
+    <a class="ticker" href="/signals/{{ universe }}">all</a> ·
+    <a class="ticker" href="/signals/{{ universe }}?action=WATCH">watch</a> ·
+    <a class="ticker" href="/signals/{{ universe }}?action=FAIR">fair</a> ·
+    <a class="ticker" href="/signals/{{ universe }}?action=BUY">buy</a>
+  </div>
+  <div class="scroll"><table>
+    <tr><th>Action</th><th>Ticker</th><th>Company</th><th>Q</th><th>Price</th>
+        <th>Sticker</th><th>MOS</th><th>Disc%</th><th>Signal</th><th>200SMA</th><th>Div</th></tr>
+    {% for r in rows %}
+    <tr>
+      <td class="{{ r['ACTION'] }}">{{ r["ACTION"] }}</td>
+      <td><a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a></td>
+      <td>{{ (r["COMPANY"] or "")[:28] }}</td>
+      <td>{{ r["QUALITY SCORE"] }}</td>
+      <td>{{ r["PRICE"] }}</td>
+      <td>{{ r["STICKER PRICE"] }}</td>
+      <td>{{ r["MOS PRICE"] }}</td>
+      <td>{{ r["DISCOUNT TO STICKER %"] }}</td>
+      <td class="{{ r['SIGNAL'] }}">{{ r["SIGNAL"] }}</td>
+      <td>{{ "▲" if r["ABOVE 200SMA"] == "True" else ("▼" if r["ABOVE 200SMA"] == "False" else "–") }}</td>
+      <td>{{ r["DIVIDEND SCORE"] }}</td>
+    </tr>
+    {% endfor %}
+  </table></div>
+</div>
+{% endblock %}

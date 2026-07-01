@@ -1,0 +1,9 @@
+[Unit]
+Description=Bling Empire daily screen refresh + push notifications
+
+[Service]
+Type=oneshot
+WorkingDirectory=/root/Project-Bling-Empire/v2
+ExecStart=/root/Project-Bling-Empire/env/bin/python scripts/refresh_and_notify.py
+TimeoutStartSec=5400
+MemoryMax=2G
