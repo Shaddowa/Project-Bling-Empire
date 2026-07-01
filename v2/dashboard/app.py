@@ -10,7 +10,7 @@ from datetime import timedelta
 from pathlib import Path
 
 from fastapi import FastAPI, Form, Request
-from fastapi.responses import HTMLResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
 from fastapi.templating import Jinja2Templates
 
 V2_ROOT = Path(__file__).resolve().parent.parent
@@ -99,8 +99,10 @@ def logout():
 
 @app.middleware("http")
 async def require_login(request: Request, call_next):
-    open_paths = {"/login", "/healthz"}
-    if request.url.path not in open_paths and not logged_in(request):
+    open_paths = {"/login", "/healthz", "/favicon.ico", "/apple-touch-icon.png", "/manifest.json"}
+    if (request.url.path not in open_paths
+            and not request.url.path.startswith("/static/")
+            and not logged_in(request)):
         return RedirectResponse("/login", status_code=303)
     return await call_next(request)
 
@@ -108,6 +110,40 @@ async def require_login(request: Request, call_next):
 @app.get("/healthz")
 def healthz():
     return {"ok": True}
+
+
+# ── icons / manifest (open: iOS fetches these without cookies) ──────────
+
+STATIC_DIR = Path(__file__).parent / "static"
+
+
+@app.get("/favicon.ico", include_in_schema=False)
+@app.get("/static/favicon.png", include_in_schema=False)
+def favicon():
+    return FileResponse(STATIC_DIR / "favicon.png", media_type="image/png")
+
+
+@app.get("/apple-touch-icon.png", include_in_schema=False)
+def apple_touch_icon():
+    return FileResponse(STATIC_DIR / "apple-touch-icon.png", media_type="image/png")
+
+
+@app.get("/static/icon-512.png", include_in_schema=False)
+def icon_512():
+    return FileResponse(STATIC_DIR / "icon-512.png", media_type="image/png")
+
+
+@app.get("/manifest.json", include_in_schema=False)
+def manifest():
+    return JSONResponse({
+        "name": "Bling Empire",
+        "short_name": "Bling",
+        "display": "standalone",
+        "background_color": "#0b0e14",
+        "theme_color": "#0b0e14",
+        "start_url": "/",
+        "icons": [{"src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png"}],
+    })
 
 
 # ── pages ────────────────────────────────────────────────────────────────
@@ -146,6 +182,19 @@ def signals(request: Request, universe: str, action: str = ""):
 def ticker(request: Request, symbol: str):
     report = analyze_ticker(symbol.upper(), max_age=timedelta(days=1))
     return templates.TemplateResponse(request, "ticker.html", {"r": report})
+
+
+@app.get("/push", response_class=HTMLResponse)
+def push_setup(request: Request, tested: int = 0):
+    from bling.notify import get_topic
+    return templates.TemplateResponse(request, "push.html", {"topic": get_topic(), "tested": tested})
+
+
+@app.post("/push/test")
+def push_test():
+    from bling.notify import push as send_push
+    send_push("💰 Bling test", "Push channel confirmed — this is what signal alerts will look like.", "/")
+    return RedirectResponse("/push?tested=1", status_code=303)
 
 
 @app.get("/finances", response_class=HTMLResponse)

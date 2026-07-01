@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %}Push setup — Bling Empire{% endblock %}
+{% block content %}
+
+{% if tested %}
+<div class="card" style="border-color:var(--buy)">
+  <b class="BUY">Test push sent.</b> <span class="muted">If your phone stayed silent, finish the steps below first, then test again.</span>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2>How the pushes reach your phone</h2>
+  <div class="muted" style="line-height:1.6">
+    Notifications go through <b>ntfy.sh</b>, a free push relay in the cloud — your phone never
+    talks to the VPS. The VPS publishes to a secret channel ("topic"); your phone subscribes to
+    the same topic in the ntfy app. Anyone who knows the topic name can read it, so it's a long
+    random string — treat it like a password.
+  </div>
+</div>
+
+<div class="card">
+  <h2>Setup — two minutes, once</h2>
+  <ol style="line-height:2;margin:.2rem 0 .6rem;padding-left:1.2rem">
+    <li>Install <b>ntfy</b> from the App Store (white bell on green).</li>
+    <li>Open it → <b>+</b> → paste the topic below (server stays <code>ntfy.sh</code>).</li>
+    <li>Allow notifications when iOS asks.</li>
+    <li>Press the test button here — your phone should buzz within seconds.</li>
+  </ol>
+  <div class="muted">Your topic (tap to copy):</div>
+  <div style="margin:.5rem 0">
+    <code id="topic" onclick="navigator.clipboard.writeText(this.textContent);this.style.color='var(--buy)'"
+          style="font-size:1.05rem;word-break:break-all;cursor:pointer;background:var(--bg);
+                 padding:.5rem .7rem;border-radius:8px;border:1px solid var(--line);display:block">{{ topic }}</code>
+  </div>
+  <form method="post" action="/push/test" style="margin-top:.8rem">
+    <button type="submit" style="width:100%">Send a test push now</button>
+  </form>
+  <div class="muted" style="margin-top:.7rem">
+    No app installed? You can also open
+    <a class="ticker" href="https://ntfy.sh/{{ topic }}" target="_blank">ntfy.sh/{{ topic }}</a>
+    in the browser and hit "Subscribe" for web notifications — the app is more reliable on iPhone.
+  </div>
+</div>
+
+<div class="card">
+  <h2>What gets pushed (weekday mornings)</h2>
+  <div class="muted" style="line-height:1.7">
+    🟢 a stock newly turning <b>BUY</b> · 🔴 sell-guidance changes on stocks <b>you hold</b> ·
+    👀 new WATCH names · 🏦 runway status on the 1st of the month. Max 4 per day, silence means
+    "nothing changed".
+  </div>
+</div>
+
+{% endblock %}
