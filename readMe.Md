@@ -1,4 +1,9 @@
 # Project Bling Empire 
+
+> **⚡ v2 lives in [`v2/`](v2/README.md)** — modern data layer (the pinned yahooquery/yfinance
+> below no longer work), Rule #1 valuation with buy-below prices, BUY/HOLD/SELL timing
+> signals, and a backtester. Start there; everything below documents the v1 engine.
+
 [Read more about the project vision](/documentation/vision.md)
 
 [Project planning documentation](https://relieved-walker-58b.notion.site/Project-Bling-Empire-dbee9a3b0f1a41febc0098a6e901188c?pvs=4)

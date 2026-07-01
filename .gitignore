@@ -18,3 +18,7 @@ context/net_worth/main/snapshots/*
 .env
 sendgrid.env
 
+
+# v2 engine artifacts
+v2/cache/
+v2/output/
