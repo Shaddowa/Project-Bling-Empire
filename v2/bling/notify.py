@@ -16,7 +16,7 @@ from pathlib import Path
 
 CONFIG_PATH = Path(__file__).resolve().parent.parent / "data" / "notify.json"
 NTFY_BASE = "https://ntfy.sh"
-DASHBOARD_URL = "https://bling.whispervault.app"
+DASHBOARD_URL = "http://187.127.113.131:3400"  # orchestrator-style: own port, no DNS
 
 
 def get_topic() -> str:

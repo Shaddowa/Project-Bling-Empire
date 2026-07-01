@@ -88,13 +88,12 @@ Conclusions baked into the engine:
 `v2/dashboard/` is a phone-first FastAPI app (login-protected, single password in
 `v2/.dashboard-creds`, hash in `v2/data/auth.json`) deployed on the VPS:
 
-- **systemd**: `bling-dashboard.service` (uvicorn on 127.0.0.1:3400) and
+- **systemd**: `bling-dashboard.service` (uvicorn on 0.0.0.0:3400 —
+  orchestrator-style: direct `http://<vps-ip>:3400`, own port, no DNS/proxy) and
   `bling-refresh.timer` → `bling-refresh.service` (weekdays 05:10 UTC: refresh
-  screen, then push only *changes* to Hanna's phone via the WV push channel —
+  screen, then push only *changes* to Hanna's phone via ntfy —
   new BUYs, sell-guidance changes on actual holdings, new WATCH names, and a
   monthly runway status). Unit files in `v2/deploy/`.
-- **traefik**: `/docker/traefik/dynamic/bling.yml` → https://bling.whispervault.app
-  (needs the DNS A record at Porkbun → 187.127.113.131).
 - **Pages**: overview (runway + holdings guidance + BUY/WATCH), full signal tables,
   per-ticker deep dive, and Finances — editable cash/income/expenses/debts/holdings
   stored in gitignored `v2/data/finances.json`, with runway scenarios ("cut 10%",

@@ -83,8 +83,10 @@ def login(request: Request, password: str = Form(...)):
     if not auth.verify_password(password):
         return templates.TemplateResponse(request, "login.html", {"error": "Wrong password"}, status_code=401)
     response = RedirectResponse("/", status_code=303)
+    # secure=False: served orchestrator-style over plain HTTP on IP:port —
+    # a Secure cookie would silently never be sent back.
     response.set_cookie(auth.COOKIE_NAME, auth.issue_session(), max_age=auth.SESSION_TTL_SECONDS,
-                        httponly=True, secure=True, samesite="lax")
+                        httponly=True, secure=False, samesite="lax")
     return response
 
 
