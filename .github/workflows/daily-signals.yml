@@ -1,0 +1,58 @@
+name: Daily signals
+
+on:
+  schedule:
+    # 05:30 UTC ≈ 07:30 Oslo — before Oslo Børs opens (09:00), after US close.
+    - cron: "30 5 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  screen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: v2/requirements.txt
+
+      - name: Install
+        run: pip install -r v2/requirements.txt lxml requests
+
+      - name: Refresh ticker universes
+        working-directory: v2
+        run: python -m bling refresh-universe
+
+      - name: Screen Oslo Børs + S&P 500
+        working-directory: v2
+        run: python -m bling run --universe oslo sp500 | tee run_summary.txt
+
+      - name: Upload reports
+        uses: actions/upload-artifact@v4
+        with:
+          name: signals-${{ github.run_id }}
+          path: v2/output/
+          retention-days: 30
+
+      - name: Open an issue when there is a BUY
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          buys=$(grep -oP '(?<=BUY:   ).*' v2/run_summary.txt | grep -v '^—$' | paste -sd ', ' - || true)
+          if [ -n "$buys" ]; then
+            today=$(date -u +%F)
+            gh issue create \
+              --title "🟢 BUY signal(s) $today: $buys" \
+              --body "$(printf 'The daily screen produced BUY signals: **%s**\n\nFull report is in the workflow artifacts: %s/actions/runs/%s\n\nRemember the ladder: quality ≥ 60, price below margin of safety, all three timing tools bullish. Verify before trading.' "$buys" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")" \
+              --repo "$GITHUB_REPOSITORY"
+          else
+            echo "No BUY signals today."
+          fi
