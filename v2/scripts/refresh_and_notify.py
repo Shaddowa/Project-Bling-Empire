@@ -21,7 +21,7 @@ sys.path.insert(0, str(V2_ROOT))
 from dataclasses import asdict  # noqa: E402
 from datetime import datetime  # noqa: E402
 
-from bling.engine import analyze_ticker, analyze_universe  # noqa: E402
+from bling.engine import analyze_ticker, analyze_universe, enrich_holding  # noqa: E402
 from bling.finance import store  # noqa: E402
 from bling.finance.model import build_report  # noqa: E402
 from bling.modes import swing_scan  # noqa: E402
@@ -103,7 +103,7 @@ def main() -> None:
     finances = store.load()
     for holding in finances.holdings:
         report = analyze_ticker(holding.ticker, max_age=timedelta(hours=12))
-        guidance = report.sell_guidance
+        guidance = enrich_holding(report, holding)["guidance"]  # includes stop-loss override
         previous = state["guidance"].get(holding.ticker, "")
         if (guidance != previous and prefs["holding_sell"]
                 and (guidance.startswith("SELL") or guidance.startswith("TAKE PROFIT"))):

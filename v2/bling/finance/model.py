@@ -26,11 +26,21 @@ class Debt:
     interest_rate: float = 0.0  # annual, e.g. 0.055
 
 
+DEFAULT_STOP_FRACTION = 0.92  # unset stop defaults to 8% below cost
+
+
 @dataclass
 class Holding:
     ticker: str
     shares: float
-    cost_basis: float = 0.0  # per share, in the ticker's trading currency
+    cost_basis: float = 0.0   # per share, in the ticker's trading currency
+    stop_price: float = 0.0   # sell limit; 0 = auto (8% below cost)
+
+    @property
+    def effective_stop(self) -> float:
+        if self.stop_price > 0:
+            return self.stop_price
+        return self.cost_basis * DEFAULT_STOP_FRACTION if self.cost_basis > 0 else 0.0
 
 
 @dataclass

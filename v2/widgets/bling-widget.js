@@ -33,6 +33,19 @@ sub.font = Font.systemFont(10);
 sub.textColor = muted;
 w.addSpacer(6);
 
+// Held positions: progress bar from cost -> target sell price, stop alerts.
+const bar = (p) => "▓".repeat(Math.round(p * 8)) + "░".repeat(8 - Math.round(p * 8));
+for (const h of (data.holdings || [])) {
+  const line = w.addText(
+    h.stop_hit ? `🔴 ${h.ticker} STOP ${h.stop} HIT — SELL`
+    : h.progress !== null ? `${h.ticker} ${bar(h.progress)} ${Math.round(h.progress * 100)}% → ${h.target}`
+    : `${h.ticker} ${h.price ?? "?"} (no target)`);
+  line.font = new Font("Menlo-Bold", 10);
+  line.textColor = h.stop_hit ? bad : (h.gain_pct ?? 0) >= 0 ? good : bad;
+  line.lineLimit = 1;
+}
+if (data.holdings?.length) w.addSpacer(4);
+
 if (data.sell_alerts.length) {
   const sell = w.addText(`🔴 ${data.sell_alerts.join(" ")}`);
   sell.font = Font.boldSystemFont(11);
@@ -43,7 +56,7 @@ if (data.buys.length) {
   buy.font = Font.boldSystemFont(11);
   buy.textColor = good;
   buy.lineLimit = 2;
-} else if (!data.sell_alerts.length) {
+} else if (!data.sell_alerts.length && !data.holdings?.length) {
   const calm = w.addText(`no actions · ${data.watch_count} on watch`);
   calm.font = Font.systemFont(11);
   calm.textColor = accent;

@@ -80,6 +80,52 @@ def _error_report(ticker: str, error: str) -> TickerReport:
     )
 
 
+def enrich_holding(report: TickerReport, holding) -> dict:
+    """Trade-management view of one held position: stop, target, progress.
+
+    Target = sticker price (take profit); stop = holding's sell limit
+    (explicit or 8% under cost). Stop-loss overrides all other guidance —
+    the point is that no single trade is allowed to hurt the runway.
+    """
+    price = report.valuation.price
+    stop = holding.effective_stop
+    cost = holding.cost_basis
+    # Target: the sticker price when it sits above cost (a value position);
+    # otherwise the trader's 2R rule — reward = 2x the risk taken to the stop.
+    sticker = report.valuation.sticker_price
+    target = None
+    target_kind = None
+    if sticker and cost and sticker > cost:
+        target, target_kind = sticker, "sticker"
+    elif cost and stop and cost > stop:
+        target, target_kind = cost + 2.0 * (cost - stop), "2R"
+    guidance = report.sell_guidance
+    progress = None
+    if price and target and cost and target > cost:
+        progress = max(0.0, min(1.0, (price - cost) / (target - cost)))
+    if price and target and price >= target:
+        guidance = f"TAKE PROFIT (target {target:.2f} reached)"
+    if price and stop and price <= stop:
+        guidance = f"SELL NOW (stop loss {stop:.2f} hit)"
+    gain = (price / holding.cost_basis - 1.0) * 100.0 if price and holding.cost_basis else None
+    return {
+        "ticker": holding.ticker,
+        "name": report.name,
+        "shares": holding.shares,
+        "price": price,
+        "currency": report.currency,
+        "value": price * holding.shares if price else None,
+        "gain_pct": round(gain, 1) if gain is not None else None,
+        "cost": holding.cost_basis or None,
+        "stop": round(stop, 2) if stop else None,
+        "target": round(target, 2) if target else None,
+        "target_kind": target_kind,
+        "progress": round(progress, 3) if progress is not None else None,
+        "guidance": guidance or "—",
+        "signal": report.signal.signal,
+    }
+
+
 def analyze_ticker(ticker: str, max_age: timedelta = timedelta(days=1)) -> TickerReport:
     try:
         return _analyze_ticker(ticker, max_age)

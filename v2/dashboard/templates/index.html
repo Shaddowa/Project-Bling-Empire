@@ -23,14 +23,16 @@
 <div class="card">
   <h2>Your holdings — sell guidance</h2>
   <div class="scroll"><table>
-    <tr><th>Ticker</th><th>Value</th><th>+/−</th><th>Signal</th><th>Guidance</th></tr>
+    <tr><th>Ticker</th><th>Value</th><th>+/−</th><th>To target</th><th>Guidance</th></tr>
     {% for h in holdings %}
     <tr>
       <td><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a></td>
       <td>{% if h.value %}{{ "{:,.0f}".format(h.value) }} {{ h.currency }}{% else %}–{% endif %}</td>
       <td class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ h.gain_pct }}%{% else %}–{% endif %}</td>
-      <td class="{{ h.signal }}">{{ h.signal }}</td>
-      <td>{{ h.guidance }}</td>
+      <td>{% if h.progress is not none %}
+        <span style="font-family:ui-monospace,monospace">{{ "▓" * (h.progress * 10)|round(0, 'floor')|int }}{{ "░" * (10 - (h.progress * 10)|round(0, 'floor')|int) }}</span>
+        {{ (h.progress * 100)|round(0)|int }}%{% else %}–{% endif %}</td>
+      <td class="{{ 'SELL' if h.guidance.startswith('SELL NOW') }}">{{ h.guidance }}</td>
     </tr>
     {% endfor %}
   </table></div>

@@ -184,24 +184,30 @@
   <h2>Stock holdings (tracked live)</h2>
   {% if holdings %}
   <div class="scroll"><table style="margin-bottom:.8rem">
-    <tr><th>Ticker</th><th>Value</th><th>+/−</th><th>Guidance</th></tr>
+    <tr><th>Ticker</th><th>Value</th><th>+/−</th><th>Stop</th><th>Target</th><th>To target</th><th>Guidance</th></tr>
     {% for h in holdings %}
     <tr><td><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a></td>
         <td>{% if h.value %}{{ "{:,.0f}".format(h.value) }} {{ h.currency }}{% else %}–{% endif %}</td>
         <td class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ h.gain_pct }}%{% else %}–{% endif %}</td>
-        <td>{{ h.guidance }}</td></tr>
+        <td class="neg">{{ h.stop or "–" }}</td>
+        <td class="pos">{{ h.target or "–" }}</td>
+        <td>{% if h.progress is not none %}
+          <span style="font-family:ui-monospace,monospace">{{ "▓" * (h.progress * 10)|round(0, 'floor')|int }}{{ "░" * (10 - (h.progress * 10)|round(0, 'floor')|int) }}</span>
+          {{ (h.progress * 100)|round(0)|int }}%{% else %}–{% endif %}</td>
+        <td class="{{ 'SELL' if h.guidance.startswith('SELL NOW') }}">{{ h.guidance }}</td></tr>
     {% endfor %}
   </table></div>
   {% endif %}
   <div class="scroll"><table>
-    <tr><th>Ticker (Yahoo, e.g. KIT.OL)</th><th>Shares</th><th>Cost/share</th></tr>
+    <tr><th>Ticker (Yahoo, e.g. KIT.OL)</th><th>Shares</th><th>Cost/share</th><th>Stop (0 = auto −8%)</th></tr>
     {% for h in f.holdings %}
     <tr><td><input name="hold_name" value="{{ h.ticker }}"></td>
         <td><input name="hold_shares" value="{{ h.shares }}"></td>
-        <td><input name="hold_cost_basis" value="{{ h.cost_basis }}"></td></tr>
+        <td><input name="hold_cost_basis" value="{{ h.cost_basis }}"></td>
+        <td><input name="hold_stop_price" value="{{ h.stop_price }}"></td></tr>
     {% endfor %}
     <tr><td><input name="hold_name" placeholder="add…"></td><td><input name="hold_shares"></td>
-        <td><input name="hold_cost_basis"></td></tr>
+        <td><input name="hold_cost_basis"></td><td><input name="hold_stop_price"></td></tr>
   </table></div>
 </div>
 

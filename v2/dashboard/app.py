@@ -58,22 +58,9 @@ def load_signals(universe: str) -> tuple[str, list[dict]]:
 
 
 def live_holdings(finances) -> list[dict]:
-    rows = []
-    for holding in finances.holdings:
-        report = analyze_ticker(holding.ticker, max_age=timedelta(days=1))
-        price = report.valuation.price
-        value = price * holding.shares if price else None
-        gain = None
-        if price and holding.cost_basis:
-            gain = (price / holding.cost_basis - 1.0) * 100.0
-        rows.append({
-            "ticker": holding.ticker, "name": report.name, "shares": holding.shares,
-            "price": price, "currency": report.currency, "value": value,
-            "gain_pct": round(gain, 1) if gain is not None else None,
-            "guidance": report.sell_guidance or "—",
-            "signal": report.signal.signal,
-        })
-    return rows
+    from bling.engine import enrich_holding
+    return [enrich_holding(analyze_ticker(h.ticker, max_age=timedelta(days=1)), h)
+            for h in finances.holdings]
 
 
 # ── auth ─────────────────────────────────────────────────────────────────
@@ -131,6 +118,12 @@ def widget_api():
         import json as _json
         guidance = _json.loads((V2_ROOT / "data" / "notify_state.json").read_text()).get("guidance", {})
         sells = [t for t, g in guidance.items() if g.startswith(("SELL", "TAKE PROFIT"))]
+    holdings = [{
+        "ticker": h["ticker"], "price": h["price"], "cost": h["cost"],
+        "stop": h["stop"], "target": h["target"], "progress": h["progress"],
+        "gain_pct": h["gain_pct"],
+        "stop_hit": bool(h["guidance"].startswith("SELL NOW")),
+    } for h in live_holdings(finances)]
     return {
         "updated": day,
         "runway_months": report.runway_months,
@@ -139,6 +132,7 @@ def widget_api():
         "buys": buys[:6],
         "watch_count": watch_count,
         "sell_alerts": sells[:4],
+        "holdings": holdings[:5],
     }
 
 
@@ -364,8 +358,8 @@ async def finances_save(request: Request):
     finances.debts = [Debt(r["name"], r["balance"], r["monthly_payment"], r.get("interest_rate", 0.0) / 100.0)
                       for r in rows("debt", ("name", "balance", "monthly_payment", "interest_rate"))]
     holdings = []
-    for r in rows("hold", ("name", "shares", "cost_basis")):
-        holdings.append(Holding(r["name"].upper(), r["shares"], r["cost_basis"]))
+    for r in rows("hold", ("name", "shares", "cost_basis", "stop_price")):
+        holdings.append(Holding(r["name"].upper(), r["shares"], r["cost_basis"], r.get("stop_price", 0.0)))
     finances.holdings = holdings
     store.save(finances)
     return RedirectResponse("/finances?saved=1", status_code=303)
