@@ -27,6 +27,31 @@
   </div>
 </div>
 
+<div class="card">
+  <h2>Where the burn number comes from</h2>
+  <div class="scroll"><table>
+    <tr><th>Money out / in</th><th style="text-align:right">kr / month</th></tr>
+    {% for d in f.debts %}
+    <tr><td>{{ d.name }}</td><td class="neg" style="text-align:right">−{{ "{:,.0f}".format(d.monthly_payment) }}</td></tr>
+    {% endfor %}
+    {% for e in f.expenses %}
+    <tr><td>{{ e.name }}</td><td class="neg" style="text-align:right">−{{ "{:,.0f}".format(e.amount) }}</td></tr>
+    {% endfor %}
+    {% for i in f.income %}
+    <tr><td>{{ i.name }}</td><td class="pos" style="text-align:right">+{{ "{:,.0f}".format(i.amount) }}</td></tr>
+    {% endfor %}
+    <tr><td><b>Net burn</b></td>
+        <td style="text-align:right"><b class="{{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn) }}</b></td></tr>
+  </table></div>
+  <div class="muted" style="margin-top:.6rem;line-height:1.6">
+    Cross-check against reality: the bank export's typical no-salary month moved
+    {% if tx %}<b>~{{ "{:,.0f}".format(tx.rough_burn) }} kr</b>{% else %}—{% endif %} out of the hub
+    account — almost exactly your mortgage + fellesgjeld, which is why they're counted once (as debt
+    payments) and not again from the bank line. Daily spending runs on other cards/accounts, so
+    "Personal living" is an estimate — tune it, it's the softest number here.
+  </div>
+</div>
+
 {% if tx %}
 <div class="card">
   <h2>Your money habits — from the bank export, roughly</h2>

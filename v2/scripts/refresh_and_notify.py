@@ -25,13 +25,13 @@ from bling.engine import analyze_ticker, analyze_universe  # noqa: E402
 from bling.finance import store  # noqa: E402
 from bling.finance.model import build_report  # noqa: E402
 from bling.modes import swing_scan  # noqa: E402
-from bling.notify import push  # noqa: E402
+from bling.notify import get_prefs, push  # noqa: E402
 from bling.report import reports_to_frame, write_reports  # noqa: E402
 from bling.universe import active_universes, load_universe  # noqa: E402
 
 STATE_PATH = V2_ROOT / "data" / "notify_state.json"
 SWING_PATH = V2_ROOT / "data" / "swing.json"
-MAX_PUSHES = 4
+MAX_PUSHES = 6
 
 
 def load_state() -> dict:
@@ -47,6 +47,7 @@ def save_state(state: dict) -> None:
 
 def main() -> None:
     state = load_state()
+    prefs = get_prefs()
     pushes: list[tuple[str, str, str]] = []  # (title, body, url)
 
     # ── 1-3. screen and diff ────────────────────────────────────────────
@@ -63,7 +64,7 @@ def main() -> None:
         for r in reports:
             new_actions[r.ticker] = r.action
             previous = state["actions"].get(r.ticker, "")
-            if r.action == "BUY" and previous != "BUY":
+            if r.action == "BUY" and previous != "BUY" and prefs["longterm_buy"]:
                 pushes.append((
                     f"🟢 BUY: {r.ticker}",
                     f"{r.name or r.ticker} — quality {r.quality.score}, "
@@ -75,6 +76,9 @@ def main() -> None:
 
     # Swing setups: computed here (cached bundles, no new fetches) so the
     # /swing page loads instantly.
+    previous_swing = set()
+    if SWING_PATH.exists():
+        previous_swing = {r["ticker"] for r in json.loads(SWING_PATH.read_text()).get("rows", [])}
     swing_rows = swing_scan(all_tickers)
     SWING_PATH.write_text(json.dumps({
         "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
@@ -82,13 +86,27 @@ def main() -> None:
                   "stats": asdict(r["stats"]) if r["stats"] else None} for r in swing_rows],
     }, indent=2))
     print(f"swing setups: {len(swing_rows)}")
+    if prefs["swing_buy"]:
+        # Only proven names (win rate >= 60% over 2y) make the push — the full
+        # list lives on /swing. Grouped into one notification.
+        proven = [r["ticker"] for r in swing_rows
+                  if r["ticker"] not in previous_swing
+                  and r["stats"] and (r["stats"].win_rate or 0) >= 0.6]
+        if proven:
+            pushes.append((
+                f"〰 Swing setups: {', '.join(proven[:8])}",
+                "Fresh three-tool BUYs on names where the rule historically won ≥60% of trades. "
+                "Details + track records on /swing.",
+                "/swing",
+            ))
 
     finances = store.load()
     for holding in finances.holdings:
         report = analyze_ticker(holding.ticker, max_age=timedelta(hours=12))
         guidance = report.sell_guidance
         previous = state["guidance"].get(holding.ticker, "")
-        if guidance != previous and (guidance.startswith("SELL") or guidance.startswith("TAKE PROFIT")):
+        if (guidance != previous and prefs["holding_sell"]
+                and (guidance.startswith("SELL") or guidance.startswith("TAKE PROFIT"))):
             pushes.insert(0, (  # holdings outrank new buys
                 f"🔴 {holding.ticker}: {guidance.split(' (')[0]}",
                 f"{report.name or holding.ticker} — {guidance}. You hold {holding.shares:g} shares.",
@@ -96,7 +114,7 @@ def main() -> None:
             ))
         state["guidance"][holding.ticker] = guidance
 
-    if new_watches:
+    if new_watches and prefs["watch"]:
         pushes.append((
             f"👀 New on the shopping list: {', '.join(new_watches[:5])}",
             "Right company, right price — waiting for the timing tools to confirm.",
@@ -105,7 +123,7 @@ def main() -> None:
 
     # ── 4. monthly runway note ──────────────────────────────────────────
     month = date.today().strftime("%Y-%m")
-    if date.today().day == 1 and state.get("last_runway_push") != month:
+    if date.today().day == 1 and state.get("last_runway_push") != month and prefs["runway_monthly"]:
         runway = build_report(finances)
         months = "∞" if runway.runway_months is None else f"{runway.runway_months} mo"
         pushes.append((

@@ -44,11 +44,23 @@
 
 <div class="card">
   <h2>What gets pushed (weekday mornings)</h2>
-  <div class="muted" style="line-height:1.7">
-    🟢 a stock newly turning <b>BUY</b> · 🔴 sell-guidance changes on stocks <b>you hold</b> ·
-    👀 new WATCH names · 🏦 runway status on the 1st of the month. Max 4 per day, silence means
-    "nothing changed".
-  </div>
+  {% if prefs_saved %}<div class="BUY" style="margin-bottom:.6rem">Preferences saved.</div>{% endif %}
+  <form method="post" action="/push/prefs">
+    {% for key, label, desc in [
+      ("longterm_buy", "🟢 Long-term BUY", "a stock newly passes quality + price + timing — the big one"),
+      ("holding_sell", "🔴 Sell guidance on YOUR holdings", "SELL (trend break) or TAKE PROFIT (above sticker) on a stock you own"),
+      ("swing_buy", "〰 Fresh swing setups", "new three-tool BUYs on names with ≥60% historical win rate (one grouped push)"),
+      ("watch", "👀 New WATCH names", "right company + right price, waiting for timing (one grouped push)"),
+      ("runway_monthly", "🏦 Monthly runway status", "burn, liquid, break-even — 1st of each month"),
+    ] %}
+    <label class="switch" style="display:flex;padding:.45rem 0;border-bottom:1px solid var(--border)">
+      <input type="checkbox" name="{{ key }}" style="width:auto" {{ "checked" if prefs[key] }}>
+      <span><b>{{ label }}</b><br><span class="muted">{{ desc }}</span></span>
+    </label>
+    {% endfor %}
+    <button type="submit" style="margin-top:.8rem">Save preferences</button>
+  </form>
+  <div class="muted" style="margin-top:.6rem">Silence means "nothing changed" — the engine never pushes noise.</div>
 </div>
 
 {% endblock %}

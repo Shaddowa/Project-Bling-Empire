@@ -251,9 +251,21 @@ def ticker(request: Request, symbol: str):
 
 
 @app.get("/push", response_class=HTMLResponse)
-def push_setup(request: Request, tested: int = 0):
-    from bling.notify import get_topic
-    return templates.TemplateResponse(request, "push.html", {"topic": get_topic(), "tested": tested})
+def push_setup(request: Request, tested: int = 0, prefs_saved: int = 0):
+    from bling.notify import get_prefs, get_topic
+    return templates.TemplateResponse(request, "push.html", {
+        "topic": get_topic(), "tested": tested,
+        "prefs": get_prefs(), "prefs_saved": prefs_saved,
+    })
+
+
+@app.post("/push/prefs")
+async def push_prefs(request: Request):
+    from bling.notify import save_prefs
+    form = await request.form()
+    save_prefs({key: form.get(key) == "on" for key in
+                ("longterm_buy", "holding_sell", "swing_buy", "watch", "runway_monthly")})
+    return RedirectResponse("/push?prefs_saved=1", status_code=303)
 
 
 @app.post("/push/test")
