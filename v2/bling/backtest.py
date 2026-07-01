@@ -1,16 +1,19 @@
 """Backtest: do the timing rules actually earn their keep?
 
-Strategy per ticker: enter at the close after the three tools all turn
-bullish (composite BUY), exit at the close after they all turn bearish
-(composite SELL), hold through HOLD days. Signals computed on day t are
-traded at the close of day t+1 — no look-ahead. A per-side transaction cost
-is charged on every position change.
+Strategy per ticker (the "hybrid" rule, chosen empirically — see README):
+enter at the close after the three tools all turn bullish WHILE price is
+above its 200-day SMA; exit at the close after price falls below the
+200-day SMA. Exiting on three-tool flips instead was tested and whipsawed
+away half the return for little extra protection. Signals computed on day t
+are traded at the close of day t+1 — no look-ahead. A per-side transaction
+cost is charged on every position change.
 
 The portfolio result is the equal-weight average of per-ticker daily
 strategy returns, compared against equal-weight buy & hold of the same
 tickers. This is an honest measuring stick, not a promise: costs are
 simplified, dividends are included via adjusted closes, taxes and slippage
-are not modeled.
+are not modeled — and backtesting today's screen winners overstates buy &
+hold most of all (survivorship).
 """
 from __future__ import annotations
 
@@ -28,10 +31,17 @@ TRADING_DAYS = 252
 
 
 def position_series(prices: pd.DataFrame) -> pd.Series:
-    """1.0 while the strategy is in the market, 0.0 while out (state at close of each day)."""
-    signal = composite_signal(tool_states(prices).dropna())
-    state = signal.replace("HOLD", np.nan).ffill()
-    return (state == "BUY").astype(float)
+    """1.0 while the strategy is in the market, 0.0 while out (state at close of each day).
+
+    Hybrid rule: enter on a three-tool BUY confirmed by the 200-day trend,
+    stay in until the price closes below the 200-day SMA.
+    """
+    states = tool_states(prices).dropna()
+    signal = composite_signal(states)
+    raw = pd.Series(np.nan, index=states.index)
+    raw[(signal == "BUY") & states["trend200"]] = 1.0
+    raw[~states["trend200"]] = 0.0
+    return raw.ffill().fillna(0.0)
 
 
 def strategy_returns(prices: pd.DataFrame, cost: float = TRANSACTION_COST) -> pd.Series:
@@ -59,7 +69,9 @@ def summarize(returns: pd.Series, label: str, position: Optional[pd.Series] = No
               trades_per_year: float = 0.0) -> BacktestMetrics:
     returns = returns.dropna()
     equity = (1.0 + returns).cumprod()
-    years = len(returns) / TRADING_DAYS
+    # Calendar span, not row count: merged Oslo+US calendars have more rows
+    # per year than either market alone, which would inflate row-based years.
+    years = (returns.index[-1] - returns.index[0]).days / 365.25 if len(returns) > 1 else 0.0
     cagr = float(equity.iloc[-1] ** (1.0 / years) - 1.0) if years > 0 and equity.iloc[-1] > 0 else None
     drawdown = float((equity / equity.cummax() - 1.0).min())
     volatility = returns.std()
@@ -108,9 +120,9 @@ def backtest_portfolio(tickers: list[str]) -> Optional[PortfolioBacktest]:
     results = [r for r in (backtest_ticker(t) for t in tickers) if r is not None]
     if not results:
         return None
-    strat = pd.concat([r["returns"] for r in results], axis=1).mean(axis=1)
-    bh = pd.concat([r["bh_returns"] for r in results], axis=1).mean(axis=1)
-    position = pd.concat([r["position"] for r in results], axis=1).mean(axis=1)
+    strat = pd.concat([r["returns"] for r in results], axis=1, sort=True).mean(axis=1)
+    bh = pd.concat([r["bh_returns"] for r in results], axis=1, sort=True).mean(axis=1)
+    position = pd.concat([r["position"] for r in results], axis=1, sort=True).mean(axis=1)
     trades = float(np.mean([r["strategy"].trades_per_year for r in results]))
     return PortfolioBacktest(
         tickers=[r["ticker"] for r in results],

@@ -49,19 +49,22 @@ class TickerReport:
 def decide_action(quality: QualityResult, valuation: ValuationResult, signal: SignalResult) -> str:
     if quality.score < QUALITY_THRESHOLD or valuation.verdict == "UNKNOWN":
         return "AVOID"
-    if valuation.verdict == "EXPENSIVE":
+    if valuation.verdict in ("EXPENSIVE", "FAIR"):
         return "FAIR"  # quality company, wrong price
-    if valuation.verdict == "FAIR":
-        return "FAIR"
-    return "BUY" if signal.signal == "BUY" else "WATCH"
+    # Entry needs the tools AND the long-term trend (the backtested hybrid rule).
+    return "BUY" if signal.signal == "BUY" and signal.above_200_sma else "WATCH"
 
 
 def decide_sell_guidance(valuation: ValuationResult, signal: SignalResult) -> str:
-    """For someone already holding the stock."""
-    if signal.signal == "SELL":
-        return "SELL (timing tools bearish)"
+    """For someone already holding the stock. Backtests showed exiting on
+    three-tool flips whipsaws away most of the return; the exit that held up
+    is the 200-day trend break (plus taking profit above sticker)."""
+    if signal.above_200_sma is False:
+        return "SELL (below 200-day trend)"
     if valuation.verdict == "EXPENSIVE":
         return "TAKE PROFIT (above sticker price)"
+    if signal.signal == "SELL":
+        return "HOLD (tools bearish — watch the 200-day line)"
     return "HOLD"
 
 

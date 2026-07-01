@@ -46,6 +46,30 @@ python -m bling backtest --universe oslo --qualified-only   # validate the timin
 Data comes from Yahoo Finance via `yfinance` (free, no API key) and is cached in
 `v2/cache/` — a re-run or backtest after a screen costs no new requests.
 
+## Timing rules: what the backtest actually said (2026-07-01)
+
+Backtested on the 137 stocks that passed the quality screen (Oslo + S&P 500,
+10 years daily, 0.15%/side costs, signals traded next close, no look-ahead):
+
+| Rule | CAGR | Max drawdown | Sharpe | Trades/yr |
+|---|---|---|---|---|
+| Three tools in AND out (pure Phil Town) | +12.8% | −20.3% | 0.71 | 10.7 |
+| 200-day SMA only | +22.5% | −29.2% | 1.12 | 3.6 |
+| **Hybrid: three-tool entry, 200-day exit (shipped)** | **+23.5%** | **−25.8%** | **1.20** | **2.7** |
+| Buy & hold (same names) | +47.8%* | −60.1% | 1.21 | 0 |
+
+\* inflated by survivorship — these are *today's* quality winners measured over the
+exact decade that made them winners. Ignore the level; trust the comparisons.
+
+Conclusions baked into the engine:
+- **Exiting on three-tool flips whipsaws away half the return.** The tools are good
+  at *entries* (they demand the downtrend has stopped), terrible as exits.
+- So the shipped rule is: **enter** when quality + price + three tools + 200-day trend
+  all agree; **exit** (sell guidance) only on a 200-day trend break or price above
+  sticker. Tool flips while above trend = "HOLD, watch the 200-day line".
+- ~2.7 trades/yr keeps costs and (non-ASK) tax friction low.
+- The drawdown line is the low-risk part: −26% worst case vs −60% unhedged.
+
 ## Honesty section (read this, future us)
 
 - **No system reliably beats the market.** What this engine does is enforce discipline:

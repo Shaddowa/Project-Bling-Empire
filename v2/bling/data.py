@@ -62,7 +62,7 @@ def _save_cached(bundle: TickerBundle) -> None:
         pickle.dump(bundle, fh)
 
 
-def fetch_bundle(ticker: str, max_age: timedelta = PRICES_TTL, retries: int = 2) -> TickerBundle:
+def fetch_bundle(ticker: str, max_age: timedelta = PRICES_TTL, retries: int = 3) -> TickerBundle:
     """Return a (possibly cached) bundle of everything the engine needs."""
     cached = _load_cached(ticker)
     if cached is not None and datetime.now() - cached.fetched_at < max_age:
@@ -88,7 +88,10 @@ def fetch_bundle(ticker: str, max_age: timedelta = PRICES_TTL, retries: int = 2)
             last_error = ValueError("empty info or price history")
         except Exception as error:  # network hiccups, delisted tickers, rate limits
             last_error = error
-        time.sleep(1.5 * (attempt + 1))
+        if "Too Many Requests" in str(last_error) or "Rate limited" in str(last_error):
+            time.sleep(30.0 * (attempt + 1))  # 429s need a real pause, not a polite one
+        else:
+            time.sleep(1.5 * (attempt + 1))
 
     if cached is not None:  # stale beats nothing
         return cached
