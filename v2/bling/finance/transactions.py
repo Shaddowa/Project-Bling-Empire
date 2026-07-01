@@ -31,7 +31,14 @@ CATEGORY_RULES = [
 
 def parse_export(xlsx_path: str) -> dict:
     frame = pd.read_excel(xlsx_path)
-    frame.columns = ["date", "desc", "interest_date", "out", "in"][: len(frame.columns)]
+    if len(frame.columns) < 5:
+        raise ValueError(
+            f"Unexpected bank export: {len(frame.columns)} columns, expected at least 5 "
+            "(date, description, interest date, out, in)")
+    frame = frame.iloc[:, :5]  # tolerate extra trailing columns in new export formats
+    frame.columns = ["date", "desc", "interest_date", "out", "in"]
+    if frame.empty:
+        raise ValueError("Bank export contains no transactions")
     frame["date"] = pd.to_datetime(frame["date"])
     frame["out"] = frame["out"].fillna(0.0)
     frame["in"] = frame["in"].fillna(0.0)
@@ -72,7 +79,11 @@ def parse_export(xlsx_path: str) -> dict:
     jobless = [m for m in full_months if m["salary"] == 0][-8:]
     basis = jobless if len(jobless) >= 2 else full_months[-3:]
     outs = sorted(m["out"] for m in basis)
-    median = outs[len(outs) // 2] if len(outs) % 2 else (outs[len(outs)//2 - 1] + outs[len(outs)//2]) / 2
+    if outs:  # basis can be empty (e.g. export covering only the current month)
+        median = (outs[len(outs) // 2] if len(outs) % 2
+                  else (outs[len(outs) // 2 - 1] + outs[len(outs) // 2]) / 2)
+    else:
+        median = 0
     rough_burn = int(round(median / 1000.0)) * 1000 if outs else 0
     irregular = [m["month"] for m in basis if m["out"] > 1.6 * median] if median else []
     avg_burn = round(sum(outs) / len(outs)) if outs else 0

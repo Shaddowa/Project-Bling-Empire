@@ -6,12 +6,16 @@ from __future__ import annotations
 
 import csv
 import sys
+import threading
+import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import timedelta
 from pathlib import Path
 
 from fastapi import FastAPI, Form, Request
-from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse, Response
 from fastapi.templating import Jinja2Templates
+from starlette.middleware.gzip import GZipMiddleware
 
 V2_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(V2_ROOT))
@@ -30,6 +34,7 @@ def universe_labels() -> dict[str, str]:
     return {name: MARKETS[name]["label"] for name in active_universes()}
 
 app = FastAPI(title="Bling Empire", docs_url=None, redoc_url=None, openapi_url=None)
+app.add_middleware(GZipMiddleware, minimum_size=500)  # HTML/JSON over cell networks
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
 
 
@@ -46,21 +51,81 @@ def latest_output_dir() -> Path | None:
     return days[0] if days else None
 
 
+class _TTLCache:
+    """Tiny thread-safe (key -> value) cache with per-cache TTL. On a
+    stampede the value may be computed twice — harmless for a one-user app,
+    and it keeps every hot path lock-free while computing."""
+
+    def __init__(self, ttl_seconds: float, max_entries: int = 32):
+        self.ttl = ttl_seconds
+        self.max_entries = max_entries
+        self._data: dict = {}
+        self._lock = threading.Lock()
+
+    def get(self, key):
+        with self._lock:
+            hit = self._data.get(key)
+        if hit is None or time.monotonic() - hit[0] >= self.ttl:
+            return None
+        return hit[1]
+
+    def put(self, key, value) -> None:
+        with self._lock:
+            self._data.pop(key, None)
+            self._data[key] = (time.monotonic(), value)
+            while len(self._data) > self.max_entries:
+                self._data.pop(next(iter(self._data)))
+
+
+# signals CSVs only change when the daily screen writes a new file — memoize
+# the parse by (path, mtime) instead of re-reading ~80KB of CSV per request.
+_signals_memo: dict[str, tuple[float, list[dict]]] = {}
+_signals_lock = threading.Lock()
+
+
 def load_signals(universe: str) -> tuple[str, list[dict]]:
     day = latest_output_dir()
     if day is None:
         return "", []
     path = day / f"signals_{universe}.csv"
-    if not path.exists():
+    try:
+        mtime = path.stat().st_mtime
+    except OSError:
         return day.name, []
+    key = str(path)
+    with _signals_lock:
+        hit = _signals_memo.get(key)
+    if hit is not None and hit[0] == mtime:
+        return day.name, hit[1]
     with path.open() as fh:
-        return day.name, list(csv.DictReader(fh))
+        rows = list(csv.DictReader(fh))
+    with _signals_lock:
+        _signals_memo[key] = (mtime, rows)
+        while len(_signals_memo) > 16:
+            _signals_memo.pop(next(iter(_signals_memo)))
+    return day.name, rows
+
+
+# Holding analysis reuses the daily bundle cache but still costs unpickle +
+# scoring per ticker — cache the enriched rows briefly so / and /finances
+# render instantly on repeat loads. Keyed by the holdings themselves, so any
+# edit on /finances invalidates immediately.
+_holdings_cache = _TTLCache(ttl_seconds=90.0, max_entries=4)
 
 
 def live_holdings(finances) -> list[dict]:
-    from bling.engine import enrich_holding
-    return [enrich_holding(analyze_ticker(h.ticker, max_age=timedelta(days=1)), h)
-            for h in finances.holdings]
+    from bling.engine import analyze_universe, enrich_holding
+    if not finances.holdings:
+        return []
+    key = tuple((h.ticker, h.shares, h.cost_basis, h.stop_price) for h in finances.holdings)
+    cached = _holdings_cache.get(key)
+    if cached is not None:
+        return [dict(row) for row in cached]  # callers may copy-and-tweak
+    reports = analyze_universe([h.ticker for h in finances.holdings],
+                               max_age=timedelta(days=1), progress=False)
+    rows = [enrich_holding(report, h) for report, h in zip(reports, finances.holdings)]
+    _holdings_cache.put(key, rows)
+    return [dict(row) for row in rows]
 
 
 # ── auth ─────────────────────────────────────────────────────────────────
@@ -103,6 +168,19 @@ async def require_login(request: Request, call_next):
     return await call_next(request)
 
 
+@app.middleware("http")
+async def cache_headers(request: Request, call_next):
+    """Static assets never change without a redeploy — let the phone keep them."""
+    response = await call_next(request)
+    path = request.url.path
+    if response.status_code == 200 and "cache-control" not in response.headers:
+        if path.startswith("/static/") or path in ("/favicon.ico", "/apple-touch-icon.png"):
+            response.headers["Cache-Control"] = "public, max-age=604800, immutable"
+        elif path == "/manifest.json":
+            response.headers["Cache-Control"] = "public, max-age=86400"
+    return response
+
+
 @app.get("/widget-setup", response_class=HTMLResponse)
 def widget_setup(request: Request):
     """The loader with the token pre-filled, copyable from the phone —
@@ -120,7 +198,10 @@ def widget_setup(request: Request):
     <li>Scriptable app → <b>+</b> → paste → name it <b>Bling</b>.</li>
     <li>Home screen → long-press → add <b>Scriptable</b> widget → choose Bling.</li>
     <li>Long-press the widget → Edit → <b>Parameter</b>: <code>brief</code>, <code>runway</code>,
-        <code>positions</code> or <code>signals</code>.</li>
+        <code>positions</code>, <code>signals</code> or <code>pulse</code>.
+        Combine with commas — e.g. <code>positions:6, nopulse, dark</code>.
+        Flags: <code>positions:N</code>/<code>max:N</code>, <code>nopulse</code>, <code>nofooter</code>,
+        <code>nospark</code>, <code>plain</code>, <code>dark</code>, <code>light</code>.</li>
   </ol>
   <pre id="code" onclick="navigator.clipboard.writeText(this.textContent).then(()=>this.style.borderColor='var(--good)')"
        style="white-space:pre-wrap;word-break:break-all;font-size:.72rem;cursor:pointer;
@@ -133,11 +214,31 @@ def widget_setup(request: Request):
 
 
 @app.get("/api/widget-script")
-def widget_script():
+def widget_script(request: Request):
     """The widget core, fetched by the on-phone loader on every run —
-    editing v2/widgets/bling-widget-core.js updates every widget."""
-    return FileResponse(V2_ROOT / "widgets" / "bling-widget-core.js",
-                        media_type="application/javascript")
+    editing v2/widgets/bling-widget-core.js updates every widget.
+    ETag + a short max-age: the loader revalidates cheaply (304, no body)
+    and still picks up server-side widget improvements within minutes."""
+    path = V2_ROOT / "widgets" / "bling-widget-core.js"
+    stat = path.stat()
+    etag = f'"{int(stat.st_mtime)}-{stat.st_size}"'
+    headers = {"Cache-Control": "public, max-age=300", "ETag": etag}
+    if etag in (request.headers.get("if-none-match") or ""):
+        return Response(status_code=304, headers=headers)
+    return FileResponse(path, media_type="application/javascript", headers=headers)
+
+
+# Assembled widget payloads are cached briefly (per live flag + input-file
+# mtimes, so a /finances save or new signals invalidate instantly). 15s keeps
+# quotes trading-fresh while making the frequent widget refreshes free.
+_widget_cache = _TTLCache(ttl_seconds=15.0, max_entries=8)
+
+
+def _mtime(path: Path) -> float:
+    try:
+        return path.stat().st_mtime
+    except OSError:
+        return 0.0
 
 
 @app.get("/api/widget")
@@ -148,6 +249,13 @@ def widget_api(live: int = 1):
     from datetime import datetime
 
     from bling.pulse import live_quote, market_pulse
+    from bling.finance.store import DATA_PATH as FINANCES_PATH
+
+    cache_key = (bool(live), _mtime(FINANCES_PATH), _mtime(SWING_PATH),
+                 _mtime(V2_ROOT / "data" / "notify_state.json"))
+    cached = _widget_cache.get(cache_key)
+    if cached is not None:
+        return cached
 
     finances = store.load()
     report = build_report(finances)
@@ -165,11 +273,23 @@ def widget_api(live: int = 1):
     if SWING_PATH.exists():
         swing_count = len(_json.loads(SWING_PATH.read_text()).get("rows", []))
 
+    # Live extras run in parallel: the pulse alongside one light quote call
+    # per holding, so wall time is one round-trip instead of N+1.
+    base_rows = live_holdings(finances)
+    quotes, pulse = {}, []
+    if live:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            pulse_future = pool.submit(market_pulse)
+            quote_futures = {row["ticker"]: pool.submit(live_quote, row["ticker"])
+                             for row in base_rows}
+            pulse = pulse_future.result()
+            quotes = {t: f.result() for t, f in quote_futures.items()}
+
     holdings = []
-    for h, holding in zip(live_holdings(finances), finances.holdings):
+    for h, holding in zip(base_rows, finances.holdings):
         day_pct = None
         if live:  # overlay a fresh quote on the cached daily analysis
-            price, day_pct = live_quote(h["ticker"])
+            price, day_pct = quotes.get(h["ticker"], (None, None))
             if price:
                 h = dict(h)
                 h["price"] = round(price, 2)
@@ -186,7 +306,7 @@ def widget_api(live: int = 1):
             "stop_hit": bool(h["guidance"].startswith("SELL NOW")),
         })
 
-    return {
+    payload = {
         "updated": day,
         "generated_at": datetime.now().strftime("%H:%M"),
         "runway_months": report.runway_months,
@@ -198,8 +318,10 @@ def widget_api(live: int = 1):
         "swing_count": swing_count,
         "sell_alerts": sells[:4],
         "holdings": holdings[:6],
-        "markets": market_pulse() if live else [],
+        "markets": pulse if live else [],
     }
+    _widget_cache.put(cache_key, payload)
+    return payload
 
 
 @app.get("/healthz")
@@ -234,8 +356,8 @@ def manifest():
         "name": "Bling Empire",
         "short_name": "Bling",
         "display": "standalone",
-        "background_color": "#0b0e14",
-        "theme_color": "#0b0e14",
+        "background_color": "#f2ece0",
+        "theme_color": "#f2ece0",
         "start_url": "/",
         "icons": [{"src": "/static/icon-512.png", "sizes": "512x512", "type": "image/png"}],
     })
@@ -306,6 +428,11 @@ def swing(request: Request):
     return templates.TemplateResponse(request, "swing.html", {"rows": rows, "generated_at": generated_at})
 
 
+# Intraday rows cache: 60s is well within "live enough" for decision support
+# and makes tab-hopping back to /day instant.
+_day_cache = _TTLCache(ttl_seconds=60.0, max_entries=4)
+
+
 @app.get("/day", response_class=HTMLResponse)
 def day_page(request: Request):
     from datetime import datetime
@@ -323,8 +450,17 @@ def day_page(request: Request):
     for t in shortlist:
         if t not in seen:
             seen.append(t)
+    seen = seen[:15]  # same cap day_view(max_tickers=15) applied
+
+    key = tuple(seen)
+    day_rows = _day_cache.get(key)
+    if day_rows is None:
+        # day_view parallelizes its own fetches internally (thread pool in
+        # modes.py) and sorts by day change — one call does it all.
+        day_rows = day_view(seen, max_tickers=len(seen) or 1)
+        _day_cache.put(key, day_rows)
     return templates.TemplateResponse(request, "day.html", {
-        "rows": day_view(seen, max_tickers=15),
+        "rows": day_rows,
         "loaded_at": datetime.now().strftime("%H:%M UTC"),
     })
 

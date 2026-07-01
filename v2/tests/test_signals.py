@@ -62,6 +62,46 @@ class TestSignals(unittest.TestCase):
         self.assertGreater(result.days_in_current_signal, 1)
 
 
+class TestSignalEdgeCases(unittest.TestCase):
+    def test_dead_flat_ohlc_is_unknown_not_a_crash(self):
+        # High == Low == Close: the stochastic span is zero everywhere
+        # (replace(0, NaN) path), every state row drops, no signal
+        close = pd.Series([100.0] * 250, index=pd.date_range("2022-01-03", periods=250, freq="B"))
+        frame = pd.DataFrame({"Close": close, "High": close, "Low": close,
+                              "Open": close, "Volume": 0})
+        result = assess_signals("FLAT", frame)
+        self.assertEqual(result.signal, "UNKNOWN")
+        self.assertIsNone(result.days_in_current_signal)
+
+    def test_flat_close_with_range_reads_bearish_never_buy(self):
+        # ties on strict '>' comparisons are bearish by design: a flat tape
+        # must never generate a BUY
+        result = assess_signals("FLATRANGE", make_prices([100.0] * 250))
+        self.assertIn(result.signal, ("SELL", "HOLD"))
+        self.assertNotEqual(result.signal, "BUY")
+
+    def test_exactly_200_rows_is_enough(self):
+        result = assess_signals("EDGE", make_prices(accelerating_up(200)))
+        self.assertIn(result.signal, ("BUY", "SELL", "HOLD", "UNKNOWN"))
+
+    def test_nan_gap_in_closes_does_not_crash(self):
+        closes = accelerating_up(300)
+        prices = make_prices(closes)
+        prices.iloc[150, prices.columns.get_loc("Close")] = np.nan
+        result = assess_signals("GAP", prices)
+        self.assertIn(result.signal, ("BUY", "SELL", "HOLD", "UNKNOWN"))
+
+    def test_none_prices_is_unknown(self):
+        result = assess_signals("NONE", None)
+        self.assertEqual(result.signal, "UNKNOWN")
+
+    def test_composite_all_bearish_is_sell(self):
+        prices = make_prices(accelerating_up())
+        states = tool_states(prices).dropna()
+        states.loc[states.index[-1], ["macd", "stochastic", "sma10"]] = False
+        self.assertEqual(composite_signal(states).iloc[-1], "SELL")
+
+
 class TestBacktestPlumbing(unittest.TestCase):
     def test_no_lookahead_and_costs_charged(self):
         from bling.backtest import strategy_returns, position_series

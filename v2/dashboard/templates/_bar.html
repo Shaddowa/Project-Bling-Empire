@@ -1,0 +1,7 @@
+{# progress toward target (cost → target), red stop tick, target tick; expects an enriched holding `h` #}
+{% set pct = (h.progress * 100)|round(0)|int %}
+{% set has_stop = h.stop and h.cost and h.target and h.target > h.cost %}
+<span class="bar-wrap"><span class="bar{{ ' bar-danger' if h.guidance.startswith('SELL NOW') }}"
+  style="--p:{{ [0, ([100, pct]|min)]|max }}%{% if has_stop %};--stop:{{ [0, ([100, ((((h.stop - h.cost) / (h.target - h.cost)) * 100)|round(0)|int)]|min)]|max }}%{% endif %}"><span
+  class="bar-fill"></span>{% if has_stop %}<span class="bar-stop"></span>{% endif %}<span
+  class="bar-target"></span></span><span class="bar-pct">{{ pct }}%</span></span>

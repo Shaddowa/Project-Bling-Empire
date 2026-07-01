@@ -1,17 +1,27 @@
 {% extends "base.html" %}
 {% block title %}{{ label }} — Bling Empire{% endblock %}
 {% block content %}
+<h1 class="page">{{ label }} <span class="muted">{{ day }}</span></h1>
+<nav class="seg" aria-label="Filter by action">
+  {% for href, name, on in [("/signals/" ~ universe, "All", not action),
+                            ("/signals/" ~ universe ~ "?action=BUY", "Buy", action == "BUY"),
+                            ("/signals/" ~ universe ~ "?action=WATCH", "Watch", action == "WATCH"),
+                            ("/signals/" ~ universe ~ "?action=FAIR", "Fair", action == "FAIR")] %}
+  <a href="{{ href }}" class="{{ 'on' if on }}">{{ name }}</a>
+  {% endfor %}
+</nav>
 <div class="card">
-  <h2>{{ label }} — {{ day }} {% if action %}<span class="pill">{{ action }}</span>{% endif %}</h2>
-  <div class="muted" style="margin-bottom:.6rem">
-    <a class="ticker" href="/signals/{{ universe }}">all</a> ·
-    <a class="ticker" href="/signals/{{ universe }}?action=WATCH">watch</a> ·
-    <a class="ticker" href="/signals/{{ universe }}?action=FAIR">fair</a> ·
-    <a class="ticker" href="/signals/{{ universe }}?action=BUY">buy</a>
-  </div>
-  <div class="scroll"><table>
+  <h2>{{ rows|length }} names {% if action %}<span class="pill">{{ action }}</span>{% endif %}</h2>
+  {% if not rows %}
+  <div class="empty"><span class="glyph">🕰</span><b>Nothing here {% if action %}under {{ action }}{% endif %} today.</b><br>
+    The screen ran, the bar stayed high — check back after the next daily refresh.</div>
+  {% else %}
+  <div class="scroll tall"><table>
+    <thead>
     <tr><th>Action</th><th>Ticker</th><th>Company</th><th>Q</th><th>Price</th>
         <th>Sticker</th><th>MOS</th><th>Disc%</th><th>Signal</th><th>200SMA</th><th>Div</th></tr>
+    </thead>
+    <tbody>
     {% for r in rows %}
     <tr>
       <td class="{{ r['ACTION'] }}">{{ r["ACTION"] }}</td>
@@ -27,6 +37,8 @@
       <td>{{ r["DIVIDEND SCORE"] }}</td>
     </tr>
     {% endfor %}
+    </tbody>
   </table></div>
+  {% endif %}
 </div>
 {% endblock %}

@@ -12,6 +12,7 @@ as a pass: thin data lowers the score, which is the conservative direction.
 """
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass
 from enum import Enum
 from typing import Optional
@@ -41,6 +42,8 @@ def cagr(series: Optional[pd.Series]) -> Optional[float]:
     if series is None or len(series) < 2:
         return None
     first, last = float(series.iloc[0]), float(series.iloc[-1])
+    if math.isnan(first) or math.isnan(last):
+        return None  # a NaN endpoint would silently propagate through the score
     if first <= 0:
         return None
     if last <= 0:
@@ -59,9 +62,11 @@ def _growth_verdict(series: Optional[pd.Series], requirement: float) -> tuple[Ve
 
 
 def _returns_verdict(series: Optional[pd.Series]) -> tuple[Verdict, Optional[float]]:
-    if series is None or series.empty:
+    if series is None or series.dropna().empty:
         return Verdict.UNKNOWN, None
-    mean = float(series.mean())
+    mean = float(series.mean())  # pandas mean skips NaN
+    if math.isnan(mean):
+        return Verdict.UNKNOWN, None
     return (Verdict.PASS if mean >= RETURNS_REQUIREMENT else Verdict.FAIL), mean
 
 
@@ -118,7 +123,9 @@ def assess_quality(fundamentals: Fundamentals) -> QualityResult:
     else:
         debt = float(f.total_debt.iloc[-1])
         fcf = float(f.free_cash_flow.iloc[-1])
-        if debt <= 0:
+        if math.isnan(debt) or math.isnan(fcf):
+            verdicts["debt_payoff"], metrics["debt_payoff"] = Verdict.UNKNOWN, None
+        elif debt <= 0:
             verdicts["debt_payoff"], metrics["debt_payoff"] = Verdict.PASS, 0.0
         elif fcf <= 0:
             verdicts["debt_payoff"], metrics["debt_payoff"] = Verdict.FAIL, None

@@ -3,6 +3,14 @@ income closes the gap.
 
 Everything is monthly NOK. The data lives in a local JSON file (gitignored —
 see store.py); this module is pure math so it can be unit-tested.
+
+Known simplification, on purpose: monthly_burn treats every debt payment as
+lasting forever, but real debts AMORTIZE — the mortgage payment disappears
+once its balance is repaid, and the balance already shrinks with every
+payment. That makes every runway number here a FLOOR (true runway is at
+least this long), which is the safe direction for a "how long am I okay?"
+model. Modeling the amortization schedules would add precision the inputs
+(hand-entered balances and payments) don't have.
 """
 from __future__ import annotations
 
@@ -75,6 +83,9 @@ class Finances:
 
     @property
     def monthly_debt_payments(self) -> float:
+        """Sum of current debt payments. Assumed constant forever even though
+        debts amortize and payments eventually end — see module docstring;
+        this biases burn UP and runway DOWN (conservative)."""
         return sum(d.monthly_payment for d in self.debts)
 
     @property
@@ -101,18 +112,30 @@ class Finances:
 
     def runway_months(self, extra_monthly_income: float = 0.0,
                       expense_cut: float = 0.0) -> Optional[float]:
-        """Months until liquid assets hit zero. None = indefinitely sustainable."""
+        """Months until liquid assets hit zero. None = indefinitely sustainable.
+
+        Constant-burn model: debt payments are assumed to run forever, so
+        this is a conservative floor (see module docstring — amortizing
+        debts mean real runway is at least this). When the card bills
+        already exceed liquid assets the answer is 0.0, never negative.
+        """
         burn = self.monthly_burn - extra_monthly_income - expense_cut
         if burn <= 0:
             return None
-        return self.liquid_after_cards / burn
+        return max(0.0, self.liquid_after_cards) / burn
 
     def required_income_for(self, target_months: float) -> float:
-        """Extra monthly income needed so runway reaches target_months (0 if already there)."""
+        """Extra monthly income needed so runway reaches target_months (0 if already there).
+
+        With nothing liquid left after the card bills (liquid_after_cards
+        <= 0) no amount of stash-drawdown math applies: the only sustainable
+        answer is full break-even, so the requirement is monthly_burn —
+        never a negative-liquid artifact above break-even.
+        """
         if self.monthly_burn <= 0:
             return 0.0
-        if target_months <= 0:
-            return self.monthly_burn  # break even
+        if target_months <= 0 or self.liquid_after_cards <= 0:
+            return self.monthly_burn  # break even is the whole requirement
         needed_burn = self.liquid_after_cards / target_months
         return max(0.0, self.monthly_burn - needed_burn)
 

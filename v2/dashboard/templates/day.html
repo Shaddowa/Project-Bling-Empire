@@ -18,7 +18,10 @@
 
 <div class="card">
   <h2>Intraday state — {{ rows|length }} tickers</h2>
-  {% if not rows %}<div class="muted">Nothing on the shortlist (or markets closed and no bars today).</div>{% else %}
+  {% if not rows %}
+  <div class="empty"><span class="glyph">🌙</span><b>No live bars right now.</b><br>
+    Nothing on the shortlist, or the markets are closed — the floor is quiet.</div>
+  {% else %}
   <div class="scroll"><table>
     <tr><th>Ticker</th><th>Price</th><th>Day</th><th>ORB</th><th>Range</th><th>VWAP</th><th>15m momentum</th></tr>
     {% for r in rows %}
@@ -28,8 +31,8 @@
       <td class="{{ 'pos' if (r.day_change_pct or 0) >= 0 else 'neg' }}">{{ "%+.1f%%"|format(r.day_change_pct) if r.day_change_pct is not none else "–" }}</td>
       <td class="{{ 'BUY' if r.orb_state == 'ABOVE' else ('SELL' if r.orb_state == 'BELOW' else 'HOLD') }}">{{ r.orb_state }}</td>
       <td class="muted">{{ r.open_range_low }}–{{ r.open_range_high }}</td>
-      <td class="{{ 'pos' if r.above_vwap else 'neg' }}">{{ r.vwap or "–" }} {{ "▲" if r.above_vwap else "▼" if r.above_vwap is not none else "" }}</td>
-      <td class="{{ 'pos' if r.momentum_15m else 'neg' }}">{{ "up" if r.momentum_15m else "down" }}</td>
+      <td class="{{ '' if r.above_vwap is none else 'pos' if r.above_vwap else 'neg' }}">{{ r.vwap or "–" }} {{ "▲" if r.above_vwap else "▼" if r.above_vwap is not none else "" }}</td>
+      <td class="{{ '' if r.momentum_15m is none else 'pos' if r.momentum_15m else 'neg' }}">{{ "–" if r.momentum_15m is none else "up" if r.momentum_15m else "down" }}</td>
     </tr>
     {% endfor %}
   </table></div>

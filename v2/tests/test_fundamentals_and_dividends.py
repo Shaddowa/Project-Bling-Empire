@@ -1,10 +1,11 @@
 import unittest
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
+import numpy as np
 import pandas as pd
 
 from bling.data import TickerBundle
-from bling.dividends import assess_dividends, compare_forward_to_trailing
+from bling.dividends import assess_dividends, compare_forward_to_trailing, ex_date_score
 from bling.fundamentals import extract_fundamentals
 
 
@@ -103,6 +104,95 @@ class TestDividendScore(unittest.TestCase):
     def test_implausible_yield_dropped(self):
         result = assess_dividends("JUNK", {"trailingAnnualDividendYield": 0.80, "dividendYield": 90.0})
         self.assertEqual(result.score, 0.0)
+
+    def test_nan_fields_score_nothing(self):
+        # regression: NaN is truthy — rates went through comparisons as garbage
+        nan = float("nan")
+        result = assess_dividends("NAN", {
+            "trailingAnnualDividendYield": nan, "dividendYield": nan,
+            "trailingAnnualDividendRate": nan, "dividendRate": nan,
+            "payoutRatio": nan, "exDividendDate": nan,
+        })
+        self.assertEqual(result.score, 0.0)
+        self.assertIsNone(result.trailing_yield)
+        self.assertIsNone(result.forward_yield)
+
+    def test_nan_forward_rate_does_not_earn_forward_only_points(self):
+        self.assertEqual(compare_forward_to_trailing(4.0, float("nan")), 0.5)
+        self.assertEqual(compare_forward_to_trailing(float("nan"), 4.0), 2.0)
+
+
+class TestExDateScore(unittest.TestCase):
+    def test_recent_epoch_seconds(self):
+        recent = (datetime.now(tz=timezone.utc) - timedelta(days=30)).timestamp()
+        self.assertEqual(ex_date_score(recent), 1.0)
+        self.assertEqual(ex_date_score(int(recent)), 1.0)
+
+    def test_old_epoch_seconds(self):
+        old = (datetime.now(tz=timezone.utc) - timedelta(days=400)).timestamp()
+        self.assertEqual(ex_date_score(old), 0.0)
+
+    def test_aware_and_naive_datetimes(self):
+        aware = datetime.now(tz=timezone.utc) - timedelta(days=10)
+        self.assertEqual(ex_date_score(aware), 1.0)
+        naive = datetime.now(tz=timezone.utc).replace(tzinfo=None) - timedelta(days=10)  # assumed UTC
+        self.assertEqual(ex_date_score(naive), 1.0)
+
+    def test_pandas_timestamp_and_date(self):
+        # regression: these used to crash datetime.fromtimestamp with TypeError
+        self.assertEqual(ex_date_score(pd.Timestamp.now(tz="UTC") - pd.Timedelta(days=5)), 1.0)
+        self.assertEqual(ex_date_score(date.today() - timedelta(days=5)), 1.0)
+
+    def test_iso_string(self):
+        recent = (datetime.now(tz=timezone.utc) - timedelta(days=5)).strftime("%Y-%m-%d")
+        self.assertEqual(ex_date_score(recent), 1.0)
+        self.assertEqual(ex_date_score("2010-01-01"), 0.0)
+
+    def test_garbage_is_zero_not_a_crash(self):
+        for junk in (None, 0, -1, float("nan"), float("inf"), "not a date", object()):
+            self.assertEqual(ex_date_score(junk), 0.0, msg=repr(junk))
+
+
+class TestFundamentalsEdges(unittest.TestCase):
+    def test_duplicated_statement_label_with_nans(self):
+        # regression: dropna-before-iloc raised IndexError when every
+        # duplicate row had at least one NaN year
+        columns = pd.to_datetime(["2024-12-31", "2023-12-31", "2022-12-31"])
+        inc = pd.DataFrame(
+            [[130.0, np.nan, 100.0], [np.nan, 116.0, 101.0]],
+            index=["Total Revenue", "Total Revenue"], columns=columns)
+        bundle = TickerBundle(ticker="DUP", fetched_at=datetime.now(), info={},
+                              income_stmt=inc)
+        f = extract_fundamentals(bundle)
+        self.assertIsNotNone(f.revenue)
+        self.assertEqual(list(f.revenue.values), [100.0, 130.0])  # first dup row, NaN year dropped
+
+    def test_negative_equity_years_excluded_from_roe(self):
+        columns = pd.to_datetime(["2024-12-31", "2023-12-31", "2022-12-31"])
+        inc = pd.DataFrame([[26.0, 23.0, 20.0]], index=["Net Income"], columns=columns)
+        bs = pd.DataFrame([[150.0, -10.0, 0.0]], index=["Stockholders Equity"], columns=columns)
+        bundle = TickerBundle(ticker="NEGEQ", fetched_at=datetime.now(), info={},
+                              income_stmt=inc, balance_sheet=bs)
+        f = extract_fundamentals(bundle)
+        self.assertEqual(len(f.roe), 1)  # only the positive-equity year
+        self.assertAlmostEqual(float(f.roe.iloc[-1]), 26.0 / 150.0)
+
+    def test_all_negative_equity_means_no_roe(self):
+        columns = pd.to_datetime(["2024-12-31", "2023-12-31"])
+        inc = pd.DataFrame([[26.0, 23.0]], index=["Net Income"], columns=columns)
+        bs = pd.DataFrame([[-150.0, -10.0]], index=["Stockholders Equity"], columns=columns)
+        bundle = TickerBundle(ticker="UNDERWATER", fetched_at=datetime.now(), info={},
+                              income_stmt=inc, balance_sheet=bs)
+        f = extract_fundamentals(bundle)
+        self.assertIsNone(f.roe)
+        self.assertIsNone(f.roic)
+
+    def test_empty_bundle_yields_empty_fundamentals(self):
+        bundle = TickerBundle(ticker="EMPTY", fetched_at=datetime.now(), info={})
+        f = extract_fundamentals(bundle)
+        self.assertIsNone(f.revenue)
+        self.assertIsNone(f.free_cash_flow)
+        self.assertEqual(f.years_of_data, 0)
 
 
 if __name__ == "__main__":

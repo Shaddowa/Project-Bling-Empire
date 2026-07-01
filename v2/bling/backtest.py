@@ -68,15 +68,27 @@ class BacktestMetrics:
 def summarize(returns: pd.Series, label: str, position: Optional[pd.Series] = None,
               trades_per_year: float = 0.0) -> BacktestMetrics:
     returns = returns.dropna()
+    if position is None:
+        in_market = 1.0  # buy & hold benchmark
+    else:
+        in_market = float(position.mean()) if len(position.dropna()) else 0.0
+    if returns.empty:  # nothing tradable: report zeros, not NaN
+        return BacktestMetrics(label=label, years=0.0, cagr=None, max_drawdown=0.0,
+                               sharpe=None, time_in_market=in_market,
+                               trades_per_year=round(trades_per_year, 1))
     equity = (1.0 + returns).cumprod()
     # Calendar span, not row count: merged Oslo+US calendars have more rows
     # per year than either market alone, which would inflate row-based years.
     years = (returns.index[-1] - returns.index[0]).days / 365.25 if len(returns) > 1 else 0.0
     cagr = float(equity.iloc[-1] ** (1.0 / years) - 1.0) if years > 0 and equity.iloc[-1] > 0 else None
-    drawdown = float((equity / equity.cummax() - 1.0).min())
+    # peak == 0 means the strategy was wiped out at that point: drawdown is
+    # -100%, not the NaN a raw 0/0 would produce.
+    peak = equity.cummax()
+    drawdown = float((equity / peak.replace(0.0, np.nan) - 1.0).fillna(-1.0).min())
     volatility = returns.std()
-    sharpe = float(returns.mean() / volatility * np.sqrt(TRADING_DAYS)) if volatility and volatility > 0 else None
-    in_market = float(position.mean()) if position is not None else 1.0
+    # 1e-12 floor: a numerically-constant return series has no meaningful
+    # Sharpe; float noise in std() must not explode it to 1e16.
+    sharpe = float(returns.mean() / volatility * np.sqrt(TRADING_DAYS)) if volatility and volatility > 1e-12 else None
     return BacktestMetrics(
         label=label,
         years=round(years, 1),

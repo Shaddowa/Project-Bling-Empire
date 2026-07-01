@@ -16,7 +16,10 @@
 
 <div class="card">
   <h2>Fresh three-tool BUYs in uptrends — {{ rows|length }} setups</h2>
-  {% if not rows %}<div class="muted">No fresh setups right now. That's the tools saying wait.</div>{% else %}
+  {% if not rows %}
+  <div class="empty"><span class="glyph">〰</span><b>No fresh setups right now.</b><br>
+    That's the three tools saying wait — the edge is in only trading when they agree.</div>
+  {% else %}
   <div class="scroll"><table>
     <tr><th>Ticker</th><th>Company</th><th>Price</th><th>Setup age</th>
         <th>2y trades</th><th>Win rate</th><th>Avg trade</th><th>Rule 2y</th><th>Hold 2y</th></tr>

@@ -19,7 +19,8 @@
   <h2>{{ label }} <span class="muted">{{ cards[universe].day }}</span></h2>
   {% set buys = cards[universe].buy %}{% set watches = cards[universe].watch %}
   {% if not buys and not watches %}
-    <div class="muted">No BUY or WATCH — keep your money. That is a feature.</div>
+    <div class="empty"><span class="glyph">🌱</span><b>No BUY or WATCH.</b><br>
+      Keep your money — that is a feature, not a gap.</div>
   {% endif %}
   {% for r in buys %}
     <div style="margin:.4rem 0"><span class="pill BUY">BUY</span>

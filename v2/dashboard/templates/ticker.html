@@ -21,7 +21,7 @@
       <td class="{{ 'BUY' if verdict.value == 'PASS' else ('AVOID' if verdict.value == 'FAIL' else 'UNKNOWN') }}">{{ verdict.value }}</td>
       <td>{{ name.replace("_", " ") }}</td>
       <td>{% if m is none %}{% elif name == "debt_payoff" %}{{ m }}y of FCF
-          {% elif name == "fcf_increasing" %}{{ "{:,.0f}".format(m) }}
+          {% elif name == "fcf_increasing" %}{{ "{:,.0f}".format(m).replace(",", " ") }}
           {% else %}{{ "%+.1f%%"|format(m * 100) }}{% endif %}</td>
     </tr>
     {% endfor %}

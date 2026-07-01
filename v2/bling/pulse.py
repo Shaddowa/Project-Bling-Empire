@@ -8,6 +8,7 @@ held ticker, only a handful of those).
 from __future__ import annotations
 
 import json
+import threading
 import time
 from pathlib import Path
 from typing import Optional
@@ -19,15 +20,55 @@ from .universe import MARKETS, V2_ROOT, active_universes
 PULSE_PATH = V2_ROOT / "data" / "market_pulse.json"
 PULSE_TTL_SECONDS = 15 * 60
 
+_refresh_lock = threading.Lock()
+_refreshing = False
+
+
+def _cached_pulse() -> Optional[dict]:
+    if not PULSE_PATH.exists():
+        return None
+    try:
+        return json.loads(PULSE_PATH.read_text())
+    except Exception:
+        return None
+
 
 def market_pulse() -> list[dict]:
-    """Per active market: index day move + 200-day trend state."""
-    if PULSE_PATH.exists():
-        cached = json.loads(PULSE_PATH.read_text())
-        if time.time() - cached.get("at", 0) < PULSE_TTL_SECONDS \
-                and [m["market"] for m in cached.get("markets", [])] == active_universes():
-            return cached["markets"]
+    """Per active market: index day move + 200-day trend state.
 
+    Stale-while-revalidate: an expired (but universe-matching) cache is served
+    immediately while one background thread refreshes it, so a widget refresh
+    never waits multiple seconds on index history downloads.
+    """
+    cached = _cached_pulse()
+    if cached is not None \
+            and [m["market"] for m in cached.get("markets", [])] == active_universes():
+        if time.time() - cached.get("at", 0) < PULSE_TTL_SECONDS:
+            return cached["markets"]
+        _refresh_in_background()
+        return cached["markets"]
+    return _refresh_pulse()  # no usable cache: first run / universe change
+
+
+def _refresh_in_background() -> None:
+    global _refreshing
+    with _refresh_lock:
+        if _refreshing:
+            return
+        _refreshing = True
+
+    def worker() -> None:
+        global _refreshing
+        try:
+            _refresh_pulse()
+        finally:
+            with _refresh_lock:
+                _refreshing = False
+
+    threading.Thread(target=worker, name="pulse-refresh", daemon=True).start()
+
+
+def _refresh_pulse() -> list[dict]:
     markets = []
     for name in active_universes():
         symbol = MARKETS[name].get("index")

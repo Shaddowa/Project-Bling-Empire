@@ -8,18 +8,28 @@ Scoring, normalized to 0-10:
 """
 from __future__ import annotations
 
+import math
 from dataclasses import dataclass
-from datetime import datetime, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 from typing import Optional
 
 MAX_RAW_SCORE = 10.0
 
 
+def _present(value: Optional[float]) -> Optional[float]:
+    """None for missing/zero/NaN — yfinance emits all three for 'no data'."""
+    if value is None or not value:
+        return None
+    if isinstance(value, float) and math.isnan(value):
+        return None
+    return value
+
+
 def compare_forward_to_trailing(trailing: Optional[float], forward: Optional[float]) -> float:
     """4: forward > trailing, 3: equal, 2: forward only, 1: forward < trailing,
-    0.5: trailing only, 0: neither. Zero values count as missing."""
-    forward = forward if forward else None
-    trailing = trailing if trailing else None
+    0.5: trailing only, 0: neither. Zero and NaN values count as missing."""
+    forward = _present(forward)
+    trailing = _present(trailing)
     if forward is not None and trailing is not None:
         if forward > trailing:
             return 4.0
@@ -33,10 +43,40 @@ def payout_ratio_score(payout_ratio: Optional[float]) -> float:
     return 1.0 if payout_ratio is not None and 0.40 <= payout_ratio <= 0.60 else 0.0
 
 
-def ex_date_score(ex_dividend_timestamp: Optional[float]) -> float:
-    if not ex_dividend_timestamp:
+def _ex_date_utc(value) -> Optional[datetime]:
+    """Normalize whatever yfinance ships as exDividendDate to an aware UTC
+    datetime. Across versions the field has been epoch seconds (int/float),
+    an ISO string, a datetime.date, or a (sometimes tz-naive) datetime /
+    pandas Timestamp. Naive datetimes are assumed UTC; garbage becomes None
+    instead of a crash."""
+    if value is None:
+        return None
+    if isinstance(value, datetime):  # includes pandas Timestamp
+        return value if value.tzinfo is not None else value.replace(tzinfo=timezone.utc)
+    if isinstance(value, date):  # plain date (checked after datetime: datetime is a date)
+        return datetime(value.year, value.month, value.day, tzinfo=timezone.utc)
+    if isinstance(value, str):
+        try:
+            parsed = datetime.fromisoformat(value)
+        except ValueError:
+            return None
+        return parsed if parsed.tzinfo is not None else parsed.replace(tzinfo=timezone.utc)
+    try:
+        stamp = float(value)
+    except (TypeError, ValueError):
+        return None
+    if not math.isfinite(stamp) or stamp <= 0:
+        return None
+    try:
+        return datetime.fromtimestamp(stamp, tz=timezone.utc)
+    except (OverflowError, OSError, ValueError):
+        return None
+
+
+def ex_date_score(ex_dividend_date) -> float:
+    ex_date = _ex_date_utc(ex_dividend_date)
+    if ex_date is None:
         return 0.0
-    ex_date = datetime.fromtimestamp(ex_dividend_timestamp, tz=timezone.utc)
     return 1.0 if datetime.now(tz=timezone.utc) - ex_date <= timedelta(days=365) else 0.0
 
 
@@ -69,7 +109,8 @@ def _normalized_yields(info: dict) -> tuple[Optional[float], Optional[float]]:
 def _comparable_rates(info: dict) -> tuple[Optional[float], Optional[float]]:
     """Cross-currency payers (Equinor declares USD, trades NOK) make the two
     rate fields different units. Only compare when they're the same ballpark."""
-    trailing, forward = info.get("trailingAnnualDividendRate"), info.get("dividendRate")
+    trailing = _present(info.get("trailingAnnualDividendRate"))
+    forward = _present(info.get("dividendRate"))
     if trailing and forward and not (0.25 <= forward / trailing <= 4.0):
         trailing = None
     return trailing, forward

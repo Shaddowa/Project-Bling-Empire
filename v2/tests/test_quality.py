@@ -1,5 +1,6 @@
 import unittest
 
+import numpy as np
 import pandas as pd
 
 from bling.fundamentals import Fundamentals
@@ -25,6 +26,17 @@ class TestCagr(unittest.TestCase):
     def test_too_short(self):
         self.assertIsNone(cagr(series(100)))
         self.assertIsNone(cagr(None))
+
+    def test_nan_endpoints_are_none_not_nan(self):
+        # regression: a NaN endpoint used to propagate NaN through the score
+        self.assertIsNone(cagr(series(np.nan, 110, 121)))
+        self.assertIsNone(cagr(series(100, 110, np.nan)))
+
+    def test_empty_series(self):
+        self.assertIsNone(cagr(pd.Series(dtype=float)))
+
+    def test_zero_start_is_none(self):
+        self.assertIsNone(cagr(series(0.0, 10, 20)))
 
 
 class TestQuality(unittest.TestCase):
@@ -67,6 +79,57 @@ class TestQuality(unittest.TestCase):
         result = assess_quality(f)
         self.assertEqual(result.verdicts["debt_payoff"], Verdict.FAIL)
         self.assertEqual(result.metrics["debt_payoff"], 20.0)
+
+    def test_debt_free_passes_payoff(self):
+        f = self.wonderful_company()
+        f.total_debt = series(0, 0, 0, 0)
+        result = assess_quality(f)
+        self.assertEqual(result.verdicts["debt_payoff"], Verdict.PASS)
+        self.assertEqual(result.metrics["debt_payoff"], 0.0)
+
+    def test_negative_fcf_fails_payoff(self):
+        f = self.wonderful_company()
+        f.free_cash_flow = series(15, 18, 21, -5)
+        result = assess_quality(f)
+        self.assertEqual(result.verdicts["debt_payoff"], Verdict.FAIL)
+
+    def test_nan_debt_or_fcf_is_unknown(self):
+        # regression: NaN used to fall through to a FAIL with a NaN metric
+        f = self.wonderful_company()
+        f.total_debt = series(10, 10, 10, np.nan)
+        result = assess_quality(f)
+        self.assertEqual(result.verdicts["debt_payoff"], Verdict.UNKNOWN)
+        self.assertIsNone(result.metrics["debt_payoff"])
+
+    def test_all_nan_returns_series_is_unknown(self):
+        f = self.wonderful_company()
+        f.roe = series(np.nan, np.nan, np.nan, np.nan)
+        result = assess_quality(f)
+        self.assertEqual(result.verdicts["roe"], Verdict.UNKNOWN)
+        self.assertIsNone(result.metrics["roe"])
+
+    def test_two_years_of_data_is_unknown_growth(self):
+        f = Fundamentals(ticker="THIN", revenue=series(100, 120))
+        result = assess_quality(f)
+        self.assertEqual(result.verdicts["sales_growth"], Verdict.UNKNOWN)
+
+    def test_fcf_increasing_verdicts(self):
+        f = self.wonderful_company()
+        result = assess_quality(f)  # 15 -> 25 monotone
+        self.assertEqual(result.verdicts["fcf_increasing"], Verdict.PASS)
+        f.free_cash_flow = series(25, 20, 18, 15)  # falling
+        self.assertEqual(assess_quality(f).verdicts["fcf_increasing"], Verdict.FAIL)
+        f.free_cash_flow = series(15, 25)  # too short
+        self.assertEqual(assess_quality(f).verdicts["fcf_increasing"], Verdict.UNKNOWN)
+
+    def test_score_counts_only_passes(self):
+        f = self.wonderful_company()
+        f.revenue = None  # one criterion drops to UNKNOWN
+        result = assess_quality(f)
+        self.assertEqual(result.verdicts["sales_growth"], Verdict.UNKNOWN)
+        self.assertEqual(result.total, 9)
+        self.assertEqual(result.passed, 8)
+        self.assertEqual(result.score, round(100.0 * 8 / 9, 1))
 
 
 if __name__ == "__main__":

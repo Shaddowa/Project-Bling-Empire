@@ -1,16 +1,17 @@
 {% extends "base.html" %}
 {% block content %}
+<h1 class="page">Overview</h1>
 
 <div class="card">
   <h2>Runway</h2>
   <div class="kpis">
-    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards) }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid) }} − card {{ "{:,.0f}".format(report.credit_card_used) }}{% endif %}</div></div>
+    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards).replace(",", " ") }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid).replace(",", " ") }} − card {{ "{:,.0f}".format(report.credit_card_used).replace(",", " ") }}{% endif %}</div></div>
     <div><div class="muted">Burn / month</div>
-      <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn) }} kr</div></div>
+      <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn).replace(",", " ") }} kr</div></div>
     <div><div class="muted">Runway</div>
       <div class="big">{% if report.runway_months is none %}∞{% else %}{{ report.runway_months }} mo{% endif %}</div></div>
     <div><div class="muted">Break-even needs</div>
-      <div class="big">{{ "{:,.0f}".format(report.breakeven_income) }} kr/mo</div></div>
+      <div class="big">{{ "{:,.0f}".format(report.breakeven_income).replace(",", " ") }} kr/mo</div></div>
   </div>
   <div class="muted" style="margin-top:.6rem">
     {% if report.runway_months is none %}Cash-flow positive — sustainable as is.
@@ -27,11 +28,9 @@
     {% for h in holdings %}
     <tr>
       <td><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a></td>
-      <td>{% if h.value %}{{ "{:,.0f}".format(h.value) }} {{ h.currency }}{% else %}–{% endif %}</td>
+      <td>{% if h.value %}{{ "{:,.0f}".format(h.value).replace(",", " ") }} {{ h.currency }}{% else %}–{% endif %}</td>
       <td class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ h.gain_pct }}%{% else %}–{% endif %}</td>
-      <td>{% if h.progress is not none %}
-        <span style="font-family:ui-monospace,monospace">{{ "▓" * (h.progress * 10)|round(0, 'floor')|int }}{{ "░" * (10 - (h.progress * 10)|round(0, 'floor')|int) }}</span>
-        {{ (h.progress * 100)|round(0)|int }}%{% else %}–{% endif %}</td>
+      <td style="min-width:150px">{% if h.progress is not none %}{% include "_bar.html" %}{% else %}<span class="muted">–</span>{% endif %}</td>
       <td class="{{ 'SELL' if h.guidance.startswith('SELL NOW') }}">{{ h.guidance }}</td>
     </tr>
     {% endfor %}
@@ -44,7 +43,8 @@
   <h2>{{ label }} <span class="muted">{{ cards[universe].day }}</span></h2>
   {% set buys = cards[universe].buy %}{% set watches = cards[universe].watch %}
   {% if not buys and not watches %}
-    <div class="muted">No BUY or WATCH today — the system says keep your money. That is a feature.</div>
+    <div class="empty"><span class="glyph">🌱</span><b>No BUY or WATCH today.</b><br>
+      The system says keep your money — patience is a position too.</div>
   {% endif %}
   {% for r in buys %}
     <div style="margin:.4rem 0"><span class="pill BUY">BUY</span>

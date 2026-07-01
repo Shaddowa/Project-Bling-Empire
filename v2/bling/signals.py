@@ -42,7 +42,9 @@ def stochastic_state(high: pd.Series, low: pd.Series, close: pd.Series) -> pd.Se
     percent_k = 100.0 * (close - lowest) / span
     percent_k_smooth = percent_k.rolling(STOCH_SMOOTH).mean()
     percent_d = percent_k_smooth.rolling(STOCH_SMOOTH).mean()
-    return percent_k_smooth > percent_d
+    # `NaN > NaN` silently evaluates to False, which would turn "no signal"
+    # into "bearish"; keep the NaN so tool_states().dropna() drops the row.
+    return (percent_k_smooth > percent_d).where(percent_k_smooth.notna() & percent_d.notna())
 
 
 def sma_state(close: pd.Series, window: int = FAST_SMA) -> pd.Series:

@@ -21,9 +21,12 @@ def _row(df: Optional[pd.DataFrame], *labels: str) -> Optional[pd.Series]:
         return None
     for label in labels:
         if label in df.index:
-            series = df.loc[label].dropna()
-            if isinstance(series, pd.DataFrame):  # duplicated label
-                series = series.iloc[0].dropna()
+            series = df.loc[label]
+            if isinstance(series, pd.DataFrame):  # duplicated label: most complete row wins
+                if series.empty:
+                    continue
+                series = series.iloc[int(series.notna().sum(axis=1).to_numpy().argmax())]
+            series = series.dropna()
             if not series.empty:
                 return series.sort_index()
     return None
@@ -112,12 +115,15 @@ def extract_fundamentals(bundle: TickerBundle) -> Fundamentals:
 
     roe = roic = None
     if net_income is not None and equity is not None:
-        aligned = pd.concat([net_income, equity], axis=1, keys=["ni", "eq"]).dropna()
+        # sort=True pinned: downstream .iloc[-1] means "latest year", so the
+        # aligned frame must stay chronological even when indexes differ
+        # (pandas 4 flips the concat default to sort=False).
+        aligned = pd.concat([net_income, equity], axis=1, keys=["ni", "eq"], sort=True).dropna()
         valid = aligned[aligned["eq"] > 0]
         if not valid.empty:
             roe = valid["ni"] / valid["eq"]
         if total_debt is not None:
-            with_debt = pd.concat([aligned, total_debt.rename("debt")], axis=1).dropna()
+            with_debt = pd.concat([aligned, total_debt.rename("debt")], axis=1, sort=True).dropna()
             with_debt = with_debt[(with_debt["eq"] + with_debt["debt"]) > 0]
             if not with_debt.empty:
                 roic = with_debt["ni"] / (with_debt["eq"] + with_debt["debt"])

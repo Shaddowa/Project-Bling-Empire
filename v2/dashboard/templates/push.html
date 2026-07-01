@@ -1,9 +1,10 @@
 {% extends "base.html" %}
 {% block title %}Push setup — Bling Empire{% endblock %}
 {% block content %}
+<h1 class="page">Push &amp; widget</h1>
 
 {% if tested %}
-<div class="card" style="border-color:var(--buy)">
+<div class="card" style="border-color:var(--good)">
   <b class="BUY">Test push sent.</b> <span class="muted">If your phone stayed silent, finish the steps below first, then test again.</span>
 </div>
 {% endif %}
@@ -28,9 +29,9 @@
   </ol>
   <div class="muted">Your topic (tap to copy):</div>
   <div style="margin:.5rem 0">
-    <code id="topic" onclick="navigator.clipboard.writeText(this.textContent);this.style.color='var(--buy)'"
+    <code id="topic" onclick="navigator.clipboard.writeText(this.textContent);this.style.color='var(--good)'"
           style="font-size:1.05rem;word-break:break-all;cursor:pointer;background:var(--bg);
-                 padding:.5rem .7rem;border-radius:8px;border:1px solid var(--line);display:block">{{ topic }}</code>
+                 padding:.5rem .7rem;border-radius:8px;border:1px solid var(--border);display:block">{{ topic }}</code>
   </div>
   <form method="post" action="/push/test" style="margin-top:.8rem">
     <button type="submit" style="width:100%">Send a test push now</button>

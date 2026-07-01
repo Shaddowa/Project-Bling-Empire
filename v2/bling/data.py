@@ -8,6 +8,7 @@ Yahoo again.
 from __future__ import annotations
 
 import pickle
+import threading
 import time
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
@@ -18,6 +19,13 @@ import pandas as pd
 import yfinance as yf
 
 CACHE_DIR = Path(__file__).resolve().parent.parent / "cache"
+# In-process memo over the pickle cache: (file mtime, bundle) per ticker, so
+# repeat requests in the dashboard skip disk + unpickle entirely. Small cap —
+# the server only ever touches holdings + a few viewed tickers; universe runs
+# just churn through it without growing memory.
+_MEMO_MAX = 64
+_memo: dict[str, tuple[float, "TickerBundle"]] = {}
+_memo_lock = threading.Lock()
 FUNDAMENTALS_TTL = timedelta(days=7)
 PRICES_TTL = timedelta(days=1)
 PRICE_HISTORY_PERIOD = "10y"
@@ -42,10 +50,24 @@ def _cache_path(ticker: str) -> Path:
     return CACHE_DIR / f"{ticker.replace('/', '_')}.pkl"
 
 
+def _memo_put(ticker: str, mtime: float, bundle: TickerBundle) -> None:
+    with _memo_lock:
+        _memo.pop(ticker, None)
+        _memo[ticker] = (mtime, bundle)
+        while len(_memo) > _MEMO_MAX:  # evict oldest insertion
+            _memo.pop(next(iter(_memo)))
+
+
 def _load_cached(ticker: str) -> Optional[TickerBundle]:
     path = _cache_path(ticker)
-    if not path.exists():
+    try:
+        mtime = path.stat().st_mtime
+    except OSError:
         return None
+    with _memo_lock:
+        hit = _memo.get(ticker)
+    if hit is not None and hit[0] == mtime:
+        return hit[1]
     try:
         with path.open("rb") as fh:
             bundle = pickle.load(fh)
@@ -53,13 +75,19 @@ def _load_cached(ticker: str) -> Optional[TickerBundle]:
         return None
     if not isinstance(bundle, TickerBundle):
         return None
+    _memo_put(ticker, mtime, bundle)
     return bundle
 
 
 def _save_cached(bundle: TickerBundle) -> None:
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
-    with _cache_path(bundle.ticker).open("wb") as fh:
+    path = _cache_path(bundle.ticker)
+    with path.open("wb") as fh:
         pickle.dump(bundle, fh)
+    try:
+        _memo_put(bundle.ticker, path.stat().st_mtime, bundle)
+    except OSError:
+        pass
 
 
 def fetch_bundle(ticker: str, max_age: timedelta = PRICES_TTL, retries: int = 3) -> TickerBundle:
