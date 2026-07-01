@@ -7,7 +7,7 @@
 <div class="card">
   <h2>Runway</h2>
   <div class="kpis">
-    <div><div class="muted">Liquid</div><div class="big">{{ "{:,.0f}".format(report.liquid) }} kr</div></div>
+    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards) }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid) }} − card {{ "{:,.0f}".format(report.credit_card_used) }}{% endif %}</div></div>
     <div><div class="muted">Net worth</div><div class="big">{{ "{:,.0f}".format(report.net_worth) }} kr</div></div>
     <div><div class="muted">Burn / month</div>
       <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn) }} kr</div></div>
@@ -109,9 +109,9 @@
   </table></div>
   <a href="/finances?edit=1"><button type="button" style="margin-top:.9rem;width:100%">✏️ Edit the numbers</button></a>
   <div class="muted" style="margin-top:.6rem">
-    Want DNB / DNB Spare / Bank Norwegian synced automatically? The scaffold is ready
-    (GoCardless open banking) — see <code>v2/bling/finance/bank.py</code>; it needs free API
-    credentials from <a class="ticker" href="https://bankaccountdata.gocardless.com">bankaccountdata.gocardless.com</a>.
+    Lines tagged <code>(bank)</code> sync automatically every morning (DNB + Bank Norwegian,
+    GoCardless). Card usage is a bill, not negative cash — the headline number is what's
+    yours after paying it. Consents renew ~every 90-180 days; you'll get a push when needed.
   </div>
 </div>
 {% else %}

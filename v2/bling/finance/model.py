@@ -87,6 +87,15 @@ class Finances:
         return self.total_cash + self.total_investments
 
     @property
+    def credit_card_used(self) -> float:
+        return sum(d.balance for d in self.debts if "credit card" in d.name.lower())
+
+    @property
+    def liquid_after_cards(self) -> float:
+        """What is actually ours once the card bills are paid."""
+        return self.liquid - self.credit_card_used
+
+    @property
     def net_worth(self) -> float:
         return self.liquid - self.total_debt
 
@@ -96,7 +105,7 @@ class Finances:
         burn = self.monthly_burn - extra_monthly_income - expense_cut
         if burn <= 0:
             return None
-        return self.liquid / burn
+        return self.liquid_after_cards / burn
 
     def required_income_for(self, target_months: float) -> float:
         """Extra monthly income needed so runway reaches target_months (0 if already there)."""
@@ -104,7 +113,7 @@ class Finances:
             return 0.0
         if target_months <= 0:
             return self.monthly_burn  # break even
-        needed_burn = self.liquid / target_months
+        needed_burn = self.liquid_after_cards / target_months
         return max(0.0, self.monthly_burn - needed_burn)
 
 
@@ -130,7 +139,7 @@ class TargetPlan:
 def build_targets(f: Finances) -> TargetPlan:
     breakeven = max(0.0, f.monthly_burn)
     target = breakeven * 1.10
-    investable = max(0.0, f.liquid - SAFETY_BUFFER_MONTHS * max(f.monthly_burn, 0.0))
+    investable = max(0.0, f.liquid_after_cards - SAFETY_BUFFER_MONTHS * max(f.monthly_burn, 0.0))
     portfolio_monthly = investable * PORTFOLIO_RETURN_ASSUMPTION / 12.0
     return TargetPlan(
         breakeven=breakeven,
@@ -144,6 +153,8 @@ def build_targets(f: Finances) -> TargetPlan:
 @dataclass
 class RunwayReport:
     liquid: float
+    credit_card_used: float
+    liquid_after_cards: float
     net_worth: float
     monthly_burn: float
     runway_months: Optional[float]
@@ -173,6 +184,8 @@ def build_report(f: Finances) -> RunwayReport:
 
     return RunwayReport(
         liquid=f.liquid,
+        credit_card_used=f.credit_card_used,
+        liquid_after_cards=f.liquid_after_cards,
         net_worth=f.net_worth,
         monthly_burn=f.monthly_burn,
         runway_months=round(base_runway, 1) if base_runway is not None else None,

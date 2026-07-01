@@ -190,7 +190,7 @@ def widget_api(live: int = 1):
         "updated": day,
         "generated_at": datetime.now().strftime("%H:%M"),
         "runway_months": report.runway_months,
-        "liquid": round(report.liquid),
+        "liquid": round(report.liquid_after_cards),
         "burn": round(report.monthly_burn),
         "income_target": round(targets.income_target),
         "buys": buys[:8],

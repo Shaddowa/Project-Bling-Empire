@@ -14,7 +14,7 @@ sys.path.insert(0, str(V2_ROOT))
 
 from bling.finance import store  # noqa: E402
 from bling.finance.bank import BankClient  # noqa: E402
-from bling.finance.model import LineItem  # noqa: E402
+from bling.finance.model import Debt, LineItem  # noqa: E402
 
 BANK_TAG = "(bank)"
 
@@ -39,12 +39,16 @@ def main() -> None:
                 per_account[b["account"]] = b
         finances = store.load()
         manual = [c for c in finances.cash if BANK_TAG not in c.name]
-        synced = []
+        synced, card_debts = [], []
         for b in per_account.values():
-            kind = " credit card" if b["amount"] < 0 else ""
-            synced.append(LineItem(f"{b['institution'].split('_')[0]}{kind} {b['account'][:6]} {BANK_TAG}",
-                                   b["amount"]))
+            label = f"{b['institution'].split('_')[0]} {b['account'][:6]} {BANK_TAG}"
+            if b["amount"] < 0:  # used credit is a bill, not negative cash
+                card_debts.append(Debt(f"{b['institution'].split('_')[0]} credit card {b['account'][:6]} {BANK_TAG}",
+                                       abs(b["amount"]), 0.0, 0.0))
+            else:
+                synced.append(LineItem(label, b["amount"]))
         finances.cash = manual + synced
+        finances.debts = [d for d in finances.debts if BANK_TAG not in d.name] + card_debts
         store.save(finances)
         for item in synced:
             print(f"{item.name:<44} {item.amount:>12,.0f}")

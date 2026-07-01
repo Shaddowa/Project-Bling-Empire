@@ -4,7 +4,7 @@
 <div class="card">
   <h2>Runway</h2>
   <div class="kpis">
-    <div><div class="muted">Liquid</div><div class="big">{{ "{:,.0f}".format(report.liquid) }} kr</div></div>
+    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards) }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid) }} − card {{ "{:,.0f}".format(report.credit_card_used) }}{% endif %}</div></div>
     <div><div class="muted">Burn / month</div>
       <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn) }} kr</div></div>
     <div><div class="muted">Runway</div>
