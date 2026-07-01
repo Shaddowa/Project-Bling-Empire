@@ -30,16 +30,25 @@ def main() -> None:
         link = client.create_requisition(sys.argv[2])
         print("Open this on your phone and approve in the bank:\n" + link)
     elif command == "sync":
-        balances = [b for b in client.balances() if b["type"] in ("expected", "interimAvailable", None)]
+        # One balance per account: prefer "expected" (the real position).
+        # "interimAvailable" on a credit card is the remaining credit LINE —
+        # not money — so it must never win.
+        per_account: dict = {}
+        for b in client.balances():
+            if b["type"] == "expected" or b["account"] not in per_account:
+                per_account[b["account"]] = b
         finances = store.load()
         manual = [c for c in finances.cash if BANK_TAG not in c.name]
-        synced = [LineItem(f"{b['institution']} {b['account'][:6]} {BANK_TAG}", b["amount"])
-                  for b in balances]
+        synced = []
+        for b in per_account.values():
+            kind = " credit card" if b["amount"] < 0 else ""
+            synced.append(LineItem(f"{b['institution'].split('_')[0]}{kind} {b['account'][:6]} {BANK_TAG}",
+                                   b["amount"]))
         finances.cash = manual + synced
         store.save(finances)
-        for b in balances:
-            print(f"{b['institution']:<24} {b['amount']:>12,.0f} {b['currency']}")
-        print(f"\n{len(synced)} bank balances written to finances.json")
+        for item in synced:
+            print(f"{item.name:<44} {item.amount:>12,.0f}")
+        print(f"\n{len(synced)} accounts written; manual lines kept: {[c.name for c in manual]}")
     else:
         print(__doc__)
 

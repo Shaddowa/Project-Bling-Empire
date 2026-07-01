@@ -100,6 +100,18 @@ def main() -> None:
                 "/swing",
             ))
 
+    # Bank balances: sync if connected; a failing consent gets one push per day.
+    if (V2_ROOT / "data" / "bank.json").exists():
+        import subprocess
+        import sys as _sys
+        result = subprocess.run([_sys.executable, str(V2_ROOT / "scripts" / "bank_sync.py"), "sync"],
+                                capture_output=True, text=True, cwd=V2_ROOT, timeout=600)
+        print("bank sync:", "ok" if result.returncode == 0 else result.stderr.strip()[-200:])
+        if result.returncode != 0 and any(code in result.stderr for code in ("401", "403", "409")):
+            pushes.append(("🏦 Bank consent needs renewal",
+                           "The daily balance sync was rejected — approve a fresh consent: "
+                           "python scripts/bank_sync.py connect <bank>", "/finances"))
+
     finances = store.load()
     for holding in finances.holdings:
         report = analyze_ticker(holding.ticker, max_age=timedelta(hours=12))

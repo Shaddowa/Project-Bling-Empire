@@ -58,11 +58,26 @@ class BankClient:
         return self._get(f"/institutions/?country={country}")
 
     def create_requisition(self, institution_id: str) -> str:
-        """Start a consent; returns the link Hanna opens to approve."""
+        """Start a consent; returns the link Hanna opens to approve.
+
+        Requests a 180-day agreement (the post-2023 PSD2 maximum) — banks
+        that only support 90 days silently fall back to 90."""
+        payload = {"redirect": "http://187.127.113.131:3400/finances",
+                   "institution_id": institution_id}
+        try:
+            agreement = requests.post(
+                f"{API}/agreements/enduser/", timeout=30,
+                headers={"Authorization": f"Bearer {self.token()}"},
+                json={"institution_id": institution_id, "access_valid_for_days": 180,
+                      "max_historical_days": 90,
+                      "access_scope": ["balances", "details", "transactions"]})
+            if agreement.ok:
+                payload["agreement"] = agreement.json()["id"]
+        except Exception:
+            pass  # default 90-day agreement
         response = requests.post(f"{API}/requisitions/", timeout=30,
                                  headers={"Authorization": f"Bearer {self.token()}"},
-                                 json={"redirect": "http://187.127.113.131:3400/finances",
-                                       "institution_id": institution_id})
+                                 json=payload)
         response.raise_for_status()
         data = response.json()
         self.config.setdefault("requisitions", {})[institution_id] = data["id"]
