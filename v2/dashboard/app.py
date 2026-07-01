@@ -104,10 +104,17 @@ async def require_login(request: Request, call_next):
 
 
 @app.get("/api/widget")
-def widget_api():
-    """Compact JSON for home-screen widgets: runway + today's actions."""
+def widget_api(live: int = 1):
+    """Everything a widget needs: runway, targets, positions (live quotes),
+    today's actions, swing count, market pulse."""
+    import json as _json
+    from datetime import datetime
+
+    from bling.pulse import live_quote, market_pulse
+
     finances = store.load()
     report = build_report(finances)
+    targets = build_targets(finances)
     buys, watch_count, day = [], 0, ""
     for universe in active_universes():
         day, rows = load_signals(universe)
@@ -115,24 +122,46 @@ def widget_api():
         watch_count += sum(1 for r in rows if r["ACTION"] == "WATCH")
     sells = []
     if (V2_ROOT / "data" / "notify_state.json").exists():
-        import json as _json
         guidance = _json.loads((V2_ROOT / "data" / "notify_state.json").read_text()).get("guidance", {})
         sells = [t for t, g in guidance.items() if g.startswith(("SELL", "TAKE PROFIT"))]
-    holdings = [{
-        "ticker": h["ticker"], "price": h["price"], "cost": h["cost"],
-        "stop": h["stop"], "target": h["target"], "progress": h["progress"],
-        "gain_pct": h["gain_pct"],
-        "stop_hit": bool(h["guidance"].startswith("SELL NOW")),
-    } for h in live_holdings(finances)]
+    swing_count = 0
+    if SWING_PATH.exists():
+        swing_count = len(_json.loads(SWING_PATH.read_text()).get("rows", []))
+
+    holdings = []
+    for h, holding in zip(live_holdings(finances), finances.holdings):
+        day_pct = None
+        if live:  # overlay a fresh quote on the cached daily analysis
+            price, day_pct = live_quote(h["ticker"])
+            if price:
+                h = dict(h)
+                h["price"] = round(price, 2)
+                if h["cost"]:
+                    h["gain_pct"] = round((price / h["cost"] - 1.0) * 100.0, 1)
+                if h["target"] and h["cost"] and h["target"] > h["cost"]:
+                    h["progress"] = round(max(0.0, min(1.0, (price - h["cost"]) / (h["target"] - h["cost"]))), 3)
+                if h["stop"] and price <= h["stop"]:
+                    h["guidance"] = f"SELL NOW (stop loss {h['stop']} hit)"
+        holdings.append({
+            "ticker": h["ticker"], "price": h["price"], "cost": h["cost"],
+            "stop": h["stop"], "target": h["target"], "target_kind": h.get("target_kind"),
+            "progress": h["progress"], "gain_pct": h["gain_pct"], "day_pct": day_pct,
+            "stop_hit": bool(h["guidance"].startswith("SELL NOW")),
+        })
+
     return {
         "updated": day,
+        "generated_at": datetime.now().strftime("%H:%M"),
         "runway_months": report.runway_months,
         "liquid": round(report.liquid),
         "burn": round(report.monthly_burn),
-        "buys": buys[:6],
+        "income_target": round(targets.income_target),
+        "buys": buys[:8],
         "watch_count": watch_count,
+        "swing_count": swing_count,
         "sell_alerts": sells[:4],
-        "holdings": holdings[:5],
+        "holdings": holdings[:6],
+        "markets": market_pulse() if live else [],
     }
 
 

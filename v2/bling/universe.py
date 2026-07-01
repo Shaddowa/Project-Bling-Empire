@@ -18,19 +18,19 @@ CONFIG_PATH = V2_ROOT / "data" / "config.json"
 
 # name -> (csv file, Yahoo screener region, display label, benchmark note)
 MARKETS: dict[str, dict] = {
-    "oslo":        {"file": "OSLO.csv",        "region": "no", "label": "Oslo Børs 🇳🇴"},
-    "sp500":       {"file": "SP500.csv",       "region": None, "label": "S&P 500 🇺🇸"},  # Wikipedia list
-    "sweden":      {"file": "SWEDEN.csv",      "region": "se", "label": "Stockholm 🇸🇪"},
-    "denmark":     {"file": "DENMARK.csv",     "region": "dk", "label": "Copenhagen 🇩🇰"},
-    "finland":     {"file": "FINLAND.csv",     "region": "fi", "label": "Helsinki 🇫🇮"},
-    "germany":     {"file": "GERMANY.csv",     "region": "de", "label": "Germany 🇩🇪"},
-    "uk":          {"file": "UK.csv",          "region": "gb", "label": "London 🇬🇧"},
-    "france":      {"file": "FRANCE.csv",      "region": "fr", "label": "Paris 🇫🇷"},
-    "netherlands": {"file": "NETHERLANDS.csv", "region": "nl", "label": "Amsterdam 🇳🇱"},
-    "canada":      {"file": "CANADA.csv",      "region": "ca", "label": "Toronto 🇨🇦"},
-    "japan":       {"file": "JAPAN.csv",       "region": "jp", "label": "Tokyo 🇯🇵"},
-    "hongkong":    {"file": "HONGKONG.csv",    "region": "hk", "label": "Hong Kong 🇭🇰"},
-    "australia":   {"file": "AUSTRALIA.csv",   "region": "au", "label": "Sydney 🇦🇺"},
+    "oslo":        {"file": "OSLO.csv",        "region": "no", "label": "Oslo Børs 🇳🇴", "index": "OBX.OL"},
+    "sp500":       {"file": "SP500.csv",       "region": None, "label": "S&P 500 🇺🇸", "index": "^GSPC"},  # Wikipedia list
+    "sweden":      {"file": "SWEDEN.csv",      "region": "se", "label": "Stockholm 🇸🇪", "index": "^OMX"},
+    "denmark":     {"file": "DENMARK.csv",     "region": "dk", "label": "Copenhagen 🇩🇰", "index": "^OMXC25"},
+    "finland":     {"file": "FINLAND.csv",     "region": "fi", "label": "Helsinki 🇫🇮", "index": "^OMXH25"},
+    "germany":     {"file": "GERMANY.csv",     "region": "de", "label": "Germany 🇩🇪", "index": "^GDAXI"},
+    "uk":          {"file": "UK.csv",          "region": "gb", "label": "London 🇬🇧", "index": "^FTSE"},
+    "france":      {"file": "FRANCE.csv",      "region": "fr", "label": "Paris 🇫🇷", "index": "^FCHI"},
+    "netherlands": {"file": "NETHERLANDS.csv", "region": "nl", "label": "Amsterdam 🇳🇱", "index": "^AEX"},
+    "canada":      {"file": "CANADA.csv",      "region": "ca", "label": "Toronto 🇨🇦", "index": "^GSPTSE"},
+    "japan":       {"file": "JAPAN.csv",       "region": "jp", "label": "Tokyo 🇯🇵", "index": "^N225"},
+    "hongkong":    {"file": "HONGKONG.csv",    "region": "hk", "label": "Hong Kong 🇭🇰", "index": "^HSI"},
+    "australia":   {"file": "AUSTRALIA.csv",   "region": "au", "label": "Sydney 🇦🇺", "index": "^AXJO"},
 }
 DEFAULT_ACTIVE = ["oslo", "sp500"]
 
