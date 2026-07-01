@@ -199,10 +199,12 @@ def push_test():
 
 @app.get("/finances", response_class=HTMLResponse)
 def finances_page(request: Request, saved: int = 0):
+    from bling.finance import transactions
     finances = store.load()
     return templates.TemplateResponse(request, "finances.html", {
         "f": finances, "report": build_report(finances), "saved": saved,
         "holdings": live_holdings(finances),
+        "tx": transactions.load(),
     })
 
 
