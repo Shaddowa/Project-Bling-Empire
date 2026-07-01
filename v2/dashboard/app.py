@@ -92,7 +92,7 @@ def logout():
 @app.middleware("http")
 async def require_login(request: Request, call_next):
     open_paths = {"/login", "/healthz", "/favicon.ico", "/apple-touch-icon.png", "/manifest.json"}
-    if request.url.path == "/api/widget":  # token-authed, not cookie-authed
+    if request.url.path in ("/api/widget", "/api/widget-script"):  # token-authed
         if not auth.verify_widget_token(request.query_params.get("token")):
             return JSONResponse({"error": "bad token"}, status_code=401)
         return await call_next(request)
@@ -101,6 +101,14 @@ async def require_login(request: Request, call_next):
             and not logged_in(request)):
         return RedirectResponse("/login", status_code=303)
     return await call_next(request)
+
+
+@app.get("/api/widget-script")
+def widget_script():
+    """The widget core, fetched by the on-phone loader on every run —
+    editing v2/widgets/bling-widget-core.js updates every widget."""
+    return FileResponse(V2_ROOT / "widgets" / "bling-widget-core.js",
+                        media_type="application/javascript")
 
 
 @app.get("/api/widget")
