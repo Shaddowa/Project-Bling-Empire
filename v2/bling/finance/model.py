@@ -98,6 +98,39 @@ class Finances:
         return max(0.0, self.monthly_burn - needed_burn)
 
 
+SAFETY_BUFFER_MONTHS = 12.0     # cash never to be invested: a year of burn
+PORTFOLIO_RETURN_ASSUMPTION = 0.12  # conservative vs the +23% backtest
+
+
+@dataclass
+class TargetPlan:
+    """How to reach break-even and beyond, split into honest components.
+
+    The portfolio contribution uses investable capital = liquid minus a
+    12-month safety buffer, at a conservative annual return — at small
+    capital this is deliberately humbling: the gap must close with income,
+    not with trading."""
+    breakeven: float                 # kr/mo that stops the bleed
+    target: float                    # break-even ++ (10% margin)
+    investable: float                # liquid - safety buffer
+    portfolio_monthly: float         # realistic kr/mo from investing it
+    income_target: float             # what must come from work/app/etc.
+
+
+def build_targets(f: Finances) -> TargetPlan:
+    breakeven = max(0.0, f.monthly_burn)
+    target = breakeven * 1.10
+    investable = max(0.0, f.liquid - SAFETY_BUFFER_MONTHS * max(f.monthly_burn, 0.0))
+    portfolio_monthly = investable * PORTFOLIO_RETURN_ASSUMPTION / 12.0
+    return TargetPlan(
+        breakeven=breakeven,
+        target=round(target),
+        investable=round(investable),
+        portfolio_monthly=round(portfolio_monthly),
+        income_target=round(max(0.0, target - portfolio_monthly)),
+    )
+
+
 @dataclass
 class RunwayReport:
     liquid: float

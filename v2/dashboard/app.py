@@ -18,7 +18,7 @@ sys.path.insert(0, str(V2_ROOT))
 
 from bling.engine import analyze_ticker  # noqa: E402
 from bling.finance import store  # noqa: E402
-from bling.finance.model import Debt, Holding, LineItem, build_report  # noqa: E402
+from bling.finance.model import Debt, Holding, LineItem, build_report, build_targets  # noqa: E402
 from bling.universe import MARKETS, TICKER_DIR, active_universes, load_config, save_config  # noqa: E402
 from dashboard import auth  # noqa: E402
 
@@ -169,6 +169,7 @@ def index(request: Request):
     return templates.TemplateResponse(request, "index.html", {
         "cards": cards, "labels": labels,
         "finances": finances, "report": report,
+        "targets": build_targets(finances),
         "holdings": live_holdings(finances),
     })
 
@@ -183,6 +184,24 @@ def signals(request: Request, universe: str, action: str = ""):
         "universe": universe, "label": label,
         "day": day, "rows": rows[:400], "action": action.upper(),
     })
+
+
+@app.get("/signals", response_class=HTMLResponse)
+def signals_hub(request: Request, mode: str = "long"):
+    if mode == "swing":
+        return swing(request)
+    if mode == "day":
+        return day_page(request)
+    labels = universe_labels()
+    cards = {}
+    for universe in labels:
+        day, rows = load_signals(universe)
+        cards[universe] = {
+            "day": day,
+            "buy": [r for r in rows if r["ACTION"] == "BUY"],
+            "watch": [r for r in rows if r["ACTION"] == "WATCH"],
+        }
+    return templates.TemplateResponse(request, "longterm.html", {"cards": cards, "labels": labels})
 
 
 @app.get("/swing", response_class=HTMLResponse)
@@ -276,11 +295,12 @@ def push_test():
 
 
 @app.get("/finances", response_class=HTMLResponse)
-def finances_page(request: Request, saved: int = 0):
+def finances_page(request: Request, saved: int = 0, edit: int = 0):
     from bling.finance import transactions
     finances = store.load()
     return templates.TemplateResponse(request, "finances.html", {
-        "f": finances, "report": build_report(finances), "saved": saved,
+        "f": finances, "report": build_report(finances), "saved": saved, "edit": edit,
+        "targets": build_targets(finances),
         "holdings": live_holdings(finances),
         "tx": transactions.load(),
     })

@@ -95,8 +95,12 @@ code { background:var(--surface-2); border-radius:6px; padding:.1rem .35rem; }
 </style>
 </head>
 <body>
-{% set nav = [("/", "Overview", "◎"), ("/swing", "Swing", "〰"), ("/day", "Day", "☀"),
+{% set nav = [("/", "Overview", "◎"), ("/signals", "Signals", "📈"),
               ("/markets", "Markets", "🌍"), ("/finances", "Finances", "🏦"), ("/push", "Push", "🔔")] %}
+{% set path = request.url.path %}
+{% macro is_active(href) -%}
+  {{- 'active' if (path == href) or (href == '/signals' and (path.startswith('/signals') or path.startswith('/ticker') or path in ('/swing', '/day'))) -}}
+{%- endmacro %}
 {% if request.url.path == "/login" %}<style>.sidebar,.tabbar{display:none!important} main{margin-left:0}</style>{% endif %}
 <aside class="sidebar">
   <div class="brand">
@@ -105,7 +109,7 @@ code { background:var(--surface-2); border-radius:6px; padding:.1rem .35rem; }
   </div>
   <nav class="nav">
     {% for href, label, ico in nav %}
-    <a href="{{ href }}" class="{{ 'active' if request.url.path == href }}"><span>{{ ico }}</span>{{ label }}</a>
+    <a href="{{ href }}" class="{{ is_active(href) }}"><span>{{ ico }}</span>{{ label }}</a>
     {% endfor %}
     <div class="spacer"></div>
     <a href="/logout">↩ Log out</a>
@@ -113,7 +117,7 @@ code { background:var(--surface-2); border-radius:6px; padding:.1rem .35rem; }
 </aside>
 <nav class="tabbar">
   {% for href, label, ico in nav %}
-  <a href="{{ href }}" class="{{ 'active' if request.url.path == href }}"><span class="ico">{{ ico }}</span>{{ label }}</a>
+  <a href="{{ href }}" class="{{ is_active(href) }}"><span class="ico">{{ ico }}</span>{{ label }}</a>
   {% endfor %}
 </nav>
 <main>{% block content %}{% endblock %}</main>

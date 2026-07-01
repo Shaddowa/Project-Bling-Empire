@@ -28,6 +28,22 @@
 </div>
 
 <div class="card">
+  <h2>Targets — the break-even++ plan</h2>
+  <div class="kpis">
+    <div><div class="muted">Target (break-even +10%)</div><div class="big">{{ "{:,.0f}".format(targets.target) }} kr/mo</div></div>
+    <div><div class="muted">Portfolio can realistically give</div><div class="big">{{ "{:,.0f}".format(targets.portfolio_monthly) }} kr/mo</div></div>
+    <div><div class="muted">Income target (work / app)</div><div class="big" style="color:var(--accent-ink)">{{ "{:,.0f}".format(targets.income_target) }} kr/mo</div></div>
+  </div>
+  <div class="muted" style="margin-top:.6rem;line-height:1.6">
+    Math: liquid {{ "{:,.0f}".format(report.liquid) }} − 12-month safety buffer =
+    <b>{{ "{:,.0f}".format(targets.investable) }} kr investable</b>, at a conservative 12%/yr ≈
+    {{ "{:,.0f}".format(targets.portfolio_monthly) }} kr/mo. The rest of the target must come from
+    income — at this capital size the portfolio compounds wealth, it does not pay bills. Every
+    +100 000 kr invested ≈ +1 000 kr/mo toward the target.
+  </div>
+</div>
+
+<div class="card">
   <h2>Where the burn number comes from</h2>
   <div class="scroll"><table>
     <tr><th>Money out / in</th><th style="text-align:right">kr / month</th></tr>
@@ -83,6 +99,22 @@
 </div>
 {% endif %}
 
+{% if not edit %}
+<div class="card">
+  <h2>Your numbers</h2>
+  <div class="scroll"><table>
+    {% for i in f.cash %}<tr><td>{{ i.name }}</td><td style="text-align:right">{{ "{:,.0f}".format(i.amount) }} kr</td></tr>{% endfor %}
+    {% for i in f.investments %}<tr><td>{{ i.name }}</td><td style="text-align:right">{{ "{:,.0f}".format(i.amount) }} kr</td></tr>{% endfor %}
+    {% for h in f.holdings %}<tr><td>{{ h.ticker }} ({{ h.shares|round(1) }} shares)</td><td class="muted" style="text-align:right">tracked live above</td></tr>{% endfor %}
+  </table></div>
+  <a href="/finances?edit=1"><button type="button" style="margin-top:.9rem;width:100%">✏️ Edit the numbers</button></a>
+  <div class="muted" style="margin-top:.6rem">
+    Want DNB / DNB Spare / Bank Norwegian synced automatically? The scaffold is ready
+    (GoCardless open banking) — see <code>v2/bling/finance/bank.py</code>; it needs free API
+    credentials from <a class="ticker" href="https://bankaccountdata.gocardless.com">bankaccountdata.gocardless.com</a>.
+  </div>
+</div>
+{% else %}
 <form method="post" action="/finances">
 
 <div class="card">
@@ -175,5 +207,6 @@
 
 <button type="submit" style="width:100%;margin-bottom:2rem">Save everything</button>
 </form>
+{% endif %}
 
 {% endblock %}

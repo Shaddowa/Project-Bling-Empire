@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}Signals — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Signals</h1>
+{% set mode = "long" %}{% include "_modetabs.html" %}
+
+<div class="card">
+  <h2>The mode</h2>
+  <div class="muted" style="line-height:1.6">
+    Weeks-to-years holds. BUY only when everything agrees: quality ≥ 60 (the Notion criteria),
+    price below margin of safety, all three timing tools bullish, above the 200-day trend.
+    Backtested +23%/yr with −26% worst drawdown — the engine's core, and where most of your
+    capital belongs. Sell guidance: 200-day trend break or price above sticker.
+  </div>
+</div>
+
+{% for universe, label in labels.items() %}
+<div class="card">
+  <h2>{{ label }} <span class="muted">{{ cards[universe].day }}</span></h2>
+  {% set buys = cards[universe].buy %}{% set watches = cards[universe].watch %}
+  {% if not buys and not watches %}
+    <div class="muted">No BUY or WATCH — keep your money. That is a feature.</div>
+  {% endif %}
+  {% for r in buys %}
+    <div style="margin:.4rem 0"><span class="pill BUY">BUY</span>
+      <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
+      {{ r["COMPANY"] }} — Q {{ r["QUALITY SCORE"] }}, {{ r["DISCOUNT TO STICKER %"] }}% below sticker</div>
+  {% endfor %}
+  {% for r in watches %}
+    <div style="margin:.4rem 0"><span class="pill WATCH">WATCH</span>
+      <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
+      {{ r["COMPANY"] }} — Q {{ r["QUALITY SCORE"] }}, waiting for timing</div>
+  {% endfor %}
+  <div class="muted" style="margin-top:.5rem">
+    <a class="ticker" href="/signals/{{ universe }}?action=FAIR">fair-priced</a> ·
+    <a class="ticker" href="/signals/{{ universe }}">full table</a>
+  </div>
+</div>
+{% endfor %}
+{% endblock %}
