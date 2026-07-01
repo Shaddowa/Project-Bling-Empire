@@ -49,13 +49,38 @@ class DividendResult:
     payout_ratio: Optional[float]
 
 
+MAX_PLAUSIBLE_YIELD = 0.25  # 25%+ "yield" is a data artifact, not a dividend
+
+
+def _normalized_yields(info: dict) -> tuple[Optional[float], Optional[float]]:
+    """yfinance unit trap: dividendYield is a PERCENT (4.62), while
+    trailingAnnualDividendYield is a FRACTION (0.0462). Normalize both to
+    fractions and drop implausible values instead of comparing garbage."""
+    forward = info.get("dividendYield")
+    forward = forward / 100.0 if forward else None
+    trailing = info.get("trailingAnnualDividendYield") or None
+    if forward is not None and not (0.0 < forward <= MAX_PLAUSIBLE_YIELD):
+        forward = None
+    if trailing is not None and not (0.0 < trailing <= MAX_PLAUSIBLE_YIELD):
+        trailing = None
+    return trailing, forward
+
+
+def _comparable_rates(info: dict) -> tuple[Optional[float], Optional[float]]:
+    """Cross-currency payers (Equinor declares USD, trades NOK) make the two
+    rate fields different units. Only compare when they're the same ballpark."""
+    trailing, forward = info.get("trailingAnnualDividendRate"), info.get("dividendRate")
+    if trailing and forward and not (0.25 <= forward / trailing <= 4.0):
+        trailing = None
+    return trailing, forward
+
+
 def assess_dividends(ticker: str, info: dict) -> DividendResult:
-    # yfinance reports yields as percentages (e.g. 4.62 for 4.62%).
-    trailing_yield = info.get("trailingAnnualDividendYield")
-    forward_yield = info.get("dividendYield")
+    trailing_yield, forward_yield = _normalized_yields(info)
+    trailing_rate, forward_rate = _comparable_rates(info)
     raw = (
         compare_forward_to_trailing(trailing_yield, forward_yield)
-        + compare_forward_to_trailing(info.get("trailingAnnualDividendRate"), info.get("dividendRate"))
+        + compare_forward_to_trailing(trailing_rate, forward_rate)
         + payout_ratio_score(info.get("payoutRatio"))
         + ex_date_score(info.get("exDividendDate"))
     )

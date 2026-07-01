@@ -12,7 +12,7 @@ from datetime import timedelta
 from .backtest import backtest_portfolio, format_metrics
 from .engine import QUALITY_THRESHOLD, analyze_ticker, analyze_universe
 from .report import reports_to_frame, write_reports
-from .universe import available_universes, load_universe
+from .universe import active_universes, available_universes, load_universe
 
 
 def cmd_run(args: argparse.Namespace) -> None:
@@ -100,7 +100,7 @@ def main() -> None:
     sub = parser.add_subparsers(dest="command", required=True)
 
     run = sub.add_parser("run", help="screen universes and write signal reports")
-    run.add_argument("--universe", nargs="+", default=["oslo"], choices=available_universes())
+    run.add_argument("--universe", nargs="+", default=active_universes(), choices=available_universes())
     run.add_argument("--limit", type=int, default=None, help="only the first N tickers (for testing)")
     run.add_argument("--max-age-days", type=int, default=1, help="reuse cached data younger than this")
     run.set_defaults(func=cmd_run)
@@ -111,7 +111,7 @@ def main() -> None:
     analyze.set_defaults(func=cmd_analyze)
 
     backtest = sub.add_parser("backtest", help="backtest the timing rules")
-    backtest.add_argument("--universe", nargs="+", default=["oslo"], choices=available_universes())
+    backtest.add_argument("--universe", nargs="+", default=active_universes(), choices=available_universes())
     backtest.add_argument("--tickers", nargs="+", default=None, help="explicit ticker list instead of a universe")
     backtest.add_argument("--limit", type=int, default=None)
     backtest.add_argument("--qualified-only", action="store_true",
@@ -120,8 +120,10 @@ def main() -> None:
     backtest.set_defaults(func=cmd_backtest)
 
     refresh = sub.add_parser("refresh-universe", help="regenerate ticker lists from live sources")
+    refresh.add_argument("names", nargs="*", default=None,
+                         help="markets to refresh (default: the active ones)")
     refresh.set_defaults(func=lambda args: __import__(
-        "bling.universe_refresh", fromlist=["refresh_all"]).refresh_all())
+        "bling.universe_refresh", fromlist=["refresh"]).refresh(args.names or active_universes()))
 
     args = parser.parse_args()
     args.func(args)

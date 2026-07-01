@@ -19,10 +19,15 @@ sys.path.insert(0, str(V2_ROOT))
 from bling.engine import analyze_ticker  # noqa: E402
 from bling.finance import store  # noqa: E402
 from bling.finance.model import Debt, Holding, LineItem, build_report  # noqa: E402
+from bling.universe import MARKETS, TICKER_DIR, active_universes, load_config, save_config  # noqa: E402
 from dashboard import auth  # noqa: E402
 
 OUTPUT_DIR = V2_ROOT / "output"
-UNIVERSE_LABELS = {"oslo": "Oslo Børs", "sp500": "S&P 500"}
+SWING_PATH = V2_ROOT / "data" / "swing.json"
+
+
+def universe_labels() -> dict[str, str]:
+    return {name: MARKETS[name]["label"] for name in active_universes()}
 
 app = FastAPI(title="Bling Empire", docs_url=None, redoc_url=None, openapi_url=None)
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
@@ -152,8 +157,9 @@ def manifest():
 def index(request: Request):
     finances = store.load()
     report = build_report(finances)
+    labels = universe_labels()
     cards = {}
-    for universe in UNIVERSE_LABELS:
+    for universe in labels:
         day, rows = load_signals(universe)
         cards[universe] = {
             "day": day,
@@ -161,7 +167,7 @@ def index(request: Request):
             "watch": [r for r in rows if r["ACTION"] == "WATCH"],
         }
     return templates.TemplateResponse(request, "index.html", {
-        "cards": cards, "labels": UNIVERSE_LABELS,
+        "cards": cards, "labels": labels,
         "finances": finances, "report": report,
         "holdings": live_holdings(finances),
     })
@@ -170,12 +176,72 @@ def index(request: Request):
 @app.get("/signals/{universe}", response_class=HTMLResponse)
 def signals(request: Request, universe: str, action: str = ""):
     day, rows = load_signals(universe)
+    label = MARKETS.get(universe, {}).get("label", universe)
     if action:
         rows = [r for r in rows if r["ACTION"] == action.upper()]
     return templates.TemplateResponse(request, "signals.html", {
-        "universe": universe, "label": UNIVERSE_LABELS.get(universe, universe),
+        "universe": universe, "label": label,
         "day": day, "rows": rows[:400], "action": action.upper(),
     })
+
+
+@app.get("/swing", response_class=HTMLResponse)
+def swing(request: Request):
+    import json as _json
+    rows, generated_at = [], None
+    if SWING_PATH.exists():
+        data = _json.loads(SWING_PATH.read_text())
+        generated_at = data.get("generated_at")
+        rows = [type("Row", (), {**r, "stats": type("S", (), r["stats"])() if r.get("stats") else None})()
+                for r in data.get("rows", [])]
+    return templates.TemplateResponse(request, "swing.html", {"rows": rows, "generated_at": generated_at})
+
+
+@app.get("/day", response_class=HTMLResponse)
+def day_page(request: Request):
+    from datetime import datetime
+
+    from bling.modes import day_view
+    finances = store.load()
+    shortlist = [h.ticker for h in finances.holdings]
+    if SWING_PATH.exists():
+        import json as _json
+        shortlist += [r["ticker"] for r in _json.loads(SWING_PATH.read_text()).get("rows", [])]
+    for universe in active_universes():
+        _, rows = load_signals(universe)
+        shortlist += [r["TICKER"] for r in rows if r["ACTION"] in ("BUY", "WATCH")]
+    seen: list[str] = []
+    for t in shortlist:
+        if t not in seen:
+            seen.append(t)
+    return templates.TemplateResponse(request, "day.html", {
+        "rows": day_view(seen, max_tickers=15),
+        "loaded_at": datetime.now().strftime("%H:%M UTC"),
+    })
+
+
+@app.get("/markets", response_class=HTMLResponse)
+def markets_page(request: Request, saved: int = 0):
+    counts = {}
+    for name, m in MARKETS.items():
+        path = TICKER_DIR / m["file"]
+        counts[name] = sum(1 for line in path.read_text().splitlines() if line.strip()) if path.exists() else 0
+    day = latest_output_dir()
+    has_signals = {name: bool(day and (day / f"signals_{name}.csv").exists()) for name in MARKETS}
+    return templates.TemplateResponse(request, "markets.html", {
+        "markets": MARKETS, "active": active_universes(),
+        "counts": counts, "has_signals": has_signals, "saved": saved,
+    })
+
+
+@app.post("/markets")
+async def markets_save(request: Request):
+    form = await request.form()
+    chosen = [name for name in form.getlist("active") if name in MARKETS]
+    config = load_config()
+    config["active_universes"] = chosen or ["oslo"]
+    save_config(config)
+    return RedirectResponse("/markets?saved=1", status_code=303)
 
 
 @app.get("/ticker/{symbol}", response_class=HTMLResponse)

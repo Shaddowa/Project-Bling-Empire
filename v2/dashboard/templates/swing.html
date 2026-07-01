@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block title %}Swing — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Swing setups <span class="muted">{{ generated_at or "" }}</span></h1>
+
+<div class="card">
+  <h2>The mode</h2>
+  <div class="muted" style="line-height:1.6">
+    Enter when MACD + stochastic + 10-day SMA all flip bullish in an uptrend (above the
+    200-day line); exit when all three flip bearish. Days-to-weeks holds. The columns show each
+    name's <b>own 2-year track record</b> with exactly these rules — trade the names where the
+    mode has actually worked, skip where it whipsaws. Fresh setups only (≤7 days old).
+  </div>
+</div>
+
+<div class="card">
+  <h2>Fresh three-tool BUYs in uptrends — {{ rows|length }} setups</h2>
+  {% if not rows %}<div class="muted">No fresh setups right now. That's the tools saying wait.</div>{% else %}
+  <div class="scroll"><table>
+    <tr><th>Ticker</th><th>Company</th><th>Price</th><th>Setup age</th>
+        <th>2y trades</th><th>Win rate</th><th>Avg trade</th><th>Rule 2y</th><th>Hold 2y</th></tr>
+    {% for r in rows %}
+    <tr>
+      <td><a class="ticker" href="/ticker/{{ r.ticker }}">{{ r.ticker }}</a></td>
+      <td>{{ (r.name or "")[:26] }}</td>
+      <td>{{ r.price }} {{ r.currency or "" }}</td>
+      <td>{{ r.signal_age }}d</td>
+      {% if r.stats %}
+      <td>{{ r.stats.trades }}</td>
+      <td class="{{ 'pos' if (r.stats.win_rate or 0) >= 0.5 else 'neg' }}">{{ "%.0f%%"|format(r.stats.win_rate * 100) if r.stats.win_rate is not none else "–" }}</td>
+      <td class="{{ 'pos' if (r.stats.avg_trade_return or 0) > 0 else 'neg' }}">{{ "%+.1f%%"|format(r.stats.avg_trade_return * 100) if r.stats.avg_trade_return is not none else "–" }}</td>
+      <td class="{{ 'pos' if (r.stats.strategy_return or 0) > 0 else 'neg' }}">{{ "%+.0f%%"|format(r.stats.strategy_return * 100) if r.stats.strategy_return is not none else "–" }}</td>
+      <td>{{ "%+.0f%%"|format(r.stats.hold_return * 100) if r.stats.hold_return is not none else "–" }}</td>
+      {% else %}<td colspan="5" class="muted">no history</td>{% endif %}
+    </tr>
+    {% endfor %}
+  </table></div>
+  {% endif %}
+  <div class="muted" style="margin-top:.6rem">
+    Refreshed with the daily screen. Portfolio-level truth: across ALL names this rule averaged
+    ~+13%/yr vs +23%/yr for the long-term hybrid — swing selectively, don't swing everything.
+  </div>
+</div>
+{% endblock %}

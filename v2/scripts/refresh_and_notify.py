@@ -18,16 +18,20 @@ from pathlib import Path
 V2_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(V2_ROOT))
 
+from dataclasses import asdict  # noqa: E402
+from datetime import datetime  # noqa: E402
+
 from bling.engine import analyze_ticker, analyze_universe  # noqa: E402
 from bling.finance import store  # noqa: E402
 from bling.finance.model import build_report  # noqa: E402
+from bling.modes import swing_scan  # noqa: E402
 from bling.notify import push  # noqa: E402
 from bling.report import reports_to_frame, write_reports  # noqa: E402
-from bling.universe import load_universe  # noqa: E402
+from bling.universe import active_universes, load_universe  # noqa: E402
 
 STATE_PATH = V2_ROOT / "data" / "notify_state.json"
+SWING_PATH = V2_ROOT / "data" / "swing.json"
 MAX_PUSHES = 4
-UNIVERSES = ["oslo", "sp500"]
 
 
 def load_state() -> dict:
@@ -48,8 +52,10 @@ def main() -> None:
     # ── 1-3. screen and diff ────────────────────────────────────────────
     new_actions: dict[str, str] = {}
     new_watches: list[str] = []
-    for universe in UNIVERSES:
+    all_tickers: list[str] = []
+    for universe in active_universes():
         tickers = load_universe(universe)
+        all_tickers += tickers
         print(f"screening {len(tickers)} in {universe}")
         reports = analyze_universe(tickers, progress=False)
         frame = reports_to_frame(reports)
@@ -66,6 +72,16 @@ def main() -> None:
                 ))
             elif r.action == "WATCH" and previous not in ("WATCH", "BUY"):
                 new_watches.append(r.ticker)
+
+    # Swing setups: computed here (cached bundles, no new fetches) so the
+    # /swing page loads instantly.
+    swing_rows = swing_scan(all_tickers)
+    SWING_PATH.write_text(json.dumps({
+        "generated_at": datetime.now().strftime("%Y-%m-%d %H:%M UTC"),
+        "rows": [{**{k: v for k, v in r.items() if k != "stats"},
+                  "stats": asdict(r["stats"]) if r["stats"] else None} for r in swing_rows],
+    }, indent=2))
+    print(f"swing setups: {len(swing_rows)}")
 
     finances = store.load()
     for holding in finances.holdings:

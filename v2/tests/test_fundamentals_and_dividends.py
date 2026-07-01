@@ -80,7 +80,8 @@ class TestDividendScore(unittest.TestCase):
     def test_full_house(self):
         recent_ex_date = (datetime.now(tz=timezone.utc) - timedelta(days=30)).timestamp()
         result = assess_dividends("DIV", {
-            "trailingAnnualDividendYield": 3.0, "dividendYield": 3.5,
+            # yfinance units: trailing yield is a FRACTION, forward is a PERCENT
+            "trailingAnnualDividendYield": 0.030, "dividendYield": 3.5,
             "trailingAnnualDividendRate": 4.0, "dividendRate": 4.5,
             "payoutRatio": 0.50, "exDividendDate": recent_ex_date,
         })
@@ -88,6 +89,20 @@ class TestDividendScore(unittest.TestCase):
 
     def test_no_dividend(self):
         self.assertEqual(assess_dividends("NODIV", {}).score, 0.0)
+
+    def test_cross_currency_rates_not_compared(self):
+        # Equinor-style: trailing rate in USD (1.52), forward in NOK (14.48).
+        result = assess_dividends("EQNR", {
+            "trailingAnnualDividendYield": 0.0048, "dividendYield": 4.62,
+            "trailingAnnualDividendRate": 1.52, "dividendRate": 14.48,
+        })
+        # yields: forward 0.0462 > trailing 0.0048 -> 4; rates: trailing dropped
+        # as unit-incompatible -> forward-only branch = 2. Total 6 -> score 6.
+        self.assertEqual(result.score, 6.0)
+
+    def test_implausible_yield_dropped(self):
+        result = assess_dividends("JUNK", {"trailingAnnualDividendYield": 0.80, "dividendYield": 90.0})
+        self.assertEqual(result.score, 0.0)
 
 
 if __name__ == "__main__":

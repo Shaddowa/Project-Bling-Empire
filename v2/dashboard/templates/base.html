@@ -9,57 +9,113 @@
 <link rel="manifest" href="/manifest.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Bling">
-<meta name="theme-color" content="#0b0e14">
+<meta name="theme-color" content="#f2ece0">
 <style>
-:root { --bg:#0b0e14; --card:#151a24; --line:#232b3b; --text:#e6e9f0; --dim:#8b94a7;
-        --buy:#34d399; --watch:#fbbf24; --fair:#94a3b8; --avoid:#f87171; --accent:#818cf8; }
+/* Editorial light theme — same family as Growth Hub (ochre) and Analytics
+   (teal); Bling's identity accent is money-green. */
+:root {
+  color-scheme: light;
+  --bg:#f2ece0; --surface:#ffffff; --surface-2:#ece4d4; --sidebar:#efe7d6;
+  --border:rgba(23,21,18,.10); --border-strong:rgba(23,21,18,.18);
+  --text:#171512; --muted:#6b6358;
+  --accent:#1e7d46; --accent-ink:#14582f; --accent-soft:rgba(30,125,70,.10);
+  --good:#0e9f6e; --warn:#b45309; --bad:#c2410c;
+  --radius:12px;
+  --shadow-soft:0 1px 2px rgba(23,21,18,.04),0 4px 14px rgba(23,21,18,.05);
+}
 * { box-sizing:border-box; }
-body { margin:0; background:var(--bg); color:var(--text);
-       font-family:-apple-system,'Segoe UI',Roboto,sans-serif; font-size:15px; }
-header { position:sticky; top:0; background:rgba(11,14,20,.92); backdrop-filter:blur(8px);
-         border-bottom:1px solid var(--line); padding:.7rem 1rem; display:flex; gap:1rem;
-         align-items:center; z-index:10; }
-header a { color:var(--dim); text-decoration:none; font-weight:600; font-size:.9rem; }
-header a.brand { color:var(--text); font-size:1rem; }
-header a.active, header a:active { color:var(--accent); }
-main { padding:1rem; max-width:1100px; margin:0 auto; }
-.card { background:var(--card); border:1px solid var(--line); border-radius:14px;
-        padding:1rem; margin-bottom:1rem; }
-.card h2 { margin:0 0 .6rem; font-size:.85rem; text-transform:uppercase;
-           letter-spacing:.06em; color:var(--dim); }
-.big { font-size:1.7rem; font-weight:700; }
+html, body { height:100%; }
+body { margin:0; background:var(--bg); color:var(--text); font-size:15px; line-height:1.5;
+       font-family:"DM Sans",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       -webkit-font-smoothing:antialiased; }
+a { color:inherit; text-decoration:none; }
+
+/* shell: fixed sidebar on desktop, bottom tab bar on phones */
+.sidebar { position:fixed; top:0; left:0; bottom:0; width:220px; background:var(--sidebar);
+           border-right:1px solid var(--border); padding:18px 12px; z-index:40;
+           display:flex; flex-direction:column; overflow-y:auto; }
+.brand { display:flex; align-items:center; gap:10px; padding:4px 8px 16px; }
+.brand img { width:28px; height:28px; border-radius:8px; box-shadow:var(--shadow-soft); }
+.brand-name { font-family:Fraunces,Georgia,ui-serif,serif; font-weight:600; font-size:16px; }
+.brand-sub { font-size:10px; color:var(--muted); text-transform:uppercase; letter-spacing:.12em; }
+.nav { display:flex; flex-direction:column; gap:2px; }
+.nav a { display:flex; gap:10px; align-items:center; padding:9px 10px; border-radius:10px;
+         color:var(--muted); font-weight:600; font-size:.92rem; }
+.nav a.active, .nav a:hover { background:var(--accent-soft); color:var(--accent-ink); }
+.nav .spacer { margin-top:auto; }
+main { margin-left:220px; padding:22px; max-width:1150px; }
+
+.tabbar { display:none; }
+@media (max-width:760px){
+  .sidebar { display:none; }
+  main { margin-left:0; padding:14px 12px calc(70px + env(safe-area-inset-bottom)); }
+  .tabbar { display:flex; position:fixed; left:0; right:0; bottom:0; z-index:40;
+            background:rgba(239,231,214,.96); backdrop-filter:blur(8px);
+            border-top:1px solid var(--border); padding:6px 4px calc(6px + env(safe-area-inset-bottom)); }
+  .tabbar a { flex:1; text-align:center; font-size:.62rem; font-weight:700; color:var(--muted);
+              display:flex; flex-direction:column; gap:2px; padding:4px 0; border-radius:8px; }
+  .tabbar a .ico { font-size:1.05rem; }
+  .tabbar a.active { color:var(--accent-ink); }
+}
+
+.card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius);
+        padding:1rem 1.1rem; margin-bottom:1rem; box-shadow:var(--shadow-soft); }
+.card h2 { margin:0 0 .6rem; font-size:.8rem; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); }
+.big { font-size:1.65rem; font-weight:700; font-variant-numeric:tabular-nums; }
 .kpis { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.8rem; }
-table { width:100%; border-collapse:collapse; font-size:.85rem; }
-th { text-align:left; color:var(--dim); font-weight:600; padding:.4rem .5rem;
-     border-bottom:1px solid var(--line); white-space:nowrap; }
-td { padding:.45rem .5rem; border-bottom:1px solid var(--line); white-space:nowrap; }
+h1.page { font-family:Fraunces,Georgia,ui-serif,serif; font-size:1.35rem; margin:.2rem 0 1rem; }
+
+table { width:100%; border-collapse:collapse; font-size:.86rem; font-variant-numeric:tabular-nums; }
+th { text-align:left; color:var(--muted); font-weight:600; padding:.4rem .5rem;
+     border-bottom:1px solid var(--border-strong); white-space:nowrap; font-size:.75rem;
+     text-transform:uppercase; letter-spacing:.04em; }
+td { padding:.5rem; border-bottom:1px solid var(--border); white-space:nowrap; }
+tr:hover td { background:var(--accent-soft); }
 .scroll { overflow-x:auto; -webkit-overflow-scrolling:touch; }
-.BUY{color:var(--buy);font-weight:700} .WATCH{color:var(--watch);font-weight:700}
-.FAIR{color:var(--fair)} .AVOID{color:var(--avoid)} .SELL{color:var(--avoid);font-weight:700}
-.HOLD{color:var(--fair)} .UNKNOWN{color:var(--dim)}
-.pos{color:var(--buy)} .neg{color:var(--avoid)}
-a.ticker { color:var(--accent); text-decoration:none; font-weight:600; }
-.pill { display:inline-block; padding:.15rem .55rem; border-radius:999px;
-        font-size:.75rem; font-weight:700; border:1px solid var(--line); }
-input,button { font:inherit; }
-input { background:var(--bg); color:var(--text); border:1px solid var(--line);
+
+.BUY{color:var(--good);font-weight:700} .WATCH{color:var(--warn);font-weight:700}
+.FAIR{color:var(--muted)} .AVOID{color:var(--bad)} .SELL{color:var(--bad);font-weight:700}
+.HOLD{color:var(--muted)} .UNKNOWN{color:var(--muted)}
+.pos{color:var(--good)} .neg{color:var(--bad)}
+a.ticker { color:var(--accent-ink); font-weight:700; }
+.pill { display:inline-block; padding:.12rem .55rem; border-radius:999px; font-size:.72rem;
+        font-weight:700; background:var(--surface-2); border:1px solid var(--border); }
+.muted { color:var(--muted); font-size:.84rem; }
+.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+@media (max-width:760px){ .grid2{grid-template-columns:1fr} }
+
+input,button,select { font:inherit; }
+input,select { background:var(--surface); color:var(--text); border:1px solid var(--border-strong);
         border-radius:8px; padding:.45rem .6rem; width:100%; }
 button { background:var(--accent); color:#fff; border:0; border-radius:10px;
-         padding:.6rem 1.2rem; font-weight:700; cursor:pointer; }
-.muted { color:var(--dim); font-size:.82rem; }
-.grid2 { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
-@media (max-width:720px){ .grid2{grid-template-columns:1fr} }
+         padding:.6rem 1.2rem; font-weight:700; cursor:pointer; box-shadow:var(--shadow-soft); }
+button:hover { background:var(--accent-ink); }
+code { background:var(--surface-2); border-radius:6px; padding:.1rem .35rem; }
+.switch { display:inline-flex; align-items:center; gap:.5rem; }
 </style>
 </head>
 <body>
-<header>
-  <a class="brand" href="/">💰 Bling</a>
-  <a href="/signals/oslo">Oslo</a>
-  <a href="/signals/sp500">S&amp;P</a>
-  <a href="/finances">Finances</a>
-  <a href="/push">Push</a>
-  <a href="/logout" style="margin-left:auto">Logout</a>
-</header>
+{% set nav = [("/", "Overview", "◎"), ("/swing", "Swing", "〰"), ("/day", "Day", "☀"),
+              ("/markets", "Markets", "🌍"), ("/finances", "Finances", "🏦"), ("/push", "Push", "🔔")] %}
+{% if request.url.path == "/login" %}<style>.sidebar,.tabbar{display:none!important} main{margin-left:0}</style>{% endif %}
+<aside class="sidebar">
+  <div class="brand">
+    <img src="/static/favicon.png" alt="">
+    <div><div class="brand-name">Bling Empire</div><div class="brand-sub">stock signals</div></div>
+  </div>
+  <nav class="nav">
+    {% for href, label, ico in nav %}
+    <a href="{{ href }}" class="{{ 'active' if request.url.path == href }}"><span>{{ ico }}</span>{{ label }}</a>
+    {% endfor %}
+    <div class="spacer"></div>
+    <a href="/logout">↩ Log out</a>
+  </nav>
+</aside>
+<nav class="tabbar">
+  {% for href, label, ico in nav %}
+  <a href="{{ href }}" class="{{ 'active' if request.url.path == href }}"><span class="ico">{{ ico }}</span>{{ label }}</a>
+  {% endfor %}
+</nav>
 <main>{% block content %}{% endblock %}</main>
 </body>
 </html>
