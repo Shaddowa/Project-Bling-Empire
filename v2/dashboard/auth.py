@@ -51,6 +51,21 @@ def issue_session() -> str:
     return f"{expiry}.{signature}"
 
 
+def widget_token() -> str:
+    """Long-lived read-only token for home-screen widgets (Scriptable)."""
+    auth = _load()
+    if "widget_token" not in auth:
+        auth["widget_token"] = secrets.token_urlsafe(24)
+        AUTH_PATH.write_text(json.dumps(auth))
+        AUTH_PATH.chmod(0o600)
+    return auth["widget_token"]
+
+
+def verify_widget_token(token: Optional[str]) -> bool:
+    auth = _load()
+    return bool(auth and token and hmac.compare_digest(token, auth.get("widget_token", "")))
+
+
 def verify_session(token: Optional[str]) -> bool:
     auth = _load()
     if auth is None or not token or "." not in token:

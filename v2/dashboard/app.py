@@ -105,11 +105,41 @@ def logout():
 @app.middleware("http")
 async def require_login(request: Request, call_next):
     open_paths = {"/login", "/healthz", "/favicon.ico", "/apple-touch-icon.png", "/manifest.json"}
+    if request.url.path == "/api/widget":  # token-authed, not cookie-authed
+        if not auth.verify_widget_token(request.query_params.get("token")):
+            return JSONResponse({"error": "bad token"}, status_code=401)
+        return await call_next(request)
     if (request.url.path not in open_paths
             and not request.url.path.startswith("/static/")
             and not logged_in(request)):
         return RedirectResponse("/login", status_code=303)
     return await call_next(request)
+
+
+@app.get("/api/widget")
+def widget_api():
+    """Compact JSON for home-screen widgets: runway + today's actions."""
+    finances = store.load()
+    report = build_report(finances)
+    buys, watch_count, day = [], 0, ""
+    for universe in active_universes():
+        day, rows = load_signals(universe)
+        buys += [r["TICKER"] for r in rows if r["ACTION"] == "BUY"]
+        watch_count += sum(1 for r in rows if r["ACTION"] == "WATCH")
+    sells = []
+    if (V2_ROOT / "data" / "notify_state.json").exists():
+        import json as _json
+        guidance = _json.loads((V2_ROOT / "data" / "notify_state.json").read_text()).get("guidance", {})
+        sells = [t for t, g in guidance.items() if g.startswith(("SELL", "TAKE PROFIT"))]
+    return {
+        "updated": day,
+        "runway_months": report.runway_months,
+        "liquid": round(report.liquid),
+        "burn": round(report.monthly_burn),
+        "buys": buys[:6],
+        "watch_count": watch_count,
+        "sell_alerts": sells[:4],
+    }
 
 
 @app.get("/healthz")
