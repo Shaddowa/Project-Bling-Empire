@@ -103,6 +103,35 @@ async def require_login(request: Request, call_next):
     return await call_next(request)
 
 
+@app.get("/widget-setup", response_class=HTMLResponse)
+def widget_setup(request: Request):
+    """The loader with the token pre-filled, copyable from the phone —
+    terminal copy-paste picks up prompt garbage; this doesn't."""
+    loader = (V2_ROOT / "widgets" / "bling-widget.js").read_text()
+    loader = loader.replace("PASTE_WIDGET_TOKEN_HERE", auth.widget_token())
+    body = f"""{{% extends "base.html" %}}
+{{% block title %}}Widget setup — Bling Empire{{% endblock %}}
+{{% block content %}}
+<h1 class="page">Widget setup</h1>
+<div class="card">
+  <h2>Paste-once loader (token already filled in)</h2>
+  <ol class="muted" style="line-height:1.9;padding-left:1.2rem">
+    <li>Tap the box — it copies everything.</li>
+    <li>Scriptable app → <b>+</b> → paste → name it <b>Bling</b>.</li>
+    <li>Home screen → long-press → add <b>Scriptable</b> widget → choose Bling.</li>
+    <li>Long-press the widget → Edit → <b>Parameter</b>: <code>brief</code>, <code>runway</code>,
+        <code>positions</code> or <code>signals</code>.</li>
+  </ol>
+  <pre id="code" onclick="navigator.clipboard.writeText(this.textContent).then(()=>this.style.borderColor='var(--good)')"
+       style="white-space:pre-wrap;word-break:break-all;font-size:.72rem;cursor:pointer;
+              background:var(--surface-2);border:2px solid var(--border);border-radius:10px;
+              padding:.8rem">{loader.replace("&", "&amp;").replace("<", "&lt;")}</pre>
+  <div class="muted">After this, widget improvements ship from the server automatically — you never paste again.</div>
+</div>
+{{% endblock %}}"""
+    return HTMLResponse(templates.env.from_string(body).render(request=request))
+
+
 @app.get("/api/widget-script")
 def widget_script():
     """The widget core, fetched by the on-phone loader on every run —
