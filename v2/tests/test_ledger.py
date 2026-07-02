@@ -13,6 +13,14 @@ from types import SimpleNamespace
 import pandas as pd
 
 from bling import ledger
+from bling.finance.model import Finances, LineItem
+
+# The trade tests below exercise the LEDGER, not the investment policy — give
+# every BUY a permissive, fully-offline policy context (huge investable, no
+# FX lookups, no cached-sticker reads) so the discipline layer stays out of
+# their way. Policy behavior has its own suite in test_policy.py.
+POLICY_OK = {"finances": Finances(cash=[LineItem("test stash", 100_000_000.0)]),
+             "prices": {}, "fx_rates": {}, "sticker_price": None}
 
 
 def fake_report(ticker="AAPL", action="BUY", price=100.0, sell_guidance="HOLD",
@@ -217,7 +225,8 @@ class TestSignalRecords(LedgerCase):
 class TestTradeRecords(LedgerCase):
     def test_record_trade_shape(self):
         record = ledger.record_trade("eqnr.ol", "buy", 10, 250.0, date="2026-07-01",
-                                     mode="longterm", note="first tranche", path=self.path)
+                                     mode="longterm", note="first tranche", path=self.path,
+                                     policy_context=POLICY_OK)
         self.assertEqual(record["kind"], "trade")
         self.assertEqual(record["ticker"], "EQNR.OL")
         self.assertEqual(record["side"], "BUY")
@@ -230,11 +239,12 @@ class TestTradeRecords(LedgerCase):
 
     def test_currency_inference_from_suffix(self):
         oslo = ledger.record_trade("KIT.OL", "BUY", 5, 40.0, date="2026-07-01",
-                                   path=self.path)
+                                   path=self.path, policy_context=POLICY_OK)
         tokyo = ledger.record_trade("7203.T", "BUY", 5, 2500.0, date="2026-07-01",
-                                    path=self.path)
+                                    path=self.path, policy_context=POLICY_OK)
         explicit = ledger.record_trade("SAP.DE", "BUY", 1, 180.0, date="2026-07-01",
-                                       currency="EUR", path=self.path)
+                                       currency="EUR", path=self.path,
+                                       policy_context=POLICY_OK)
         self.assertEqual(oslo["currency"], "NOK")
         self.assertEqual(tokyo["currency"], "JPY")
         self.assertEqual(explicit["currency"], "EUR")
@@ -251,7 +261,8 @@ class TestTradeRecords(LedgerCase):
         self.assertEqual(ledger.trades(path=self.path), [])
 
     def test_oversell_raises(self):
-        ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01", path=self.path)
+        ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01", path=self.path,
+                            policy_context=POLICY_OK)
         with self.assertRaises(ValueError):
             ledger.record_trade("AAPL", "SELL", 11, 120.0, date="2026-07-02", path=self.path)
         with self.assertRaises(ValueError):  # never bought at all
@@ -259,9 +270,9 @@ class TestTradeRecords(LedgerCase):
 
     def test_positions_fifo_partial_sell(self):
         ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01",
-                            currency="USD", path=self.path)
+                            currency="USD", path=self.path, policy_context=POLICY_OK)
         ledger.record_trade("AAPL", "BUY", 10, 110.0, date="2026-07-05",
-                            currency="USD", path=self.path)
+                            currency="USD", path=self.path, policy_context=POLICY_OK)
         ledger.record_trade("AAPL", "SELL", 15, 120.0, date="2026-07-10",
                             currency="USD", path=self.path)
         open_positions = ledger.positions(prices={"AAPL": 130.0}, path=self.path)
@@ -275,21 +286,23 @@ class TestTradeRecords(LedgerCase):
         self.assertEqual(position["unrealized_pnl"], 100.0)  # (130-110)*5
 
     def test_positions_without_price_degrades(self):
-        ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01", path=self.path)
+        ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01", path=self.path,
+                            policy_context=POLICY_OK)
         position = ledger.positions(prices={}, path=self.path)[0]
         self.assertIsNone(position["price"])
         self.assertIsNone(position["unrealized_pnl"])
         self.assertEqual(position["cost_value"], 1000.0)
 
     def test_fully_sold_position_disappears(self):
-        ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01", path=self.path)
+        ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01", path=self.path,
+                            policy_context=POLICY_OK)
         ledger.record_trade("AAPL", "SELL", 10, 120.0, date="2026-07-10", path=self.path)
         self.assertEqual(ledger.positions(prices={}, path=self.path), [])
 
     def test_performance_realized_fifo_and_win_rate(self):
         for ticker, buy, sell in (("WIN.OL", 100.0, 150.0), ("LOSE.OL", 100.0, 80.0)):
             ledger.record_trade(ticker, "BUY", 10, buy, date="2026-07-01",
-                                currency="NOK", path=self.path)
+                                currency="NOK", path=self.path, policy_context=POLICY_OK)
             ledger.record_trade(ticker, "SELL", 10, sell, date="2026-07-10",
                                 currency="NOK", path=self.path)
         report = ledger.performance(prices={}, index_closes={}, fx_rates={}, path=self.path)
@@ -301,7 +314,7 @@ class TestTradeRecords(LedgerCase):
 
     def test_performance_nok_conversion_and_fx_missing(self):
         ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01",
-                            currency="USD", path=self.path)
+                            currency="USD", path=self.path, policy_context=POLICY_OK)
         ledger.record_trade("AAPL", "SELL", 10, 110.0, date="2026-07-10",
                             currency="USD", path=self.path)
         report = ledger.performance(prices={}, index_closes={},
@@ -316,9 +329,11 @@ class TestTradeRecords(LedgerCase):
 
     def test_performance_unrealized_and_by_mode(self):
         ledger.record_trade("HOLD.OL", "BUY", 10, 100.0, date="2026-07-01",
-                            mode="longterm", currency="NOK", path=self.path)
+                            mode="longterm", currency="NOK", path=self.path,
+                            policy_context=POLICY_OK)
         ledger.record_trade("SWING.OL", "BUY", 10, 50.0, date="2026-07-02",
-                            mode="swing", currency="NOK", path=self.path)
+                            mode="swing", currency="NOK", path=self.path,
+                            policy_context=POLICY_OK)
         ledger.record_trade("SWING.OL", "SELL", 10, 55.0, date="2026-07-09",
                             currency="NOK", path=self.path)
         report = ledger.performance(prices={"HOLD.OL": 120.0}, index_closes={},
@@ -337,7 +352,7 @@ class TestTradeRecords(LedgerCase):
     def test_performance_vs_index(self):
         # Stock +20% while the index went +10% over the same window -> alpha +10pp.
         ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01",
-                            currency="USD", path=self.path)
+                            currency="USD", path=self.path, policy_context=POLICY_OK)
         ledger.record_trade("AAPL", "SELL", 10, 120.0, date="2026-07-31",
                             currency="USD", path=self.path)
         index = pd.Series([5000.0, 5250.0, 5500.0],
@@ -355,7 +370,7 @@ class TestTradeRecords(LedgerCase):
 
     def test_performance_vs_index_covers_open_lots(self):
         ledger.record_trade("AAPL", "BUY", 10, 100.0, date="2026-07-01",
-                            currency="USD", path=self.path)
+                            currency="USD", path=self.path, policy_context=POLICY_OK)
         index = pd.Series([5000.0, 5100.0],
                           index=pd.to_datetime(["2026-07-01", "2026-07-20"]))
         report = ledger.performance(prices={"AAPL": 105.0}, index_closes={"^GSPC": index},
@@ -367,7 +382,7 @@ class TestTradeRecords(LedgerCase):
 
     def test_performance_unpriced_open_position_reported(self):
         ledger.record_trade("MYSTERY.OL", "BUY", 5, 10.0, date="2026-07-01",
-                            currency="NOK", path=self.path)
+                            currency="NOK", path=self.path, policy_context=POLICY_OK)
         report = ledger.performance(prices={}, index_closes={}, fx_rates={},
                                     path=self.path)
         self.assertEqual(report["unpriced"], ["MYSTERY.OL"])
@@ -390,7 +405,7 @@ class TestMixedFile(LedgerCase):
                                     [swing_row()], date="2026-07-01",
                                     index_prices={"OBX.OL": 1400.0}, path=self.path)
         ledger.record_trade("KIT.OL", "BUY", 25, 40.0, date="2026-07-01",
-                            currency="NOK", path=self.path)
+                            currency="NOK", path=self.path, policy_context=POLICY_OK)
         self.assertEqual(len(ledger.signals(path=self.path)), 2)
         self.assertEqual(len(ledger.trades(path=self.path)), 1)
         self.assertEqual(len(ledger.positions(prices={}, path=self.path)), 1)

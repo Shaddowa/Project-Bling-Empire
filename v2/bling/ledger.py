@@ -378,10 +378,20 @@ def signals(status: Optional[str] = None, mode: Optional[str] = None,
 
 def record_trade(ticker: str, side: str, shares: float, price: float,
                  date=None, mode: str = "longterm", note: str = "",
-                 currency: Optional[str] = None, path: Path = LEDGER_PATH) -> dict:
+                 currency: Optional[str] = None, override: bool = False,
+                 policy_context: Optional[dict] = None,
+                 path: Path = LEDGER_PATH) -> dict:
     """Append one real trade. side is BUY/SELL; a SELL may not exceed the
     open FIFO position (typo protection — this is a personal ledger, not a
-    margin account). Currency: explicit > cached bundle info > suffix map."""
+    margin account). Currency: explicit > cached bundle info > suffix map.
+
+    Every BUY is checked against the investment policy (bling.policy) —
+    blocking violations raise PolicyViolationError unless override=True, and
+    an override stamps the ledger line with the rules it broke: accountability,
+    not prevention theater. `policy_context` kwargs are forwarded to
+    policy.check_trade (tests inject finances/prices/fx_rates/sticker_price).
+    SELLs are never policy-blocked — the policy never stops an exit.
+    """
     side = str(side).strip().upper()
     if side not in ("BUY", "SELL"):
         raise ValueError(f"side must be BUY or SELL, got {side!r}")
@@ -405,11 +415,25 @@ def record_trade(ticker: str, side: str, shares: float, price: float,
         currency = (bundle.info.get("currency") if bundle is not None and bundle.info
                     else None) or _SUFFIX_CURRENCY.get(_suffix(ticker))
 
+    policy_stamp: dict = {}
+    if side == "BUY":
+        from . import policy as _policy  # local import: policy imports ledger
+        blocking = [v for v in _policy.check_trade(
+            ticker, side, shares, price, date=date, currency=currency,
+            path=path, **(policy_context or {}),
+        ) if v["severity"] == "block"]
+        if blocking and not override:
+            raise _policy.PolicyViolationError(blocking)
+        if blocking:  # overridden — record that fact forever
+            policy_stamp = {"override": True,
+                            "policy_violations": [v["rule"] for v in blocking]}
+
     return _append({
         "kind": "trade", "id": f"trd-{uuid.uuid4().hex[:8]}",
         "ticker": ticker, "side": side, "shares": shares, "price": price,
         "date": _iso(date), "mode": mode, "note": note or "", "currency": currency,
         "recorded_at": datetime.now().isoformat(timespec="seconds"),
+        **policy_stamp,
     }, path)
 
 

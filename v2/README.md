@@ -94,11 +94,21 @@ Conclusions baked into the engine:
   screen, then push only *changes* to Hanna's phone via ntfy —
   new BUYs, sell-guidance changes on actual holdings, new WATCH names, and a
   monthly runway status). Unit files in `v2/deploy/`.
-- **Pages**: overview (runway + holdings guidance + BUY/WATCH), full signal tables,
-  per-ticker deep dive, and Finances — editable cash/income/expenses/debts/holdings
-  stored in gitignored `v2/data/finances.json`, with runway scenarios ("cut 10%",
-  "+10 000 kr/mo", …) and the number that matters: extra monthly income needed to
-  break even or to hold an 18-month runway.
+- **Pages**: overview (runway + holdings guidance, everything in the three-word
+  BUY / HOLD / SELL vocabulary), full signal tables, per-ticker deep dive, a
+  **Swing tab** (1–2-month trend rides: three-tool entry while price sits above
+  both the 50- and 200-day lines, exit after two consecutive closes below the
+  50-day SMA — ~37% win rate but winners run; each name shows its own 2-year
+  track record under exactly these rules, see `documentation-swing-retune.md`),
+  an intraday check, the **Ledger** (real trades + the engine's graded report
+  card + the enforced **investment policy**: max 5 positions, 25%-of-investable
+  position cap, never above sticker, stop-out cooldown, −10% drawdown breaker,
+  50% monthly deploy cap — BUYs that break policy are blocked unless explicitly
+  overridden, and overrides are stamped into the ledger), and Finances —
+  editable cash/income/expenses/debts/holdings stored in gitignored
+  `v2/data/finances.json`, with runway scenarios ("cut 10%", "+10 000 kr/mo", …)
+  and the number that matters: extra monthly income needed to break even or to
+  hold an 18-month runway.
 
 ## Notes for Norwegian investors
 
@@ -126,7 +136,10 @@ v2/bling/
   backtest.py      per-ticker + portfolio backtest vs buy & hold, after costs
   dividends.py     dividend score 0-10 (ported from v1)
   engine.py        orchestration + the action ladder
+  modes.py         swing (three-tool entry / 50-day exit, 1-2mo holds) + day view
+  ledger.py        real trades (FIFO) + graded signal records, all vs index
+  policy.py        the enforced investment policy (sizing/cooldown/breaker/caps)
   report.py        ranked CSV + HTML
   universe.py      ticker lists (data/tickers/*.csv) minus blacklists
-tests/             31 unit tests over the financial math and signal logic
+tests/             unit tests over the financial math, signals, ledger and policy
 ```

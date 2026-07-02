@@ -6,8 +6,49 @@
 
 {% if saved %}<div class="card" style="border-color:var(--good)"><b class="BUY">Trade recorded.</b>
 <span class="muted">Everything below is already recalculated.</span></div>{% endif %}
-{% if error %}<div class="card" style="border-color:var(--bad)"><b class="SELL">Not recorded:</b>
-<span class="muted">{{ error }}</span></div>{% endif %}
+{% if error %}<div class="card" style="border-color:var(--bad)">
+  <b class="SELL">{{ "Blocked by the investment policy:" if blocked else "Not recorded:" }}</b>
+  <span class="muted">{{ error }}</span>
+  {% if blocked %}<div class="muted" style="margin-top:.4rem">The rules exist for exactly this moment.
+  If you still want the trade, tick <b>Override policy</b> below and record again —
+  the override is written into the ledger, permanently.</div>{% endif %}
+</div>{% endif %}
+
+{# ── the investment policy: rules the app enforces, not advice ─────────── #}
+{% if policy %}
+<div class="card" {% if policy.buys_paused %}style="border-color:var(--warn)"{% endif %}>
+  <h2>{{ I.ic("gauge", 14) }} Investment policy —
+    {% if policy.cooldown_active %}<b class="SELL">buys paused (cooldown until {{ policy.cooldown_until }})</b>
+    {% elif policy.breaker_active %}<b class="SELL">buys paused (circuit breaker)</b>
+    {% else %}<b class="BUY">all clear</b>{% endif %}</h2>
+  <div class="kpis">
+    <div><div class="muted">Positions</div>
+      <div class="big">{{ policy.open_positions }}/{{ policy.max_open_positions }}</div>
+      <div class="muted">{{ policy.positions_left }} slot{{ "s" if policy.positions_left != 1 }} left</div></div>
+    <div><div class="muted">Max per position</div>
+      <div class="big">{{ "{:,.0f}".format(policy.max_position_nok).replace(",", " ") }} kr</div>
+      <div class="muted">25% of investable</div></div>
+    <div><div class="muted">Left to deploy this month</div>
+      <div class="big">{{ "{:,.0f}".format(policy.monthly_left_nok).replace(",", " ") }} kr</div>
+      <div class="muted">of {{ "{:,.0f}".format(policy.monthly_cap_nok).replace(",", " ") }} kr cap</div></div>
+    <div><div class="muted">Open book</div>
+      <div class="big {{ 'neg' if (policy.drawdown_pct or 0) < 0 else 'pos' }}">{% if policy.drawdown_pct is not none %}{{ "%+.1f%%"|format(policy.drawdown_pct) }}{% else %}–{% endif %}</div>
+      <div class="muted">breaker at −10%</div></div>
+  </div>
+  {% if policy.cooldown_active %}
+  <div class="muted" style="margin-top:.6rem">🧊 Two stop-outs inside 20 days — the system buys
+    nothing while you would be revenge-trading. Buys resume after {{ policy.cooldown_until }}.</div>
+  {% elif policy.breaker_active %}
+  <div class="muted" style="margin-top:.6rem">⛔ Open positions are past the −10% breaker —
+    no new buys until the book recovers. Stops still protect every position.</div>
+  {% endif %}
+  <details style="margin-top:.6rem"><summary class="muted" style="cursor:pointer">The rules (your numbers, enforced on every BUY)</summary>
+    <ul class="muted" style="line-height:1.8;padding-left:1.2rem;margin:.4rem 0 0">
+      {% for rule in policy.rules %}<li>{{ rule }}</li>{% endfor %}
+    </ul>
+  </details>
+</div>
+{% endif %}
 
 {# ── P&L headline ─────────────────────────────────────────────────────── #}
 <div class="card">
@@ -67,8 +108,14 @@
         <td data-l="Note"><input name="note" placeholder="optional"></td>
       </tr></tbody>
     </table></div>
-    <button type="submit" style="margin-top:.7rem">Record trade</button>
-    <span class="muted" style="margin-left:.6rem">Sells match your oldest shares first (FIFO); you can't oversell a position.</span>
+    <div style="margin-top:.7rem;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap">
+      <button type="submit">Record trade</button>
+      <label class="muted" style="cursor:pointer"><input type="checkbox" name="override"
+        {% if blocked %}style="outline:2px solid var(--warn)"{% endif %}>
+        Override policy <span style="opacity:.75">(recorded in the ledger, forever)</span></label>
+      <span class="muted">Sells match your oldest shares first (FIFO); you can't oversell a position.
+        BUYs are checked against the investment policy above.</span>
+    </div>
   </form>
 </div>
 
@@ -179,7 +226,8 @@
       <td data-l=""><a class="ticker" href="/ticker/{{ t.ticker }}">{{ t.ticker }}</a></td>
       <td data-l="Shares">{{ t.shares }}</td>
       <td data-l="Price">{{ t.price }} {{ t.currency or "" }}</td>
-      <td data-l="Note" class="muted">{{ t.note }}</td>
+      <td data-l="Note" class="muted">{% if t.override %}<b class="WATCH">⚠ policy override
+        ({{ (t.policy_violations or [])|join(", ") }})</b> {% endif %}{{ t.note }}</td>
     </tr>
     {% endfor %}
     </tbody>

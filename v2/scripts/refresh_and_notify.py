@@ -91,16 +91,26 @@ def main() -> None:
     }, indent=2))
     print(f"swing setups: {len(swing_rows)}")
     if prefs["swing_buy"]:
-        # Only proven names (win rate >= 60% over 2y) make the push — the full
-        # list lives on /swing. Grouped into one notification.
+        # Only proven names make the push — the full list lives on /swing.
+        # The 1–2-month rule is trend-following (~37% win rate, winners run),
+        # so "proven" means the rule MADE MONEY on the name over 2y (positive
+        # avg trade net of costs, or it beat holding the same name) — a 60%
+        # win-rate bar would mute nearly every push under this profile.
+        def proven_stats(stats) -> bool:
+            if not stats:
+                return False
+            if (stats.avg_trade_return or 0) > 0:
+                return True
+            return (stats.strategy_return is not None and stats.hold_return is not None
+                    and stats.strategy_return > stats.hold_return)
+
         proven = [r["ticker"] for r in swing_rows
-                  if r["ticker"] not in previous_swing
-                  and r["stats"] and (r["stats"].win_rate or 0) >= 0.6]
+                  if r["ticker"] not in previous_swing and proven_stats(r["stats"])]
         if proven:
             pushes.append((
                 f"〰 Swing setups: {', '.join(proven[:8])}",
-                "Fresh three-tool BUYs on names where the rule historically won ≥60% of trades. "
-                "Details + track records on /swing.",
+                "Fresh 1–2 month trend entries on names where the rule historically "
+                "made money net of costs. Track records on /swing.",
                 "/swing",
             ))
 
@@ -146,10 +156,50 @@ def main() -> None:
     except Exception as error:
         print(f"ledger update failed: {error}")
 
+    # ── investment policy: push ONCE when cooldown/breaker flips ────────
+    # (state in notify_state.json — a pause that is already known stays quiet)
+    try:
+        from bling import policy
+        status = policy.policy_status(finances=finances)
+        previous_policy = state.get("policy", {})
+        if status["cooldown_active"] and \
+                previous_policy.get("cooldown_until") != status["cooldown_until"]:
+            pushes.insert(0, (
+                f"🧊 Cooldown active until {status['cooldown_until']}",
+                "Two stop-outs inside 20 days — the system buys nothing while you "
+                "would be revenge-trading. Sells and stops still work; buys resume "
+                f"after {status['cooldown_until']}.",
+                "/ledger",
+            ))
+        if status["breaker_active"] and not previous_policy.get("breaker_active"):
+            drawdown = status.get("drawdown_pct")
+            pushes.insert(0, (
+                "⛔ Circuit breaker: new buys paused",
+                (f"Open positions are down {abs(drawdown):.1f}% — past the −10% line. "
+                 if drawdown is not None else "Open positions are past the −10% line. ")
+                + "No new buys until the book recovers; stops protect every position.",
+                "/ledger",
+            ))
+        elif previous_policy.get("breaker_active") and not status["breaker_active"]:
+            pushes.append((
+                "✅ Circuit breaker off",
+                "The open book recovered above −10% — the policy allows new buys again.",
+                "/ledger",
+            ))
+        state["policy"] = {"cooldown_active": status["cooldown_active"],
+                           "cooldown_until": status["cooldown_until"],
+                           "breaker_active": status["breaker_active"]}
+        print(f"policy: cooldown={status['cooldown_active']} "
+              f"breaker={status['breaker_active']} "
+              f"deployed {status['monthly_deployed_nok']}/{status['monthly_cap_nok']} kr")
+    except Exception as error:
+        print(f"policy check failed: {error}")
+
     if new_watches and prefs["watch"]:
         pushes.append((
             f"👀 New on the shopping list: {', '.join(new_watches[:5])}",
-            "Right company, right price — waiting for the timing tools to confirm.",
+            "HOLD for now — right company, right price. Each flips to BUY the day "
+            "the timing tools confirm; no action needed today.",
             "/",
         ))
 

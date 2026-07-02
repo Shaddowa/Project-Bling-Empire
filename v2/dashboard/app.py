@@ -192,8 +192,9 @@ def _event_phrase(ticker: str, ev: dict) -> str | None:
 
 
 def overview_summary(report, buys: list[str], sell_rows: list[dict],
-                     swing_count: int, events: dict) -> str:
-    """1-2 plain sentences that summarize the whole dashboard, from data."""
+                     swing_count: int, events: dict, policy: dict | None = None) -> str:
+    """1-2 plain sentences that summarize the whole dashboard, from data.
+    An active policy pause (cooldown/breaker) leads — it overrides buy talk."""
     runway = "runway ∞" if report.runway_months is None else f"runway {report.runway_months} months"
     actions = []
     if buys:
@@ -214,7 +215,16 @@ def overview_summary(report, buys: list[str], sell_rows: list[dict],
         second = _event_phrase(phrases[0][1], phrases[0][2]) or ""
     elif swing_count:
         second = f"{swing_count} swing setups are waiting on the Swing tab."
-    return (first + " " + second).strip()
+    lead = ""
+    if policy and policy.get("cooldown_active"):
+        lead = (f"🧊 Cooldown until {policy.get('cooldown_until')} — two stop-outs in "
+                "quick succession, so the policy pauses new buys. ")
+    elif policy and policy.get("breaker_active"):
+        drawdown = policy.get("drawdown_pct")
+        lead = (f"⛔ Circuit breaker on — open positions are down "
+                f"{abs(drawdown):.0f}%, new buys pause until the book recovers. "
+                if drawdown is not None else "⛔ Circuit breaker on — new buys paused. ")
+    return (lead + first + " " + second).strip()
 
 
 # ── auth ─────────────────────────────────────────────────────────────────
@@ -487,8 +497,13 @@ def index(request: Request):
         if verdict == "SELL" or h["ticker"] in earnings_soon:
             attention.append(h)
 
+    try:  # policy pause states lead the brief; never break the overview
+        from bling import policy as P
+        policy_state = P.policy_status(finances=finances)
+    except Exception:
+        policy_state = None
     summary = overview_summary(report, [r["TICKER"] for r in buy_rows],
-                               sell_rows, swing_count, events)
+                               sell_rows, swing_count, events, policy=policy_state)
     return templates.TemplateResponse(request, "index.html", {
         "summary": summary, "day": day,
         "finances": finances, "report": report,
@@ -661,10 +676,11 @@ def _signal_report_card(closed: list[dict]) -> dict:
 
 
 @app.get("/ledger", response_class=HTMLResponse)
-def ledger_page(request: Request, saved: int = 0, error: str = ""):
+def ledger_page(request: Request, saved: int = 0, error: str = "", blocked: int = 0):
     from datetime import date as _date
 
     from bling import ledger as L
+    from bling import policy as P
     from bling.pulse import live_quote
 
     # fresh quotes for open positions (cache closes can be a day old)
@@ -685,8 +701,13 @@ def ledger_page(request: Request, saved: int = 0, error: str = ""):
     open_signals = L.signals(status="open")
     closed_signals = L.signals(status="closed")
     trade_rows = list(reversed(L.trades()))
+    try:  # the policy card degrades to None; the ledger page never 500s on it
+        policy_state = P.policy_status(finances=store.load(), prices=prices or None)
+    except Exception:
+        policy_state = None
     return templates.TemplateResponse(request, "ledger.html", {
-        "saved": saved, "error": error,
+        "saved": saved, "error": error, "blocked": blocked,
+        "policy": policy_state,
         "positions": positions, "perf": perf,
         "open_signals": open_signals[:60], "closed_signals": closed_signals[:60],
         "signal_card": _signal_report_card(closed_signals),
@@ -699,6 +720,7 @@ async def ledger_add_trade(request: Request):
     from urllib.parse import quote
 
     from bling import ledger as L
+    from bling.policy import PolicyViolationError
     form = await request.form()
 
     def clean_number(name: str) -> float:
@@ -713,7 +735,11 @@ async def ledger_add_trade(request: Request):
             date=str(form.get("date") or "").strip() or None,
             mode=str(form.get("mode") or "longterm"),
             note=str(form.get("note") or "").strip(),
+            override=form.get("override") == "on",
         )
+    except PolicyViolationError as err:  # policy said no and override was unticked
+        return RedirectResponse(f"/ledger?error={quote(str(err))}&blocked=1",
+                                status_code=303)
     except (ValueError, TypeError) as err:
         return RedirectResponse(f"/ledger?error={quote(str(err))}", status_code=303)
     return RedirectResponse("/ledger?saved=1", status_code=303)
