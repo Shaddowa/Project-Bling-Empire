@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "_icons.html" as I %}
 {% block title %}Swing — Bling Empire{% endblock %}
 {% block content %}
 <h1 class="page">Signals</h1>
@@ -7,42 +8,55 @@
 <div class="card">
   <h2>The mode</h2>
   <div class="muted" style="line-height:1.6">
-    Enter when MACD + stochastic + 10-day SMA all flip bullish in an uptrend (above the
-    200-day line); exit when all three flip bearish. Days-to-weeks holds. The columns show each
-    name's <b>own 2-year track record</b> with exactly these rules — trade the names where the
-    mode has actually worked, skip where it whipsaws. Fresh setups only (≤7 days old).
+    Enter when MACD + stochastic + 10-day SMA all flip bullish <b>while price sits above both the
+    50-day and 200-day lines</b> (an established uptrend); exit after <b>two consecutive closes
+    below the 50-day SMA</b>. Typical holds run <b>1–2 months</b>. This is trend-following: it wins
+    only ~37% of trades but lets the winners run — backtested ~+14%/yr net of costs (Sharpe ~1.0)
+    across the whole universe. The columns show each name's <b>own 2-year track record</b> under
+    exactly these rules — trade the names where the mode has actually worked, skip where it
+    whipsaws. Fresh setups only (≤7 days old).
   </div>
 </div>
 
 <div class="card">
   <h2>Fresh three-tool BUYs in uptrends — {{ rows|length }} setups</h2>
   {% if not rows %}
-  <div class="empty"><span class="glyph">〰</span><b>No fresh setups right now.</b><br>
+  <div class="empty"><span class="glyph">{{ I.ic("waves", 26) }}</span><b>No fresh setups right now.</b><br>
     That's the three tools saying wait — the edge is in only trading when they agree.</div>
   {% else %}
-  <div class="scroll"><table>
+  <div class="scroll"><table class="cards">
+    <thead>
     <tr><th>Ticker</th><th>Company</th><th>Price</th><th>Setup age</th>
-        <th>2y trades</th><th>Win rate</th><th>Avg trade</th><th>Rule 2y</th><th>Hold 2y</th></tr>
+        <th>2y trades</th><th>Win rate</th><th>Avg hold</th><th>Avg trade</th><th>Rule 2y</th><th>Hold 2y</th></tr>
+    </thead>
+    <tbody>
     {% for r in rows %}
     <tr>
-      <td><a class="ticker" href="/ticker/{{ r.ticker }}">{{ r.ticker }}</a></td>
-      <td>{{ (r.name or "")[:26] }}</td>
-      <td>{{ r.price }} {{ r.currency or "" }}</td>
-      <td>{{ r.signal_age }}d</td>
+      <td data-l=""><a class="ticker" href="/ticker/{{ r.ticker }}">{{ r.ticker }}</a></td>
+      <td data-l="Company">{{ (r.name or "")[:26] }}</td>
+      <td data-l="Price">{{ r.price }} {{ r.currency or "" }}</td>
+      <td data-l="Setup age">{{ r.signal_age }}d</td>
       {% if r.stats %}
-      <td>{{ r.stats.trades }}</td>
-      <td class="{{ 'pos' if (r.stats.win_rate or 0) >= 0.5 else 'neg' }}">{{ "%.0f%%"|format(r.stats.win_rate * 100) if r.stats.win_rate is not none else "–" }}</td>
-      <td class="{{ 'pos' if (r.stats.avg_trade_return or 0) > 0 else 'neg' }}">{{ "%+.1f%%"|format(r.stats.avg_trade_return * 100) if r.stats.avg_trade_return is not none else "–" }}</td>
-      <td class="{{ 'pos' if (r.stats.strategy_return or 0) > 0 else 'neg' }}">{{ "%+.0f%%"|format(r.stats.strategy_return * 100) if r.stats.strategy_return is not none else "–" }}</td>
-      <td>{{ "%+.0f%%"|format(r.stats.hold_return * 100) if r.stats.hold_return is not none else "–" }}</td>
-      {% else %}<td colspan="5" class="muted">no history</td>{% endif %}
+      <td data-l="2y trades">{{ r.stats.trades }}</td>
+      <td data-l="Win rate" class="{{ 'pos' if (r.stats.win_rate or 0) >= 0.5 else 'neg' }}">{{ "%.0f%%"|format(r.stats.win_rate * 100) if r.stats.win_rate is not none else "–" }}</td>
+      <td data-l="Avg hold">{{ "%.0fd"|format(r.stats.avg_hold_days) if (r.stats.avg_hold_days is defined and r.stats.avg_hold_days) else "–" }}</td>
+      <td data-l="Avg trade" class="{{ 'pos' if (r.stats.avg_trade_return or 0) > 0 else 'neg' }}">{{ "%+.1f%%"|format(r.stats.avg_trade_return * 100) if r.stats.avg_trade_return is not none else "–" }}</td>
+      <td data-l="Rule 2y" class="{{ 'pos' if (r.stats.strategy_return or 0) > 0 else 'neg' }}">{{ "%+.0f%%"|format(r.stats.strategy_return * 100) if r.stats.strategy_return is not none else "–" }}</td>
+      <td data-l="Hold 2y">{{ "%+.0f%%"|format(r.stats.hold_return * 100) if r.stats.hold_return is not none else "–" }}</td>
+      {% else %}<td data-l="" colspan="6" class="muted">no history</td>{% endif %}
     </tr>
     {% endfor %}
+    </tbody>
   </table></div>
   {% endif %}
   <div class="muted" style="margin-top:.6rem">
-    Refreshed with the daily screen. Portfolio-level truth: across ALL names this rule averaged
-    ~+13%/yr vs +23%/yr for the long-term hybrid — swing selectively, don't swing everything.
+    Refreshed with the daily screen. Low win rates are normal here — the profile is many small
+    scratches plus a few big trend rides. Portfolio-level truth: this rule backtested ~+14%/yr
+    vs +23%/yr for the long-term hybrid — swing selectively, don't swing everything.
   </div>
+</div>
+
+<div class="muted" style="margin:.2rem .2rem 1rem">
+  {{ I.ic("activity", 13) }} Timing a planned entry/exit? <a class="ticker" href="/day">intraday check →</a>
 </div>
 {% endblock %}

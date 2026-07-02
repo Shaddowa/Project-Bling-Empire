@@ -2,9 +2,14 @@
 
   LONG-TERM  - the engine's core: quality + margin-of-safety + hybrid timing
                (engine.py). Weeks-to-years holding period.
-  SWING      - three-tool composite in AND out, trend-filtered. Days-to-weeks.
+  SWING      - three-tool ENTRY, 50-day-line EXIT. Enter on a three-tool BUY
+               in an uptrend (above the 200-day SMA) while price is above the
+               50-day SMA; exit after TWO consecutive closes below the 50-day
+               SMA. Holds ~1-2 months (avg ~30 trading days in the 2026-07
+               retune — see documentation-swing-retune.md). Exiting on
+               three-tool flips (the old rule) held ~11 days and earned less.
                Every candidate carries ITS OWN 2-year backtest stats, because
-               the tools whipsaw on some names and work on others — the table
+               the rule whipsaws on some names and works on others — the table
                shows on which names the mode has actually paid.
   DAY        - intraday dashboard for a shortlist: opening range, VWAP,
                15-minute momentum. Decision support for entries/exits within
@@ -24,21 +29,39 @@ import yfinance as yf
 from .data import fetch_bundle
 from .signals import composite_signal, tool_states
 
-SWING_LOOKBACK_DAYS = 504  # ~2 years of trading days
-SWING_MAX_SIGNAL_AGE = 7   # only fresh setups are actionable
+SWING_LOOKBACK_DAYS = 504     # ~2 years of trading days
+SWING_MAX_SIGNAL_AGE = 7      # only fresh setups are actionable
+SWING_EXIT_SMA = 50           # the exit reference line (close vs 50-day SMA)
+SWING_EXIT_CONFIRM_DAYS = 2   # consecutive closes below the line before exiting
+SWING_COST = 0.0015           # 0.15% per side, same as backtest.TRANSACTION_COST
 
 
 @dataclass
 class SwingStats:
     trades: int
-    win_rate: Optional[float]      # share of round trips that closed green
-    avg_trade_return: Optional[float]
-    strategy_return: Optional[float]  # compounded, after nothing (gross)
+    win_rate: Optional[float]      # share of round trips that closed green (net)
+    avg_trade_return: Optional[float]   # net of costs
+    strategy_return: Optional[float]    # compounded, net of costs, next-close exec
     hold_return: Optional[float]
+    avg_hold_days: Optional[float]      # trading days per round trip
 
 
-def swing_trade_stats(prices: pd.DataFrame) -> Optional[SwingStats]:
-    """Backtest the pure three-tool in/out rule on ONE ticker's recent history."""
+def swing_position_and_trades(prices: pd.DataFrame,
+                              cost: float = SWING_COST) -> Optional[tuple[pd.Series, list]]:
+    """Simulate the shipped swing rule bar-by-bar on ONE ticker's recent history.
+
+    Entry: three-tool composite BUY while close > 200-day SMA AND close >
+    50-day SMA (never enter below the line you exit on — that was the source
+    of 1-day whipsaw holds in the 2026-07 retune).
+    Exit: SWING_EXIT_CONFIRM_DAYS consecutive closes below the 50-day SMA.
+    A condition seen at the close of day t executes at the close of day t+1 —
+    no look-ahead, matching backtest.py's convention.
+
+    Returns (position, trades) where position[t] is 1.0/0.0 state at the close
+    of day t and trades is a list of (net_return, hold_days, closed) tuples;
+    a still-open trade is marked to market with closed=False. None when there
+    is not enough history.
+    """
     window = prices.tail(SWING_LOOKBACK_DAYS)
     if len(window) < 120:
         return None
@@ -46,44 +69,88 @@ def swing_trade_stats(prices: pd.DataFrame) -> Optional[SwingStats]:
     if states.empty:
         return None
     signal = composite_signal(states)
-    position = (signal.replace("HOLD", np.nan).ffill() == "BUY").astype(float)
-    close = window["Close"].reindex(position.index)
+    close = window["Close"].reindex(states.index)
+    exit_sma = window["Close"].rolling(SWING_EXIT_SMA).mean().reindex(states.index)
 
-    trades = []
-    entry = None
-    for day, held in position.items():
-        price = close.loc[day]
-        if pd.isna(price):  # gap in the price series: no tradable close
+    position = pd.Series(0.0, index=states.index)
+    in_pos = False
+    pending: Optional[str] = None  # decided yesterday, executes at today's close
+    entry_price = None
+    entry_i = 0
+    below_run = 0
+    trades: list[tuple[float, int, bool]] = []
+
+    for i, day in enumerate(states.index):
+        price = close.iloc[i]
+        line = exit_sma.iloc[i]
+        # 1. execute yesterday's decision at today's close
+        if pending == "ENTER" and not in_pos and not pd.isna(price):
+            in_pos, entry_price, entry_i = True, float(price), i
+        elif pending == "EXIT" and in_pos and not pd.isna(price):
+            net = float(price) * (1 - cost) / (entry_price * (1 + cost)) - 1.0
+            trades.append((net, i - entry_i, True))
+            in_pos = False
+        pending = None
+        position.iloc[i] = 1.0 if in_pos else 0.0
+        # 2. decide for tomorrow from today's close
+        if pd.isna(price):
             continue
-        if held == 1.0 and entry is None:
-            entry = float(price)
-        elif held == 0.0 and entry is not None:
-            trades.append(float(price) / entry - 1.0)
-            entry = None
-    valid_close = close.dropna()
-    if entry is not None and not valid_close.empty:  # still open: mark to market
-        trades.append(float(valid_close.iloc[-1]) / entry - 1.0)
-    if not trades:
-        return SwingStats(0, None, None, None, None)
+        below_line = not pd.isna(line) and price < line
+        if not in_pos:
+            below_run = 0
+            if (signal.iloc[i] == "BUY" and bool(states["trend200"].iloc[i])
+                    and not pd.isna(line) and price > line):
+                pending = "ENTER"
+        else:
+            below_run = below_run + 1 if below_line else 0
+            if below_run >= SWING_EXIT_CONFIRM_DAYS:
+                pending = "EXIT"
 
+    if in_pos:  # still open: mark to market at the last tradable close
+        valid_close = close.dropna()
+        if not valid_close.empty:
+            net = float(valid_close.iloc[-1]) * (1 - cost) / (entry_price * (1 + cost)) - 1.0
+            trades.append((net, len(states.index) - 1 - entry_i, False))
+    return position, trades
+
+
+def swing_trade_stats(prices: pd.DataFrame, cost: float = SWING_COST) -> Optional[SwingStats]:
+    """Backtest the SHIPPED swing rule (three-tool entry, 50-day-line exit)
+    on ONE ticker's recent history. Net of costs, next-close execution."""
+    simulated = swing_position_and_trades(prices, cost=cost)
+    if simulated is None:
+        return None
+    position, trades = simulated
+    if not trades:
+        return SwingStats(0, None, None, None, None, None)
+
+    window = prices.tail(SWING_LOOKBACK_DAYS)
+    close = window["Close"].reindex(position.index)
     daily = close.pct_change()
-    strategy = float((1.0 + position.shift(1).fillna(0.0) * daily.fillna(0.0)).prod() - 1.0)
+    held = position.shift(1).fillna(0.0)
+    turns = position.diff().abs().fillna(position)
+    strategy = float((1.0 + held * daily.fillna(0.0) - turns * cost).prod() - 1.0)
+    valid_close = close.dropna()
     hold = (float(valid_close.iloc[-1] / valid_close.iloc[0] - 1.0)
             if len(valid_close) >= 2 else None)
+    returns = [t[0] for t in trades]
     return SwingStats(
         trades=len(trades),
-        win_rate=round(sum(1 for t in trades if t > 0) / len(trades), 2),
-        avg_trade_return=round(float(np.mean(trades)), 4),
+        win_rate=round(sum(1 for r in returns if r > 0) / len(returns), 2),
+        avg_trade_return=round(float(np.mean(returns)), 4),
         strategy_return=round(strategy, 4),
         hold_return=round(hold, 4) if hold is not None else None,
+        avg_hold_days=round(float(np.mean([t[1] for t in trades])), 1),
     )
 
 
 def swing_scan(tickers: list[str]) -> list[dict]:
     """Fresh three-tool BUY setups in an uptrend, with per-ticker track record.
 
-    Uses cached bundles only (the daily screen already fetched them) — no new
-    network traffic for a full-universe scan.
+    Entry gate matches the shipped rule exactly: three-tool BUY, above the
+    200-day SMA, AND above the 50-day SMA (the exit line — never enter below
+    it). Uses cached bundles only (the daily screen already fetched them) —
+    no new network traffic for a full-universe scan.
     """
     rows = []
     for ticker in tickers:
@@ -95,6 +162,10 @@ def swing_scan(tickers: list[str]) -> list[dict]:
             states = tool_states(prices).dropna()
             if states.empty or not bool(states["trend200"].iloc[-1]):
                 continue
+            exit_line = prices["Close"].rolling(SWING_EXIT_SMA).mean().iloc[-1]
+            last_close = prices["Close"].iloc[-1]
+            if pd.isna(exit_line) or pd.isna(last_close) or last_close <= exit_line:
+                continue  # below (or at) the exit line: not a shippable entry
             signal = composite_signal(states)
             current = signal.iloc[-1]
             if current != "BUY":

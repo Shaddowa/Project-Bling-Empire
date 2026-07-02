@@ -1,4 +1,6 @@
 {% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% import "_verdicts.html" as V %}
 {% block title %}{{ r.ticker }} — Bling Empire{% endblock %}
 {% block content %}
 <div class="card">
@@ -6,10 +8,43 @@
   {% if r.error %}<div class="AVOID">Data error: {{ r.error }}</div>{% else %}
   <div class="kpis">
     <div><div class="muted">Price</div><div class="big">{{ r.valuation.price }} {{ r.currency }}</div></div>
-    <div><div class="muted">Action</div><div class="big {{ r.action }}">{{ r.action }}</div></div>
-    <div><div class="muted">If holding</div><div style="font-weight:700;padding-top:.5rem">{{ r.sell_guidance }}</div></div>
+    {% if owned %}
+    <div><div class="muted">Verdict (you own it)</div>
+      <div class="big {{ V.held_word(r.sell_guidance) }}">{{ V.held_word(r.sell_guidance) }}</div>
+      {% if V.held_sub(r.sell_guidance) %}<div class="subtext">{{ V.held_sub(r.sell_guidance) }}</div>{% endif %}</div>
+    {% else %}
+    <div><div class="muted">Verdict</div>
+      <div class="big {{ V.word(r.action) }}">{{ V.word(r.action) }}</div>
+      {% if V.sub(r.action) %}<div class="subtext">{{ V.sub(r.action) }}</div>{% endif %}</div>
+    <div><div class="muted">If you held it</div>
+      <div style="font-weight:700;padding-top:.5rem" class="{{ V.held_word(r.sell_guidance) }}">{{ V.held_word(r.sell_guidance) }}</div>
+      {% if V.held_sub(r.sell_guidance) %}<div class="subtext">{{ V.held_sub(r.sell_guidance) }}</div>{% endif %}</div>
+    {% endif %}
   </div>
 </div>
+
+{% if events and (events.earnings_date or events.ex_dividend_date) %}
+<div class="card">
+  <h2>{{ I.ic("calendar", 14) }} Events</h2>
+  <table>
+    {% if events.earnings_date %}
+    <tr><td>Next earnings</td>
+        <td class="{{ 'neg' if events.earnings_days is not none and 0 <= events.earnings_days <= 5 }}">
+          {{ events.earnings_date }}
+          {% if events.earnings_days is not none and events.earnings_days >= 0 %}<b>({{ 'today' if events.earnings_days == 0 else 'in %dd'|format(events.earnings_days) }})</b>{% endif %}
+          {% if events.earnings_days is not none and 0 <= events.earnings_days <= 5 %}<span class="subtext">stops gap through earnings — size/tighten accordingly</span>{% endif %}
+        </td></tr>
+    {% endif %}
+    {% if events.ex_dividend_date %}
+    <tr><td>Ex-dividend</td>
+        <td>{% if events.ex_dividend_days is not none and events.ex_dividend_days >= 0 %}{{ events.ex_dividend_date }} <b>(in {{ events.ex_dividend_days }}d)</b>{% else %}{{ events.ex_dividend_date }} <span class="muted">(last one — past)</span>{% endif %}</td></tr>
+    {% endif %}
+    {% if events.dividend_yield %}
+    <tr><td>Dividend yield</td><td>{{ "%.2f%%"|format(events.dividend_yield * 100) }}</td></tr>
+    {% endif %}
+  </table>
+</div>
+{% endif %}
 
 <div class="grid2">
 <div class="card">
@@ -18,10 +53,10 @@
     {% for name, verdict in r.quality.verdicts.items() %}
     {% set m = r.quality.metrics.get(name) %}
     <tr>
-      <td class="{{ 'BUY' if verdict.value == 'PASS' else ('AVOID' if verdict.value == 'FAIL' else 'UNKNOWN') }}">{{ verdict.value }}</td>
+      <td class="{{ 'pos' if verdict.value == 'PASS' else ('neg' if verdict.value == 'FAIL' else 'muted') }}">{{ verdict.value }}</td>
       <td>{{ name.replace("_", " ") }}</td>
       <td>{% if m is none %}{% elif name == "debt_payoff" %}{{ m }}y of FCF
-          {% elif name == "fcf_increasing" %}{{ "{:,.0f}".format(m).replace(",", " ") }}
+          {% elif name == "fcf_increasing" %}{{ "{:,.0f}".format(m).replace(",", " ") }}
           {% else %}{{ "%+.1f%%"|format(m * 100) }}{% endif %}</td>
     </tr>
     {% endfor %}
@@ -37,15 +72,28 @@
     <tr><td>Ten-cap price</td><td>{{ "%.2f"|format(r.valuation.ten_cap_price) if r.valuation.ten_cap_price else "–" }}</td></tr>
     <tr><td>Payback time</td><td>{{ r.valuation.payback_years or "–" }} y</td></tr>
   </table>
-  <h2 style="margin-top:1rem">Timing — {{ r.signal.signal }} ({{ r.signal.days_in_current_signal }}d)</h2>
+  <h2 style="margin-top:1rem">Timing — {{ "bullish" if r.signal.signal == "BUY" else ("bearish" if r.signal.signal == "SELL" else "mixed") }} ({{ r.signal.days_in_current_signal }}d)</h2>
   <table>
-    <tr><td>MACD</td><td class="{{ 'BUY' if r.signal.macd_bullish else 'AVOID' }}">{{ "bullish" if r.signal.macd_bullish else "bearish" }}</td></tr>
-    <tr><td>Stochastic</td><td class="{{ 'BUY' if r.signal.stochastic_bullish else 'AVOID' }}">{{ "bullish" if r.signal.stochastic_bullish else "bearish" }}</td></tr>
-    <tr><td>10-day SMA</td><td class="{{ 'BUY' if r.signal.sma10_bullish else 'AVOID' }}">{{ "bullish" if r.signal.sma10_bullish else "bearish" }}</td></tr>
-    <tr><td>200-day trend</td><td class="{{ 'BUY' if r.signal.above_200_sma else 'AVOID' }}">{{ "up" if r.signal.above_200_sma else "down" }}</td></tr>
+    <tr><td>MACD</td><td class="{{ 'pos' if r.signal.macd_bullish else 'neg' }}">{{ "bullish" if r.signal.macd_bullish else "bearish" }}</td></tr>
+    <tr><td>Stochastic</td><td class="{{ 'pos' if r.signal.stochastic_bullish else 'neg' }}">{{ "bullish" if r.signal.stochastic_bullish else "bearish" }}</td></tr>
+    <tr><td>10-day SMA</td><td class="{{ 'pos' if r.signal.sma10_bullish else 'neg' }}">{{ "bullish" if r.signal.sma10_bullish else "bearish" }}</td></tr>
+    <tr><td>200-day trend</td><td class="{{ 'pos' if r.signal.above_200_sma else 'neg' }}">{{ "up" if r.signal.above_200_sma else "down" }}</td></tr>
     <tr><td>Dividend score</td><td>{{ r.dividends.score }}/10</td></tr>
   </table>
 </div>
 </div>
+
+{% if headlines %}
+<div class="card">
+  <h2>{{ I.ic("newspaper", 14) }} Recent headlines</h2>
+  {% for n in headlines %}
+  <div style="margin:.45rem 0;line-height:1.45">
+    {% if n.link %}<a class="ticker" href="{{ n.link }}" target="_blank" rel="noopener">{{ n.title }}</a>
+    {% else %}<b>{{ n.title }}</b>{% endif %}
+    <span class="subtext">{{ n.publisher }}{% if n.age_hours is not none %} · {% if n.age_hours < 24 %}{{ "%.0f"|format(n.age_hours) }}h ago{% else %}{{ "%.0f"|format(n.age_hours / 24) }}d ago{% endif %}{% endif %}</span>
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
   {% endif %}
 {% endblock %}

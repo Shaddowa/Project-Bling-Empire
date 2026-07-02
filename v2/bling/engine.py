@@ -30,6 +30,43 @@ from .valuation import ValuationResult, assess_valuation
 QUALITY_THRESHOLD = 60.0
 FETCH_WORKERS = 6
 
+# ── Hanna-facing verdict language ────────────────────────────────────────────
+# The dashboard/widget vocabulary is exactly three words: BUY / HOLD / SELL.
+# Internal actions (WATCH/FAIR/AVOID) collapse to HOLD with a muted subtext
+# explaining what we're waiting for; owned positions map guidance to HOLD/SELL.
+
+_HOLD_SUBTEXT = {
+    "WATCH": "hold off — waiting for timing",
+    "FAIR": "hold off — waiting for a better price",
+    "AVOID": "hold off — quality bar not met",
+}
+
+
+def simple_verdict(action: str) -> str:
+    """Verdict word for a stock Hanna does NOT own: BUY or HOLD."""
+    return "BUY" if (action or "").upper() == "BUY" else "HOLD"
+
+
+def simple_subtext(action: str) -> str:
+    """Muted one-liner under a HOLD verdict (empty for BUY)."""
+    return _HOLD_SUBTEXT.get((action or "").upper(), "")
+
+
+def holding_verdict(guidance: str) -> str:
+    """Verdict word for a stock Hanna OWNS: HOLD or SELL."""
+    return "SELL" if (guidance or "").startswith(("SELL", "TAKE PROFIT")) else "HOLD"
+
+
+def holding_subtext(guidance: str) -> str:
+    """The detail behind an owned position's verdict, e.g. the stop/why."""
+    guidance = guidance or ""
+    if guidance.startswith("TAKE PROFIT"):
+        return "take profit — " + guidance[guidance.find("(") + 1:].rstrip(")") \
+            if "(" in guidance else "take profit"
+    if "(" in guidance:
+        return guidance[guidance.find("(") + 1:].rstrip(")")
+    return ""
+
 
 @dataclass
 class TickerReport:

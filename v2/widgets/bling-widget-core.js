@@ -32,7 +32,7 @@
 // Widget families supported: small · medium · large · extraLarge ·
 // accessoryRectangular · accessoryCircular · accessoryInline (lock screen).
 // ═════════════════════════════════════════════════════════════════════════
-const CORE_VERSION = "3.0";
+const CORE_VERSION = "3.1";
 
 module.exports = async ({ URL_BASE, TOKEN }) => {
 
@@ -295,7 +295,7 @@ const D = data ? (() => {
   const dayPcts = holdings.map((h) => num(h.day_pct)).filter((v) => v !== null);
   return {
     rw,
-    rwText: rw === null ? "∞" : `${Math.round(rw * 10) / 10} mo`,
+    rwText: rw === null ? "∞ runway" : `${Math.round(rw * 10) / 10} mo left`,
     rwFrac: rw === null ? 1 : clamp01(rw / 12), // 12-month runway = full gauge
     liquid: num(data.liquid, 0),
     burn: num(data.burn, 0),
@@ -365,7 +365,7 @@ function positionRow(on, h, barWidth) {
   if (day !== null) line(top, pct(day), 10, day >= 0 ? C.good : C.bad, { mono: true });
   if (gain !== null) {
     top.addSpacer(6);
-    line(top, `${pct(gain)} all`, 9, gain >= 0 ? C.accent : C.bad);
+    line(top, `${pct(gain)} since buy`, 9, gain >= 0 ? C.accent : C.bad);
   }
   if (day === null && gain === null) line(top, `${num(h.price, "?")}`, 10, C.muted, { mono: true });
   const spec = barSpec(h);
@@ -380,7 +380,7 @@ function positionRow(on, h, barWidth) {
       line(v, textBar(frac), 9, C.accent, { mono: true });
     }
   } else if (frac !== null) {
-    line(v, `${textBar(frac)} ${Math.round(clamp01(frac) * 100)}%→${num(h.target, "?")}`, 9, C.accent, { mono: true });
+    line(v, `${textBar(frac)} ${Math.round(clamp01(frac) * 100)}% to target ${num(h.target, "?")}`, 9, C.accent, { mono: true });
   }
 }
 
@@ -407,11 +407,11 @@ function signalsBlock(on, o = {}) {
     r.centerAlignContent();
     icon(r, "arrow.down.circle.fill", 11, C.bad);
     r.addSpacer(3);
-    line(r, D.sells.join(" "), 11, C.bad, { bold: true, shrink: true });
+    line(r, `SELL ${D.sells.join(" ")}`, 11, C.bad, { bold: true, shrink: true });
   }
   if (!D.buys.length && !D.sells.length) line(on, "no new actions today", 10, C.muted);
   on.addSpacer(2);
-  line(on, `👀 ${D.watch} watch · 〰 ${D.swing} swing setups`, 10, C.warn);
+  line(on, `${D.watch} waiting on timing · ${D.swing} swing setups`, 10, C.warn);
   if (!o.noPulse && !P.flags.nopulse && D.markets.length) {
     on.addSpacer(2);
     pulseLine(on);
@@ -434,10 +434,10 @@ function runwayHero(on, big) {
   r.addSpacer(6);
   const rc = r.addStack();
   rc.layoutVertically();
-  line(rc, "runway", 9, C.muted, { bold: true });
-  line(rc, `${fmtK(D.liquid)} liquid`, 9, C.accent);
+  line(rc, "of runway", 9, C.muted, { bold: true });
+  line(rc, `${fmtK(D.liquid)} kr cash`, 9, C.accent);
   on.addSpacer(2);
-  line(on, `burn ${fmtK(D.burn)}/mo · earn ${fmtK(D.income)}/mo`, 10, C.muted);
+  line(on, `spending ${fmtK(D.burn)}/mo · goal: earn ${fmtK(D.income)}/mo`, 10, C.muted);
 }
 
 function sparkBlock(on, width, height, label) {
@@ -478,16 +478,16 @@ function renderSmall() {
     header(w, "Bling");
     w.addSpacer(2);
     line(w, D.rwText, 27, C.ink, { serif: true, shrink: true });
-    line(w, `runway · ${fmtK(D.liquid)} liquid`, 9, C.muted);
+    line(w, `runway · ${fmtK(D.liquid)} kr cash`, 9, C.muted);
     w.addSpacer(3);
     if (!P.flags.plain) {
       const img = barImage(122, 6, D.rwFrac, {});
       if (img) { const wi = w.addImage(img); wi.imageSize = new Size(122, 10); }
     }
     w.addSpacer(3);
-    if (D.alerts.length) line(w, `🔴 SELL ${D.alerts.map((h) => str(h.ticker, "?")).join(" ")}`, 10, C.bad, { bold: true, shrink: true });
-    else if (D.buys.length) line(w, `🟢 BUY ${D.buys.join(" ")}`, 10, C.good, { bold: true, shrink: true });
-    else line(w, `burn ${fmtK(D.burn)} · earn ${fmtK(D.income)}`, 9, C.accent);
+    if (D.alerts.length) line(w, `SELL ${D.alerts.map((h) => str(h.ticker, "?")).join(" ")}`, 10, C.bad, { bold: true, shrink: true });
+    else if (D.buys.length) line(w, `BUY ${D.buys.join(" ")}`, 10, C.good, { bold: true, shrink: true });
+    else line(w, `burn ${fmtK(D.burn)}/mo · goal earn ${fmtK(D.income)}/mo`, 9, C.accent);
   }
   w.addSpacer();
 }
@@ -502,9 +502,9 @@ function renderMedium() {
     left.layoutVertically();
     runwayHero(left, 24);
     left.addSpacer(4);
-    if (D.alerts.length) line(left, `🔴 SELL ${D.alerts.map((h) => str(h.ticker, "?")).join(" ")}`, 10, C.bad, { bold: true, shrink: true });
-    else if (D.buys.length) line(left, `🟢 BUY ${D.buys.join(" ")}`, 10, C.good, { bold: true, shrink: true });
-    else line(left, `👀 ${D.watch} watch · 〰 ${D.swing}`, 9, C.warn);
+    if (D.alerts.length) line(left, `SELL ${D.alerts.map((h) => str(h.ticker, "?")).join(" ")}`, 10, C.bad, { bold: true, shrink: true });
+    else if (D.buys.length) line(left, `BUY ${D.buys.join(" ")}`, 10, C.good, { bold: true, shrink: true });
+    else line(left, `${D.watch} waiting · ${D.swing} swing`, 9, C.warn);
     cols.addSpacer(14);
     const right = cols.addStack();
     right.layoutVertically();
@@ -573,14 +573,14 @@ function renderLarge(xl) {
     w.addSpacer(8);
     sparkBlock(w, xl ? 300 : 220, 50, "liquid trend (self-recorded ~30 min samples)");
     w.addSpacer(8);
-    line(w, `income target ${fmtK(D.income)}/mo`, 11, C.accent, { bold: true });
+    line(w, `goal: earn ${fmtK(D.income)}/mo`, 11, C.accent, { bold: true });
     if (D.dayAvg !== null) line(w, `positions today avg ${pct(D.dayAvg)}`, 10, D.dayAvg >= 0 ? C.good : C.bad);
   } else if (P.view === "positions") {
     positionsBlock(w, P.max || (xl ? 10 : 7), xl ? 380 : 300);
   } else if (P.view === "signals") {
     signalsBlock(w);
     w.addSpacer(6);
-    line(w, `runway ${D.rwText} · liquid ${fmtK(D.liquid)}`, 10, C.muted);
+    line(w, `${D.rwText} · ${fmtK(D.liquid)} kr cash`, 10, C.muted);
   } else if (P.view === "pulse") {
     if (!D.markets.length) line(w, "no pulse data", 10, C.muted);
     D.markets.slice(0, 8).forEach((m) => {
@@ -656,7 +656,7 @@ function renderAccessoryRectangular() {
   r1.addSpacer(3);
   line(r1, a.text, 13, C.ink, { bold: true, shrink: true });
   s.addSpacer(1);
-  line(s, `burn ${fmtK(D.burn)}/mo · ${D.watch}👀 ${D.swing}〰${offline ? " · off" : ""}`, 10, C.ink, { shrink: true });
+  line(s, `burn ${fmtK(D.burn)}/mo · ${D.watch} wait · ${D.swing} swing${offline ? " · off" : ""}`, 10, C.ink, { shrink: true });
   s.addSpacer(2);
   const img = P.flags.plain ? null : barImage(148, 5, P.view === "positions" && D.holdings.length ? (barSpec(D.holdings[0]) || { frac: num(D.holdings[0].progress, 0) }).frac : D.rwFrac, {});
   if (img) { const wi = s.addImage(img); wi.imageSize = new Size(148, 9); }

@@ -1,0 +1,29 @@
+{# BUY / HOLD / SELL vocabulary, implemented as macros so templates render
+   correctly even on a server process that predates the Python helpers
+   (bling.engine.simple_verdict & co mirror this logic for route code).
+   - not-owned stocks: BUY when the engine says BUY, else HOLD (+ muted why)
+   - owned stocks:     SELL when guidance starts SELL/TAKE PROFIT, else HOLD #}
+{% macro word(action) -%}
+  {{- "BUY" if (action or "")|upper == "BUY" else "HOLD" -}}
+{%- endmacro %}
+
+{% macro sub(action) -%}
+  {%- set a = (action or "")|upper -%}
+  {{- "hold off — waiting for timing" if a == "WATCH"
+      else ("hold off — waiting for a better price" if a == "FAIR"
+      else ("hold off — quality bar not met" if a == "AVOID" else "")) -}}
+{%- endmacro %}
+
+{% macro held_word(guidance) -%}
+  {{- "SELL" if (guidance or "").startswith(("SELL", "TAKE PROFIT")) else "HOLD" -}}
+{%- endmacro %}
+
+{% macro held_sub(guidance) -%}
+  {%- set g = guidance or "" -%}
+  {%- set i = g.find("(") -%}
+  {%- if g.startswith("TAKE PROFIT") -%}
+    take profit{% if i >= 0 %} — {{ g[i + 1:].rstrip(")") }}{% endif %}
+  {%- elif i >= 0 -%}
+    {{- g[i + 1:].rstrip(")") -}}
+  {%- endif -%}
+{%- endmacro %}

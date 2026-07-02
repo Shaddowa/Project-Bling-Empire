@@ -21,6 +21,7 @@ sys.path.insert(0, str(V2_ROOT))
 from dataclasses import asdict  # noqa: E402
 from datetime import datetime  # noqa: E402
 
+from bling import ledger  # noqa: E402
 from bling.engine import analyze_ticker, analyze_universe, enrich_holding  # noqa: E402
 from bling.finance import store  # noqa: E402
 from bling.finance.model import build_report  # noqa: E402
@@ -54,11 +55,14 @@ def main() -> None:
     new_actions: dict[str, str] = {}
     new_watches: list[str] = []
     all_tickers: list[str] = []
+    all_reports: list = []          # for the trade ledger (signal records)
+    held_sell_flips: list[tuple[str, str, object]] = []
     for universe in active_universes():
         tickers = load_universe(universe)
         all_tickers += tickers
         print(f"screening {len(tickers)} in {universe}")
         reports = analyze_universe(tickers, progress=False)
+        all_reports.extend(reports)
         frame = reports_to_frame(reports)
         write_reports(frame, universe)
         for r in reports:
@@ -125,6 +129,22 @@ def main() -> None:
                 f"/ticker/{holding.ticker}",
             ))
         state["guidance"][holding.ticker] = guidance
+        if guidance != previous and (guidance.startswith("SELL")
+                                     or guidance.startswith("TAKE PROFIT")):
+            held_sell_flips.append((holding.ticker, guidance, report.valuation.price))
+
+    # ── trade ledger: record signal events + mark open calls to market ──
+    # (its own memory; a ledger hiccup must never block the pushes)
+    try:
+        ledger.refresh_index_cache([r.ticker for r in all_reports])
+        recorded = ledger.record_daily_signals(all_reports, swing_rows)
+        for ticker, flip_guidance, flip_price in held_sell_flips:
+            ledger.record_sell_flip(ticker, flip_guidance, price=flip_price)
+        marked = ledger.mark_open_signals()
+        print(f"ledger: +{recorded['new_buys']} buy, +{recorded['new_swings']} swing, "
+              f"+{recorded['sell_flips'] + len(held_sell_flips)} sell-flip, {marked} marked")
+    except Exception as error:
+        print(f"ledger update failed: {error}")
 
     if new_watches and prefs["watch"]:
         pushes.append((

@@ -20,7 +20,8 @@ from starlette.middleware.gzip import GZipMiddleware
 V2_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(V2_ROOT))
 
-from bling.engine import analyze_ticker  # noqa: E402
+from bling.engine import (analyze_ticker, holding_subtext, holding_verdict,  # noqa: E402
+                          simple_subtext, simple_verdict)
 from bling.finance import store  # noqa: E402
 from bling.finance.model import Debt, Holding, LineItem, build_report, build_targets  # noqa: E402
 from bling.universe import MARKETS, TICKER_DIR, active_universes, load_config, save_config  # noqa: E402
@@ -36,6 +37,11 @@ def universe_labels() -> dict[str, str]:
 app = FastAPI(title="Bling Empire", docs_url=None, redoc_url=None, openapi_url=None)
 app.add_middleware(GZipMiddleware, minimum_size=500)  # HTML/JSON over cell networks
 templates = Jinja2Templates(directory=str(Path(__file__).parent / "templates"))
+# BUY/HOLD/SELL vocabulary helpers, available in every template
+templates.env.globals.update(
+    simple_verdict=simple_verdict, simple_subtext=simple_subtext,
+    holding_verdict=holding_verdict, holding_subtext=holding_subtext,
+)
 
 
 # ── helpers ──────────────────────────────────────────────────────────────
@@ -126,6 +132,89 @@ def live_holdings(finances) -> list[dict]:
     rows = [enrich_holding(report, h) for report, h in zip(reports, finances.holdings)]
     _holdings_cache.put(key, rows)
     return [dict(row) for row in rows]
+
+
+# Events (earnings / ex-dividend) are cached 12h inside bling.events, but a
+# cold ticker costs 2-3 yfinance round-trips — bound page renders with a
+# timeout and memoize the result briefly so the overview stays instant.
+_events_cache = _TTLCache(ttl_seconds=1800.0, max_entries=8)
+
+
+def safe_events(holdings: list[str], watch: list[str],
+                timeout: float = 6.0) -> tuple[dict, list[dict]]:
+    """(upcoming_events dict, alerts list) — never raises, never hangs.
+
+    On timeout the fetch keeps running in the background so the events cache
+    is warm on the next request; this request renders without events.
+    """
+    holdings = [t for t in dict.fromkeys(holdings) if t]
+    watch = [t for t in dict.fromkeys(watch) if t and t not in holdings][:12]
+    if not holdings and not watch:
+        return {}, []
+    key = (tuple(holdings), tuple(watch))
+    cached = _events_cache.get(key)
+    if cached is not None:
+        return cached
+
+    def fetch():
+        from bling import events
+        return events.upcoming_events(holdings + watch), events.alerts(holdings, watch)
+
+    pool = ThreadPoolExecutor(max_workers=1)
+    try:
+        result = pool.submit(fetch).result(timeout=timeout)
+    except Exception:  # timeout, network, parsing — events are never load-bearing
+        return {}, []
+    finally:
+        pool.shutdown(wait=False)
+    _events_cache.put(key, result)
+    return result
+
+
+_WEEKDAYS = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+
+
+def _event_phrase(ticker: str, ev: dict) -> str | None:
+    """'KIT.OL reports earnings Thursday' — deterministic, closest first."""
+    from datetime import date as _date, datetime as _dt
+    days = ev.get("earnings_days")
+    if days is None or days < 0 or not ev.get("earnings_date"):
+        return None
+    if days == 0:
+        when = "today"
+    elif days == 1:
+        when = "tomorrow"
+    elif days <= 7:
+        when = _WEEKDAYS[_dt.strptime(ev["earnings_date"], "%Y-%m-%d").weekday()]
+    else:
+        when = f"in {days} days ({ev['earnings_date']})"
+    return f"{ticker} reports earnings {when}."
+
+
+def overview_summary(report, buys: list[str], sell_rows: list[dict],
+                     swing_count: int, events: dict) -> str:
+    """1-2 plain sentences that summarize the whole dashboard, from data."""
+    runway = "runway ∞" if report.runway_months is None else f"runway {report.runway_months} months"
+    actions = []
+    if buys:
+        actions.append("BUY " + ", ".join(buys[:4]) + ("…" if len(buys) > 4 else ""))
+    for h in sell_rows[:2]:
+        actions.append(f"SELL {h['ticker']} ({h.get('why') or 'see below'})")
+    if actions:
+        first = f"{len(actions)} thing{'s' if len(actions) > 1 else ''} need{'' if len(actions) > 1 else 's'} you today: " \
+                + "; ".join(actions) + f" — {runway}."
+    else:
+        first = f"Nothing needs you today: no buys, no sells, {runway}."
+    # second sentence: a genuinely-near event (≤14d), else the swing count
+    phrases = sorted(((ev.get("earnings_days"), t, ev) for t, ev in events.items()
+                      if ev.get("earnings_days") is not None and 0 <= ev["earnings_days"] <= 14),
+                     key=lambda x: x[0])
+    second = ""
+    if phrases:
+        second = _event_phrase(phrases[0][1], phrases[0][2]) or ""
+    elif swing_count:
+        second = f"{swing_count} swing setups are waiting on the Swing tab."
+    return (first + " " + second).strip()
 
 
 # ── auth ─────────────────────────────────────────────────────────────────
@@ -367,22 +456,46 @@ def manifest():
 
 @app.get("/", response_class=HTMLResponse)
 def index(request: Request):
+    import json as _json
     finances = store.load()
     report = build_report(finances)
     labels = universe_labels()
-    cards = {}
+
+    day = ""
+    buy_rows = []  # actionable BUY cards, all universes merged
     for universe in labels:
         day, rows = load_signals(universe)
-        cards[universe] = {
-            "day": day,
-            "buy": [r for r in rows if r["ACTION"] == "BUY"],
-            "watch": [r for r in rows if r["ACTION"] == "WATCH"],
-        }
+        for r in rows:
+            if r["ACTION"] == "BUY":
+                buy_rows.append({**r, "universe": universe, "label": labels[universe]})
+
+    holdings = live_holdings(finances)
+    swing_count = 0
+    if SWING_PATH.exists():
+        swing_count = len(_json.loads(SWING_PATH.read_text()).get("rows", []))
+
+    # events for held + buy-candidate names (bounded, cached, never blocking)
+    events, alerts = safe_events([h["ticker"] for h in holdings],
+                                 [r["TICKER"] for r in buy_rows])
+    earnings_soon = {a["ticker"]: a for a in alerts if a["kind"] == "earnings_holding"}
+
+    sell_rows, attention = [], []
+    for h in holdings:
+        verdict = holding_verdict(h["guidance"])
+        if verdict == "SELL":
+            sell_rows.append({**h, "why": holding_subtext(h["guidance"])})
+        if verdict == "SELL" or h["ticker"] in earnings_soon:
+            attention.append(h)
+
+    summary = overview_summary(report, [r["TICKER"] for r in buy_rows],
+                               sell_rows, swing_count, events)
     return templates.TemplateResponse(request, "index.html", {
-        "cards": cards, "labels": labels,
+        "summary": summary, "day": day,
         "finances": finances, "report": report,
         "targets": build_targets(finances),
-        "holdings": live_holdings(finances),
+        "buy_rows": buy_rows, "sell_rows": sell_rows,
+        "holdings": holdings, "attention": attention,
+        "earnings_soon": earnings_soon, "events": events,
     })
 
 
@@ -413,7 +526,21 @@ def signals_hub(request: Request, mode: str = "long"):
             "buy": [r for r in rows if r["ACTION"] == "BUY"],
             "watch": [r for r in rows if r["ACTION"] == "WATCH"],
         }
-    return templates.TemplateResponse(request, "longterm.html", {"cards": cards, "labels": labels})
+    # upcoming events on holdings + today's BUY/WATCH names
+    finances = store.load()
+    watch_tickers = [r["TICKER"] for c in cards.values() for r in c["buy"] + c["watch"]]
+    events, alerts = safe_events([h.ticker for h in finances.holdings], watch_tickers)
+    upcoming = sorted(
+        ((t, ev) for t, ev in events.items()
+         if (ev.get("earnings_days") is not None and ev["earnings_days"] >= 0)
+         or (ev.get("ex_dividend_days") is not None and ev["ex_dividend_days"] >= 0
+             and ev.get("dividend_yield"))),
+        key=lambda p: min(d for d in (p[1].get("earnings_days"),
+                                      p[1].get("ex_dividend_days")) if d is not None and d >= 0))
+    return templates.TemplateResponse(request, "longterm.html", {
+        "cards": cards, "labels": labels,
+        "upcoming": upcoming[:8], "event_alerts": alerts,
+    })
 
 
 @app.get("/swing", response_class=HTMLResponse)
@@ -491,8 +618,105 @@ async def markets_save(request: Request):
 
 @app.get("/ticker/{symbol}", response_class=HTMLResponse)
 def ticker(request: Request, symbol: str):
-    report = analyze_ticker(symbol.upper(), max_age=timedelta(days=1))
-    return templates.TemplateResponse(request, "ticker.html", {"r": report})
+    symbol = symbol.upper()
+    report = analyze_ticker(symbol, max_age=timedelta(days=1))
+    finances = store.load()
+    owned = any(h.ticker == symbol for h in finances.holdings)
+
+    def fetch_extras():
+        from bling import events as ev
+        return ev.upcoming_events([symbol]).get(symbol, {}), ev.news(symbol, limit=5)
+
+    ticker_events, headlines = {}, []
+    pool = ThreadPoolExecutor(max_workers=1)
+    try:
+        ticker_events, headlines = pool.submit(fetch_extras).result(timeout=8.0)
+    except Exception:
+        pass  # events/news are garnish — the report is the meal
+    finally:
+        pool.shutdown(wait=False)
+    return templates.TemplateResponse(request, "ticker.html", {
+        "r": report, "owned": owned,
+        "events": ticker_events, "headlines": headlines,
+    })
+
+
+# ── ledger: real trades + how good the signals actually were ────────────────
+
+def _signal_report_card(closed: list[dict]) -> dict:
+    """Grade the engine's own calls from closed signal records."""
+    def bucket(records: list[dict]) -> dict:
+        graded = [r for r in records if r.get("return_pct") is not None]
+        alphas = [r["alpha_pct"] for r in graded if r.get("alpha_pct") is not None]
+        wins = sum(1 for r in graded if r["return_pct"] > 0)
+        return {
+            "count": len(records), "graded": len(graded), "wins": wins,
+            "win_rate": round(wins / len(graded), 2) if graded else None,
+            "avg_return": round(sum(r["return_pct"] for r in graded) / len(graded), 2) if graded else None,
+            "avg_alpha": round(sum(alphas) / len(alphas), 2) if alphas else None,
+        }
+    return {"all": bucket(closed),
+            "longterm": bucket([r for r in closed if r.get("mode") == "longterm"]),
+            "swing": bucket([r for r in closed if r.get("mode") == "swing"])}
+
+
+@app.get("/ledger", response_class=HTMLResponse)
+def ledger_page(request: Request, saved: int = 0, error: str = ""):
+    from datetime import date as _date
+
+    from bling import ledger as L
+    from bling.pulse import live_quote
+
+    # fresh quotes for open positions (cache closes can be a day old)
+    base_positions = L.positions()
+    prices: dict[str, float] = {}
+    if base_positions:
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            futures = {p["ticker"]: pool.submit(live_quote, p["ticker"]) for p in base_positions}
+            for t, f in futures.items():
+                try:
+                    price, _ = f.result(timeout=10)
+                    if price:
+                        prices[t] = price
+                except Exception:
+                    pass
+    positions = L.positions(prices=prices or None)
+    perf = L.performance(prices=prices or None)
+    open_signals = L.signals(status="open")
+    closed_signals = L.signals(status="closed")
+    trade_rows = list(reversed(L.trades()))
+    return templates.TemplateResponse(request, "ledger.html", {
+        "saved": saved, "error": error,
+        "positions": positions, "perf": perf,
+        "open_signals": open_signals[:60], "closed_signals": closed_signals[:60],
+        "signal_card": _signal_report_card(closed_signals),
+        "trades": trade_rows[:100], "today": _date.today().isoformat(),
+    })
+
+
+@app.post("/ledger")
+async def ledger_add_trade(request: Request):
+    from urllib.parse import quote
+
+    from bling import ledger as L
+    form = await request.form()
+
+    def clean_number(name: str) -> float:
+        return float(str(form.get(name) or "0").replace(" ", "").replace(",", "."))
+
+    try:
+        L.record_trade(
+            ticker=str(form.get("ticker") or ""),
+            side=str(form.get("side") or ""),
+            shares=clean_number("shares"),
+            price=clean_number("price"),
+            date=str(form.get("date") or "").strip() or None,
+            mode=str(form.get("mode") or "longterm"),
+            note=str(form.get("note") or "").strip(),
+        )
+    except (ValueError, TypeError) as err:
+        return RedirectResponse(f"/ledger?error={quote(str(err))}", status_code=303)
+    return RedirectResponse("/ledger?saved=1", status_code=303)
 
 
 @app.get("/push", response_class=HTMLResponse)

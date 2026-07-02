@@ -126,18 +126,45 @@ tr:hover td { background:var(--accent-soft); }
                  box-shadow:0 1px 0 var(--border-strong); border-bottom:0; }
 @media (max-width:760px){
   td { padding:.45rem .5rem; }
-  .scroll table th:first-child, .scroll table td:first-child {
+  .scroll table:not(.cards) th:first-child, .scroll table:not(.cards) td:first-child {
     position:sticky; left:0; z-index:2; background:var(--surface);
   }
-  .scroll table th:first-child { background:var(--surface); }
+  .scroll table:not(.cards) th:first-child { background:var(--surface); }
   .tall thead th:first-child { z-index:4; }
   .scroll tr:hover td:first-child { background:var(--row-hover-solid); }
 }
+/* phones ≤480px: tables opt into stacked card rows (class="cards") —
+   thead hides, each row becomes a bordered card, each cell labels itself
+   via data-l. Result: zero horizontal scrolling on any phone. */
+@media (max-width:480px){
+  html, body { overflow-x:clip; }
+  .scroll:has(table.cards) { overflow-x:visible; }
+  table.cards { display:block; }
+  table.cards thead { display:none; }
+  table.cards tbody { display:block; }
+  table.cards tr { display:block; border:1px solid var(--border); border-radius:10px;
+                   margin-bottom:.55rem; padding:.4rem .65rem; background:var(--surface); }
+  table.cards tr:hover td { background:transparent; }
+  table.cards td { display:flex; justify-content:space-between; align-items:baseline;
+                   gap:.8rem; border:0; padding:.18rem 0; white-space:normal; }
+  table.cards td::before { content:attr(data-l); color:var(--muted); font-size:.68rem;
+                           font-weight:600; text-transform:uppercase; letter-spacing:.05em;
+                           flex-shrink:0; }
+  table.cards td:not([data-l])::before, table.cards td[data-l=""]::before { content:none; }
+  table.cards td:has(input) { flex-direction:column; align-items:stretch; gap:.15rem; }
+  table.cards td:empty { display:none; }
+  .tall { overflow-x:clip; }
+}
 
-/* verdict + delta colors */
+/* verdict + delta colors — Hanna sees only BUY / HOLD / SELL */
 .BUY{color:var(--good);font-weight:700} .WATCH{color:var(--warn);font-weight:700}
 .FAIR{color:var(--muted)} .AVOID{color:var(--bad)} .SELL{color:var(--bad);font-weight:700}
-.HOLD{color:var(--muted)} .UNKNOWN{color:var(--muted)}
+.HOLD{color:var(--muted);font-weight:700} .UNKNOWN{color:var(--muted)}
+.subtext { display:block; color:var(--muted); font-size:.72rem; font-weight:500; }
+
+/* inline SVG icons (24px grid, 1.75 stroke, currentColor) */
+.ic { vertical-align:-3px; flex-shrink:0; }
+.nav a .ic, .tabbar a .ic { vertical-align:middle; }
 .pos{color:var(--good)} .neg{color:var(--bad)}
 a.ticker { color:var(--accent-ink); font-weight:700; }
 a.ticker:hover { text-decoration:underline; text-underline-offset:3px; }
@@ -235,8 +262,10 @@ html.is-loading .loadhint { animation:hintin .25s ease .6s forwards; }
 </style>
 </head>
 <body>
-{% set nav = [("/", "Overview", "◎"), ("/signals", "Signals", "📈"),
-              ("/markets", "Markets", "🌍"), ("/finances", "Finances", "🏦"), ("/push", "Push", "🔔")] %}
+{% import "_icons.html" as I %}
+{% set nav = [("/", "Overview", "gauge"), ("/signals", "Signals", "trending-up"),
+              ("/ledger", "Ledger", "book-open"), ("/markets", "Markets", "globe"),
+              ("/finances", "Finances", "landmark"), ("/push", "Push", "bell")] %}
 {% set path = request.url.path %}
 {% macro is_active(href) -%}
   {{- 'active' if (path == href) or (href == '/signals' and (path.startswith('/signals') or path.startswith('/ticker') or path in ('/swing', '/day'))) -}}
@@ -251,15 +280,15 @@ html.is-loading .loadhint { animation:hintin .25s ease .6s forwards; }
   </div>
   <nav class="nav">
     {% for href, label, ico in nav %}
-    <a href="{{ href }}" class="{{ is_active(href) }}"><span>{{ ico }}</span>{{ label }}</a>
+    <a href="{{ href }}" class="{{ is_active(href) }}">{{ I.ic(ico, 18) }}{{ label }}</a>
     {% endfor %}
     <div class="spacer"></div>
-    <a href="/logout">↩ Log out</a>
+    <a href="/logout">{{ I.ic("log-out", 18) }}Log out</a>
   </nav>
 </aside>
 <nav class="tabbar">
   {% for href, label, ico in nav %}
-  <a href="{{ href }}" class="{{ is_active(href) }}"><span class="ico">{{ ico }}</span>{{ label }}</a>
+  <a href="{{ href }}" class="{{ is_active(href) }}"><span class="ico">{{ I.ic(ico, 20) }}</span>{{ label }}</a>
   {% endfor %}
 </nav>
 <main>{% block content %}{% endblock %}</main>

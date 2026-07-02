@@ -1,66 +1,96 @@
 {% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% import "_verdicts.html" as V %}
 {% block content %}
-<h1 class="page">Overview</h1>
+<h1 class="page">Overview <span class="muted">{{ day }}</span></h1>
 
+{# ── the whole dashboard in 1-2 sentences ─────────────────────────────── #}
+<div class="card" style="border-left:3px solid var(--accent)">
+  <div style="font-family:Fraunces,Georgia,ui-serif,serif;font-size:1.05rem;line-height:1.55">{{ summary }}</div>
+</div>
+
+{# ── runway headline ──────────────────────────────────────────────────── #}
 <div class="card">
   <h2>Runway</h2>
   <div class="kpis">
-    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards).replace(",", " ") }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid).replace(",", " ") }} − card {{ "{:,.0f}".format(report.credit_card_used).replace(",", " ") }}{% endif %}</div></div>
+    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards).replace(",", " ") }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid).replace(",", " ") }} − card {{ "{:,.0f}".format(report.credit_card_used).replace(",", " ") }}{% endif %}</div></div>
     <div><div class="muted">Burn / month</div>
-      <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn).replace(",", " ") }} kr</div></div>
+      <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn).replace(",", " ") }} kr</div></div>
     <div><div class="muted">Runway</div>
       <div class="big">{% if report.runway_months is none %}∞{% else %}{{ report.runway_months }} mo{% endif %}</div></div>
-    <div><div class="muted">Break-even needs</div>
-      <div class="big">{{ "{:,.0f}".format(report.breakeven_income).replace(",", " ") }} kr/mo</div></div>
   </div>
   <div class="muted" style="margin-top:.6rem">
     {% if report.runway_months is none %}Cash-flow positive — sustainable as is.
-    {% elif report.runway_months < 6 %}⚠️ Under 6 months. Income beats optimization now — see <a class="ticker" href="/finances">scenarios</a>.
+    {% elif report.runway_months < 6 %}{{ I.ic("alert", 14) }} Under 6 months. Income beats optimization now — see <a class="ticker" href="/finances">scenarios</a>.
     {% else %}Full picture &amp; what-if scenarios under <a class="ticker" href="/finances">Finances</a>.{% endif %}
   </div>
 </div>
 
-{% if holdings %}
+{# ── actionable cards: BUY + SELL only ────────────────────────────────── #}
+{% if buy_rows or sell_rows %}
 <div class="card">
-  <h2>Your holdings — sell guidance</h2>
-  <div class="scroll"><table>
-    <tr><th>Ticker</th><th>Value</th><th>+/−</th><th>To target</th><th>Guidance</th></tr>
-    {% for h in holdings %}
-    <tr>
-      <td><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a></td>
-      <td>{% if h.value %}{{ "{:,.0f}".format(h.value).replace(",", " ") }} {{ h.currency }}{% else %}–{% endif %}</td>
-      <td class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ h.gain_pct }}%{% else %}–{% endif %}</td>
-      <td style="min-width:150px">{% if h.progress is not none %}{% include "_bar.html" %}{% else %}<span class="muted">–</span>{% endif %}</td>
-      <td class="{{ 'SELL' if h.guidance.startswith('SELL NOW') }}">{{ h.guidance }}</td>
-    </tr>
-    {% endfor %}
-  </table></div>
+  <h2>Do today</h2>
+  {% for h in sell_rows %}
+  <div style="margin:.45rem 0"><span class="pill SELL">SELL</span>
+    <a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a>
+    <b>{{ h.guidance }}</b>
+    {% if h.value %}<span class="muted">— position {{ "{:,.0f}".format(h.value).replace(",", " ") }} {{ h.currency }}</span>{% endif %}
+  </div>
+  {% endfor %}
+  {% for r in buy_rows %}
+  <div style="margin:.45rem 0"><span class="pill BUY">BUY</span>
+    <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
+    {{ r["COMPANY"] }}
+    <span class="muted">— {{ r.label }} · quality {{ r["QUALITY SCORE"] }} · {{ r["DISCOUNT TO STICKER %"] }}% below sticker</span>
+    {% set ev = events.get(r["TICKER"]) %}
+    {% if ev and ev.earnings_days is not none and 0 <= ev.earnings_days <= 5 %}
+    <span class="subtext" style="color:var(--warn)">{{ I.ic("calendar", 13) }} earnings in {{ ev.earnings_days }}d — buying now is betting on the print</span>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% else %}
+<div class="card">
+  <div class="empty"><span class="glyph">{{ I.ic("sprout", 26) }}</span><b>Nothing to buy or sell today.</b><br>
+    The system says keep your money — patience is a position too.
+    <div class="muted" style="margin-top:.4rem"><a class="ticker" href="/signals">full signal lists →</a></div></div>
 </div>
 {% endif %}
 
-{% for universe, label in labels.items() %}
+{# ── holdings needing attention ───────────────────────────────────────── #}
+{% if attention %}
 <div class="card">
-  <h2>{{ label }} <span class="muted">{{ cards[universe].day }}</span></h2>
-  {% set buys = cards[universe].buy %}{% set watches = cards[universe].watch %}
-  {% if not buys and not watches %}
-    <div class="empty"><span class="glyph">🌱</span><b>No BUY or WATCH today.</b><br>
-      The system says keep your money — patience is a position too.</div>
-  {% endif %}
-  {% for r in buys %}
-    <div style="margin:.4rem 0"><span class="pill BUY">BUY</span>
-      <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
-      {{ r["COMPANY"] }} — Q {{ r["QUALITY SCORE"] }}, {{ r["DISCOUNT TO STICKER %"] }}% below sticker</div>
-  {% endfor %}
-  {% for r in watches %}
-    <div style="margin:.4rem 0"><span class="pill WATCH">WATCH</span>
-      <a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a>
-      {{ r["COMPANY"] }} — Q {{ r["QUALITY SCORE"] }}, waiting for timing</div>
-  {% endfor %}
-  <div class="muted" style="margin-top:.5rem">
-    <a class="ticker" href="/signals/{{ universe }}?action=FAIR">fair-priced list</a> ·
-    <a class="ticker" href="/signals/{{ universe }}">full table</a>
-  </div>
+  <h2>Holdings needing attention</h2>
+  <div class="scroll"><table class="cards">
+    <thead><tr><th>Ticker</th><th>Value</th><th>Since buy</th><th>To target</th><th>Verdict</th></tr></thead>
+    <tbody>
+    {% for h in attention %}
+    <tr>
+      <td data-l=""><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a>
+        {% if earnings_soon.get(h.ticker) %}<span class="subtext" style="color:var(--warn)">{{ I.ic("calendar", 13) }} earnings in {{ earnings_soon[h.ticker].days }}d — stops gap through earnings</span>{% endif %}</td>
+      <td data-l="Value">{% if h.value %}{{ "{:,.0f}".format(h.value).replace(",", " ") }} {{ h.currency }}{% else %}–{% endif %}</td>
+      <td data-l="Since buy" class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ '%+.1f'|format(h.gain_pct) }}%{% else %}–{% endif %}</td>
+      <td data-l="To target" style="min-width:150px">{% if h.progress is not none %}{% include "_bar.html" %}{% else %}<span class="muted">–</span>{% endif %}</td>
+      <td data-l="Verdict" class="{{ V.held_word(h.guidance) }}">{{ V.held_word(h.guidance) }}
+        {% if V.held_sub(h.guidance) %}<span class="subtext">{{ V.held_sub(h.guidance) }}</span>{% endif %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
 </div>
-{% endfor %}
+{% elif holdings %}
+<div class="card">
+  <h2>Holdings</h2>
+  <div class="muted">{{ I.ic("check", 14) }} All {{ holdings|length }} holding{{ 's' if holdings|length != 1 }} quiet — nothing needs action.
+    Live view under <a class="ticker" href="/finances">Finances</a>, trades in the <a class="ticker" href="/ledger">Ledger</a>.</div>
+</div>
+{% endif %}
 
+<div class="muted" style="margin:.2rem .2rem 1rem">
+  Full lists live in their tabs: <a class="ticker" href="/signals">Signals</a> ·
+  <a class="ticker" href="/signals?mode=swing">Swing</a> ·
+  <a class="ticker" href="/ledger">Ledger</a> ·
+  <a class="ticker" href="/markets">Markets</a> ·
+  <a class="ticker" href="/finances">Finances</a>
+</div>
 {% endblock %}

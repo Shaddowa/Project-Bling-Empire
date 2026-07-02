@@ -209,7 +209,7 @@ try { await core({ URL_BASE: "http://test.local", TOKEN: "tok" }); } catch (e) {
 const src = files.get("/cache/bling-widget.json"); // just ensures cache flow ran
 import { readFileSync } from "node:fs";
 const coreSrc = readFileSync("/root/Project-Bling-Empire/v2/widgets/bling-widget-core.js", "utf8");
-if (!coreSrc.includes('CORE_VERSION = "3.0"')) failures.push("CORE_VERSION is not 3.0");
+if (!coreSrc.includes('CORE_VERSION = "3.1"')) failures.push("CORE_VERSION is not 3.1");
 if (!coreSrc.includes("module.exports")) failures.push("loader contract broken: no module.exports");
 if (!src) failures.push("offline cache was never written on a successful fetch");
 

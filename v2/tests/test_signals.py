@@ -102,6 +102,72 @@ class TestSignalEdgeCases(unittest.TestCase):
         self.assertEqual(composite_signal(states).iloc[-1], "SELL")
 
 
+class TestSwingRule(unittest.TestCase):
+    """The SHIPPED swing exit (2026-07 retune): enter on a three-tool BUY above
+    the 200-day AND 50-day SMAs; exit after TWO consecutive closes below the
+    50-day SMA, executed at the next close."""
+
+    def _uptrend_then(self, tail):
+        closes = list(accelerating_up(400)) + list(tail)
+        return make_prices(closes)
+
+    def test_in_position_at_end_of_clean_uptrend(self):
+        from bling.modes import swing_position_and_trades
+        position, trades = swing_position_and_trades(make_prices(accelerating_up(400)))
+        self.assertEqual(position.iloc[-1], 1.0)
+        self.assertTrue(trades)  # open trade marked to market
+        self.assertFalse(trades[-1][2])  # ... and flagged as not closed
+
+    def test_single_close_below_50sma_does_not_exit(self):
+        from bling.modes import swing_position_and_trades
+        base = accelerating_up(400)
+        prices = make_prices(base)
+        sma50 = float(prices["Close"].rolling(50).mean().iloc[-1])
+        # one close 3% below the 50-day line, then back above the last high
+        prices = self._uptrend_then([sma50 * 0.97] + [base[-1] * 1.01] * 10)
+        position, _ = swing_position_and_trades(prices)
+        self.assertEqual(position.iloc[-1], 1.0)  # still in
+
+    def test_two_consecutive_closes_below_50sma_exit_next_close(self):
+        from bling.modes import swing_position_and_trades
+        base = accelerating_up(400)
+        prices = make_prices(base)
+        sma50 = float(prices["Close"].rolling(50).mean().iloc[-1])
+        dip = sma50 * 0.97
+        prices = self._uptrend_then([dip, dip, dip, dip, dip])
+        position, trades = swing_position_and_trades(prices)
+        # the 2nd consecutive close below the line (2nd dip day) is the
+        # DECISION day; the exit executes at the NEXT close — no look-ahead
+        self.assertEqual(position.iloc[-5], 1.0)   # 1st dip day: still in
+        self.assertEqual(position.iloc[-4], 1.0)   # 2nd dip day: decision day, still in
+        self.assertEqual(position.iloc[-3], 0.0)   # next close: out
+        self.assertTrue(trades[-1][2])             # trade is closed
+        self.assertGreater(trades[-1][1], 0)       # held for > 0 days
+
+    def test_entry_executes_next_close_no_lookahead(self):
+        from bling.modes import swing_position_and_trades
+        position, _ = swing_position_and_trades(make_prices(accelerating_up(400)))
+        first_in = position[position == 1.0].index[0]
+        i = position.index.get_loc(first_in)
+        self.assertGreater(i, 0)                       # never in on the first bar
+        self.assertEqual(position.iloc[i - 1], 0.0)    # flat the day the signal fired
+
+    def test_stats_reflect_shipped_rule_and_costs_bite(self):
+        from bling.modes import swing_trade_stats
+        prices = make_prices(accelerating_up(400))
+        net = swing_trade_stats(prices)
+        gross = swing_trade_stats(prices, cost=0.0)
+        self.assertIsNotNone(net)
+        self.assertGreater(net.trades, 0)
+        self.assertIsNotNone(net.avg_hold_days)
+        self.assertGreater(net.avg_hold_days, 0)
+        self.assertLess(net.strategy_return, gross.strategy_return)
+
+    def test_short_history_returns_none(self):
+        from bling.modes import swing_trade_stats
+        self.assertIsNone(swing_trade_stats(make_prices(accelerating_up(100))))
+
+
 class TestBacktestPlumbing(unittest.TestCase):
     def test_no_lookahead_and_costs_charged(self):
         from bling.backtest import strategy_returns, position_series
