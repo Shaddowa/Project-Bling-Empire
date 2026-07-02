@@ -1,0 +1,229 @@
+{% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% import "_verdicts.html" as V %}
+{% block title %}Finances — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Finances {% if edit %}<span class="muted">editing</span>{% endif %}</h1>
+
+{% if saved %}<div class="card" style="border-color:var(--good)"><b class="BUY">Saved.</b>
+<span class="muted">Every number below is already recalculated.</span></div>{% endif %}
+
+<div class="card">
+  <h2>Runway</h2>
+  <div class="kpis">
+    <div><div class="muted">After card bill</div><div class="big">{{ "{:,.0f}".format(report.liquid_after_cards).replace(",", " ") }} kr</div>{% if report.credit_card_used %}<div class="muted">cash {{ "{:,.0f}".format(report.liquid).replace(",", " ") }} − card {{ "{:,.0f}".format(report.credit_card_used).replace(",", " ") }}{% endif %}</div></div>
+    <div><div class="muted">Net worth</div><div class="big">{{ "{:,.0f}".format(report.net_worth).replace(",", " ") }} kr</div></div>
+    <div><div class="muted">Burn / month</div>
+      <div class="big {{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn).replace(",", " ") }} kr</div></div>
+    <div><div class="muted">Runway</div>
+      <div class="big">{% if report.runway_months is none %}∞{% else %}{{ report.runway_months }} mo{% endif %}</div></div>
+  </div>
+  <table style="margin-top:.8rem">
+    <tr><th>Scenario</th><th>Burn</th><th>Runway</th></tr>
+    {% for s in report.scenarios %}
+    <tr><td>{{ s.label }}</td><td>{{ "{:,.0f}".format(s.burn).replace(",", " ") }} kr</td>
+        <td>{% if s.runway_months is none %}<span class="pos">∞ sustainable</span>{% else %}{{ s.runway_months }} mo{% endif %}</td></tr>
+    {% endfor %}
+  </table>
+  <div class="muted" style="margin-top:.6rem">
+    To reach an 18-month runway: earn <b>{{ "{:,.0f}".format(report.income_for_sustainable).replace(",", " ") }} kr/mo</b> extra ·
+    to break even fully: <b>{{ "{:,.0f}".format(report.breakeven_income).replace(",", " ") }} kr/mo</b>.
+  </div>
+</div>
+
+<div class="card">
+  <h2>Targets — the break-even++ plan</h2>
+  <div class="kpis">
+    <div><div class="muted">Target (break-even +10%)</div><div class="big">{{ "{:,.0f}".format(targets.target).replace(",", " ") }} kr/mo</div></div>
+    <div><div class="muted">Portfolio can realistically give</div><div class="big">{{ "{:,.0f}".format(targets.portfolio_monthly).replace(",", " ") }} kr/mo</div></div>
+    <div><div class="muted">Income target (work / app)</div><div class="big" style="color:var(--accent-ink)">{{ "{:,.0f}".format(targets.income_target).replace(",", " ") }} kr/mo</div></div>
+  </div>
+  <div class="muted" style="margin-top:.6rem;line-height:1.6">
+    Math: liquid {{ "{:,.0f}".format(report.liquid).replace(",", " ") }} − 12-month safety buffer =
+    <b>{{ "{:,.0f}".format(targets.investable).replace(",", " ") }} kr investable</b>, at a conservative 12%/yr ≈
+    {{ "{:,.0f}".format(targets.portfolio_monthly).replace(",", " ") }} kr/mo. The rest of the target must come from
+    income — at this capital size the portfolio compounds wealth, it does not pay bills. Every
+    +100 000 kr invested ≈ +1 000 kr/mo toward the target.
+  </div>
+</div>
+
+<div class="card">
+  <h2>Where the burn number comes from</h2>
+  <div class="scroll"><table>
+    <tr><th>Money out / in</th><th style="text-align:right">kr / month</th></tr>
+    {% for d in f.debts %}
+    <tr><td>{{ d.name }}</td><td class="neg" style="text-align:right">−{{ "{:,.0f}".format(d.monthly_payment).replace(",", " ") }}</td></tr>
+    {% endfor %}
+    {% for e in f.expenses %}
+    <tr><td>{{ e.name }}</td><td class="neg" style="text-align:right">−{{ "{:,.0f}".format(e.amount).replace(",", " ") }}</td></tr>
+    {% endfor %}
+    {% for i in f.income %}
+    <tr><td>{{ i.name }}</td><td class="pos" style="text-align:right">+{{ "{:,.0f}".format(i.amount).replace(",", " ") }}</td></tr>
+    {% endfor %}
+    <tr><td><b>Net burn</b></td>
+        <td style="text-align:right"><b class="{{ 'neg' if report.monthly_burn > 0 else 'pos' }}">{{ "{:,.0f}".format(report.monthly_burn).replace(",", " ") }}</b></td></tr>
+  </table></div>
+  <div class="muted" style="margin-top:.6rem;line-height:1.6">
+    Cross-check against reality: the bank export's typical no-salary month moved
+    {% if tx %}<b>~{{ "{:,.0f}".format(tx.rough_burn).replace(",", " ") }} kr</b>{% else %}—{% endif %} out of the hub
+    account — almost exactly your mortgage + fellesgjeld, which is why they're counted once (as debt
+    payments) and not again from the bank line. Daily spending runs on other cards/accounts, so
+    "Personal living" is an estimate — tune it, it's the softest number here.
+  </div>
+</div>
+
+{% if tx %}
+<div class="card">
+  <h2>Your money habits — from the bank export, roughly</h2>
+  <div style="margin-bottom:.6rem;line-height:1.7">
+    <b>Nomad mode ≈ {{ "{:,.0f}".format(tx.rough_burn).replace(",", " ") }} kr/mo</b> —
+    <span class="muted">the typical (median) no-salary month; this feeds the runway model below.</span><br>
+    <span class="muted">Employed phase paid ~<b>{{ "{:,.0f}".format(tx.typical_salary).replace(",", " ") }} kr/mo</b>,
+    last payout {{ tx.last_salary_month or "—" }} (severance).
+    {% if tx.irregular_months %}Irregular months (moves/one-offs, not habits):
+    <b>{{ tx.irregular_months|join(", ") }}</b>.{% endif %}
+    Based on {{ tx.transaction_count }} transactions {{ tx.first_date }} → {{ tx.last_date }}.</span>
+  </div>
+  <div class="scroll"><table class="cards">
+    <thead><tr><th>Month</th><th>Out</th><th>In</th><th>Salary</th><th>Card spend</th></tr></thead>
+    <tbody>
+    {% for m in tx.months[-9:] %}
+    <tr><td data-l=""><b>{{ m.month }}</b></td>
+        <td data-l="Out" class="neg">{{ "{:,.0f}".format(m.out).replace(",", " ") }}</td>
+        <td data-l="In" class="pos">{{ "{:,.0f}".format(m['in']).replace(",", " ") }}</td>
+        <td data-l="Salary">{{ "{:,.0f}".format(m.salary).replace(",", " ") if m.salary else "–" }}</td>
+        <td data-l="Card spend">{{ "{:,.0f}".format(m.card_spend).replace(",", " ") }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <div class="muted" style="margin-top:.5rem">
+    Direct card spend by category (whole period):
+    {% for name, amount in tx.categories.items() if amount > 0 %}
+      {{ name }} <b>{{ "{:,.0f}".format(amount).replace(",", " ") }}</b>{{ " · " if not loop.last }}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+{% if not edit %}
+<div class="card">
+  <h2>Your numbers</h2>
+  <div class="scroll"><table>
+    {% for i in f.cash %}<tr><td>{{ i.name }}</td><td style="text-align:right">{{ "{:,.0f}".format(i.amount).replace(",", " ") }} kr</td></tr>{% endfor %}
+    {% for i in f.investments %}<tr><td>{{ i.name }}</td><td style="text-align:right">{{ "{:,.0f}".format(i.amount).replace(",", " ") }} kr</td></tr>{% endfor %}
+    {% for h in f.holdings %}<tr><td>{{ h.ticker }} ({{ h.shares|round(1) }} shares)</td><td class="muted" style="text-align:right">tracked live above</td></tr>{% endfor %}
+  </table></div>
+  <a href="/finances?edit=1"><button type="button" style="margin-top:.9rem;width:100%">{{ I.ic("pencil", 15) }} Edit the numbers</button></a>
+  <div class="muted" style="margin-top:.6rem">
+    Lines tagged <code>(bank)</code> sync automatically every morning (DNB + Bank Norwegian,
+    GoCardless). Card usage is a bill, not negative cash — the headline number is what's
+    yours after paying it. Consents renew ~every 90-180 days; you'll get a push when needed.
+  </div>
+</div>
+{% else %}
+<form method="post" action="/finances">
+
+<div class="card">
+  <h2>Cash accounts (balance)</h2>
+  <div class="scroll"><table>
+    <tr><th>Name</th><th>Balance kr</th></tr>
+    {% for i in f.cash %}
+    <tr><td><input name="cash_name" value="{{ i.name }}"></td>
+        <td><input name="cash_amount" value="{{ i.amount }}"></td></tr>
+    {% endfor %}
+    <tr><td><input name="cash_name" placeholder="add…"></td><td><input name="cash_amount"></td></tr>
+  </table></div>
+</div>
+
+<div class="card">
+  <h2>Investments (market value)</h2>
+  <div class="scroll"><table>
+    <tr><th>Name</th><th>Value kr</th></tr>
+    {% for i in f.investments %}
+    <tr><td><input name="inv_name" value="{{ i.name }}"></td>
+        <td><input name="inv_amount" value="{{ i.amount }}"></td></tr>
+    {% endfor %}
+    <tr><td><input name="inv_name" placeholder="add…"></td><td><input name="inv_amount"></td></tr>
+  </table></div>
+</div>
+
+<div class="card">
+  <h2>Income (monthly)</h2>
+  <div class="scroll"><table>
+    <tr><th>Source</th><th>kr / month</th></tr>
+    {% for i in f.income %}
+    <tr><td><input name="inc_name" value="{{ i.name }}"></td>
+        <td><input name="inc_amount" value="{{ i.amount }}"></td></tr>
+    {% endfor %}
+    <tr><td><input name="inc_name" placeholder="add…"></td><td><input name="inc_amount"></td></tr>
+  </table></div>
+</div>
+
+<div class="card">
+  <h2>Expenses (monthly)</h2>
+  <div class="scroll"><table>
+    <tr><th>Expense</th><th>kr / month</th></tr>
+    {% for i in f.expenses %}
+    <tr><td><input name="exp_name" value="{{ i.name }}"></td>
+        <td><input name="exp_amount" value="{{ i.amount }}"></td></tr>
+    {% endfor %}
+    <tr><td><input name="exp_name" placeholder="add…"></td><td><input name="exp_amount"></td></tr>
+  </table></div>
+</div>
+
+<div class="card">
+  <h2>Debts</h2>
+  <div class="scroll"><table class="cards">
+    <thead><tr><th>Debt</th><th>Balance kr</th><th>Payment kr/mo</th><th>Rate %</th></tr></thead>
+    <tbody>
+    {% for d in f.debts %}
+    <tr><td data-l="Debt"><input name="debt_name" value="{{ d.name }}"></td>
+        <td data-l="Balance kr"><input name="debt_balance" value="{{ d.balance }}"></td>
+        <td data-l="Payment kr/mo"><input name="debt_monthly_payment" value="{{ d.monthly_payment }}"></td>
+        <td data-l="Rate %"><input name="debt_interest_rate" value="{{ d.interest_rate * 100 }}"></td></tr>
+    {% endfor %}
+    <tr><td data-l="Debt"><input name="debt_name" placeholder="add…"></td><td data-l="Balance kr"><input name="debt_balance"></td>
+        <td data-l="Payment kr/mo"><input name="debt_monthly_payment"></td><td data-l="Rate %"><input name="debt_interest_rate"></td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<div class="card">
+  <h2>Stock holdings (tracked live)</h2>
+  {% if holdings %}
+  <div class="scroll"><table class="cards" style="margin-bottom:.8rem">
+    <thead><tr><th>Ticker</th><th>Value</th><th>Since buy</th><th>Stop</th><th>Target</th><th>To target</th><th>Verdict</th></tr></thead>
+    <tbody>
+    {% for h in holdings %}
+    <tr><td data-l=""><a class="ticker" href="/ticker/{{ h.ticker }}">{{ h.ticker }}</a></td>
+        <td data-l="Value">{% if h.value %}{{ "{:,.0f}".format(h.value).replace(",", " ") }} {{ h.currency }}{% else %}–{% endif %}</td>
+        <td data-l="Since buy" class="{{ 'pos' if (h.gain_pct or 0) >= 0 else 'neg' }}">{% if h.gain_pct is not none %}{{ h.gain_pct }}%{% else %}–{% endif %}</td>
+        <td data-l="Stop" class="neg">{{ h.stop or "–" }}</td>
+        <td data-l="Target" class="pos">{{ h.target or "–" }}</td>
+        <td data-l="To target" style="min-width:150px">{% if h.progress is not none %}{% include "_bar.html" %}{% else %}<span class="muted">–</span>{% endif %}</td>
+        <td data-l="Verdict" class="{{ V.held_word(h.guidance) }}">{{ V.held_word(h.guidance) }}
+          {% if V.held_sub(h.guidance) %}<span class="subtext">{{ V.held_sub(h.guidance) }}</span>{% endif %}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+  <div class="scroll"><table class="cards">
+    <thead><tr><th>Ticker (Yahoo, e.g. KIT.OL)</th><th>Shares</th><th>Cost/share</th><th>Stop (0 = auto −8%)</th></tr></thead>
+    <tbody>
+    {% for h in f.holdings %}
+    <tr><td data-l="Ticker"><input name="hold_name" value="{{ h.ticker }}"></td>
+        <td data-l="Shares"><input name="hold_shares" value="{{ h.shares }}"></td>
+        <td data-l="Cost/share"><input name="hold_cost_basis" value="{{ h.cost_basis }}"></td>
+        <td data-l="Stop"><input name="hold_stop_price" value="{{ h.stop_price }}"></td></tr>
+    {% endfor %}
+    <tr><td data-l="Ticker"><input name="hold_name" placeholder="add…"></td><td data-l="Shares"><input name="hold_shares"></td>
+        <td data-l="Cost/share"><input name="hold_cost_basis"></td><td data-l="Stop"><input name="hold_stop_price"></td></tr>
+    </tbody>
+  </table></div>
+</div>
+
+<button type="submit" style="width:100%;margin-bottom:2rem">Save everything</button>
+</form>
+{% endif %}
+
+{% endblock %}

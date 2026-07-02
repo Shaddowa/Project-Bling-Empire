@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Login — Bling Empire{% endblock %}
+{% block content %}
+<div class="login-hero">
+  <img class="login-logo" src="/static/favicon.png" alt="">
+  <h1 class="login-name">Bling Empire</h1>
+  <div class="login-sub">stock signals · private</div>
+  <form method="post" action="/login" class="card login-card">
+    <input type="password" name="password" placeholder="Password" autofocus
+           autocomplete="current-password" style="margin-bottom:.8rem" aria-label="Password">
+    {% if error %}<div class="login-error" style="margin:0 0 .8rem">{{ error }} — try again.</div>{% endif %}
+    <button type="submit" style="width:100%">Enter the vault</button>
+  </form>
+</div>
+{% endblock %}

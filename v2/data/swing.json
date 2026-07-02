@@ -1,0 +1,2091 @@
+{
+  "generated_at": "2026-07-01 22:20 UTC",
+  "rows": [
+    {
+      "ticker": "MTB",
+      "name": "M&T Bank Corporation",
+      "price": 241.95,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 17,
+        "win_rate": 0.71,
+        "avg_trade_return": 0.0359,
+        "strategy_return": 0.783,
+        "hold_return": 0.7362
+      }
+    },
+    {
+      "ticker": "DGX",
+      "name": "Quest Diagnostics Incorporated",
+      "price": 216.02,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.67,
+        "avg_trade_return": 0.0195,
+        "strategy_return": 0.3975,
+        "hold_return": 0.6337
+      }
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "price": 111.28,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.62,
+        "avg_trade_return": 0.0074,
+        "strategy_return": 0.1185,
+        "hold_return": 1.1617
+      }
+    },
+    {
+      "ticker": "PSX",
+      "name": "Phillips 66",
+      "price": 174.5,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.62,
+        "avg_trade_return": 0.017,
+        "strategy_return": 0.3897,
+        "hold_return": 0.3417
+      }
+    },
+    {
+      "ticker": "DLTR",
+      "name": "Dollar Tree, Inc.",
+      "price": 121.15,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.61,
+        "avg_trade_return": 0.0213,
+        "strategy_return": 0.3421,
+        "hold_return": 0.1515
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "name": "Johnson & Johnson",
+      "price": 253.98,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.61,
+        "avg_trade_return": 0.0213,
+        "strategy_return": 0.434,
+        "hold_return": 0.8437
+      }
+    },
+    {
+      "ticker": "NSC",
+      "name": "Norfolk Southern Corporation",
+      "price": 318.99,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.61,
+        "avg_trade_return": 0.009,
+        "strategy_return": 0.1481,
+        "hold_return": 0.583
+      }
+    },
+    {
+      "ticker": "TFC",
+      "name": "Truist Financial Corporation",
+      "price": 50.89,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.61,
+        "avg_trade_return": 0.0209,
+        "strategy_return": 0.4139,
+        "hold_return": 0.4753
+      }
+    },
+    {
+      "ticker": "ECL",
+      "name": "Ecolab Inc.",
+      "price": 278.37,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.6,
+        "avg_trade_return": 0.0137,
+        "strategy_return": 0.2846,
+        "hold_return": 0.1861
+      }
+    },
+    {
+      "ticker": "RF",
+      "name": "Regions Financial Corporation",
+      "price": 30.8,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.6,
+        "avg_trade_return": 0.0192,
+        "strategy_return": 0.4215,
+        "hold_return": 0.7405
+      }
+    },
+    {
+      "ticker": "ITW",
+      "name": "Illinois Tool Works Inc.",
+      "price": 268.97,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.59,
+        "avg_trade_return": 0.0037,
+        "strategy_return": 0.0575,
+        "hold_return": 0.1967
+      }
+    },
+    {
+      "ticker": "TTWO",
+      "name": "Take-Two Interactive Software, Inc.",
+      "price": 250.32,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.58,
+        "avg_trade_return": 0.0221,
+        "strategy_return": 0.4506,
+        "hold_return": 0.5946
+      }
+    },
+    {
+      "ticker": "AKER.OL",
+      "name": "Aker ASA",
+      "price": 1198.0,
+      "currency": "NOK",
+      "signal_age": 1,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.57,
+        "avg_trade_return": 0.03,
+        "strategy_return": 0.7828,
+        "hold_return": 1.1683
+      }
+    },
+    {
+      "ticker": "STB.OL",
+      "name": "Storebrand ASA",
+      "price": 185.5,
+      "currency": "NOK",
+      "signal_age": 2,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.57,
+        "avg_trade_return": 0.016,
+        "strategy_return": 0.363,
+        "hold_return": 0.8224
+      }
+    },
+    {
+      "ticker": "MNST",
+      "name": "Monster Beverage Corporation",
+      "price": 97.35,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.57,
+        "avg_trade_return": 0.0106,
+        "strategy_return": 0.2471,
+        "hold_return": 0.9251
+      }
+    },
+    {
+      "ticker": "MRK",
+      "name": "Merck & Co., Inc.",
+      "price": 125.37,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.57,
+        "avg_trade_return": 0.0015,
+        "strategy_return": -0.001,
+        "hold_return": 0.0317
+      }
+    },
+    {
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "price": 264.48,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.56,
+        "avg_trade_return": 0.0685,
+        "strategy_return": 1.4019,
+        "hold_return": 1.059
+      }
+    },
+    {
+      "ticker": "AJG",
+      "name": "Arthur J. Gallagher & Co.",
+      "price": 239.67,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.55,
+        "avg_trade_return": 0.0017,
+        "strategy_return": 0.0087,
+        "hold_return": -0.0609
+      }
+    },
+    {
+      "ticker": "AXON",
+      "name": "Axon Enterprise, Inc.",
+      "price": 593.96,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.55,
+        "avg_trade_return": 0.0543,
+        "strategy_return": 1.5729,
+        "hold_return": 0.9908
+      }
+    },
+    {
+      "ticker": "APP",
+      "name": "AppLovin Corporation",
+      "price": 564.61,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.52,
+        "avg_trade_return": 0.0524,
+        "strategy_return": 1.4651,
+        "hold_return": 5.7927
+      }
+    },
+    {
+      "ticker": "CINF",
+      "name": "Cincinnati Financial Corporation",
+      "price": 187.21,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.52,
+        "avg_trade_return": 0.0143,
+        "strategy_return": 0.3197,
+        "hold_return": 0.6796
+      }
+    },
+    {
+      "ticker": "JBHT",
+      "name": "J.B. Hunt Transport Services, Inc.",
+      "price": 290.07,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.52,
+        "avg_trade_return": 0.0158,
+        "strategy_return": 0.2813,
+        "hold_return": 0.8839
+      }
+    },
+    {
+      "ticker": "LYV",
+      "name": "Live Nation Entertainment, Inc.",
+      "price": 183.98,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.52,
+        "avg_trade_return": 0.02,
+        "strategy_return": 0.5125,
+        "hold_return": 1.026
+      }
+    },
+    {
+      "ticker": "MAS",
+      "name": "Masco Corporation",
+      "price": 81.64,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.52,
+        "avg_trade_return": 0.0098,
+        "strategy_return": 0.1729,
+        "hold_return": 0.2733
+      }
+    },
+    {
+      "ticker": "O",
+      "name": "Realty Income Corporation",
+      "price": 61.82,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.52,
+        "avg_trade_return": 0.0009,
+        "strategy_return": 0.0081,
+        "hold_return": 0.3218
+      }
+    },
+    {
+      "ticker": "PRU",
+      "name": "Prudential Financial, Inc.",
+      "price": 111.07,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.52,
+        "avg_trade_return": -0.0061,
+        "strategy_return": -0.1461,
+        "hold_return": 0.0453
+      }
+    },
+    {
+      "ticker": "AIZ",
+      "name": "Assurant, Inc.",
+      "price": 274.14,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.0172,
+        "strategy_return": 0.4274,
+        "hold_return": 0.6889
+      }
+    },
+    {
+      "ticker": "APH",
+      "name": "Amphenol Corporation",
+      "price": 172.22,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.0354,
+        "strategy_return": 0.8318,
+        "hold_return": 1.5928
+      }
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 772.74,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.0375,
+        "strategy_return": 0.7826,
+        "hold_return": 0.998
+      }
+    },
+    {
+      "ticker": "EA",
+      "name": "Electronic Arts Inc.",
+      "price": 205.45,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.5,
+        "avg_trade_return": -0.0028,
+        "strategy_return": -0.079,
+        "hold_return": 0.486
+      }
+    },
+    {
+      "ticker": "HUM",
+      "name": "Humana Inc.",
+      "price": 409.42,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.022,
+        "strategy_return": 0.1476,
+        "hold_return": 0.1623
+      }
+    },
+    {
+      "ticker": "LH",
+      "name": "Labcorp Holdings Inc.",
+      "price": 283.88,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.0075,
+        "strategy_return": 0.1553,
+        "hold_return": 0.4168
+      }
+    },
+    {
+      "ticker": "MPC",
+      "name": "Marathon Petroleum Corporation",
+      "price": 264.87,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.0248,
+        "strategy_return": 0.6233,
+        "hold_return": 0.5965
+      }
+    },
+    {
+      "ticker": "WRB",
+      "name": "W. R. Berkley Corporation",
+      "price": 70.66,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.5,
+        "avg_trade_return": 0.0065,
+        "strategy_return": 0.1272,
+        "hold_return": 0.4065
+      }
+    },
+    {
+      "ticker": "CRL",
+      "name": "Charles River Laboratories International, Inc.",
+      "price": 229.09,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.48,
+        "avg_trade_return": 0.0122,
+        "strategy_return": 0.23,
+        "hold_return": 0.1048
+      }
+    },
+    {
+      "ticker": "CSX",
+      "name": "CSX Corporation",
+      "price": 48.33,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.48,
+        "avg_trade_return": 0.0136,
+        "strategy_return": 0.2895,
+        "hold_return": 0.5064
+      }
+    },
+    {
+      "ticker": "FITB",
+      "name": "Fifth Third Bancorp",
+      "price": 57.49,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.48,
+        "avg_trade_return": 0.0118,
+        "strategy_return": 0.2399,
+        "hold_return": 0.7356
+      }
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "price": 361.21,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.48,
+        "avg_trade_return": 0.0183,
+        "strategy_return": 0.397,
+        "hold_return": 0.9632
+      }
+    },
+    {
+      "ticker": "REG",
+      "name": "Regency Centers Corporation",
+      "price": 79.37,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.48,
+        "avg_trade_return": -0.0022,
+        "strategy_return": -0.0618,
+        "hold_return": 0.3837
+      }
+    },
+    {
+      "ticker": "TDY",
+      "name": "Teledyne Technologies Incorporated",
+      "price": 661.2,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.48,
+        "avg_trade_return": 0.0095,
+        "strategy_return": 0.1941,
+        "hold_return": 0.7111
+      }
+    },
+    {
+      "ticker": "AUTO.OL",
+      "name": "AutoStore Holdings Ltd.",
+      "price": 12.7,
+      "currency": "NOK",
+      "signal_age": 2,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.47,
+        "avg_trade_return": -0.0026,
+        "strategy_return": -0.2006,
+        "hold_return": 0.0184
+      }
+    },
+    {
+      "ticker": "OTEC.OL",
+      "name": "Otello Corporation ASA",
+      "price": 17.46,
+      "currency": "NOK",
+      "signal_age": 1,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.47,
+        "avg_trade_return": 0.0246,
+        "strategy_return": 0.53,
+        "hold_return": 1.2675
+      }
+    },
+    {
+      "ticker": "PROT.OL",
+      "name": "Protector Forsikring ASA",
+      "price": 481.2,
+      "currency": "NOK",
+      "signal_age": 3,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.47,
+        "avg_trade_return": 0.0345,
+        "strategy_return": 0.7773,
+        "hold_return": 0.9929
+      }
+    },
+    {
+      "ticker": "ELV",
+      "name": "Elevance Health, Inc.",
+      "price": 416.19,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 17,
+        "win_rate": 0.47,
+        "avg_trade_return": 0.0097,
+        "strategy_return": 0.0811,
+        "hold_return": -0.1943
+      }
+    },
+    {
+      "ticker": "MAA",
+      "name": "Mid-America Apartment Communities, Inc.",
+      "price": 139.94,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.47,
+        "avg_trade_return": 0.0031,
+        "strategy_return": 0.0422,
+        "hold_return": 0.0838
+      }
+    },
+    {
+      "ticker": "TECH",
+      "name": "Bio-Techne Corporation",
+      "price": 71.0,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.47,
+        "avg_trade_return": 0.0221,
+        "strategy_return": 0.3517,
+        "hold_return": -0.0005
+      }
+    },
+    {
+      "ticker": "FFIV",
+      "name": "F5, Inc.",
+      "price": 424.18,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.46,
+        "avg_trade_return": 0.0024,
+        "strategy_return": -0.0022,
+        "hold_return": 1.4777
+      }
+    },
+    {
+      "ticker": "SNA",
+      "name": "Snap-on Incorporated",
+      "price": 403.28,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.46,
+        "avg_trade_return": -0.001,
+        "strategy_return": -0.0591,
+        "hold_return": 0.6421
+      }
+    },
+    {
+      "ticker": "PEXIP.OL",
+      "name": "Pexip Holding ASA",
+      "price": 82.7,
+      "currency": "NOK",
+      "signal_age": 2,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0588,
+        "strategy_return": 1.514,
+        "hold_return": 2.2171
+      }
+    },
+    {
+      "ticker": "ABBV",
+      "name": "AbbVie Inc.",
+      "price": 251.06,
+      "currency": "USD",
+      "signal_age": 7,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0111,
+        "strategy_return": 0.205,
+        "hold_return": 0.5898
+      }
+    },
+    {
+      "ticker": "ALL",
+      "name": "The Allstate Corporation",
+      "price": 243.12,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0076,
+        "strategy_return": 0.154,
+        "hold_return": 0.5799
+      }
+    },
+    {
+      "ticker": "BEN",
+      "name": "Franklin Resources, Inc.",
+      "price": 34.06,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0175,
+        "strategy_return": 0.3652,
+        "hold_return": 0.7162
+      }
+    },
+    {
+      "ticker": "FTNT",
+      "name": "Fortinet, Inc.",
+      "price": 158.98,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0345,
+        "strategy_return": 0.6413,
+        "hold_return": 1.6479
+      }
+    },
+    {
+      "ticker": "GE",
+      "name": "GE Aerospace",
+      "price": 374.94,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0314,
+        "strategy_return": 0.7331,
+        "hold_return": 1.3641
+      }
+    },
+    {
+      "ticker": "IBM",
+      "name": "International Business Machines Corporation",
+      "price": 286.25,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0264,
+        "strategy_return": 0.5662,
+        "hold_return": 0.7703
+      }
+    },
+    {
+      "ticker": "KO",
+      "name": "The Coca-Cola Company",
+      "price": 81.29,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0102,
+        "strategy_return": 0.2034,
+        "hold_return": 0.3462
+      }
+    },
+    {
+      "ticker": "KVUE",
+      "name": "Kenvue Inc.",
+      "price": 19.33,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0047,
+        "strategy_return": 0.0516,
+        "hold_return": 0.1395
+      }
+    },
+    {
+      "ticker": "RVTY",
+      "name": "Revvity, Inc.",
+      "price": 112.84,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0033,
+        "strategy_return": 0.032,
+        "hold_return": 0.0733
+      }
+    },
+    {
+      "ticker": "SWK",
+      "name": "Stanley Black & Decker, Inc.",
+      "price": 91.34,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0081,
+        "strategy_return": 0.1431,
+        "hold_return": 0.2203
+      }
+    },
+    {
+      "ticker": "UNP",
+      "name": "Union Pacific Corporation",
+      "price": 277.73,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0018,
+        "strategy_return": 0.0008,
+        "hold_return": 0.3001
+      }
+    },
+    {
+      "ticker": "VLO",
+      "name": "Valero Energy Corporation",
+      "price": 269.44,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.45,
+        "avg_trade_return": 0.0195,
+        "strategy_return": 0.378,
+        "hold_return": 0.85
+      }
+    },
+    {
+      "ticker": "WAT",
+      "name": "Waters Corporation",
+      "price": 378.13,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.45,
+        "avg_trade_return": -0.0082,
+        "strategy_return": -0.1879,
+        "hold_return": 0.32
+      }
+    },
+    {
+      "ticker": "STECH.OL",
+      "name": "Soiltech ASA",
+      "price": 88.2,
+      "currency": "NOK",
+      "signal_age": 1,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.44,
+        "avg_trade_return": 0.0107,
+        "strategy_return": 0.1535,
+        "hold_return": 0.4459
+      }
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova Inc.",
+      "price": 1134.35,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.44,
+        "avg_trade_return": 0.0748,
+        "strategy_return": 1.7934,
+        "hold_return": 5.4621
+      }
+    },
+    {
+      "ticker": "MSI",
+      "name": "Motorola Solutions, Inc.",
+      "price": 418.94,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.44,
+        "avg_trade_return": 0.0078,
+        "strategy_return": 0.0925,
+        "hold_return": 0.1073
+      }
+    },
+    {
+      "ticker": "RTX",
+      "name": "RTX Corporation",
+      "price": 191.78,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.44,
+        "avg_trade_return": 0.0028,
+        "strategy_return": 0.047,
+        "hold_return": 0.977
+      }
+    },
+    {
+      "ticker": "YUM",
+      "name": "Yum! Brands, Inc.",
+      "price": 161.59,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.44,
+        "avg_trade_return": 0.0021,
+        "strategy_return": 0.0144,
+        "hold_return": 0.2663
+      }
+    },
+    {
+      "ticker": "ATEA.OL",
+      "name": "Atea ASA",
+      "price": 174.6,
+      "currency": "NOK",
+      "signal_age": 3,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0003,
+        "strategy_return": -0.0091,
+        "hold_return": 0.2479
+      }
+    },
+    {
+      "ticker": "WEST.OL",
+      "name": "Western Bulk Chartering AS",
+      "price": 22.0,
+      "currency": "NOK",
+      "signal_age": 4,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.43,
+        "avg_trade_return": -0.015,
+        "strategy_return": -0.3355,
+        "hold_return": -0.1417
+      }
+    },
+    {
+      "ticker": "A",
+      "name": "Agilent Technologies, Inc.",
+      "price": 133.39,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0029,
+        "strategy_return": 0.0391,
+        "hold_return": 0.0378
+      }
+    },
+    {
+      "ticker": "ABNB",
+      "name": "Airbnb, Inc.",
+      "price": 147.31,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0096,
+        "strategy_return": 0.1805,
+        "hold_return": -0.0284
+      }
+    },
+    {
+      "ticker": "BRK-B",
+      "name": "Berkshire Hathaway Inc.",
+      "price": 499.74,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.43,
+        "avg_trade_return": -0.0008,
+        "strategy_return": -0.03,
+        "hold_return": 0.225
+      }
+    },
+    {
+      "ticker": "CB",
+      "name": "Chubb Limited",
+      "price": 351.73,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0024,
+        "strategy_return": 0.0377,
+        "hold_return": 0.3681
+      }
+    },
+    {
+      "ticker": "DVA",
+      "name": "DaVita Inc.",
+      "price": 228.03,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0293,
+        "strategy_return": 0.6257,
+        "hold_return": 0.6121
+      }
+    },
+    {
+      "ticker": "GOOG",
+      "name": "Alphabet Inc.",
+      "price": 357.89,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0198,
+        "strategy_return": 0.4502,
+        "hold_return": 0.93
+      }
+    },
+    {
+      "ticker": "TROW",
+      "name": "T. Rowe Price Group, Inc.",
+      "price": 116.11,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.43,
+        "avg_trade_return": 0.0008,
+        "strategy_return": -0.017,
+        "hold_return": 0.1123
+      }
+    },
+    {
+      "ticker": "KDP",
+      "name": "Keurig Dr Pepper Inc.",
+      "price": 33.37,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.42,
+        "avg_trade_return": 0.0064,
+        "strategy_return": 0.1054,
+        "hold_return": 0.0453
+      }
+    },
+    {
+      "ticker": "SHW",
+      "name": "The Sherwin-Williams Company",
+      "price": 346.05,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.42,
+        "avg_trade_return": -0.0035,
+        "strategy_return": -0.1015,
+        "hold_return": 0.1857
+      }
+    },
+    {
+      "ticker": "TSLA",
+      "name": "Tesla, Inc.",
+      "price": 425.3,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.42,
+        "avg_trade_return": 0.0148,
+        "strategy_return": 0.2695,
+        "hold_return": 1.1543
+      }
+    },
+    {
+      "ticker": "ELMRA.OL",
+      "name": "Elmera Group ASA",
+      "price": 46.15,
+      "currency": "NOK",
+      "signal_age": 5,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.41,
+        "avg_trade_return": 0.0215,
+        "strategy_return": 0.3732,
+        "hold_return": 0.6763
+      }
+    },
+    {
+      "ticker": "ENDUR.OL",
+      "name": "End\u00far ASA",
+      "price": 111.0,
+      "currency": "NOK",
+      "signal_age": 1,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.41,
+        "avg_trade_return": 0.0123,
+        "strategy_return": 0.2637,
+        "hold_return": 1.0726
+      }
+    },
+    {
+      "ticker": "BAX",
+      "name": "Baxter International Inc.",
+      "price": 21.69,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.41,
+        "avg_trade_return": -0.0257,
+        "strategy_return": -0.4766,
+        "hold_return": -0.3321
+      }
+    },
+    {
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 191.27,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.41,
+        "avg_trade_return": 0.013,
+        "strategy_return": 0.2758,
+        "hold_return": 1.2703
+      }
+    },
+    {
+      "ticker": "EW",
+      "name": "Edwards Lifesciences Corporation",
+      "price": 91.99,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.41,
+        "avg_trade_return": 0.0051,
+        "strategy_return": 0.1027,
+        "hold_return": -0.0145
+      }
+    },
+    {
+      "ticker": "WM",
+      "name": "Waste Management, Inc.",
+      "price": 224.08,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.41,
+        "avg_trade_return": -0.0022,
+        "strategy_return": -0.0624,
+        "hold_return": 0.0858
+      }
+    },
+    {
+      "ticker": "CL",
+      "name": "Colgate-Palmolive Company",
+      "price": 92.76,
+      "currency": "USD",
+      "signal_age": 7,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.4,
+        "avg_trade_return": 0.0031,
+        "strategy_return": 0.0422,
+        "hold_return": -0.0104
+      }
+    },
+    {
+      "ticker": "CNC",
+      "name": "Centene Corporation",
+      "price": 68.35,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.4,
+        "avg_trade_return": 0.0143,
+        "strategy_return": -0.0402,
+        "hold_return": 0.0145
+      }
+    },
+    {
+      "ticker": "EQR",
+      "name": "Equity Residential",
+      "price": 68.63,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.4,
+        "avg_trade_return": -0.001,
+        "strategy_return": -0.0381,
+        "hold_return": 0.1014
+      }
+    },
+    {
+      "ticker": "FTV",
+      "name": "Fortive Corporation",
+      "price": 61.8,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.4,
+        "avg_trade_return": 0.0056,
+        "strategy_return": 0.0971,
+        "hold_return": 0.1244
+      }
+    },
+    {
+      "ticker": "UDR",
+      "name": "UDR, Inc.",
+      "price": 40.62,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.4,
+        "avg_trade_return": 0.0038,
+        "strategy_return": 0.0623,
+        "hold_return": 0.0877
+      }
+    },
+    {
+      "ticker": "V",
+      "name": "Visa Inc.",
+      "price": 351.08,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.4,
+        "avg_trade_return": -0.0001,
+        "strategy_return": -0.0287,
+        "hold_return": 0.337
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com, Inc.",
+      "price": 241.7,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.39,
+        "avg_trade_return": 0.0035,
+        "strategy_return": 0.0169,
+        "hold_return": 0.2216
+      }
+    },
+    {
+      "ticker": "BALL",
+      "name": "Ball Corporation",
+      "price": 61.75,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.39,
+        "avg_trade_return": 0.002,
+        "strategy_return": 0.0167,
+        "hold_return": 0.0401
+      }
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "price": 352.04,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.39,
+        "avg_trade_return": 0.0305,
+        "strategy_return": 0.6719,
+        "hold_return": 1.0658
+      }
+    },
+    {
+      "ticker": "PCAR",
+      "name": "PACCAR Inc",
+      "price": 121.24,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.39,
+        "avg_trade_return": -0.0095,
+        "strategy_return": -0.217,
+        "hold_return": 0.2452
+      }
+    },
+    {
+      "ticker": "RSG",
+      "name": "Republic Services, Inc.",
+      "price": 214.71,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.39,
+        "avg_trade_return": -0.0041,
+        "strategy_return": -0.1062,
+        "hold_return": 0.1264
+      }
+    },
+    {
+      "ticker": "SCHW",
+      "name": "The Charles Schwab Corporation",
+      "price": 95.78,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.39,
+        "avg_trade_return": 0.0031,
+        "strategy_return": 0.0351,
+        "hold_return": 0.3371
+      }
+    },
+    {
+      "ticker": "AMD",
+      "name": "Advanced Micro Devices, Inc.",
+      "price": 540.88,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.38,
+        "avg_trade_return": 0.0438,
+        "strategy_return": 0.6754,
+        "hold_return": 2.3917
+      }
+    },
+    {
+      "ticker": "APD",
+      "name": "Air Products and Chemicals, Inc.",
+      "price": 306.4,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.38,
+        "avg_trade_return": -0.005,
+        "strategy_return": -0.1369,
+        "hold_return": 0.2263
+      }
+    },
+    {
+      "ticker": "BMY",
+      "name": "Bristol-Myers Squibb Company",
+      "price": 56.44,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.38,
+        "avg_trade_return": -0.0084,
+        "strategy_return": -0.1962,
+        "hold_return": 0.4978
+      }
+    },
+    {
+      "ticker": "BXP",
+      "name": "BXP, Inc.",
+      "price": 67.76,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.38,
+        "avg_trade_return": -0.005,
+        "strategy_return": -0.1434,
+        "hold_return": 0.2416
+      }
+    },
+    {
+      "ticker": "CPT",
+      "name": "Camden Property Trust",
+      "price": 115.66,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.38,
+        "avg_trade_return": -0.001,
+        "strategy_return": -0.0404,
+        "hold_return": 0.1467
+      }
+    },
+    {
+      "ticker": "TXT",
+      "name": "Textron Inc.",
+      "price": 91.93,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.38,
+        "avg_trade_return": -0.0034,
+        "strategy_return": -0.0938,
+        "hold_return": 0.0668
+      }
+    },
+    {
+      "ticker": "GJF.OL",
+      "name": "Gjensidige Forsikring ASA",
+      "price": 269.0,
+      "currency": "NOK",
+      "signal_age": 2,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.36,
+        "avg_trade_return": 0.008,
+        "strategy_return": 0.1698,
+        "hold_return": 0.5554
+      }
+    },
+    {
+      "ticker": "NOD.OL",
+      "name": "Nordic Semiconductor ASA",
+      "price": 189.2,
+      "currency": "NOK",
+      "signal_age": 1,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.36,
+        "avg_trade_return": 0.0011,
+        "strategy_return": -0.0418,
+        "hold_return": 0.3917
+      }
+    },
+    {
+      "ticker": "AMCR",
+      "name": "Amcor plc",
+      "price": 43.64,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.36,
+        "avg_trade_return": -0.012,
+        "strategy_return": -0.2796,
+        "hold_return": -0.0364
+      }
+    },
+    {
+      "ticker": "EXPD",
+      "name": "Expeditors International of Washington, Inc.",
+      "price": 166.81,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.36,
+        "avg_trade_return": -0.0038,
+        "strategy_return": -0.1108,
+        "hold_return": 0.3552
+      }
+    },
+    {
+      "ticker": "FAST",
+      "name": "Fastenal Company",
+      "price": 47.75,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.36,
+        "avg_trade_return": -0.0042,
+        "strategy_return": -0.1148,
+        "hold_return": 0.5737
+      }
+    },
+    {
+      "ticker": "GEN",
+      "name": "Gen Digital Inc.",
+      "price": 26.11,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.36,
+        "avg_trade_return": -0.0004,
+        "strategy_return": -0.0806,
+        "hold_return": 0.1009
+      }
+    },
+    {
+      "ticker": "HSIC",
+      "name": "Henry Schein, Inc.",
+      "price": 84.52,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.36,
+        "avg_trade_return": -0.0014,
+        "strategy_return": -0.0667,
+        "hold_return": 0.3188
+      }
+    },
+    {
+      "ticker": "KHC",
+      "name": "The Kraft Heinz Company",
+      "price": 25.01,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 28,
+        "win_rate": 0.36,
+        "avg_trade_return": -0.0167,
+        "strategy_return": -0.3859,
+        "hold_return": -0.129
+      }
+    },
+    {
+      "ticker": "ESS",
+      "name": "Essex Property Trust, Inc.",
+      "price": 295.18,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.35,
+        "avg_trade_return": -0.0018,
+        "strategy_return": -0.0601,
+        "hold_return": 0.1727
+      }
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "price": 266.19,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.35,
+        "avg_trade_return": 0.0045,
+        "strategy_return": 0.0091,
+        "hold_return": 2.3183
+      }
+    },
+    {
+      "ticker": "AVB",
+      "name": "AvalonBay Communities, Inc.",
+      "price": 190.43,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.33,
+        "avg_trade_return": -0.0043,
+        "strategy_return": -0.1047,
+        "hold_return": -0.0007
+      }
+    },
+    {
+      "ticker": "BIIB",
+      "name": "Biogen Inc.",
+      "price": 209.74,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 21,
+        "win_rate": 0.33,
+        "avg_trade_return": -0.0015,
+        "strategy_return": -0.0724,
+        "hold_return": -0.083
+      }
+    },
+    {
+      "ticker": "CF",
+      "name": "CF Industries Holdings, Inc.",
+      "price": 108.16,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.33,
+        "avg_trade_return": 0.0058,
+        "strategy_return": 0.0619,
+        "hold_return": 0.5138
+      }
+    },
+    {
+      "ticker": "DOC",
+      "name": "Healthpeak Properties, Inc.",
+      "price": 21.64,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.33,
+        "avg_trade_return": -0.0032,
+        "strategy_return": -0.1084,
+        "hold_return": 0.2798
+      }
+    },
+    {
+      "ticker": "GD",
+      "name": "General Dynamics Corporation",
+      "price": 362.86,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.33,
+        "avg_trade_return": -0.0095,
+        "strategy_return": -0.2114,
+        "hold_return": 0.2897
+      }
+    },
+    {
+      "ticker": "UNH",
+      "name": "UnitedHealth Group Incorporated",
+      "price": 426.54,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 18,
+        "win_rate": 0.33,
+        "avg_trade_return": 0.0231,
+        "strategy_return": 0.328,
+        "hold_return": -0.0827
+      }
+    },
+    {
+      "ticker": "AKAST.OL",
+      "name": "Akastor ASA",
+      "price": 13.32,
+      "currency": "NOK",
+      "signal_age": 4,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.32,
+        "avg_trade_return": -0.0093,
+        "strategy_return": -0.2355,
+        "hold_return": 0.0124
+      }
+    },
+    {
+      "ticker": "NKR.OL",
+      "name": "Nekkar ASA",
+      "price": 14.45,
+      "currency": "NOK",
+      "signal_age": 1,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.32,
+        "avg_trade_return": -0.0035,
+        "strategy_return": -0.1217,
+        "hold_return": 0.4307
+      }
+    },
+    {
+      "ticker": "BDX",
+      "name": "Becton, Dickinson and Company",
+      "price": 152.9,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.32,
+        "avg_trade_return": -0.0103,
+        "strategy_return": -0.2272,
+        "hold_return": -0.1203
+      }
+    },
+    {
+      "ticker": "CDW",
+      "name": "CDW Corporation",
+      "price": 138.41,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 19,
+        "win_rate": 0.32,
+        "avg_trade_return": 0.0048,
+        "strategy_return": 0.0277,
+        "hold_return": -0.3621
+      }
+    },
+    {
+      "ticker": "IFF",
+      "name": "International Flavors & Fragrances Inc.",
+      "price": 81.15,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.31,
+        "avg_trade_return": -0.0165,
+        "strategy_return": -0.3679,
+        "hold_return": -0.1151
+      }
+    },
+    {
+      "ticker": "SYY",
+      "name": "Sysco Corporation",
+      "price": 83.53,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 29,
+        "win_rate": 0.31,
+        "avg_trade_return": -0.005,
+        "strategy_return": -0.1424,
+        "hold_return": 0.2189
+      }
+    },
+    {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "price": 415.02,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.31,
+        "avg_trade_return": 0.0072,
+        "strategy_return": -0.048,
+        "hold_return": 0.7393
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "name": "Amgen Inc.",
+      "price": 361.33,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.3,
+        "avg_trade_return": -0.0093,
+        "strategy_return": -0.2137,
+        "hold_return": 0.2248
+      }
+    },
+    {
+      "ticker": "INCY",
+      "name": "Incyte Corporation",
+      "price": 113.81,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.3,
+        "avg_trade_return": 0.0086,
+        "strategy_return": 0.1226,
+        "hold_return": 0.8551
+      }
+    },
+    {
+      "ticker": "LIN",
+      "name": "Linde plc",
+      "price": 533.55,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.3,
+        "avg_trade_return": 0.0005,
+        "strategy_return": -0.0022,
+        "hold_return": 0.2437
+      }
+    },
+    {
+      "ticker": "VTRS",
+      "name": "Viatris Inc.",
+      "price": 16.18,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.3,
+        "avg_trade_return": 0.0079,
+        "strategy_return": 0.1057,
+        "hold_return": 0.6805
+      }
+    },
+    {
+      "ticker": "LLY",
+      "name": "Eli Lilly and Company",
+      "price": 1191.74,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.29,
+        "avg_trade_return": 0.005,
+        "strategy_return": 0.0618,
+        "hold_return": 0.3293
+      }
+    },
+    {
+      "ticker": "MRNA",
+      "name": "Moderna, Inc.",
+      "price": 72.5,
+      "currency": "USD",
+      "signal_age": 3,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.29,
+        "avg_trade_return": -0.0197,
+        "strategy_return": -0.5223,
+        "hold_return": -0.4017
+      }
+    },
+    {
+      "ticker": "ROK",
+      "name": "Rockwell Automation, Inc.",
+      "price": 482.82,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.29,
+        "avg_trade_return": -0.002,
+        "strategy_return": -0.1088,
+        "hold_return": 0.8629
+      }
+    },
+    {
+      "ticker": "WST",
+      "name": "West Pharmaceutical Services, Inc.",
+      "price": 365.0,
+      "currency": "USD",
+      "signal_age": 6,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.29,
+        "avg_trade_return": -0.0098,
+        "strategy_return": -0.2495,
+        "hold_return": 0.1172
+      }
+    },
+    {
+      "ticker": "SOLV",
+      "name": "Solventum Corporation",
+      "price": 78.35,
+      "currency": "USD",
+      "signal_age": 4,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.27,
+        "avg_trade_return": -0.0078,
+        "strategy_return": -0.2232,
+        "hold_return": 0.5264
+      }
+    },
+    {
+      "ticker": "VRTX",
+      "name": "Vertex Pharmaceuticals Incorporated",
+      "price": 498.01,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.27,
+        "avg_trade_return": -0.0104,
+        "strategy_return": -0.2578,
+        "hold_return": 0.054
+      }
+    },
+    {
+      "ticker": "INVH",
+      "name": "Invitation Homes Inc.",
+      "price": 30.35,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.26,
+        "avg_trade_return": -0.0098,
+        "strategy_return": -0.2165,
+        "hold_return": -0.072
+      }
+    },
+    {
+      "ticker": "KMB",
+      "name": "Kimberly-Clark Corporation",
+      "price": 111.44,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 23,
+        "win_rate": 0.26,
+        "avg_trade_return": -0.0078,
+        "strategy_return": -0.1967,
+        "hold_return": -0.1309
+      }
+    },
+    {
+      "ticker": "AGLX.OL",
+      "name": "Agilyx ASA",
+      "price": 22.0,
+      "currency": "NOK",
+      "signal_age": 6,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.25,
+        "avg_trade_return": 0.0035,
+        "strategy_return": -0.1113,
+        "hold_return": -0.2739
+      }
+    },
+    {
+      "ticker": "NBX.OL",
+      "name": "Norwegian Block Exchange AS",
+      "price": 0.726,
+      "currency": "NOK",
+      "signal_age": 6,
+      "stats": {
+        "trades": 20,
+        "win_rate": 0.25,
+        "avg_trade_return": 0.0393,
+        "strategy_return": -0.1035,
+        "hold_return": 0.1635
+      }
+    },
+    {
+      "ticker": "AWK",
+      "name": "American Water Works Company, Inc.",
+      "price": 131.79,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.24,
+        "avg_trade_return": -0.0043,
+        "strategy_return": -0.1177,
+        "hold_return": 0.071
+      }
+    },
+    {
+      "ticker": "GPN",
+      "name": "Global Payments Inc.",
+      "price": 75.05,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.24,
+        "avg_trade_return": -0.0157,
+        "strategy_return": -0.3525,
+        "hold_return": -0.1897
+      }
+    },
+    {
+      "ticker": "MGN.OL",
+      "name": "Magnora ASA",
+      "price": 23.9,
+      "currency": "NOK",
+      "signal_age": 7,
+      "stats": {
+        "trades": 26,
+        "win_rate": 0.23,
+        "avg_trade_return": -0.0103,
+        "strategy_return": -0.2678,
+        "hold_return": 0.0304
+      }
+    },
+    {
+      "ticker": "AON",
+      "name": "Aon plc",
+      "price": 343.56,
+      "currency": "USD",
+      "signal_age": 2,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.23,
+        "avg_trade_return": -0.0047,
+        "strategy_return": -0.1172,
+        "hold_return": 0.1882
+      }
+    },
+    {
+      "ticker": "IQV",
+      "name": "IQVIA Holdings Inc.",
+      "price": 203.2,
+      "currency": "USD",
+      "signal_age": 5,
+      "stats": {
+        "trades": 25,
+        "win_rate": 0.2,
+        "avg_trade_return": -0.0211,
+        "strategy_return": -0.4299,
+        "hold_return": -0.0449
+      }
+    },
+    {
+      "ticker": "EIOF.OL",
+      "name": "Eidesvik Offshore ASA",
+      "price": 15.8,
+      "currency": "NOK",
+      "signal_age": 4,
+      "stats": {
+        "trades": 28,
+        "win_rate": 0.18,
+        "avg_trade_return": -0.0234,
+        "strategy_return": -0.4938,
+        "hold_return": 0.0579
+      }
+    },
+    {
+      "ticker": "IOX.OL",
+      "name": "Interoil Exploration and Production ASA",
+      "price": 2.24,
+      "currency": "NOK",
+      "signal_age": 3,
+      "stats": {
+        "trades": 24,
+        "win_rate": 0.17,
+        "avg_trade_return": -0.0764,
+        "strategy_return": -0.88,
+        "hold_return": -0.7241
+      }
+    },
+    {
+      "ticker": "OMC",
+      "name": "Omnicom Group Inc.",
+      "price": 76.11,
+      "currency": "USD",
+      "signal_age": 1,
+      "stats": {
+        "trades": 29,
+        "win_rate": 0.17,
+        "avg_trade_return": -0.0239,
+        "strategy_return": -0.5164,
+        "hold_return": -0.0807
+      }
+    },
+    {
+      "ticker": "TEKNA.OL",
+      "name": "Tekna Holding ASA",
+      "price": 3.86,
+      "currency": "NOK",
+      "signal_age": 2,
+      "stats": {
+        "trades": 22,
+        "win_rate": 0.14,
+        "avg_trade_return": -0.0399,
+        "strategy_return": -0.6159,
+        "hold_return": -0.2772
+      }
+    }
+  ]
+}

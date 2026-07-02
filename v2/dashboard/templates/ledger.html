@@ -1,0 +1,237 @@
+{% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% block title %}Ledger — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Ledger <span class="muted">your trades &amp; the engine's report card</span></h1>
+
+{% if saved %}<div class="card" style="border-color:var(--good)"><b class="BUY">Trade recorded.</b>
+<span class="muted">Everything below is already recalculated.</span></div>{% endif %}
+{% if error %}<div class="card" style="border-color:var(--bad)">
+  <b class="SELL">{{ "Blocked by the investment policy:" if blocked else "Not recorded:" }}</b>
+  <span class="muted">{{ error }}</span>
+  {% if blocked %}<div class="muted" style="margin-top:.4rem">The rules exist for exactly this moment.
+  If you still want the trade, tick <b>Override policy</b> below and record again —
+  the override is written into the ledger, permanently.</div>{% endif %}
+</div>{% endif %}
+
+{# ── the investment policy: rules the app enforces, not advice ─────────── #}
+{% if policy %}
+<div class="card" {% if policy.buys_paused %}style="border-color:var(--warn)"{% endif %}>
+  <h2>{{ I.ic("gauge", 14) }} Investment policy —
+    {% if policy.cooldown_active %}<b class="SELL">buys paused (cooldown until {{ policy.cooldown_until }})</b>
+    {% elif policy.breaker_active %}<b class="SELL">buys paused (circuit breaker)</b>
+    {% else %}<b class="BUY">all clear</b>{% endif %}</h2>
+  <div class="kpis">
+    <div><div class="muted">Positions</div>
+      <div class="big">{{ policy.open_positions }}/{{ policy.max_open_positions }}</div>
+      <div class="muted">{{ policy.positions_left }} slot{{ "s" if policy.positions_left != 1 }} left</div></div>
+    <div><div class="muted">Max per position</div>
+      <div class="big">{{ "{:,.0f}".format(policy.max_position_nok).replace(",", " ") }} kr</div>
+      <div class="muted">25% of investable</div></div>
+    <div><div class="muted">Left to deploy this month</div>
+      <div class="big">{{ "{:,.0f}".format(policy.monthly_left_nok).replace(",", " ") }} kr</div>
+      <div class="muted">of {{ "{:,.0f}".format(policy.monthly_cap_nok).replace(",", " ") }} kr cap</div></div>
+    <div><div class="muted">Open book</div>
+      <div class="big {{ 'neg' if (policy.drawdown_pct or 0) < 0 else 'pos' }}">{% if policy.drawdown_pct is not none %}{{ "%+.1f%%"|format(policy.drawdown_pct) }}{% else %}–{% endif %}</div>
+      <div class="muted">breaker at −10%</div></div>
+  </div>
+  {% if policy.cooldown_active %}
+  <div class="muted" style="margin-top:.6rem">🧊 Two stop-outs inside 20 days — the system buys
+    nothing while you would be revenge-trading. Buys resume after {{ policy.cooldown_until }}.</div>
+  {% elif policy.breaker_active %}
+  <div class="muted" style="margin-top:.6rem">⛔ Open positions are past the −10% breaker —
+    no new buys until the book recovers. Stops still protect every position.</div>
+  {% endif %}
+  <details style="margin-top:.6rem"><summary class="muted" style="cursor:pointer">The rules (your numbers, enforced on every BUY)</summary>
+    <ul class="muted" style="line-height:1.8;padding-left:1.2rem;margin:.4rem 0 0">
+      {% for rule in policy.rules %}<li>{{ rule }}</li>{% endfor %}
+    </ul>
+  </details>
+</div>
+{% endif %}
+
+{# ── P&L headline ─────────────────────────────────────────────────────── #}
+<div class="card">
+  <h2>{{ I.ic("coins", 14) }} Your real money — all in NOK</h2>
+  <div class="kpis">
+    <div><div class="muted">Total P&amp;L</div>
+      <div class="big {{ 'pos' if perf.total_pnl_nok >= 0 else 'neg' }}">{{ "{:+,.0f}".format(perf.total_pnl_nok).replace(",", " ") }} kr</div></div>
+    <div><div class="muted">Realized</div>
+      <div class="big {{ 'pos' if perf.realized_pnl_nok >= 0 else 'neg' }}">{{ "{:+,.0f}".format(perf.realized_pnl_nok).replace(",", " ") }} kr</div></div>
+    <div><div class="muted">Unrealized (open)</div>
+      <div class="big {{ 'pos' if perf.unrealized_pnl_nok >= 0 else 'neg' }}">{{ "{:+,.0f}".format(perf.unrealized_pnl_nok).replace(",", " ") }} kr</div></div>
+    <div><div class="muted">Win rate (closed)</div>
+      <div class="big">{% if perf.win_rate is not none %}{{ "%.0f%%"|format(perf.win_rate * 100) }}{% else %}–{% endif %}</div></div>
+  </div>
+  <div class="muted" style="margin-top:.6rem">
+    {% if perf.vs_index.alpha_pct is not none %}
+    vs index (cost-weighted, same windows): you {{ "%+.1f%%"|format(perf.vs_index.return_pct) }} ·
+    index {{ "%+.1f%%"|format(perf.vs_index.index_return_pct) }} ·
+    <b class="{{ 'pos' if perf.vs_index.alpha_pct >= 0 else 'neg' }}">alpha {{ "%+.1f%%"|format(perf.vs_index.alpha_pct) }}</b>
+    {% if perf.vs_index.coverage is not none and perf.vs_index.coverage < 1 %}<span class="muted">(covers {{ "%.0f%%"|format(perf.vs_index.coverage * 100) }} of capital)</span>{% endif %}
+    {% else %}No index comparison yet — it appears once trades have benchmark history.{% endif %}
+    {% if perf.fx_missing %}<br>{{ I.ic("alert", 13) }} FX missing for {{ perf.fx_missing|join(", ") }} — those amounts counted 1:1.{% endif %}
+    {% if perf.unpriced %}<br>{{ I.ic("alert", 13) }} No price yet for {{ perf.unpriced|join(", ") }} — excluded from unrealized.{% endif %}
+  </div>
+  {% if perf.by_mode %}
+  <div class="scroll"><table class="cards" style="margin-top:.7rem">
+    <thead><tr><th>Mode</th><th>Realized</th><th>Unrealized</th><th>Round trips</th><th>Win rate</th><th>Open</th></tr></thead>
+    <tbody>
+    {% for mode, b in perf.by_mode.items() %}
+    <tr>
+      <td data-l=""><b>{{ "Long-term" if mode == "longterm" else mode|capitalize }}</b></td>
+      <td data-l="Realized" class="{{ 'pos' if b.realized_pnl_nok >= 0 else 'neg' }}">{{ "{:+,.0f}".format(b.realized_pnl_nok).replace(",", " ") }} kr</td>
+      <td data-l="Unrealized" class="{{ 'pos' if b.unrealized_pnl_nok >= 0 else 'neg' }}">{{ "{:+,.0f}".format(b.unrealized_pnl_nok).replace(",", " ") }} kr</td>
+      <td data-l="Round trips">{{ b.round_trips }}</td>
+      <td data-l="Win rate">{% if b.win_rate is not none %}{{ "%.0f%%"|format(b.win_rate * 100) }}{% else %}–{% endif %}</td>
+      <td data-l="Open">{{ b.open_positions }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+</div>
+
+{# ── add a trade ──────────────────────────────────────────────────────── #}
+<div class="card">
+  <h2>{{ I.ic("plus", 14) }} Record a trade</h2>
+  <form method="post" action="/ledger">
+    <div class="scroll"><table class="cards">
+      <thead><tr><th>Ticker</th><th>Side</th><th>Shares</th><th>Price/share</th><th>Date</th><th>Mode</th><th>Note</th></tr></thead>
+      <tbody><tr>
+        <td data-l="Ticker"><input name="ticker" placeholder="KIT.OL" required autocapitalize="characters" autocomplete="off"></td>
+        <td data-l="Side"><select name="side"><option value="BUY">BUY</option><option value="SELL">SELL</option></select></td>
+        <td data-l="Shares"><input name="shares" inputmode="decimal" placeholder="10" required></td>
+        <td data-l="Price/share"><input name="price" inputmode="decimal" placeholder="141.50" required></td>
+        <td data-l="Date"><input name="date" type="date" value="{{ today }}"></td>
+        <td data-l="Mode"><select name="mode"><option value="longterm">long-term</option><option value="swing">swing</option></select></td>
+        <td data-l="Note"><input name="note" placeholder="optional"></td>
+      </tr></tbody>
+    </table></div>
+    <div style="margin-top:.7rem;display:flex;align-items:center;gap:.8rem;flex-wrap:wrap">
+      <button type="submit">Record trade</button>
+      <label class="muted" style="cursor:pointer"><input type="checkbox" name="override"
+        {% if blocked %}style="outline:2px solid var(--warn)"{% endif %}>
+        Override policy <span style="opacity:.75">(recorded in the ledger, forever)</span></label>
+      <span class="muted">Sells match your oldest shares first (FIFO); you can't oversell a position.
+        BUYs are checked against the investment policy above.</span>
+    </div>
+  </form>
+</div>
+
+{# ── open positions ───────────────────────────────────────────────────── #}
+<div class="card">
+  <h2>Open positions — {{ positions|length }}</h2>
+  {% if not positions %}
+  <div class="empty"><span class="glyph">{{ I.ic("sprout", 26) }}</span><b>No open positions in the ledger.</b><br>
+    Record your buys above and this becomes your live P&amp;L view.</div>
+  {% else %}
+  <div class="scroll"><table class="cards">
+    <thead><tr><th>Ticker</th><th>Shares</th><th>Avg cost</th><th>Price now</th><th>Value</th><th>Since buy</th></tr></thead>
+    <tbody>
+    {% for p in positions %}
+    <tr>
+      <td data-l=""><a class="ticker" href="/ticker/{{ p.ticker }}">{{ p.ticker }}</a> <span class="muted">{{ "long-term" if p.mode == "longterm" else p.mode }}</span></td>
+      <td data-l="Shares">{{ p.shares }}</td>
+      <td data-l="Avg cost">{{ "%.2f"|format(p.avg_cost) }} {{ p.currency or "" }}</td>
+      <td data-l="Price now">{{ "%.2f"|format(p.price) if p.price else "–" }}</td>
+      <td data-l="Value">{% if p.value %}{{ "{:,.0f}".format(p.value).replace(",", " ") }} {{ p.currency or "" }}{% else %}–{% endif %}</td>
+      <td data-l="Since buy" class="{{ 'pos' if (p.unrealized_pct or 0) >= 0 else 'neg' }}">{% if p.unrealized_pct is not none %}{{ "%+.1f%%"|format(p.unrealized_pct) }}{% else %}–{% endif %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+</div>
+
+{# ── the engine's report card ─────────────────────────────────────────── #}
+<div class="card">
+  <h2>{{ I.ic("target", 14) }} Signal report card — how good were the engine's calls?</h2>
+  {% if signal_card.all.count == 0 and not open_signals %}
+  <div class="empty"><span class="glyph">{{ I.ic("clock", 26) }}</span><b>No graded signals yet.</b><br>
+    Every BUY the engine makes is recorded and graded automatically from here on —
+    win rate and vs-index alpha appear as calls close.</div>
+  {% else %}
+  <div class="scroll"><table class="cards">
+    <thead><tr><th>Calls</th><th>Closed</th><th>Win rate</th><th>Avg return</th><th>Avg vs index</th></tr></thead>
+    <tbody>
+    {% for label, key in [("All", "all"), ("Long-term", "longterm"), ("Swing", "swing")] %}
+    {% set b = signal_card[key] %}
+    {% if b.count or key == "all" %}
+    <tr>
+      <td data-l=""><b>{{ label }}</b></td>
+      <td data-l="Closed">{{ b.graded }}</td>
+      <td data-l="Win rate">{% if b.win_rate is not none %}{{ "%.0f%%"|format(b.win_rate * 100) }}{% else %}–{% endif %}</td>
+      <td data-l="Avg return" class="{{ '' if b.avg_return is none else 'pos' if b.avg_return >= 0 else 'neg' }}">{% if b.avg_return is not none %}{{ "%+.1f%%"|format(b.avg_return) }}{% else %}–{% endif %}</td>
+      <td data-l="Avg vs index" class="{{ '' if b.avg_alpha is none else 'pos' if b.avg_alpha >= 0 else 'neg' }}">{% if b.avg_alpha is not none %}{{ "%+.1f%%"|format(b.avg_alpha) }}{% else %}–{% endif %}</td>
+    </tr>
+    {% endif %}
+    {% endfor %}
+    </tbody>
+  </table></div>
+
+  {% if open_signals %}
+  <h2 style="margin-top:1rem">Open calls — {{ open_signals|length }}</h2>
+  <div class="scroll tall"><table class="cards">
+    <thead><tr><th>Ticker</th><th>Mode</th><th>Called</th><th>At</th><th>Now</th><th>Return</th><th>vs index</th></tr></thead>
+    <tbody>
+    {% for s in open_signals %}
+    <tr>
+      <td data-l=""><a class="ticker" href="/ticker/{{ s.ticker }}">{{ s.ticker }}</a></td>
+      <td data-l="Mode" class="muted">{{ "long-term" if s.mode == "longterm" else s.mode }}</td>
+      <td data-l="Called">{{ s.date }}</td>
+      <td data-l="At">{{ s.price }}</td>
+      <td data-l="Now">{{ s.last_price or "–" }}</td>
+      <td data-l="Return" class="{{ '' if s.return_pct is none else 'pos' if s.return_pct >= 0 else 'neg' }}">{% if s.return_pct is not none %}{{ "%+.1f%%"|format(s.return_pct) }}{% else %}–{% endif %}</td>
+      <td data-l="vs index" class="{{ '' if s.alpha_pct is none else 'pos' if s.alpha_pct >= 0 else 'neg' }}">{% if s.alpha_pct is not none %}{{ "%+.1f%%"|format(s.alpha_pct) }}{% else %}–{% endif %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+
+  {% if closed_signals %}
+  <h2 style="margin-top:1rem">Closed calls — latest {{ closed_signals|length }}</h2>
+  <div class="scroll tall"><table class="cards">
+    <thead><tr><th>Ticker</th><th>Mode</th><th>Called</th><th>Closed</th><th>Return</th><th>vs index</th><th>Why closed</th></tr></thead>
+    <tbody>
+    {% for s in closed_signals %}
+    <tr>
+      <td data-l=""><a class="ticker" href="/ticker/{{ s.ticker }}">{{ s.ticker }}</a></td>
+      <td data-l="Mode" class="muted">{{ "long-term" if s.mode == "longterm" else s.mode }}</td>
+      <td data-l="Called">{{ s.date }}</td>
+      <td data-l="Closed">{{ s.closed_date }}</td>
+      <td data-l="Return" class="{{ '' if s.return_pct is none else 'pos' if s.return_pct >= 0 else 'neg' }}">{% if s.return_pct is not none %}{{ "%+.1f%%"|format(s.return_pct) }}{% else %}–{% endif %}</td>
+      <td data-l="vs index" class="{{ '' if s.alpha_pct is none else 'pos' if s.alpha_pct >= 0 else 'neg' }}">{% if s.alpha_pct is not none %}{{ "%+.1f%%"|format(s.alpha_pct) }}{% else %}–{% endif %}</td>
+      <td data-l="Why" class="muted">{{ (s.closed_reason or "")[:42] }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+  {% endif %}
+</div>
+
+{# ── raw trade log ────────────────────────────────────────────────────── #}
+{% if trades %}
+<div class="card">
+  <h2>Trade log — latest {{ trades|length }}</h2>
+  <div class="scroll tall"><table class="cards">
+    <thead><tr><th>Date</th><th>Side</th><th>Ticker</th><th>Shares</th><th>Price</th><th>Note</th></tr></thead>
+    <tbody>
+    {% for t in trades %}
+    <tr>
+      <td data-l="Date">{{ t.date }}</td>
+      <td data-l="" class="{{ 'BUY' if t.side == 'BUY' else 'SELL' }}">{{ t.side }}</td>
+      <td data-l=""><a class="ticker" href="/ticker/{{ t.ticker }}">{{ t.ticker }}</a></td>
+      <td data-l="Shares">{{ t.shares }}</td>
+      <td data-l="Price">{{ t.price }} {{ t.currency or "" }}</td>
+      <td data-l="Note" class="muted">{% if t.override %}<b class="WATCH">⚠ policy override
+        ({{ (t.policy_violations or [])|join(", ") }})</b> {% endif %}{{ t.note }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+</div>
+{% endif %}
+{% endblock %}

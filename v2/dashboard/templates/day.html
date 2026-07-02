@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% block title %}Intraday check — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Intraday check <span class="muted">decision support, not a mode</span></h1>
+<div class="muted" style="margin:-.4rem 0 .9rem">
+  ← back to <a class="ticker" href="/signals">Long-term</a> ·
+  <a class="ticker" href="/signals?mode=swing">Swing</a>
+</div>
+
+<div class="card">
+  <h2>How to read it</h2>
+  <div class="muted" style="line-height:1.6">
+    Shortlist = your holdings + fresh swing setups + long-term actionable names. 15-minute bars,
+    fetched live when you open this page. <b>ORB</b> = first-30-min opening range: price above it
+    with volume is intraday strength, below is weakness. <b>VWAP</b> = the day's fair price — longs
+    above, not below. This page is decision support for timing an entry/exit you already planned;
+    it will never say "day-trade this". Day trading against professionals is where retail bleeds —
+    use it to place planned trades better, not to find new ones.
+  </div>
+</div>
+
+<div class="card">
+  <h2>Intraday state — {{ rows|length }} tickers</h2>
+  {% if not rows %}
+  <div class="empty"><span class="glyph">{{ I.ic("moon", 26) }}</span><b>No live bars right now.</b><br>
+    Nothing on the shortlist, or the markets are closed — the floor is quiet.</div>
+  {% else %}
+  <div class="scroll"><table class="cards">
+    <thead>
+    <tr><th>Ticker</th><th>Price</th><th>Day</th><th>ORB</th><th>Range</th><th>VWAP</th><th>15m momentum</th></tr>
+    </thead>
+    <tbody>
+    {% for r in rows %}
+    <tr>
+      <td data-l=""><a class="ticker" href="/ticker/{{ r.ticker }}">{{ r.ticker }}</a></td>
+      <td data-l="Price">{{ r.price }}</td>
+      <td data-l="Day" class="{{ 'pos' if (r.day_change_pct or 0) >= 0 else 'neg' }}">{{ "%+.1f%%"|format(r.day_change_pct) if r.day_change_pct is not none else "–" }}</td>
+      <td data-l="ORB" class="{{ 'pos' if r.orb_state == 'ABOVE' else ('neg' if r.orb_state == 'BELOW' else 'muted') }}">{{ r.orb_state }}</td>
+      <td data-l="Range" class="muted">{{ r.open_range_low }}–{{ r.open_range_high }}</td>
+      <td data-l="VWAP" class="{{ '' if r.above_vwap is none else 'pos' if r.above_vwap else 'neg' }}">{{ r.vwap or "–" }} {{ "▲" if r.above_vwap else "▼" if r.above_vwap is not none else "" }}</td>
+      <td data-l="15m momentum" class="{{ '' if r.momentum_15m is none else 'pos' if r.momentum_15m else 'neg' }}">{{ "–" if r.momentum_15m is none else "up" if r.momentum_15m else "down" }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+  <form method="get" action="/day" style="margin-top:.8rem"><button type="submit">Reload live data</button></form>
+</div>
+{% endblock %}

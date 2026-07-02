@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the Bling Empire screen weekday mornings (05:10 UTC = pre-Oslo-open)
+
+[Timer]
+OnCalendar=Mon..Fri 05:10 UTC
+Persistent=true
+RandomizedDelaySec=300
+
+[Install]
+WantedBy=timers.target

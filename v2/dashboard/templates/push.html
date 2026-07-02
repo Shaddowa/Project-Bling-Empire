@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% block title %}Push setup — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Push &amp; widget</h1>
+
+{% if tested %}
+<div class="card" style="border-color:var(--good)">
+  <b class="BUY">Test push sent.</b> <span class="muted">If your phone stayed silent, finish the steps below first, then test again.</span>
+</div>
+{% endif %}
+
+<div class="card">
+  <h2>How the pushes reach your phone</h2>
+  <div class="muted" style="line-height:1.6">
+    Notifications go through <b>ntfy.sh</b>, a free push relay in the cloud — your phone never
+    talks to the VPS. The VPS publishes to a secret channel ("topic"); your phone subscribes to
+    the same topic in the ntfy app. Anyone who knows the topic name can read it, so it's a long
+    random string — treat it like a password.
+  </div>
+</div>
+
+<div class="card">
+  <h2>Setup — two minutes, once</h2>
+  <ol style="line-height:2;margin:.2rem 0 .6rem;padding-left:1.2rem">
+    <li>Install <b>ntfy</b> from the App Store (white bell on green).</li>
+    <li>Open it → <b>+</b> → paste the topic below (server stays <code>ntfy.sh</code>).</li>
+    <li>Allow notifications when iOS asks.</li>
+    <li>Press the test button here — your phone should buzz within seconds.</li>
+  </ol>
+  <div class="muted">Your topic (tap to copy):</div>
+  <div style="margin:.5rem 0">
+    <code id="topic" onclick="navigator.clipboard.writeText(this.textContent);this.style.color='var(--good)'"
+          style="font-size:1.05rem;word-break:break-all;cursor:pointer;background:var(--bg);
+                 padding:.5rem .7rem;border-radius:8px;border:1px solid var(--border);display:block">{{ topic }}</code>
+  </div>
+  <form method="post" action="/push/test" style="margin-top:.8rem">
+    <button type="submit" style="width:100%">Send a test push now</button>
+  </form>
+  <div class="muted" style="margin-top:.7rem">
+    No app installed? You can also open
+    <a class="ticker" href="https://ntfy.sh/{{ topic }}" target="_blank">ntfy.sh/{{ topic }}</a>
+    in the browser and hit "Subscribe" for web notifications — the app is more reliable on iPhone.
+  </div>
+</div>
+
+<div class="card">
+  <h2>Home-screen widget</h2>
+  <div class="muted">One-tap setup with your token pre-filled:
+    <a class="ticker" href="/widget-setup">widget setup page →</a></div>
+</div>
+
+<div class="card">
+  <h2>What gets pushed (weekday mornings)</h2>
+  {% if prefs_saved %}<div class="BUY" style="margin-bottom:.6rem">Preferences saved.</div>{% endif %}
+  <form method="post" action="/push/prefs">
+    {% for key, ico, label, desc in [
+      ("longterm_buy", "arrow-up", "Long-term BUY", "a stock newly passes quality + price + timing — the big one"),
+      ("holding_sell", "arrow-down", "SELL on YOUR holdings", "SELL (trend break or take profit above sticker) on a stock you own"),
+      ("swing_buy", "waves", "Fresh swing setups", "new three-tool BUYs in uptrends (one grouped push)"),
+      ("watch", "eye", "New names waiting for timing", "right company + right price, timing not there yet (one grouped push)"),
+      ("runway_monthly", "landmark", "Monthly runway status", "burn, liquid, break-even — 1st of each month"),
+    ] %}
+    <label class="switch" style="display:flex;padding:.45rem 0;border-bottom:1px solid var(--border)">
+      <input type="checkbox" name="{{ key }}" style="width:auto" {{ "checked" if prefs[key] }}>
+      <span><b>{{ I.ic(ico, 14) }} {{ label }}</b><br><span class="muted">{{ desc }}</span></span>
+    </label>
+    {% endfor %}
+    <button type="submit" style="margin-top:.8rem">Save preferences</button>
+  </form>
+  <div class="muted" style="margin-top:.6rem">Silence means "nothing changed" — the engine never pushes noise.</div>
+</div>
+
+{% endblock %}

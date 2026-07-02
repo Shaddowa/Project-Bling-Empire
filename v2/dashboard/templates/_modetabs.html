@@ -1,0 +1,6 @@
+{% import "_icons.html" as I %}
+<nav class="seg" aria-label="Signal modes">
+  {% for m, ico, label in [("long", "package", "Long-term holding"), ("swing", "waves", "Swing trading")] %}
+  <a href="/signals?mode={{ m }}" class="{{ 'on' if mode == m }}">{{ I.ic(ico, 15) }} {{ label }}</a>
+  {% endfor %}
+</nav>

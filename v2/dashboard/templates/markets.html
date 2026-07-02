@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}Markets — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">Markets</h1>
+
+{% if saved %}<div class="card" style="border-color:var(--good)"><b class="BUY">Saved.</b>
+<span class="muted">Newly activated markets get tickers + signals on the next daily refresh (or run
+<code>python -m bling refresh-universe &lt;name&gt;</code> + <code>python -m bling run</code> now).</span></div>{% endif %}
+
+<form method="post" action="/markets">
+<div class="card">
+  <h2>Active markets — screened daily, shown on the overview</h2>
+  <div class="scroll"><table class="cards">
+    <thead><tr><th></th><th>Market</th><th>Tickers</th><th>Signals</th></tr></thead>
+    <tbody>
+    {% for name, m in markets.items() %}
+    <tr>
+      <td data-l=""><label style="display:flex;align-items:center;gap:.6rem"><input type="checkbox" name="active" value="{{ name }}" style="width:auto"
+                 {{ "checked" if name in active }}><b>{{ m.label }}</b></label></td>
+      <td data-l="Market" class="market-name"><b>{{ m.label }}</b></td>
+      <td data-l="Tickers">{{ counts.get(name, 0) or "—" }}</td>
+      <td data-l="Signals">{% if has_signals.get(name) %}<a class="ticker" href="/signals/{{ name }}">table →</a>{% else %}<span class="muted">not screened yet</span>{% endif %}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  <style>
+    /* desktop: checkbox column is just the checkbox; phone cards: the
+       checkbox row carries the label, so hide the duplicate name cell */
+    @media (min-width:481px){ table.cards td[data-l=""] label b { display:none; } }
+    @media (max-width:480px){ table.cards td.market-name { display:none; } }
+  </style>
+  <div class="muted" style="margin:.7rem 0">
+    Every market beyond the first two slows the daily screen and adds Yahoo rate-limit pressure
+    (~1-2 min per 100 tickers). 2-4 active markets is the sweet spot. Universes auto-refresh from
+    Yahoo's screener weekly, top-500 by traded volume per market.
+  </div>
+  <button type="submit">Save active markets</button>
+</div>
+</form>
+{% endblock %}

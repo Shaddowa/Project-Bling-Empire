@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% import "_icons.html" as I %}
+{% import "_verdicts.html" as V %}
+{% block title %}{{ label }} — Bling Empire{% endblock %}
+{% block content %}
+<h1 class="page">{{ label }} <span class="muted">{{ day }}</span></h1>
+<nav class="seg" aria-label="Filter by action">
+  {% for href, name, on in [("/signals/" ~ universe, "All", not action),
+                            ("/signals/" ~ universe ~ "?action=BUY", "Buy", action == "BUY"),
+                            ("/signals/" ~ universe ~ "?action=WATCH", "Waiting on timing", action == "WATCH"),
+                            ("/signals/" ~ universe ~ "?action=FAIR", "Waiting on price", action == "FAIR")] %}
+  <a href="{{ href }}" class="{{ 'on' if on }}">{{ name }}</a>
+  {% endfor %}
+</nav>
+<div class="card">
+  <h2>{{ rows|length }} names {% if action %}<span class="pill">{{ 'BUY' if action == 'BUY' else 'HOLD — ' + ('waiting on timing' if action == 'WATCH' else 'waiting on price') }}</span>{% endif %}</h2>
+  {% if not rows %}
+  <div class="empty"><span class="glyph">{{ I.ic("clock", 26) }}</span><b>Nothing here today.</b><br>
+    The screen ran, the bar stayed high — check back after the next daily refresh.</div>
+  {% else %}
+  <div class="scroll tall"><table class="cards">
+    <thead>
+    <tr><th>Verdict</th><th>Ticker</th><th>Company</th><th>Q</th><th>Price</th>
+        <th>Sticker</th><th>MOS</th><th>Disc%</th><th>Tools</th><th>200SMA</th><th>Div</th></tr>
+    </thead>
+    <tbody>
+    {% for r in rows %}
+    <tr>
+      <td data-l="" class="{{ V.word(r['ACTION']) }}">{{ V.word(r["ACTION"]) }}
+        {% if V.sub(r["ACTION"]) %}<span class="subtext">{{ V.sub(r["ACTION"]) }}</span>{% endif %}</td>
+      <td data-l=""><a class="ticker" href="/ticker/{{ r['TICKER'] }}">{{ r["TICKER"] }}</a></td>
+      <td data-l="Company">{{ (r["COMPANY"] or "")[:28] }}</td>
+      <td data-l="Quality">{{ r["QUALITY SCORE"] }}</td>
+      <td data-l="Price">{{ r["PRICE"] }}</td>
+      <td data-l="Sticker">{{ r["STICKER PRICE"] }}</td>
+      <td data-l="MOS">{{ r["MOS PRICE"] }}</td>
+      <td data-l="Disc%">{{ r["DISCOUNT TO STICKER %"] }}</td>
+      <td data-l="Tools" class="{{ 'pos' if r['SIGNAL'] == 'BUY' else ('neg' if r['SIGNAL'] == 'SELL' else 'muted') }}">{{ "bullish" if r["SIGNAL"] == "BUY" else ("bearish" if r["SIGNAL"] == "SELL" else "–") }}</td>
+      <td data-l="200SMA">{{ "▲" if r["ABOVE 200SMA"] == "True" else ("▼" if r["ABOVE 200SMA"] == "False" else "–") }}</td>
+      <td data-l="Div">{{ r["DIVIDEND SCORE"] }}</td>
+    </tr>
+    {% endfor %}
+    </tbody>
+  </table></div>
+  {% endif %}
+</div>
+{% endblock %}

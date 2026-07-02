@@ -18,3 +18,16 @@ context/net_worth/main/snapshots/*
 .env
 sendgrid.env
 
+
+# v2 engine artifacts
+v2/cache/
+v2/output/
+v2/data/finances.json
+v2/data/auth.json
+v2/data/notify_state.json
+v2/.dashboard-creds
+v2/data/notify.json
+v2/data/transactions.json
+v2/data/events_cache.json
+v2/data/ledger.jsonl
+v2/data/ledger.jsonl.tmp
